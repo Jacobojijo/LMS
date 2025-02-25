@@ -9,7 +9,9 @@ const {
   resetPassword,
   updateDetails,
   updatePassword,
-  googleSuccess
+  googleSuccess,
+  verifyEmail,
+  resendVerification
 } = require('../controllers/authController');
 
 const { protect } = require('../middleware/authMiddleware');
@@ -17,6 +19,8 @@ const { protect } = require('../middleware/authMiddleware');
 const router = express.Router();
 
 router.post('/register', register);
+router.post('/verifyemail', verifyEmail);
+router.post('/resendverification', resendVerification);
 router.post('/login', login);
 router.get('/logout', logout);
 router.get('/me', protect, getMe);

@@ -27,6 +27,15 @@ const UserSchema = new mongoose.Schema({
       'Please add a valid email'
     ]
   },
+  phoneNumber: {
+    type: String,
+    required: [true, 'Please add a phone number'],
+    trim: true,
+    match: [
+      /^\+?[1-9]\d{1,14}$/,
+      'Please add a valid phone number in international format'
+    ]
+  },
   role: {
     type: String,
     enum: ['student', 'admin'],
@@ -34,8 +43,14 @@ const UserSchema = new mongoose.Schema({
   },
   password: {
     type: String,
-    required: [function() { return !this.googleId; }, 'Please add a password'],
+    required: [function () { return !this.googleId; }, 'Please add a password'],
     minlength: [6, 'Password must be at least 6 characters'],
+    validate: {
+      validator: function (value) {
+        return /^(?=.*[A-Za-z])(?=.*\d).+$/.test(value);
+      },
+      message: 'Password must contain at least one letter and one number'
+    },
     select: false
   },
   googleId: {
@@ -47,6 +62,12 @@ const UserSchema = new mongoose.Schema({
     type: String,
     default: 'default-avatar.jpg'
   },
+  isEmailVerified: {
+    type: Boolean,
+    default: false
+  },
+  emailVerificationToken: String,
+  emailVerificationExpire: Date,
   resetPasswordToken: String,
   resetPasswordExpire: Date,
   lastLogin: {
@@ -67,7 +88,7 @@ const UserSchema = new mongoose.Schema({
 });
 
 // Encrypt password using bcrypt
-UserSchema.pre('save', async function(next) {
+UserSchema.pre('save', async function (next) {
   if (!this.isModified('password') || !this.password) {
     return next();
   }
@@ -78,7 +99,7 @@ UserSchema.pre('save', async function(next) {
 });
 
 // Sign JWT and return
-UserSchema.methods.getSignedJwtToken = function() {
+UserSchema.methods.getSignedJwtToken = function () {
   return jwt.sign(
     { id: this._id, role: this.role },
     process.env.JWT_SECRET,
@@ -87,13 +108,13 @@ UserSchema.methods.getSignedJwtToken = function() {
 };
 
 // Match user entered password to hashed password in database
-UserSchema.methods.matchPassword = async function(enteredPassword) {
+UserSchema.methods.matchPassword = async function (enteredPassword) {
   if (!this.password) return false;
   return await bcrypt.compare(enteredPassword, this.password);
 };
 
 // Generate and hash password token
-UserSchema.methods.getResetPasswordToken = function() {
+UserSchema.methods.getResetPasswordToken = function () {
   // Generate token
   const resetToken = crypto.randomBytes(20).toString('hex');
 
@@ -107,6 +128,23 @@ UserSchema.methods.getResetPasswordToken = function() {
   this.resetPasswordExpire = Date.now() + 10 * 60 * 1000; // 10 minutes
 
   return resetToken;
+};
+
+// Generate email verification token
+UserSchema.methods.getEmailVerificationToken = function () {
+  // Generate a 6-digit code
+  const verificationCode = Math.floor(100000 + Math.random() * 900000).toString();
+  
+  // Hash token and set to emailVerificationToken field
+  this.emailVerificationToken = crypto
+    .createHash('sha256')
+    .update(verificationCode)
+    .digest('hex');
+
+  // Set expire (24 hours)
+  this.emailVerificationExpire = Date.now() + 24 * 60 * 60 * 1000;
+
+  return verificationCode;
 };
 
 module.exports = mongoose.model('User', UserSchema);
