@@ -38,7 +38,7 @@ const App = () => {
     <div className="overflow-x-hidden">
       <div style={bgStyle}>
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
       </div>
       <Equipments />
       <Banner {...BannerData} />

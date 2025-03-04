@@ -1,7 +1,33 @@
 import React from "react";
 
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <>
+      <section>
+        <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative">
+          {/* Brand Info */}
+          <div className="flex flex-col justify-center py-14 md:py-0 font-playfair">
+            <div className="text-center md:text-left space-y-6">
+              <h1 className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-normal">
+                Preserve your Heritage, speak your{" "}
+                <span className="text-[#FFAD60]">Language</span>
+              </h1>
+              <p className="text-gray-900 xl:max-w-[500px]">
+              Rediscover and master your mother tongue with the premier language learning platform—where interactive and engaging lessons bring indigenous languages to life
+              </p>
+              {/* Button Section */}
+              <div>
+                <button className="bg-[#854836] text-white px-6 py-3 rounded-lg">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>Hi</div>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Hero;

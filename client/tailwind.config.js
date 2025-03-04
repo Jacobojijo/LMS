@@ -8,7 +8,7 @@ export default {
       },
       colors: {
         primary: "#ff8901",
-        secondary: "#fb923c",
+        secondary: "#854836",
       },
       container: {
         center: true,
