@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   return (
     <>
-      <nav>
+      <nav className="bg-gradient-to-r from-[#F5E6D3] via-[#E0F2F1] to-[#F4E0E0] shadow-sm">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

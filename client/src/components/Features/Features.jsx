@@ -1,35 +1,29 @@
 import React from "react";
-import { GrYoga } from "react-icons/gr";
-import { FaDumbbell } from "react-icons/fa6";
-import { GiGymBag } from "react-icons/gi";
 import { motion } from "framer-motion";
 import { SlideLeft } from "../../utility/animation";
 
-const EquipmentData = [
+const FeatureData = [
   {
     id: 1,
-    title: "Yoga Equipments",
-    desc: "It is a long established fact that a reader readable.",
-    icon: <GrYoga />,
+    title: "Cultural Immersion",
+    desc: "Learn not just the language, but the customs and traditions behind it.",
     delay: 0.3,
   },
   {
     id: 2,
-    title: "Muscles Equipments",
-    desc: "It is a long established fact that a reader readable.",
-    link: "/",
-    icon: <FaDumbbell />,
+    title: "Native-Speaker Instructors",
+    desc: "Learn authentic pronunciation and nuances from those who grew up speaking the language.",
     delay: 0.6,
   },
   {
     id: 3,
-    title: "Fitness Equipments",
-    desc: "It is a long established fact that a reader readable.",
-    link: "/",
-    icon: <GiGymBag />,
+    title: "Practical Application",
+    desc: "Master everyday conversations, proverbs, and cultural expressions.",
     delay: 0.9,
   },
 ];
+
+
 const Equipments = () => {
   return (
     <div>
@@ -37,13 +31,13 @@ const Equipments = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 font-playfair">
           <div className="space-y-4 p-6">
             <h1 className="text-3xl md:text-4xl font-bold">
-              What we offer for you
+              What we offer you
             </h1>
             <p className="text-gray-500">
-              It is a long established fact that a reader readable.
+            Capture the essence of learning, culture, and connection.
             </p>
           </div>
-          {EquipmentData.map((item) => {
+          {FeatureData.map((item) => {
             return (
               <motion.div
                 variants={SlideLeft(item.delay)}
@@ -52,7 +46,6 @@ const Equipments = () => {
                 key={item.id}
                 className="bg-gray-100 space-y-4 p-6 hover:bg-white rounded-xl hover:shadow-[0_0_22px_0_rgba(0,0,0,0.15)] "
               >
-                <div className="text-4xl">{item.icon}</div>
                 <p className="text-2xl font-semibold">{item.title}</p>
                 <p className="text-gray-500">{item.desc}</p>
               </motion.div>

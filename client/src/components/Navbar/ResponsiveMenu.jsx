@@ -22,7 +22,7 @@ const ResponsiveMenu = ({ open, onClose }) => {
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "tween" }}
-            className="fixed top-0 left-0 bottom-0 w-64 bg-white shadow-lg z-50 overflow-y-auto"
+            className="fixed top-0 left-0 bottom-0 w-64 bg-gradient-to-r from-[#F5E6D3] via-[#E0F2F1] to-[#F4E0E0] shadow-lg z-50 overflow-y-auto"
           >
             <div className="relative p-6">
               {/* Close Button */}
