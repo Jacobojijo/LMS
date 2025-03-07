@@ -24,7 +24,7 @@ const FeatureData = [
 ];
 
 
-const Equipments = () => {
+const Features = () => {
   return (
     <div>
       <div className="container py-24">
@@ -57,4 +57,4 @@ const Equipments = () => {
   );
 };
 
-export default Equipments;
+export default Features;

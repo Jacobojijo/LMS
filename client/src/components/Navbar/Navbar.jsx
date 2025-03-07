@@ -4,6 +4,7 @@ import logo from '../../assets/logo.png'
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
