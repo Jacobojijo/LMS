@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import HeroImg from '../../assets/original.png';
 import { FadeInLeft, FadeInUp, SlideInRight, FadeIn } from "../../utility/MotionComponents";
 
@@ -23,16 +24,18 @@ const Hero = () => {
                 Preserve your Heritage, speak your{" "}
                 <span className="text-[#854836]">Language</span>
               </FadeInUp>
-              
+
               <FadeInUp delay={0.3} className="text-gray-900 font-semibold xl:max-w-[500px]">
                 Rediscover and master your mother tongue with the premier language learning platform—where interactive and engaging lessons bring indigenous languages to life
               </FadeInUp>
-              
-              {/* Button Section */}
+
+              {/* Button Section - Now with Link to register */}
               <FadeInUp delay={0.4}>
-                <button className="bg-[#854836] text-white px-6 py-3 rounded-lg">
-                  Get Started
-                </button>
+                <Link to="/register">
+                  <button className="bg-[#854836] text-white px-6 py-3 rounded-lg hover:bg-[#6a392b] transition duration-300">
+                    Get Started
+                  </button>
+                </Link>
               </FadeInUp>
             </div>
           </FadeInLeft>

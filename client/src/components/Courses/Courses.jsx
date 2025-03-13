@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import languageData from '../../utility/language.json';
+import uniqueData from '../../utility/unique.json';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { FadeInUp, ScaleIn, FadeIn } from '../../utility/MotionComponents';
 
 const Courses = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const [expandedCards, setExpandedCards] = useState({});
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1200);
   const cardsPerPage = 6;
   
@@ -31,6 +33,7 @@ const Courses = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      setExpandedCards({}); // Reset expanded state when changing page
     }
   };
 
@@ -38,12 +41,14 @@ const Courses = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      setExpandedCards({}); // Reset expanded state when changing page
     }
   };
 
   const goToPage = (pageNumber) => {
     setCurrentPage(pageNumber);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    setExpandedCards({}); // Reset expanded state when changing page
   };
 
   // Function to determine grid columns based on screen size
@@ -53,13 +58,28 @@ const Courses = () => {
     return "grid-cols-3"; // Large devices
   };
 
-  // Generate page numbers
-  const pageNumbers = [];
-  for (let i = 1; i <= totalPages; i++) {
-    pageNumbers.push(i);
-  }
+  // Toggle card expansion
+  const toggleCardExpansion = (index) => {
+    setExpandedCards(prev => ({
+      ...prev,
+      [index]: !prev[index]
+    }));
+  };
 
-  // Show limited page numbers on mobile
+  // Get the unique description content for a language
+  const getUniqueContent = (language) => {
+    const uniqueDesc = uniqueData.languages[language.title]?.unique || "";
+    
+    if (!expandedCards[language.title]) {
+      // Show only first paragraph when not expanded
+      const firstParagraph = uniqueDesc.split('\n\n')[0];
+      return firstParagraph.length > 150 ? firstParagraph.substring(0, 150) + '...' : firstParagraph;
+    }
+    
+    return uniqueDesc;
+  };
+
+  // Generate page numbers
   const displayPageNumbers = () => {
     const visiblePageNumbers = windowWidth < 640 ? 3 : 5;
     let startPage = Math.max(1, currentPage - Math.floor(visiblePageNumbers / 2));
@@ -71,6 +91,26 @@ const Courses = () => {
     }
     
     return Array.from({ length: endPage - startPage + 1 }, (_, i) => startPage + i);
+  };
+
+  // Render CTA based on language
+  const renderCTA = (language) => {
+    if (language.title === "Luo") {
+      return (
+        <button className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-2 px-3 rounded-md transition-colors duration-300 flex items-center ml-4">
+          <span className="mr-1 relative">
+            <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
+          </span>
+          INTAKE ONGOING: REGISTER
+        </button>
+      );
+    } else {
+      return (
+        <button className="bg-gray-500 text-white text-xs font-bold py-2 px-3 rounded-md ml-4 opacity-80 cursor-not-allowed">
+          COMING SOON
+        </button>
+      );
+    }
   };
 
   return (
@@ -95,20 +135,48 @@ const Courses = () => {
               <FadeInUp delay={0.3 + index * 0.05}>
                 <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">{language.title} Classes</h2>
               </FadeInUp>
+              
+              {/* Original description from language.json */}
               <FadeInUp delay={0.4 + index * 0.05}>
-                <p className="text-sm sm:text-base text-gray-600 mb-4">
-                  {language.description}. Our {language.title} language lessons target both children and adults, 
-                  designed for all levels.
-                </p>
+                <div className="bg-gray-50 p-3 rounded-md mb-3 border-l-4 border-blue-500">
+                  <p className="text-sm text-gray-700 italic">
+                    {language.description}
+                  </p>
+                </div>
               </FadeInUp>
+              
+              {/* Unique description from unique.json */}
               <FadeInUp delay={0.5 + index * 0.05}>
-                <div className="flex items-center">
-                  <button className="flex items-center text-blue-600 font-medium text-sm sm:text-base">
-                    READ MORE
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                    </svg>
-                  </button>
+                <div className="text-sm sm:text-base text-gray-700 mb-4 prose prose-sm">
+                  {getUniqueContent(language).split('\n\n').map((paragraph, i) => (
+                    <p key={i} className="mb-2 leading-relaxed">{paragraph}</p>
+                  ))}
+                </div>
+              </FadeInUp>
+              
+              <FadeInUp delay={0.6 + index * 0.05}>
+                <div className="flex items-center justify-between">
+                  <div className="flex-shrink-0">
+                    <button 
+                      className="flex items-center text-blue-600 font-medium text-sm sm:text-base"
+                      onClick={() => toggleCardExpansion(language.title)}
+                    >
+                      {expandedCards[language.title] ? 'SHOW LESS' : 'READ MORE'}
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        className={`h-4 w-4 sm:h-5 sm:w-5 ml-1 transition-transform ${expandedCards[language.title] ? 'rotate-90' : ''}`} 
+                        viewBox="0 0 20 20" 
+                        fill="currentColor"
+                      >
+                        <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    </button>
+                  </div>
+                  
+                  {/* Custom CTA based on language */}
+                  <div className="flex-shrink-0">
+                    {renderCTA(language)}
+                  </div>
                 </div>
               </FadeInUp>
             </div>
