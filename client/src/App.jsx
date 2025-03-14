@@ -19,20 +19,22 @@ const App = () => {
             <AdminDashboard />
           </ProtectedRoute>
         } />
+
+        {/* Student dashboard remains within Layout */}
+        <Route path="student/dashboard" element={
+            <ProtectedRoute allowedRoles={["student"]}>
+              <StudentDashboard />
+            </ProtectedRoute>
+          } />
+        
         
         {/* Public and student routes - within Layout */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="/*" element={<AuthRoutes />} />
-          
-          {/* Student dashboard remains within Layout */}
-          <Route path="student/dashboard" element={
-            <ProtectedRoute allowedRoles={["student"]}>
-              <StudentDashboard />
-            </ProtectedRoute>
-          } />
+          <Route path="/*" element={<AuthRoutes />} />  
         </Route>
+        
       </Routes>
     </BrowserRouter>
   );

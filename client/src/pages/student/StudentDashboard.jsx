@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Layout from './Layout';
 
 const StudentDashboard = () => {
   return (
-    <div>StudentDashboard</div>
+    <div><Layout/></div>
   )
 }
 

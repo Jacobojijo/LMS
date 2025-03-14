@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   MdDashboard,
   MdPeople,
@@ -17,6 +17,7 @@ import logo from "../../assets/logo.png";
 
 const AdminSidebar = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [collapsed, setCollapsed] = useState(false);
   const [activeMenu, setActiveMenu] = useState("");
   const [submenuOpen, setSubmenuOpen] = useState({
@@ -38,6 +39,16 @@ const AdminSidebar = () => {
       ...submenuOpen,
       [menu]: !submenuOpen[menu],
     });
+  };
+
+  // Handle logout
+  const handleLogout = () => {
+    // Remove token and user role from localStorage
+    localStorage.removeItem("token");
+    localStorage.removeItem("userRole");
+    
+    // Redirect to home page
+    navigate("/");
   };
 
   // List of menu items with their respective icons and submenus
@@ -85,6 +96,12 @@ const AdminSidebar = () => {
       subMenu: [
         { title: "Account Settings", link: "/admin/settings/account" },
       ],
+    },
+    {
+      id: "logout",
+      title: "Logout",
+      icon: <MdLogout />,
+      action: handleLogout,
     },
   ];
 
@@ -152,9 +169,12 @@ const AdminSidebar = () => {
                       : "hover:bg-gray-100 text-gray-700 hover:text-[#854836]"
                   }`}
                   onClick={() => {
-                    if (item.subMenu) {
+                    if (item.action) {
+                      item.action();
+                    } else if (item.subMenu) {
                       toggleSubmenu(item.id);
-                    } else {
+                    } else if (item.link) {
+                      navigate(item.link);
                       setActiveMenu(item.id);
                     }
                   }}
@@ -217,6 +237,7 @@ const AdminSidebar = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 className="w-12 h-12 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 flex items-center justify-center text-white cursor-pointer shadow-md"
+                onClick={handleLogout}
               >
                 <MdLogout />
               </motion.div>
@@ -231,6 +252,13 @@ const AdminSidebar = () => {
                   <p className="text-sm font-medium text-gray-800">Admin User</p>
                   <p className="text-xs text-gray-500">admin@heritage.edu</p>
                 </div>
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  className="ml-auto text-lg text-gray-600 hover:text-[#854836] transition-colors duration-300"
+                  onClick={handleLogout}
+                >
+                  <MdLogout />
+                </motion.button>
               </div>
             </div>
           )}

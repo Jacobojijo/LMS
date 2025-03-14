@@ -2,13 +2,21 @@ import React, { useState, useEffect } from "react";
 import { NavbarMenu } from "../../mockData/data";
 import logo from '../../assets/logo.png';
 import { MdMenu, MdClose } from "react-icons/md";
-import ResponsiveMenu from "./ResponsiveMenu";
+import ResponsiveMenu from "../../components/Navbar/ResponsiveMenu";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const navigate = useNavigate();
+  
+  // Check if user is logged in on component mount
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    setIsLoggedIn(!!token);
+  }, []);
   
   // Handle scroll effect
   useEffect(() => {
@@ -23,6 +31,19 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Handle logout
+  const handleLogout = () => {
+    // Remove token and user role from localStorage
+    localStorage.removeItem("token");
+    localStorage.removeItem("userRole");
+    
+    // Update logged in state
+    setIsLoggedIn(false);
+    
+    // Redirect to home page
+    navigate("/");
+  };
 
   return (
     <>
@@ -82,16 +103,36 @@ const Navbar = () => {
 
           {/* Call to Action section */}
           <div className="flex items-center gap-4">
-            
-          <motion.a 
-            href="/register"
-            className="bg-white group hover:bg-[#854836] font-semibold text-[#854836] hover:text-white rounded-md border-2 border-[#854836] px-5 py-2 transition-all duration-300 shadow-sm hover:shadow-md relative overflow-hidden"
-            whileHover={{ scale: 1.02 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <span className="relative z-10">Sign Up</span>
-            <span className="absolute inset-0 bg-[#854836] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
-          </motion.a>
+            {isLoggedIn ? (
+              <motion.button 
+                onClick={handleLogout}
+                className="bg-white group hover:bg-[#854836] font-semibold text-[#854836] hover:text-white rounded-md border-2 border-[#854836] px-5 py-2 transition-all duration-300 shadow-sm hover:shadow-md relative overflow-hidden"
+                whileHover={{ scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
+                <span className="relative z-10">Log out</span>
+                <span className="absolute inset-0 bg-[#854836] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
+              </motion.button>
+            ) : (
+              <motion.div className="flex items-center gap-3">
+                <motion.a 
+                  href="/login"
+                  className="font-semibold text-[#854836] hover:text-[#6a392b] px-3 py-2 transition-colors duration-300"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  Sign In
+                </motion.a>
+                <motion.a 
+                  href="/register"
+                  className="bg-[#854836] hover:bg-[#6a392b] font-semibold text-white rounded-md px-5 py-2 transition-colors duration-300 shadow-sm hover:shadow-md"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  Register
+                </motion.a>
+              </motion.div>
+            )}
           </div>
 
           {/* Mobile hamburger Menu section */}
@@ -117,6 +158,8 @@ const Navbar = () => {
       <ResponsiveMenu 
         open={open} 
         onClose={() => setOpen(false)} 
+        isLoggedIn={isLoggedIn}
+        onLogout={handleLogout}
       />
     </>
   );
