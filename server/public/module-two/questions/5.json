@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary function of adpositions in language?",
+        "options": [
+          "To indicate relationships between predicators and referring expressions",
+          "To create new words from root forms",
+          "To provide phonetic variations in speech",
+          "To modify the tense of a verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The primary function of adpositions in language is to indicate relationships between predicators (verbs) and referring expressions (nouns, pronouns), showing how different elements in a sentence relate to each other spatially, temporally, or functionally."
+      },
+      {
+        "question": "What is the correct term for an adposition that occurs before the referring expression in Dholuo?",
+        "options": [
+          "Postposition",
+          "Copula",
+          "Preposition",
+          "Infinitive"
+        ],
+        "correctAnswer": 2,
+        "explanation": "An adposition that occurs before the referring expression is called a preposition. In Dholuo, prepositions like 'e', 'gi', and 'ni' precede the noun or pronoun they govern."
+      },
+      {
+        "question": "Which of the following is a locative copula in Dholuo?",
+        "options": [
+          "e",
+          "ni",
+          "gi",
+          "ir"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, 'ni' functions as a locative copula, which is used to indicate the location or position of something, connecting a subject with its location."
+      },
+      {
+        "question": "In Dholuo, what is the correct prepositional structure for indicating location?",
+        "options": [
+          "ni + e(x) + Y",
+          "e + Y + ni",
+          "X + ni + e",
+          "ni + X + e + Y"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The correct prepositional structure for indicating location in Dholuo is 'ni + e(x) + Y', where 'ni' is the locative copula, 'e' is the locative preposition, and 'Y' is the location being referenced."
+      },
+      {
+        "question": "What determines whether 'kuom' or 'e' is used as a locative preposition in Dholuo?",
+        "options": [
+          "Whether the sentence contains an adjective",
+          "Whether the object being referred to is living or non-living",
+          "The gender of the subject",
+          "The tense of the verb in the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, the choice between 'kuom' and 'e' as locative prepositions is determined by whether the object being referred to is living or non-living. 'Kuom' is typically used with animate entities, while 'e' is used with inanimate objects."
+      },
+      {
+        "question": "Which preposition is used in Dholuo to indicate the semantic function of an instrument?",
+        "options": [
+          "ni",
+          "e",
+          "gi",
+          "yo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The preposition 'gi' is used in Dholuo to indicate the semantic function of an instrument, showing what tool or means is used to perform an action, equivalent to 'with' or 'by means of' in English."
+      },
+      {
+        "question": "In Dholuo, what preposition is used when direction refers to a person rather than a place?",
+        "options": [
+          "yo",
+          "ir",
+          "ne",
+          "ni"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, the preposition 'ir' is used when direction refers to a person rather than a place, indicating movement towards an animate entity or someone's residence."
+      },
+      {
+        "question": "Why can't 'ir' be used with inanimate destinations like a shop or a farm?",
+        "options": [
+          "Because 'ir' only applies to locations within a home",
+          "Because it specifically refers to movement towards animate entities",
+          "Because 'ir' is only used with locative verbs",
+          "Because inanimate objects require the preposition 'gi'"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The preposition 'ir' cannot be used with inanimate destinations like shops or farms because it specifically refers to movement towards animate entities. It is reserved for indicating direction towards people or other living beings."
+      },
+      {
+        "question": "What is the difference between 'yo' and 'e' when expressing direction in Dholuo?",
+        "options": [
+          "'yo' suggests movement towards a place without requiring arrival, while 'e' implies destination",
+          "'yo' is used in formal speech, while 'e' is informal",
+          "'yo' is used for long distances, while 'e' is for short distances",
+          "There is no difference between the two"
+        ],
+        "correctAnswer": 0,
+        "explanation": "When expressing direction in Dholuo, 'yo' suggests movement towards a place without necessarily requiring arrival at the destination, indicating general direction, while 'e' implies a specific destination that will be reached."
+      },
+      {
+        "question": "Which preposition in Dholuo is used to express beneficiary, loser, or sufferer roles?",
+        "options": [
+          "gi",
+          "ni/ne",
+          "e",
+          "ir"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, the prepositions 'ni/ne' are used to express beneficiary, loser, or sufferer roles, indicating who benefits from an action, who loses something, or who suffers as a result of an action."
+      }
+    ]
+  }

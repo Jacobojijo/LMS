@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What distinguishes a true reflexive construction in Dholuo?",
+        "options": [
+          "The subject and object refer to different entities",
+          "The subject and object refer to the same entity",
+          "The verb always has a reciprocal meaning",
+          "It requires at least two participants"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In a true reflexive construction in Dholuo, the subject and object refer to the same entity, meaning the action is performed by the subject on itself."
+      },
+      {
+        "question": "Which of the following is an example of a true reflexive construction in Dholuo?",
+        "options": [
+          "Jokong'o yanyore",
+          "Otieno gi Apiyo oherore",
+          "Jaduong' ohinyore",
+          "Dhok nang'ore"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Jaduong' ohinyore' is a true reflexive construction in Dholuo, as it shows the subject 'Jaduong'' (elder/leader) performing the action on himself/herself."
+      },
+      {
+        "question": "What defines a reciprocal construction in Dholuo?",
+        "options": [
+          "The action is done by multiple participants to themselves",
+          "The action is done by multiple participants to one another",
+          "The action is impersonal",
+          "The subject is always singular"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A reciprocal construction in Dholuo is defined by an action that is performed by multiple participants to one another, indicating mutual interaction between the participants."
+      },
+      {
+        "question": "Which of the following sentences demonstrates a reciprocal construction?",
+        "options": [
+          "Jokong'o yanyore",
+          "Dhiang' nang'ore",
+          "Chuma ni ng'adore",
+          "Kong'o madhore ka"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Jokong'o yanyore' demonstrates a reciprocal construction in Dholuo, where the plural subject 'Jokong'o' (the drinkers) are performing the action on each other."
+      },
+      {
+        "question": "How can the sentence Dhok nang'ore be interpreted?",
+        "options": [
+          "Only as a true reflexive construction",
+          "Only as a reciprocal construction",
+          "As either a true reflexive or a reciprocal construction",
+          "As an impersonal construction"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Dhok nang'ore' can be interpreted in two ways: either as a true reflexive (the cow bites itself) or as a reciprocal construction (the cows bite each other), depending on context."
+      },
+      {
+        "question": "What is the primary characteristic of an impersonal reflexive construction in Dholuo?",
+        "options": [
+          "It focuses on the event rather than the actor",
+          "It always includes an explicit subject",
+          "It is always a reciprocal construction",
+          "It requires a reflexive pronoun"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The primary characteristic of an impersonal reflexive construction in Dholuo is that it focuses on the event or action itself rather than the actor who performs it, de-emphasizing the agent."
+      },
+      {
+        "question": "Which of the following is an example of an event-oriented impersonal construction?",
+        "options": [
+          "Otieno muko odi",
+          "Ng'ato muko odi",
+          "Odi mukore",
+          "Jomoko muko odi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Odi mukore' (The house builds itself) is an example of an event-oriented impersonal construction in Dholuo, where the focus is on the event of the house being built rather than who is building it."
+      },
+      {
+        "question": "In the impersonal construction Kong'o madhore ka, what is being emphasized?",
+        "options": [
+          "The specific identity of the actor",
+          "The event of beer-drinking taking place at the location",
+          "A reciprocal action between two participants",
+          "A reflexive state of the beer"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the impersonal construction 'Kong'o madhore ka' (Beer drinks itself here), what is being emphasized is the event of beer-drinking taking place at the location, rather than who is doing the drinking."
+      },
+      {
+        "question": "Which of the following sentences is most actor-oriented?",
+        "options": [
+          "Odi mukore",
+          "Jomoko muko odi",
+          "Imuko odi",
+          "Kong'o madhore ka"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The sentence 'Jomoko muko odi' (Some people build the house) is the most actor-oriented as it explicitly identifies the actors ('Jomoko' - some people) who are performing the action."
+      },
+      {
+        "question": "What is the function of the reflexive form ng'adruok in Dholuo?",
+        "options": [
+          "To indicate an action that is done to another person",
+          "To mark reciprocal relationships between two subjects",
+          "To describe the capability of an object to undergo an action",
+          "To emphasize the person performing the action"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The function of the reflexive form 'ng'adruok' in Dholuo is to describe the capability or potential of an object to undergo an action, indicating that the object has inherent properties that allow it to be acted upon in a certain way."
+      }
+    ]
+  }
+  

@@ -288,28 +288,25 @@ exports.forgotPassword = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse('There is no user with that email', 404));
   }
 
-  // Get reset token
-  const resetToken = user.getResetPasswordToken();
+  // Get reset code
+  const resetCode = user.getResetPasswordToken();
 
   await user.save({ validateBeforeSave: false });
 
-  // Create reset url
-  const resetUrl = `${req.protocol}://${req.get('host')}/reset-password/${resetToken}`;
-
   // Get forgot password email templates
-  const { message, html } = emailTemplates.getForgotPasswordEmailTemplates(user.firstName, resetUrl);
+  const { message, html } = emailTemplates.getForgotPasswordCodeEmailTemplates(user.firstName, resetCode);
 
   try {
     await sendEmail({
       email: user.email,
-      subject: 'Heritage Language School - Password Reset',
+      subject: 'Heritage Language School - Password Reset Code',
       message,
       html
     });
 
     res.status(200).json({
       success: true,
-      message: 'Password reset email sent'
+      message: 'Password reset code sent to your email'
     });
   } catch (err) {
     console.error('Email could not be sent', err);
@@ -322,32 +319,40 @@ exports.forgotPassword = asyncHandler(async (req, res, next) => {
   }
 });
 
-// @desc    Reset password
-// @route   PUT /api/auth/resetpassword/:resettoken
+// @desc    Verify reset code and reset password
+// @route   POST /api/auth/resetpassword
 // @access  Public
-exports.resetPassword = asyncHandler(async (req, res, next) => {
-  // Get hashed token
+exports.verifyResetCode = asyncHandler(async (req, res, next) => {
+  const { email, resetCode, password, passwordConfirmation } = req.body;
+
+  if (!email || !resetCode || !password || !passwordConfirmation) {
+    return next(new ErrorResponse('Please provide all required fields', 400));
+  }
+
+  // Check if passwords match
+  if (password !== passwordConfirmation) {
+    return next(new ErrorResponse('Passwords do not match', 400));
+  }
+
+  // Hash the reset code to compare with the one in DB
   const resetPasswordToken = crypto
     .createHash('sha256')
-    .update(req.params.resettoken)
+    .update(resetCode)
     .digest('hex');
 
+  // Find user with the matching reset token and unexpired token
   const user = await User.findOne({
+    email,
     resetPasswordToken,
     resetPasswordExpire: { $gt: Date.now() }
   });
 
   if (!user) {
-    return next(new ErrorResponse('Invalid token', 400));
-  }
-
-  // Check if passwords match
-  if (req.body.password !== req.body.passwordConfirmation) {
-    return next(new ErrorResponse('Passwords do not match', 400));
+    return next(new ErrorResponse('Invalid or expired reset code', 400));
   }
 
   // Set new password
-  user.password = req.body.password;
+  user.password = password;
   user.resetPasswordToken = undefined;
   user.resetPasswordExpire = undefined;
   await user.save();

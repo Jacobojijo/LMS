@@ -1,38 +1,7 @@
 const mongoose = require('mongoose');
 
-// Lesson Schema
-const LessonSchema = new mongoose.Schema({
-  title: {
-    type: String,
-    required: [true, 'Please add a lesson title'],
-    trim: true
-  },
-  content: {
-    type: String,
-    required: [true, 'Please add lesson content']
-  },
-  order: {
-    type: Number,
-    required: true
-  }
-});
-
-// Topic Schema
-const TopicSchema = new mongoose.Schema({
-  title: {
-    type: String,
-    required: [true, 'Please add a topic title'],
-    trim: true
-  },
-  lessons: [LessonSchema],
-  order: {
-    type: Number,
-    required: true
-  }
-});
-
-// Assessment Schema (for CATs and Final Exam)
-const QuestionSchema = new mongoose.Schema({
+// Practice Question Schema (multiple choice)
+const PracticeQuestionSchema = new mongoose.Schema({
   question: {
     type: String,
     required: [true, 'Please add a question'],
@@ -48,36 +17,88 @@ const QuestionSchema = new mongoose.Schema({
       message: 'Please add at least 2 options'
     }
   },
-  correctAnswers: {
-    type: [Number],
-    required: [true, 'Please add correct answer(s)'],
+  correctAnswer: {
+    type: Number,
+    required: [true, 'Please add correct answer index'],
     validate: {
       validator: function(v) {
-        return v.length >= 1 && Math.max(...v) < this.options.length;
+        return v >= 0 && v < this.options.length;
       },
-      message: 'Correct answers must reference valid options'
+      message: 'Correct answer must reference a valid option'
+    }
+  },
+  explanation: {
+    type: String,
+    required: false
+  }
+});
+
+// Topic Schema
+const TopicSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: [true, 'Please add a topic title'],
+    trim: true
+  },
+  htmlContent: {
+    type: String,
+    required: [true, 'Please upload HTML content for this topic']
+  },
+  order: {
+    type: Number,
+    required: true
+  },
+  practiceQuestions: [PracticeQuestionSchema]
+});
+
+// CAT Schema (Continuous Assessment Test - multiple choice)
+const CATQuestionSchema = new mongoose.Schema({
+  question: {
+    type: String,
+    required: [true, 'Please add a question'],
+    trim: true
+  },
+  options: {
+    type: [String],
+    required: [true, 'Please add options'],
+    validate: {
+      validator: function(v) {
+        return v.length >= 2; // At least 2 options
+      },
+      message: 'Please add at least 2 options'
+    }
+  },
+  correctAnswer: {
+    type: Number,
+    required: [true, 'Please add correct answer index'],
+    validate: {
+      validator: function(v) {
+        return v >= 0 && v < this.options.length;
+      },
+      message: 'Correct answer must reference a valid option'
     }
   }
 });
 
-const AssessmentSchema = new mongoose.Schema({
+const CATSchema = new mongoose.Schema({
   title: {
     type: String,
-    required: [true, 'Please add an assessment title'],
+    required: [true, 'Please add a CAT title'],
     trim: true
   },
   description: {
     type: String
   },
-  questions: [QuestionSchema],
-  type: {
-    type: String,
-    enum: ['CAT', 'Final Exam'],
-    required: true
+  questions: [CATQuestionSchema],
+  duration: {
+    type: Number, // duration in minutes
+    default: 30
   },
-  order: {
+  passingScore: {
     type: Number,
-    required: true
+    default: 60, // percentage
+    min: 0,
+    max: 100
   }
 });
 
@@ -88,8 +109,11 @@ const ModuleSchema = new mongoose.Schema({
     required: [true, 'Please add a module title'],
     trim: true
   },
+  description: {
+    type: String
+  },
   topics: [TopicSchema],
-  assessments: [AssessmentSchema],
+  cat: CATSchema,
   order: {
     type: Number,
     required: true
@@ -105,13 +129,9 @@ const CourseSchema = new mongoose.Schema({
     trim: true,
     maxlength: [100, 'Title cannot be more than 100 characters']
   },
-  overview: {
+  description: {
     type: String,
-    required: [true, 'Please add a course overview']
-  },
-  structure: {
-    type: String,
-    required: [true, 'Please add course structure']
+    required: [true, 'Please add a course description']
   },
   modules: [ModuleSchema],
   createdAt: {
@@ -122,12 +142,15 @@ const CourseSchema = new mongoose.Schema({
     type: mongoose.Schema.ObjectId,
     ref: 'User',
     required: true
+  },
+  isPublished: {
+    type: Boolean,
+    default: false
   }
 });
 
 // Check if user has access to this course
 CourseSchema.methods.hasUserAccess = async function(userId) {
-  // This assumes Enrollment model is imported at the top of the file
   const Enrollment = require('./Enrollment');
   
   const enrollment = await Enrollment.findOne({

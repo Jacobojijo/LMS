@@ -1,5 +1,4 @@
-// This would replace your existing courseRoutes.js
-
+// courseRoutes.js
 const express = require('express');
 const {
   getCourses,

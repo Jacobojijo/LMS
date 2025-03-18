@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary function of the relative pronoun [ma] in Dholuo?",
+        "options": [
+          "It replaces a noun phrase in a higher clause within an embedded clause",
+          "It introduces a subordinate clause that expresses a reason",
+          "It connects two independent clauses with different subjects",
+          "It is used to ask questions about an unknown subject"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, the primary function of the relative pronoun 'ma' is to replace a noun phrase in a higher clause within an embedded clause."
+      },
+      {
+        "question": "In which of the following cases does the Dholuo relative pronoun [ma] tend to lose its vowel?",
+        "options": [
+          "When it follows a subject noun phrase",
+          "When the following word begins with a vowel",
+          "When it is at the end of a sentence",
+          "When it is used in an interrogative sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Dholuo relative pronoun 'ma' tends to lose its vowel when the following word begins with a vowel."
+      },
+      {
+        "question": "Which sentence correctly demonstrates the use of the relative pronoun [ma] in Dholuo?",
+        "options": [
+          "Ng'at gi nindo",
+          "Ng'at to nindo",
+          "Ng'at ma neno",
+          "Ng'at nikech nindo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Ng'at ma neno' correctly demonstrates the use of the relative pronoun 'ma' in Dholuo."
+      },
+      {
+        "question": "What distinguishes the Dholuo coordinator [gi] from [to] in their usage?",
+        "options": [
+          "Gi is used only in past tense, while [to] is used in present tense",
+          "Gi can connect noun phrases, while [to] primarily connects clauses",
+          "Gi is used in subordinate clauses, while [to] is used in main clauses",
+          "Gi is used for contrast, while [to] is used for direct speech"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, the coordinator 'gi' can connect noun phrases, while 'to' primarily connects clauses."
+      },
+      {
+        "question": "Which Dholuo coordinator is specifically used when the subject of the conjoined clauses remains the same?",
+        "options": [
+          "Gi",
+          "Kendo",
+          "To",
+          "Nikech"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Dholuo coordinator 'kendo' is specifically used when the subject of the conjoined clauses remains the same."
+      },
+      {
+        "question": "If two actions are occurring simultaneously, which Dholuo coordinator is preferred?",
+        "options": [
+          "Gi",
+          "To",
+          "Kendo",
+          "Nikech"
+        ],
+        "correctAnswer": 1,
+        "explanation": "When two actions are occurring simultaneously in Dholuo, the coordinator 'to' is preferred."
+      },
+      {
+        "question": "Which of the following sentences demonstrates the correct use of the coordinator [to]?",
+        "options": [
+          "Japuonj olalo bugena ariyo gi kalembena adek",
+          "Opiyo chiemo to nindo",
+          "John dhi kendo duogo pile ka pile",
+          "Otieno gi wuon gero ot"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The sentence 'Opiyo chiemo to nindo' demonstrates the correct use of the coordinator 'to' in Dholuo."
+      },
+      {
+        "question": "Which subordinating conjoiner is used to express a reason in Dholuo?",
+        "options": [
+          "Nikech",
+          "Kaka",
+          "Kata",
+          "Kendo"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, the subordinating conjoiner 'nikech' is used to express a reason."
+      },
+      {
+        "question": "How would you correctly translate \"If it rains, then do not come\" into Dholuo?",
+        "options": [
+          "Kik ibika, nikech koth chwee",
+          "Ka koth ochwe to kik ibi",
+          "Ka koth ochwe gi kik ibi",
+          "Koth ochwe nikech kik ibi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct translation of \"If it rains, then do not come\" into Dholuo is 'Ka koth ochwe to kik ibi'."
+      },
+      {
+        "question": "Which subordinating conjoiner is used to show comparison in Dholuo?",
+        "options": [
+          "Kaka",
+          "Nikech",
+          "Kendo",
+          "Kata"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The subordinating conjoiner 'kaka' is used to show comparison in Dholuo."
+      }
+    ]
+  }

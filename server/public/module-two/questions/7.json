@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which adverbial function expresses the motive or reason for an action?",
+        "options": [
+          "Conditional",
+          "Purpose",
+          "Transitional",
+          "Cause"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Purpose adverbials express the motive or reason for an action, indicating why someone does something or the goal they hope to achieve through their action."
+      },
+      {
+        "question": "The sentence \"Ng'atno odere mondo oa e chandruok.\" illustrates which type of adverbial function?",
+        "options": [
+          "Purpose",
+          "Cause",
+          "Transitional",
+          "Conditional"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence \"Ng'atno odere mondo oa e chandruok\" (That person is struggling so that they can get out of trouble) illustrates a purpose adverbial function, with 'mondo' (so that) indicating the goal or aim of the person's struggle."
+      },
+      {
+        "question": "What is the function of the adverbial in the sentence \"Kech nitie nikech piny notho.\"?",
+        "options": [
+          "Purpose",
+          "Conditional",
+          "Cause",
+          "Transitional"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence \"Kech nitie nikech piny notho\" (There is hunger because the land is dry/barren), the adverbial function is cause, with 'nikech' (because) indicating the reason for the hunger."
+      },
+      {
+        "question": "Which sentence best represents a conditional adverbial?",
+        "options": [
+          "Ng'atno odere mondo oa e chandruok.",
+          "Ka oyanya to abiro goye.",
+          "Kata kamano to adwa neno jatelo.",
+          "Kech nitie nikech piny notho."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The sentence \"Ka oyanya to abiro goye\" (If he/she insults me, then I will hit him/her) best represents a conditional adverbial, with 'ka...to' (if...then) indicating the circumstances under which the action will occur."
+      },
+      {
+        "question": "Which of the following adverbial functions describes the circumstances necessary for an event to occur?",
+        "options": [
+          "Purpose",
+          "Cause",
+          "Conditional",
+          "Transitional"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The conditional adverbial function describes the circumstances necessary for an event to occur, expressing a condition that must be met before the main action can happen."
+      },
+      {
+        "question": "The function of the adverbial in the sentence \"Kata kamano to adwa neno jatelo.\" is...?",
+        "options": [
+          "Cause",
+          "Conditional",
+          "Transitional",
+          "Purpose"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence \"Kata kamano to adwa neno jatelo\" (Nevertheless, I want to see the leader), the function of the adverbial is transitional, with 'kata kamano' (nevertheless/even so) indicating a shift or contrast from a previous statement or situation."
+      },
+      {
+        "question": "Which adverbial function also has a concessional meaning in some cases?",
+        "options": [
+          "Purpose",
+          "Cause",
+          "Conditional",
+          "Transitional"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The transitional adverbial function can also have a concessional meaning in some cases, indicating that something is true despite contrary expectations, often marked by words like 'kata kamano' (nevertheless/even so)."
+      },
+      {
+        "question": "Which sentence demonstrates a cause adverbial?",
+        "options": [
+          "Kech nitie nikech piny notho.",
+          "Ka oyanya to abiro goye.",
+          "Ng'atno odere mondo oa e chandruok.",
+          "Kata kamano to adwa neno jatelo."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence \"Kech nitie nikech piny notho\" (There is hunger because the land is dry/barren) demonstrates a cause adverbial, with 'nikech' (because) explicitly stating the reason or cause for the hunger."
+      },
+      {
+        "question": "The phrase \"Ka oyanya to abiro goye.\" means what in terms of adverbial function?",
+        "options": [
+          "It expresses a condition that must be met.",
+          "It describes a cause for an event.",
+          "It indicates a transition between ideas.",
+          "It provides a reason for an action."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The phrase \"Ka oyanya to abiro goye\" (If he/she insults me, then I will hit him/her) expresses a condition that must be met before the consequence will occur, which is the core function of conditional adverbials."
+      },
+      {
+        "question": "Which of the following best describes a transitional adverbial?",
+        "options": [
+          "It marks a shift from one state to another.",
+          "It provides the reason why something happens.",
+          "It expresses how often something occurs.",
+          "It compares two different things."
+        ],
+        "correctAnswer": 0,
+        "explanation": "A transitional adverbial best describes a marker that signals a shift from one state, condition, or idea to another, often indicating contrast, concession, or a change in direction of the discourse."
+      }
+    ]
+  }

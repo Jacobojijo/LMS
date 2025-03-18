@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What distinguishes verbs in English from those in Dholuo in terms of sentence formation?",
+        "options": [
+          "English requires a verb in every sentence, while Dholuo does not.",
+          "Both English and Dholuo require a verb in every sentence.",
+          "Dholuo requires a verb in every sentence, while English does not.",
+          "Neither English nor Dholuo requires a verb in every sentence."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The key distinction is that English requires a verb in every sentence, while Dholuo can form grammatically correct sentences without verbs."
+      },
+      {
+        "question": "Which of the following Dholuo sentences is well-formed despite lacking a verb?",
+        "options": [
+          "Peter tiyo",
+          "Peter japuonj",
+          "Peter ber",
+          "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All of the examples ('Peter tiyo', 'Peter japuonj', and 'Peter ber') are well-formed Dholuo sentences despite lacking a verb, demonstrating Dholuo's flexibility in sentence construction."
+      },
+      {
+        "question": "What is the primary cognitive function of verbs as stated in the study?",
+        "options": [
+          "To mark noun phrases in a sentence",
+          "To symbolize events, states of affairs, and speaker intentions",
+          "To describe noun characteristics in relative clauses",
+          "To provide syntactic structure to a sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "According to the study, the primary cognitive function of verbs is to symbolize events, states of affairs, and speaker intentions."
+      },
+      {
+        "question": "How does Dholuo morphologically distinguish verbs from adjectives?",
+        "options": [
+          "Adjectives can take aspectual markers, while verbs cannot.",
+          "Verbs can show aspectual distinctions, while adjectives cannot.",
+          "Both verbs and adjectives take aspectual markers equally.",
+          "Adjectives always precede nouns, while verbs do not."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, verbs can show aspectual distinctions through morphological marking, while adjectives cannot take these same aspectual markers."
+      },
+      {
+        "question": "In the sentence [Juma ofuwo], how is [fuwo] identified as a verb?",
+        "options": [
+          "It expresses a state of affairs.",
+          "It can take a perfective morpheme o-.",
+          "It functions as an adjective in this context.",
+          "It does not take any morphological modifications."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the sentence 'Juma ofuwo', 'fuwo' is identified as a verb because it takes the perfective morpheme 'o-', which is a characteristic of verbs in Dholuo."
+      },
+      {
+        "question": "Why is [Juma tinde ber] considered an incorrect construction in Dholuo?",
+        "options": [
+          "Because ber is an adjective and cannot be marked for aspect.",
+          "Because tinde requires a verb in the sentence.",
+          "Because adjectives must always precede the noun.",
+          "Because Juma must take an explicit verb."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The construction 'Juma tinde ber' is considered incorrect because 'ber' is an adjective and cannot be marked for aspect, which would be required in this temporal context with 'tinde'."
+      },
+      {
+        "question": "What grammatical operators typically accompany verbs in Dholuo?",
+        "options": [
+          "Tense, aspect, modality, and negation",
+          "Only aspect and modality",
+          "Only tense and negation",
+          "Gender and number markers"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, verbs are typically accompanied by grammatical operators of tense, aspect, modality, and negation."
+      },
+      {
+        "question": "How does [fuwo] differ from [ber] in terms of aspect marking?",
+        "options": [
+          "Fuwo can be marked tonally for aspect, while ber remains aspectually neutral.",
+          "Ber can take aspect markers, while fuwo cannot.",
+          "Both fuwo and ber can be marked for aspect.",
+          "Neither fuwo nor ber can take aspect markers."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The key difference is that 'fuwo', being a verb, can be marked tonally for aspect, while 'ber', being an adjective, remains aspectually neutral and cannot take these markings."
+      },
+      {
+        "question": "What role does morphology play in distinguishing verbs in Dholuo?",
+        "options": [
+          "It allows adjectives to function as verbs in all contexts.",
+          "It provides aspectual distinctions for verbs but not adjectives.",
+          "It prevents verbs from occurring in non-verbal sentences.",
+          "It forces every sentence to contain a verb."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Morphology plays a crucial role in distinguishing verbs in Dholuo by providing aspectual distinctions specifically for verbs that are not available for adjectives."
+      },
+      {
+        "question": "Which of the following is an example of a sentence that confirms the presence of a verb in Dholuo?",
+        "options": [
+          "Juma ber",
+          "Juma japuonj",
+          "Juma ofuwo",
+          "Peter a teacher"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Juma ofuwo' confirms the presence of a verb in Dholuo because 'fuwo' takes the perfective marker 'o-', which is a characteristic of verbs in this language."
+      }
+    ]
+  }

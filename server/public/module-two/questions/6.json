@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which type of adverbial indicates the location of an event or action?",
+        "options": [
+          "Durative",
+          "Locative",
+          "Instrument",
+          "Factive"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Locative adverbials indicate the location of an event or action, specifying where something happens or exists in physical space."
+      },
+      {
+        "question": "Which of the following sentences contains a directional adverbial?",
+        "options": [
+          "Aloo dhi nam gi ndoo.",
+          "Ne gitiyo kuom higni apar.",
+          "Nyithindo dhi e sikul.",
+          "Kenyatta notho higa mokalo."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Nyithindo dhi e sikul' (Children go to school) contains the directional adverbial 'e sikul' (to school), which indicates the direction or destination of the movement."
+      },
+      {
+        "question": "Which adverbial function describes the time at which an event occurs?",
+        "options": [
+          "Means",
+          "Modality",
+          "Point time",
+          "Extent"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The adverbial function of 'point time' describes the specific time at which an event occurs, indicating the exact moment or period when something happens."
+      },
+      {
+        "question": "In the sentence \"Gari ringo matek,\" what type of adverbial is used?",
+        "options": [
+          "Instrument",
+          "Manner",
+          "Extent",
+          "Accompaniment"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the sentence 'Gari ringo matek' (The car runs fast), 'matek' is an adverbial of manner, describing how the action of running is performed."
+      },
+      {
+        "question": "The adverbial function of 'Aloo dhi nam gi ndoo' indicates what?",
+        "options": [
+          "Accompaniment",
+          "Equipment",
+          "Directional",
+          "Factive"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The adverbial function in 'Aloo dhi nam gi ndoo' (Aloo goes to the lake with a bucket) indicates equipment, showing what Aloo is carrying or using for a purpose on the journey."
+      },
+      {
+        "question": "Which type of adverbial refers to the way a proposition is believed to be true by the speaker?",
+        "options": [
+          "Extent",
+          "Concession",
+          "Factive",
+          "Directional"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A factive adverbial refers to the way a proposition is believed to be true by the speaker, indicating the speaker's assessment of the truth value or factuality of the statement."
+      },
+      {
+        "question": "The sentence \"Ka de to ng'ato de okonyo ng'atni.\" expresses which adverbial function?",
+        "options": [
+          "Concession",
+          "Modality",
+          "Durative",
+          "Means"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The sentence 'Ka de to ng'ato de okonyo ng'atni' expresses modality, indicating the speaker's attitude toward the likelihood or possibility of someone helping the person in question."
+      },
+      {
+        "question": "Which sentence correctly illustrates an adverbial of accompaniment?",
+        "options": [
+          "Aloo dhi nam gi wuon.",
+          "Adhi sikul gi tienda.",
+          "Odhi yo Kisumu.",
+          "Ne gitiyo kuom higni apar."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Aloo dhi nam gi wuon' (Aloo goes to the lake with his/her father) correctly illustrates an adverbial of accompaniment, showing who is accompanying Aloo on the journey."
+      },
+      {
+        "question": "What is the difference between an adverbial of equipment and an adverbial of accompaniment?",
+        "options": [
+          "Equipment describes what someone carries for a purpose, while accompaniment describes who joins in an activity.",
+          "Accompaniment refers to time, while equipment refers to space.",
+          "Equipment modifies nouns, while accompaniment modifies verbs.",
+          "Accompaniment always uses the word \"to,\" while equipment always uses \"with.\""
+        ],
+        "correctAnswer": 0,
+        "explanation": "The key difference is that an adverbial of equipment describes what someone carries or uses for a purpose (an object or tool), while an adverbial of accompaniment describes who joins or accompanies someone in an activity (a person or animate entity)."
+      },
+      {
+        "question": "Which of the following correctly represents an adverbial of means?",
+        "options": [
+          "Adhi sikul gi tienda.",
+          "Ka nyalore to Onyango biro duogo.",
+          "Kata aonge pesa to nyaka abed gi ot.",
+          "Od sikul ochung' ka ochomo nam."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Adhi sikul gi tienda' (I go to school by foot/on foot) correctly represents an adverbial of means, indicating the method or manner by which the action of going to school is accomplished."
+      }
+    ]
+  }

@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following is NOT a typical function of interrogative sentences in Dholuo?",
+        "options": [
+          "Seeking information",
+          "Seeking confirmation",
+          "Expressing strong emotions",
+          "Making declarative statements"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Making declarative statements is not a typical function of interrogative sentences in Dholuo, which are primarily used for seeking information, seeking confirmation, or expressing strong emotions."
+      },
+      {
+        "question": "In Dholuo, what is the main syntactic feature that differentiates information-seeking questions from declarative sentences?",
+        "options": [
+          "The use of a question word in a specific structural position",
+          "The omission of the subject",
+          "The placement of the verb at the end of the sentence",
+          "The use of a rising intonation alone"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, the main syntactic feature that differentiates information-seeking questions from declarative sentences is the use of a question word in a specific structural position."
+      },
+      {
+        "question": "Which of the following question words is used to ask \"why\" in Dholuo?",
+        "options": [
+          "Kanye",
+          "Nade",
+          "Nang'o",
+          "Ere"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In Dholuo, 'Nang'o' is the question word used to ask 'why'."
+      },
+      {
+        "question": "The placement of a question word in preverbal position in Dholuo often necessitates:",
+        "options": [
+          "The use of a negative copula",
+          "The relativization of the following phrase if it is a nominal",
+          "The omission of the subject",
+          "The repetition of the question word at the end of the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, when a question word is placed in preverbal position, it often necessitates the relativization of the following phrase if it is a nominal."
+      },
+      {
+        "question": "Which of the following Dholuo question words is used in confirmation-seeking questions and implies that the speaker expects the proposition to be true?",
+        "options": [
+          "Koso",
+          "Donge",
+          "Dak",
+          "Ere"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, 'Donge' is used in confirmation-seeking questions and implies that the speaker expects the proposition to be true."
+      },
+      {
+        "question": "What is the primary distinction between bende and donge in confirmation-seeking questions?",
+        "options": [
+          "Bende is used to confirm new information, while donge suggests the speaker expects the information to be true.",
+          "Bende is only used with plural subjects, while donge is used with singular subjects.",
+          "Donge is used in negative contexts, while bende is always positive.",
+          "Bende is always placed at the end of the sentence, while donge is placed at the beginning."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The primary distinction between bende and donge in confirmation-seeking questions is that bende is used to confirm new information, while donge suggests the speaker expects the information to be true."
+      },
+      {
+        "question": "Which of the following is an example of a question formed using bende?",
+        "options": [
+          "Bende ng'ato pidho nyathi?",
+          "Ng'a ma kelo koko?",
+          "Dak iwuo?",
+          "Pala ere?"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Bende ng'ato pidho nyathi?' is an example of a question formed using bende in Dholuo."
+      },
+      {
+        "question": "Which of the following best describes the semantic implication of koso in Dholuo confirmation-seeking questions?",
+        "options": [
+          "It expresses a strong expectation that the proposition is true.",
+          "It implies a negative assumption or doubt about the proposition.",
+          "It is used interchangeably with donge with no semantic difference.",
+          "It is only used in rhetorical questions."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo confirmation-seeking questions, koso implies a negative assumption or doubt about the proposition."
+      },
+      {
+        "question": "How does dak function differently from other question words in Dholuo?",
+        "options": [
+          "It exclusively asks about locations.",
+          "It is used for negative questions implying \"why not.\"",
+          "It cannot be used in preverbal position.",
+          "It is interchangeable with nang'o."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dak functions differently from other question words in Dholuo as it is used for negative questions implying \"why not.\""
+      },
+      {
+        "question": "In which of the following sentences does ang'o correctly fill a nominal gap in the sentence structure?",
+        "options": [
+          "Ang'o ma Onyango oloko mesa?",
+          "Bende Atieno biro?",
+          "Koso yamo kudho?",
+          "Dak iwuo?"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In the sentence 'Ang'o ma Onyango oloko mesa?', ang'o correctly fills a nominal gap in the sentence structure, asking what Onyango is making into a table."
+      }
+    ]
+  }

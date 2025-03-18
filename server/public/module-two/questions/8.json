@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which type of adverbial describes how often something happens?",
+        "options": [
+          "Intensifier",
+          "Frequency",
+          "Locative",
+          "Comparative"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Frequency adverbials describe how often something happens or the regularity with which an action occurs, such as 'daily', 'sometimes', or 'often'."
+      },
+      {
+        "question": "What function does the adverbial in the sentence \"Okadho ka pile(pile)\" serve?",
+        "options": [
+          "Frequency",
+          "Cause",
+          "Temporal",
+          "Means"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In the sentence \"Okadho ka pile(pile)\" (He/she passes by here daily/everyday), the adverbial 'pile(pile)' serves a frequency function, indicating how often the action of passing by occurs."
+      },
+      {
+        "question": "In Dholuo, which type of adverbial expresses the degree or extent of a quality?",
+        "options": [
+          "Comparative",
+          "Intensifier",
+          "Locative",
+          "Purpose"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, intensifier adverbials express the degree or extent of a quality, showing how much or to what degree something occurs or exists."
+      },
+      {
+        "question": "Which sentence best represents a comparative adverbial?",
+        "options": [
+          "Ibiro nena karang'o?",
+          "Japuonj no ofuwo ahinya.",
+          "Otieno riek moloyo owadgi.",
+          "Okadho ka pile."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence \"Otieno riek moloyo owadgi\" (Otieno is smarter than his brother) best represents a comparative adverbial, with 'moloyo' (more than/exceeding) expressing the comparison between Otieno and his brother."
+      },
+      {
+        "question": "The sentence \"John nindo kanye?\" illustrates which type of interrogative adverb?",
+        "options": [
+          "Locative",
+          "Directional",
+          "Temporal",
+          "Means"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence \"John nindo kanye?\" (Where does John sleep?) illustrates a locative interrogative adverb, with 'kanye' (where) asking about the location of the action."
+      },
+      {
+        "question": "Which of the following best illustrates an interrogative adverb of purpose?",
+        "options": [
+          "Ukelo bunde ka nang'o?",
+          "John nindo kanye?",
+          "Osebiro ka didi?",
+          "Otieno riek moloyo owadgi."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The question \"Ukelo bunde ka nang'o?\" (Why are you bringing guns here?) best illustrates an interrogative adverb of purpose, with 'nang'o' (why/for what purpose) asking about the reason or intention behind the action."
+      },
+      {
+        "question": "What is the function of the adverbial in \"Ere kaka anyalo yudo pesa kawuono?\"?",
+        "options": [
+          "Means",
+          "Frequency",
+          "Locative",
+          "Comparative"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In the question \"Ere kaka anyalo yudo pesa kawuono?\" (How can I get money today?), the adverbial function is means, with 'kaka' (how) asking about the method or manner of obtaining money."
+      },
+      {
+        "question": "Which of the following correctly represents an interrogative adverb of cause?",
+        "options": [
+          "Ukelo bunde ka nang'o?",
+          "Ang'o momiyo pien rawo tek?",
+          "Ibiro nena karang'o?",
+          "Osebiro ka didi?"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The question \"Ang'o momiyo pien rawo tek?\" (Why is raw leather hard?) correctly represents an interrogative adverb of cause, with 'ang'o momiyo' (why/what causes) asking about the reason or cause behind the characteristic."
+      },
+      {
+        "question": "Which type of adverbial function is missing from the following list: Locative, Temporal, Purpose, and Means?",
+        "options": [
+          "Cause",
+          "Frequency",
+          "Intensifier",
+          "Comparative"
+        ],
+        "correctAnswer": 0,
+        "explanation": "From the list of Locative, Temporal, Purpose, and Means adverbial functions, the adverbial function of Cause is missing. Cause adverbials express the reason why something happens."
+      },
+      {
+        "question": "Which question best illustrates an interrogative adverb of frequency?",
+        "options": [
+          "Ibiro nena karang'o?",
+          "Osebiro ka didi?",
+          "Ukelo bunde ka nang'o?",
+          "Ere kaka anyalo yudo pesa kawuono?"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The question \"Osebiro ka didi?\" (How often/how many times has he/she come here?) best illustrates an interrogative adverb of frequency, with 'didi' asking about the number of occurrences or frequency of the action."
+      }
+    ]
+  }

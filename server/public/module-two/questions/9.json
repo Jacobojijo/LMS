@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following is an example of an SV (Subject + Verb) clause pattern?",
+        "options": [
+          "Mama miyo nyathi chiemo.",
+          "Thuol ni e ot.",
+          "Omolo biro.",
+          "Apiyo keto pala e tiende."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Omolo biro' (Omolo is coming) follows the SV (Subject + Verb) clause pattern, consisting of only a subject 'Omolo' and a verb 'biro' (comes/is coming) without any objects or complements."
+      },
+      {
+        "question": "In the sentence 'Juma ochamo ring'o manumu.', what is the function of 'ring'o manumu'?",
+        "options": [
+          "Subject Complement",
+          "Object",
+          "Locative Adverbial",
+          "Indirect Object"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the sentence 'Juma ochamo ring'o manumu' (Juma eats fatty meat), 'ring'o manumu' functions as the Object receiving the action of the verb 'ochamo' (eats), following the SVO pattern."
+      },
+      {
+        "question": "Which of the following clause patterns includes a locative adverbial complement?",
+        "options": [
+          "S CLA",
+          "SV O",
+          "S V ID DO",
+          "S VOA"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The clause pattern S CLA (Subject + Copula + Locative Adverbial) includes a locative adverbial complement, which indicates where something is located or positioned."
+      },
+      {
+        "question": "The phrase 'Mama miyo nyathi chiemo' follows which clause structure?",
+        "options": [
+          "S V O",
+          "S V ID DO",
+          "S VOA",
+          "S Cs"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The phrase 'Mama miyo nyathi chiemo' (Mother gives the child food) follows the S V ID DO structure, where 'Mama' is the Subject, 'miyo' is the Verb, 'nyathi' is the Indirect Object (to whom), and 'chiemo' is the Direct Object (what is given)."
+      },
+      {
+        "question": "In the sentence 'Ji oketo Opiyo ruoth.', what is the function of 'ruoth'?",
+        "options": [
+          "Object Complement",
+          "Subject Complement",
+          "Indirect Object",
+          "Locative Adverbial"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In the sentence 'Ji oketo Opiyo ruoth' (People made Opiyo king), 'ruoth' functions as an Object Complement, describing what Opiyo (the direct object) becomes as a result of the action."
+      },
+      {
+        "question": "The clause 'Thuol ni e ot.' translates to which of the following patterns?",
+        "options": [
+          "S VOA",
+          "S V ID DO",
+          "S CLA",
+          "SV O"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The clause 'Thuol ni e ot' (A snake is in the house) translates to the S CLA pattern, where 'Thuol' is the Subject, 'ni' is the Copula, and 'e ot' is the Locative Adverbial complement indicating location."
+      },
+      {
+        "question": "Which of the following best represents an S VOA clause pattern?",
+        "options": [
+          "Thuol ni e ot.",
+          "Ng'ato oolo pi e(i) puga.",
+          "Omolo ber.",
+          "Baba okelo ne nyathi nanga."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The sentence 'Ng'ato oolo pi e(i) puga' (Someone pours water into my jar) best represents the S VOA pattern, where 'Ng'ato' is the Subject, 'oolo' is the Verb, 'pi' is the Object, and 'e(i) puga' is the Adverbial indicating location."
+      },
+      {
+        "question": "The presence of an Indirect Object in a declarative clause means it follows which pattern?",
+        "options": [
+          "S V ID DO",
+          "S Cs",
+          "S CLA",
+          "S VO"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The presence of an Indirect Object in a declarative clause means it follows the S V ID DO pattern (Subject + Verb + Indirect Object + Direct Object), where the Indirect Object typically receives the Direct Object."
+      },
+      {
+        "question": "In the clause 'Nyasaye ni e polo.', which part functions as the Locative Adverbial Complement?",
+        "options": [
+          "Nyasaye",
+          "ni",
+          "e",
+          "polo"
+        ],
+        "correctAnswer": 3,
+        "explanation": "In the clause 'Nyasaye ni e polo' (God is in heaven), 'polo' functions as the Locative Adverbial Complement, indicating the location. 'E' is the locative preposition, but 'polo' is the actual place being referenced."
+      },
+      {
+        "question": "Which of the following clauses correctly represents an [S V O Co] structure?",
+        "options": [
+          "Uloko Otieno raur.",
+          "Mama miyo nyathi chiemo.",
+          "Thuol ni e ot.",
+          "Omolo biro."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The clause 'Uloko Otieno raur' (They name/call Otieno a gentleman) correctly represents an S V O Co structure, where 'U' is the Subject, 'loko' is the Verb, 'Otieno' is the Object, and 'raur' is the Object Complement describing what Otieno is called."
+      }
+    ]
+  }

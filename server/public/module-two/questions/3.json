@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the core reflexive morpheme in Dholuo?",
+        "options": [
+          "-ruok",
+          "-V",
+          "-rV",
+          "-hiny"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The core reflexive morpheme in Dholuo is '-rV', where V represents a vowel that changes based on the person."
+      },
+      {
+        "question": "In Dholuo reflexive verbs, which vowel is used for the 1st person singular?",
+        "options": [
+          "-e",
+          "-i",
+          "-a",
+          "-u"
+        ],
+        "correctAnswer": 2,
+        "explanation": "For the 1st person singular in Dholuo reflexive verbs, the vowel '-a' is used with the reflexive morpheme."
+      },
+      {
+        "question": "What is the unmarked reflexive vowel in Dholuo that can replace other person markers?",
+        "options": [
+          "-i",
+          "-u",
+          "-a",
+          "-e"
+        ],
+        "correctAnswer": 3,
+        "explanation": "In Dholuo, '-e' is the unmarked reflexive vowel that can replace other person markers in certain contexts."
+      },
+      {
+        "question": "How would you correctly say \"We have hurt ourselves\" in Dholuo?",
+        "options": [
+          "Wahinyor-a",
+          "Wahinyor-e",
+          "Wahinyor-i",
+          "Wahinyor-u"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct way to say \"We have hurt ourselves\" in Dholuo is 'Wahinyor-e', using the 'wa-' prefix for 'we' and the unmarked reflexive vowel '-e'."
+      },
+      {
+        "question": "If someone says \"Uhinyor-u\", who are they referring to?",
+        "options": [
+          "1st person singular",
+          "2nd person plural",
+          "3rd person singular",
+          "1st person plural"
+        ],
+        "correctAnswer": 1,
+        "explanation": "When someone says 'Uhinyor-u', they are referring to the 2nd person plural ('you all have hurt yourselves'), as indicated by the 'U-' prefix and the reflexive suffix '-u'."
+      },
+      {
+        "question": "In Dholuo, what is the equivalent of \"to hurt oneself\" when given in its citation form?",
+        "options": [
+          "Hinyore",
+          "Hinyor-a",
+          "Hinyruok",
+          "Hinyori"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, the equivalent of \"to hurt oneself\" in its citation form is 'Hinyore', using the unmarked reflexive vowel '-e'."
+      },
+      {
+        "question": "Which of the following sentences correctly translates \"He has hurt himself\" in Dholuo?",
+        "options": [
+          "Ahinyor-a",
+          "Ohinyor-e",
+          "Gihinyor-e",
+          "Uhinyor-u"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct translation of \"He has hurt himself\" in Dholuo is 'Ohinyor-e', using the 'O-' prefix for 'he' and the unmarked reflexive vowel '-e'."
+      },
+      {
+        "question": "How would you express the idea of \"self-denial is hard\" in Dholuo?",
+        "options": [
+          "Hinyruok rach",
+          "Wahinyor-e tek",
+          "Tuonruok tek",
+          "Tuonre tek"
+        ],
+        "correctAnswer": 2,
+        "explanation": "To express \"self-denial is hard\" in Dholuo, you would say 'Tuonruok tek', using the reflexive form 'Tuonruok' (self-denial) with 'tek' (hard/difficult)."
+      },
+      {
+        "question": "Which reflexive verb form corresponds to \"They have hurt themselves\" in Dholuo?",
+        "options": [
+          "Gihinyor-e",
+          "Ihinyor-i",
+          "Ahinyor-a",
+          "Uhinyor-u"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The reflexive verb form that corresponds to \"They have hurt themselves\" in Dholuo is 'Gihinyor-e', using the 'Gi-' prefix for 'they' and the unmarked reflexive vowel '-e'."
+      },
+      {
+        "question": "Why do some Dholuo speakers translate the English infinitival phrase \"to hurt oneself\" as \"hinyruok\" instead of \"hinyore\"?",
+        "options": [
+          "Because \"hinyruok\" is the correct citation form",
+          "Because it is based on native speaker intuition rather than linguistic analysis",
+          "Because \"hinyore\" does not exist in Dholuo",
+          "Because \"hinyruok\" follows the standard English translation rules"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Some Dholuo speakers translate \"to hurt oneself\" as 'hinyruok' instead of 'hinyore' because it is based on native speaker intuition rather than formal linguistic analysis, reflecting variations in how speakers conceptualize reflexive forms."
+      }
+    ]
+  }

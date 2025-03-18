@@ -113,21 +113,21 @@ UserSchema.methods.matchPassword = async function (enteredPassword) {
   return await bcrypt.compare(enteredPassword, this.password);
 };
 
-// Generate and hash password token
+// Generate and hash password reset code
 UserSchema.methods.getResetPasswordToken = function () {
-  // Generate token
-  const resetToken = crypto.randomBytes(20).toString('hex');
-
-  // Hash token and set to resetPasswordToken field
+  // Generate a 6-digit code
+  const resetCode = Math.floor(100000 + Math.random() * 900000).toString();
+  
+  // Hash code and set to resetPasswordToken field
   this.resetPasswordToken = crypto
     .createHash('sha256')
-    .update(resetToken)
+    .update(resetCode)
     .digest('hex');
 
-  // Set expire
-  this.resetPasswordExpire = Date.now() + 10 * 60 * 1000; // 10 minutes
+  // Set expire (10 minutes)
+  this.resetPasswordExpire = Date.now() + 10 * 60 * 1000;
 
-  return resetToken;
+  return resetCode;
 };
 
 // Generate email verification token

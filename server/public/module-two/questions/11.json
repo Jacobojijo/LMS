@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following structural features characterize imperative constructions in Dholuo?",
+        "options": [
+          "The presence of an overt subject and a passive voice verb",
+          "The absence of an overt subject and the use of a main verb in the active voice",
+          "The presence of an overt subject and the use of a main verb in passive voice",
+          "The use of reflexive pronouns and a future tense verb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Imperative constructions in Dholuo are characterized by the absence of an overt subject and the use of a main verb in the active voice."
+      },
+      {
+        "question": "What determines whether a Dholuo verb root can be used as an imperative without modification?",
+        "options": [
+          "The meaning of the verb",
+          "The phonological structure of the root",
+          "Whether the verb is transitive or intransitive",
+          "The presence of an auxiliary verb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, whether a verb root can be used as an imperative without modification is determined by the phonological structure of the root."
+      },
+      {
+        "question": "In which of the following cases does the verb root remain unchanged in imperative formation?",
+        "options": [
+          "When the root ends in an obstruent",
+          "When the root ends in a nasal, liquid, glide, or vowel",
+          "When the root is derived from a noun",
+          "When the verb is in the past tense"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The verb root remains unchanged in imperative formation in Dholuo when the root ends in a nasal, liquid, glide, or vowel."
+      },
+      {
+        "question": "Which phonological constraint affects imperative formation for verbs ending in the palatal glide (-y)?",
+        "options": [
+          "The palatal glide cannot appear in word-final position in Dholuo",
+          "The palatal glide must always be replaced by a nasal",
+          "The palatal glide is always deleted in imperative forms",
+          "The palatal glide is replaced by a consonant cluster"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A phonological constraint in Dholuo is that the palatal glide (-y) cannot appear in word-final position, which affects imperative formation for verbs ending in this sound."
+      },
+      {
+        "question": "What is the correct imperative form of the verb \"neno\" (to see)?",
+        "options": [
+          "Neni",
+          "Nen",
+          "Neno",
+          "Nenie"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct imperative form of the verb \"neno\" (to see) in Dholuo is \"Nen\"."
+      },
+      {
+        "question": "Which suffix is added to verbs ending in obstruents in imperative constructions when no word follows?",
+        "options": [
+          "-uru",
+          "-ruok",
+          "-i",
+          "-a"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In Dholuo, the suffix -i is added to verbs ending in obstruents in imperative constructions when no word follows."
+      },
+      {
+        "question": "Which of the following is an imperative formed from a reflexive verb?",
+        "options": [
+          "Penji",
+          "Gori",
+          "Kel",
+          "Wuogi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Among these options, \"Gori\" is an imperative formed from a reflexive verb in Dholuo."
+      },
+      {
+        "question": "How is the plural imperative form generally constructed in Dholuo?",
+        "options": [
+          "By adding the suffix -uru to the verb root",
+          "By changing the verb root to a vowel-final form",
+          "By doubling the verb root",
+          "By using an auxiliary verb before the command"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The plural imperative form in Dholuo is generally constructed by adding the suffix -uru to the verb root."
+      },
+      {
+        "question": "How does the presence of a pronominal suffix affect imperative verb formation in Dholuo?",
+        "options": [
+          "The imperative suffix -i is replaced by the pronominal affix",
+          "The verb root remains unchanged",
+          "A new suffix -ruok is added",
+          "The verb changes to a passive form"
+        ],
+        "correctAnswer": 0,
+        "explanation": "When a pronominal suffix is present in Dholuo imperative verb formation, the imperative suffix -i is replaced by the pronominal affix."
+      },
+      {
+        "question": "Which of the following is a correct polite request form in Dholuo?",
+        "options": [
+          "Keluru pesa",
+          "Kelie pesa",
+          "Kel pesa e",
+          "Kelna pesa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct polite request form in Dholuo is \"Kelie pesa\"."
+      }
+    ]
+  }

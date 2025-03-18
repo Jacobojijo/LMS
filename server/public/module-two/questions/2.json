@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary function of tense in a sentence?",
+        "options": [
+          "To indicate the subject of the sentence",
+          "To express the speaker's opinion about an event",
+          "To relate the time of an action, event, or state to the time of utterance",
+          "To mark the difference between verbs and adjectives"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The primary function of tense in a sentence is to relate the time of an action, event, or state to the time of utterance, providing temporal context."
+      },
+      {
+        "question": "Which of the following lexical items indicates the remote past in Dholuo?",
+        "options": [
+          "Nene",
+          "Nyoro",
+          "Orucha",
+          "Ang'"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, 'Nene' is the lexical item that indicates the remote past tense."
+      },
+      {
+        "question": "If someone wants to say \"the day after tomorrow\" in Dholuo, which word should they use?",
+        "options": [
+          "Kawuono",
+          "Orucha",
+          "Nyocha",
+          "Kiny"
+        ],
+        "correctAnswer": 1,
+        "explanation": "To express 'the day after tomorrow' in Dholuo, the word 'Orucha' should be used."
+      },
+      {
+        "question": "In Dholuo, which of the following expressions can be used to indicate the immediate past?",
+        "options": [
+          "Nene",
+          "A-a machiegni",
+          "Biro",
+          "Orucha"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The expression 'A-a machiegni' is used in Dholuo to indicate the immediate past."
+      },
+      {
+        "question": "Which of the following tense markers refers to an action occurring later on the same day?",
+        "options": [
+          "Chieng'",
+          "Kiny",
+          "Ang'/wang'",
+          "Nyoro"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In Dholuo, 'Ang'/wang'' is the tense marker that refers to an action that will occur later on the same day."
+      },
+      {
+        "question": "In the sentence \"John koro nyalo biro\", what is the function of \"koro\"?",
+        "options": [
+          "It marks negation in the sentence.",
+          "It indicates the remote future.",
+          "It is interchangeable with \"sani\" and means \"now.\"",
+          "It shows that the action happened yesterday."
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence 'John koro nyalo biro', 'koro' is interchangeable with 'sani' and means 'now', indicating present time."
+      },
+      {
+        "question": "What is the primary marker of negation in Dholuo?",
+        "options": [
+          "Biro",
+          "Kawuono",
+          "Ok",
+          "Chieng'"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The primary marker of negation in Dholuo is 'Ok'."
+      },
+      {
+        "question": "In the sentence \"Ok adwar chiemo\", what is the scope of the negation?",
+        "options": [
+          "Only the verb \"adwar\"",
+          "The entire proposition \"I want food.\"",
+          "Only the noun \"chiemo\"",
+          "The subject of the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In 'Ok adwar chiemo', the scope of negation covers the entire proposition 'I want food', negating the complete statement."
+      },
+      {
+        "question": "How does negation in Dholuo differ when the focus is on the object rather than the verb?",
+        "options": [
+          "The verb takes a different aspectual marking.",
+          "The negation marker \"ok\" is placed before the object.",
+          "The subject and verb remain unchanged, but \"ok\" precedes the object.",
+          "The sentence structure remains the same as in positive statements."
+        ],
+        "correctAnswer": 2,
+        "explanation": "When the focus of negation is on the object in Dholuo, the subject and verb remain unchanged, but the negation marker 'ok' is placed directly before the object."
+      },
+      {
+        "question": "In the sentence \"Opiyo e ma ok dwar chiemo\", what does \"ok\" negate?",
+        "options": [
+          "The verb \"dwar\"",
+          "The object \"chiemo\"",
+          "The subject \"Opiyo\"",
+          "The entire sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence 'Opiyo e ma ok dwar chiemo', 'ok' negates the subject 'Opiyo', focusing the negation on who doesn't want food rather than on the wanting itself."
+      }
+    ]
+  }

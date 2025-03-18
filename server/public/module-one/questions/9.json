@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following best describes the primary function of adjectives in Dholuo grammar?",
+        "options": [
+          "To indicate actions performed by the noun",
+          "To provide additional information about a noun's qualities or characteristics",
+          "To show tense and aspect of a sentence",
+          "To replace the noun in a sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo grammar, the primary function of adjectives is to provide additional information about a noun's qualities or characteristics."
+      },
+      {
+        "question": "In Dholuo, where do adjectives typically appear in relation to the noun they modify?",
+        "options": [
+          "Before the noun",
+          "After the noun",
+          "Before or after, depending on tense",
+          "They appear separately as independent words"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, adjectives typically appear after the noun they modify."
+      },
+      {
+        "question": "Which of the following sentences exemplifies the predicative use of adjectives in Dholuo?",
+        "options": [
+          "Dhiang' ma ber – \"A cow which is good\"",
+          "Punda ma rach – \"A donkey which is bad\"",
+          "Dhiang' ber – \"A cow is good\"",
+          "Piny ma bor – \"A country which is far away\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Dhiang' ber' (\"A cow is good\") exemplifies the predicative use of adjectives in Dholuo, where the adjective directly states something about the noun without a relativizer."
+      },
+      {
+        "question": "In Dholuo, what is the function of the clitic \"ma\" in adjective constructions?",
+        "options": [
+          "It functions as a tense marker",
+          "It functions as a relativizer",
+          "It signals a question",
+          "It serves as a conjunction"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo adjective constructions, the clitic 'ma' functions as a relativizer, introducing a relative clause that modifies the noun."
+      },
+      {
+        "question": "What distinguishes adjectives from verbs in Dholuo grammar?",
+        "options": [
+          "Adjectives describe states, whereas verbs generally describe events",
+          "Adjectives are always followed by nouns, while verbs are not",
+          "Adjectives change tense while verbs do not",
+          "Adjectives must always have a copula verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo grammar, adjectives are distinguished from verbs in that adjectives typically describe states or qualities, whereas verbs generally describe events or actions."
+      },
+      {
+        "question": "Which of the following is a correct Dholuo sentence showing a direct predicative relationship?",
+        "options": [
+          "Japuonj en jajuok – \"The teacher is a wizard.\"",
+          "Jajuok japuonj – \"The wizard is a teacher.\"",
+          "Opiyo riek – \"Opiyo is clever.\"",
+          "*Riek Opiyo* – \"Clever Opiyo.\" (Incorrect sentence)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence 'Opiyo riek' (\"Opiyo is clever\") shows a correct direct predicative relationship in Dholuo, where the adjective directly follows the noun without any copula."
+      },
+      {
+        "question": "What happens when the word order of a noun and an adjective in Dholuo is reversed?",
+        "options": [
+          "The meaning of the sentence remains unchanged",
+          "It creates a syntactically incorrect and semantically anomalous sentence",
+          "The adjective becomes a verb",
+          "The sentence becomes a question"
+        ],
+        "correctAnswer": 1,
+        "explanation": "When the word order of a noun and an adjective is reversed in Dholuo, it creates a syntactically incorrect and semantically anomalous sentence, as adjectives must follow the nouns they modify."
+      },
+      {
+        "question": "What role can personal pronouns play in Dholuo sentences?",
+        "options": [
+          "They act as copulas in sentences",
+          "They always function as subjects",
+          "They determine the verb conjugation",
+          "They always replace the noun"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo sentences, personal pronouns can act as copulas, connecting subjects with complements in constructions that would use 'to be' in English."
+      },
+      {
+        "question": "Which of the following is an example of an attributive adjective clause in Dholuo?",
+        "options": [
+          "Dhiang' ber – \"A cow is good.\"",
+          "Punda rach – \"A donkey is bad.\"",
+          "Dhiang' ma ber – \"A cow which is good.\"",
+          "Nyithindo gin gweth – \"Children are a blessing.\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The phrase 'Dhiang' ma ber' (\"A cow which is good\") is an example of an attributive adjective clause in Dholuo, where the relativizer 'ma' introduces a relative clause modifying the noun."
+      },
+      {
+        "question": "What linguistic phenomenon does the sentence \"Japuonj jajuok\" (The teacher is a wizard) illustrate?",
+        "options": [
+          "The use of relative clauses",
+          "The minimal pair distinction based on word order",
+          "The use of a copula verb",
+          "The placement of adjectives before nouns"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The sentence \"Japuonj jajuok\" (The teacher is a wizard) illustrates the minimal pair distinction based on word order in Dholuo, where the order of elements determines their grammatical roles and meanings."
+      }
+    ]
+  }

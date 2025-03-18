@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In Dholuo, demonstrative pronouns consist of two parts. What are these components?",
+        "options": [
+          "A prefix that changes with tense and a verb root",
+          "A bound form [ma] and a demonstrative element",
+          "A noun and a modifying suffix",
+          "A subject marker and an object marker"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo demonstrative pronouns consist of a bound form [ma] combined with a demonstrative element that indicates the location or position of the object being referred to."
+      },
+      {
+        "question": "How does Dholuo distinguish between different locations when referring to objects using demonstrative pronouns?",
+        "options": [
+          "By using different prefixes for singular and plural forms",
+          "By adding a suffix to indicate the speaker's position",
+          "By having separate forms for objects near the addressor, closer to the addressee, and far from both",
+          "By changing the verb tense depending on the distance"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dholuo uses different demonstrative forms to distinguish between objects that are near the addressor, closer to the addressee, and far from both participants in the conversation."
+      },
+      {
+        "question": "Which demonstrative pronoun would be used to refer to something that is near the addressor?",
+        "options": [
+          "ma-ka",
+          "ma-go",
+          "ma-e",
+          "ma-cha"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The demonstrative pronoun 'ma-e' is used in Dholuo to refer to something that is near the addressor or speaker."
+      },
+      {
+        "question": "If an object is positioned far from both the addressor and the addressee, which demonstrative pronoun is used?",
+        "options": [
+          "ma-cha",
+          "ma-e",
+          "ma-no",
+          "ma-gi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "When an object is positioned far from both the addressor and the addressee in Dholuo, the demonstrative pronoun 'ma-cha' is used."
+      },
+      {
+        "question": "In Dholuo, what is the main difference between the forms 'ma-no' and 'ma-cha' in terms of reference?",
+        "options": [
+          "Ma-no' refers to something near the addressor, while 'ma-cha' refers to something near the addressee.",
+          "Ma-no' refers to something closer to the addressee, while 'ma-cha' refers to something far from both the addressor and the addressee.",
+          "Ma-no' is used in questions, while 'ma-cha' is used in statements.",
+          "Ma-no' indicates possession, while 'ma-cha' indicates location."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, 'ma-no' refers to something that is closer to the addressee (the person being spoken to), while 'ma-cha' refers to something that is far from both the addressor (speaker) and the addressee."
+      },
+      {
+        "question": "Which of the following sentences correctly translates to \"Those are God's commandments\" in Dholuo?",
+        "options": [
+          "Ma-cha chike Nyasaye",
+          "Ma-no chike Nyasaye",
+          "Ma-go chike Nyasaye",
+          "Ma-ka chike Nyasaye"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The correct Dholuo translation for \"Those are God's commandments\" is 'Ma-go chike Nyasaye', using the appropriate demonstrative form."
+      },
+      {
+        "question": "In Dholuo, which interrogative pronoun is used to ask about a person in singular form?",
+        "options": [
+          "ang'o",
+          "ng'a",
+          "mane",
+          "mage"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The interrogative pronoun 'ng'a' is used in Dholuo to ask about a person in singular form, equivalent to 'who' in English."
+      },
+      {
+        "question": "If you want to ask, \"Which goats does he want?\" in Dholuo, which interrogative pronoun should you use?",
+        "options": [
+          "ang'o",
+          "ng'a",
+          "mane",
+          "mago"
+        ],
+        "correctAnswer": 2,
+        "explanation": "To ask \"Which goats does he want?\" in Dholuo, you would use the interrogative pronoun 'mane', which is used to inquire about specific items from a set."
+      },
+      {
+        "question": "What is the correct Dholuo translation for the question \"Who are there in the house?\"",
+        "options": [
+          "Ng'a ma nindo e ot kanyo?",
+          "Ng'agini mani e ot kanyo?",
+          "Ng'ano magi e ot kanyo?",
+          "Ng'awa ni e ot kanyo?"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct Dholuo translation for \"Who are there in the house?\" is 'Ng'agini mani e ot kanyo?', using the plural form of the interrogative pronoun for 'who'."
+      },
+      {
+        "question": "How does the Dholuo interrogative pronoun \"ang'o\" function in a sentence?",
+        "options": [
+          "It replaces a noun to ask about a specific location.",
+          "It is used to ask about possession and ownership.",
+          "It is used to inquire about objects, events, or actions.",
+          "It introduces a dependent clause when expressing uncertainty."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Dholuo interrogative pronoun \"ang'o\" functions in a sentence to inquire about objects, events, or actions, similar to the English word \"what\"."
+      }
+    ]
+  }
