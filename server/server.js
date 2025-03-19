@@ -1,18 +1,18 @@
-const path = require('path');
-const express = require('express');
-const dotenv = require('dotenv');
-const morgan = require('morgan');
-const cookieParser = require('cookie-parser');
-const helmet = require('helmet');
-const xss = require('xss-clean');
-const rateLimit = require('express-rate-limit');
-const hpp = require('hpp');
-const cors = require('cors');
-const passport = require('passport');
-const mongoSanitize = require('express-mongo-sanitize');
+const path = require("path");
+const express = require("express");
+const dotenv = require("dotenv");
+const morgan = require("morgan");
+const cookieParser = require("cookie-parser");
+const helmet = require("helmet");
+const xss = require("xss-clean");
+const rateLimit = require("express-rate-limit");
+const hpp = require("hpp");
+const cors = require("cors");
+const passport = require("passport");
+const mongoSanitize = require("express-mongo-sanitize");
 
-const connectDB = require('./config/db');
-const errorHandler = require('./middleware/errorMiddleware');
+const connectDB = require("./config/db");
+const errorHandler = require("./middleware/errorMiddleware");
 
 // Load env vars
 dotenv.config();
@@ -21,10 +21,10 @@ dotenv.config();
 connectDB();
 
 // Route files
-const authRoutes = require('./routes/authRoutes');
-const userRoutes = require('./routes/userRoutes');
-const courseRoutes = require('./routes/courseRoutes');
-const enrollmentRoutes = require('./routes/enrollmentRoutes');
+const authRoutes = require("./routes/authRoutes");
+const userRoutes = require("./routes/userRoutes");
+const courseRoutes = require("./routes/courseRoutes");
+const enrollmentRoutes = require("./routes/enrollmentRoutes");
 
 const app = express();
 
@@ -35,8 +35,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 // Dev logging middleware
-if (process.env.NODE_ENV === 'development') {
-  app.use(morgan('dev'));
+if (process.env.NODE_ENV === "development") {
+  app.use(morgan("dev"));
 }
 
 // Security middleware
@@ -49,9 +49,9 @@ app.use(xss());
 // Rate limiting
 const limiter = rateLimit({
   windowMs: 10 * 60 * 1000, // 10 mins
-  max: 100
+  max: 100,
 });
-app.use('/api/', limiter);
+app.use("/api/", limiter);
 
 // Prevent http param pollution
 app.use(hpp());
@@ -64,13 +64,16 @@ app.use(cors());
 
 // Initialize Passport
 app.use(passport.initialize());
-require('./config/passport');
+require("./config/passport");
+
+// Serve static files from the templates directory
+app.use("/templates", express.static(path.join(__dirname, "templates")));
 
 // Mount routers
-app.use('/api/auth', authRoutes);
-app.use('/api/users', userRoutes);
-app.use('/api/courses', courseRoutes);
-app.use('/api/enrollments', enrollmentRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/users", userRoutes);
+app.use("/api/courses", courseRoutes);
+app.use("/api/enrollments", enrollmentRoutes);
 
 // Error handler middleware
 app.use(errorHandler);
@@ -79,13 +82,11 @@ const PORT = process.env.PORT || 5000;
 
 const server = app.listen(
   PORT,
-  console.log(
-    `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`
-  )
+  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`)
 );
 
 // Handle unhandled promise rejections
-process.on('unhandledRejection', (err, promise) => {
+process.on("unhandledRejection", (err, promise) => {
   console.log(`Error: ${err.message}`);
   server.close(() => process.exit(1));
 });

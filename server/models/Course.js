@@ -131,7 +131,7 @@ const CourseSchema = new mongoose.Schema({
   },
   description: {
     type: String,
-    required: [true, 'Please add a course description']
+    required: [true, 'Please add a course description in HTML format']
   },
   modules: [ModuleSchema],
   createdAt: {

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dholuo Language Course</title>
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --accent-color: #e67e22;
+            --text-color: #333;
+            --border-radius: 8px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px 0;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: var(--border-radius);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-top: 15px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+            font-size: 1.4rem;
+        }
+        
+        .overview {
+            margin-bottom: 15px;
+        }
+        
+        .overview p {
+            margin: 0 0 10px 0;
+        }
+        
+        .course-details {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .detail-box {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: var(--border-radius);
+            flex: 1;
+            min-width: 150px;
+        }
+        
+        .detail-box h3 {
+            margin: 0 0 5px 0;
+            color: var(--accent-color);
+            font-size: 1rem;
+        }
+        
+        .detail-box p {
+            margin: 0;
+        }
+        
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .module {
+            background-color: #f9f9f9;
+            border-left: 3px solid var(--accent-color);
+            padding: 10px;
+            border-radius: 4px;
+        }
+        
+        .module p {
+            margin: 0 0 5px 0;
+        }
+        
+        .module-number {
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        
+        .module-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+        
+        .assessment-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        .assessment-item {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        
+        .assessment-name {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 0 0 5px 0;
+        }
+        
+        .assessment-desc {
+            margin: 0 0 5px 0;
+            font-size: 0.9rem;
+        }
+        
+        .assessment-percent {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .module-grid, .assessment-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Dholuo Language Course</h1>
+        
+        <div class="overview">
+            <h2>Course Overview</h2>
+            <p>The <strong>Advanced Dholuo Language Course</strong> is designed to deepen the linguistic skills and cultural understanding of students who have completed the beginner level. This course focuses on advanced grammar, complex sentence structures, cultural nuances, and fluency in both written and spoken Dholuo.</p>
+        </div>
+        
+        <div class="course-details">
+            <div class="detail-box">
+                <h3>Duration</h3>
+                <p>2 Months (8 Weeks)</p>
+            </div>
+            <div class="detail-box">
+                <h3>Weekly Schedule</h3>
+                <p>Mon-Thu: 5:30-6:30 AM<br>Sun: 8-10 AM & 2-4 PM</p>
+            </div>
+        </div>
+        
+        <h2>Course Structure</h2>
+        <div class="module-grid">
+            <div class="module">
+                <p><span class="module-number">Module 01</span> (Week 1-2)</p>
+                <p class="module-title">Advanced Grammatical Categories and Structures</p>
+            </div>
+            
+            <div class="module">
+                <p><span class="module-number">Module 02</span> (Week 3-4)</p>
+                <p class="module-title">Advanced Grammatical Categories and Complex Sentence Types</p>
+            </div>
+            
+            <div class="module">
+                <p><span class="module-number">Module 03</span> (Week 5-6)</p>
+                <p class="module-title">Predicate Frames, Expression Rules and Complex Sentences</p>
+            </div>
+            
+            <div class="module">
+                <p><span class="module-number">Module 04</span> (Week 7-8)</p>
+                <p class="module-title">Advanced Communication Skills, Cultural Proficiency and Mastery</p>
+            </div>
+        </div>
+        
+        <h2>Continuous Assessment Tests (CATs)</h2>
+        <div class="assessment-grid">
+            <div class="assessment-item">
+                <p class="assessment-name">CAT 1 (End of Week 2)</p>
+                <p class="assessment-desc">Advanced Grammatical Categories and Structures</p>
+                <span class="assessment-percent">20%</span>
+            </div>
+            
+            <div class="assessment-item">
+                <p class="assessment-name">CAT 2 (End of Week 4)</p>
+                <p class="assessment-desc">Advanced Grammatical Categories and Complex Sentence Types</p>
+                <span class="assessment-percent">20%</span>
+            </div>
+            
+            <div class="assessment-item">
+                <p class="assessment-name">CAT 3 (End of Week 6)</p>
+                <p class="assessment-desc">Predicate Frames, Expression Rules and Complex Sentences</p>
+                <span class="assessment-percent">20%</span>
+            </div>
+            
+            <div class="assessment-item">
+                <p class="assessment-name">Final Exam (End of Week 8)</p>
+                <p class="assessment-desc">Comprehensive test covering all advanced topics</p>
+                <span class="assessment-percent">40%</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
