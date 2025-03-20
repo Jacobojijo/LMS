@@ -28,8 +28,9 @@ const enrollmentRoutes = require("./routes/enrollmentRoutes");
 
 const app = express();
 
-// Body parser
-app.use(express.json());
+// Body parser with increased limits
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 // Cookie parser
 app.use(cookieParser());
