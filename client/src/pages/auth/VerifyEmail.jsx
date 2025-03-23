@@ -1,4 +1,3 @@
-// VerifyEmail.jsx
 import React, { useState, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import axios from "axios";
@@ -39,11 +38,25 @@ const VerifyEmail = () => {
       if (res.data.token) {
         localStorage.setItem("token", res.data.token);
       }
+      
+      // Store user role if returned
+      if (res.data.user && res.data.user.role) {
+        localStorage.setItem("userRole", res.data.user.role);
+      }
 
       setSuccess("Email verified successfully!");
       
-      // Redirect to dashboard after a brief delay
-      setTimeout(() => navigate("/dashboard"), 1500);
+      // Get user role from response or localStorage
+      const userRole = res.data.user?.role || localStorage.getItem("userRole");
+      
+      // Redirect based on user role after a brief delay
+      setTimeout(() => {
+        if (userRole === "admin") {
+          navigate("/admin/dashboard");
+        } else {
+          navigate("/student/dashboard");
+        }
+      }, 1500);
     } catch (err) {
       setError(
         err.response?.data?.error || 

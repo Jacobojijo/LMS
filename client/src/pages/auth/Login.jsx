@@ -1,11 +1,12 @@
 // Login.jsx
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
+import { useAuth } from "../../context/AuthContext"; // Import the useAuth hook
 import { FadeInUp } from "../../utility/MotionComponents";
 
 const Login = () => {
   const navigate = useNavigate();
+  const { login } = useAuth(); // Use the login function from AuthContext
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -26,16 +27,10 @@ const Login = () => {
     setError("");
 
     try {
-      const res = await axios.post("/api/auth/login", formData);
-      
-      // Store token in localStorage
-      localStorage.setItem("token", res.data.token);
-      
-      // Store user role in localStorage for easy access
-      localStorage.setItem("userRole", res.data.user.role);
+      const user = await login(formData.email, formData.password); // Use the login function from AuthContext
       
       // Redirect based on user role
-      if (res.data.user.role === "admin") {
+      if (user.role === "admin") {
         navigate("/admin/dashboard");
       } else {
         navigate("/student/dashboard"); // Default to student dashboard

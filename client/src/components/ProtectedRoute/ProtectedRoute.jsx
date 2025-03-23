@@ -11,7 +11,7 @@ const ProtectedRoute = ({ children, allowedRoles = [] }) => {
     const verifyAuth = async () => {
       try {
         const token = localStorage.getItem("token");
-        
+
         if (!token) {
           setIsAuthenticated(false);
           setLoading(false);
@@ -21,8 +21,8 @@ const ProtectedRoute = ({ children, allowedRoles = [] }) => {
         // Verify token by making a request to the backend
         const res = await axios.get("/api/auth/me", {
           headers: {
-            Authorization: `Bearer ${token}`
-          }
+            Authorization: `Bearer ${token}`,
+          },
         });
 
         // Add proper error handling for the response structure
@@ -59,6 +59,7 @@ const ProtectedRoute = ({ children, allowedRoles = [] }) => {
     );
   }
 
+  // If not authenticated, redirect to login
   if (!isAuthenticated) {
     return <Navigate to="/auth/login" replace />;
   }

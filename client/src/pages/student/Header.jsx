@@ -4,13 +4,14 @@ import logo from '../../assets/logo.png';
 import { MdMenu, MdClose } from "react-icons/md";
 import ResponsiveMenu from "../../components/Navbar/ResponsiveMenu";
 import { motion } from "framer-motion";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
   
   // Check if user is logged in on component mount
   useEffect(() => {
@@ -45,6 +46,15 @@ const Navbar = () => {
     navigate("/");
   };
 
+  // Process menu items to modify Home link if needed
+  const processedMenu = NavbarMenu.map(item => {
+    if (item.id === 1 && item.title === "Home") {
+      // You can choose either '/' or '/home' here
+      return { ...item, link: "/" };
+    }
+    return item;
+  });
+
   return (
     <>
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -64,7 +74,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <img 
                 src={logo} 
                 alt="Heritage Language School" 
@@ -78,24 +88,39 @@ const Navbar = () => {
                   Language School
                 </span>
               </div>
-            </a>
+            </Link>
           </motion.div>
 
           {/* Menu section */}
           <div className="hidden md:block">
             <ul className="flex items-center gap-6 text-gray-700">
-              {NavbarMenu.map((item) => (
+              {processedMenu.map((item) => (
                 <motion.li 
                   key={item.id}
                   whileHover={{ y: -2 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
-                  <a
-                    href={item.link}
-                    className="relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300"
-                  >
-                    {item.title}
-                  </a>
+                  {item.link.startsWith("#") ? (
+                    // For hash links (like sections on the same page)
+                    <a
+                      href={item.link}
+                      className={`relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300 ${
+                        (location.pathname === "/" && item.link === "#") ? "text-[#854836]" : ""
+                      }`}
+                    >
+                      {item.title}
+                    </a>
+                  ) : (
+                    // For page navigation
+                    <Link
+                      to={item.link}
+                      className={`relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300 ${
+                        location.pathname === item.link ? "text-[#854836] after:w-full" : ""
+                      }`}
+                    >
+                      {item.title}
+                    </Link>
+                  )}
                 </motion.li>
               ))}
             </ul>
@@ -115,22 +140,28 @@ const Navbar = () => {
               </motion.button>
             ) : (
               <motion.div className="flex items-center gap-3">
-                <motion.a 
-                  href="/login"
-                  className="font-semibold text-[#854836] hover:text-[#6a392b] px-3 py-2 transition-colors duration-300"
+                <motion.div
                   whileHover={{ scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  Sign In
-                </motion.a>
-                <motion.a 
-                  href="/register"
-                  className="bg-[#854836] hover:bg-[#6a392b] font-semibold text-white rounded-md px-5 py-2 transition-colors duration-300 shadow-sm hover:shadow-md"
+                  <Link 
+                    to="/login"
+                    className="font-semibold text-[#854836] hover:text-[#6a392b] px-3 py-2 transition-colors duration-300"
+                  >
+                    Sign In
+                  </Link>
+                </motion.div>
+                <motion.div
                   whileHover={{ scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
-                  Register
-                </motion.a>
+                  <Link 
+                    to="/register"
+                    className="bg-[#854836] hover:bg-[#6a392b] font-semibold text-white rounded-md px-5 py-2 transition-colors duration-300 shadow-sm hover:shadow-md"
+                  >
+                    Register
+                  </Link>
+                </motion.div>
               </motion.div>
             )}
           </div>
@@ -160,6 +191,7 @@ const Navbar = () => {
         onClose={() => setOpen(false)} 
         isLoggedIn={isLoggedIn}
         onLogout={handleLogout}
+        menuItems={processedMenu}
       />
     </>
   );

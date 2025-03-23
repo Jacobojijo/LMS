@@ -3,9 +3,11 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FadeInUp } from "../../utility/MotionComponents";
+import { useAuth } from "../../context/AuthContext"; // Import the useAuth hook
 
 const Register = () => {
   const navigate = useNavigate();
+  const { login } = useAuth(); // Use the login function from AuthContext
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
