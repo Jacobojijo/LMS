@@ -16,8 +16,8 @@ const Home = () => {
       <div style={bgStyle}>
         <Hero />
       </div>
-      <Courses />
-      <Features />
+       <Courses />
+      <Features /> 
     </>
   );
 };
