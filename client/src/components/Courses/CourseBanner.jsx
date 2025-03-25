@@ -1,66 +1,42 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import axios from "axios";
 import { useAuth } from "../../context/AuthContext";
+import { useNavigate } from "react-router-dom";
 
-const CourseBanner = () => {
-  // State to store course title and user info
-  const [courseTitle, setCourseTitle] = useState("Loading course...");
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  
-  // Get user from auth context
+const CourseBanner = ({ enrollments }) => {
   const { user } = useAuth();
-
+  
+  // State for course title
+  const [courseTitle, setCourseTitle] = React.useState("Your Learning Journey");
+  
   // Custom color palette - light versions
-  const lightBeige = "#F0D6B9"; // Beige/gold tone
-  const lightTeal = "#C8E6E4";  // Teal tone
-  const lightRose = "#ECC6C6";  // Rose/pink tone
+  const lightBeige = "#F0D6B9";
+  const lightTeal = "#C8E6E4";
+  const lightRose = "#ECC6C6";
 
-  // Fetch user's course enrollment
-  useEffect(() => {
-    const fetchEnrollment = async () => {
-      if (!user) return;
-      
-      try {
-        const token = localStorage.getItem("token");
-        
-        const response = await axios.get(`/api/enrollments/user/${user._id}/courses`, {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        });
-        
-        if (response.data.success && response.data.count > 0) {
-          // Get the first course title from enrollments
-          const firstCourse = response.data.data[0];
-          setCourseTitle(firstCourse.course.title);
-        } else {
-          setCourseTitle("No courses enrolled");
-        }
-        setLoading(false);
-      } catch (err) {
-        console.error("Error fetching enrollment:", err);
-        setError("Could not load your course");
-        setLoading(false);
-      }
-    };
-
-    fetchEnrollment();
-  }, [user]);
+  // Set course title based on enrollments
+  React.useEffect(() => {
+    if (enrollments && enrollments.length > 0) {
+      const firstCourse = enrollments[0];
+      setCourseTitle(firstCourse.course?.title || "Your Current Course");
+    }
+  }, [enrollments]);
 
   // Get user's last name
   const getLastName = () => {
     if (!user) return "";
     
-    // Assuming user object has a name field that may contain first and last name
-    // Or it has a lastName field directly
     if (user.lastName) return user.lastName;
     if (user.name && user.name.includes(" ")) {
       const nameParts = user.name.split(" ");
       return nameParts[nameParts.length - 1];
     }
     return "";
+  };
+
+  const navigate = useNavigate();
+  const handleContinueLearning = () => {
+    navigate("/student/learning");
   };
 
   const userLastName = getLastName();
@@ -73,7 +49,7 @@ const CourseBanner = () => {
         transition={{ duration: 0.6 }}
         className="relative overflow-hidden rounded-2xl shadow-xl max-w-6xl mx-auto"
       >
-        {/* Custom gradient background using the provided colors */}
+        {/* Custom gradient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-white via-white to-white"></div>
         
         {/* Overlay with custom colors */}
@@ -84,7 +60,7 @@ const CourseBanner = () => {
           }}
         ></div>
         
-        {/* Soft color accents - improved sizing for large screens */}
+        {/* Soft color accents */}
         <div 
           className="absolute top-0 right-0 w-64 h-64 md:w-96 md:h-96 rounded-full opacity-40 transform translate-x-1/3 -translate-y-1/3"
           style={{ backgroundColor: lightBeige }}
@@ -122,15 +98,11 @@ const CourseBanner = () => {
             >
               <span className="inline-block bg-white bg-opacity-50 px-4 py-1 rounded-full text-sm font-medium mb-4 border"
                     style={{ borderColor: lightRose, color: "#7c645e" }}>
-                Your Journey Continues
+                Your Learning Dashboard
               </span>
               <h2 className="text-3xl md:text-3xl lg:text-4xl xl:text-5xl font-playfair font-bold mb-4"
                   style={{ color: "#5e4c41" }}>
-                {loading ? (
-                  "Welcome back"
-                ) : (
-                  <>Dear {userLastName ? userLastName : "Student"}, welcome back to</>
-                )}
+                {userLastName ? `Dear ${userLastName}, welcome to` : "Welcome back to your course"}
               </h2>
               <div className="px-6 py-4 rounded-lg mb-6 border-l-4 max-w-3xl"
                    style={{ 
@@ -139,18 +111,12 @@ const CourseBanner = () => {
                    }}>
                 <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-playfair font-bold"
                     style={{ color: "#3c6665" }}>
-                  {loading ? (
-                    <span className="animate-pulse">Loading your course...</span>
-                  ) : error ? (
-                    <span className="text-red-500">{error}</span>
-                  ) : (
-                    courseTitle
-                  )}
+                  {courseTitle}
                 </h3>
               </div>
               <p className="text-lg lg:text-xl max-w-2xl mb-8"
                  style={{ color: "#5c5c5c" }}>
-                Continue your language adventure where you left off. New cultural insights and interactive lessons await your discovery.
+                Continue your learning journey where you left off. New lessons and challenges await your discovery.
               </p>
             </motion.div>
             
@@ -165,8 +131,9 @@ const CourseBanner = () => {
                   background: `linear-gradient(to right, ${lightRose}, ${lightBeige})`,
                   color: "#5e4c41",
                 }}
+                onClick={handleContinueLearning}
               >
-                Explore Your Course
+                Continue Learning
               </button>
             </motion.div>
           </div>
@@ -188,7 +155,7 @@ const CourseBanner = () => {
                   background: `linear-gradient(135deg, ${lightTeal} 0%, ${lightBeige} 100%)` 
                 }}
               >
-                <span className="text-6xl md:text-7xl lg:text-8xl">🎯</span>
+                <span className="text-6xl md:text-7xl lg:text-8xl">📚</span>
               </div>
             </div>
           </motion.div>

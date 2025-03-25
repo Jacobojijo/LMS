@@ -1,4 +1,3 @@
-// App.jsx
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
@@ -8,11 +7,12 @@ import AuthRoutes from "./pages/auth/AuthRoutes";
 import StudentDashboard from "./pages/student/StudentDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
-import { AuthProvider, useAuth } from "./context/AuthContext"; // Import useAuth here
+import { AuthProvider, useAuth } from "./context/AuthContext";
+import LearningPage from "./pages/student/LearningPage";
 
 const App = () => {
   return (
-    <AuthProvider> {/* Wrap the entire app with AuthProvider */}
+    <AuthProvider>
       <BrowserRouter>
         <Routes>
           {/* Admin routes - outside of the main Layout */}
@@ -21,11 +21,16 @@ const App = () => {
               <AdminDashboard />
             </ProtectedRoute>
           } />
-
-          {/* Student dashboard remains within Layout */}
+          
+          {/* Student routes */}
           <Route path="student/dashboard" element={
             <ProtectedRoute allowedRoles={["student"]}>
               <StudentDashboard />
+            </ProtectedRoute>
+          } />
+          <Route path="student/learning" element={
+            <ProtectedRoute allowedRoles={["student"]}>
+              <LearningPage />
             </ProtectedRoute>
           } />
           
@@ -34,7 +39,7 @@ const App = () => {
             {/* Redirect to dashboard if authenticated */}
             <Route index element={<HomeOrDashboard />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="/*" element={<AuthRoutes />} />  
+            <Route path="/*" element={<AuthRoutes />} />
           </Route>
         </Routes>
       </BrowserRouter>
@@ -45,11 +50,11 @@ const App = () => {
 // Helper component to redirect to the appropriate dashboard if authenticated
 const HomeOrDashboard = () => {
   const { user, loading } = useAuth();
-
+  
   if (loading) {
     return <div>Loading...</div>;
   }
-
+  
   if (user) {
     if (user.role === 'admin') {
       return <Navigate to="/admin/dashboard" replace />;
@@ -57,7 +62,7 @@ const HomeOrDashboard = () => {
       return <Navigate to="/student/dashboard" replace />;
     }
   }
-
+  
   // If not authenticated, show the home page
   return <Home />;
 };

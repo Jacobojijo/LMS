@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { 
   ModuleSidebar, 
   TopicContent, 
@@ -11,13 +12,16 @@ import {
   EnhancedAssessment
 } from './ScoreCalculator'; 
 
-// Assume we're importing the data from an asset file
-import courseData from '../../../assets/file';
+import { useAuth } from '../../../context/AuthContext';
 
 const CourseVisualization = () => {
+  // Use authentication context
+  const { user } = useAuth();
+
   // State for course data
   const [courseInfo, setCourseInfo] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [initialLoadFailed, setInitialLoadFailed] = useState(false);
   
   // States for navigation and interaction
   const [activeModule, setActiveModule] = useState(0);
@@ -30,10 +34,50 @@ const CourseVisualization = () => {
 
   // Load course data
   useEffect(() => {
-    // Load the imported data
-    setCourseInfo(courseData);
-    setIsLoading(false);
-  }, []);
+    const fetchCourseData = async () => {
+      if (!user) {
+        setIsLoading(false);
+        return;
+      }
+
+      try {
+        // Get the token from localStorage
+        const token = localStorage.getItem('token');
+        
+        // Fetch user's enrolled courses
+        const response = await axios.get(`/api/enrollments/user/${user._id}/courses`, {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        });
+
+        // Assuming the first enrollment is selected
+        if (response.data.count > 0) {
+          // Extract the course from the first enrollment
+          const enrolledCourse = response.data.data[0].course;
+          
+          // Transform the backend data to match the existing component structure
+          const transformedCourseData = {
+            success: true,
+            data: [{ course: enrolledCourse }]
+          };
+
+          setCourseInfo(transformedCourseData);
+          setInitialLoadFailed(false);
+        } else {
+          setInitialLoadFailed(true);
+        }
+        
+        setIsLoading(false);
+      } catch (err) {
+        console.error('Error fetching course data:', err);
+        setInitialLoadFailed(true);
+        setIsLoading(false);
+      }
+    };
+
+    fetchCourseData();
+  }, [user]);
 
   // Reset answers when changing topics
   useEffect(() => {
@@ -135,9 +179,37 @@ const CourseVisualization = () => {
     return totalTopics > 0 ? Math.round((completedTopics / totalTopics) * 100) : 0;
   };
 
+  // Handle page reload
+  const handleReload = () => {
+    window.location.reload();
+  };
+
   // Get current content based on active page
   const getCurrentContent = () => {
-    if (!course) return <div>Select a topic to begin</div>;
+    if (isLoading) {
+      return <div>Loading course content...</div>;
+    }
+
+    if (initialLoadFailed) {
+      return (
+        <div className="flex flex-col items-center justify-center h-full">
+          <h2 className="text-2xl font-bold mb-4">Almost There!</h2>
+          <p className="text-gray-600 mb-8 text-center max-w-md">
+            We're having trouble loading your course data. Click the button below to refresh and try again.
+          </p>
+          <button
+            onClick={handleReload}
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Refresh Course
+          </button>
+        </div>
+      );
+    }
+
+    if (!course) {
+      return <div>Select a topic to begin</div>;
+    }
     
     const currentModule = course.modules[activeModule];
     const currentTopic = currentModule.topics[activeTopic];
@@ -149,11 +221,35 @@ const CourseVisualization = () => {
     switch (activePage) {
       case 'topic':
         return (
-          <TopicContent 
-            module={currentModule}
-            topic={currentTopic}
-            setActivePage={setActivePage}
-          />
+          <div className="topic-content p-6 bg-white rounded-lg shadow">
+            <div className="mb-6">
+              <h1 className="text-3xl font-bold mb-2">{course.title}</h1>
+              <p className="text-gray-600 mb-4">{course.description}</p>
+              <h2 className="text-xl font-semibold mb-4 text-gray-600">{currentModule.title}</h2>
+              <h3 className="text-lg font-medium mb-4">{currentTopic.title}</h3>
+              <p className="mb-6">{currentModule.description}</p>
+            </div>
+            
+            <div className="navigation-buttons flex space-x-4 mt-8">
+              <button 
+                onClick={() => setActivePage('html')} 
+                className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
+                style={{backgroundColor: colors.accent}}
+              >
+                View Topic Content
+              </button>
+              
+              {currentTopic.practiceQuestions && currentTopic.practiceQuestions.length > 0 && (
+                <button 
+                  onClick={() => setActivePage('practice')} 
+                  className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
+                  style={{backgroundColor: colors.accent}}
+                >
+                  Practice Questions ({currentTopic.practiceQuestions.length})
+                </button>
+              )}
+            </div>
+          </div>
         );
       case 'html':
         return (
@@ -201,10 +297,29 @@ const CourseVisualization = () => {
     );
   }
 
+  if (initialLoadFailed) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-4">Almost There!</h2>
+          <p className="text-gray-600 mb-8 max-w-md mx-auto">
+          We're preparing your course! Click here to continue
+          </p>
+          <button
+            onClick={handleReload}
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Access Course
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   if (!course) {
     return (
       <div className="flex items-center justify-center h-screen">
-        <div className="text-xl">Error loading course data</div>
+        <div className="text-xl">Loading ...</div>
       </div>
     );
   }
