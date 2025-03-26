@@ -55,35 +55,83 @@ export const QuestionOption = ({ option, optionIndex, isSelected, isCorrect, sho
 };
 
 // Module Sidebar Component
-export const ModuleSidebar = ({ course, activeModule, activeTopic, activePage, navigateTo }) => {
+export const ModuleSidebar = ({ 
+  course, 
+  activeModule, 
+  activeTopic, 
+  activePage, 
+  navigateTo, 
+  moduleCompletion = {} 
+}) => {
+  const isTopicLocked = (moduleIndex, topicIndex) => {
+    // First module and first topic are always accessible
+    if (moduleIndex === 0 && topicIndex === 0) return false;
+
+    // Check if previous module is completed if trying to access a new module
+    if (moduleIndex > 0 && !moduleCompletion[`module-${moduleIndex - 1}`]) {
+      return true;
+    }
+
+    // Check if all previous topics in the current module are completed
+    for (let i = 0; i < topicIndex; i++) {
+      if (!moduleCompletion[`${moduleIndex}-${i}`]) {
+        return true;
+      }
+    }
+
+    return false;
+  };
+
+  const isModuleLocked = (moduleIndex) => {
+    // First module is always accessible
+    if (moduleIndex === 0) return false;
+
+    // Check if previous module is completed
+    return !moduleCompletion[`module-${moduleIndex - 1}`];
+  };
+
   return (
     <div className="sidebar w-1/4 overflow-y-auto shadow-md" style={{backgroundColor: colors.lightBeige}}>
       <div className="p-4 border-b" style={{borderColor: 'rgba(0,0,0,0.1)'}}>
         <h1 className="text-xl font-bold text-center mb-2">{course.title}</h1>
         <div className="progress-bar w-full h-2 bg-gray-200 rounded-full overflow-hidden">
-          <div className="h-full" style={{width: '0%', backgroundColor: colors.accent}}></div>
+          <div 
+            className="h-full" 
+            style={{
+              width: `${course.progress || 0}%`, 
+              backgroundColor: colors.accent
+            }}
+          ></div>
         </div>
-        <div className="text-sm text-center mt-1">0% Complete</div>
+        <div className="text-sm text-center mt-1">{course.progress || 0}% Complete</div>
       </div>
       
       <div className="modules-list p-4">
         {course.modules.map((module, moduleIndex) => (
           <div key={module._id} className="module-container mb-4">
             <div 
-              className="module-title font-semibold p-3 rounded-md cursor-pointer flex items-center"
+              className={`module-title font-semibold p-3 rounded-md flex items-center ${
+                isModuleLocked(moduleIndex) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+              }`}
               style={{
                 backgroundColor: moduleIndex === activeModule ? colors.lightTeal : 'transparent',
                 color: colors.darkText
               }}
-              onClick={() => navigateTo(moduleIndex, 0)}
+              onClick={() => !isModuleLocked(moduleIndex) && navigateTo(moduleIndex, 0)}
             >
               <div 
                 className="module-icon mr-3 w-8 h-8 flex items-center justify-center rounded-full"
-                style={{backgroundColor: colors.accent, color: 'white'}}
+                style={{
+                  backgroundColor: isModuleLocked(moduleIndex) ? '#cccccc' : colors.accent, 
+                  color: 'white'
+                }}
               >
                 {moduleIndex + 1}
               </div>
               {`Module ${getModuleNumberText(moduleIndex + 1)}: ${module.title}`}
+              {isModuleLocked(moduleIndex) && (
+                <span className="ml-2 text-xs text-gray-500">(Locked)</span>
+              )}
             </div>
             
             {moduleIndex === activeModule && (
@@ -91,39 +139,72 @@ export const ModuleSidebar = ({ course, activeModule, activeTopic, activePage, n
                 {module.topics.map((topic, topicIndex) => (
                   <div 
                     key={topic._id} 
-                    className="topic-item p-2 rounded-md cursor-pointer flex items-center"
+                    className={`topic-item p-2 rounded-md flex items-center ${
+                      isTopicLocked(moduleIndex, topicIndex) 
+                        ? 'opacity-50 cursor-not-allowed' 
+                        : 'cursor-pointer'
+                    }`}
                     style={{
-                      backgroundColor: moduleIndex === activeModule && topicIndex === activeTopic && 
+                      backgroundColor: 
+                        moduleIndex === activeModule && 
+                        topicIndex === activeTopic && 
                         (activePage === 'topic' || activePage === 'html' || activePage === 'practice')
-                        ? colors.lightRose 
-                        : 'transparent',
+                          ? colors.lightRose 
+                          : 'transparent',
                       color: colors.darkText
                     }}
-                    onClick={() => navigateTo(moduleIndex, topicIndex, 'topic')}
+                    onClick={() => 
+                      !isTopicLocked(moduleIndex, topicIndex) && 
+                      navigateTo(moduleIndex, topicIndex, 'topic')
+                    }
                   >
-                    <div className="w-2 h-2 bg-gray-400 rounded-full mr-2"></div>
+                    <div 
+                      className="w-2 h-2 rounded-full mr-2"
+                      style={{
+                        backgroundColor: isTopicLocked(moduleIndex, topicIndex) 
+                          ? '#cccccc' 
+                          : (moduleCompletion[`${moduleIndex}-${topicIndex}`] ? 'green' : 'gray')
+                      }}
+                    ></div>
                     {topic.title}
+                    {isTopicLocked(moduleIndex, topicIndex) && (
+                      <span className="ml-2 text-xs text-gray-500">(Locked)</span>
+                    )}
                   </div>
                 ))}
                 
                 {module.cat && (
                   <div 
-                    className="assessment-item p-2 rounded-md cursor-pointer flex items-center mt-4"
+                    className={`assessment-item p-2 rounded-md flex items-center mt-4 ${
+                      isModuleLocked(moduleIndex) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+                    }`}
                     style={{
-                      backgroundColor: moduleIndex === activeModule && activePage === 'assessment' 
-                        ? colors.lightRose 
-                        : 'transparent',
+                      backgroundColor: 
+                        moduleIndex === activeModule && activePage === 'assessment' 
+                          ? colors.lightRose 
+                          : 'transparent',
                       color: colors.darkText,
                       borderTop: '1px solid rgba(0,0,0,0.1)',
                       marginTop: '8px',
                       paddingTop: '8px'
                     }}
-                    onClick={() => navigateTo(moduleIndex, 0, 'assessment')}
+                    onClick={() => 
+                      !isModuleLocked(moduleIndex) && 
+                      navigateTo(moduleIndex, 0, 'assessment')
+                    }
                   >
-                    <div className="w-4 h-4 text-sm flex items-center justify-center bg-yellow-500 text-white rounded-full mr-2">
+                    <div 
+                      className="w-4 h-4 text-sm flex items-center justify-center text-white rounded-full mr-2"
+                      style={{
+                        backgroundColor: isModuleLocked(moduleIndex) ? '#cccccc' : 'orange'
+                      }}
+                    >
                       !
                     </div>
                     {module.cat.title}
+                    {isModuleLocked(moduleIndex) && (
+                      <span className="ml-2 text-xs text-gray-500">(Locked)</span>
+                    )}
                   </div>
                 )}
               </div>
@@ -134,6 +215,7 @@ export const ModuleSidebar = ({ course, activeModule, activeTopic, activePage, n
     </div>
   );
 };
+
 
 // Topic Content Component
 export const TopicContent = ({ module, topic, setActivePage }) => {

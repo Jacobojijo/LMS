@@ -14,8 +14,9 @@ import {
 
 import { useAuth } from '../../../context/AuthContext';
 
+const BASE_API_URL = 'http://localhost:5000/api'; // Or your local API URL
+
 const CourseVisualization = () => {
-  // Use authentication context
   const { user } = useAuth();
 
   // State for course data
@@ -23,46 +24,98 @@ const CourseVisualization = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [initialLoadFailed, setInitialLoadFailed] = useState(false);
   
+  // Progress tracking states
+  const [moduleCompletion, setModuleCompletion] = useState({});
+  const [overallProgress, setOverallProgress] = useState(0);
+  
   // States for navigation and interaction
   const [activeModule, setActiveModule] = useState(0);
   const [activeTopic, setActiveTopic] = useState(0);
-  const [activePage, setActivePage] = useState('topic'); // 'topic', 'html', 'practice', 'assessment'
+  const [activePage, setActivePage] = useState('topic');
   const [userAnswers, setUserAnswers] = useState({});
-  
-  // Track module completion status
-  const [moduleCompletion, setModuleCompletion] = useState({});
 
-  // Load course data
+  // Load course data and resume progress
   useEffect(() => {
-    const fetchCourseData = async () => {
+    const fetchCourseProgressAndData = async () => {
       if (!user) {
         setIsLoading(false);
         return;
       }
 
       try {
-        // Get the token from localStorage
         const token = localStorage.getItem('token');
         
         // Fetch user's enrolled courses
-        const response = await axios.get(`/api/enrollments/user/${user._id}/courses`, {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
+        const courseResponse = await axios.get(`${BASE_API_URL}/enrollments/user/${user._id}/courses`, {
+          headers: { Authorization: `Bearer ${token}` }
         });
 
-        // Assuming the first enrollment is selected
-        if (response.data.count > 0) {
-          // Extract the course from the first enrollment
-          const enrolledCourse = response.data.data[0].course;
+        if (courseResponse.data.count > 0) {
+          const enrolledCourse = courseResponse.data.data[0].course;
           
-          // Transform the backend data to match the existing component structure
-          const transformedCourseData = {
-            success: true,
-            data: [{ course: enrolledCourse }]
-          };
+          // Try to resume progress
+          try {
+            const progressResponse = await axios.get(`${BASE_API_URL}/progress/course/${enrolledCourse._id}/resume`, {
+              headers: { Authorization: `Bearer ${token}` }
+            });
 
-          setCourseInfo(transformedCourseData);
+            const progressData = progressResponse.data.data;
+            
+            // Initialize module completion from progress data
+            const newModuleCompletion = {};
+            
+            // Mark completed modules
+            progressData.completedModules?.forEach(moduleId => {
+              const moduleIndex = enrolledCourse.modules.findIndex(m => m._id === moduleId);
+              if (moduleIndex !== -1) {
+                newModuleCompletion[`module-${moduleIndex}`] = true;
+              }
+            });
+
+            // Mark completed topics
+            progressData.completedTopics?.forEach(({ moduleId, topicId }) => {
+              const moduleIndex = enrolledCourse.modules.findIndex(m => m._id === moduleId);
+              if (moduleIndex !== -1) {
+                const topicIndex = enrolledCourse.modules[moduleIndex].topics.findIndex(t => t._id === topicId);
+                if (topicIndex !== -1) {
+                  newModuleCompletion[`${moduleIndex}-${topicIndex}`] = true;
+                }
+              }
+            });
+
+            setModuleCompletion(newModuleCompletion);
+            setOverallProgress(progressData.overallProgress || 0);
+
+            // Set active navigation based on progress
+            if (progressData.currentModule) {
+              const moduleIndex = enrolledCourse.modules.findIndex(m => m._id === progressData.currentModule);
+              if (moduleIndex !== -1) {
+                setActiveModule(moduleIndex);
+                
+                if (progressData.currentTopic) {
+                  const topicIndex = enrolledCourse.modules[moduleIndex].topics.findIndex(
+                    t => t._id === progressData.currentTopic
+                  );
+                  if (topicIndex !== -1) {
+                    setActiveTopic(topicIndex);
+                  }
+                }
+              }
+            }
+
+            setActivePage(progressData.lastAccessedPage || 'topic');
+          } catch (progressError) {
+            console.log('No previous progress found, starting from beginning');
+            // Initialize with first module/topic
+            setActiveModule(0);
+            setActiveTopic(0);
+            setActivePage('topic');
+          }
+
+          setCourseInfo({
+            success: true, 
+            data: [{ course: enrolledCourse }]
+          });
           setInitialLoadFailed(false);
         } else {
           setInitialLoadFailed(true);
@@ -76,13 +129,63 @@ const CourseVisualization = () => {
       }
     };
 
-    fetchCourseData();
+    fetchCourseProgressAndData();
   }, [user]);
 
   // Reset answers when changing topics
   useEffect(() => {
     setUserAnswers({});
   }, [activeModule, activeTopic, activePage]);
+
+  // Update progress on server
+  const updateProgress = async () => {
+    if (!courseInfo?.data?.[0]?.course) return;
+
+    try {
+      const token = localStorage.getItem('token');
+      const courseId = courseInfo.data[0].course._id;
+      const currentModule = courseInfo.data[0].course.modules[activeModule];
+      const currentTopic = currentModule.topics[activeTopic];
+
+      // Prepare completed modules and topics
+      const completedModules = [];
+      const completedTopics = [];
+      const completedAssessments = [];
+
+      Object.keys(moduleCompletion).forEach(key => {
+        if (key.startsWith('module-')) {
+          const moduleIndex = key.split('-')[1];
+          const moduleId = courseInfo.data[0].course.modules[moduleIndex]?._id;
+          if (moduleId) {
+            completedModules.push(moduleId);
+            // Assume module assessments are completed when module is marked complete
+            completedAssessments.push(moduleId);
+          }
+        } else if (key.includes('-')) {
+          const [moduleIndex, topicIndex] = key.split('-');
+          const moduleId = courseInfo.data[0].course.modules[moduleIndex]?._id;
+          const topicId = courseInfo.data[0].course.modules[moduleIndex]?.topics[topicIndex]?._id;
+          if (moduleId && topicId) {
+            completedTopics.push({ moduleId, topicId });
+          }
+        }
+      });
+
+      await axios.put(`${BASE_API_URL}/progress/course/${courseId}`, {
+        moduleId: currentModule._id,
+        topicId: currentTopic._id,
+        page: activePage,
+        completedModules,
+        completedTopics,
+        completedAssessments,
+        overallProgress: calculateProgress()
+      }, {
+        headers: { Authorization: `Bearer ${token}` }
+      });
+    } catch (err) {
+      console.error('Error updating progress:', err);
+    }
+  };
 
   // Get the course object from the data
   const course = courseInfo?.success && courseInfo.data[0]?.course;
@@ -100,11 +203,14 @@ const CourseVisualization = () => {
     const nextTopicIndex = activeTopic + 1;
     const currentModule = course.modules[activeModule];
     
-    // Update completion status
+    // Update completion status using activeTopic
     setModuleCompletion(prev => ({
       ...prev,
       [`${activeModule}-${activeTopic}`]: true
     }));
+
+    // Update progress
+    updateProgress();
     
     // Check if there's a next topic in this module
     if (nextTopicIndex < currentModule.topics.length) {
@@ -124,8 +230,11 @@ const CourseVisualization = () => {
     // Mark the entire module as complete
     setModuleCompletion(prev => ({
       ...prev,
-      [`module-${activeModule}`]: true
+      [`module-${activeModule}`]:true
     }));
+
+    // Update progress
+    updateProgress();
     
     // Go to next module if available
     if (activeModule + 1 < course.modules.length) {
@@ -153,30 +262,32 @@ const CourseVisualization = () => {
   const calculateProgress = () => {
     if (!course) return 0;
     
-    let totalTopics = 0;
-    let completedTopics = 0;
+    let totalItems = 0;
+    let completedItems = 0;
     
     course.modules.forEach((module, moduleIndex) => {
       // Count topics
-      totalTopics += module.topics.length;
+      totalItems += module.topics.length;
       
       // Count completed topics
       module.topics.forEach((_, topicIndex) => {
         if (moduleCompletion[`${moduleIndex}-${topicIndex}`]) {
-          completedTopics++;
+          completedItems++;
         }
       });
       
       // Count module assessment
       if (module.cat) {
-        totalTopics++;
+        totalItems++;
         if (moduleCompletion[`module-${moduleIndex}`]) {
-          completedTopics++;
+          completedItems++;
         }
       }
     });
     
-    return totalTopics > 0 ? Math.round((completedTopics / totalTopics) * 100) : 0;
+    const progress = totalItems > 0 ? Math.round((completedItems / totalItems) * 100) : 0;
+    setOverallProgress(progress);
+    return progress;
   };
 
   // Handle page reload
@@ -187,7 +298,7 @@ const CourseVisualization = () => {
   // Get current content based on active page
   const getCurrentContent = () => {
     if (isLoading) {
-      return <div>Loading course content...</div>;
+      return <div className="flex items-center justify-center h-full">Loading course content...</div>;
     }
 
     if (initialLoadFailed) {
@@ -208,7 +319,7 @@ const CourseVisualization = () => {
     }
 
     if (!course) {
-      return <div>Select a topic to begin</div>;
+      return <div className="flex items-center justify-center h-full">Select a topic to begin</div>;
     }
     
     const currentModule = course.modules[activeModule];
@@ -257,6 +368,7 @@ const CourseVisualization = () => {
             module={currentModule}
             topic={currentTopic}
             setActivePage={setActivePage}
+            markTopicComplete={markTopicComplete}
           />
         );
       case 'practice':
@@ -285,9 +397,16 @@ const CourseVisualization = () => {
           />
         );
       default:
-        return <div>Select a topic to begin</div>;
+        return <div className="flex items-center justify-center h-full">Select a topic to begin</div>;
     }
   };
+
+  // Update progress when completion status changes
+  useEffect(() => {
+    if (courseInfo && Object.keys(moduleCompletion).length > 0) {
+      updateProgress();
+    }
+  }, [moduleCompletion]);
 
   if (isLoading) {
     return (
@@ -324,15 +443,13 @@ const CourseVisualization = () => {
     );
   }
 
-  const progress = calculateProgress();
-
   return (
     <div className="course-container flex h-screen">
       {/* Left Sidebar Navigation */}
       <ModuleSidebar 
         course={{
           ...course,
-          progress // Add progress to the course object
+          progress: overallProgress
         }}
         activeModule={activeModule}
         activeTopic={activeTopic}

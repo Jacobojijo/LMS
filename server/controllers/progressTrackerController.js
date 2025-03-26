@@ -3,9 +3,10 @@ const Course = require('../models/Course');
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/asyncMiddleware');
 
-exports.updateProgress = asyncHandler(async (req, res, next) => {
+// Update progress for a specific course
+const updateProgress = asyncHandler(async (req, res, next) => {
+  const { courseId } = req.params; // Extract courseId from params
   const { 
-    courseId, 
     moduleId, 
     topicId, 
     page, 
@@ -15,61 +16,84 @@ exports.updateProgress = asyncHandler(async (req, res, next) => {
     overallProgress 
   } = req.body;
 
-  // Find or create progress record
-  let progress = await Progress.findOne({ 
-    user: req.user.id, 
-    course: courseId 
-  });
-
-  if (!progress) {
-    progress = new Progress({
-      user: req.user.id,
-      course: courseId
-    });
+  // Validate required fields
+  if (!courseId) {
+    return next(new ErrorResponse('Course ID is required', 400));
   }
 
-  // Update current location
-  progress.currentModule = moduleId;
-  progress.currentTopic = topicId;
-  progress.lastAccessedPage = page;
+  // Ensure user is authenticated
+  if (!req.user || !req.user.id) {
+    return next(new ErrorResponse('Authentication required', 401));
+  }
 
-  // Update completed modules
-  completedModules.forEach(moduleId => {
-    if (!progress.completedModules.some(m => m.moduleId.toString() === moduleId)) {
-      progress.completedModules.push({ moduleId });
+  try {
+    // Find or create progress record
+    let progress = await Progress.findOne({ 
+      user: req.user.id, 
+      course: courseId 
+    });
+
+    if (!progress) {
+      progress = new Progress({
+        user: req.user.id,
+        course: courseId
+      });
     }
-  });
 
-  // Update completed topics
-  completedTopics.forEach(({ moduleId, topicId }) => {
-    if (!progress.completedTopics.some(
-      t => t.moduleId.toString() === moduleId && 
-            t.topicId.toString() === topicId
-    )) {
-      progress.completedTopics.push({ moduleId, topicId });
+    // Sanitize and validate inputs
+    progress.currentModule = moduleId || null;
+    progress.currentTopic = topicId || null;
+    progress.lastAccessedPage = page || 'topic';
+
+    // Update completed modules with unique entries
+    if (completedModules && completedModules.length > 0) {
+      completedModules.forEach(moduleId => {
+        if (!progress.completedModules.some(m => m.moduleId.toString() === moduleId)) {
+          progress.completedModules.push({ moduleId });
+        }
+      });
     }
-  });
 
-  // Update completed assessments
-  completedAssessments.forEach(moduleId => {
-    if (!progress.completedAssessments.some(a => a.moduleId.toString() === moduleId)) {
-      progress.completedAssessments.push({ moduleId });
+    // Update completed topics with unique entries
+    if (completedTopics && completedTopics.length > 0) {
+      completedTopics.forEach(({ moduleId, topicId }) => {
+        if (!progress.completedTopics.some(
+          t => t.moduleId.toString() === moduleId && 
+                t.topicId.toString() === topicId
+        )) {
+          progress.completedTopics.push({ moduleId, topicId });
+        }
+      });
     }
-  });
 
-  // Update overall progress
-  progress.overallProgress = overallProgress;
-  progress.lastAccessedAt = Date.now();
+    // Update completed assessments with unique entries
+    if (completedAssessments && completedAssessments.length > 0) {
+      completedAssessments.forEach(moduleId => {
+        if (!progress.completedAssessments.some(a => a.moduleId.toString() === moduleId)) {
+          progress.completedAssessments.push({ moduleId });
+        }
+      });
+    }
 
-  await progress.save();
+    // Update overall progress
+    progress.overallProgress = overallProgress || 0;
+    progress.lastAccessedAt = Date.now();
 
-  res.status(200).json({
-    success: true,
-    data: progress
-  });
+    await progress.save();
+
+    res.status(200).json({
+      success: true,
+      data: progress
+    });
+  } catch (error) {
+    // Log the full error for debugging
+    console.error('Progress update error:', error);
+    next(new ErrorResponse('Error updating progress', 500));
+  }
 });
 
-exports.getProgress = asyncHandler(async (req, res, next) => {
+// Get progress for a specific course
+const getProgress = asyncHandler(async (req, res, next) => {
   const { courseId } = req.params;
 
   const progress = await Progress.findOne({ 
@@ -87,42 +111,72 @@ exports.getProgress = asyncHandler(async (req, res, next) => {
   });
 });
 
-exports.resumeCourse = asyncHandler(async (req, res, next) => {
+// Resume course with detailed progress information
+const resumeCourse = asyncHandler(async (req, res, next) => {
   const { courseId } = req.params;
 
-  const progress = await Progress.findOne({ 
-    user: req.user.id, 
-    course: courseId 
-  }).populate({
-    path: 'course',
-    populate: {
-      path: 'modules',
-      populate: {
-        path: 'topics'
-      }
-    }
-  });
-
-  if (!progress) {
-    return next(new ErrorResponse('No progress found for this course', 404));
+  // Validate inputs
+  if (!courseId) {
+    return next(new ErrorResponse('Course ID is required', 400));
   }
 
-  // Prepare resume data
-  const resumeData = {
-    currentModule: progress.currentModule,
-    currentTopic: progress.currentTopic,
-    lastAccessedPage: progress.lastAccessedPage,
-    completedModules: progress.completedModules.map(m => m.moduleId),
-    completedTopics: progress.completedTopics.map(t => ({
-      moduleId: t.moduleId,
-      topicId: t.topicId
-    })),
-    completedAssessments: progress.completedAssessments.map(a => a.moduleId),
-    overallProgress: progress.overallProgress
-  };
+  try {
+    const progress = await Progress.findOne({ 
+      user: req.user.id, 
+      course: courseId 
+    }).populate({
+      path: 'course',
+      populate: {
+        path: 'modules',
+        populate: {
+          path: 'topics'
+        }
+      }
+    });
 
-  res.status(200).json({
-    success: true,
-    data: resumeData
-  });
+    // If no progress found, return default empty progress
+    if (!progress) {
+      return res.status(200).json({
+        success: true,
+        data: {
+          currentModule: null,
+          currentTopic: null,
+          lastAccessedPage: 'topic',
+          completedModules: [],
+          completedTopics: [],
+          completedAssessments: [],
+          overallProgress: 0
+        }
+      });
+    }
+
+    // Prepare resume data
+    const resumeData = {
+      currentModule: progress.currentModule,
+      currentTopic: progress.currentTopic,
+      lastAccessedPage: progress.lastAccessedPage || 'topic',
+      completedModules: progress.completedModules.map(m => m.moduleId),
+      completedTopics: progress.completedTopics.map(t => ({
+        moduleId: t.moduleId,
+        topicId: t.topicId
+      })),
+      completedAssessments: progress.completedAssessments.map(a => a.moduleId),
+      overallProgress: progress.overallProgress || 0
+    };
+
+    res.status(200).json({
+      success: true,
+      data: resumeData
+    });
+  } catch (error) {
+    console.error('Resume course error:', error);
+    next(new ErrorResponse('Error retrieving course progress', 500));
+  }
 });
+
+// Export as an object with the controller functions
+module.exports = {
+  updateProgress,
+  getProgress,
+  resumeCourse
+};
