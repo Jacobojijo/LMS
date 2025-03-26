@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following is an example of a Dholuo abstract noun?",
+        "options": [
+          "Kwee",
+          "Buk", 
+          "Dhok",
+          "Jowi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Kwee\" is an example of an abstract noun in Dholuo, representing a concept or idea rather than a physical object."
+      },
+      {
+        "question": "In Dholuo, what does the word \"Bor\" mean in the context of weather?",
+        "options": [
+          "Fat of an animal",
+          "Distance", 
+          "Clouds in the sky",
+          "A place of burial"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Bor\" means \"clouds in the sky\" in the context of weather in Dholuo."
+      },
+      {
+        "question": "Which of the following words can mean both \"fireplace\" and \"to marry\" in Dholuo?",
+        "options": [
+          "Kendo",
+          "Lemo", 
+          "Pado",
+          "Mok"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Kendo\" can mean both \"fireplace\" and \"to marry\" in Dholuo, demonstrating the language's linguistic complexity."
+      },
+      {
+        "question": "How does pronunciation affect the meaning of the word \"Dhok\" in Dholuo?",
+        "options": [
+          "It determines if it means \"buffalo\" or \"head.\"",
+          "It distinguishes between \"language\" and \"peace.\"", 
+          "It differentiates between \"mouth,\" \"cows,\" and \"language.\"",
+          "There is no phonetic distinction in meaning."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Pronunciation of \"Dhok\" can differentiate between meanings such as \"mouth,\" \"cows,\" and \"language\" in Dholuo."
+      },
+      {
+        "question": "In what context does \"Tong'\" mean \"to cut\" in Dholuo?",
+        "options": [
+          "When referring to an egg",
+          "When talking about a weapon", 
+          "As an imperative form of the verb \"tong'o\"",
+          "When describing a boundary"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Tong'\" means \"to cut\" when used as an imperative form of the verb \"tong'o\" in Dholuo."
+      },
+      {
+        "question": "What is the primary linguistic challenge associated with Dholuo equivocal words?",
+        "options": [
+          "Lack of proper written documentation",
+          "Dependence on pronunciation and context to determine meaning", 
+          "The absence of grammatical structure",
+          "Limited vocabulary in the language"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The primary linguistic challenge is the dependence on pronunciation and context to determine the meaning of equivocal words in Dholuo."
+      },
+      {
+        "question": "Which word can mean both \"death\" and \"dew\" in Dholuo, depending on pronunciation?",
+        "options": [
+          "Tho",
+          "Were", 
+          "Yweyo",
+          "Kare"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Tho\" can mean both \"death\" and \"dew\" in Dholuo, depending on its pronunciation."
+      },
+      {
+        "question": "If someone says \"Yie\" in a religious discussion, what is the most likely meaning?",
+        "options": [
+          "A boat",
+          "Faith", 
+          "To sweep",
+          "A boundary"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In a religious discussion, \"Yie\" most likely means \"faith\" in Dholuo."
+      },
+      {
+        "question": "What strategy is most effective in understanding Dholuo equivocal words?",
+        "options": [
+          "Memorizing all possible meanings",
+          "Ignoring pronunciation differences", 
+          "Practicing in real-life conversations with native speakers",
+          "Avoiding words with multiple meanings"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Practicing in real-life conversations with native speakers is the most effective strategy for understanding Dholuo equivocal words."
+      },
+      {
+        "question": "In Dholuo culture, which of the following words refers to both \"a musical sound\" and \"slapping someone\"?",
+        "options": [
+          "Pado",
+          "Omera", 
+          "Lony",
+          "Kal"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Pado\" can refer to both \"a musical sound\" and \"slapping someone\" in Dholuo culture."
+      }
+    ]
+  }

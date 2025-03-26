@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "How many letters are there in the Dholuo alphabet?",
+        "options": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Dholuo alphabet consists of 22 letters."
+      },
+      {
+        "question": "Which of the following statements is TRUE about Dholuo vowels?",
+        "options": [
+          "Dholuo vowels are sometimes silent in words.",
+          "Dholuo vowels are pronounced with gliding sounds.",
+          "Dholuo vowels have phonemically significant length variations.",
+          "Dholuo vowels do not appear in closed syllables."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dholuo vowels have phonemically significant length variations, which means the length of a vowel can change the meaning of a word."
+      },
+      {
+        "question": "What is the role of tone in Dholuo pronunciation?",
+        "options": [
+          "Tone helps in making words more rhythmic.",
+          "Tone differentiates meanings of words.",
+          "Tone is used only in formal speech.",
+          "Tone affects only the pronunciation of consonants."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, tone is used to differentiate the meanings of words, playing a crucial role in communication."
+      },
+      {
+        "question": "The letter \"C\" in Dholuo does not occur alone but appears in which digraph?",
+        "options": [
+          "CH",
+          "CK",
+          "TH",
+          "NG"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The letter \"C\" appears in the digraph \"CH\" in Dholuo."
+      },
+      {
+        "question": "What is the correct classification of the consonant 'M' in Dholuo?",
+        "options": [
+          "Plosive",
+          "Fricative",
+          "Nasal",
+          "Liquid"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The consonant 'M' in Dholuo is classified as a nasal consonant."
+      },
+      {
+        "question": "Which of the following is an example of a long vowel distinction in Dholuo?",
+        "options": [
+          "\"bith\" (sharp) vs. \"pith\" (many)",
+          "\"luor\" (fear) vs. \"lúor\" (circumnavigate)",
+          "\"kendo\" (fireplace) vs. \"keeendo\" (to marry)",
+          "\"joka\" (those people) vs. \"joka\" (these people)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The example \"kendo\" (fireplace) vs. \"keeendo\" (to marry) demonstrates a long vowel distinction in Dholuo."
+      },
+      {
+        "question": "Which consonant group in Dholuo is pronounced like the English 'th' in \"that\"?",
+        "options": [
+          "TH",
+          "NG'",
+          "DH",
+          "TW"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The consonant group \"DH\" in Dholuo is pronounced like the English 'th' in \"that\"."
+      },
+      {
+        "question": "What is a defining characteristic of Dholuo consonants?",
+        "options": [
+          "They change based on stress in a word.",
+          "They include plosives, nasals, and fricatives.",
+          "They are silent when placed before vowels.",
+          "They always appear at the beginning of words."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo consonants include various types such as plosives, nasals, and fricatives."
+      },
+      {
+        "question": "Which of the following examples correctly represents a Dholuo consonant digraph?",
+        "options": [
+          "P + R",
+          "MB",
+          "L + G",
+          "R + W"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"MB\" is an example of a Dholuo consonant digraph."
+      },
+      {
+        "question": "The word \"nyathi\" (child) contains which consonant group?",
+        "options": [
+          "CH",
+          "NG",
+          "NY",
+          "TH"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The word \"nyathi\" contains the consonant group \"NY\"."
+      }
+    ]
+  }

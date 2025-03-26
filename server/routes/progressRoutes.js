@@ -8,7 +8,7 @@ const {
   canAccessNextTopic,
   canAccessNextModule,
   getStudentProgressSummary,
-} = require("../controllers/progressController");
+} = require("../controllers/progressTrackerController");
 
 const router = express.Router();
 

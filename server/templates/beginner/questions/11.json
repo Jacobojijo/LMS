@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the most common way to express gratitude in Dholuo?",
+        "options": [
+          "Kiyie",
+          "Erokamano", 
+          "Machiegni",
+          "Konya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Erokamano\" is the most common way to express gratitude in Dholuo."
+      },
+      {
+        "question": "If someone thanks you in Dholuo, how should you politely respond?",
+        "options": [
+          "Ayie",
+          "Konya", 
+          "Machiegni",
+          "Okayie"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Machiegni\" is the polite response when someone thanks you in Dholuo."
+      },
+      {
+        "question": "Which phrase would be used to politely ask for something in Dholuo?",
+        "options": [
+          "Kiyie",
+          "Atimo mos", 
+          "Okayie",
+          "Adagi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Kiyie\" is used to politely ask for something in Dholuo."
+      },
+      {
+        "question": "How would a Luo speaker say \"I'm sorry\" to express regret?",
+        "options": [
+          "Kiyie to awuogi",
+          "Atimo mos", 
+          "Ayie",
+          "Erokamano"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Atimo mos\" is used to say \"I'm sorry\" or express regret in Dholuo."
+      },
+      {
+        "question": "In Dholuo, what phrase is used when politely asking for forgiveness or permission to leave?",
+        "options": [
+          "Okayie",
+          "Kiyie to awuogi", 
+          "Adagi",
+          "Jaduong'"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Kiyie to awuogi\" is used when politely asking for forgiveness or permission to leave."
+      },
+      {
+        "question": "What does the phrase \"Konya\" mean in a polite conversation?",
+        "options": [
+          "Help me",
+          "Excuse me", 
+          "No, I refuse",
+          "Thank you"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Konya\" means \"Help me\" in a polite conversation."
+      },
+      {
+        "question": "If someone says \"Nyasaye biro konya, biyie?\", how would you agree with them?",
+        "options": [
+          "Adagi",
+          "Okayie", 
+          "Ayie",
+          "Kiyie"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Ayie\" is used to agree when someone says \"Nyasaye biro konya, biyie?\"."
+      },
+      {
+        "question": "Which of the following phrases is used to politely decline a request?",
+        "options": [
+          "Machiegni",
+          "Ayie", 
+          "Adagi",
+          "Erokamano"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Adagi\" is used to politely decline a request in Dholuo."
+      },
+      {
+        "question": "What phrase would someone use when requesting directions in Dholuo?",
+        "options": [
+          "Kiyie nyisae yoo maduong'",
+          "Atimo mos kuom dwaro ng'eyo", 
+          "Okayie ok adwar",
+          "Konya, wuonwa"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Kiyie nyisae yoo maduong'\" is used when requesting directions in Dholuo."
+      },
+      {
+        "question": "In Dholuo culture, what is emphasized besides words when expressing politeness?",
+        "options": [
+          "Facial expressions and tone",
+          "Loud speaking", 
+          "Using only formal titles",
+          "Avoiding eye contact"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Facial expressions and tone are emphasized alongside words when expressing politeness in Dholuo culture."
+      }
+    ]
+  }

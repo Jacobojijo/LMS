@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the correct Dholuo translation for \"right now\"?",
+        "options": [
+          "Kiny",
+          "Sani Sani",
+          "Bang'e",
+          "Otieno"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Sani Sani\" is the correct Dholuo expression for \"right now\"."
+      },
+      {
+        "question": "Which term refers to the \"day before yesterday\" in Dholuo?",
+        "options": [
+          "Nyocha",
+          "Nyoro",
+          "Orucha",
+          "Kawuono"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Nyocha\" means \"the day before yesterday\" in Dholuo."
+      },
+      {
+        "question": "Which of the following correctly represents the morning in Dholuo?",
+        "options": [
+          "Odhiambo",
+          "Odiochieng'",
+          "Okinyi",
+          "Otieno"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Okinyi\" is the Dholuo term for morning."
+      },
+      {
+        "question": "How would you correctly say \"Later, we will help with the work\" in Dholuo?",
+        "options": [
+          "Bang'e wabiro konyo gi tich",
+          "Bang'e wabiro dhi e dala",
+          "Sani sani wabiro konyo gi tich",
+          "Kawuono wabiro nindo"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Bang'e wabiro konyo gi tich\" is the correct way to say \"Later, we will help with the work\" in Dholuo."
+      },
+      {
+        "question": "What is the correct meaning of \"Saa ochiko ewang'e ma Odiochieng'\"?",
+        "options": [
+          "Exactly 12 PM",
+          "Exactly 3 PM",
+          "Midnight",
+          "Late evening"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Saa ochiko ewang'e ma Odiochieng'\" refers to exactly 3 PM in Dholuo."
+      },
+      {
+        "question": "Which of the following phrases correctly describes \"The day after tomorrow\"?",
+        "options": [
+          "Kawuono",
+          "Kiny",
+          "Nyocha",
+          "Orucha"
+        ],
+        "correctAnswer": 3,
+        "explanation": "\"Orucha\" means \"the day after tomorrow\" in Dholuo."
+      },
+      {
+        "question": "In Dholuo, what does \"Dier otieno\" refer to?",
+        "options": [
+          "Early in the morning",
+          "Exactly noon",
+          "Midnight",
+          "Late evening"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Dier otieno\" refers to exactly noon in Dholuo."
+      },
+      {
+        "question": "What is the correct sentence structure when expressing time in Dholuo?",
+        "options": [
+          "Verb + Subject + Time marker",
+          "Time marker + Subject + Verb + Object",
+          "Object + Subject + Verb + Time marker",
+          "Time marker + Object + Subject + Verb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, the typical sentence structure for expressing time is Time marker + Subject + Verb + Object."
+      },
+      {
+        "question": "If someone says \"An gi tije mang'eny sani,\" what does it mean?",
+        "options": [
+          "I will have work tomorrow.",
+          "I had a lot of work yesterday.",
+          "I have a lot of work now.",
+          "I will work later."
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"An gi tije mang'eny sani\" means \"I have a lot of work now\" in Dholuo."
+      },
+      {
+        "question": "Which of the following best translates to \"Very early in the morning\" in Dholuo?",
+        "options": [
+          "Odhiambo",
+          "Kok gwen",
+          "Saa ochiko",
+          "Kiny"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Kok gwen\" translates to \"very early in the morning\" in Dholuo."
+      }
+    ]
+  }

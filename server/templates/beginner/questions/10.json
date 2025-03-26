@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In traditional Luo governance, who held the highest authority in overseeing justice, rituals, and resource allocation?",
+        "options": [
+          "Ker",
+          "Ruoth", 
+          "Ogai",
+          "Japuonj"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Ruoth\" was the title for the highest authority in traditional Luo governance, responsible for overseeing justice, rituals, and resource allocation."
+      },
+      {
+        "question": "Which title is used to refer to the leader of the Luo Council of Elders?",
+        "options": [
+          "Jatend piny owacho",
+          "Ker", 
+          "Jalony",
+          "Midusa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Ker\" is the title used to refer to the leader of the Luo Council of Elders."
+      },
+      {
+        "question": "What is the Luo equivalent of \"Miss,\" used to respectfully address a young unmarried woman?",
+        "options": [
+          "Nyadendi",
+          "Mikayi", 
+          "Jaduong'",
+          "Japuonjre"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Nyadendi\" is the Luo equivalent of \"Miss,\" used to respectfully address a young unmarried woman."
+      },
+      {
+        "question": "Which of the following titles is given to someone who teaches and educates others?",
+        "options": [
+          "Japuonj",
+          "Japuonjre", 
+          "Okil",
+          "Jagoro"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Japuonj\" is the title given to someone who teaches and educates others."
+      },
+      {
+        "question": "In Luo culture, what does the term 'Omera' signify?",
+        "options": [
+          "A term for youth involved in community activities",
+          "An informal way of addressing a friend or cousin", 
+          "A title of respect for an elder",
+          "A person skilled in legal matters"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Omera' is an informal way of addressing a friend or cousin in Luo culture."
+      },
+      {
+        "question": "What title is used to refer to a professional news anchor in Luo society?",
+        "options": [
+          "Jambetre",
+          "Jalueny", 
+          "Jalendo/Jafwambo",
+          "Jakeno"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Jalendo/Jafwambo\" is the title used to refer to a professional news anchor in Luo society."
+      },
+      {
+        "question": "Which title represents a medical professional in the Luo language?",
+        "options": [
+          "Ajuoga/Laktar",
+          "Ajuok Nyakalondo", 
+          "Ja taa tije",
+          "Obila"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Ajuoga/Laktar\" represents a medical professional in the Luo language."
+      },
+      {
+        "question": "What term is commonly used for a person responsible for financial management?",
+        "options": [
+          "Okil",
+          "Jakeno", 
+          "Jalony",
+          "Jagoro mongirore"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Jakeno\" is the term commonly used for a person responsible for financial management."
+      },
+      {
+        "question": "Which of the following titles best describes someone who practices mystical arts?",
+        "options": [
+          "Ajuoga",
+          "Japuonj", 
+          "Ajuok Nyakalondo",
+          "Jatelo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Ajuok Nyakalondo\" best describes someone who practices mystical arts."
+      },
+      {
+        "question": "In Luo society, what is the correct term for a soldier?",
+        "options": [
+          "Jagoro",
+          "Jalueny", 
+          "Migosi",
+          "Obila"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Jalueny\" is the correct term for a soldier in Luo society."
+      }
+    ]
+  }

@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "How are ordinal numbers in Dholuo generally formed?",
+        "options": [
+          "By adding the prefix \"nyathi\" to cardinal numbers",
+          "By using the suffix \"-gi\" with cardinal numbers",
+          "By adding the prefix \"mar\" to cardinal numbers",
+          "By using only unique words unrelated to cardinal numbers"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ordinal numbers in Dholuo are typically formed by adding the prefix \"mar\" to cardinal numbers."
+      },
+      {
+        "question": "What is the Dholuo word for \"First\"?",
+        "options": [
+          "Mar achiel",
+          "Mar apar",
+          "Mokuongo",
+          "Mogik"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Mokuongo\" is the Dholuo word for \"First\", which is an exception to the typical \"mar\" prefix rule."
+      },
+      {
+        "question": "Which of the following represents the fifth position in Dholuo?",
+        "options": [
+          "Mar ang'wen",
+          "Mar abich",
+          "Mar auchiel",
+          "Mar aboro"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Mar abich\" represents the fifth position in Dholuo."
+      },
+      {
+        "question": "In Dholuo, which ordinal number is used in the sentence: \"Ng'at mar ochiko ne owinjo wachno\"?",
+        "options": [
+          "First",
+          "Seventh",
+          "Ninth",
+          "Tenth"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Mar ochiko\" represents the ninth position in Dholuo."
+      },
+      {
+        "question": "Which of the following is NOT a correct characteristic of ordinal numbers in Dholuo?",
+        "options": [
+          "They are formed by adding \"mar\" to a cardinal number",
+          "They indicate sequence and ranking",
+          "\"Mokuongo\" is an exception and not derived from a cardinal number",
+          "They are used for counting objects"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ordinal numbers indicate position or ranking, not counting objects. They describe the order or sequence of things."
+      },
+      {
+        "question": "What is the correct Dholuo translation for \"The second child is sick\"?",
+        "options": [
+          "Nyathi mar abich nigi tuo",
+          "Nyathi mar ang'wen nigi tuo",
+          "Nyathi mar ariyo nigi tuo",
+          "Nyathi mar adek nigi tuo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Nyathi mar ariyo nigi tuo\" is the correct way to say \"The second child is sick\" in Dholuo."
+      },
+      {
+        "question": "Which of the following represents the eighth in Dholuo?",
+        "options": [
+          "Mar aboro",
+          "Mar ochiko",
+          "Mar abich",
+          "Mar ang'wen"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Mar aboro\" represents the eighth position in Dholuo."
+      },
+      {
+        "question": "What is the last ordinal number in Dholuo?",
+        "options": [
+          "Mar apar",
+          "Mogik",
+          "Mokuongo",
+          "Mar ochiko"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Mogik\" represents the last or final position in Dholuo."
+      },
+      {
+        "question": "Which of the following best explains the function of \"mar\" in Dholuo ordinal numbers?",
+        "options": [
+          "It emphasizes ownership of objects",
+          "It connects the ordinal number to its cardinal base",
+          "It is a standalone number",
+          "It represents a specific type of number unrelated to counting"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The prefix \"mar\" connects the ordinal number to its cardinal number base, indicating position or order."
+      },
+      {
+        "question": "In Dholuo, how would you correctly express \"The fourth leader is speaking\"?",
+        "options": [
+          "Jatelo mar ang'wen koro wuoyo",
+          "Jatelo mar ochiko koro wuoyo",
+          "Jatelo mar abich koro wuoyo",
+          "Jatelo mar ariyo koro wuoyo"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Jatelo mar ang'wen koro wuoyo\" means \"The fourth leader is speaking\" in Dholuo."
+      }
+    ]
+  }

@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary linguistic function of synonyms in Dholuo?",
+        "options": [
+          "They limit the number of words in the language.",
+          "They simplify oral traditions by reducing vocabulary.",
+          "They enhance expressiveness, cultural relevance, and regional variations.",
+          "They eliminate the need for dialectal differences."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Synonyms in Dholuo enhance expressiveness, cultural relevance, and reflect regional variations in the language."
+      },
+      {
+        "question": "Which of the following Dholuo words refers to a well-trodden road within homesteads or villages?",
+        "options": [
+          "Apaya",
+          "Yoo", 
+          "Ndara",
+          "Puodho"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Ndara\" refers to a well-trodden road within homesteads or villages in Dholuo."
+      },
+      {
+        "question": "In Dholuo, what is the difference between \"Ji\" and \"Oganda\"?",
+        "options": [
+          "Ji refers to a specific ethnic group, while Oganda refers to a small family.",
+          "Ji is a general term for people, while Oganda refers to a nation or ethnic community.",
+          "Ji is used only in urban areas, while Oganda is used in rural settings.",
+          "Ji is a ceremonial title, while Oganda means \"foreigners.\""
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Ji\" is a general term for people, while \"Oganda\" refers to a nation or ethnic community in Dholuo."
+      },
+      {
+        "question": "Which of the following is a synonym for \"homestead\" in Dholuo?",
+        "options": [
+          "Onget",
+          "Pacho",
+          "Baranget",
+          "Nanga"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Pacho\" is a synonym for \"homestead\" in Dholuo."
+      },
+      {
+        "question": "\"Ndalo\" is a term used by people from which region to refer to a garden or farmland?",
+        "options": [
+          "Alego and Ugenya",
+          "Kisumu and Siaya",
+          "Homa Bay and Migori",
+          "Bondo and Rarieda"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Ndalo\" is used by people from Alego and Ugenya to refer to a garden or farmland."
+      },
+      {
+        "question": "Which of the following best describes \"Nanga\" in Dholuo?",
+        "options": [
+          "A type of footwear",
+          "A small hut",
+          "A cloth or fabric",
+          "A traditional song"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Nanga\" refers to a cloth or fabric in Dholuo."
+      },
+      {
+        "question": "Which of these words refers to a thick blanket, particularly used in colder regions?",
+        "options": [
+          "Law",
+          "Baranget",
+          "Nanga",
+          "Puodho"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Baranget\" refers to a thick blanket, particularly used in colder regions in Dholuo."
+      },
+      {
+        "question": "What is a synonym for \"footwear\" in Dholuo?",
+        "options": [
+          "Pat pat",
+          "Puodho",
+          "Unji",
+          "Apaya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Pat pat\" is a synonym for \"footwear\" in Dholuo."
+      },
+      {
+        "question": "\"Yoo\" in Dholuo can refer to both a literal and metaphorical meaning. What does this mean?",
+        "options": [
+          "It can refer to both a physical path and a symbolic journey in life.",
+          "It only applies to traditional roads in rural areas.",
+          "It has no cultural significance.",
+          "It only refers to government-built roads."
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Yoo\" can refer to both a physical path and a symbolic journey in life in Dholuo."
+      },
+      {
+        "question": "Which of the following statements is true about Dholuo synonyms?",
+        "options": [
+          "They are entirely fixed and do not vary across regions.",
+          "They reflect cultural contexts and dialectal differences.",
+          "They are only used in ancient oral traditions.",
+          "They do not contribute to the richness of the language."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo synonyms reflect cultural contexts and dialectal differences, contributing to the language's richness."
+      }
+    ]
+  }

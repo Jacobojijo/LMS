@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the correct Dholuo greeting for \"Good morning\" when addressing one person?",
+        "options": [
+          "Misawa",
+          "Oyawore", 
+          "Oyimore",
+          "Oriti"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Oyawore\" is the correct Dholuo greeting for \"Good morning\" when addressing one person."
+      },
+      {
+        "question": "In Dholuo, what does the term \"Oriti\" literally mean?",
+        "options": [
+          "Stay well",
+          "Go well", 
+          "May He protect you",
+          "See you later"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Oriti\" literally means \"May He protect you\" in Dholuo."
+      },
+      {
+        "question": "Which of the following greetings is used exclusively in the morning when the sun is rising?",
+        "options": [
+          "Oyawore",
+          "Misawa", 
+          "Oyimore",
+          "Oriti"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Oyawore\" is used exclusively in the morning when the sun is rising."
+      },
+      {
+        "question": "How do you say \"Good evening\" to a group of people in Dholuo?",
+        "options": [
+          "Oyaworeuru",
+          "Misawauru", 
+          "Oyimoreuru",
+          "Oriti uru"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Oyimoreuru\" is how you say \"Good evening\" to a group of people in Dholuo."
+      },
+      {
+        "question": "What grammatical feature is evident in Dholuo plural greetings such as \"Oyimoreuru\"?",
+        "options": [
+          "The suffix \"-uru\" indicates plural",
+          "The prefix \"O-\" marks plurality", 
+          "Dholuo does not distinguish between singular and plural",
+          "The word order changes in plural greetings"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The suffix \"-uru\" indicates plurality in Dholuo greetings."
+      },
+      {
+        "question": "Which Dholuo phrase would be used when someone is going to sleep?",
+        "options": [
+          "Oriti idhi maber",
+          "Oriti inind maber", 
+          "Oyimore ahinya",
+          "Misawa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Oriti inind maber\" is used when someone is going to sleep."
+      },
+      {
+        "question": "How do the Luo people emphasize politeness and respect in their greetings?",
+        "options": [
+          "By bowing while greeting",
+          "By using intensifiers like \"ahinya\"", 
+          "By avoiding greetings during meals",
+          "By repeating the greeting multiple times"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Luo people emphasize politeness by using intensifiers like \"ahinya\"."
+      },
+      {
+        "question": "If someone greets you with \"Nang'o\" (informal \"What's up?\"), what is the culturally appropriate response?",
+        "options": [
+          "\"Misawa ahinya\"",
+          "\"Onge wach\"", 
+          "\"Oriti uru\"",
+          "\"Oyimore ahinya\""
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Onge wach\" is the culturally appropriate response to \"Nang'o\"."
+      },
+      {
+        "question": "What does the word \"Misawa\" mean in Dholuo?",
+        "options": [
+          "Good morning",
+          "General greeting for the day", 
+          "Good evening",
+          "Safe journey"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Misawa\" is a general greeting used throughout the day in Dholuo."
+      },
+      {
+        "question": "Which Dholuo farewell expression is most appropriate when wishing someone a safe journey?",
+        "options": [
+          "Oriti inind maber",
+          "Oriti idong' maber", 
+          "Oriti idhi maber",
+          "Oyimore ahinya"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Oriti idhi maber\" is the most appropriate farewell when wishing someone a safe journey."
+      }
+    ]
+  }

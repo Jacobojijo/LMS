@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the meaning of the term \"Wuok-tich\" in the Luo weekly calendar?",
+        "options": [
+          "The day of rest and worship",
+          "The first day of work",
+          "The last day of the week",
+          "The day for visiting the market"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Wuok-tich\" represents the first day of work in the Luo weekly calendar."
+      },
+      {
+        "question": "Why is Saturday called \"Chieng' ngeso\" in the Luo calendar?",
+        "options": [
+          "It is the day when people start work",
+          "It is the day for communal prayers",
+          "It is named after the Swahili word \"ongeza\" due to bargaining at markets",
+          "It is the day when people travel to visit relatives"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Saturday (\"Chieng' ngeso\") is named after the Swahili word \"ongeza\", which relates to market bargaining activities."
+      },
+      {
+        "question": "What is the Luo name for the ninth month of the year?",
+        "options": [
+          "Dwe mar Aboro",
+          "Dwe mar Ochiko",
+          "Dwe mar Ariyo",
+          "Dwe mar Apar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Dwe mar Ochiko\" refers to the ninth month in the Luo calendar."
+      },
+      {
+        "question": "What does \"Tich-abich\" (Friday) signify in the Luo calendar?",
+        "options": [
+          "The third day of work",
+          "The fifth day of work",
+          "The day of rest before the weekend",
+          "The day for traditional ceremonies"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Tich-abich\" represents the fifth day of work in the Luo calendar."
+      },
+      {
+        "question": "Which month in the Luo calendar is associated with intense cold?",
+        "options": [
+          "Dwe mar Achiel",
+          "Dwe mar Aboro",
+          "Dwe mar Abiriyo",
+          "Dwe mar Apar gi ariyo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Dwe mar Abiriyo\" is associated with intense cold in the Luo calendar."
+      },
+      {
+        "question": "What is the primary cultural significance of \"Jumapil\" (Sunday) in the Luo calendar?",
+        "options": [
+          "It is a day for farming",
+          "It is a market day",
+          "It is a day of prayer and rest",
+          "It marks the beginning of a new month"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Jumapil\" (Sunday) is primarily a day of prayer and rest in the Luo calendar."
+      },
+      {
+        "question": "What does \"Dwe mar Apar gi ariyo\" refer to in the Luo calendar?",
+        "options": [
+          "The eleventh month of the year",
+          "The twelfth month of the year",
+          "The tenth month of the year",
+          "The eighth month of the year"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Dwe mar Apar gi ariyo\" refers to the twelfth month of the year in the Luo calendar."
+      },
+      {
+        "question": "Why were men expected to be away from home on \"Tich-abich\" (Friday) in precolonial times?",
+        "options": [
+          "They attended religious ceremonies",
+          "They were engaged in farming activities",
+          "They traveled for trade and exploration",
+          "They prepared for war"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In precolonial times, men were expected to be engaged in farming activities on Fridays."
+      },
+      {
+        "question": "In the Luo calendar, which month is often associated with students preparing for change?",
+        "options": [
+          "Dwe mar Achiel",
+          "Dwe mar Aboro",
+          "Dwe mar Adek",
+          "Dwe mar Apar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Dwe mar Aboro\" is associated with students preparing for change in the Luo calendar."
+      },
+      {
+        "question": "What is the meaning of \"Dwe mar apar gachiel\" in the Luo calendar?",
+        "options": [
+          "The first month of the year",
+          "The second month of the year",
+          "The eleventh month of the year",
+          "The tenth month of the year"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Dwe mar apar gachiel\" refers to the eleventh month in the Luo calendar."
+      }
+    ]
+  }

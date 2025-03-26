@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In a traditional Luo homestead, what is the significance of the 'Ot'?",
+        "options": [
+          "It is a sacred place of worship",
+          "It is used only for food storage",
+          "It serves as a cultural and family gathering hub",
+          "It is where livestock are kept"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The 'Ot' serves as a cultural and family gathering hub in a traditional Luo homestead, representing an important social space."
+      },
+      {
+        "question": "Which of the following is traditionally used to serve liquids in Luo culture?",
+        "options": [
+          "San",
+          "Glas",
+          "Agwata",
+          "Komb sofa"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Agwata\" is traditionally used to serve liquids in Luo culture."
+      },
+      {
+        "question": "What does 'Todo' symbolize in a Luo household?",
+        "options": [
+          "A place for community meetings",
+          "Protection, as it serves as the roof",
+          "A decorative part of the house",
+          "A special seat for elders"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Todo\" symbolizes protection and serves as the roof in a Luo household."
+      },
+      {
+        "question": "Which Luo household item is commonly used for sweeping?",
+        "options": [
+          "Ndoo",
+          "Ywech",
+          "Uriri",
+          "Kabat"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Ywech\" is the Luo household item commonly used for sweeping."
+      },
+      {
+        "question": "Which of the following best describes the function of a 'Kom' in a Luo home?",
+        "options": [
+          "A kitchen utensil used for serving food",
+          "A storage item for keeping valuables",
+          "A seating area, often used by elders",
+          "A farming tool for tilling land"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Kom\" refers to a seating area, often used by elders in a Luo home."
+      },
+      {
+        "question": "In a traditional Luo kitchen, which item is most essential for cooking?",
+        "options": [
+          "Agulu",
+          "Kalam",
+          "Wang' liech",
+          "Rang'i"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Agulu\" is the most essential item for cooking in a traditional Luo kitchen."
+      },
+      {
+        "question": "What does 'Wang' dede' refer to in a modern Luo household?",
+        "options": [
+          "A traditional cooking method",
+          "A surveillance system (CCTV)",
+          "A traditional storytelling session",
+          "A musical instrument"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Wang' dede\" refers to a surveillance system (CCTV) in a modern Luo household."
+      },
+      {
+        "question": "How is the evolution of modern dining practices reflected in Luo homes?",
+        "options": [
+          "The replacement of communal floor dining with a 'Mesa'",
+          "The use of calabashes instead of metal cups",
+          "The removal of chairs in traditional gatherings",
+          "The introduction of multiple cooking stations"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The evolution of dining practices is reflected by replacing communal floor dining with a 'Mesa' (table)."
+      },
+      {
+        "question": "Which of the following best represents a traditional Luo farming practice?",
+        "options": [
+          "'Tol'",
+          "'Ndalo' or 'Puodho'",
+          "'Kabat'",
+          "'Omenda'"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ndalo' or 'Puodho' best represents a traditional Luo farming practice."
+      },
+      {
+        "question": "In Luo culture, what is the purpose of 'Nyakalondo'?",
+        "options": [
+          "It is a modern security system",
+          "It is used to store utensils",
+          "It is a radio for news, music, and storytelling",
+          "It is a type of traditional footwear"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Nyakalondo' is a radio used for news, music, and storytelling in Luo culture."
+      }
+    ]
+  }

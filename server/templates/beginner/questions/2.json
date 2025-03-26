@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary feature that differentiates meanings in Dholuo words like \"kendo\" and \"keyo\"?",
+        "options": [
+          "Consonant clusters",
+          "Word order", 
+          "Tone and syllable stress",
+          "Sentence length"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tone and syllable stress are crucial in Dholuo for distinguishing between words that may otherwise appear similar."
+      },
+      {
+        "question": "In Dholuo, how does vowel elongation affect meaning?",
+        "options": [
+          "It has no impact on meaning",
+          "It can completely change the meaning of a word",
+          "It only affects sentence structure",
+          "It only affects pronunciation, not meaning"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Vowel elongation in Dholuo can fundamentally alter the meaning of a word, making it a critical aspect of pronunciation."
+      },
+      {
+        "question": "What does the pronunciation [Ké-ndo] indicate in Dholuo?",
+        "options": [
+          "To marry",
+          "A fireplace or stove",
+          "To repeat",
+          "A form of greeting"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[Ké-ndo] specifically refers to a fireplace or stove in Dholuo."
+      },
+      {
+        "question": "How does the pronunciation [Keyo] (with short syllables) differ in meaning from [Ke-yo] (with a lengthened first syllable)?",
+        "options": [
+          "\"Keyo\" means \"to harvest,\" while \"Ke-yo\" can mean \"to spread\"",
+          "They both mean the same thing",
+          "\"Keyo\" refers to a cooking process",
+          "\"Ke-yo\" means \"to marry\""
+        ],
+        "correctAnswer": 0,
+        "explanation": "The subtle difference in syllable length changes the meaning from \"to harvest\" to \"to spread\" in Dholuo."
+      },
+      {
+        "question": "Why is tonal variation crucial in mastering Dholuo pronunciation?",
+        "options": [
+          "It improves fluency in English",
+          "It determines grammatical tense",
+          "It helps distinguish words with different meanings",
+          "It affects only sentence length"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tonal variation is essential in Dholuo as it helps speakers distinguish between words that might otherwise sound identical."
+      },
+      {
+        "question": "Which of the following strategies is NOT recommended for mastering Dholuo pronunciation?",
+        "options": [
+          "Practicing with native speakers",
+          "Ignoring tone differences",
+          "Using phonetic transcription",
+          "Listening to audio drills"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ignoring tone differences is the worst strategy, as tones are crucial to meaning in Dholuo."
+      },
+      {
+        "question": "What role does stress play in Dholuo pronunciation?",
+        "options": [
+          "It helps distinguish word meanings",
+          "It only applies to verbs",
+          "It is not relevant in tonal languages",
+          "It affects only consonant pronunciation"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Stress is a key component in Dholuo that helps differentiate the meanings of words."
+      },
+      {
+        "question": "In the case study, what does the pronunciation [K'eee-ndo] signify?",
+        "options": [
+          "\"Again\"",
+          "\"Fireplace\"",
+          "\"To marry\"",
+          "\"To harvest\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The pronunciation [K'eee-ndo] indicates \"to marry\" in Dholuo, demonstrating how vowel elongation changes meaning."
+      },
+      {
+        "question": "What is an effective method for understanding tonal implications in real-world conversations?",
+        "options": [
+          "Memorizing random words",
+          "Avoiding contextual usage",
+          "Incorporating words into sentences",
+          "Using only written materials"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Incorporating words into sentences helps learners understand the nuanced tonal implications in Dholuo."
+      },
+      {
+        "question": "Why is phonetic transcription useful for Dholuo learners?",
+        "options": [
+          "It replaces the need for speaking practice",
+          "It visually represents tonal and length variations",
+          "It helps write Dholuo poetry",
+          "It eliminates the need for listening exercises"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Phonetic transcription helps learners visually understand the complex tonal and length variations in Dholuo pronunciation."
+      }
+    ]
+  }

@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In Luo culture, which term is used to refer to a mother's brother, who holds an important decision-making role in the family?",
+        "options": [
+          "Waya",
+          "Nera", 
+          "Kwaro",
+          "Law"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Nera\" is the term used to refer to a mother's brother, who plays a crucial decision-making role in the Luo family structure."
+      },
+      {
+        "question": "How does Luo kinship terminology distinguish between male and female cousins?",
+        "options": [
+          "Wuod wuora (male) and Nyar wuora (female)",
+          "Nera (male) and Waya (female)", 
+          "Wuoyi (male) and Nyako (female)",
+          "Migogo (male) and Law (female)"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Luo kinship terminology, male cousins are referred to as \"Wuod wuora\" and female cousins as \"Nyar wuora\"."
+      },
+      {
+        "question": "Which of the following statements accurately reflects the Luo concept of generational hierarchy?",
+        "options": [
+          "Luo kinship does not extend beyond grandparents.",
+          "Luo culture assigns unique names to great-grandchildren up to the third generation.", 
+          "Luo society does not recognize the role of nieces and nephews.",
+          "The first-born son is always called \"Law.\""
+        ],
+        "correctAnswer": 1,
+        "explanation": "Luo culture assigns unique names to great-grandchildren up to the third generation, demonstrating their detailed approach to generational hierarchy."
+      },
+      {
+        "question": "What term is used to refer to a daughter-in-law when she returns to her paternal home?",
+        "options": [
+          "Mikayi",
+          "Nyadendi", 
+          "Migogo",
+          "Leru"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Migogo\" is the term used to refer to a daughter-in-law when she returns to her paternal home."
+      },
+      {
+        "question": "In Luo culture, the term 'Mikayi' refers to:",
+        "options": [
+          "The second wife",
+          "The mother of the family", 
+          "The first wife",
+          "A grandmother"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Mikayi\" refers to the first wife in a Luo polygamous household."
+      },
+      {
+        "question": "What is the Luo term for \"grandfather\"?",
+        "options": [
+          "Kwaro",
+          "Dayo", 
+          "Waya",
+          "Wuoro"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Kwaro\" is the Luo term for \"grandfather\"."
+      },
+      {
+        "question": "Which of the following best describes the term 'Law' in Luo family structure?",
+        "options": [
+          "A term referring to a brother's son",
+          "A shared term for both father-in-law and son-in-law", 
+          "The title given to the eldest uncle in the family",
+          "A name given to the second wife in a polygamous marriage"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Law\" is a shared term used for both father-in-law and son-in-law in Luo family structure."
+      },
+      {
+        "question": "What is the correct Luo term for an aunt who is the sister of one's father?",
+        "options": [
+          "Nera",
+          "Waya", 
+          "Minwa",
+          "Wuoyi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Waya\" is the correct Luo term for an aunt who is the sister of one's father."
+      },
+      {
+        "question": "In a polygamous Luo household, what term is used to refer to the second wife?",
+        "options": [
+          "Leru",
+          "Nyachira", 
+          "Mikayi",
+          "Nyadendi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Nyachira\" is the term used to refer to the second wife in a polygamous Luo household."
+      },
+      {
+        "question": "Which term is correctly matched with its English equivalent?",
+        "options": [
+          "Wuoro – Son",
+          "Minwa – My father", 
+          "Nyakwaro ma wuoyi – Grandson",
+          "Waya – Uncle"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Nyakwaro ma wuoyi\" is the correct Luo term for \"Grandson\"."
+      }
+    ]
+  }

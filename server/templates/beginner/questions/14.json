@@ -1,0 +1,114 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary basis for noun gender classification in Dholuo?",
+        "options": [
+          "The length of the word",
+          "Natural gender and grammatical neutrality",
+          "The number of syllables",
+          "The pronunciation of the word"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Noun gender classification in Dholuo is primarily based on natural gender and grammatical neutrality."
+      },
+      {
+        "question": "Which of the following nouns is classified as masculine in Dholuo?",
+        "options": [
+          "Dhako",
+          "Nyako",
+          "Nyuok",
+          "Pacho"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Nyuok\" is classified as a masculine noun in Dholuo."
+      },
+      {
+        "question": "Which of the following is a feminine noun in Dholuo?",
+        "options": [
+          "Thuon",
+          "Ruath",
+          "Swini",
+          "Got"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Swini\" is a feminine noun in Dholuo."
+      },
+      {
+        "question": "What is the meaning of the Dholuo noun \"Ndiga\"?",
+        "options": [
+          "A garden",
+          "A bicycle",
+          "A river",
+          "A tree"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Ndiga\" means \"a bicycle\" in Dholuo."
+      },
+      {
+        "question": "Which of the following statements best describes neuter nouns in Dholuo?",
+        "options": [
+          "They refer to only abstract ideas.",
+          "They refer to inanimate objects, places, and concepts.",
+          "They only refer to natural features like mountains and rivers.",
+          "They must always end with a vowel."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Neuter nouns in Dholuo refer to inanimate objects, places, and concepts."
+      },
+      {
+        "question": "Which of the following pairs correctly represents masculine and feminine nouns in Dholuo?",
+        "options": [
+          "Wuoyi - Nyako",
+          "Ruath - Apaya",
+          "Dichuo - Pacho",
+          "Nyuok - Kidi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Wuoyi\" and \"Nyako\" correctly represent masculine and feminine nouns in Dholuo."
+      },
+      {
+        "question": "Which neuter noun in Dholuo refers to a place of residence?",
+        "options": [
+          "Got",
+          "Pacho",
+          "Kidi",
+          "Apaya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Pacho\" is a neuter noun referring to a place of residence in Dholuo."
+      },
+      {
+        "question": "Which of the following is NOT a masculine noun in Dholuo?",
+        "options": [
+          "Dichuo",
+          "Ruath",
+          "Nyaburi",
+          "Wuoyi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Nyaburi\" is not a masculine noun in Dholuo."
+      },
+      {
+        "question": "Which masculine noun in Dholuo refers to a male bird?",
+        "options": [
+          "Dichuo",
+          "Thuon",
+          "Nyako",
+          "Ndiga"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Thuon\" is a masculine noun referring to a male bird in Dholuo."
+      },
+      {
+        "question": "What is the best description of Apaya in Dholuo?",
+        "options": [
+          "A type of tree",
+          "A road or path",
+          "A mountain",
+          "A river"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Apaya\" means a road or path in Dholuo."
+      }
+    ]
+  }

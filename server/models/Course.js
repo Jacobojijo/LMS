@@ -140,9 +140,17 @@ const CourseSchema = new mongoose.Schema({
     trim: true,
     maxlength: [100, "Title cannot be more than 100 characters"],
   },
-  description: {
+  structure: {
     type: String,
-    required: [true, "Please add a course description in HTML format"],
+    required: [true, "Please provide a path to the course structure HTML file"],
+    trim: true,
+    validate: {
+      validator: function(v) {
+        // Basic validation to ensure it looks like a file path
+        return /\.(html|htm)$/.test(v);
+      },
+      message: "Structure must be a valid path to an HTML file"
+    }
   },
   modules: [ModuleSchema],
   createdAt: {
