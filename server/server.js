@@ -64,10 +64,7 @@ app.use(hpp());
 app.use(mongoSanitize());
 
 // Enable CORS
-app.use(cors({
-  origin: ['https://heritagelanguageschool.netlify.app/'],
-  credentials: true
-}));
+app.use(cors());
 
 // Initialize Passport
 app.use(passport.initialize());
