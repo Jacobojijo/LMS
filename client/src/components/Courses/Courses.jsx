@@ -102,12 +102,17 @@ const Courses = () => {
   const renderCTA = (language) => {
     if (language.title === "Luo") {
       return (
-        <button className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md transition-colors duration-300 flex items-center">
+        <a 
+          href="https://forms.gle/7B4zmuDunTauYGCf9" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md transition-colors duration-300 flex items-center"
+        >
           <span className="mr-1 relative">
             <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
           </span>
           {windowWidth < 640 ? 'REGISTER' : 'INTAKE ONGOING: REGISTER'}
-        </button>
+        </a>
       );
     } else {
       return (
