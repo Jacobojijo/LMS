@@ -42,15 +42,36 @@ const Navbar = () => {
     // Update logged in state
     setIsLoggedIn(false);
     
-    // Redirect to home page
-    navigate("/");
+    // Perform double redirect
+    window.location.href = "/";
+    window.location.replace("/");
+  };
+
+  // Smooth scroll function
+  const scrollToSection = (sectionId) => {
+    // If not on home page, navigate to home first
+    if (location.pathname !== '/') {
+      window.location.href = `/#${sectionId}`;
+      return;
+    }
+
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   // Process menu items to modify Home link if needed
   const processedMenu = NavbarMenu.map(item => {
     if (item.id === 1 && item.title === "Home") {
-      // You can choose either '/' or '/home' here
       return { ...item, link: "/" };
+    }
+    // Special handling for Courses and Features
+    if (item.title === "Courses") {
+      return { ...item, link: "#courses" };
+    }
+    if (item.title === "Features") {
+      return { ...item, link: "#features" };
     }
     return item;
   });
@@ -101,15 +122,15 @@ const Navbar = () => {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   {item.link.startsWith("#") ? (
-                    // For hash links (like sections on the same page)
-                    <a
-                      href={item.link}
+                    // For section scrolling (Courses and Features)
+                    <button
+                      onClick={() => scrollToSection(item.link.slice(1))}
                       className={`relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300 ${
                         (location.pathname === "/" && item.link === "#") ? "text-[#854836]" : ""
                       }`}
                     >
                       {item.title}
-                    </a>
+                    </button>
                   ) : (
                     // For page navigation
                     <Link

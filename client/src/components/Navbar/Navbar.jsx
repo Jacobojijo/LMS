@@ -1,14 +1,43 @@
 import React, { useState, useEffect } from "react";
-import { NavbarMenu } from "../../mockData/data";
+import { Link, useLocation } from "react-router-dom";
 import logo from '../../assets/logo.png';
 import { MdMenu, MdClose } from "react-icons/md";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+
+// Navigation menu data
+export const NavbarMenu = [
+  {
+    id: 1,
+    title: "Home",
+    link: "/",
+  },
+  {
+    id: 2,
+    title: "Courses",
+    link: "/#courses",
+  },
+  {
+    id: 3,
+    title: "Features",
+    link: "/#features",
+  },
+  {
+    id: 4,
+    title: "About us",
+    link: "/about",
+  },
+  {
+    id: 5,
+    title: "Contact",
+    link: "/contact",
+  },
+];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
   
   // Handle scroll effect
   useEffect(() => {
@@ -23,6 +52,20 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Smooth scroll function
+  const scrollToSection = (sectionId) => {
+    // If not on home page, navigate to home first
+    if (location.pathname !== '/') {
+      window.location.href = `/#${sectionId}`;
+      return;
+    }
+
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
@@ -43,7 +86,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <img 
                 src={logo} 
                 alt="Heritage Language School" 
@@ -57,41 +100,61 @@ const Navbar = () => {
                   Language School
                 </span>
               </div>
-            </a>
+            </Link>
           </motion.div>
 
           {/* Menu section */}
           <div className="hidden md:block">
             <ul className="flex items-center gap-6 text-gray-700">
-              {NavbarMenu.map((item) => (
-                <motion.li 
-                  key={item.id}
-                  whileHover={{ y: -2 }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  <a
-                    href={item.link}
-                    className="relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300"
+              {NavbarMenu.map((item) => {
+                // Special handling for Courses and Features
+                if (item.title === "Courses" || item.title === "Features") {
+                  return (
+                    <motion.li 
+                      key={item.id}
+                      whileHover={{ y: -2 }}
+                      transition={{ type: "spring", stiffness: 300 }}
+                    >
+                      <button
+                        onClick={() => scrollToSection(item.title.toLowerCase())}
+                        className="relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300"
+                      >
+                        {item.title}
+                      </button>
+                    </motion.li>
+                  );
+                }
+                
+                // Regular navigation for other menu items
+                return (
+                  <motion.li 
+                    key={item.id}
+                    whileHover={{ y: -2 }}
+                    transition={{ type: "spring", stiffness: 300 }}
                   >
-                    {item.title}
-                  </a>
-                </motion.li>
-              ))}
+                    <Link
+                      to={item.link}
+                      className="relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      {item.title}
+                    </Link>
+                  </motion.li>
+                );
+              })}
             </ul>
           </div>
 
           {/* Call to Action section */}
           <div className="flex items-center gap-4">
-            
-          <motion.a 
-            href="/register"
-            className="bg-white group hover:bg-[#854836] font-semibold text-[#854836] hover:text-white rounded-md border-2 border-[#854836] px-5 py-2 transition-all duration-300 shadow-sm hover:shadow-md relative overflow-hidden"
-            whileHover={{ scale: 1.02 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            <span className="relative z-10">Sign Up</span>
-            <span className="absolute inset-0 bg-[#854836] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
-          </motion.a>
+            <motion.a 
+              href="/register"
+              className="bg-white group hover:bg-[#854836] font-semibold text-[#854836] hover:text-white rounded-md border-2 border-[#854836] px-5 py-2 transition-all duration-300 shadow-sm hover:shadow-md relative overflow-hidden"
+              whileHover={{ scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+              <span className="relative z-10">Sign Up</span>
+              <span className="absolute inset-0 bg-[#854836] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
+            </motion.a>
           </div>
 
           {/* Mobile hamburger Menu section */}

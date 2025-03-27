@@ -62,16 +62,6 @@ const Layout = () => {
             <HeritageBanner />
             <Courses />
             <Features />
-            {user?.role === 'student' && (
-              <div className="text-center py-8">
-                <h2 className="text-2xl font-bold mb-4">
-                  You're not enrolled in any courses yet
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  Browse our courses below and start your learning journey
-                </p>
-              </div>
-            )}
           </>
         )}
       </main>

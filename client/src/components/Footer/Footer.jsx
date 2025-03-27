@@ -69,12 +69,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                <Link to="/about" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                  <span className="mr-2">→</span> About
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
                   <span className="mr-2">→</span> Courses
                 </Link>
               </li>
               <li>
-                <Link to="/features" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                <Link to="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
                   <span className="mr-2">→</span> Features
                 </Link>
               </li>
@@ -96,19 +101,28 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">Language Programs</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Children's Program</a>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Luo classes</a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Adult Classes</a>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Gikuyu classes</a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Online Learning</a>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Kalenjin classes</a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Summer Immersion</a>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Ekegusii classes</a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Cultural Workshops</a>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Kamba classes</a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Luhya classes</a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Meru classes</a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Maasai classes</a>
               </li>
             </ul>
           </motion.div>
@@ -122,17 +136,13 @@ const Footer = () => {
           >
             <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">Contact Us</h3>
             <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <MdLocationOn className="text-[#8EDBDB] text-xl mt-1 flex-shrink-0" />
-                <p className="text-gray-300">123 Heritage Lane, Language City, LC 12345</p>
-              </div>
               <div className="flex items-center space-x-3">
                 <MdPhone className="text-[#8EDBDB] text-xl flex-shrink-0" />
-                <p className="text-gray-300">(123) 456-7890</p>
+                <p className="text-gray-300">(+254) 746426925</p>
               </div>
               <div className="flex items-center space-x-3">
                 <MdEmail className="text-[#8EDBDB] text-xl flex-shrink-0" />
-                <p className="text-gray-300">info@heritagelanguage.com</p>
+                <p className="text-gray-300">heritagelanguageschool.com</p>
               </div>
             </div>
             <div className="pt-4">

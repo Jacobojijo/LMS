@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
+import About from "./pages/about/about";
 import AuthRoutes from "./pages/auth/AuthRoutes";
 import StudentDashboard from "./pages/student/StudentDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
@@ -39,6 +40,7 @@ const App = () => {
             {/* Redirect to dashboard if authenticated */}
             <Route index element={<HomeOrDashboard />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="about" element={<About />} />
             <Route path="/*" element={<AuthRoutes />} />
           </Route>
         </Routes>

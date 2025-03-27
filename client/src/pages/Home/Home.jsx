@@ -16,8 +16,12 @@ const Home = () => {
       <div style={bgStyle}>
         <Hero />
       </div>
-       <Courses />
-      <Features /> 
+      <div id="courses">
+        <Courses />
+      </div>
+      <div id="features">
+        <Features />
+      </div>
     </>
   );
 };
