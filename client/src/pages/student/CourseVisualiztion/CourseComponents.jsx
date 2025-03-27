@@ -64,15 +64,12 @@ export const ModuleSidebar = ({
   moduleCompletion = {} 
 }) => {
   const isTopicLocked = (moduleIndex, topicIndex) => {
-    // First module and first topic are always accessible
     if (moduleIndex === 0 && topicIndex === 0) return false;
 
-    // Check if previous module is completed if trying to access a new module
     if (moduleIndex > 0 && !moduleCompletion[`module-${moduleIndex - 1}`]) {
       return true;
     }
 
-    // Check if all previous topics in the current module are completed
     for (let i = 0; i < topicIndex; i++) {
       if (!moduleCompletion[`${moduleIndex}-${i}`]) {
         return true;
@@ -83,66 +80,126 @@ export const ModuleSidebar = ({
   };
 
   const isModuleLocked = (moduleIndex) => {
-    // First module is always accessible
-    if (moduleIndex === 0) return false;
-
-    // Check if previous module is completed
-    return !moduleCompletion[`module-${moduleIndex - 1}`];
+    return moduleIndex > 0 && !moduleCompletion[`module-${moduleIndex - 1}`];
   };
 
   return (
-    <div className="sidebar w-1/4 overflow-y-auto shadow-md" style={{backgroundColor: colors.lightBeige}}>
-      <div className="p-4 border-b" style={{borderColor: 'rgba(0,0,0,0.1)'}}>
-        <h1 className="text-xl font-bold text-center mb-2">{course.title}</h1>
-        <div className="progress-bar w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+    <div 
+      className="sidebar w-1/4 overflow-y-auto rounded-lg shadow-lg"
+      style={{
+        backgroundColor: colors.white,
+        borderLeft: `4px solid ${colors.accent}`,
+        boxShadow: `0 4px 6px ${colors.softShadow}`
+      }}
+    >
+      {/* Course Header */}
+      <div 
+        className="p-6 border-b text-center"
+        style={{
+          backgroundColor: colors.lightBeige,
+          borderColor: colors.borderColor
+        }}
+      >
+        <h1 
+          className="text-2xl font-bold mb-4" 
+          style={{color: colors.darkText}}
+        >
+          {course.title}
+        </h1>
+        
+        <div 
+          className="w-full h-3 bg-gray-200 rounded-full overflow-hidden mb-2 shadow-inner"
+        >
           <div 
-            className="h-full" 
+            className="h-full transition-all duration-500 ease-in-out" 
             style={{
               width: `${course.progress || 0}%`, 
-              backgroundColor: colors.accent
+              backgroundColor: colors.accent,
+              boxShadow: `0 0 10px ${colors.accent}20`
             }}
           ></div>
         </div>
-        <div className="text-sm text-center mt-1">{course.progress || 0}% Complete</div>
+        
+        <div 
+          className="text-sm font-medium"
+          style={{color: colors.lightText}}
+        >
+          {course.progress || 0}% Complete
+        </div>
       </div>
       
-      <div className="modules-list p-4">
+      {/* Modules List */}
+      <div className="modules-list p-4 space-y-4">
         {course.modules.map((module, moduleIndex) => (
-          <div key={module._id} className="module-container mb-4">
+          <div 
+            key={module._id} 
+            className="module-container transition-all duration-300 hover:scale-[1.02]"
+          >
+            {/* Module Title */}
             <div 
-              className={`module-title font-semibold p-3 rounded-md flex items-center ${
-                isModuleLocked(moduleIndex) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+              className={`module-title p-4 rounded-lg flex items-center transition-all duration-200 ${
+                isModuleLocked(moduleIndex) 
+                  ? 'opacity-50 cursor-not-allowed' 
+                  : 'cursor-pointer hover:shadow-md'
               }`}
               style={{
-                backgroundColor: moduleIndex === activeModule ? colors.lightTeal : 'transparent',
-                color: colors.darkText
+                backgroundColor: 
+                  moduleIndex === activeModule 
+                    ? colors.lightTeal 
+                    : 'transparent',
+                border: `1px solid ${
+                  moduleIndex === activeModule 
+                    ? colors.accent 
+                    : colors.borderColor
+                }`,
+                transform: moduleIndex === activeModule 
+                  ? 'translateX(10px)' 
+                  : 'none'
               }}
               onClick={() => !isModuleLocked(moduleIndex) && navigateTo(moduleIndex, 0)}
             >
+              {/* Module Number */}
               <div 
-                className="module-icon mr-3 w-8 h-8 flex items-center justify-center rounded-full"
+                className="module-icon mr-4 w-10 h-10 flex items-center justify-center rounded-full text-lg font-bold shadow-md"
                 style={{
-                  backgroundColor: isModuleLocked(moduleIndex) ? '#cccccc' : colors.accent, 
+                  backgroundColor: isModuleLocked(moduleIndex) 
+                    ? '#cccccc' 
+                    : colors.accent, 
                   color: 'white'
                 }}
               >
                 {moduleIndex + 1}
               </div>
-              {`Module ${getModuleNumberText(moduleIndex + 1)}: ${module.title}`}
-              {isModuleLocked(moduleIndex) && (
-                <span className="ml-2 text-xs text-gray-500">(Locked)</span>
-              )}
+              
+              {/* Module Title */}
+              <div>
+                <div 
+                  className="font-semibold"
+                  style={{color: colors.darkText}}
+                >
+                  {`Module ${getModuleNumberText(moduleIndex + 1)}: ${module.title}`}
+                </div>
+                {isModuleLocked(moduleIndex) && (
+                  <span 
+                    className="text-xs mt-1"
+                    style={{color: colors.lightText}}
+                  >
+                    (Locked)
+                  </span>
+                )}
+              </div>
             </div>
             
+            {/* Module Topics */}
             {moduleIndex === activeModule && (
-              <div className="module-topics pl-10 mt-2 space-y-1">
+              <div className="module-topics pl-14 mt-2 space-y-2">
                 {module.topics.map((topic, topicIndex) => (
                   <div 
                     key={topic._id} 
-                    className={`topic-item p-2 rounded-md flex items-center ${
+                    className={`topic-item p-3 rounded-md flex items-center transition-all duration-200 ${
                       isTopicLocked(moduleIndex, topicIndex) 
                         ? 'opacity-50 cursor-not-allowed' 
-                        : 'cursor-pointer'
+                        : 'cursor-pointer hover:bg-gray-100'
                     }`}
                     style={{
                       backgroundColor: 
@@ -151,7 +208,6 @@ export const ModuleSidebar = ({
                         (activePage === 'topic' || activePage === 'html' || activePage === 'practice')
                           ? colors.lightRose 
                           : 'transparent',
-                      color: colors.darkText
                     }}
                     onClick={() => 
                       !isTopicLocked(moduleIndex, topicIndex) && 
@@ -159,34 +215,46 @@ export const ModuleSidebar = ({
                     }
                   >
                     <div 
-                      className="w-2 h-2 rounded-full mr-2"
+                      className="w-3 h-3 rounded-full mr-3"
                       style={{
                         backgroundColor: isTopicLocked(moduleIndex, topicIndex) 
                           ? '#cccccc' 
-                          : (moduleCompletion[`${moduleIndex}-${topicIndex}`] ? 'green' : 'gray')
+                          : (moduleCompletion[`${moduleIndex}-${topicIndex}`] 
+                              ? 'green' 
+                              : 'gray')
                       }}
                     ></div>
-                    {topic.title}
+                    <div 
+                      className="flex-grow"
+                      style={{color: colors.darkText}}
+                    >
+                      {topic.title}
+                    </div>
                     {isTopicLocked(moduleIndex, topicIndex) && (
-                      <span className="ml-2 text-xs text-gray-500">(Locked)</span>
+                      <span 
+                        className="text-xs ml-2"
+                        style={{color: colors.lightText}}
+                      >
+                        (Locked)
+                      </span>
                     )}
                   </div>
                 ))}
                 
+                {/* Assessment Section */}
                 {module.cat && (
                   <div 
-                    className={`assessment-item p-2 rounded-md flex items-center mt-4 ${
-                      isModuleLocked(moduleIndex) ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+                    className={`assessment-item p-3 rounded-md flex items-center mt-4 transition-all duration-200 ${
+                      isModuleLocked(moduleIndex) 
+                        ? 'opacity-50 cursor-not-allowed' 
+                        : 'cursor-pointer hover:bg-gray-100'
                     }`}
                     style={{
                       backgroundColor: 
                         moduleIndex === activeModule && activePage === 'assessment' 
                           ? colors.lightRose 
                           : 'transparent',
-                      color: colors.darkText,
-                      borderTop: '1px solid rgba(0,0,0,0.1)',
-                      marginTop: '8px',
-                      paddingTop: '8px'
+                      borderTop: `1px solid ${colors.borderColor}`,
                     }}
                     onClick={() => 
                       !isModuleLocked(moduleIndex) && 
@@ -194,16 +262,29 @@ export const ModuleSidebar = ({
                     }
                   >
                     <div 
-                      className="w-4 h-4 text-sm flex items-center justify-center text-white rounded-full mr-2"
+                      className="w-6 h-6 flex items-center justify-center rounded-full mr-3 text-sm font-bold"
                       style={{
-                        backgroundColor: isModuleLocked(moduleIndex) ? '#cccccc' : 'orange'
+                        backgroundColor: isModuleLocked(moduleIndex) 
+                          ? '#cccccc' 
+                          : 'orange',
+                        color: 'white'
                       }}
                     >
                       !
                     </div>
-                    {module.cat.title}
+                    <div 
+                      className="flex-grow"
+                      style={{color: colors.darkText}}
+                    >
+                      {module.cat.title}
+                    </div>
                     {isModuleLocked(moduleIndex) && (
-                      <span className="ml-2 text-xs text-gray-500">(Locked)</span>
+                      <span 
+                        className="text-xs ml-2"
+                        style={{color: colors.lightText}}
+                      >
+                        (Locked)
+                      </span>
                     )}
                   </div>
                 )}
@@ -215,6 +296,7 @@ export const ModuleSidebar = ({
     </div>
   );
 };
+
 
 
 // Topic Content Component
@@ -375,11 +457,6 @@ export const HtmlContent = ({ module, topic, setActivePage }) => {
 
   return (
     <div className="html-content p-6 bg-white rounded-lg shadow">
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">{module.title}</h1>
-        <h2 className="text-xl font-semibold mb-4 text-gray-600">{topic.title} - HTML Content</h2>
-      </div>
-      
       <div className="content-section mb-8">
         {renderContent()}
       </div>

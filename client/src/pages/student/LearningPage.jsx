@@ -6,13 +6,10 @@ import CourseVisualization from "./CourseVisualiztion/CourseVisualization";
 
 const LearningPage = () => {
   return (
-    <div className="flex flex-col min-h-screen overflow-x-hidden">
-      <Header />
+    <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
         <CourseVisualization />
-        <Outlet />
       </main>
-      <Footer />
     </div>
   );
 };

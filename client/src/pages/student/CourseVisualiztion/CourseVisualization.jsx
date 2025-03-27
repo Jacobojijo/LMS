@@ -14,7 +14,7 @@ import {
 
 import { useAuth } from '../../../context/AuthContext';
 
-const BASE_API_URL = 'http://localhost:5000/api'; // Or your local API URL
+const BASE_API_URL = 'https://lms-ci8t.onrender.com/api'; // Or your local API URL
 
 const CourseVisualization = () => {
   const { user } = useAuth();
