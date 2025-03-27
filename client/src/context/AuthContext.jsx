@@ -1,10 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
 
-// Create a base axios instance with the backend URL
-const api = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL || process.env.VITE_BACKEND_URL
-});
+const BASE_API_URL = 'https://lms-ci8t.onrender.com/api'; // Or your local API URL
 
 const AuthContext = createContext();
 
@@ -14,7 +11,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const res = await api.post("/api/auth/login", { email, password });
+      const res = await axios.post(`${BASE_API_URL}/auth/login`, { email, password });
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("userRole", res.data.user.role);
       setUser(res.data.user);
@@ -38,7 +35,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     try {
-      const res = await api.get("/api/auth/me", {
+      const res = await axios.get(`${BASE_API_URL}/auth/me`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -59,7 +56,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, loading, login, logout }}>
+    <AuthContext.Provider value={{ user, loading, login, logout, verifyAuth }}>
       {children}
     </AuthContext.Provider>
   );

@@ -1,13 +1,14 @@
-// Register.jsx
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FadeInUp } from "../../utility/MotionComponents";
-import { useAuth } from "../../context/AuthContext"; // Import the useAuth hook
+import { useAuth } from "../../context/AuthContext";
+
+const BASE_API_URL = 'https://lms-ci8t.onrender.com/api'; // Or your local API URL
 
 const Register = () => {
   const navigate = useNavigate();
-  const { login } = useAuth(); // Use the login function from AuthContext
+  const { login } = useAuth();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -39,7 +40,7 @@ const Register = () => {
     }
 
     try {
-      await axios.post("/api/auth/register", formData);
+      await axios.post(`${BASE_API_URL}/auth/register`, formData);
       // Redirect to verification page with email
       navigate(`/verify-email?email=${encodeURIComponent(formData.email)}`);
     } catch (err) {
