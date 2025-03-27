@@ -18,27 +18,26 @@ const Footer = () => {
       </div>
       
       {/* Main footer content */}
-      <div className="container py-16 pt-20">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-        
+      <div className="container px-4 py-16 pt-20">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           {/* Column 1: School Info */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="space-y-6"
+            className="space-y-6 text-center md:text-left"
           >
-            <div className="flex items-center gap-2">
-              <img src={logo} alt="Heritage Language School" className="h-14 w-auto" />
+            <div className="flex justify-center md:justify-start items-center gap-2">
+              <img src={logo} alt="Heritage Language School" className="h-12 w-auto" />
               <div className="flex flex-col -space-y-1">
                 <span className="text-[#8EDBDB] tracking-wider text-xl leading-tight">Heritage</span>
                 <span className="font-bold text-[#F4E0E0] tracking-widest text-lg leading-tight">Language School</span>
               </div>
             </div>
-            <p className="text-gray-300 mt-4">
+            <p className="text-gray-300 mt-4 text-center md:text-left">
               Preserving cultural heritage through language education since 2005. Join our community of language enthusiasts.
             </p>
-            <div className="flex space-x-4 text-2xl pt-2">
+            <div className="flex justify-center md:justify-start space-x-4 text-2xl pt-2">
               <a href="#" className="text-[#8EDBDB] hover:text-white transition-colors duration-300">
                 <FaFacebook />
               </a>
@@ -59,32 +58,32 @@ const Footer = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="space-y-4"
+            className="space-y-4 text-center md:text-left"
           >
             <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                <Link to="/" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start">
                   <span className="mr-2">→</span> Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                <Link to="/about" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start">
                   <span className="mr-2">→</span> About
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                <Link to="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start">
                   <span className="mr-2">→</span> Courses
                 </Link>
               </li>
               <li>
-                <Link to="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                <Link to="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start">
                   <span className="mr-2">→</span> Features
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center">
+                <Link to="/contact" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start">
                   <span className="mr-2">→</span> Contact
                 </Link>
               </li>
@@ -96,34 +95,20 @@ const Footer = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="space-y-4"
+            className="space-y-4 text-center md:text-left"
           >
             <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">Language Programs</h3>
-            <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Luo classes</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Gikuyu classes</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Kalenjin classes</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Ekegusii classes</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Kamba classes</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Luhya classes</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Meru classes</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">Maasai classes</a>
-              </li>
+            <ul className="grid grid-cols-2 md:grid-cols-1 gap-2">
+              {[
+                'Luo', 'Gikuyu', 'Kalenjin', 'Ekegusii', 
+                'Kamba', 'Luhya', 'Meru', 'Maasai'
+              ].map((language) => (
+                <li key={language} className="text-center md:text-left">
+                  <a href="#" className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300">
+                    {language} classes
+                  </a>
+                </li>
+              ))}
             </ul>
           </motion.div>
           
@@ -132,28 +117,28 @@ const Footer = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="space-y-6"
+            className="space-y-6 text-center md:text-left"
           >
             <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">Contact Us</h3>
             <div className="space-y-4">
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MdPhone className="text-[#8EDBDB] text-xl flex-shrink-0" />
                 <p className="text-gray-300">(+254) 746426925</p>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MdEmail className="text-[#8EDBDB] text-xl flex-shrink-0" />
                 <p className="text-gray-300">heritagelanguageschool.com</p>
               </div>
             </div>
             <div className="pt-4">
               <h4 className="text-[#F4E0E0] font-medium mb-3">Subscribe to Our Newsletter</h4>
-              <div className="flex">
+              <div className="flex flex-col sm:flex-row justify-center md:justify-start">
                 <input 
                   type="email" 
                   placeholder="Your email" 
-                  className="bg-[#003d3d] text-white px-4 py-2 rounded-l-md focus:outline-none flex-grow" 
+                  className="bg-[#003d3d] text-white px-4 py-2 mb-2 sm:mb-0 sm:rounded-l-md focus:outline-none w-full sm:w-auto" 
                 />
-                <button className="bg-[#854836] hover:bg-[#6a3a2b] px-4 py-2 rounded-r-md transition duration-300">
+                <button className="bg-[#854836] hover:bg-[#6a3a2b] px-4 py-2 w-full sm:w-auto sm:rounded-r-md transition duration-300">
                   Subscribe
                 </button>
               </div>
@@ -164,12 +149,12 @@ const Footer = () => {
       
       {/* Footer bottom */}
       <div className="bg-[#001f1f] py-6">
-        <div className="container">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-center md:text-left mb-4 md:mb-0">
+        <div className="container px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center text-center">
+            <p className="text-gray-400 mb-4 md:mb-0">
               © {currentYear} Heritage Language School. All rights reserved.
             </p>
-            <div className="flex space-x-6">
+            <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6">
               <a href="#" className="text-gray-400 hover:text-[#8EDBDB] text-sm transition-colors duration-300">
                 Privacy Policy
               </a>
