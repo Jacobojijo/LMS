@@ -65,7 +65,7 @@ app.use(mongoSanitize());
 
 // Enable CORS
 app.use(cors({
-  origin: ['https://heritagelanguageschool.netlify.app'],
+  origin: ['https://heritagelanguageschool.netlify.app/'],
   credentials: true
 }));
 
