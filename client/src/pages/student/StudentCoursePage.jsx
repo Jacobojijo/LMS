@@ -26,7 +26,7 @@ const StudentCoursePage = () => {
       try {
         setLoading(true);
         const token = localStorage.getItem('token');
-        const response = await axios.get(`/api/enrollments/user/${user._id}/courses`, {
+        const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/enrollments/user/${user._id}/courses`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -71,114 +71,13 @@ const StudentCoursePage = () => {
     try {
       // In a real app, you might need to fetch the HTML file
       // This is a simplified version
-      const response = await axios.get(`/content/${htmlPath}`);
+      const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/content/${htmlPath}`);
       setTopicContent(response.data);
     } catch (err) {
       console.error('Error loading topic content:', err);
       setTopicContent('<div>Failed to load content</div>');
     }
   };
-  
-  const handleModuleClick = (module) => {
-    setActiveModule(module);
-    if (module.topics.length > 0) {
-      const firstTopic = module.topics.sort((a, b) => a.order - b.order)[0];
-      setActiveTopic(firstTopic);
-      loadTopicContent(firstTopic.htmlContent);
-      setShowingPracticeQuestions(false);
-    }
-  };
-  
-  const handleTopicClick = (topic) => {
-    setActiveTopic(topic);
-    loadTopicContent(topic.htmlContent);
-    setShowingPracticeQuestions(false);
-  };
-  
-  const handleShowPracticeQuestions = () => {
-    setShowingPracticeQuestions(true);
-    setAnswers({});
-    setQuizResults(null);
-  };
-  
-  const handleAnswerSelect = (questionIndex, optionIndex) => {
-    setAnswers({
-      ...answers,
-      [questionIndex]: optionIndex
-    });
-  };
-  
-  const handleSubmitPracticeQuestions = () => {
-    if (!activeTopic) return;
-    
-    const questions = activeTopic.practiceQuestions;
-    let correctCount = 0;
-    
-    questions.forEach((question, index) => {
-      if (answers[index] === question.correctAnswer) {
-        correctCount++;
-      }
-    });
-    
-    const score = Math.round((correctCount / questions.length) * 100);
-    const passed = score >= activeTopic.passingScore;
-    
-    setQuizResults({
-      score,
-      passed,
-      correctCount,
-      total: questions.length
-    });
-  };
-  
-  const getNextTopic = () => {
-    if (!activeModule || !activeTopic) return null;
-    
-    const sortedTopics = [...activeModule.topics].sort((a, b) => a.order - b.order);
-    const currentIndex = sortedTopics.findIndex(t => t._id === activeTopic._id);
-    
-    if (currentIndex < sortedTopics.length - 1) {
-      return sortedTopics[currentIndex + 1];
-    }
-    
-    // Check if there's another module
-    const sortedModules = enrollment.course.modules.sort((a, b) => a.order - b.order);
-    const currentModuleIndex = sortedModules.findIndex(m => m._id === activeModule._id);
-    
-    if (currentModuleIndex < sortedModules.length - 1) {
-      const nextModule = sortedModules[currentModuleIndex + 1];
-      if (nextModule.topics.length > 0) {
-        return {
-          nextModule,
-          nextTopic: nextModule.topics.sort((a, b) => a.order - b.order)[0]
-        };
-      }
-    }
-    
-    return null;
-  };
-  
-  const handleNextTopic = () => {
-    const next = getNextTopic();
-    
-    if (!next) return;
-    
-    if (next.nextModule) {
-      setActiveModule(next.nextModule);
-      setActiveTopic(next.nextTopic);
-      loadTopicContent(next.nextTopic.htmlContent);
-    } else {
-      setActiveTopic(next);
-      loadTopicContent(next.htmlContent);
-    }
-    
-    setShowingPracticeQuestions(false);
-    setQuizResults(null);
-  };
-  
-  if (loading) return <div className="loading">Loading course content...</div>;
-  if (error) return <div className="error">{error}</div>;
-  if (!enrollment) return <div className="error">No enrollment found for this course.</div>;
   
   return (
     <div className="course-container">
