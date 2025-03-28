@@ -5,7 +5,7 @@ const asyncHandler = require('../middleware/asyncMiddleware');
 
 // Update progress for a specific course
 const updateProgress = asyncHandler(async (req, res, next) => {
-  const { courseId } = req.params; // Extract courseId from params
+  const { courseId } = req.params;
   const { 
     moduleId, 
     topicId, 
@@ -27,59 +27,40 @@ const updateProgress = asyncHandler(async (req, res, next) => {
   }
 
   try {
-    // Find or create progress record
-    let progress = await Progress.findOne({ 
-      user: req.user.id, 
-      course: courseId 
-    });
-
-    if (!progress) {
-      progress = new Progress({
-        user: req.user.id,
-        course: courseId
-      });
-    }
-
-    // Sanitize and validate inputs
-    progress.currentModule = moduleId || null;
-    progress.currentTopic = topicId || null;
-    progress.lastAccessedPage = page || 'topic';
-
-    // Update completed modules with unique entries
-    if (completedModules && completedModules.length > 0) {
-      completedModules.forEach(moduleId => {
-        if (!progress.completedModules.some(m => m.moduleId.toString() === moduleId)) {
-          progress.completedModules.push({ moduleId });
+    // Use findOneAndUpdate with upsert to handle potential race conditions
+    const progress = await Progress.findOneAndUpdate(
+      { 
+        user: req.user.id, 
+        course: courseId 
+      },
+      {
+        $set: {
+          user: req.user.id,
+          course: courseId,
+          currentModule: moduleId || null,
+          currentTopic: topicId || null,
+          lastAccessedPage: page || 'topic',
+          lastAccessedAt: Date.now(),
+          overallProgress: overallProgress || 0
+        },
+        $addToSet: {
+          completedModules: { 
+            $each: completedModules.map(moduleId => ({ moduleId }))
+          },
+          completedTopics: { 
+            $each: completedTopics.map(({ moduleId, topicId }) => ({ moduleId, topicId }))
+          },
+          completedAssessments: { 
+            $each: completedAssessments.map(moduleId => ({ moduleId }))
+          }
         }
-      });
-    }
-
-    // Update completed topics with unique entries
-    if (completedTopics && completedTopics.length > 0) {
-      completedTopics.forEach(({ moduleId, topicId }) => {
-        if (!progress.completedTopics.some(
-          t => t.moduleId.toString() === moduleId && 
-                t.topicId.toString() === topicId
-        )) {
-          progress.completedTopics.push({ moduleId, topicId });
-        }
-      });
-    }
-
-    // Update completed assessments with unique entries
-    if (completedAssessments && completedAssessments.length > 0) {
-      completedAssessments.forEach(moduleId => {
-        if (!progress.completedAssessments.some(a => a.moduleId.toString() === moduleId)) {
-          progress.completedAssessments.push({ moduleId });
-        }
-      });
-    }
-
-    // Update overall progress
-    progress.overallProgress = overallProgress || 0;
-    progress.lastAccessedAt = Date.now();
-
-    await progress.save();
+      },
+      { 
+        upsert: true,  // Create if not exists
+        new: true,     // Return updated document
+        setDefaultsOnInsert: true // Set default values if creating new
+      }
+    );
 
     res.status(200).json({
       success: true,
@@ -88,6 +69,12 @@ const updateProgress = asyncHandler(async (req, res, next) => {
   } catch (error) {
     // Log the full error for debugging
     console.error('Progress update error:', error);
+    
+    // Check for specific duplicate key error
+    if (error.code === 11000) {
+      return next(new ErrorResponse('Progress for this course already exists', 409));
+    }
+    
     next(new ErrorResponse('Error updating progress', 500));
   }
 });
