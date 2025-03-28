@@ -1,11 +1,12 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
+import { baseURL } from "../config";
 
 const AuthContext = createContext();
 
 // Create an axios instance
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL,
+  baseURL: baseURL,
 });
 
 export const AuthProvider = ({ children }) => {
