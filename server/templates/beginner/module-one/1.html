@@ -1,198 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dholuo Grammar Module 01</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-        
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin-left: 5%;
-            margin-right: 5%;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        
-        h1, h2, h3, h4 {
-            color: #008080; /* Teal color for headings */
-            margin-top: 20px;
-        }
-        
-        h1 {
-            font-size: 28px;
-            border-bottom: 2px solid #008080;
-            padding-bottom: 10px;
-        }
-        
-        h2 {
-            font-size: 24px;
-            border-left: 4px solid #008080;
-            padding-left: 10px;
-        }
-        
-        h3 {
-            font-size: 20px;
-        }
-        
-        h4 {
-            font-size: 18px;
-        }
-        
-        p {
-            margin-bottom: 15px;
-        }
-        
-        blockquote {
-            border-left: 4px solid #008080;
-            padding-left: 15px;
-            margin-left: 0;
-            color: #555;
-        }
-        
-        ul, ol {
-            margin-bottom: 20px;
-        }
-        
-        li {
-            margin-bottom: 5px;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px 12px;
-            text-align: left;
-        }
-        
-        th {
-            background-color: #008080;
-            color: white;
-        }
-        
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        
-        .example {
-            background-color: #e6f3f3;
-            padding: 10px;
-            border-left: 3px solid #008080;
-            margin-bottom: 15px;
-        }
-        
-        .phoneme-table {
-            margin: 20px 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dholuo Language Learning</title>
+  <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #008080; /* Teal color for headings */
+        margin-top: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+        border-bottom: 2px solid #008080;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 24px;
+        border-left: 4px solid #008080;
+        padding-left: 10px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      h4 {
+        font-size: 18px;
+      }
+
+      p {
+        margin-bottom: 15px;
+      }
+
+      blockquote {
+        border-left: 4px solid #008080;
+        padding-left: 15px;
+        margin-left: 0;
+        color: #555;
+      }
+
+      ul,
+      ol {
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #008080;
+        color: white;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      .example {
+        background-color: #e6f3f3;
+        padding: 10px;
+        border-left: 3px solid #008080;
+        margin-bottom: 15px;
+      }
+
+      .phoneme-table {
+        margin: 20px 0;
+      }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>MODULE 01</h1>
-        
-        <blockquote>
-            <h2>1. Dholuo Alphabet, Basic Greetings, and Vocabulary</h2>
-        </blockquote>
-
-        <h3>1.1 Introduction to Luo and Dholuo</h3>
-        
-        <h4>1.1.1 Introduction</h4>
-        
-        <p>The Luo, one of the significant ethno-linguistic groups in Africa, are a culturally and historically rich people who trace their origins to the Nile River valley. The migration patterns, settlement dynamics, and linguistic diversity of the Luo have created a legacy that continues to influence the sociocultural and political landscapes across East and Central Africa.</p>
-        
-        <h4>The Historical Migration of the Luo</h4>
-        
-        <p>Between 1650 and 1750, various Luo groups embarked on migration journeys from the region currently known as South Sudan and Uganda. Their movements were catalyzed by socio-political factors, including population pressures, conflicts, and the search for arable land and water sources.</p>
-        
-        <div class="example">
-            <h4>Key Migration Waves:</h4>
-            <ul>
-                <li><strong>Joka-jok (People of Jok):</strong> Originating from the Acholi region, this group was the first to arrive in the present-day Nyanza province of Kenya.</li>
-                <li><strong>Migration from Alur:</strong> The Alur, a subgroup of the Luo, contributed to the diverse linguistic and cultural fabric of Luo society.</li>
-                <li><strong>Joka-Owiny (People of Owiny):</strong> Descendants of Owiny, this group is historically connected to the Padhola, another Luo subgroup.</li>
-                <li><strong>Jok'omolo (People of Omolo):</strong> Migrating from Pawir, this group expanded the Luo presence, establishing settlements across Lake Victoria's vicinity.</li>
-                <li><strong>Abasuba (Intermarriage Group):</strong> Emerged from intermarriages between the Luo and the Baganda.</li>
-            </ul>
-        </div>
-
-        <h3>1.2 Pronunciation and Alphabets</h3>
-        
-        <h4>1.2.1 Introduction</h4>
-        
-        <p>This section will deal with the essential elements for learning a new language: the alphabets, consonants, vowels, and pronunciation.</p>
-        
-        <h4>1.2.2 Dholuo Alphabets</h4>
-        
-        <p>Dholuo uses 22 alphabets, out of which 17 are consonants, and 5 are vowels.</p>
-        
-        <div class="example">
-            <h4>Alphabet Breakdown:</h4>
-            <p><strong>Consonants:</strong> B, D, F, G, H, J, K, L, M, N, P, R, S, T, U, W, Y</p>
-            <p><strong>Vowels:</strong> A, E, I, O, U</p>
-            <p><strong>Special Note on "C":</strong> The letter "C" does not occur in isolation. Instead, it forms the digraph "CH," representing a soft "ch" sound, akin to the English word "church."</p>
-        </div>
-
-        <h4>1.2.2.1 Consonants & Vowels</h4>
-        
-        <p>Vowels in Dholuo play a crucial role, as the language relies on vowel harmony and tone to convey meaning. The five primary vowels possess unique properties.</p>
-        
-        <div class="example">
-            <h4>Vowel Examples:</h4>
-            <ul>
-                <li>A: As in "bat" (hand)</li>
-                <li>E: As in "pek" (heavy)</li>
-                <li>I: As in "bith" (sharp)</li>
-                <li>O: As in "joka" (those people)</li>
-                <li>U: As in "luor" (fear)</li>
-            </ul>
-        </div>
-
-        <h4>1.2.2.2 Pronunciation Skills</h4>
-        
-        <p>Pronunciation is a cornerstone in mastering Dholuo, as the correct production of sounds directly impacts meaning. Dholuo is a tonal language, with nuanced variations in pitch and stress that distinguish words.</p>
-        
-        <div class="example">
-            <h4>Pronunciation Features:</h4>
-            <ul>
-                <li><strong>Tonality:</strong> Each syllable carries one of three possible tones—high, low, or falling.</li>
-                <li><strong>Example:</strong>
-                    <ul>
-                        <li>lúor (high tone): "to be afraid"</li>
-                        <li>lùor (low tone): "circumnavigate"</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <h4>1.2.2.3 Grouped Consonants</h4>
-        
-        <p>Grouped consonants in Dholuo form a significant part of its linguistic framework, exhibiting systematic pairing with vowels to generate phonetically diverse sounds.</p>
-        
-        <div class="example">
-            <h4>Consonant Groups:</h4>
-            <ul>
-                <li><strong>CH Group:</strong> CHA, CHE, CHI, CHO, CHU (e.g., chando - to disturb)</li>
-                <li><strong>DH Group:</strong> DHA, DHE, DHI, DHO, DHU (e.g., dhako - woman)</li>
-                <li><strong>MB Group:</strong> MBA, MBE, MBI, MBO, MBU (e.g., mbiru - brewing pot)</li>
-                <li><strong>ND Group:</strong> NDA, NDE, NDI, NDO, NDU (e.g., ndara - road)</li>
-                <li><strong>NY Group:</strong> NYA, NYE, NYI, NYO, NYU (e.g., nyathi - child)</li>
-            </ul>
-        </div>
-    </div>
+  <div class="container">
+    <h1>MODULE 01</h1>
+    <h2>1. Dholuo Alphabet, Basic Greetings, and Vocabulary</h2>
+    
+    <h3>1.1 Introduction to Luo and Dholuo</h3>
+    
+    <h4>1.1.1 Introduction</h4>
+    <p>The Luo, one of the significant ethno-linguistic groups in Africa, are a culturally and historically rich people who trace their origins to the Nile River valley. The migration patterns, settlement dynamics, and linguistic diversity of the Luo have created a legacy that continues to influence the sociocultural and political landscapes across East and Central Africa. This comprehensive study examines the historical migration of the Luo, their distribution and settlement patterns, their linguistic affiliations, and their contributions to regional diversity.</p>
+    
+    <h4>The Historical Migration of the Luo</h4>
+    <p>Between 1650 and 1750, various Luo groups embarked on migration journeys from the region currently known as South Sudan and Uganda. Their movements were catalyzed by socio-political factors, including population pressures, conflicts, and the search for arable land and water sources. These migrations occurred in five primary waves, highlighting the structured and strategic nature of Luo expansion.</p>
+    
+    <p>Key Migration Waves:</p>
+    <ul>
+      <li><strong>Joka-jok (People of Jok):</strong>
+        <ul>
+          <li>Originating from the Acholi region, this group was the first to arrive in the present-day Nyanza province of Kenya.</li>
+          <li>They carried with them a rich heritage of spirituality, as "Jok" is often associated with traditional Luo beliefs.</li>
+        </ul>
+      </li>
+      <li><strong>Migration from Alur:</strong>
+        <ul>
+          <li>The Alur, a subgroup of the Luo, contributed to the diverse linguistic and cultural fabric of Luo society. They primarily settled in areas of Uganda and the Democratic Republic of Congo (DRC).</li>
+        </ul>
+      </li>
+      <li><strong>Joka-Owiny (People of Owiny):</strong>
+        <ul>
+          <li>Descendants of Owiny, this group is historically connected to the Padhola, another Luo subgroup. Their migration underscored familial and cultural ties.</li>
+        </ul>
+      </li>
+      <li><strong>Jok'omolo (People of Omolo):</strong>
+        <ul>
+          <li>Migrating from Pawir, this group expanded the Luo presence, establishing settlements across Lake Victoria's vicinity.</li>
+        </ul>
+      </li>
+      <li><strong>Abasuba (Intermarriage Group):</strong>
+        <ul>
+          <li>The Abasuba emerged from intermarriages between the Luo and the Baganda. Having ruled the Baganda kingdom for over 150 years, this subgroup embodies a synthesis of Luo and Baganda cultures.</li>
+        </ul>
+      </li>
+    </ul>
+    
+    <h4>Settlements and Distribution Patterns</h4>
+    <p>By 1750, the Luo had established settlements around Lake Victoria, known to them as Nam Lolwe ("lake with no end"). This marked the culmination of their migration into the western Kenya and northern Tanzanian regions. By 1800, the Luo had expanded their territories further, reaching northern, western, and eastern Uganda, as well as northern Tanzania.</p>
+    
+    <p>Distribution Highlights:</p>
+    <ul>
+      <li><strong>JoLuo in Kenya and Tanzania:</strong>
+        <ul>
+          <li>The Luo in Kenya, commonly referred to as JoLuo or JaLuo ("people of Luo"), constitute the fourth-largest ethnic community in the country after the Kikuyu, Kalenjin, and Luhya.</li>
+          <li>The Luo in Tanzania, referred to as Luo Kavirondo or Jo Shirati, share linguistic and cultural ties with their Kenyan counterparts.</li>
+        </ul>
+      </li>
+      <li><strong>Expansion into Uganda:</strong>
+        <ul>
+          <li>Various Luo clans such as the Jonam, Padhola, and Acholi settled across Uganda, influencing local cultures and traditions.</li>
+        </ul>
+      </li>
+      <li><strong>Further African Presence:</strong>
+        <ul>
+          <li>The Luo nation today spans 16 distinct language groups across 12 African states, including Ethiopia, Sudan, Ghana, Chad, and the Democratic Republic of Congo. While their presence in some countries (e.g., Nigeria, Cameroon, Rwanda, and Central African Republic) is limited to cultural influences, in others, the Luo form distinct linguistic communities.</li>
+        </ul>
+      </li>
+    </ul>
+    
+    <h4>Linguistic Classification of the Luo</h4>
+    <p>The Luo language, commonly referred to as Dholuo, belongs to the Western Nilotic branch of the Nilo-Saharan language family. It is spoken by Luo communities in Kenya and Tanzania, while its related dialects and languages are distributed across East and Central Africa. The term "Jo" in Dholuo, meaning "people of," underscores the collectivist identity deeply embedded within Luo culture.</p>
+    
+    <p>Major Luo Language Groups:</p>
+    <ul>
+      <li>Anuak (Ethiopia, Uganda, Sudan)</li>
+      <li>Acholi (Uganda, South Sudan)</li>
+      <li>Alur (DRC, Uganda)</li>
+      <li>Abasuba (Kenya)</li>
+      <li>Belanda Bor (South Sudan)</li>
+      <li>Bari (South Sudan)</li>
+      <li>Collo/Shilluk (South Sudan, Uganda)</li>
+      <li>Jo Luo/Jur Chol (South Sudan)</li>
+      <li>JoLuo (Kenya, Tanzania)</li>
+      <li>Jonam (Uganda)</li>
+      <li>Kuman (Uganda)</li>
+      <li>Maban (Ethiopia, Sudan)</li>
+      <li>Thuri/Shatt (South Sudan)</li>
+      <li>Päri (South Sudan)</li>
+      <li>Padhola (Uganda)</li>
+      <li>Langi (Uganda)</li>
+    </ul>
+    
+    <h4>1.1.2 History & Culture of Joluo of Kenya</h4>
+    <h4>Etymology and Historical Background</h4>
+    <h4>Etymology of "Luo"</h4>
+    <p>The term Luo has undergone significant linguistic transformation. Originally known as Luwo—meaning "those who follow the river and lake"—the name evolved into Lwo and eventually into Luo, a simplified version for ease of pronunciation. This etymological progression reflects the group's relationship with water bodies and their adaptive linguistic tendencies.</p>
+    
+    <h4>Origin of "Kavirondo"</h4>
+    <p>The name Kavirondo was not self-designated but given by the Giriama, who accompanied British explorers to Western Kenya. Observing the Luo's sunbathing habits while squatting, they referred to the region as "Kaa Virondo" (a place where people squat). This term, anglicized by the British, became Kavirondo. Similarly, the name Nyanza, referring to the lake region, originates from the Bantu term Nyasa, meaning "lake," highlighting interethnic linguistic influences.</p>
+    
+    <h4>Migration into Kenya</h4>
+    <p>The Luo's migration into present-day western Kenya occurred in five distinct waves, beginning around 1500 AD. These movements were marked by strategic settlement patterns and significant interaction with indigenous Bantu communities.</p>
+    
+    <h4>First Wave: Joka Jok</h4>
+    <p>This wave included clans such as JoKarachuonyo, JoKabondo, JoNyakach, JoKanyada, and JoKadem. They originated from the Acholi region and settled in areas like Rachuonyo, Nyando, Homabay, and parts of Rongo Districts.</p>
+    
+    <h4>Second Wave: Jo Kowiny</h4>
+    <p>Jo Kowiny, descendants of Jo Padhola, included JoSakwa, JoUyoma, JoSeme, JoAsembo, JoKajulu, and JoKisumo. They initially settled near Got Ramogi (Ramogi Hill) in Alego, Siaya District. This wave faced resistance from smaller Bantu tribes but ultimately established dominance through superior military strategies.</p>
+    
+    <h4>Third Wave: Jo Komolo</h4>
+    <p>Comprising groups such as JoAlego, JoUgenya, JoGem, and JoYimbo, this wave settled primarily in Siaya District. The Jo Kager, a subgroup, displayed advanced military skills, displacing indigenous Bantu communities such as the Samia.</p>
+    
+    <h4>Fourth Wave: Abasuba</h4>
+    <p>Emerging from intermarriages between the Luo and Ugandan Bantu groups (e.g., Buganda and Busoga), the Abasuba integrated into Luo society while preserving unique cultural traits. They occupy regions such as Migori, Mbita, and Suba Districts.</p>
+    
+    <h4>Interactions with Bantus</h4>
+    <p>Upon arriving in Western Kenya, the Luo encountered Bantu communities such as the Kisii and Luhya. These groups were displaced to highland areas through a combination of military might and cultural assimilation. However, some Luo clans, like the Marach and Ragol, integrated with Nandi clans, forming hybrid communities.</p>
+    
+    <h4>Socio-Cultural Organization and Clans</h4>
+    <p>The Luo in Kenya are organized into 26 major sub-groups, each comprising various clans and sub-clans. The prefix "Jo" translates to "people of," signifying collective identity. These sub-groups reflect both geographical settlement patterns and lineage-based affiliations.</p>
+    
+    <h4>Major Luo Clans</h4>
+    <ul>
+      <li>Jo-Gem</li>
+      <li>Jo-Yimbo</li>
+      <li>Jo-Ugenya</li>
+      <li>Jo-Seme</li>
+      <li>Jo-Kajulu</li>
+      <li>Jo-Karachuonyo</li>
+      <li>Jo-Kochia</li>
+      <li>Jo-Kagan</li>
+      <li>Jo-Nyakach</li>
+      <li>Jo-Kabondo</li>
+      <li>Jo-Palamo</li>
+      <li>Jo-Kano</li>
+      <li>Jo-Asembo</li>
+      <li>Jo-Alego</li>
+      <li>Jo-Uyoma</li>
+      <li>Jo-Sakwa</li>
+      <li>Jo-Kanyamkago</li>
+      <li>Jo-Kadem</li>
+      <li>Jo-Kwabwai</li>
+      <li>Jo-Karungu</li>
+      <li>Abasuba (Jo-Suna, Jo-Gwassi, Jo-Kaksingri)</li>
+      <li>Jo-Kasgunga</li>
+      <li>Jo-Kanyamwa</li>
+      <li>Jo-Kanyada</li>
+      <li>Jo-Kanyidoto</li>
+      <li>Jo-Kamagambo</li>
+      <li>Jo-Ramogi</li>
+    </ul>
+    
+    <p>Each clan maintains distinct cultural practices and oral histories, contributing to the Luo's rich diversity.</p>
+    
+    <h4>1.1.2.1 Review & Practice</h4>
+    <h4>Introduction to Luo and Dholuo:</h4>
+    <p>The Luo are a significant ethno-linguistic group in Africa, tracing their origins to the Nile River valley. Their migration patterns, settlement strategies, and linguistic affiliations have played a critical role in shaping the sociocultural and political landscapes of East and Central Africa.</p>
+    
+    <h4>Historical Migration of the Luo</h4>
+    <p>Between 1650 and 1750, various Luo groups migrated from present-day South Sudan and Uganda due to population pressure, conflicts, and the search for resources. These movements occurred in five primary waves:</p>
+    <ul>
+      <li>Joka-Jok (People of Jok) – First settlers in Nyanza, bringing strong spiritual traditions.</li>
+      <li>Migration from Alur – Influenced Luo linguistic and cultural diversity, settling in Uganda and the DRC.</li>
+      <li>Joka-Owiny (People of Owiny) – Connected to the Padhola subgroup, strengthening familial and cultural ties.</li>
+      <li>Jok'omolo (People of Omolo) – Expanded Luo settlements around Lake Victoria.</li>
+      <li>Abasuba (Intermarriage Group) – A fusion of Luo and Baganda cultures after ruling Buganda for over 150 years.</li>
+    </ul>
+    
+    <h4>Settlements and Distribution Patterns</h4>
+    <p>By 1750, the Luo had established themselves around Lake Victoria (Nam Lolwe) and later expanded into Uganda and Tanzania.</p>
+    <ul>
+      <li>JoLuo in Kenya & Tanzania – The fourth-largest ethnic group in Kenya; Tanzanian Luo (Jo Shirati) maintain strong cultural ties.</li>
+      <li>Expansion into Uganda – Clans such as Jonam, Padhola, and Acholi integrated with local communities.</li>
+      <li>Wider African Presence – Luo linguistic communities exist across 12 African nations, including Ethiopia, Sudan, Ghana, and Chad.</li>
+    </ul>
+    
+    <h4>Linguistic Classification</h4>
+    <p>Dholuo, the language of the Luo in Kenya and Tanzania, belongs to the Western Nilotic branch of the Nilo-Saharan family. Luo-related dialects are widespread in East and Central Africa.</p>
+    <p>Key Luo Language Groups: Anuak (Ethiopia), Acholi (Uganda), Alur (DRC), Padhola (Uganda), JoLuo (Kenya/Tanzania), Collo/Shilluk (South Sudan).</p>
+    
+    <h4>History & Culture of the Joluo of Kenya</h4>
+    <h4>Etymology & Migration</h4>
+    <ul>
+      <li>"Luo" evolved from "Luwo," meaning "those who follow the river/lake."</li>
+      <li>"Kavirondo" was a term coined by the Giriama, observing Luo squatting habits ("Kaa Virondo").</li>
+      <li>Migration into Kenya occurred in five waves (1500–1800 AD), marked by conflict and assimilation.</li>
+      <li>First Wave: Joka-Jok – Early settlers (JoKarachuonyo, JoKabondo) in Homabay and Nyando.</li>
+      <li>Second Wave: Jo-Kowiny – Moved to Got Ramogi, integrating with smaller Bantu tribes.</li>
+      <li>Third Wave: Jo-Komolo – Advanced military skills led to territorial expansion.</li>
+      <li>Fourth Wave: Abasuba – Formed through intermarriages with Ugandan Bantu.</li>
+    </ul>
+    
+    <h4>Socio-Cultural Organization & Clans</h4>
+    <p>The Luo in Kenya consist of 26 major sub-groups, identified by the prefix "Jo-" (People of).</p>
+    <p>Examples of major clans:</p>
+    <ul>
+      <li>Jo-Alego – Early settlers in Siaya.</li>
+      <li>Jo-Kajulu – Known for trade and diplomacy.</li>
+      <li>Jo-Kisumo – Settled near Kisumu, influential in economic activities.</li>
+      <li>Jo-Kanyamwa & Jo-Kadem – Dominated parts of Migori and Homabay.</li>
+      <li>Abasuba (Jo-Suna, Jo-Gwassi, Jo-Kaksingri) – Retained elements of both Luo and Bantu cultures.</li>
+    </ul>
+    
+    <h3>1.2 Pronunciation and Alphabets</h3>
+    <h4>1.2.1 Introduction</h4>
+    <p>This section will deal with the general elements that are essential for learning a new language. These are the alphabets, the consonants, the vowels, and the pronunciation.</p>
+    
+    <h4>1.2.2 Dholuo Alphabets</h4>
+    <h4>Dholuo Alphabets: An Overview</h4>
+    <p>Dholuo uses 22 alphabets, out of which 17 are consonants, and 5 are vowels. These letters are as follows:</p>
+    <ul>
+      <li>Consonants: B, D, F, G, H, J, K, L, M, N, P, R, S, T, U, W, Y</li>
+      <li>Vowels: A, E, I, O, U</li>
+    </ul>
+    <p>Special Note on "C": The letter "C" does not occur in isolation. Instead, it forms the digraph "CH," combining with the letter "H" to create a distinct phonemic sound. This digraph represents a soft "ch" sound, akin to the English word "church."</p>
+    
+    <h4>1.2.2.1 Consonants & Vowels</h4>
+    <h4>Vowels in Dholuo</h4>
+    <p>Vowels play a crucial role in Dholuo, as the language relies on vowel harmony and tone to convey meaning. The five primary vowels (A, E, I, O, U) possess the following properties:</p>
+    <ul>
+      <li>They are pronounced as pure sounds without any gliding.</li>
+      <li>Vowel length can vary, and this variance is phonemically significant. For instance, a long vowel can change the meaning of a word compared to its short counterpart.</li>
+      <li>These vowels occur in both open and closed syllables.</li>
+    </ul>
+    <p>Examples:</p>
+    <ul>
+      <li>A: As in "bat" (hand)</li>
+      <li>E: As in "pek" (heavy)</li>
+      <li>I: As in "bith" (sharp)</li>
+      <li>O: As in "joka" (those people)</li>
+      <li>U: As in "luor" (fear)</li>
+    </ul>
+    
+    <h4>Consonants in Dholuo</h4>
+    <p>The 17 consonants in Dholuo exhibit unique articulation patterns. The sounds are relatively consistent, making them straightforward for learners who are familiar with English consonants. However, attention must be given to the tonal and contextual pronunciation, as these can significantly affect meaning.</p>
+    
+    <p>Key Features of Dholuo Consonants:</p>
+    <ul>
+      <li>Plosives: B, D, G, K, P, T (produced with a complete obstruction of airflow followed by a release).</li>
+      <li>Fricatives: F, H, S (produced with friction caused by airflow constriction).</li>
+      <li>Nasals: M, N (produced by airflow through the nose).</li>
+      <li>Liquids: L, R (produced with minimal constriction, often referred to as "flowing" sounds).</li>
+      <li>Semivowels: W, Y (function as consonants but have vowel-like properties in certain contexts).</li>
+    </ul>
+    
+    <h4>1.2.2.2 Pronunciation Skills</h4>
+    <p>Pronunciation is a cornerstone in mastering Dholuo, as the correct production of sounds directly impacts meaning. Dholuo is a tonal language, and thus its pronunciation involves nuanced variations in pitch and stress that distinguish words. For learners, this tonal aspect necessitates attentive listening and practice, as misplaced accents or tones can dramatically alter a word's meaning.</p>
+    
+    <p>Features of Pronunciation in Dholuo:</p>
+    <ul>
+      <li>Tonality: Each syllable in Dholuo carries one of three possible tones—high, low, or falling. These tones are superimposed on vowels, affecting the word's semantic interpretation.</li>
+    </ul>
+    <p>Example:</p>
+    <ul>
+      <li>lúor (with a high tone) means "to be afraid."</li>
+      <li>lùor (with a low tone) means "circumnavigate."</li>
+    </ul>
+    <ul>
+      <li>Consonant-Vowel Clarity: Unlike English, where vowel reduction is common in unstressed syllables, Dholuo vowels retain their full phonetic value regardless of stress. This feature ensures clarity in speech and aids in distinguishing between otherwise similar words.</li>
+      <li>Vowel Length: Variations in vowel length (short vs. long) are phonemically significant. For instance:</li>
+    </ul>
+    <p>kendo (short vowel) translates to "fire place."</p>
+    <p>keeendo (long vowel) translates to "to marry."</p>
+    <ul>
+      <li>Consonantal Digraphs: Some Dholuo consonants are formed by combining two letters, such as "ch" and "ng'." These digraphs produce single, unique sounds critical to correct pronunciation.</li>
+    </ul>
+    
+    <h4>1.2.2.3 Grouped Consonants</h4>
+    <p>Grouped consonants in Dholuo form a significant part of its linguistic framework. These consonant clusters exhibit systematic pairing with vowels (A, E, I, O, U) to generate phonetically diverse sounds. Each group plays a functional role in morphology and phonology.</p>
+    
+    <p>Key Groups of Consonants:</p>
+    <ul>
+      <li><strong>CH Group:</strong>
+        <ul>
+          <li>Forms: CHA, CHE, CHI, CHO, CHU</li>
+          <li>Phoneme: Similar to "ch" in English charge.</li>
+          <li>Example: chando (to disturb, poverty).</li>
+        </ul>
+      </li>
+      <li><strong>DH Group:</strong>
+        <ul>
+          <li>Forms: DHA, DHE, DHI, DHO, DHU</li>
+          <li>Phoneme: A soft "th" sound, as in that in English.</li>
+          <li>Example: dhako (woman).</li>
+        </ul>
+      </li>
+      <li><strong>MB Group:</strong>
+        <ul>
+          <li>Forms: MBA, MBE, MBI, MBO, MBU</li>
+          <li>Phoneme: A bilabial plosive with a nasalized onset, as in remember.</li>
+          <li>Example: mbiru (brewing pot).</li>
+        </ul>
+      </li>
+      <li><strong>ND Group:</strong>
+        <ul>
+          <li>Forms: NDA, NDE, NDI, NDO, NDU</li>
+          <li>Phoneme: A voiced alveolar plosive with nasalization, as in render.</li>
+          <li>Example: ndara (road).</li>
+        </ul>
+      </li>
+      <li><strong>NDH Group:</strong>
+        <ul>
+          <li>Forms: NDHA, NDHE, NDHI, NDHO, NDHU</li>
+          <li>Phoneme: A nasalized "th" sound.</li>
+          <li>Example: ndhuong' (glory).</li>
+        </ul>
+      </li>
+      <li><strong>NG' Group:</strong>
+        <ul>
+          <li>Forms: NG'A, NG'E, NG'I, NG'O, NG'U</li>
+          <li>Phoneme: A velar nasal followed by a glottal release, as in reading.</li>
+          <li>Example: ng'ato (someone).</li>
+        </ul>
+      </li>
+      <li><strong>NG Group:</strong>
+        <ul>
+          <li>Forms: NGA, NGE, NGI, NGO, NGU</li>
+          <li>Phoneme: A velar nasal, as in linger.</li>
+          <li>Example: rango (to search).</li>
+        </ul>
+      </li>
+      <li><strong>NY Group:</strong>
+        <ul>
+          <li>Forms: NYA, NYE, NYI, NYO, NYU</li>
+          <li>Phoneme: A palatal nasal, as in Kenya.</li>
+          <li>Example: nyathi (child).</li>
+        </ul>
+      </li>
+      <li><strong>TH Group:</strong>
+        <ul>
+          <li>Forms: THA, THE, THI, THO, THU</li>
+          <li>Phoneme: A dental fricative, as in thatch.</li>
+          <li>Example: thuol (snake).</li>
+        </ul>
+      </li>
+      <li><strong>TW Group (Rare):</strong>
+        <ul>
+          <li>Forms: TWA, TWE, TWI, TWO, TWU</li>
+          <li>Phoneme: Similar to diphthongs, e.g., tua, tue, tui.</li>
+          <li>Note: Rarely used in everyday speech.</li>
+        </ul>
+      </li>
+    </ul>
+    
+    <h4>Examples (Ranyisi)</h4>
+    <ul>
+      <li>mbaka - conversation</li>
+      <li>rombo - Sheep</li>
+      <li>mbiru - a brewing pot</li>
+      <li>ndara - road</li>
+      <li>ndawa - cigarette</li>
+      <li>rango - to look for, search, look at</li>
+      <li>tong'o - to chop, cut into pieces</li>
+      <li>kong'o - beer/ alcohol</li>
+      <li>dhano - a human being.</li>
+      <li>dhako - a woman.</li>
+      <li>nyathi - a child.</li>
+      <li>nyako - a girl/lady</li>
+      <li>nyamin - sister</li>
+      <li>nyalo - ability.</li>
+      <li>kecho - to pity, anger</li>
+      <li>chando - to persecute, (there are other meanings) to disturb, poverty.</li>
+      <li>chango - to heal, to cure up.</li>
+      <li>dhiang' - a cow</li>
+      <li>nyuok - a billy-goat.</li>
+      <li>Nyadhi - pride (usually in a positive sense)</li>
+    </ul>
+  </div>
 </body>
 </html>
