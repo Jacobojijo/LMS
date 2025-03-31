@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@theme {
+  --font-playfair: "Playfair Display", serif;
+
+  --color-primary: #ff8901;
+  --color-primary: #854836;
+}
+
+.primary-btn {
+  @apply bg-primary text-white font-semibold py-3 px-6 rounded-md hover:!scale-110 duration-300 cursor-pointer;
+}
+
+.drop-shadow {
+  filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.2));
+}

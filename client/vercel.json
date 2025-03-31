@@ -1,7 +1,0 @@
-{
-  "routes": [
-    { "src": "/api/auth/google/success", "dest": "/" },
-    { "src": "/implicit/callback", "dest": "/" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
-}
