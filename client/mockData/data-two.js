@@ -1,9 +1,9 @@
 export const NavbarMenu = [
-    {
-      id: 1,
-      title: "Home",
-      link: "/student/dashboard",
-    },
+    // {
+    //   id: 1,
+    //   title: "Home",
+    //   link: "/student/dashboard",
+    // },
     {
       id: 2,
       title: "Courses",

@@ -31,10 +31,13 @@ export function VerifyEmailContent() {
     setSuccess("");
 
     try {
-      const res = await axios.post("/api/auth/verifyemail", {
-        email,
-        verificationCode,
-      });
+      const res = await axios.post(
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/auth/verifyemail`,
+        {
+          email,
+          verificationCode,
+        }
+      );
 
       // Store token if returned
       if (res.data.token) {
@@ -75,7 +78,10 @@ export function VerifyEmailContent() {
     setSuccess("");
 
     try {
-      await axios.post("/api/auth/resendverification", { email });
+      await axios.post(
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/auth/resendverification`,
+        { email }
+      );
       setSuccess("A new verification code has been sent to your email.");
       setCountdown(60); // Set 60 seconds cooldown
     } catch (err) {

@@ -8,7 +8,8 @@ import { useRouter } from "next/navigation";
 
 const RegisterPage = () => {
   const router = useRouter();
-  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+  // Use the backend URL from environment variable with fallback
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "https://lms-ci8t.onrender.com";
   
   const [formData, setFormData] = useState({
     firstName: "",
@@ -41,7 +42,7 @@ const RegisterPage = () => {
     }
 
     try {
-      await axios.post(`${BACKEND_URL}/api/auth/register`, formData);
+      await axios.post(`${backendUrl}/api/auth/register`, formData);
       // Redirect to verification page with email
       router.push(`/verify-email?email=${encodeURIComponent(formData.email)}`);
     } catch (err) {

@@ -8,6 +8,8 @@ import { useRouter, useParams } from "next/navigation";
 const ResetPassword = () => {
   const { resettoken } = useParams();
   const router = useRouter();
+  // Use the backend URL from environment variable with fallback
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "https://lms-ci8t.onrender.com";
 
   const [formData, setFormData] = useState({
     password: "",
@@ -39,7 +41,7 @@ const ResetPassword = () => {
 
     try {
       const res = await axios.put(
-        `/api/auth/resetpassword/${resettoken}`,
+        `${backendUrl}/api/auth/resetpassword/${resettoken}`,
         formData
       );
 

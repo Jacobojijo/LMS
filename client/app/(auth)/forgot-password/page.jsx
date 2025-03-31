@@ -15,6 +15,9 @@ const ForgotPassword = () => {
   const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
 
+  // Use the backend URL from environment variable
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "https://lms-ci8t.onrender.com";
+
   const handleRequestCode = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -22,7 +25,7 @@ const ForgotPassword = () => {
     setSuccess("");
 
     try {
-      const response = await axios.post("/api/auth/forgotpassword", { email });
+      const response = await axios.post(`${backendUrl}/api/auth/forgotpassword`, { email });
       setSuccess(
         response.data.message || "Password reset code sent to your email"
       );
@@ -51,7 +54,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      await axios.post("/api/auth/resetpassword", {
+      await axios.post(`${backendUrl}/api/auth/resetpassword`, {
         email,
         resetCode,
         password,
