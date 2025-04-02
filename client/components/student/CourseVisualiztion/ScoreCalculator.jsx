@@ -164,7 +164,7 @@ export const ScoreCalculator = ({
         )}
 
         <button
-          onClick={onContinue}
+          onClick={() => onContinue(passed)}
           className="px-4 py-2 rounded-md hover:opacity-90 transition ml-auto"
           style={{ backgroundColor: colors.accent, color: "white" }}
         >
@@ -179,7 +179,6 @@ export const ScoreCalculator = ({
   );
 };
 
-// Modified PracticeQuestions Component to include score calculation
 // Modified PracticeQuestions Component to include score calculation
 export const EnhancedPracticeQuestions = ({
   topic,
@@ -218,9 +217,11 @@ export const EnhancedPracticeQuestions = ({
   // Handle continue based on pass/fail status
   const handleContinue = (passed) => {
     if (passed) {
+      // If passed, mark topic complete and move to next topic
       markTopicComplete();
     } else {
-      setActivePage("html"); // Go back to content for review
+      // If failed, go back to content for review WITHOUT marking topic complete
+      setActivePage("html");
     }
   };
 
@@ -325,7 +326,7 @@ export const EnhancedPracticeQuestions = ({
         passingScore={passingScore}
         isSubmitted={isSubmitted}
         isPractice={true}
-        onContinue={() => handleContinue(true)}
+        onContinue={handleContinue}
         onRetry={handleRetry}
         setShowAnswers={setShowAnswers}
       />
@@ -356,7 +357,7 @@ export const EnhancedPracticeQuestions = ({
     </div>
   );
 };
-// Enhanced Assessment Component
+
 // Enhanced Assessment Component
 export const EnhancedAssessment = ({
   module,
@@ -538,7 +539,7 @@ export const EnhancedAssessment = ({
         passingScore={module.cat.passingScore}
         isSubmitted={isSubmitted}
         isPractice={false}
-        onContinue={() => handleContinue(true)}
+        onContinue={handleContinue}
         onRetry={handleRetry}
         setShowAnswers={setShowAnswers}
       />
