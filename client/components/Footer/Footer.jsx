@@ -9,6 +9,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaLinkedin,
+  FaTiktok,
 } from "react-icons/fa";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 
@@ -59,32 +60,44 @@ const Footer = () => {
             </div>
             <p className="text-gray-300 mt-4 text-center md:text-left">
               Preserving cultural heritage through language education since
-              2005. Join our community of language enthusiasts.
+              2025. Join our community of language enthusiasts.
             </p>
             <div className="flex justify-center md:justify-start space-x-4 text-2xl pt-2">
               <a
-                href="#"
+                href="https://www.facebook.com/share/18oGJu72nf/?mibextid=wwXIfr"
                 className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
               >
                 <FaFacebook />
               </a>
               <a
-                href="#"
+                href="https://x.com/heritagela42918?s=21"
                 className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
               >
                 <FaTwitter />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/heritage_language_school?igsh=MTN4enhsanpqeHEzdQ%3D%3D&utm_source=qr"
                 className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
               >
                 <FaInstagram />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@heritage.language?_t=ZM-8v2tP6Gleab&_r=1"
+                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+              >
+                <FaTiktok />
+              </a>
+              <a
+                href="https://www.youtube.com/@HeritageLanguageSchool"
                 className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
               >
                 <FaYoutube />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/heritage-language-school/"
+                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+              >
+                <FaLinkedin />
               </a>
             </div>
           </motion.div>
