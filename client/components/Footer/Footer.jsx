@@ -12,7 +12,7 @@ import {
   FaTiktok,
 } from "react-icons/fa";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
-
+import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -73,7 +73,7 @@ const Footer = () => {
                 href="https://x.com/heritagela42918?s=21"
                 className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
               >
-                <FaTwitter />
+                <FaXTwitter />
               </a>
               <a
                 href="https://www.instagram.com/heritage_language_school?igsh=MTN4enhsanpqeHEzdQ%3D%3D&utm_source=qr"
@@ -168,8 +168,8 @@ const Footer = () => {
             </h3>
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-2">
               {[
-                "Luo",
-                "Gikuyu",
+                "Dholuo",
+                "Kikuyu",
                 "Kalenjin",
                 "Ekegusii",
                 "Kamba",
@@ -202,11 +202,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MdPhone className="text-[#8EDBDB] text-xl flex-shrink-0" />
-                <p className="text-gray-300">(+254) 746426925</p>
+                <p className="text-gray-300 ">(+254) 746426925</p>
+              </div>
+              <div className="flex items-center justify-center md:justify-start space-x-3">
+                <MdPhone className="text-[#8EDBDB] text-xl flex-shrink-0" />
+                <p className="text-gray-300 ">(+254) 716883778</p>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MdEmail className="text-[#8EDBDB] text-xl flex-shrink-0" />
-                <p className="text-gray-300">heritagelanguageschool.com</p>
+                <p className="text-gray-300">heritagelanguageschool@gmail.com</p>
               </div>
             </div>
             <div className="pt-4">

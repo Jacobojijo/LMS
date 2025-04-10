@@ -29,8 +29,13 @@ export const NavbarMenu = [
     title: "About us",
     link: "/about",
   },
+  // {
+  //   id: 5,
+  //   title: "Curriculum",
+  //   link: "/curriculum",
+  // },
   {
-    id: 5,
+    id: 6,
     title: "Contact",
     link: "/contact",
   },

@@ -109,29 +109,39 @@ const Courses = () => {
   };
 
   // Render CTA based on language with mobile-friendly adjustments
-  const renderCTA = (language) => {
-    if (language.title === "Luo") {
-      return (
-        <a
-          href="https://forms.gle/7B4zmuDunTauYGCf9"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md transition-colors duration-300 flex items-center"
-        >
-          <span className="mr-1 relative">
-            <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
-          </span>
-          {windowWidth < 640 ? "REGISTER" : "INTAKE ONGOING: REGISTER"}
-        </a>
-      );
-    } else {
-      return (
-        <button className="bg-gray-500 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md opacity-80 cursor-not-allowed">
-          {windowWidth < 640 ? "SOON" : "COMING SOON"}
-        </button>
-      );
-    }
+  // Update the renderCTA function in your Courses component
+const renderCTA = (language) => {
+  // September intake links
+  const intakeLinks = {
+    "Dholuo": "https://forms.gle/372UuExdkQJkGgTa9",
+    "Ekegusii": "https://forms.gle/a8hHzTYAZXs7dRjL7",
+    "Kalenjin": "https://forms.gle/y5ZEiuAfSM5rMdku8",
+    "Kikuyu": "https://forms.gle/h1Ck5D1ZSU3JjNG59"
   };
+
+  // Check if language has September intake
+  if (intakeLinks[language.title]) {
+    return (
+      <a
+        href={intakeLinks[language.title]}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md transition-colors duration-300 flex items-center"
+      >
+        <span className="mr-1 relative">
+          <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
+        </span>
+        {windowWidth < 640 ? "REGISTER" : "SEPTEMBER INTAKE: REGISTER"}
+      </a>
+    );
+  } else {
+    return (
+      <button className="bg-gray-500 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md opacity-80 cursor-not-allowed">
+        {windowWidth < 640 ? "SOON" : "COMING SOON"}
+      </button>
+    );
+  }
+};
 
   return (
     <FadeIn
