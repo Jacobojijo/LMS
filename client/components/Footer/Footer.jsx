@@ -16,6 +16,18 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  // Language registration links
+  const languageLinks = {
+    "Dholuo": "https://forms.gle/372UuExdkQJkGgTa9",
+    "Ekegusii": "https://forms.gle/a8hHzTYAZXs7dRjL7",
+    "Kalenjin": "https://forms.gle/y5ZEiuAfSM5rMdku8",
+    "Kikuyu": "https://forms.gle/h1Ck5D1ZSU3JjNG59",
+    "Kamba": "#",
+    "Luhya": "#",
+    "Meru": "#",
+    "Maasai": "#"
+  };
+
   return (
     <footer className="bg-gradient-to-r from-[#002b2b] to-[#00403f] text-white relative overflow-hidden">
       {/* Decorative curved top border */}
@@ -167,20 +179,13 @@ const Footer = () => {
               Language Programs
             </h3>
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-2">
-              {[
-                "Dholuo",
-                "Kikuyu",
-                "Kalenjin",
-                "Ekegusii",
-                "Kamba",
-                "Luhya",
-                "Meru",
-                "Maasai",
-              ].map((language) => (
+              {Object.entries(languageLinks).map(([language, link]) => (
                 <li key={language} className="text-center md:text-left">
                   <a
-                    href="#"
+                    href={link}
                     className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {language} classes
                   </a>

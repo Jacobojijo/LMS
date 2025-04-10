@@ -5,6 +5,7 @@ import languageData from "../../utility/language.json";
 import uniqueData from "../../utility/unique.json";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { FadeInUp, ScaleIn, FadeIn } from "../../utility/MotionComponents";
+import { motion } from "framer-motion";
 
 const Courses = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -109,130 +110,150 @@ const Courses = () => {
   };
 
   // Render CTA based on language with mobile-friendly adjustments
-  // Update the renderCTA function in your Courses component
-const renderCTA = (language) => {
-  // September intake links
-  const intakeLinks = {
-    "Dholuo": "https://forms.gle/372UuExdkQJkGgTa9",
-    "Ekegusii": "https://forms.gle/a8hHzTYAZXs7dRjL7",
-    "Kalenjin": "https://forms.gle/y5ZEiuAfSM5rMdku8",
-    "Kikuyu": "https://forms.gle/h1Ck5D1ZSU3JjNG59"
+  const renderCTA = (language) => {
+    // September intake links
+    const intakeLinks = {
+      "Dholuo": "https://forms.gle/372UuExdkQJkGgTa9",
+      "Ekegusii": "https://forms.gle/a8hHzTYAZXs7dRjL7",
+      "Kalenjin": "https://forms.gle/y5ZEiuAfSM5rMdku8",
+      "Kikuyu": "https://forms.gle/h1Ck5D1ZSU3JjNG59"
+    };
+
+    // Check if language has September intake
+    if (intakeLinks[language.title]) {
+      return (
+        <a
+          href={intakeLinks[language.title]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md transition-colors duration-300 flex items-center"
+        >
+          <span className="mr-1 relative">
+            <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
+          </span>
+          {windowWidth < 640 ? "REGISTER" : "SEPTEMBER INTAKE: REGISTER"}
+        </a>
+      );
+    } else {
+      return (
+        <button className="bg-gray-500 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md opacity-80 cursor-not-allowed">
+          {windowWidth < 640 ? "SOON" : "COMING SOON"}
+        </button>
+      );
+    }
   };
 
-  // Check if language has September intake
-  if (intakeLinks[language.title]) {
-    return (
-      <a
-        href={intakeLinks[language.title]}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md transition-colors duration-300 flex items-center"
-      >
-        <span className="mr-1 relative">
-          <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
-        </span>
-        {windowWidth < 640 ? "REGISTER" : "SEPTEMBER INTAKE: REGISTER"}
-      </a>
-    );
-  } else {
-    return (
-      <button className="bg-gray-500 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md opacity-80 cursor-not-allowed">
-        {windowWidth < 640 ? "SOON" : "COMING SOON"}
-      </button>
-    );
-  }
-};
+  // Animation variants for staggered card appearance
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15, // Controls the delay between each child animation
+        delayChildren: 0.2     // Delay before the first child starts animating
+      }
+    }
+  };
+
+  const cardVariants = {
+    hidden: { 
+      opacity: 0,
+      y: 20
+    },
+    visible: { 
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeOut"
+      }
+    }
+  };
 
   return (
     <FadeIn
       className="w-full bg-teal-50 py-8 sm:py-12 px-2 sm:px-4"
       delay={0.1}
     >
-      <div
+      <motion.div
         className={`max-w-6xl mx-auto grid ${getGridColumns()} gap-3 sm:gap-4 md:gap-6`}
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
       >
         {currentCards.map((language, index) => (
-          <FadeInUp
+          <motion.div
             key={index}
-            delay={0.1 + index * 0.1}
+            variants={cardVariants}
             className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <div className="relative aspect-video overflow-hidden p-2 sm:p-4 md:p-6 pb-2 rounded-lg">
-              <ScaleIn delay={0.2 + index * 0.1}>
+              <ScaleIn delay={0.1}>
                 <img
                   src={language.imageurl}
                   alt={`${language.title} language class`}
                   className="w-full h-full object-cover rounded-lg"
-                  // Add high-quality image loading attributes
                   loading="lazy"
                   decoding="async"
                 />
               </ScaleIn>
             </div>
             <div className="p-3 sm:p-4 md:p-6">
-              <FadeInUp delay={0.3 + index * 0.05}>
-                <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-2">
-                  {language.title} Classes
-                </h2>
-              </FadeInUp>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-2">
+                {language.title} Classes
+              </h2>
 
               {/* Original description from language.json */}
-              <FadeInUp delay={0.4 + index * 0.05}>
-                <div className="bg-gray-50 p-2 sm:p-3 rounded-md mb-2 sm:mb-3 border-l-4 border-blue-500">
-                  <p className="text-xs sm:text-sm text-gray-700 italic">
-                    {language.description}
-                  </p>
-                </div>
-              </FadeInUp>
+              <div className="bg-gray-50 p-2 sm:p-3 rounded-md mb-2 sm:mb-3 border-l-4 border-blue-500">
+                <p className="text-xs sm:text-sm text-gray-700 italic">
+                  {language.description}
+                </p>
+              </div>
 
               {/* Unique description from unique.json */}
-              <FadeInUp delay={0.5 + index * 0.05}>
-                <div className="text-xs sm:text-sm md:text-base text-gray-700 mb-3 sm:mb-4 prose prose-sm">
-                  {getUniqueContent(language)
-                    .split("\n\n")
-                    .map((paragraph, i) => (
-                      <p key={i} className="mb-1 sm:mb-2 leading-relaxed">
-                        {paragraph}
-                      </p>
-                    ))}
-                </div>
-              </FadeInUp>
+              <div className="text-xs sm:text-sm md:text-base text-gray-700 mb-3 sm:mb-4 prose prose-sm">
+                {getUniqueContent(language)
+                  .split("\n\n")
+                  .map((paragraph, i) => (
+                    <p key={i} className="mb-1 sm:mb-2 leading-relaxed">
+                      {paragraph}
+                    </p>
+                  ))}
+              </div>
 
-              <FadeInUp delay={0.6 + index * 0.05}>
-                <div className="flex items-center justify-between">
-                  <div className="flex-shrink-0">
-                    <button
-                      className="flex items-center text-blue-600 font-medium text-xs sm:text-sm"
-                      onClick={() => toggleCardExpansion(language.title)}
+              <div className="flex items-center justify-between">
+                <div className="flex-shrink-0">
+                  <button
+                    className="flex items-center text-blue-600 font-medium text-xs sm:text-sm"
+                    onClick={() => toggleCardExpansion(language.title)}
+                  >
+                    {expandedCards[language.title]
+                      ? "SHOW LESS"
+                      : "READ MORE"}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className={`h-3 w-3 sm:h-4 sm:w-4 ml-1 transition-transform ${
+                        expandedCards[language.title] ? "rotate-90" : ""
+                      }`}
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
                     >
-                      {expandedCards[language.title]
-                        ? "SHOW LESS"
-                        : "READ MORE"}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className={`h-3 w-3 sm:h-4 sm:w-4 ml-1 transition-transform ${
-                          expandedCards[language.title] ? "rotate-90" : ""
-                        }`}
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-
-                  {/* Custom CTA based on language */}
-                  <div className="flex-shrink-0">{renderCTA(language)}</div>
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
                 </div>
-              </FadeInUp>
+
+                {/* Custom CTA based on language */}
+                <div className="flex-shrink-0">{renderCTA(language)}</div>
+              </div>
             </div>
-          </FadeInUp>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
 
       {/* Pagination Controls */}
       <FadeIn
