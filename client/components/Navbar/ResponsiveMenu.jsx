@@ -39,7 +39,7 @@ const ResponsiveMenu = ({ open, onClose }) => {
                 <li><a href="/#courses" className="hover:text-primary">Courses</a></li>
                 <li><a href="/#features" className="hover:text-primary">Features</a></li>
                 <li><a href="/about" className="hover:text-primary">About us</a></li>
-                {/* <li><a href="/curriculum" className="hover:text-primary">Curriculum</a></li> */}
+                <li><a href="/curriculum" className="hover:text-primary">Curriculum</a></li>
                 <li><a href="/contact" className="hover:text-primary">Contact</a></li>
               </ul>
             </div>
