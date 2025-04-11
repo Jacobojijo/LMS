@@ -136,16 +136,34 @@ const Features = () => {
     };
   }, [isHovering, cardWidth, position]);
 
-  // Handle manual navigation
+  // Handle continuous manual navigation
   const handleNavigation = (index) => {
-    if (carouselRef.current) {
+    if (carouselRef.current && cardWidth) {
       // Always navigate within the middle set
       const middleSetStart = cardWidth * FeatureData.length;
       const newPosition = middleSetStart + (cardWidth * index);
+      
+      // Apply the transition with smooth animation
       carouselRef.current.style.transition = 'transform 300ms ease-out';
       carouselRef.current.style.transform = `translateX(-${newPosition}px)`;
       setPosition(newPosition);
     }
+  };
+
+  // Handle previous/next navigation with continuous scrolling
+  const handleNavigationWithDirection = (direction) => {
+    if (!cardWidth) return;
+    
+    const currentIndex = getCurrentCardIndex();
+    let newIndex;
+    
+    if (direction === 'prev') {
+      newIndex = (currentIndex - 1 + FeatureData.length) % FeatureData.length;
+    } else {
+      newIndex = (currentIndex + 1) % FeatureData.length;
+    }
+    
+    handleNavigation(newIndex);
   };
 
   // Get the current card index for highlighting in navigation
@@ -240,11 +258,7 @@ const Features = () => {
             
               <button
                 className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 rounded-full p-2 shadow-md text-indigo-600 hover:bg-opacity-100 transition z-10 ml-2"
-                onClick={() => {
-                  const currentIndex = getCurrentCardIndex();
-                  const prevIndex = (currentIndex - 1 + FeatureData.length) % FeatureData.length;
-                  handleNavigation(prevIndex);
-                }}
+                onClick={() => handleNavigationWithDirection('prev')}
                 aria-label="Previous slide"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -253,11 +267,7 @@ const Features = () => {
               </button>
               <button
                 className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 rounded-full p-2 shadow-md text-indigo-600 hover:bg-opacity-100 transition z-10 mr-2"
-                onClick={() => {
-                  const currentIndex = getCurrentCardIndex();
-                  const nextIndex = (currentIndex + 1) % FeatureData.length;
-                  handleNavigation(nextIndex);
-                }}
+                onClick={() => handleNavigationWithDirection('next')}
                 aria-label="Next slide"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -282,7 +292,7 @@ const Features = () => {
             comprehensive tracking tools, and passionate educators guide you every step of the way. More than just 
             a course, this is a movement to revive, preserve, and celebrate indigenous languages.
           </p>
-          <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold py-3 px-8 rounded-full hover:shadow-lg transition-shadow duration-300">
+          <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold py-3 px-8 rounded-full hover:shadow-lg transition-shadow duration-300" onClick={() => window.location.href = "/register"}>
             Take the First Step Today
           </button>
         </motion.div>
