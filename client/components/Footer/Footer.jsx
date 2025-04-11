@@ -143,6 +143,14 @@ const Footer = () => {
               </li>
               <li>
                 <Link
+                  href="/curriculum"
+                  className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
+                >
+                  <span className="mr-2">→</span> Curriculum
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="#"
                   className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
                 >

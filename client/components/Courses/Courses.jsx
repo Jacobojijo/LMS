@@ -205,13 +205,13 @@ const Courses = () => {
 
               {/* Original description from language.json */}
               <div className="bg-gray-50 p-2 sm:p-3 rounded-md mb-2 sm:mb-3 border-l-4 border-blue-500">
-                <p className="text-xs sm:text-sm text-gray-700 italic">
+                <p className="text-sm sm:text-base text-gray-700 italic">
                   {language.description}
                 </p>
               </div>
 
-              {/* Unique description from unique.json */}
-              <div className="text-xs sm:text-sm md:text-base text-gray-700 mb-3 sm:mb-4 prose prose-sm">
+              {/* Unique description from unique.json - FONT SIZE INCREASED HERE */}
+              <div className="text-[15px] sm:text-base md:text-lg text-gray-700 mb-3 sm:mb-4 prose prose-sm">
                 {getUniqueContent(language)
                   .split("\n\n")
                   .map((paragraph, i) => (
@@ -224,7 +224,7 @@ const Courses = () => {
               <div className="flex items-center justify-between">
                 <div className="flex-shrink-0">
                   <button
-                    className="flex items-center text-blue-600 font-medium text-xs sm:text-sm"
+                    className="flex items-center text-blue-600 font-medium text-sm sm:text-base"
                     onClick={() => toggleCardExpansion(language.title)}
                   >
                     {expandedCards[language.title]
