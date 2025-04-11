@@ -45,15 +45,6 @@ const CurriculumPage = () => {
               <p className="mb-4">
                 Start your journey into indigenous language with our comprehensive beginner course, designed to build strong foundations.
               </p>
-              <div className="flex justify-center">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-white text-[#6a392b] px-6 py-2 rounded-lg font-medium"
-                >
-                  View Course Details
-                </motion.button>
-              </div>
             </motion.div>
             
             <motion.div 
@@ -66,15 +57,6 @@ const CurriculumPage = () => {
               <p className="mb-4">
                 Deepen your linguistic skills and cultural understanding with our advanced course for experienced learners.
               </p>
-              <div className="flex justify-center">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-white text-[#002b2b] px-6 py-2 rounded-lg font-medium"
-                >
-                  View Course Details
-                </motion.button>
-              </div>
             </motion.div>
           </div>
         </FadeIn>
@@ -318,15 +300,9 @@ const CurriculumPage = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-[#854836] text-white px-8 py-3 rounded-lg hover:bg-[#6a392b] transition duration-300"
+              onClick={() => window.location.href = "/register"}
             >
               Enroll Now
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-[#002b2b] text-white px-8 py-3 rounded-lg hover:bg-[#001a1a] transition duration-300"
-            >
-              Download Syllabus
             </motion.button>
           </div>
         </FadeInUp>

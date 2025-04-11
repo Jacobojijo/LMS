@@ -135,7 +135,7 @@ const ContactPage = () => {
                   <Mail className="text-[#854836] mr-4" size={24} />
                   <div>
                     <p className="font-medium text-gray-700">Email</p>
-                    <p className="text-gray-600">heritagelanguageschool.com</p>
+                    <p className="text-gray-600">heritagelanguageschool@gmail.com</p>
                   </div>
                 </div>
 
@@ -144,6 +144,7 @@ const ContactPage = () => {
                   <div>
                     <p className="font-medium text-gray-700">Phone</p>
                     <p className="text-gray-600">(+254) 746426925</p>
+                    <p className="text-gray-600">(+254) 716883778</p>
                   </div>
                 </div>
 
