@@ -211,7 +211,7 @@ const Courses = () => {
               </div>
 
               {/* Unique description from unique.json - FONT SIZE INCREASED HERE */}
-              <div className="text-[15px] sm:text-base md:text-lg text-gray-700 mb-3 sm:mb-4 prose prose-sm">
+              <div className="text-[15px] md:text-[15px] lg:text-[15px] xl:text-[16px] text-gray-700 mb-3 sm:mb-4 leading-relaxed">
                 {getUniqueContent(language)
                   .split("\n\n")
                   .map((paragraph, i) => (
