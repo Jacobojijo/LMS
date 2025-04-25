@@ -1068,12 +1068,435 @@
         }
       ],
       "cat": {
-        "title": "Module 01 Assessment",
-        "description": "Test your knowledge",
-        "duration": 45,
-        "passingScore": 50,
-        "maxAttempts": 5
-      }
+      "title": "Advanced Grammatical Categories and Structures Assessment",
+      "description": "This CAT evaluates knowledge of Dholuo grammar, orthography, and linguistic structures.",
+      "sections": [
+        {
+          "title": "Orthographic Conventions & Phonetics",
+          "description": "Questions focusing on Dholuo spelling, pronunciation, and phonetic structures",
+          "order": 1,
+          "questions": [
+            {
+              "question": "Which of the following statements about Dholuo orthographic conventions is TRUE?",
+              "options": [
+                "Hyphens in Dholuo are only used for separating sentences.",
+                "The digraph [ny] in Dholuo represents two distinct consonant sounds.",
+                "Dholuo uses the element [mar] to indicate possession in pronominal constructions.",
+                "The spelling of \"nyathi\" (child) in Dholuo is considered irregular."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "In Dholuo, which of the following phonemes is correctly matched with its orthographic representation?",
+              "options": [
+                "/ʧ/ → Ng', ng'",
+                "/ð/ → Th, th",
+                "/ŋ/ → W, w",
+                "/⊖/ → Th, th"
+              ],
+              "correctAnswer": 3
+            },
+            {
+              "question": "What is the primary difference between emphatic and non-emphatic personal pronouns in Dholuo?",
+              "options": [
+                "Emphatic pronouns function as bound morphemes, whereas non-emphatic pronouns are free morphemes.",
+                "Non-emphatic pronouns can act as both subjects and objects, whereas emphatic pronouns only act as objects.",
+                "Emphatic pronouns are free morphemes, whereas non-emphatic pronouns are bound morphemes.",
+                "Emphatic pronouns have plural forms, whereas non-emphatic pronouns do not."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following phonemes in Dholuo is classified as a semivowel?",
+              "options": [
+                "/ɲ/",
+                "/j/",
+                "/ŋ/",
+                "/mb/"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which example demonstrates the correct use of a digraph in Dholuo?",
+              "options": [
+                "The [dh] in \"Dholuo\" represents an aspirated [d] sound.",
+                "The [ny] in \"nyathi\" represents a cluster of two phonemes.",
+                "The [th] in \"tho\" represents a single fricative sound.",
+                "The [mb] in \"mbaka\" is not considered a nasal-stop compound."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following vowel phonemes in Dholuo is distinct from the others in terms of tongue-root position?",
+              "options": [
+                "/e/",
+                "/i/",
+                "/o/",
+                "/a/"
+              ],
+              "correctAnswer": 3
+            },
+            {
+              "question": "What is the main challenge posed by Dholuo vowel orthography?",
+              "options": [
+                "Homographs arise due to the under-differentiation of vowel phonemes.",
+                "Consonant clusters create ambiguity in pronunciation.",
+                "Nasal-stop compounds make it difficult to determine syllable structure.",
+                "The orthography lacks symbols for certain consonantal sounds."
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Which of the following phonetic phenomena does NOT occur in Dholuo?",
+              "options": [
+                "Nasal-stop compounds",
+                "Fricative digraphs",
+                "Vowel nasalization",
+                "Semivowel glides"
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "What is the primary distinction between a nasal-stop compound and a digraph in Dholuo?",
+              "options": [
+                "A nasal-stop compound consists of two phonemes, whereas a digraph represents a single phoneme.",
+                "A nasal-stop compound includes a fricative, while a digraph never does.",
+                "Digraphs occur in consonants only, whereas nasal-stop compounds can occur in vowels.",
+                "Nasal-stop compounds are always followed by a vowel, whereas digraphs are not."
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Which phoneme is represented by the digraph 'dh' in Dholuo?",
+              "options": [
+                "/⊖/",
+                "/ð/",
+                "/ŋ/",
+                "/ɲ/"
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "title": "Grammatical Categories",
+          "description": "Questions about noun phrases, demonstratives, numbers, and clause structures in Dholuo",
+          "order": 2,
+          "questions": [
+            {
+              "question": "How does Dholuo primarily express definiteness in noun phrases?",
+              "options": [
+                "By using definite and indefinite articles.",
+                "Through demonstratives, possessives, and contextual understanding.",
+                "By attaching suffixes to the noun to indicate specificity.",
+                "Through tone variation in spoken language."
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which demonstrative in Dholuo is used when the referent has been followed by other topics in discourse?",
+              "options": [
+                "no",
+                "go",
+                "cha",
+                "gi"
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following sentences correctly demonstrates contextual definiteness in Dholuo?",
+              "options": [
+                "Wadwaro jopuonj no.",
+                "Wadwaro jopuonj.",
+                "Wadwaro jopuonj ka.",
+                "Wadwaro jopuonj cha."
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which of the following best explains why demonstratives like [no] and [cha] are necessary in Dholuo?",
+              "options": [
+                "To indicate a noun is plural.",
+                "To clarify whether a referent has been recently or distantly mentioned.",
+                "To change a verb into a noun.",
+                "To mark possession."
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which of the following is an ordinal number in Dholuo?",
+              "options": [
+                "mokwongo",
+                "mia achiel",
+                "ariyo",
+                "mathoth"
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Which method is used to form ordinal numbers in Dholuo, excluding \"first\" and \"last\"?",
+              "options": [
+                "By suffixing \"-no\" to a cardinal number.",
+                "By adding \"ma\" before the verb root.",
+                "By using \"mar\" + a cardinal number.",
+                "By using tone distinctions on cardinal numbers."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "What is the correct translation of \"The ninth month\" in Dholuo?",
+              "options": [
+                "Dwe ochiko",
+                "Dwe mar ochiko",
+                "Dwe mokwongo",
+                "Dwe magik"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which of the following correctly illustrates a restrictive relative clause in Dholuo?",
+              "options": [
+                "Ruoth ma onge dhako rach.",
+                "Kata Otieno, ma onge dhako, bende dwaro bedo ruoth.",
+                "Wadwaro jopuonj cha.",
+                "Nyithindo moko ariyo matindo mohero tugo ka."
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "How does Dholuo indicate a non-restrictive relative clause?",
+              "options": [
+                "By omitting the relative morpheme [ma].",
+                "By using the relative morpheme [ma] without changing word order.",
+                "By adding \"kata\" before the relative clause.",
+                "By replacing \"ma\" with a demonstrative."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following noun phrases is incorrectly ordered in Dholuo?",
+              "options": [
+                "Nyithindo moko ariyo matindo mohero tugo ka.",
+                "Ruoth mar adek.",
+                "Dwe mokwongo.",
+                "Nyithindo ka moko ariyo matindo mohero tugo."
+              ],
+              "correctAnswer": 3
+            },
+            {
+              "question": "Which of the following is not a function of a relative clause in Dholuo?",
+              "options": [
+                "To specify necessary characteristics of a noun.",
+                "To provide additional background information.",
+                "To mark plurality in noun phrases.",
+                "To introduce a subordinate clause."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which sentence correctly demonstrates the fixed order of determiners in Dholuo?",
+              "options": [
+                "Nyithindo moko ariyo matindo mohero tugo ka.",
+                "Nyithindo ka moko ariyo matindo mohero tugo.",
+                "Nyithindo ariyo matindo moko mohero tugo ka.",
+                "Nyithindo matindo moko mohero tugo ka ariyo."
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "What is the correct translation of \"A child who knows its parents\" in Dholuo?",
+              "options": [
+                "Nyathi mar jonyuolne.",
+                "Nyathi mong'eyo jonyuolne.",
+                "Nyathi matindo mar jonyuolne.",
+                "Nyathi no mong'eyo jonyuolne."
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "How does the relative morpheme [ma] change when the following word begins with a vowel?",
+              "options": [
+                "It disappears completely.",
+                "It remains unchanged.",
+                "It loses its final vowel through assimilation.",
+                "It merges with the previous word."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following best illustrates quantification by a relative adjective in Dholuo?",
+              "options": [
+                "Nyithindo moko tugo.",
+                "Ruoth nigi rombe mathoth.",
+                "Dwe mar ochiko.",
+                "Wadwaro jopuonj no."
+              ],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "title": "Pronouns",
+          "description": "Questions about personal pronouns, possessive pronouns, and related grammatical structures in Dholuo",
+          "order": 3,
+          "questions": [
+            {
+              "question": "Which of the following correctly matches the personal pronoun with its non-emphatic subject prefix in Dholuo?",
+              "options": [
+                "in → wa-",
+                "wan → a-",
+                "gin → gi-",
+                "un → i-"
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "In which sentence would the emphatic personal pronoun \"en\" be most appropriately used?",
+              "options": [
+                "En owuok.",
+                "Owuok.",
+                "Owuok-go.",
+                "Obiro tich."
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Which of the following correctly represents the third-person singular non-emphatic object suffix in Dholuo?",
+              "options": [
+                "-i",
+                "-e",
+                "-wa",
+                "-gi"
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "What is the correct possessive pronoun for \"ours\" in plural form?",
+              "options": [
+                "mar-a",
+                "mag-e",
+                "mag-a",
+                "mar-wa"
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following best describes the difference between \"ma-e\" and \"ma-no\" in Dholuo?",
+              "options": [
+                "\"ma-e\" refers to something distant, while \"ma-no\" refers to something close.",
+                "\"ma-e\" means \"these,\" while \"ma-no\" means \"those.\"",
+                "\"ma-e\" refers to something near the speaker, while \"ma-no\" refers to something closer to the listener.",
+                "\"ma-e\" and \"ma-no\" are interchangeable."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following correctly translates \"Who is calling me?\" into Dholuo?",
+              "options": [
+                "Ng'a ma luonga?",
+                "Ng'a luonga?",
+                "Ng'a ma oluonga?",
+                "Ng'a oluonga?"
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "What is the correct translation of \"That is a cow which has no horns\" in Dholuo?",
+              "options": [
+                "Mano dhiang' ma onge tunge.",
+                "Mano dhiang' ong'e tunge.",
+                "Mano dhiang' mag tunge onge.",
+                "Ma dhiang' ma onge tunge."
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Which morphophonemic variation occurs when the relative pronoun \"ma\" precedes a word that starts with a vowel?",
+              "options": [
+                "\"ma\" is replaced by \"mo.\"",
+                "\"ma\" fuses with the following word and loses its final vowel.",
+                "\"ma\" remains unchanged.",
+                "\"ma\" becomes \"mari.\""
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which of the following correctly pairs a coordinator with its proper usage in Dholuo?",
+              "options": [
+                "gi → Used when two clauses share the same subject.",
+                "to → Used to join two simultaneous actions.",
+                "kendo → Used to link different subjects.",
+                "gi → Used to compare two nouns."
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which sentence correctly uses the subordinator \"nikech\" in Dholuo?",
+              "options": [
+                "Ok adhi sikul nikech wiya bara.",
+                "Ok adhi sikul nikech ohero.",
+                "Ok adhi sikul nikech kata omiyo.",
+                "Ok adhi sikul nikech to."
+              ],
+              "correctAnswer": 0
+            },
+            {
+              "question": "What is the function of \"kaka\" when used as a subordinator in Dholuo?",
+              "options": [
+                "To express possession.",
+                "To introduce a conditional clause.",
+                "To indicate capacity or comparison.",
+                "To show simultaneity."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following sentences correctly uses a demonstrative adjective in Dholuo?",
+              "options": [
+                "Wuoyi cha dwari.",
+                "Wuoyi ma cha dwari.",
+                "Wuoyi no dwari.",
+                "Wuoyi ka gi dwari."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "How does Dholuo mark plurality in demonstrative pronouns?",
+              "options": [
+                "By adding \"gi\" at the end of the pronoun.",
+                "By using a different root word.",
+                "By using \"ma-\" with a plural demonstrative adjective.",
+                "By doubling the demonstrative adjective."
+              ],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Which of the following best explains why \"to\" is used in Dholuo coordination?",
+              "options": [
+                "It joins two independent clauses with different subjects.",
+                "It expresses contrast or simultaneity.",
+                "It marks a consequence of an action.",
+                "It is used when the second clause is an explanation."
+              ],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Which of the following sentences correctly demonstrates the use of the subordinator \"ka\"?",
+              "options": [
+                "Ne gidonjo ka Ching' podho.",
+                "Ne gidonjo nikech Ching' podho.",
+                "Ne gidonjo kata Ching' podho.",
+                "Ne gidonjo kendo Ching' podho."
+              ],
+              "correctAnswer": 0
+            }
+          ]
+        }
+      ],
+      "duration": 45,
+      "passingScore": 50,
+      "maxAttempts": 5
+    }
     },
     {
       "title": "MODULE 02",
