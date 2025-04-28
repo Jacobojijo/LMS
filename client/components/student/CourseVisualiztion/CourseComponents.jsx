@@ -13,6 +13,8 @@ export const colors = {
   lightText: "#666666",
   white: "#FFFFFF",
   accent: "#4A90E2", // Blue accent for active elements
+  borderColor: "#e0e0e0",
+  softShadow: "rgba(0,0,0,0.1)",
 };
 
 const getModuleNumberText = (num) => {
@@ -101,6 +103,15 @@ export const ModuleSidebar = ({
 
   const isModuleLocked = (moduleIndex) => {
     return moduleIndex > 0 && !moduleCompletion[`module-${moduleIndex - 1}`];
+  };
+
+  const isAssessmentLocked = (moduleIndex) => {
+    if (isModuleLocked(moduleIndex)) return true;
+    
+    const module = course.modules[moduleIndex];
+    return module.topics.some(
+      (_, topicIndex) => !moduleCompletion[`${moduleIndex}-${topicIndex}`]
+    );
   };
 
   return (
@@ -268,7 +279,7 @@ export const ModuleSidebar = ({
                 {module.cat && (
                   <div
                     className={`assessment-item p-3 rounded-md flex items-center mt-4 transition-all duration-200 ${
-                      isModuleLocked(moduleIndex)
+                      isAssessmentLocked(moduleIndex)
                         ? "opacity-50 cursor-not-allowed"
                         : "cursor-pointer hover:bg-gray-100"
                     }`}
@@ -281,14 +292,14 @@ export const ModuleSidebar = ({
                       borderTop: `1px solid ${colors.borderColor}`,
                     }}
                     onClick={() =>
-                      !isModuleLocked(moduleIndex) &&
+                      !isAssessmentLocked(moduleIndex) &&
                       navigateTo(moduleIndex, 0, "assessment")
                     }
                   >
                     <div
                       className="w-6 h-6 flex items-center justify-center rounded-full mr-3 text-sm font-bold"
                       style={{
-                        backgroundColor: isModuleLocked(moduleIndex)
+                        backgroundColor: isAssessmentLocked(moduleIndex)
                           ? "#cccccc"
                           : "orange",
                         color: "white",
@@ -302,7 +313,7 @@ export const ModuleSidebar = ({
                     >
                       {module.cat.title}
                     </div>
-                    {isModuleLocked(moduleIndex) && (
+                    {isAssessmentLocked(moduleIndex) && (
                       <span
                         className="text-xs ml-2"
                         style={{ color: colors.lightText }}
@@ -322,7 +333,9 @@ export const ModuleSidebar = ({
 };
 
 // Topic Content Component
-export const TopicContent = ({ module, topic, setActivePage }) => {
+export const TopicContent = ({ module, topic, setActivePage, markTopicComplete }) => {
+  const hasPracticeQuestions = topic.practiceQuestions && topic.practiceQuestions.length > 0;
+
   return (
     <div className="topic-content p-6 bg-white rounded-lg shadow">
       <div className="mb-6">
@@ -342,13 +355,21 @@ export const TopicContent = ({ module, topic, setActivePage }) => {
           View Topic Content
         </button>
 
-        {topic.practiceQuestions && topic.practiceQuestions.length > 0 && (
+        {hasPracticeQuestions ? (
           <button
             onClick={() => setActivePage("practice")}
             className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
             style={{ backgroundColor: colors.accent }}
           >
             Practice Questions ({topic.practiceQuestions.length})
+          </button>
+        ) : (
+          <button
+            onClick={markTopicComplete}
+            className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
+            style={{ backgroundColor: colors.accent }}
+          >
+            Continue to Next Topic
           </button>
         )}
       </div>
@@ -357,7 +378,7 @@ export const TopicContent = ({ module, topic, setActivePage }) => {
 };
 
 // HTML Content Component
-export const HtmlContent = ({ module, topic, setActivePage }) => {
+export const HtmlContent = ({ module, topic, setActivePage, markTopicComplete }) => {
   const { user, refreshToken } = useAuth();
   const [htmlContent, setHtmlContent] = useState("");
   const [loading, setLoading] = useState(true);
@@ -479,6 +500,8 @@ export const HtmlContent = ({ module, topic, setActivePage }) => {
     );
   };
 
+  const hasPracticeQuestions = topic.practiceQuestions && topic.practiceQuestions.length > 0;
+
   return (
     <div className="html-content p-6 bg-white rounded-lg shadow">
       <div className="content-section mb-8">{renderContent()}</div>
@@ -492,13 +515,21 @@ export const HtmlContent = ({ module, topic, setActivePage }) => {
           Back to Overview
         </button>
 
-        {topic.practiceQuestions && topic.practiceQuestions.length > 0 && (
+        {hasPracticeQuestions ? (
           <button
             onClick={() => setActivePage("practice")}
             className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
             style={{ backgroundColor: colors.accent }}
           >
             Go to Practice Questions
+          </button>
+        ) : (
+          <button
+            onClick={markTopicComplete}
+            className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
+            style={{ backgroundColor: colors.accent }}
+          >
+            Continue to Next Topic
           </button>
         )}
       </div>

@@ -1,0 +1,1665 @@
+{
+    "title": "Dholuo Language Course for Beginners",
+    "structure": "beginner/structure-two.html",
+    "isPublished": false,
+    "modules": [
+      {
+        "title": "MODULE 01",
+        "description": " Dholuo Alphabet, Basic Greetings, and Vocabulary",
+        "order": 1,
+        "topics": [
+          {
+            "title": "Introduction to Luo and Dholuo<",
+            "htmlContent": "beginner/module-one/1.html",
+            "order": 1,
+            "practiceQuestions": [
+        {
+          "question": "How many letters are there in the Dholuo alphabet?",
+          "options": [
+            "20",
+            "22",
+            "24",
+            "26"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Dholuo alphabet consists of 22 letters."
+        },
+        {
+          "question": "Which of the following statements is TRUE about Dholuo vowels?",
+          "options": [
+            "Dholuo vowels are sometimes silent in words.",
+            "Dholuo vowels are pronounced with gliding sounds.",
+            "Dholuo vowels have phonemically significant length variations.",
+            "Dholuo vowels do not appear in closed syllables."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dholuo vowels have phonemically significant length variations, which means the length of a vowel can change the meaning of a word."
+        },
+        {
+          "question": "What is the role of tone in Dholuo pronunciation?",
+          "options": [
+            "Tone helps in making words more rhythmic.",
+            "Tone differentiates meanings of words.",
+            "Tone is used only in formal speech.",
+            "Tone affects only the pronunciation of consonants."
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Dholuo, tone is used to differentiate the meanings of words, playing a crucial role in communication."
+        },
+        {
+          "question": "The letter \"C\" in Dholuo does not occur alone but appears in which digraph?",
+          "options": [
+            "CH",
+            "CK",
+            "TH",
+            "NG"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The letter \"C\" appears in the digraph \"CH\" in Dholuo."
+        },
+        {
+          "question": "What is the correct classification of the consonant 'M' in Dholuo?",
+          "options": [
+            "Plosive",
+            "Fricative",
+            "Nasal",
+            "Liquid"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The consonant 'M' in Dholuo is classified as a nasal consonant."
+        },
+        {
+          "question": "Which of the following is an example of a long vowel distinction in Dholuo?",
+          "options": [
+            "\"bith\" (sharp) vs. \"pith\" (many)",
+            "\"luor\" (fear) vs. \"lúor\" (circumnavigate)",
+            "\"kendo\" (fireplace) vs. \"keeendo\" (to marry)",
+            "\"joka\" (those people) vs. \"joka\" (these people)"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The example \"kendo\" (fireplace) vs. \"keeendo\" (to marry) demonstrates a long vowel distinction in Dholuo."
+        },
+        {
+          "question": "Which consonant group in Dholuo is pronounced like the English 'th' in \"that\"?",
+          "options": [
+            "TH",
+            "NG'",
+            "DH",
+            "TW"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The consonant group \"DH\" in Dholuo is pronounced like the English 'th' in \"that\"."
+        },
+        {
+          "question": "What is a defining characteristic of Dholuo consonants?",
+          "options": [
+            "They change based on stress in a word.",
+            "They include plosives, nasals, and fricatives.",
+            "They are silent when placed before vowels.",
+            "They always appear at the beginning of words."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dholuo consonants include various types such as plosives, nasals, and fricatives."
+        },
+        {
+          "question": "Which of the following examples correctly represents a Dholuo consonant digraph?",
+          "options": [
+            "P + R",
+            "MB",
+            "L + G",
+            "R + W"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"MB\" is an example of a Dholuo consonant digraph."
+        },
+        {
+          "question": "The word \"nyathi\" (child) contains which consonant group?",
+          "options": [
+            "CH",
+            "NG",
+            "NY",
+            "TH"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The word \"nyathi\" contains the consonant group \"NY\"."
+        }
+      ]
+          },
+          {
+            "title": "1.2.2.4 Problem of Pronunciation",
+            "htmlContent": "beginner/module-one/2.html",
+            "order": 2,
+            "practiceQuestions": [
+        {
+          "question": "What is the primary feature that differentiates meanings in Dholuo words like \"kendo\" and \"keyo\"?",
+          "options": [
+            "Consonant clusters",
+            "Word order", 
+            "Tone and syllable stress",
+            "Sentence length"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tone and syllable stress are crucial in Dholuo for distinguishing between words that may otherwise appear similar."
+        },
+        {
+          "question": "In Dholuo, how does vowel elongation affect meaning?",
+          "options": [
+            "It has no impact on meaning",
+            "It can completely change the meaning of a word",
+            "It only affects sentence structure",
+            "It only affects pronunciation, not meaning"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vowel elongation in Dholuo can fundamentally alter the meaning of a word, making it a critical aspect of pronunciation."
+        },
+        {
+          "question": "What does the pronunciation [Ké-ndo] indicate in Dholuo?",
+          "options": [
+            "To marry",
+            "A fireplace or stove",
+            "To repeat",
+            "A form of greeting"
+          ],
+          "correctAnswer": 1,
+          "explanation": "[Ké-ndo] specifically refers to a fireplace or stove in Dholuo."
+        },
+        {
+          "question": "How does the pronunciation [Keyo] (with short syllables) differ in meaning from [Ke-yo] (with a lengthened first syllable)?",
+          "options": [
+            "\"Keyo\" means \"to harvest,\" while \"Ke-yo\" can mean \"to spread\"",
+            "They both mean the same thing",
+            "\"Keyo\" refers to a cooking process",
+            "\"Ke-yo\" means \"to marry\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "The subtle difference in syllable length changes the meaning from \"to harvest\" to \"to spread\" in Dholuo."
+        },
+        {
+          "question": "Why is tonal variation crucial in mastering Dholuo pronunciation?",
+          "options": [
+            "It improves fluency in English",
+            "It determines grammatical tense",
+            "It helps distinguish words with different meanings",
+            "It affects only sentence length"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tonal variation is essential in Dholuo as it helps speakers distinguish between words that might otherwise sound identical."
+        },
+        {
+          "question": "Which of the following strategies is NOT recommended for mastering Dholuo pronunciation?",
+          "options": [
+            "Practicing with native speakers",
+            "Ignoring tone differences",
+            "Using phonetic transcription",
+            "Listening to audio drills"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Ignoring tone differences is the worst strategy, as tones are crucial to meaning in Dholuo."
+        },
+        {
+          "question": "What role does stress play in Dholuo pronunciation?",
+          "options": [
+            "It helps distinguish word meanings",
+            "It only applies to verbs",
+            "It is not relevant in tonal languages",
+            "It affects only consonant pronunciation"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Stress is a key component in Dholuo that helps differentiate the meanings of words."
+        },
+        {
+          "question": "In the case study, what does the pronunciation [K'eee-ndo] signify?",
+          "options": [
+            "\"Again\"",
+            "\"Fireplace\"",
+            "\"To marry\"",
+            "\"To harvest\""
+          ],
+          "correctAnswer": 2,
+          "explanation": "The pronunciation [K'eee-ndo] indicates \"to marry\" in Dholuo, demonstrating how vowel elongation changes meaning."
+        },
+        {
+          "question": "What is an effective method for understanding tonal implications in real-world conversations?",
+          "options": [
+            "Memorizing random words",
+            "Avoiding contextual usage",
+            "Incorporating words into sentences",
+            "Using only written materials"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Incorporating words into sentences helps learners understand the nuanced tonal implications in Dholuo."
+        },
+        {
+          "question": "Why is phonetic transcription useful for Dholuo learners?",
+          "options": [
+            "It replaces the need for speaking practice",
+            "It visually represents tonal and length variations",
+            "It helps write Dholuo poetry",
+            "It eliminates the need for listening exercises"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Phonetic transcription helps learners visually understand the complex tonal and length variations in Dholuo pronunciation."
+        }
+      ]
+          },
+          {
+            "title": "1.3 Review & Practice",
+            "htmlContent": "beginner/module-one/3.html",
+            "order": 3,
+            "practiceQuestions": [
+        {
+          "question": "What is the Dholuo term for the number 7?",
+          "options": [
+            "Abich",
+            "Abiriyo",
+            "Ang'wen",
+            "Apar"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Dholuo term for the number 7 is 'Abiriyo'."
+        },
+        {
+          "question": "How would you correctly say \"30\" in Dholuo?",
+          "options": [
+            "Apar",
+            "Piero ariyo",
+            "Piero adek",
+            "Piero abich"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The correct way to say \"30\" in Dholuo is \"Piero adek\"."
+        },
+        {
+          "question": "Which number is correctly written as \"Alufu ang'wen\"?",
+          "options": [
+            "400",
+            "4000",
+            "40",
+            "40,000"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Alufu ang'wen\" represents the number 400 in Dholuo."
+        },
+        {
+          "question": "What is the correct way to say \"15\" in Dholuo?",
+          "options": [
+            "Apar gabich",
+            "Apar gachiel",
+            "Apar gaboro",
+            "Piero abich"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct way to say \"15\" in Dholuo is \"Apar gabich\"."
+        },
+        {
+          "question": "How would you correctly write 9900 in Dholuo?",
+          "options": [
+            "Alufu ochiko gi mia ochiko",
+            "Alufu ochiko mia ochiko gi piero ochiko",
+            "Mia ochiko gi piero ochiko",
+            "Apar gaboro"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9900 in Dholuo is correctly written as \"Alufu ochiko gi mia ochiko\"."
+        },
+        {
+          "question": "If someone says \"Mia aboro,\" what number are they referring to?",
+          "options": [
+            "8000",
+            "800",
+            "80",
+            "800"
+          ],
+          "correctAnswer": 3,
+          "explanation": "\"Mia aboro\" refers to the number 800 in Dholuo."
+        },
+        {
+          "question": "Which of the following correctly represents 11 in Dholuo?",
+          "options": [
+            "Apar gachiel",
+            "Apar gariyo",
+            "Alufu gachiel",
+            "Apar gadek"
+          ],
+          "correctAnswer": 0,
+          "explanation": "11 in Dholuo is correctly expressed as \"Apar gachiel\"."
+        },
+        {
+          "question": "What is the Dholuo number for 100?",
+          "options": [
+            "Alufu achiel",
+            "Apar",
+            "Mia achiel",
+            "Piero achiel"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The Dholuo number for 100 is \"Mia achiel\"."
+        },
+        {
+          "question": "If you were to say \"9999\" in Dholuo, how would you express it?",
+          "options": [
+            "Alufu ochiko gi mia ochiko",
+            "Alufu ochiko mia ochiko gi piero ochiko gi ochiko",
+            "Alufu ang'wen gi mia ochiko",
+            "Piero ang'wen"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9999 in Dholuo is expressed as \"Alufu ochiko gi mia ochiko\"."
+        },
+        {
+          "question": "In the sentence \"Nyathi achiel pod ni oko,\" what does \"achiel\" mean?",
+          "options": [
+            "Two",
+            "Three",
+            "One",
+            "Four"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Achiel\" means \"one\" in Dholuo."
+        }
+      ]
+          },
+          {
+            "title": "1.4.3 Ordinal Numbers",
+            "htmlContent": "beginner/module-one/4.html",
+            "order": 4,
+            "practiceQuestions": [
+        {
+          "question": "How are ordinal numbers in Dholuo generally formed?",
+          "options": [
+            "By adding the prefix \"nyathi\" to cardinal numbers",
+            "By using the suffix \"-gi\" with cardinal numbers",
+            "By adding the prefix \"mar\" to cardinal numbers",
+            "By using only unique words unrelated to cardinal numbers"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Ordinal numbers in Dholuo are typically formed by adding the prefix \"mar\" to cardinal numbers."
+        },
+        {
+          "question": "What is the Dholuo word for \"First\"?",
+          "options": [
+            "Mar achiel",
+            "Mar apar",
+            "Mokuongo",
+            "Mogik"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Mokuongo\" is the Dholuo word for \"First\", which is an exception to the typical \"mar\" prefix rule."
+        },
+        {
+          "question": "Which of the following represents the fifth position in Dholuo?",
+          "options": [
+            "Mar ang'wen",
+            "Mar abich",
+            "Mar auchiel",
+            "Mar aboro"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Mar abich\" represents the fifth position in Dholuo."
+        },
+        {
+          "question": "In Dholuo, which ordinal number is used in the sentence: \"Ng'at mar ochiko ne owinjo wachno\"?",
+          "options": [
+            "First",
+            "Seventh",
+            "Ninth",
+            "Tenth"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Mar ochiko\" represents the ninth position in Dholuo."
+        },
+        {
+          "question": "Which of the following is NOT a correct characteristic of ordinal numbers in Dholuo?",
+          "options": [
+            "They are formed by adding \"mar\" to a cardinal number",
+            "They indicate sequence and ranking",
+            "\"Mokuongo\" is an exception and not derived from a cardinal number",
+            "They are used for counting objects"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Ordinal numbers indicate position or ranking, not counting objects. They describe the order or sequence of things."
+        },
+        {
+          "question": "What is the correct Dholuo translation for \"The second child is sick\"?",
+          "options": [
+            "Nyathi mar abich nigi tuo",
+            "Nyathi mar ang'wen nigi tuo",
+            "Nyathi mar ariyo nigi tuo",
+            "Nyathi mar adek nigi tuo"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Nyathi mar ariyo nigi tuo\" is the correct way to say \"The second child is sick\" in Dholuo."
+        },
+        {
+          "question": "Which of the following represents the eighth in Dholuo?",
+          "options": [
+            "Mar aboro",
+            "Mar ochiko",
+            "Mar abich",
+            "Mar ang'wen"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Mar aboro\" represents the eighth position in Dholuo."
+        },
+        {
+          "question": "What is the last ordinal number in Dholuo?",
+          "options": [
+            "Mar apar",
+            "Mogik",
+            "Mokuongo",
+            "Mar ochiko"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Mogik\" represents the last or final position in Dholuo."
+        },
+        {
+          "question": "Which of the following best explains the function of \"mar\" in Dholuo ordinal numbers?",
+          "options": [
+            "It emphasizes ownership of objects",
+            "It connects the ordinal number to its cardinal base",
+            "It is a standalone number",
+            "It represents a specific type of number unrelated to counting"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The prefix \"mar\" connects the ordinal number to its cardinal number base, indicating position or order."
+        },
+        {
+          "question": "In Dholuo, how would you correctly express \"The fourth leader is speaking\"?",
+          "options": [
+            "Jatelo mar ang'wen koro wuoyo",
+            "Jatelo mar ochiko koro wuoyo",
+            "Jatelo mar abich koro wuoyo",
+            "Jatelo mar ariyo koro wuoyo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Jatelo mar ang'wen koro wuoyo\" means \"The fourth leader is speaking\" in Dholuo."
+        }
+      ]
+          },
+          {
+            "title": "1.4.4 Days of the Week and Months",
+            "htmlContent": "beginner/module-one/5.html",
+            "order": 5,
+            "practiceQuestions": [
+        {
+          "question": "What is the meaning of the term \"Wuok-tich\" in the Luo weekly calendar?",
+          "options": [
+            "The day of rest and worship",
+            "The first day of work",
+            "The last day of the week",
+            "The day for visiting the market"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Wuok-tich\" represents the first day of work in the Luo weekly calendar."
+        },
+        {
+          "question": "Why is Saturday called \"Chieng' ngeso\" in the Luo calendar?",
+          "options": [
+            "It is the day when people start work",
+            "It is the day for communal prayers",
+            "It is named after the Swahili word \"ongeza\" due to bargaining at markets",
+            "It is the day when people travel to visit relatives"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Saturday (\"Chieng' ngeso\") is named after the Swahili word \"ongeza\", which relates to market bargaining activities."
+        },
+        {
+          "question": "What is the Luo name for the ninth month of the year?",
+          "options": [
+            "Dwe mar Aboro",
+            "Dwe mar Ochiko",
+            "Dwe mar Ariyo",
+            "Dwe mar Apar"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Dwe mar Ochiko\" refers to the ninth month in the Luo calendar."
+        },
+        {
+          "question": "What does \"Tich-abich\" (Friday) signify in the Luo calendar?",
+          "options": [
+            "The third day of work",
+            "The fifth day of work",
+            "The day of rest before the weekend",
+            "The day for traditional ceremonies"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Tich-abich\" represents the fifth day of work in the Luo calendar."
+        },
+        {
+          "question": "Which month in the Luo calendar is associated with intense cold?",
+          "options": [
+            "Dwe mar Achiel",
+            "Dwe mar Aboro",
+            "Dwe mar Abiriyo",
+            "Dwe mar Apar gi ariyo"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Dwe mar Abiriyo\" is associated with intense cold in the Luo calendar."
+        },
+        {
+          "question": "What is the primary cultural significance of \"Jumapil\" (Sunday) in the Luo calendar?",
+          "options": [
+            "It is a day for farming",
+            "It is a market day",
+            "It is a day of prayer and rest",
+            "It marks the beginning of a new month"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Jumapil\" (Sunday) is primarily a day of prayer and rest in the Luo calendar."
+        },
+        {
+          "question": "What does \"Dwe mar Apar gi ariyo\" refer to in the Luo calendar?",
+          "options": [
+            "The eleventh month of the year",
+            "The twelfth month of the year",
+            "The tenth month of the year",
+            "The eighth month of the year"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Dwe mar Apar gi ariyo\" refers to the twelfth month of the year in the Luo calendar."
+        },
+        {
+          "question": "Why were men expected to be away from home on \"Tich-abich\" (Friday) in precolonial times?",
+          "options": [
+            "They attended religious ceremonies",
+            "They were engaged in farming activities",
+            "They traveled for trade and exploration",
+            "They prepared for war"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In precolonial times, men were expected to be engaged in farming activities on Fridays."
+        },
+        {
+          "question": "In the Luo calendar, which month is often associated with students preparing for change?",
+          "options": [
+            "Dwe mar Achiel",
+            "Dwe mar Aboro",
+            "Dwe mar Adek",
+            "Dwe mar Apar"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Dwe mar Aboro\" is associated with students preparing for change in the Luo calendar."
+        },
+        {
+          "question": "What is the meaning of \"Dwe mar apar gachiel\" in the Luo calendar?",
+          "options": [
+            "The first month of the year",
+            "The second month of the year",
+            "The eleventh month of the year",
+            "The tenth month of the year"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Dwe mar apar gachiel\" refers to the eleventh month in the Luo calendar."
+        }
+      ]
+          },
+          {
+            "title": "1.4.5 Telling Time",
+            "htmlContent": "beginner/module-one/6.html",
+            "order": 6,
+            "practiceQuestions": [
+        {
+          "question": "What is the correct Dholuo translation for \"right now\"?",
+          "options": [
+            "Kiny",
+            "Sani Sani",
+            "Bang'e",
+            "Otieno"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Sani Sani\" is the correct Dholuo expression for \"right now\"."
+        },
+        {
+          "question": "Which term refers to the \"day before yesterday\" in Dholuo?",
+          "options": [
+            "Nyocha",
+            "Nyoro",
+            "Orucha",
+            "Kawuono"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Nyocha\" means \"the day before yesterday\" in Dholuo."
+        },
+        {
+          "question": "Which of the following correctly represents the morning in Dholuo?",
+          "options": [
+            "Odhiambo",
+            "Odiochieng'",
+            "Okinyi",
+            "Otieno"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Okinyi\" is the Dholuo term for morning."
+        },
+        {
+          "question": "How would you correctly say \"Later, we will help with the work\" in Dholuo?",
+          "options": [
+            "Bang'e wabiro konyo gi tich",
+            "Bang'e wabiro dhi e dala",
+            "Sani sani wabiro konyo gi tich",
+            "Kawuono wabiro nindo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Bang'e wabiro konyo gi tich\" is the correct way to say \"Later, we will help with the work\" in Dholuo."
+        },
+        {
+          "question": "What is the correct meaning of \"Saa ochiko ewang'e ma Odiochieng'\"?",
+          "options": [
+            "Exactly 12 PM",
+            "Exactly 3 PM",
+            "Midnight",
+            "Late evening"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Saa ochiko ewang'e ma Odiochieng'\" refers to exactly 3 PM in Dholuo."
+        },
+        {
+          "question": "Which of the following phrases correctly describes \"The day after tomorrow\"?",
+          "options": [
+            "Kawuono",
+            "Kiny",
+            "Nyocha",
+            "Orucha"
+          ],
+          "correctAnswer": 3,
+          "explanation": "\"Orucha\" means \"the day after tomorrow\" in Dholuo."
+        },
+        {
+          "question": "In Dholuo, what does \"Dier otieno\" refer to?",
+          "options": [
+            "Early in the morning",
+            "Exactly noon",
+            "Midnight",
+            "Late evening"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Dier otieno\" refers to exactly noon in Dholuo."
+        },
+        {
+          "question": "What is the correct sentence structure when expressing time in Dholuo?",
+          "options": [
+            "Verb + Subject + Time marker",
+            "Time marker + Subject + Verb + Object",
+            "Object + Subject + Verb + Time marker",
+            "Time marker + Object + Subject + Verb"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Dholuo, the typical sentence structure for expressing time is Time marker + Subject + Verb + Object."
+        },
+        {
+          "question": "If someone says \"An gi tije mang'eny sani,\" what does it mean?",
+          "options": [
+            "I will have work tomorrow.",
+            "I had a lot of work yesterday.",
+            "I have a lot of work now.",
+            "I will work later."
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"An gi tije mang'eny sani\" means \"I have a lot of work now\" in Dholuo."
+        },
+        {
+          "question": "Which of the following best translates to \"Very early in the morning\" in Dholuo?",
+          "options": [
+            "Odhiambo",
+            "Kok gwen",
+            "Saa ochiko",
+            "Kiny"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Kok gwen\" translates to \"very early in the morning\" in Dholuo."
+        }
+      ]
+          },
+          {
+            "title": "1.5.1 Summary of Numbers & Numbering",
+            "htmlContent": "beginner/module-one/7.html",
+            "order": 7,
+            "practiceQuestions": [
+        {
+          "question": "What is the correct Dholuo greeting for \"Good morning\" when addressing one person?",
+          "options": [
+            "Misawa",
+            "Oyawore", 
+            "Oyimore",
+            "Oriti"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Oyawore\" is the correct Dholuo greeting for \"Good morning\" when addressing one person."
+        },
+        {
+          "question": "In Dholuo, what does the term \"Oriti\" literally mean?",
+          "options": [
+            "Stay well",
+            "Go well", 
+            "May He protect you",
+            "See you later"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Oriti\" literally means \"May He protect you\" in Dholuo."
+        },
+        {
+          "question": "Which of the following greetings is used exclusively in the morning when the sun is rising?",
+          "options": [
+            "Oyawore",
+            "Misawa", 
+            "Oyimore",
+            "Oriti"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Oyawore\" is used exclusively in the morning when the sun is rising."
+        },
+        {
+          "question": "How do you say \"Good evening\" to a group of people in Dholuo?",
+          "options": [
+            "Oyaworeuru",
+            "Misawauru", 
+            "Oyimoreuru",
+            "Oriti uru"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Oyimoreuru\" is how you say \"Good evening\" to a group of people in Dholuo."
+        },
+        {
+          "question": "What grammatical feature is evident in Dholuo plural greetings such as \"Oyimoreuru\"?",
+          "options": [
+            "The suffix \"-uru\" indicates plural",
+            "The prefix \"O-\" marks plurality", 
+            "Dholuo does not distinguish between singular and plural",
+            "The word order changes in plural greetings"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The suffix \"-uru\" indicates plurality in Dholuo greetings."
+        },
+        {
+          "question": "Which Dholuo phrase would be used when someone is going to sleep?",
+          "options": [
+            "Oriti idhi maber",
+            "Oriti inind maber", 
+            "Oyimore ahinya",
+            "Misawa"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Oriti inind maber\" is used when someone is going to sleep."
+        },
+        {
+          "question": "How do the Luo people emphasize politeness and respect in their greetings?",
+          "options": [
+            "By bowing while greeting",
+            "By using intensifiers like \"ahinya\"", 
+            "By avoiding greetings during meals",
+            "By repeating the greeting multiple times"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Luo people emphasize politeness by using intensifiers like \"ahinya\"."
+        },
+        {
+          "question": "If someone greets you with \"Nang'o\" (informal \"What's up?\"), what is the culturally appropriate response?",
+          "options": [
+            "\"Misawa ahinya\"",
+            "\"Onge wach\"", 
+            "\"Oriti uru\"",
+            "\"Oyimore ahinya\""
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Onge wach\" is the culturally appropriate response to \"Nang'o\"."
+        },
+        {
+          "question": "What does the word \"Misawa\" mean in Dholuo?",
+          "options": [
+            "Good morning",
+            "General greeting for the day", 
+            "Good evening",
+            "Safe journey"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Misawa\" is a general greeting used throughout the day in Dholuo."
+        },
+        {
+          "question": "Which Dholuo farewell expression is most appropriate when wishing someone a safe journey?",
+          "options": [
+            "Oriti inind maber",
+            "Oriti idong' maber", 
+            "Oriti idhi maber",
+            "Oyimore ahinya"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Oriti idhi maber\" is the most appropriate farewell when wishing someone a safe journey."
+        }
+      ]
+          },
+          {
+            "title": "1.6.3 Family Members in Dholuo Culture",
+            "htmlContent": "beginner/module-one/8.html",
+            "order": 8,
+            "practiceQuestions": [
+        {
+          "question": "In Luo culture, which term is used to refer to a mother's brother, who holds an important decision-making role in the family?",
+          "options": [
+            "Waya",
+            "Nera", 
+            "Kwaro",
+            "Law"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Nera\" is the term used to refer to a mother's brother, who plays a crucial decision-making role in the Luo family structure."
+        },
+        {
+          "question": "How does Luo kinship terminology distinguish between male and female cousins?",
+          "options": [
+            "Wuod wuora (male) and Nyar wuora (female)",
+            "Nera (male) and Waya (female)", 
+            "Wuoyi (male) and Nyako (female)",
+            "Migogo (male) and Law (female)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Luo kinship terminology, male cousins are referred to as \"Wuod wuora\" and female cousins as \"Nyar wuora\"."
+        },
+        {
+          "question": "Which of the following statements accurately reflects the Luo concept of generational hierarchy?",
+          "options": [
+            "Luo kinship does not extend beyond grandparents.",
+            "Luo culture assigns unique names to great-grandchildren up to the third generation.", 
+            "Luo society does not recognize the role of nieces and nephews.",
+            "The first-born son is always called \"Law.\""
+          ],
+          "correctAnswer": 1,
+          "explanation": "Luo culture assigns unique names to great-grandchildren up to the third generation, demonstrating their detailed approach to generational hierarchy."
+        },
+        {
+          "question": "What term is used to refer to a daughter-in-law when she returns to her paternal home?",
+          "options": [
+            "Mikayi",
+            "Nyadendi", 
+            "Migogo",
+            "Leru"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Migogo\" is the term used to refer to a daughter-in-law when she returns to her paternal home."
+        },
+        {
+          "question": "In Luo culture, the term 'Mikayi' refers to:",
+          "options": [
+            "The second wife",
+            "The mother of the family", 
+            "The first wife",
+            "A grandmother"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Mikayi\" refers to the first wife in a Luo polygamous household."
+        },
+        {
+          "question": "What is the Luo term for \"grandfather\"?",
+          "options": [
+            "Kwaro",
+            "Dayo", 
+            "Waya",
+            "Wuoro"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Kwaro\" is the Luo term for \"grandfather\"."
+        },
+        {
+          "question": "Which of the following best describes the term 'Law' in Luo family structure?",
+          "options": [
+            "A term referring to a brother's son",
+            "A shared term for both father-in-law and son-in-law", 
+            "The title given to the eldest uncle in the family",
+            "A name given to the second wife in a polygamous marriage"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Law\" is a shared term used for both father-in-law and son-in-law in Luo family structure."
+        },
+        {
+          "question": "What is the correct Luo term for an aunt who is the sister of one's father?",
+          "options": [
+            "Nera",
+            "Waya", 
+            "Minwa",
+            "Wuoyi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Waya\" is the correct Luo term for an aunt who is the sister of one's father."
+        },
+        {
+          "question": "In a polygamous Luo household, what term is used to refer to the second wife?",
+          "options": [
+            "Leru",
+            "Nyachira", 
+            "Mikayi",
+            "Nyadendi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Nyachira\" is the term used to refer to the second wife in a polygamous Luo household."
+        },
+        {
+          "question": "Which term is correctly matched with its English equivalent?",
+          "options": [
+            "Wuoro – Son",
+            "Minwa – My father", 
+            "Nyakwaro ma wuoyi – Grandson",
+            "Waya – Uncle"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Nyakwaro ma wuoyi\" is the correct Luo term for \"Grandson\"."
+        }
+      ]
+          },
+          {
+            "title": "1.6.4 Everyday Objects (Domestic & Household items)",
+            "htmlContent": "beginner/module-one/9.html",
+            "order": 9,
+            "practiceQuestions": [
+        {
+          "question": "In a traditional Luo homestead, what is the significance of the 'Ot'?",
+          "options": [
+            "It is a sacred place of worship",
+            "It is used only for food storage",
+            "It serves as a cultural and family gathering hub",
+            "It is where livestock are kept"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The 'Ot' serves as a cultural and family gathering hub in a traditional Luo homestead, representing an important social space."
+        },
+        {
+          "question": "Which of the following is traditionally used to serve liquids in Luo culture?",
+          "options": [
+            "San",
+            "Glas",
+            "Agwata",
+            "Komb sofa"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Agwata\" is traditionally used to serve liquids in Luo culture."
+        },
+        {
+          "question": "What does 'Todo' symbolize in a Luo household?",
+          "options": [
+            "A place for community meetings",
+            "Protection, as it serves as the roof",
+            "A decorative part of the house",
+            "A special seat for elders"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Todo\" symbolizes protection and serves as the roof in a Luo household."
+        },
+        {
+          "question": "Which Luo household item is commonly used for sweeping?",
+          "options": [
+            "Ndoo",
+            "Ywech",
+            "Uriri",
+            "Kabat"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Ywech\" is the Luo household item commonly used for sweeping."
+        },
+        {
+          "question": "Which of the following best describes the function of a 'Kom' in a Luo home?",
+          "options": [
+            "A kitchen utensil used for serving food",
+            "A storage item for keeping valuables",
+            "A seating area, often used by elders",
+            "A farming tool for tilling land"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Kom\" refers to a seating area, often used by elders in a Luo home."
+        },
+        {
+          "question": "In a traditional Luo kitchen, which item is most essential for cooking?",
+          "options": [
+            "Agulu",
+            "Kalam",
+            "Wang' liech",
+            "Rang'i"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Agulu\" is the most essential item for cooking in a traditional Luo kitchen."
+        },
+        {
+          "question": "What does 'Wang' dede' refer to in a modern Luo household?",
+          "options": [
+            "A traditional cooking method",
+            "A surveillance system (CCTV)",
+            "A traditional storytelling session",
+            "A musical instrument"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Wang' dede\" refers to a surveillance system (CCTV) in a modern Luo household."
+        },
+        {
+          "question": "How is the evolution of modern dining practices reflected in Luo homes?",
+          "options": [
+            "The replacement of communal floor dining with a 'Mesa'",
+            "The use of calabashes instead of metal cups",
+            "The removal of chairs in traditional gatherings",
+            "The introduction of multiple cooking stations"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The evolution of dining practices is reflected by replacing communal floor dining with a 'Mesa' (table)."
+        },
+        {
+          "question": "Which of the following best represents a traditional Luo farming practice?",
+          "options": [
+            "'Tol'",
+            "'Ndalo' or 'Puodho'",
+            "'Kabat'",
+            "'Omenda'"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Ndalo' or 'Puodho' best represents a traditional Luo farming practice."
+        },
+        {
+          "question": "In Luo culture, what is the purpose of 'Nyakalondo'?",
+          "options": [
+            "It is a modern security system",
+            "It is used to store utensils",
+            "It is a radio for news, music, and storytelling",
+            "It is a type of traditional footwear"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'Nyakalondo' is a radio used for news, music, and storytelling in Luo culture."
+        }
+      ]
+          },
+          {
+            "title": "1.6.5 Titles of the People",
+            "htmlContent": "beginner/module-one/10.html",
+            "order": 10,
+            "practiceQuestions": [
+        {
+          "question": "In traditional Luo governance, who held the highest authority in overseeing justice, rituals, and resource allocation?",
+          "options": [
+            "Ker",
+            "Ruoth", 
+            "Ogai",
+            "Japuonj"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Ruoth\" was the title for the highest authority in traditional Luo governance, responsible for overseeing justice, rituals, and resource allocation."
+        },
+        {
+          "question": "Which title is used to refer to the leader of the Luo Council of Elders?",
+          "options": [
+            "Jatend piny owacho",
+            "Ker", 
+            "Jalony",
+            "Midusa"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Ker\" is the title used to refer to the leader of the Luo Council of Elders."
+        },
+        {
+          "question": "What is the Luo equivalent of \"Miss,\" used to respectfully address a young unmarried woman?",
+          "options": [
+            "Nyadendi",
+            "Mikayi", 
+            "Jaduong'",
+            "Japuonjre"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Nyadendi\" is the Luo equivalent of \"Miss,\" used to respectfully address a young unmarried woman."
+        },
+        {
+          "question": "Which of the following titles is given to someone who teaches and educates others?",
+          "options": [
+            "Japuonj",
+            "Japuonjre", 
+            "Okil",
+            "Jagoro"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Japuonj\" is the title given to someone who teaches and educates others."
+        },
+        {
+          "question": "In Luo culture, what does the term 'Omera' signify?",
+          "options": [
+            "A term for youth involved in community activities",
+            "An informal way of addressing a friend or cousin", 
+            "A title of respect for an elder",
+            "A person skilled in legal matters"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Omera' is an informal way of addressing a friend or cousin in Luo culture."
+        },
+        {
+          "question": "What title is used to refer to a professional news anchor in Luo society?",
+          "options": [
+            "Jambetre",
+            "Jalueny", 
+            "Jalendo/Jafwambo",
+            "Jakeno"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Jalendo/Jafwambo\" is the title used to refer to a professional news anchor in Luo society."
+        },
+        {
+          "question": "Which title represents a medical professional in the Luo language?",
+          "options": [
+            "Ajuoga/Laktar",
+            "Ajuok Nyakalondo", 
+            "Ja taa tije",
+            "Obila"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Ajuoga/Laktar\" represents a medical professional in the Luo language."
+        },
+        {
+          "question": "What term is commonly used for a person responsible for financial management?",
+          "options": [
+            "Okil",
+            "Jakeno", 
+            "Jalony",
+            "Jagoro mongirore"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Jakeno\" is the term commonly used for a person responsible for financial management."
+        },
+        {
+          "question": "Which of the following titles best describes someone who practices mystical arts?",
+          "options": [
+            "Ajuoga",
+            "Japuonj", 
+            "Ajuok Nyakalondo",
+            "Jatelo"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Ajuok Nyakalondo\" best describes someone who practices mystical arts."
+        },
+        {
+          "question": "In Luo society, what is the correct term for a soldier?",
+          "options": [
+            "Jagoro",
+            "Jalueny", 
+            "Migosi",
+            "Obila"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Jalueny\" is the correct term for a soldier in Luo society."
+        }
+      ]
+          },
+          {
+            "title": "1.6.6 Expressing Politeness in Dholuo",
+            "htmlContent": "beginner/module-one/11.html",
+            "order": 11,
+            "practiceQuestions": [
+        {
+          "question": "What is the most common way to express gratitude in Dholuo?",
+          "options": [
+            "Kiyie",
+            "Erokamano", 
+            "Machiegni",
+            "Konya"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Erokamano\" is the most common way to express gratitude in Dholuo."
+        },
+        {
+          "question": "If someone thanks you in Dholuo, how should you politely respond?",
+          "options": [
+            "Ayie",
+            "Konya", 
+            "Machiegni",
+            "Okayie"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Machiegni\" is the polite response when someone thanks you in Dholuo."
+        },
+        {
+          "question": "Which phrase would be used to politely ask for something in Dholuo?",
+          "options": [
+            "Kiyie",
+            "Atimo mos", 
+            "Okayie",
+            "Adagi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Kiyie\" is used to politely ask for something in Dholuo."
+        },
+        {
+          "question": "How would a Luo speaker say \"I'm sorry\" to express regret?",
+          "options": [
+            "Kiyie to awuogi",
+            "Atimo mos", 
+            "Ayie",
+            "Erokamano"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Atimo mos\" is used to say \"I'm sorry\" or express regret in Dholuo."
+        },
+        {
+          "question": "In Dholuo, what phrase is used when politely asking for forgiveness or permission to leave?",
+          "options": [
+            "Okayie",
+            "Kiyie to awuogi", 
+            "Adagi",
+            "Jaduong'"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Kiyie to awuogi\" is used when politely asking for forgiveness or permission to leave."
+        },
+        {
+          "question": "What does the phrase \"Konya\" mean in a polite conversation?",
+          "options": [
+            "Help me",
+            "Excuse me", 
+            "No, I refuse",
+            "Thank you"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Konya\" means \"Help me\" in a polite conversation."
+        },
+        {
+          "question": "If someone says \"Nyasaye biro konya, biyie?\", how would you agree with them?",
+          "options": [
+            "Adagi",
+            "Okayie", 
+            "Ayie",
+            "Kiyie"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Ayie\" is used to agree when someone says \"Nyasaye biro konya, biyie?\"."
+        },
+        {
+          "question": "Which of the following phrases is used to politely decline a request?",
+          "options": [
+            "Machiegni",
+            "Ayie", 
+            "Adagi",
+            "Erokamano"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Adagi\" is used to politely decline a request in Dholuo."
+        },
+        {
+          "question": "What phrase would someone use when requesting directions in Dholuo?",
+          "options": [
+            "Kiyie nyisae yoo maduong'",
+            "Atimo mos kuom dwaro ng'eyo", 
+            "Okayie ok adwar",
+            "Konya, wuonwa"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Kiyie nyisae yoo maduong'\" is used when requesting directions in Dholuo."
+        },
+        {
+          "question": "In Dholuo culture, what is emphasized besides words when expressing politeness?",
+          "options": [
+            "Facial expressions and tone",
+            "Loud speaking", 
+            "Using only formal titles",
+            "Avoiding eye contact"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Facial expressions and tone are emphasized alongside words when expressing politeness in Dholuo culture."
+        }
+      ]
+          },
+          {
+            "title": "1.6 Review & Practice",
+            "htmlContent": "beginner/module-one/12.html",
+            "order": 12,
+            "practiceQuestions": [
+        {
+          "question": "Which of the following is an example of a Dholuo abstract noun?",
+          "options": [
+            "Kwee",
+            "Buk", 
+            "Dhok",
+            "Jowi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Kwee\" is an example of an abstract noun in Dholuo, representing a concept or idea rather than a physical object."
+        },
+        {
+          "question": "In Dholuo, what does the word \"Bor\" mean in the context of weather?",
+          "options": [
+            "Fat of an animal",
+            "Distance", 
+            "Clouds in the sky",
+            "A place of burial"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Bor\" means \"clouds in the sky\" in the context of weather in Dholuo."
+        },
+        {
+          "question": "Which of the following words can mean both \"fireplace\" and \"to marry\" in Dholuo?",
+          "options": [
+            "Kendo",
+            "Lemo", 
+            "Pado",
+            "Mok"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Kendo\" can mean both \"fireplace\" and \"to marry\" in Dholuo, demonstrating the language's linguistic complexity."
+        },
+        {
+          "question": "How does pronunciation affect the meaning of the word \"Dhok\" in Dholuo?",
+          "options": [
+            "It determines if it means \"buffalo\" or \"head.\"",
+            "It distinguishes between \"language\" and \"peace.\"", 
+            "It differentiates between \"mouth,\" \"cows,\" and \"language.\"",
+            "There is no phonetic distinction in meaning."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Pronunciation of \"Dhok\" can differentiate between meanings such as \"mouth,\" \"cows,\" and \"language\" in Dholuo."
+        },
+        {
+          "question": "In what context does \"Tong'\" mean \"to cut\" in Dholuo?",
+          "options": [
+            "When referring to an egg",
+            "When talking about a weapon", 
+            "As an imperative form of the verb \"tong'o\"",
+            "When describing a boundary"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Tong'\" means \"to cut\" when used as an imperative form of the verb \"tong'o\" in Dholuo."
+        },
+        {
+          "question": "What is the primary linguistic challenge associated with Dholuo equivocal words?",
+          "options": [
+            "Lack of proper written documentation",
+            "Dependence on pronunciation and context to determine meaning", 
+            "The absence of grammatical structure",
+            "Limited vocabulary in the language"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The primary linguistic challenge is the dependence on pronunciation and context to determine the meaning of equivocal words in Dholuo."
+        },
+        {
+          "question": "Which word can mean both \"death\" and \"dew\" in Dholuo, depending on pronunciation?",
+          "options": [
+            "Tho",
+            "Were", 
+            "Yweyo",
+            "Kare"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Tho\" can mean both \"death\" and \"dew\" in Dholuo, depending on its pronunciation."
+        },
+        {
+          "question": "If someone says \"Yie\" in a religious discussion, what is the most likely meaning?",
+          "options": [
+            "A boat",
+            "Faith", 
+            "To sweep",
+            "A boundary"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In a religious discussion, \"Yie\" most likely means \"faith\" in Dholuo."
+        },
+        {
+          "question": "What strategy is most effective in understanding Dholuo equivocal words?",
+          "options": [
+            "Memorizing all possible meanings",
+            "Ignoring pronunciation differences", 
+            "Practicing in real-life conversations with native speakers",
+            "Avoiding words with multiple meanings"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Practicing in real-life conversations with native speakers is the most effective strategy for understanding Dholuo equivocal words."
+        },
+        {
+          "question": "In Dholuo culture, which of the following words refers to both \"a musical sound\" and \"slapping someone\"?",
+          "options": [
+            "Pado",
+            "Omera", 
+            "Lony",
+            "Kal"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Pado\" can refer to both \"a musical sound\" and \"slapping someone\" in Dholuo culture."
+        }
+      ]
+          },
+          {
+            "title": "1.7.3 Dholuo Synonyms",
+            "htmlContent": "beginner/module-one/13.html",
+            "order": 13,
+            "practiceQuestions": [
+        {
+          "question": "What is the primary linguistic function of synonyms in Dholuo?",
+          "options": [
+            "They limit the number of words in the language.",
+            "They simplify oral traditions by reducing vocabulary.",
+            "They enhance expressiveness, cultural relevance, and regional variations.",
+            "They eliminate the need for dialectal differences."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Synonyms in Dholuo enhance expressiveness, cultural relevance, and reflect regional variations in the language."
+        },
+        {
+          "question": "Which of the following Dholuo words refers to a well-trodden road within homesteads or villages?",
+          "options": [
+            "Apaya",
+            "Yoo", 
+            "Ndara",
+            "Puodho"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Ndara\" refers to a well-trodden road within homesteads or villages in Dholuo."
+        },
+        {
+          "question": "In Dholuo, what is the difference between \"Ji\" and \"Oganda\"?",
+          "options": [
+            "Ji refers to a specific ethnic group, while Oganda refers to a small family.",
+            "Ji is a general term for people, while Oganda refers to a nation or ethnic community.",
+            "Ji is used only in urban areas, while Oganda is used in rural settings.",
+            "Ji is a ceremonial title, while Oganda means \"foreigners.\""
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Ji\" is a general term for people, while \"Oganda\" refers to a nation or ethnic community in Dholuo."
+        },
+        {
+          "question": "Which of the following is a synonym for \"homestead\" in Dholuo?",
+          "options": [
+            "Onget",
+            "Pacho",
+            "Baranget",
+            "Nanga"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Pacho\" is a synonym for \"homestead\" in Dholuo."
+        },
+        {
+          "question": "\"Ndalo\" is a term used by people from which region to refer to a garden or farmland?",
+          "options": [
+            "Alego and Ugenya",
+            "Kisumu and Siaya",
+            "Homa Bay and Migori",
+            "Bondo and Rarieda"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Ndalo\" is used by people from Alego and Ugenya to refer to a garden or farmland."
+        },
+        {
+          "question": "Which of the following best describes \"Nanga\" in Dholuo?",
+          "options": [
+            "A type of footwear",
+            "A small hut",
+            "A cloth or fabric",
+            "A traditional song"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Nanga\" refers to a cloth or fabric in Dholuo."
+        },
+        {
+          "question": "Which of these words refers to a thick blanket, particularly used in colder regions?",
+          "options": [
+            "Law",
+            "Baranget",
+            "Nanga",
+            "Puodho"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Baranget\" refers to a thick blanket, particularly used in colder regions in Dholuo."
+        },
+        {
+          "question": "What is a synonym for \"footwear\" in Dholuo?",
+          "options": [
+            "Pat pat",
+            "Puodho",
+            "Unji",
+            "Apaya"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Pat pat\" is a synonym for \"footwear\" in Dholuo."
+        },
+        {
+          "question": "\"Yoo\" in Dholuo can refer to both a literal and metaphorical meaning. What does this mean?",
+          "options": [
+            "It can refer to both a physical path and a symbolic journey in life.",
+            "It only applies to traditional roads in rural areas.",
+            "It has no cultural significance.",
+            "It only refers to government-built roads."
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Yoo\" can refer to both a physical path and a symbolic journey in life in Dholuo."
+        },
+        {
+          "question": "Which of the following statements is true about Dholuo synonyms?",
+          "options": [
+            "They are entirely fixed and do not vary across regions.",
+            "They reflect cultural contexts and dialectal differences.",
+            "They are only used in ancient oral traditions.",
+            "They do not contribute to the richness of the language."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dholuo synonyms reflect cultural contexts and dialectal differences, contributing to the language's richness."
+        }
+      ]
+          },
+          {
+            "title": "1.7.4 Gender of Nouns",
+            "htmlContent": "beginner/module-one/14.html",
+            "order": 14,
+            "practiceQuestions": [
+        {
+          "question": "What is the primary basis for noun gender classification in Dholuo?",
+          "options": [
+            "The length of the word",
+            "Natural gender and grammatical neutrality",
+            "The number of syllables",
+            "The pronunciation of the word"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Noun gender classification in Dholuo is primarily based on natural gender and grammatical neutrality."
+        },
+        {
+          "question": "Which of the following nouns is classified as masculine in Dholuo?",
+          "options": [
+            "Dhako",
+            "Nyako",
+            "Nyuok",
+            "Pacho"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Nyuok\" is classified as a masculine noun in Dholuo."
+        },
+        {
+          "question": "Which of the following is a feminine noun in Dholuo?",
+          "options": [
+            "Thuon",
+            "Ruath",
+            "Swini",
+            "Got"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Swini\" is a feminine noun in Dholuo."
+        },
+        {
+          "question": "What is the meaning of the Dholuo noun \"Ndiga\"?",
+          "options": [
+            "A garden",
+            "A bicycle",
+            "A river",
+            "A tree"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Ndiga\" means \"a bicycle\" in Dholuo."
+        },
+        {
+          "question": "Which of the following statements best describes neuter nouns in Dholuo?",
+          "options": [
+            "They refer to only abstract ideas.",
+            "They refer to inanimate objects, places, and concepts.",
+            "They only refer to natural features like mountains and rivers.",
+            "They must always end with a vowel."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Neuter nouns in Dholuo refer to inanimate objects, places, and concepts."
+        },
+        {
+          "question": "Which of the following pairs correctly represents masculine and feminine nouns in Dholuo?",
+          "options": [
+            "Wuoyi - Nyako",
+            "Ruath - Apaya",
+            "Dichuo - Pacho",
+            "Nyuok - Kidi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "\"Wuoyi\" and \"Nyako\" correctly represent masculine and feminine nouns in Dholuo."
+        },
+        {
+          "question": "Which neuter noun in Dholuo refers to a place of residence?",
+          "options": [
+            "Got",
+            "Pacho",
+            "Kidi",
+            "Apaya"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Pacho\" is a neuter noun referring to a place of residence in Dholuo."
+        },
+        {
+          "question": "Which of the following is NOT a masculine noun in Dholuo?",
+          "options": [
+            "Dichuo",
+            "Ruath",
+            "Nyaburi",
+            "Wuoyi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Nyaburi\" is not a masculine noun in Dholuo."
+        },
+        {
+          "question": "Which masculine noun in Dholuo refers to a male bird?",
+          "options": [
+            "Dichuo",
+            "Thuon",
+            "Nyako",
+            "Ndiga"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Thuon\" is a masculine noun referring to a male bird in Dholuo."
+        },
+        {
+          "question": "What is the best description of Apaya in Dholuo?",
+          "options": [
+            "A type of tree",
+            "A road or path",
+            "A mountain",
+            "A river"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Apaya\" means a road or path in Dholuo."
+        }
+      ]
+          },
+          {
+            "title": "1.8 Review & Practice",
+            "htmlContent": "beginner/module-one/15.html",
+            "order": 15,
+            "practiceQuestions": []
+          }
+        ],
+        "cat": {
+          "title": "MODULE 01 assesment",
+          "description": "Test your knowledge of Dholuo grammar",
+          "duration": 60,
+          "passingScore": 50,
+          "maxAttempts": 5 
+        }
+      }
+    ]
+  }
