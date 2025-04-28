@@ -359,6 +359,7 @@ export const EnhancedPracticeQuestions = ({
 };
 
 // Enhanced Assessment Component
+// Enhanced Assessment Component
 export const EnhancedAssessment = ({
   module,
   questions,
@@ -369,33 +370,8 @@ export const EnhancedAssessment = ({
 }) => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [showAnswers, setShowAnswers] = useState(false);
-  const [timeRemaining, setTimeRemaining] = useState(module.cat.duration * 60); // Convert minutes to seconds
-  const [timerActive, setTimerActive] = useState(true);
-
-  // Timer effect
-  useEffect(() => {
-    let timer;
-    if (timerActive && timeRemaining > 0) {
-      timer = setTimeout(() => {
-        setTimeRemaining((prev) => prev - 1);
-      }, 1000);
-    } else if (timeRemaining <= 0 && timerActive) {
-      // Auto-submit when time runs out
-      setTimerActive(false);
-      handleSubmit();
-    }
-
-    return () => clearTimeout(timer);
-  }, [timeRemaining, timerActive]);
-
-  // Format time as MM:SS
-  const formatTime = (seconds) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins.toString().padStart(2, "0")}:${secs
-      .toString()
-      .padStart(2, "0")}`;
-  };
+  const [trialsRemaining, setTrialsRemaining] = useState(5); // Start with 5 trials
+  const [attemptsUsed, setAttemptsUsed] = useState(0); // Track number of attempts used
 
   if (!questions || questions.length === 0)
     return <div>No assessment questions available</div>;
@@ -408,16 +384,20 @@ export const EnhancedAssessment = ({
   // Handle assessment submission
   const handleSubmit = () => {
     setIsSubmitted(true);
-    setTimerActive(false);
+    setAttemptsUsed(prev => prev + 1);
   };
 
   // Handle retry assessment
   const handleRetry = () => {
-    setUserAnswers({});
-    setIsSubmitted(false);
-    setShowAnswers(false);
-    setTimeRemaining(module.cat.duration * 60);
-    setTimerActive(true);
+    if (trialsRemaining > 1) {
+      setUserAnswers({});
+      setIsSubmitted(false);
+      setShowAnswers(false);
+      setTrialsRemaining(prev => prev - 1);
+    } else {
+      // No trials left, force continue
+      handleContinue(false);
+    }
   };
 
   // Handle continue to next module
@@ -448,11 +428,10 @@ export const EnhancedAssessment = ({
           <div
             className="text-sm p-2 rounded font-bold"
             style={{
-              backgroundColor:
-                timeRemaining < 60 ? "#ffe6e6" : colors.lightBeige,
+              backgroundColor: trialsRemaining <= 2 ? "#ffe6e6" : colors.lightBeige,
             }}
           >
-            Time Remaining: {formatTime(timeRemaining)}
+            Trials Remaining: {trialsRemaining}
           </div>
         </div>
       </div>
@@ -545,11 +524,10 @@ export const EnhancedAssessment = ({
       />
 
       <div className="navigation-buttons flex justify-between mt-8">
-        {!isSubmitted && (
+        {!isSubmitted ? (
           <>
             <button
               onClick={() => {
-                setTimerActive(false);
                 setActivePage("topic");
               }}
               className="px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition"
@@ -570,7 +548,7 @@ export const EnhancedAssessment = ({
               Submit Assessment
             </button>
           </>
-        )}
+        ) : null}
       </div>
     </div>
   );
