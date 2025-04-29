@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dholuo Review & Practice</title>
+    <title>Dholuo Grammar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
             padding: 0;
             background-color: #f8f8f8;
         }
-
+        
         .container {
             width: 90%;
             max-width: 1200px;
@@ -23,57 +23,81 @@
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
+        
         h1, h2, h3, h4 {
-            color: #008080;
+            color: #008080; /* Teal color for headings */
             margin-top: 20px;
         }
-
+        
+        h1 {
+            font-size: 28px;
+            border-bottom: 2px solid #008080;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            border-left: 4px solid #008080;
+            padding-left: 10px;
+        }
+        
         h3 {
             font-size: 20px;
         }
-
+        
         h4 {
             font-size: 18px;
         }
-
+        
         p {
             margin-bottom: 15px;
         }
-
+        
+        blockquote {
+            border-left: 4px solid #008080;
+            padding-left: 15px;
+            margin-left: 0;
+            color: #555;
+        }
+        
+        ul, ol {
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #008080;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
         .example {
             background-color: #e6f3f3;
             padding: 10px;
             border-left: 3px solid #008080;
             margin-bottom: 15px;
         }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        
+        .phoneme-table {
             margin: 20px 0;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px 12px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #008080;
-            color: white;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        .key-point {
-            background-color: #f0f8ff;
-            padding: 10px;
-            border-left: 3px solid #4682b4;
-            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -85,12 +109,12 @@
         <h4>Dholuo Consonants</h4>
         <p>Dholuo has 26 consonants, including two semivowels and five nasal-stop compounds, with a one-to-one correspondence between consonant sounds and their orthographic symbols. This feature makes reading and writing relatively straightforward.</p>
         
-        <p><strong>Key Categories of Dholuo Consonants:</strong></p>
+        <h4>Key Categories of Dholuo Consonants:</h4>
         <ul>
-            <li>Fricatives: Produced by forcing air through a narrow channel, creating a turbulent airflow. These include F, H, and TH (⊖).</li>
-            <li>Semivowels (Glides): Consonants that behave like vowels in pronunciation and transition smoothly between sounds. Dholuo has W and Y.</li>
-            <li>Nasal-Stop Compounds: Nasal consonants followed by stop consonants, crucial in Dholuo phonetics. Examples include MD, ND, NG', NY, and NDH.</li>
-            <li>Digraphs: Two letters representing a single phoneme, distinct from the sounds of the individual letters. Examples:
+            <li><strong>Fricatives:</strong> Produced by forcing air through a narrow channel, creating a turbulent airflow. These include F, H, and TH (⊖).</li>
+            <li><strong>Semivowels (Glides):</strong> Consonants that behave like vowels in pronunciation and transition smoothly between sounds. Dholuo has W and Y.</li>
+            <li><strong>Nasal-Stop Compounds:</strong> Nasal consonants followed by stop consonants, crucial in Dholuo phonetics. Examples include MD, ND, NG', NY, and NDH.</li>
+            <li><strong>Digraphs:</strong> Two letters representing a single phoneme, distinct from the sounds of the individual letters. Examples:
                 <ul>
                     <li>DH in Dholuo represents [ð], similar to "th" in this or that.</li>
                     <li>NY in nyako ("girl") represents [ɲ], a nasal palatal sound</li>
@@ -101,7 +125,7 @@
         <h4>Dholuo Vowels</h4>
         <p>Dholuo has five vowel symbols (A, E, I, O, U) but represents ten phonemic vowels due to tongue-root position distinctions. The system under-differentiates these phonemes, leading to homographs—words that look the same but differ in pronunciation and meaning.</p>
         
-        <p><strong>Key Features of Dholuo Vowels:</strong></p>
+        <h4>Key Features of Dholuo Vowels:</h4>
         <ul>
             <li>Five orthographic vowel symbols: A, E, I, O, U.</li>
             <li>Ten phonemic vowels due to tongue-root position differences.</li>
@@ -110,49 +134,38 @@
         </ul>
         
         <h4>Definiteness in Dholuo Noun Phrases</h4>
-        <p><strong>How Definiteness is Expressed in Dholuo</strong></p>
+        <h4>How Definiteness is Expressed in Dholuo</h4>
         
         <h4>Contextual Definiteness</h4>
         <p>In Dholuo, a noun can be definite or indefinite depending on the context rather than explicit grammatical markers.</p>
         <p>If a noun is commonly known in a given situation, it does not require additional marking for definiteness.</p>
-        
-        <p><strong>Example:</strong></p>
-        <div class="example">
-            <p>Wadwaro japuonj. → We want a teacher. (Indefinite, any teacher)</p>
-            <p>Wadwaro japuonj. → We want the teacher. (Definite, referring to a known teacher)</p>
-        </div>
+        <p>Example:</p>
+        <div class="example">Wadwaro japuonj. → We want a teacher. (Indefinite, any teacher)</div>
+        <div class="example">Wadwaro japuonj. → We want the teacher. (Definite, referring to a known teacher)</div>
         <p>The same sentence may have different meanings depending on the situation.</p>
         
         <h4>Demonstratives as Definiteness Markers</h4>
         <p>Dholuo uses demonstratives such as [no], [cha], [go], and [ka] to indicate previous mention or shared experience.</p>
-        <ul>
-            <li>[no] and [go] → Used when the referent is still the latest topic of conversation.</li>
-            <li>[cha] and [ka] → Used when the referent has been followed by other topics in discourse.</li>
-        </ul>
-        
-        <p><strong>Examples:</strong></p>
-        <div class="example">
-            <p>Wadwaro japuonj no → We want that teacher (the one just mentioned or nearby).</p>
-            <p>Wadwaro jopuonj go → We want those teachers (recently mentioned or nearby).</p>
-            <p>Wadwaro japuonj cha → We want that teacher (one mentioned earlier or further away).</p>
-            <p>Wadwaro jopuonj ka → We want those teachers (previously discussed but not recent).</p>
-        </div>
+        <p>[no] and [go] → Used when the referent is still the latest topic of conversation.</p>
+        <p>[cha] and [ka] → Used when the referent has been followed by other topics in discourse.</p>
+        <p>Examples:</p>
+        <div class="example">Wadwaro japuonj no → We want that teacher (the one just mentioned or nearby).</div>
+        <div class="example">Wadwaro jopuonj go → We want those teachers (recently mentioned or nearby).</div>
+        <div class="example">Wadwaro japuonj cha → We want that teacher (one mentioned earlier or further away).</div>
+        <div class="example">Wadwaro jopuonj ka → We want those teachers (previously discussed but not recent).</div>
         
         <h4>Quantification in Dholuo Noun Phrases</h4>
-        <p><strong>Types of Quantifiers in Dholuo</strong></p>
+        <h4>Types of Quantifiers in Dholuo</h4>
         <p>Like many languages, Dholuo uses different forms of quantification within noun phrases, including:</p>
         <ul>
             <li>Cardinal numbers (e.g., ariyo "two")</li>
             <li>Ordinals (e.g., mokwongo "first")</li>
             <li>Adjectives of relative quantity (e.g., mathoth "many")</li>
         </ul>
-        
-        <p><strong>Examples:</strong></p>
-        <div class="example">
-            <p>Adwaro diek ariyo. → I want two goats. (Cardinal number)</p>
-            <p>Koth chwe e dwe mar abich. → It rains in the fifth month (May). (Ordinal number)</p>
-            <p>Ruoth nigi rombe mathoth. → The chief has many sheep. (Adjective of quantity)</p>
-        </div>
+        <p>Examples:</p>
+        <div class="example">Adwaro diek ariyo. → I want two goats. (Cardinal number)</div>
+        <div class="example">Koth chwe e dwe mar abich. → It rains in the fifth month (May). (Ordinal number)</div>
+        <div class="example">Ruoth nigi rombe mathoth. → The chief has many sheep. (Adjective of quantity)</div>
         
         <h4>Formation of Ordinal Numbers in Dholuo</h4>
         <p>Unlike cardinal numbers, ordinals in Dholuo require morphological modification. The first and last ordinal numbers are derived from verbs, while the rest are formed using the word mar ("of") followed by a cardinal number.</p>
@@ -190,20 +203,15 @@
             </tr>
         </table>
         
-        <p><strong>Examples:</strong></p>
-        <div class="example">
-            <p>Ruodh mar adek. → The third chief.</p>
-            <p>Dwe mar ochiko. → The ninth month.</p>
-        </div>
+        <p>Examples:</p>
+        <div class="example">Ruodh mar adek. → The third chief.</div>
+        <div class="example">Dwe mar ochiko. → The ninth month.</div>
         
         <h4>Relative Clauses in Dholuo</h4>
-        <p><strong>Function of Relative Clauses</strong></p>
+        <h4>Function of Relative Clauses</h4>
         <p>When a noun's reference cannot be clarified by determiners alone, Dholuo employs relative clauses—embedded sentences that provide additional details about a noun. These clauses are introduced by the relative morpheme [ma], which sometimes attaches as a clitic.</p>
-        
-        <p><strong>Example of a Basic Relative Clause:</strong></p>
-        <div class="example">
-            <p>Ruoth ma onge dhako rach. → A chief who does not have a wife is bad.</p>
-        </div>
+        <p>Example of a Basic Relative Clause:</p>
+        <div class="example">Ruoth ma onge dhako rach. → A chief who does not have a wife is bad.</div>
         
         <h4>Types of Relative Clauses</h4>
         <p>Linguists distinguish between two types of relative clauses:</p>
@@ -229,9 +237,7 @@
             </tr>
         </table>
         
-        <div class="key-point">
-            <p>🔹 Key Difference: The restrictive relative clause helps identify the noun, while the non-restrictive one adds background information without limiting the noun's identity.</p>
-        </div>
+        <p>🔹 Key Difference: The restrictive relative clause helps identify the noun, while the non-restrictive one adds background information without limiting the noun's identity.</p>
         
         <h4>Structure of Relative Clauses in Dholuo</h4>
         <ul>
@@ -239,31 +245,139 @@
             <li>It often appears as a free word or as a clitic (attaching to words).</li>
             <li>If the word begins with a vowel, [ma] loses its final vowel through assimilation.</li>
         </ul>
-        
-        <p><strong>Examples:</strong></p>
-        <div class="example">
-            <p>Ngat marach. → A bad person.</p>
-            <p>Ring'o ma jaduong' ohero. → The meat that the elder likes.</p>
-            <p>Nyathi mong'eyo jonyuolne. → A child who knows its parents.</p>
-        </div>
+        <p>Examples:</p>
+        <div class="example">Ngat marach. → A bad person.</div>
+        <div class="example">Ring'o ma jaduong' ohero. → The meat that the elder likes.</div>
+        <div class="example">Nyathi mong'eyo jonyuolne. → A child who knows its parents.</div>
         
         <h4>The Order of Determiners in Dholuo Noun Phrases</h4>
         <p>In Dholuo, noun phrases follow a fixed order: Head Noun (HN) - Partitive Article (PA) - Quantifier (Quan) - Relativized Word (RW) - Relative Clause (RC) - Demonstrative (DEM). The demonstrative (DEM) is preferred at the end, as it applies to all preceding elements.</p>
+        <p>Example of Correct Order:</p>
+        <div class="example">Nyithindo moko ariyo matindo mohero tugo ka.<br>(Those little children who like playing.)</div>
+        <p>Unacceptable Order:</p>
+        <div class="example">Nyithindo ka moko ariyo matindo mohero tugo. (Incorrect placement of "ka")</div>
+        <p>🔹 Exception: When the head noun represents time, the demonstrative can come immediately after it.</p>
+        <hr>
         
-        <p><strong>Example of Correct Order:</strong></p>
-        <div class="example">
-            <p>Nyithindo moko ariyo matindo mohero tugo ka.</p>
-            <p>(Those little children who like playing.)</p>
-        </div>
+        <h3>1.4 Pronouns</h3>
+        <h4>1.4.1 Introduction</h4>
+        <p>Pronouns are an essential component of Dholuo grammar, functioning as substitutes for nouns to avoid redundancy and enhance linguistic efficiency. Like in many other languages, pronouns in Dholuo indicate person, number, and sometimes gender. They are used to refer to people, objects, places, and abstract concepts without repeating the noun.</p>
+        <p>Dholuo pronouns can be classified into several categories based on their function in a sentence, including subject pronouns, object pronouns, possessive pronouns, demonstrative pronouns, reflexive pronouns, and relative pronouns.</p>
         
-        <p><strong>Unacceptable Order:</strong></p>
-        <div class="example">
-            <p>Nyithindo ka moko ariyo matindo mohero tugo. (Incorrect placement of "ka")</p>
-        </div>
+        <h4>1.4.2 Personal and Possessive Pronouns</h4>
+        <h4>Personal Pronouns</h4>
+        <p>These occur in two sets, which we may (for lack of better terms) refer to as emphatic and non-emphatic forms. The following is a paradigmatic account of the personal pronouns in Dholuo</p>
         
-        <div class="key-point">
-            <p>🔹 Exception: When the head noun represents time, the demonstrative can come immediately after it.</p>
-        </div>
+        <table>
+            <tr>
+                <th></th>
+                <th>Emphatic</th>
+                <th>Non-Emphatic</th>
+            </tr>
+            <tr>
+                <td>First Person Singular</td>
+                <td>an</td>
+                <td>a-, -a</td>
+            </tr>
+            <tr>
+                <td>First Person Plural</td>
+                <td>wan</td>
+                <td>wa-, -wa</td>
+            </tr>
+            <tr>
+                <td>Second Person Singular</td>
+                <td>in</td>
+                <td>i-, -i</td>
+            </tr>
+            <tr>
+                <td>Second Person Plural</td>
+                <td>un</td>
+                <td>u-, -u</td>
+            </tr>
+            <tr>
+                <td>Third Person Singular</td>
+                <td>en</td>
+                <td>o-,-e,-go</td>
+            </tr>
+            <tr>
+                <td>Third Person Plural</td>
+                <td>gin</td>
+                <td>gi-, -gi</td>
+            </tr>
+        </table>
+        
+        <p>The most objective difference between the emphatic and the non-emphatic forms is that while the former are free morphemes, the latter are all bound forms, occurring as either prefixes or suffixes.</p>
+        <p>Thus, in principle, for each Person-Number combination (e.g. 1st Person Singular) there exist two non-emphatic forms x and y such that x occurs as a prefix (corresponding to subject) and y occurs as a suffix (corresponding to object).</p>
+        <p>On our chart the prefix-forms are marked with a dash after them (e.g. a-) while the suffix forms have a dash before them (e.g. -i). In one case, the Third Person Singular, the y-element has two allomorphs Ge and -go) which are free variants. (Some speakers feel that -go is more emphatic than -e). It also needs to be noted that except for the Third Person Singular, all the non-emphatic forms have the same morph for the x- and y-elements</p>
+        
+        <p>Examples.</p>
+        <div class="example">An japuonj (First Person Singular- Emphatic)<br>'I am a teacher.'</div>
+        <div class="example">A-biro neni (First Person Singular- Non-Emphatic)<br>'I am coming to see you.'</div>
+        <div class="example">Wach moro chand-a (First Person Singular- Non-Emphatic)<br>'Something is bothering me.'</div>
+        <div class="example">Wan ka (First Person Plural- Emphatic)<br>'We are here.'</div>
+        <div class="example">Wa-biro (First Person Plural- Non-Emphatic)<br>'We are coming.'</div>
+        <div class="example">Koth go-wa (First Person Plural- Non-Emphatic)<br>'It is raining on us.'</div>
+        <div class="example">In mari onge (Second Person Singular- Emphatic)<br>'You, your share is not there.'</div>
+        <div class="example">I-hero kwano ahinya (Second Person Singular-Non- Emphatic)<br>'You like Maths too much.'</div>
+        <div class="example">Un jokwo madongo (Second Person Plural Emphatic)<br>'You are big thieves.'</div>
+        <div class="example">Bende u-dwaro chiemo? (Second Person Plural Non-Emphatic)<br>'Do you want food?'</div>
+        <div class="example">Ng'ato ng'iyo-u (Second Person Plural Non-Emphatic)<br>'Someone is looking at you.'</div>
+        <div class="example">En wuod nera (Third Person Singular- Emphatic)<br>'He is my (maternal) uncle's son'</div>
+        <div class="example">O-dwaro medo somo (Third Person Singular Non-Emphatic)<br>'He was to study furtherr.'</div>
+        <div class="example">Tinde somo oolo-go (Third Person Singular Non-Emphatic)<br>'He is nowadays tired of studying.'</div>
+        
+        <h4>Possessive Pronouns</h4>
+        <p>The concept of 'belonging to' is expressed in Dholuo using the word [mar] which is an irregular plural form [mag/mek] To form a possessive pronoun, i.e., a word which can functionally replace a possession-showing nominal constituent, a non-emphatic form of an appropriate personal pronoun is suffixed to either [mar] or [mag/mek] depending on the (grammatical) number required.</p>
+        <p>Since Dholuo has six Person-Number combinations, there are six pairs of possessive pronouns, namely:</p>
+        
+        <table>
+            <tr>
+                <th>Singular</th>
+                <th>Plural</th>
+            </tr>
+            <tr>
+                <td>mar-a<br>'mine'</td>
+                <td>mag-a/mek-a</td>
+            </tr>
+            <tr>
+                <td>mar-i<br>'yours' (sg)</td>
+                <td>mag-i/mek-i</td>
+            </tr>
+            <tr>
+                <td>mar-e<br>'his/hers/its'</td>
+                <td>mag-e/mek-e</td>
+            </tr>
+            <tr>
+                <td>mar-wa<br>'ours'</td>
+                <td>mag-wa/mek-wa</td>
+            </tr>
+            <tr>
+                <td>mar-u<br>'yours' (pl.)</td>
+                <td>mag-u/mek-u</td>
+            </tr>
+            <tr>
+                <td>mar-gi<br>'theirs'</td>
+                <td>mag-gi/mek-gi</td>
+            </tr>
+        </table>
+        
+        <p>A possession-showing constituent occurs in the form of a construction consisting of the element representing the possessed entity and the element indicating the possessor. For each such possessed-possessor sequence, QR,(Quantifier Raising) the possible values of R include:</p>
+        <ol type="a">
+            <li>a nominal designation of the possessor, e.g.<br>
+                <div class="example">Bug japuonj. 'The teacher's book'<br>(Q = bug, R = japuonj)</div>
+            </li>
+            <li>a pronominal representation of the possessor (always suffixed), e.g.<br>
+                <div class="example">Bug-e. His book'<br>(Q— bug, R — -e)</div>
+            </li>
+            <li>an element of type (ti) preceded by -n- (normally found in cases where the Q-element in the construction QR ends in a vowel), e.g.<br>
+                <div class="example">Nyathi-n-a 'My child'<br>(Q = nyathi, R = -n-a</div>
+            </li>
+        </ol>
+        
+        <p>Each type of QR-construction in (i)-(iii) above can be replaced by an appropriate possessive pronoun as the following pairs of 'contextual' paraphrases testify</p>
+        <div class="example">Mano kalamb Atieno (type (i))<br>'That is Atieno's pen.'<br>Mano mar-e<br>That (is) hers.'</div>
+        <div class="example">Mano kalamb-e (type (ii))<br>'That (is) her pen.'<br>Mano mar-e<br>'That (is) hers'</div>
+        <div class="example">Mano dala ruoth (type (iii))<br>'That is the chiefs home.'<br>Mano dala-n-e<br>'That (is) his home.'</div>
     </div>
 </body>
 </html>
