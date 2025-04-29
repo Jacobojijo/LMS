@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "According to the study, which of the following semantic functions (SFs) do not require prepositional marking?",
+        "options": [
+          "Possession and Direction",
+          "Goal and Beneficiary",
+          "Ø, PO, Fo, Proc, and Dir (without content-word preposition)",
+          "Locative and Source"
+        ],
+        "correctAnswer": 2,
+        "explanation": "These SFs are expressed without prepositions, often through position or verb morphology."
+      },
+      {
+        "question": "When expressing Possession (Poss) for a singular possessed element in Dholuo, which preposition is used?",
+        "options": [
+          "gi",
+          "mag",
+          "mar",
+          "ne"
+        ],
+        "correctAnswer": 2,
+        "explanation": "‘mar’ is used for singular possessed elements to indicate possession."
+      },
+      {
+        "question": "In Dholuo, what is the correct prepositional marking for Companion (Comp) and Instruction (Instr) functions?",
+        "options": [
+          "ne",
+          "gi",
+          "e",
+          "yo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘gi’ is the appropriate preposition to express Companion and Instruction roles."
+      },
+      {
+        "question": "How is Focus function morphologically expressed in a Dholuo sentence?",
+        "options": [
+          "By adding [e(ma)] immediately after the focused term",
+          "By placing the term at the end of the sentence",
+          "By using a different verb tense",
+          "By omitting the subject in the sentence"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Focus is marked morphologically by the postposed particle [e] or [ema]."
+      },
+      {
+        "question": "In which case does the general preposition \"e\" appear in a predication?",
+        "options": [
+          "When marking a term assigned the Beneficiary function",
+          "When a term takes a prepositional content-word marker like \"yo\"",
+          "When the term has zero semantic function",
+          "When the term is assigned a Focus function"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘e’ appears with prepositions like ‘yo’ in directional expressions."
+      },
+      {
+        "question": "Which preposition is used when marking the Beneficiary (Ben) and Recipient (Rec) functions?",
+        "options": [
+          "mar",
+          "gi",
+          "ne",
+          "e"
+        ],
+        "correctAnswer": 2,
+        "explanation": "‘ne’ is the preposition used for both Beneficiary and Recipient functions."
+      },
+      {
+        "question": "What happens if a prepositionally marked term is assigned the Topic function in Dholuo?",
+        "options": [
+          "The preposition is removed",
+          "The term moves to the preverbal position, causing morphological changes in the verb",
+          "The term remains in its original place but gains an extra suffix",
+          "There is no morphological effect"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Topicalized terms move to the front, affecting the verb through agreement or inflection."
+      },
+      {
+        "question": "Which sentence correctly represents Direction (Dir) with a content-word preposition?",
+        "options": [
+          "Atieno odhi e yo sikul",
+          "Atieno odhi yo sikul",
+          "Sikul odhi Atieno",
+          "Yo sikul ema Atieno odhi ne"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘yo sikul’ is the appropriate directional phrase without the general preposition 'e'."
+      },
+      {
+        "question": "When a plural possessed element is involved in a possession statement, which preposition is used?",
+        "options": [
+          "mar",
+          "gi",
+          "mag",
+          "ne"
+        ],
+        "correctAnswer": 2,
+        "explanation": "‘mag’ indicates plural possession in Dholuo."
+      },
+      {
+        "question": "In which case does a term assigned the Focus function appear as \"... Xl e(ma) ...\" in a sentence?",
+        "options": [
+          "When it is the object of the sentence",
+          "When it appears in the postverbal position",
+          "When it moves to the preverbal position",
+          "When it is not prepositionally marked"
+        ],
+        "correctAnswer": 2,
+        "explanation": "When the focused term is preverbal, it appears with the marker [e] or [ema] following it."
+      }
+    ]
+  }
+  

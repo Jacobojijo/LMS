@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary linguistic phenomenon under discussion in the provided study?",
+        "options": [
+          "Subject-Verb Agreement",
+          "Word Fronting in Question Formation",
+          "Tense and Aspect Marking",
+          "Gender Marking in Pronouns"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The study focuses on how word fronting operates in forming questions in Dholuo."
+      },
+      {
+        "question": "Which of the following best describes the contrast between straight and Focus interrogatives in Dholuo?",
+        "options": [
+          "Straight interrogatives always have preverbal question words, while Focus interrogatives do not.",
+          "Focus interrogatives contain a Focus-marking element [ma], while straight interrogatives do not.",
+          "Straight interrogatives are used for rhetorical questions only.",
+          "Focus interrogatives occur only in informal speech."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Focus interrogatives use the marker [ma], which is absent in straight interrogatives."
+      },
+      {
+        "question": "In the study, which of the following is an example of a Focus interrogative?",
+        "options": [
+          "Jakuo okawo ang'o?",
+          "Ere wuon ot?",
+          "Ang'o ma jakuo okawo?",
+          "Bende oyud jakuo?"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This example includes the Focus-marking element [ma], typical of Focus interrogatives."
+      },
+      {
+        "question": "What is the role of the Focus-marking element [ma] in Dholuo question formation?",
+        "options": [
+          "It signals past tense in interrogatives.",
+          "It marks the presence of an informational gap in a sentence.",
+          "It differentiates straight interrogatives from Focus interrogatives.",
+          "It serves as a negation marker."
+        ],
+        "correctAnswer": 2,
+        "explanation": "[ma] is a structural marker that distinguishes Focus interrogatives."
+      },
+      {
+        "question": "According to the study, which type of interrogative construction in Dholuo is always a 'straight interrogative'?",
+        "options": [
+          "Questions that seek confirmation using words like [bende, donge, koso].",
+          "Questions that contain the Focus-marking element [ma].",
+          "Questions that have both preverbal and postverbal question words.",
+          "Questions that involve an alpha term."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Confirmation questions always follow the straight interrogative pattern in Dholuo."
+      },
+      {
+        "question": "What linguistic strategy does the question ‘Ang’o ma jakuo okawo?’ employ?",
+        "options": [
+          "It uses word order inversion.",
+          "It employs an optional Q-fronting rule.",
+          "It deletes the subject of the sentence.",
+          "It relies on subject-verb agreement to form a question."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The question demonstrates the optional fronting of question elements in Focus interrogatives."
+      },
+      {
+        "question": "Which of the following best describes the relationship between declarative and interrogative Focus constructions in Dholuo?",
+        "options": [
+          "Declarative Focus constructions mirror Focus interrogatives in structure, but they serve different communicative functions.",
+          "Declarative Focus constructions can only occur in past tense, while interrogative Focus constructions occur in all tenses.",
+          "Focus interrogatives do not require a Focus-marking element, while declarative Focus constructions do.",
+          "There is no structural relationship between them."
+        ],
+        "correctAnswer": 0,
+        "explanation": "They share structure, but differ in communicative intent—one makes a statement, the other asks."
+      },
+      {
+        "question": "What distinguishes Type (ii) interrogatives from Type (iv) interrogatives in the study?",
+        "options": [
+          "Type (ii) interrogatives allow free variation in question-word position, while Type (iv) does not.",
+          "Type (ii) interrogatives contain an alpha term, while Type (iv) interrogatives contain a non-alpha term.",
+          "Type (ii) interrogatives are rhetorical, while Type (iv) interrogatives seek genuine information.",
+          "Type (ii) interrogatives always appear in declarative sentences."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The classification is based on the type of term—alpha for Type (ii), non-alpha for Type (iv)."
+      },
+      {
+        "question": "Which of the following sentences best illustrates a straight interrogative in Dholuo?",
+        "options": [
+          "Ng'a ma sibuor ochamo?",
+          "Ang’o ma jakuo okawo?",
+          "Donge oyud jakuo?",
+          "Ng’a ma chamo punda?"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This is a confirmation-type question that falls under straight interrogatives."
+      },
+      {
+        "question": "What can be concluded about the distribution of interrogative constructions in Dholuo based on the study?",
+        "options": [
+          "Dholuo only has Focus interrogatives, and straight interrogatives do not exist.",
+          "The language allows both Focus and straight interrogatives, with some occurring in free variation and others in complementary distribution.",
+          "Word order is completely fixed in all Dholuo interrogative structures.",
+          "The presence of the Focus-marking element [ma] is optional in all interrogative structures."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo utilizes both forms, with flexible distribution patterns depending on context."
+      }
+    ]
+  }
+  

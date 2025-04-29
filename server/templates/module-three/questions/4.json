@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "According to Functional Grammar theory, which of the following best describes the Topic function?",
+        "options": [
+          "The constituent that introduces new entities into discourse",
+          "The constituent that carries the primary stress in a sentence",
+          "The constituent about which the predication provides information in a given setting",
+          "The constituent that always appears at the end of a sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Topic identifies what the predication is about in the discourse context."
+      },
+      {
+        "question": "Which of the following is NOT one of the three characteristics of the Topic function in Functional Grammar?",
+        "options": [
+          "It designates the entity about which something is predicated",
+          "It must always be a noun phrase in sentence-initial position",
+          "It is often coreferential with a constituent in a preceding or implied question",
+          "Any term in a predication can function as a Topic given the right pragmatic conditions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "While Topics often occur early, they are not strictly limited to sentence-initial noun phrases."
+      },
+      {
+        "question": "In Dholuo, where is the special position for Topic constituents?",
+        "options": [
+          "Postverbal position",
+          "Preverbal position",
+          "Final position in the clause",
+          "Anywhere in the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo assigns Topic elements to the preverbal position for emphasis or focus."
+      },
+      {
+        "question": "Which of the following statements best differentiates the communicative functions of the sentences \"Inego kwach\" and \"Kwach inego\"?",
+        "options": [
+          "The first states what is happening, while the second emphasizes what is happening to the leopard",
+          "The first expresses doubt, while the second expresses certainty",
+          "The first is used in informal speech, while the second is used in formal contexts",
+          "The first is grammatically incorrect, while the second is the only valid structure"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Word order reflects focus: 'Kwach inego' places emphasis on the object (leopard)."
+      },
+      {
+        "question": "Why is \"Kwach inego\" NOT an appropriate response to the question \"Ango ma timore?\" ('What is happening here?')?",
+        "options": [
+          "It lacks a verb, making it ungrammatical",
+          "It does not explicitly mention the agent of the action",
+          "It does not provide general information about what is happening",
+          "It uses a verb form that is inappropriate for this type of question"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence emphasizes a specific object, not the broader event occurring."
+      },
+      {
+        "question": "In response to the question \"Itimo kwach nade?\" ('What is being done to the leopard?'), which of the following is an appropriate answer?",
+        "options": [
+          "kwach tho",
+          "Ineg-e",
+          "Nyithindo nego kwach",
+          "Kwach inego"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Ineg-e\" appropriately aligns with the passive structure asked in the question."
+      },
+      {
+        "question": "Which of the following best represents the general syntactic pattern for Topic marking in Dholuo?",
+        "options": [
+          "Alpha Verb Topic X",
+          "Verb Alpha Topic X",
+          "Topic Alpha Verb X",
+          "Verb Topic Alpha X"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dholuo typically positions the Topic before the Alpha and Verb."
+      },
+      {
+        "question": "What is the significance of sentence (g) \"Kwach nyithindo nego\" compared to (f) \"Nyithindo nego kwach\"?",
+        "options": [
+          "(g) maintains the default sentence order while (f) marks Focus",
+          "(g) assigns Topic function to \"kwach,\" making it the primary referent",
+          "(f) is incorrect because \"kwach\" must always come first",
+          "(g) removes the agent of the action, making it ambiguous"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In sentence (g), 'kwach' is placed at the front to serve as the Topic."
+      },
+      {
+        "question": "In Dholuo, when a Topic element is assigned in a sentence, how does this affect the alpha term?",
+        "options": [
+          "The alpha term remains in its original position",
+          "The alpha term must be moved to the postverbal position",
+          "The alpha term must still appear in the preverbal position",
+          "The alpha term is deleted from the sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The alpha term retains its preverbal position even when a Topic is added."
+      },
+      {
+        "question": "Which of the following statements correctly summarizes the relationship between Topic and sentence structure in Dholuo?",
+        "options": [
+          "Topic assignment always requires a change in word order",
+          "Topic elements must always appear at the end of a sentence",
+          "Topic assignment does not affect sentence structure in any way",
+          "Topic marking is optional and does not follow any specific pattern"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Assigning a Topic typically results in fronting or reordering sentence elements for clarity."
+      }
+    ]
+  }
+  

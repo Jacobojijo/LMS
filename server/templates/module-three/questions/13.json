@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary difference between [ere] and [ni kanye]?",
+        "options": [
+          "[Ere] is used only in the past tense, while [ni kanye] is used in the present",
+          "[Ere] semantically combines the meanings of [kanye] and [ni], while [ni kanye] does not",
+          "[Ni kanye] has no equivalent meaning in Dholuo",
+          "[Ere] and [ni kanye] can be used interchangeably without restrictions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[Ere] semantically combines the meanings of [kanye] and [ni], providing a more compact form than [ni kanye]."
+      },
+      {
+        "question": "Why is the sentence 'Pala ne ere' ill-formed?",
+        "options": [
+          "Because [ere] can only be used in the present tense",
+          "Because [ne] must always follow [ere]",
+          "Because [ere] is only used with pronouns",
+          "Because [ere] must always follow a noun"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Ere] is limited to present tense contexts, so using it with the past tense marker [ne] results in an ill-formed sentence."
+      },
+      {
+        "question": "Which of the following sentences correctly uses [ere]?",
+        "options": [
+          "i-ere",
+          "Pala ne ere",
+          "Ere-i",
+          "Pala kanye ni"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Ere-i' correctly uses [ere] before a pronoun to form a proper question in Dholuo."
+      },
+      {
+        "question": "What is required to form a well-structured question using [ni kanye]?",
+        "options": [
+          "The sentence must be in the past tense",
+          "The sentence must follow a strict Subject-Verb-Object order",
+          "The sentence must use the locative copula [ni]",
+          "The sentence must begin with [ere]"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Using [ni kanye] correctly requires the inclusion of the locative copula [ni]."
+      },
+      {
+        "question": "When forming a question about the location of a pronoun, how should [ere] be positioned?",
+        "options": [
+          "It must always come before the pronoun",
+          "It must always come after the pronoun",
+          "It must be omitted when a pronoun is used",
+          "It must always be used with [ni kanye]"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Ere] precedes the pronoun to correctly form a question about location in Dholuo."
+      },
+      {
+        "question": "Which of the following is a correct sentence using [ni kanye]?",
+        "options": [
+          "Kanye pala.",
+          "Pala ni kanye?",
+          "Pala kanye ni?",
+          "Ere pala kanye?"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Pala ni kanye?' is the correct structure for asking a location question using [ni kanye]."
+      },
+      {
+        "question": "Why is the sentence 'i-ere' incorrect?",
+        "options": [
+          "Because [ere] cannot be used with pronouns",
+          "Because [ere] must always precede the pronoun",
+          "Because [ere] cannot be used in present tense",
+          "Because [ere] must always be followed by [ni]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'i-ere' is incorrect because [ere] must precede the pronoun, making 'ere-i' the correct form."
+      },
+      {
+        "question": "Which of the following statements is true about the use of [ere] in Dholuo?",
+        "options": [
+          "It can be used in past and present tense",
+          "It must always follow a noun",
+          "It can only occur in the present tense",
+          "It is interchangeable with [ni kanye]"
+        ],
+        "correctAnswer": 2,
+        "explanation": "[Ere] is restricted to present tense usage in Dholuo."
+      },
+      {
+        "question": "If a sentence seeks the location of an object using [ere], how should it be structured?",
+        "options": [
+          "The object should be placed at the beginning, followed by [ere]",
+          "[Ere] should be placed before the object",
+          "The object should follow [ni kanye]",
+          "The sentence should start with [ni kanye]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "When using [ere] to ask about the location of an object, it should be placed before the object in the sentence."
+      },
+      {
+        "question": "What can be concluded about the choice between [ere] and [ni kanye]?",
+        "options": [
+          "It is primarily based on strict syntactic rules",
+          "It is mostly arbitrary, with a few grammatical restrictions",
+          "It depends on whether the sentence is interrogative or declarative",
+          "It is determined by tense and aspect alone"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The choice between [ere] and [ni kanye] is guided more by grammatical and semantic restrictions than rigid syntactic rules."
+      }
+    ]
+  }
+  

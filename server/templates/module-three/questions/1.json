@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary function of predicate frames in advanced Dholuo grammar?",
+        "options": [
+          "To determine the phonetic structure of words",
+          "To specify the permissible structure of sentences, including argument roles",
+          "To replace adverbial expressions with more concise phrases",
+          "To define the morphological rules for verb conjugation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Predicate frames in Dholuo grammar specify the permissible structure of sentences, especially focusing on the roles and arrangement of arguments."
+      },
+      {
+        "question": "Which of the following best describes an intransitive predicate frame in Dholuo?",
+        "options": [
+          "A verb that requires both a direct and an indirect object",
+          "A verb that takes only one argument, typically a subject",
+          "A verb that cannot take any arguments",
+          "A verb that must be modified by an adverbial satellite"
+        ],
+        "correctAnswer": 1,
+        "explanation": "An intransitive predicate frame involves a verb that takes only one argument, usually the subject."
+      },
+      {
+        "question": "In the sentence 'Omondi miyo nyar gi pesa', which argument functions as the direct object?",
+        "options": [
+          "Omondi",
+          "nyar gi",
+          "pesa",
+          "miyo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In this ditransitive sentence, 'pesa' (money) functions as the direct object."
+      },
+      {
+        "question": "Which of the following statements about satellites in Dholuo is true?",
+        "options": [
+          "Satellites are mandatory in every predicate frame",
+          "Satellites add additional information to the state of affairs without defining it",
+          "Satellites can only be used to indicate time and location",
+          "Satellites replace nuclear arguments in a predicate frame"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Satellites in Dholuo provide additional information such as time, location, or manner but do not define the core state of affairs."
+      },
+      {
+        "question": "In the sentence 'Otieno dhi nam', what is the semantic function of 'nam'?",
+        "options": [
+          "Agent",
+          "Goal",
+          "Theme",
+          "Instrument"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Nam' (lake) functions as a Goal, indicating the destination of the action."
+      },
+      {
+        "question": "What is the key difference between a nuclear predication and an extended predication in Dholuo?",
+        "options": [
+          "Nuclear predication contains only essential arguments, while extended predication includes satellites",
+          "Nuclear predication has no verbs, while extended predication always includes an action verb",
+          "Extended predication is only used in informal speech, while nuclear predication is formal",
+          "Extended predication is a simpler form of nuclear predication with fewer arguments"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Nuclear predication consists of the verb and its essential arguments, while extended predication adds satellites for additional detail."
+      },
+      {
+        "question": "Which of the following sentences contains a satellite with the semantic function of time?",
+        "options": [
+          "Juma tang’o ne nyathi buk",
+          "Achola kelo pi sani",
+          "Jathum miel mamit",
+          "Otieno dhi nam"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Sani' (now) in the sentence 'Achola kelo pi sani' indicates time, functioning as a temporal satellite."
+      },
+      {
+        "question": "Which of the following verbs is most likely to form a ditransitive predicate frame in Dholuo?",
+        "options": [
+          "tho ('to die')",
+          "wuok ('to leave')",
+          "miyo ('to give')",
+          "nindo ('to sleep')"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Miyo' (to give) typically takes three arguments—subject, indirect object, and direct object—making it a ditransitive verb."
+      },
+      {
+        "question": "What type of semantic role does the subject play in the sentence 'Jathum miel mamit'?",
+        "options": [
+          "Patient",
+          "Experiencer",
+          "Agent",
+          "Theme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence 'Jathum miel mamit' (The musician is beautifully singing), the subject 'Jathum' performs the action, making it the Agent."
+      },
+      {
+        "question": "What is the correct structure of a monotransitive predicate frame in Dholuo?",
+        "options": [
+          "(NP) + V",
+          "(NP) + V + (NP)",
+          "(NP) + V + (NP) + (NP)",
+          "(NP) + (NP) + V"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A monotransitive predicate frame involves a verb with two arguments: a subject and a direct object, structured as (NP) + V + (NP)."
+      }
+    ]
+  }
+  

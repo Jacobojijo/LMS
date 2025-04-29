@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "According to the study, what is the primary function of the Focus marker [e] in Dholuo?",
+        "options": [
+          "To indicate past tense in declarative sentences",
+          "To mark the most salient piece of information in a given pragmatic condition",
+          "To serve as a plural marker in noun phrases",
+          "To indicate negation in Focus constructions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[e] highlights the most important or emphasized information in the clause."
+      },
+      {
+        "question": "Which of the following statements best describes the distinction between sentence (a) “Otieno e wuoyi” and sentence (b) “Otieno wuoyi”?",
+        "options": [
+          "(a) provides emphasis while (b) introduces contrast",
+          "(a) asserts that Otieno is uniquely identified as \"the boy,\" while (b) simply states that he is male",
+          "(a) is grammatically incorrect, while (b) is the standard form",
+          "(a) introduces a negation while (b) provides an affirmative statement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The presence of [e] in (a) introduces a Focus construction implying uniqueness."
+      },
+      {
+        "question": "What is the main factor common to all six 'etics' of Focus identified in the study?",
+        "options": [
+          "They all involve a shift in word order",
+          "They all rely on tonal variation for proper interpretation",
+          "They all assign informational weight to specific elements in a sentence",
+          "They all require explicit marking through Focus particles"
+        ],
+        "correctAnswer": 2,
+        "explanation": "All Focus types relate to the communicative emphasis placed on specific parts of the sentence."
+      },
+      {
+        "question": "Which of the following best describes the function of [ma] in Dholuo Focus constructions?",
+        "options": [
+          "It acts as a relativizer but can also contribute to Focus marking",
+          "It replaces [e] in all Focus constructions",
+          "It only appears in past-tense questions",
+          "It serves as a conjunction linking two Focus elements"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[ma] acts as a relativizer but also contributes to marking Focus, especially in certain clause types."
+      },
+      {
+        "question": "In which of the following contexts is [ma] used as the sole Focus marker instead of [e]?",
+        "options": [
+          "When Focus is applied to noun phrases",
+          "When the Focused term appears in a question-word construction",
+          "When emphasis is placed on verb conjugation",
+          "When indicating negation in relative clauses"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[ma] is typically used alone in contexts involving question-word constructions."
+      },
+      {
+        "question": "Why is the phrase “Chunya e ma rach” significant in understanding the role of Focus markers in Dholuo?",
+        "options": [
+          "It illustrates a Focus construction where [ma] supports [e] without an identifiable omitted head noun",
+          "It demonstrates that [ma] is exclusively used for emotional expressions",
+          "It provides an example where [e] alone serves as the Focus marker",
+          "It shows that [e] and [ma] must always appear together in Focus constructions"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The phrase demonstrates a Focus construction with no overt head noun, where [ma] functions alongside [e]."
+      },
+      {
+        "question": "Which of the following Focus types involves removing incorrect information and replacing it with the correct one?",
+        "options": [
+          "Expanding Focus",
+          "Replacing Focus",
+          "Restricting Focus",
+          "Parallel Focus"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Replacing Focus contrasts two elements and corrects a mistaken assumption or alternative."
+      },
+      {
+        "question": "How does the phrase “Otieno e ng’at ma nyalo konyowa” illustrate the interaction of [e] and [ma]?",
+        "options": [
+          "It shows that [ma] is redundant in Focus constructions",
+          "It demonstrates that [e] and [ma] can co-occur in a Focused relative clause",
+          "It reveals that [e] and [ma] have distinct but interchangeable functions",
+          "It indicates that Focus marking is optional in such sentences"
+        ],
+        "correctAnswer": 1,
+        "explanation": "This sentence shows a valid co-occurrence of [e] and [ma] in a Focused relative clause."
+      },
+      {
+        "question": "Which of the following best summarizes the difference between Completive Focus and Selective Focus?",
+        "options": [
+          "Completive Focus provides entirely new information, whereas Selective Focus highlights an option among known possibilities",
+          "Selective Focus always involves negation, whereas Completive Focus does not",
+          "Completive Focus applies to pronouns, while Selective Focus applies to nouns",
+          "Selective Focus is always marked by [e], whereas Completive Focus requires [ma]"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Completive Focus introduces entirely new material, while Selective Focus chooses from given options."
+      },
+      {
+        "question": "Based on the study, what is the current assumption regarding Focus marking in Dholuo?",
+        "options": [
+          "Focus is marked inconsistently and cannot be analyzed systematically",
+          "The primary Focus markers are [e], [ma], or their combination, but further research is needed to clarify their distribution",
+          "Only [ma] functions as a true Focus marker, while [e] is used for emphasis",
+          "Focus constructions always require the presence of both [e] and [ma]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The study notes that [e], [ma], or both are used for Focus, though their exact rules need more clarification."
+      }
+    ]
+  }
+  

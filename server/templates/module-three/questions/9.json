@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "According to Functional Grammar, how are the predications underlying linguistic expressions initially structured?",
+        "options": [
+          "They follow a strict word order from the start.",
+          "They are unordered and require rules to establish linear order.",
+          "They always begin with a verb.",
+          "They are structured based on English grammar principles."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Predications start as unordered structures and require expression rules to define word order."
+      },
+      {
+        "question": "What is the primary role of expression rules in Functional Grammar?",
+        "options": [
+          "To add more words to sentences.",
+          "To determine the meaning of words in isolation.",
+          "To establish the linear order of constituents in a sentence.",
+          "To remove unnecessary words from a sentence."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Expression rules define how elements are ordered linearly in a sentence."
+      },
+      {
+        "question": "Which of the following is NOT one of the preferential tendencies in constituent ordering?",
+        "options": [
+          "Placing constituents with the same function in the same structural position.",
+          "Assigning special positions to certain categories of constituents.",
+          "Avoiding complex sentence structures entirely.",
+          "Ordering constituents from left to right based on increasing complexity."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Avoiding complex structures is not a tendency in Functional Grammar."
+      },
+      {
+        "question": "In Dholuo, what determines the placement of constituents within functional patterns?",
+        "options": [
+          "Syntactic functions",
+          "Semantic functions",
+          "Prepositions",
+          "Random selection"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Semantic functions guide the linear ordering of constituents in Dholuo."
+      },
+      {
+        "question": "What is the designated preverbal position for an alpha term in Dholuo?",
+        "options": [
+          "P1",
+          "V",
+          "A",
+          "Ø"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Position A (alpha) is reserved for terms with core roles and high discourse prominence."
+      },
+      {
+        "question": "Which constituent typically occupies the first postverbal position in Dholuo?",
+        "options": [
+          "The Theme",
+          "One of the non-alpha terms (Goal, Recipient, Beneficiary)",
+          "The Verb",
+          "The Tail"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Non-alpha terms often appear in the first postverbal slot after the verb."
+      },
+      {
+        "question": "Which of the following represents a common postverbal structure in Dholuo?",
+        "options": [
+          "V Rec Go",
+          "Rec V Go",
+          "Go V Rec",
+          "Ben Rec V"
+        ],
+        "correctAnswer": 0,
+        "explanation": "V Rec Go is a typical postverbal ordering of constituents."
+      },
+      {
+        "question": "What distinguishes the (Vø) type of predication in Dholuo?",
+        "options": [
+          "It includes both a Goal and a Locative.",
+          "It has no postverbal constituent with a semantic function.",
+          "It always ends with a Beneficiary.",
+          "It only appears in interrogative sentences."
+        ],
+        "correctAnswer": 1,
+        "explanation": "(Vø) predications consist solely of a verb, lacking postverbal SF-marked constituents."
+      },
+      {
+        "question": "Which of the following examples represents the (V Go Loc) structure?",
+        "options": [
+          "Ng'ato omiyo Atieno pesa mathoth",
+          "Jatedo otuono japidi chiemo",
+          "Mama oketo kuon e mesa",
+          "Ng'at cha paro chiege"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This sentence illustrates a verb followed by a Goal and a Locative element."
+      },
+      {
+        "question": "In an extended predication, what happens if an X-constituent (e.g., Beneficiary) is placed after the binding constituent?",
+        "options": [
+          "The sentence structure remains correct.",
+          "The sentence becomes ungrammatical.",
+          "The X-constituent must always appear before the verb.",
+          "The meaning of the sentence changes completely."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Extended predications allow for flexible placement of X-constituents post-binding."
+      }
+    ]
+  }
+  

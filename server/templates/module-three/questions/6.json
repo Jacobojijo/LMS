@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "According to the expression rules in FG, which linguistic feature is not explicitly accounted for?",
+        "options": [
+          "The form of terms, including cases and adpositions",
+          "The structure of syllables in Dholuo",
+          "The order of elements in a sentence",
+          "The use of stress and intonation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Expression rules in FG focus on syntactic and morphological elements, not phonological ones like syllable structure."
+      },
+      {
+        "question": "What happens to the verb form in a Dholuo sentence when an incomplete predication occurs?",
+        "options": [
+          "It takes a passive form",
+          "It remains unchanged",
+          "It moves to the end of the sentence",
+          "It takes an auxiliary verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Incomplete predication results in the passive form of the verb being used."
+      },
+      {
+        "question": "In the sentence \"oneg diel\", what grammatical feature is being demonstrated?",
+        "options": [
+          "Active voice",
+          "The use of an auxiliary verb",
+          "Passive voice",
+          "The preverbal positioning of terms"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The verb 'oneg' shows a passive construction with 'diel' (goat) as the subject."
+      },
+      {
+        "question": "What is the main factor determining whether a passive or active verb form is used in Dholuo?",
+        "options": [
+          "The presence of a pragmatic function",
+          "The structure of the sentence",
+          "Whether the predication has an alpha term",
+          "The use of prepositions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "An alpha term (the primary participant) in predication determines verb voice selection."
+      },
+      {
+        "question": "Which of the following correctly illustrates an active verb form?",
+        "options": [
+          "Oneg diel",
+          "Ng'ato nego diel",
+          "Wendo wanego-ne diel",
+          "Yo sikul ema Atieno"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ng'ato nego diel' uses an active verb ('nego') with an explicit subject and object."
+      },
+      {
+        "question": "If a term is placed in the preverbal position due to a pragmatic function, what happens to the verbal predicate?",
+        "options": [
+          "The verb takes a passive form",
+          "The verb gains an affix marking the prepositional SF of the term",
+          "The verb changes to an imperative form",
+          "The verb remains unchanged"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Preverbal pragmatic terms affect the verb by causing it to incorporate affixes indicating the semantic function."
+      },
+      {
+        "question": "In the sentence \"Wendo wanego-ne diel\", which grammatical function causes the change in the verb form?",
+        "options": [
+          "The use of an auxiliary verb",
+          "The presence of a pragmatic function",
+          "The use of an object pronoun",
+          "The omission of the subject"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The pragmatic function of the preverbal element 'Wendo' triggers a verb modification."
+      },
+      {
+        "question": "Why do some semantic functions (SFs), such as Goal, have zero prepositional marking?",
+        "options": [
+          "To simplify the grammar rules",
+          "To avoid inconsistencies in the general expression rules",
+          "Because Dholuo does not allow prepositions",
+          "Because they do not affect the sentence meaning"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Zero marking ensures consistency in how semantic functions are expressed across different contexts."
+      },
+      {
+        "question": "What is the purpose of expression rules in FG?",
+        "options": [
+          "To dictate the exact translation of words",
+          "To determine the surface realization of linguistic elements",
+          "To create new vocabulary in Dholuo",
+          "To define the phonetic structure of words"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Expression rules help specify how abstract functions and roles are realized in actual speech or writing."
+      },
+      {
+        "question": "Which of the following is not a function of expression rules in Functional Grammar?",
+        "options": [
+          "Determining stress and intonation",
+          "Regulating word order",
+          "Defining predicate realization",
+          "Assigning grammatical cases to words"
+        ],
+        "correctAnswer": 3,
+        "explanation": "FG expression rules deal more with syntactic realization than with assigning grammatical cases explicitly."
+      }
+    ]
+  }
+  

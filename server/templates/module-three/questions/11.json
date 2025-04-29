@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What position is explicitly avoided for the time adverb in Dholuo?",
+        "options": [
+          "Between the subject and verb",
+          "At the end of the sentence",
+          "Between the verb and object",
+          "Before the subject"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dholuo avoids placing time adverbs between the verb and the object."
+      },
+      {
+        "question": "In the sentence “Otieno nyalo loso kom kawuono ne min,” what can be said about the positioning of the TA [kawuono]?",
+        "options": [
+          "It is highly marked but acceptable.",
+          "It is completely ill-formed.",
+          "It is the most natural placement.",
+          "It is only acceptable in informal speech."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The placement of the TA here is marked but still within acceptable grammatical bounds."
+      },
+      {
+        "question": "Which of the following sentences is completely ill-formed due to incorrect TA placement?",
+        "options": [
+          "Otieno loso kom kawuono ne min gi spana e skul.",
+          "Otieno Ioso kawuono kom ne min gi spana e skul.",
+          "Otieno loso kom ne min gi spana kawuono e skul.",
+          "Otieno kawuono loso kom ne min gi spana e skul."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Placing the TA between the auxiliary and the verb results in an ill-formed sentence."
+      },
+      {
+        "question": "Why is sentence (f) “Otieno nyalo kawuono loso kom ne min” ill-formed?",
+        "options": [
+          "The TA [kawuono] is placed incorrectly between the modal auxiliary and the verb.",
+          "The TA is missing a focus marker.",
+          "The TA should always be placed at the beginning of the sentence.",
+          "The sentence lacks a direct object."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Placing a TA between a modal auxiliary and main verb is ungrammatical in Dholuo."
+      },
+      {
+        "question": "What position is the TA [kawuono] occupying in the sentence “Kawuono Otieno nyalo loso kom ne min”?",
+        "options": [
+          "Object position",
+          "Focus position",
+          "Pre-initial (PI) position",
+          "Post-verbal position"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The TA is in a pre-initial position before the subject, functioning as a topical element."
+      },
+      {
+        "question": "Why is sentence (a) “Otieno loso kom ne min gi spana e skul kawuono” considered highly acceptable?",
+        "options": [
+          "The TA [kawuono] is placed at the beginning, giving it prominence.",
+          "All term constituents are in their expected order.",
+          "The sentence follows a strict Subject-Object-Verb (SOV) order.",
+          "The modal auxiliary governs the placement of the TA."
+        ],
+        "correctAnswer": 1,
+        "explanation": "This sentence is well-formed as it maintains expected word order, including correct placement of the TA."
+      },
+      {
+        "question": "In the response to the question “To kawuono?” which sentence structure is most appropriate?",
+        "options": [
+          "Otieno loso kom ne min gi spana e skul kawuono.",
+          "Kawuono Otieno loso kom ne min gi spana e skul.",
+          "Otieno Ioso kom kawuono ne min gi spana e skul.",
+          "Otieno loso kawuono kom ne min gi spana e skul."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Pre-initial placement of the TA reflects topic-comment structure, which is appropriate as a response."
+      },
+      {
+        "question": "What is the possible structural explanation for the TA in sentence (e) “Otieno Ioso kom ne min gi spana e skul kawuono”?",
+        "options": [
+          "It occupies a pre-initial (PI) position as a topic marker.",
+          "It is a free element without structural commitment.",
+          "It is an example of nuclearization.",
+          "Any of the above could be correct."
+        ],
+        "correctAnswer": 3,
+        "explanation": "The placement allows for multiple interpretations including nuclearization and topic marking."
+      },
+      {
+        "question": "Which of the following best describes the markedness of sentence (g) “Kawuono Otieno loso kom ne min gi spana e skul”?",
+        "options": [
+          "It is highly marked and unacceptable.",
+          "It is highly acceptable due to topic assignment.",
+          "It is ill-formed because it lacks a modal auxiliary.",
+          "It violates the basic word order of Dholuo."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Though marked, this sentence is acceptable as it uses pre-initial positioning for emphasis."
+      },
+      {
+        "question": "Which sentence structure is considered the most marked to be ill but still acceptable?",
+        "options": [
+          "Otieno nyalo loso kom ne min kawuono.",
+          "Otieno loso kom kawuono ne min gi spana e skul.",
+          "Otieno nyalo loso kawuono kom ne min.",
+          "Otieno loso kawuono kom ne min gi spana e skul."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Though unusual, this structure doesn't violate grammatical rules, making it marked but acceptable."
+      }
+    ]
+  }
+  

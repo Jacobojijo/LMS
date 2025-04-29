@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In Dholuo, where can the negative morpheme [ok] be positioned in a sentence?",
+        "options": [
+          "Anywhere in the sentence",
+          "Only before the verb",
+          "Immediately before or after the sentence-initial constituent",
+          "At the end of the sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "[Ok] is flexible but must appear immediately before or after the sentence-initial constituent."
+      },
+      {
+        "question": "Which of the following sentences correctly follows the positioning rules of [ok]?",
+        "options": [
+          "Ng'at ni nyal ok ketho gira kamano",
+          "Ng'at ni nyal ketho gira kamano ok",
+          "Ng'at ni ok nyal ketho gira kamano",
+          "Ng'at ni nyal ketho ok gira kamano"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The correct positioning of [ok] is after the sentence-initial alpha term but before the auxiliary verb."
+      },
+      {
+        "question": "What happens to 'ok' when there is no alpha term in the sentence?",
+        "options": [
+          "It follows the verb",
+          "It appears before the verb in all cases",
+          "It appears after the subject",
+          "It becomes optional"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Without an alpha term, [ok] appears directly before the verb to maintain grammaticality."
+      },
+      {
+        "question": "In predications without an alpha term, where must [ok] be placed?",
+        "options": [
+          "Before the first noun",
+          "Before the verb",
+          "At the end of the sentence",
+          "After the verb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the absence of an alpha term, [ok] must precede the verb."
+      },
+      {
+        "question": "Which of the following sentences demonstrates correct positioning of [ok] in a structure without an alpha term?",
+        "options": [
+          "Okel ok ne japidi nanga",
+          "*Okel ne japidi nanga ok",
+          "*Okel ne ok japidi nanga",
+          "Ok okel ne japidi nanga"
+        ],
+        "correctAnswer": 3,
+        "explanation": "'Ok okel ne japidi nanga' places [ok] correctly before the verb when no alpha term is present."
+      },
+      {
+        "question": "If a sentence contains an auxiliary verb like [bi(ro)] 'to come' as a future marker, how should [ok] be positioned?",
+        "options": [
+          "Immediately before the auxiliary verb",
+          "Immediately after the auxiliary verb",
+          "At the end of the sentence",
+          "Between the auxiliary and the main verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Ok] should precede the auxiliary verb [bi(ro)] to correctly mark negation."
+      },
+      {
+        "question": "Which of the following sentences correctly places [ok] when the future auxiliary verb [bi(ro)] is present?",
+        "options": [
+          "*Bi ok neg diel ne welo",
+          "Ok bi neg diel ne welo",
+          "*Diel bi ok neg ne welo",
+          "*Neg ok bi diel ne welo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ok bi neg diel ne welo' shows the proper placement of [ok] before the auxiliary [bi]."
+      },
+      {
+        "question": "How does the presence of a Time Adverb (TA) affect the placement of [ok]?",
+        "options": [
+          "[Ok] must always come before the Time Adverb",
+          "[Ok] may come before or after the Time Adverb, depending on the sentence structure",
+          "[Ok] must always be at the end of the sentence",
+          "[Ok] cannot be used with a Time Adverb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[Ok] placement can vary relative to the Time Adverb depending on the sentence configuration."
+      },
+      {
+        "question": "Which of the following sentences correctly positions [ok] with respect to the Time Adverb (TA)?",
+        "options": [
+          "Ok kawuono Otieno bi neno sinema",
+          "*Otieno ok kawuono bi neno sinema",
+          "*Otieno kawuono bi ok neno sinema",
+          "*Kawuono Otieno bi ok neno sinema"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Ok kawuono Otieno bi neno sinema' correctly places [ok] before the TA and the subject."
+      },
+      {
+        "question": "What is the primary rule governing the placement of [ok] in Dholuo sentences?",
+        "options": [
+          "[Ok] must always be at the beginning of the sentence",
+          "[Ok] must always follow a noun",
+          "[Ok] must be placed immediately before the verb in the absence of an alpha term",
+          "[Ok] can be placed anywhere as long as the meaning is clear"
+        ],
+        "correctAnswer": 2,
+        "explanation": "When there's no alpha term, [ok] must immediately precede the verb to function correctly."
+      }
+    ]
+  }
+  

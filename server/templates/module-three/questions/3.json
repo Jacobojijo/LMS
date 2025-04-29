@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "According to Functional Grammar, what is the role of a Theme in a sentence?",
+        "options": [
+          "To introduce a predication by specifying the universe of discourse",
+          "To conclude a statement with additional information",
+          "To emphasize the verb of the predication",
+          "To replace the subject of the sentence"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Theme sets up the context by introducing the universe of discourse for the predication."
+      },
+      {
+        "question": "Which of the following Dholuo utterances contains a Theme function?",
+        "options": [
+          "\"Ohero koko, en\"",
+          "\"Macha e japuonj, ma wiye oyugno cha\"",
+          "\"Nyako ma biro no en osiepni?\"",
+          "\"Ok adware, wiiye duong' no\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The utterance 'Nyako ma biro no en osiepni?' introduces the theme before the predication."
+      },
+      {
+        "question": "In the example \"Joluo, gin gikia ohala,\" what function does \"Joluo\" serve?",
+        "options": [
+          "Alpha term",
+          "Tail",
+          "Verb phrase",
+          "Theme"
+        ],
+        "correctAnswer": 3,
+        "explanation": "\"Joluo\" introduces the discourse, functioning as the Theme."
+      },
+      {
+        "question": "Which of the following best describes the function of a Tail in Dholuo grammar?",
+        "options": [
+          "It modifies the verb to indicate tense and aspect",
+          "It is an afterthought that provides additional information to a completed predication",
+          "It must always follow a Theme in a sentence",
+          "It replaces the subject to avoid repetition"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Tail provides additional or clarifying information after the main predication."
+      },
+      {
+        "question": "Which of the following statements about Theme and Tail functions in Dholuo is TRUE?",
+        "options": [
+          "A sentence can contain both a Theme and a Tail",
+          "A Tail must always appear before the predication",
+          "A Theme and a Tail must appear in the same sentence",
+          "A Tail must always be preceded by a pause"
+        ],
+        "correctAnswer": 0,
+        "explanation": "It is possible for a Dholuo sentence to include both a Theme and a Tail."
+      },
+      {
+        "question": "Which of the following sentences contains a Tail function?",
+        "options": [
+          "\"Wan, wan jo mohero somo\"",
+          "\"Oloo, en oonge gi weche mathoth\"",
+          "\"Oonge paro, jakong’o no\"",
+          "\"Nyako ma biro no en osiepni?\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The phrase 'jakong’o no' functions as a Tail, providing additional detail."
+      },
+      {
+        "question": "What is the primary difference between a Theme and a Tail in Dholuo?",
+        "options": [
+          "A Theme introduces the discourse, while a Tail adds information after the predication",
+          "A Theme follows the verb, while a Tail precedes the verb",
+          "A Theme can appear anywhere in a sentence, while a Tail is always at the beginning",
+          "A Tail only occurs in interrogative sentences, while a Theme occurs in declarative ones"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A Theme introduces the sentence's context; a Tail follows and adds to the predication."
+      },
+      {
+        "question": "Which of the following sentences demonstrates the use of a Tail that requires a pause?",
+        "options": [
+          "\"Ohero koko, en\"",
+          "\"Macha e japuonj, ma wiye oyugno cha\"",
+          "\"In, in jakuo\"",
+          "\"Kik isud buta, in\""
+        ],
+        "correctAnswer": 1,
+        "explanation": "The clause 'ma wiye oyugno cha' is an inserted Tail after a pause, giving extra detail."
+      },
+      {
+        "question": "What does the sentence \"Macha, ma wiye oyugno cha, e japuonj\" demonstrate about Tail function?",
+        "options": [
+          "A Tail can be inserted parenthetically within a predication",
+          "A Tail must always be positioned at the end of a sentence",
+          "A Theme must follow a Tail in all cases",
+          "A Tail is always introduced with a conjunction"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Tail 'ma wiye oyugno cha' is inserted parenthetically, demonstrating its flexible position."
+      },
+      {
+        "question": "Which of the following best explains the role of the demonstrative pronoun in the sentence \"Mano e maber, ma ok miya tich matek\"?",
+        "options": [
+          "It introduces the Theme of the sentence",
+          "It acts as the Tail, providing additional information about the subject",
+          "It replaces the verb to indicate the passive voice",
+          "It serves as the direct object of the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The demonstrative phrase 'ma ok miya tich matek' acts as a Tail providing further detail."
+      }
+    ]
+  }
+  

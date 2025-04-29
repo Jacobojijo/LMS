@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In Functional Grammar (FG), what is the purpose of the Subj function?",
+        "options": [
+          "To indicate tense and aspect in a sentence",
+          "To mark the entity from which the perspective of the predication is determined",
+          "To always occupy the preverbal position in all languages",
+          "To determine the number of arguments a verb can take"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Subj function marks the entity from whose perspective the predication is interpreted."
+      },
+      {
+        "question": "Why is the Obj function assigned in Functional Grammar?",
+        "options": [
+          "To introduce an additional verb in a sentence",
+          "To mark the main subject of a passive construction",
+          "To function as the second point of departure or vantage point",
+          "To replace an alpha function in predication"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In FG, the Obj function is used to indicate the second point of departure or vantage point within the sentence structure."
+      },
+      {
+        "question": "Which of the following best explains why Subj assignment is not necessary in Dholuo grammar?",
+        "options": [
+          "The language does not have active-passive transformations",
+          "The order of constituents can only be explained using semantic and pragmatic functions",
+          "There are no distinct subject-object markers in Dholuo",
+          "The verbal predicate always comes before all other terms"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Subj assignment is not necessary in Dholuo grammar because constituent order is best explained using semantic and pragmatic rather than syntactic functions."
+      },
+      {
+        "question": "Which of the following is TRUE regarding constituent order in Dholuo?",
+        "options": [
+          "The preverbal position 1 must always be occupied",
+          "Verbal predicates must always appear in post-verbal positions",
+          "The post-verbal position 2 is always occupied by the object",
+          "All non-alpha terms must appear before the verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, preverbal position 1 is consistently occupied, often by an alpha function like the Agent."
+      },
+      {
+        "question": "In which of the following Dholuo sentences is position 2 occupied by a Goal function?",
+        "options": [
+          "\"Otieno nindo\"",
+          "\"Otieno ochamo rech\"",
+          "\"Otieno miyo paka chak\"",
+          "\"Otieno ong'iewo nanga ne nyathine\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence 'Otieno miyo paka chak', 'chak' functions as a Goal in position 2."
+      },
+      {
+        "question": "Which of the following terms is NOT classified as an alpha function?",
+        "options": [
+          "Agent",
+          "Goal",
+          "Jatedo",
+          "Otieno"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Functional Grammar, Goal is not considered an alpha function; it is a satellite or non-core semantic role."
+      },
+      {
+        "question": "According to the study, which of the following sentences follows the standard constituent order in Dholuo?",
+        "options": [
+          "\"Otieno ong'iewo ne nyathine nanga\"",
+          "\"Otieno rech ochamo\"",
+          "\"Paka Otieno miyo chak\"",
+          "\"Otieno ong'iewo nanga\""
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Otieno ong'iewo ne nyathine nanga' follows the standard constituent order with alpha and non-alpha terms placed according to their semantic function."
+      },
+      {
+        "question": "What determines the position of non-alpha terms in a Dholuo sentence?",
+        "options": [
+          "The complexity of the verb",
+          "Their hierarchical order relative to Ben function",
+          "The presence of multiple verbal predicates",
+          "The number of alpha terms in the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The position of non-alpha terms in Dholuo is determined by their semantic-pragmatic hierarchy relative to the Ben function."
+      },
+      {
+        "question": "Which of the following observations about Dholuo constituent order is INCORRECT?",
+        "options": [
+          "An alpha term must always occupy the preverbal position",
+          "Non-alpha terms lower than Ben on the SFH cannot occupy position 2 if a higher-ranked term is present",
+          "The Obj function is crucial for understanding active-passive relationships",
+          "Semantic and pragmatic functions explain word order better than syntactic functions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Obj function is not crucial for explaining active-passive relationships in Dholuo; such structures are better explained by semantic and pragmatic roles."
+      },
+      {
+        "question": "Why is the notion of 'syntactic function' irrelevant to the description of Dholuo?",
+        "options": [
+          "Dholuo does not have subject-object agreement",
+          "Dholuo grammar is best explained through semantic functions rather than fixed syntactic roles",
+          "Functional Grammar does not apply to African languages",
+          "Dholuo lacks a clear distinction between verbs and nouns"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, syntactic functions are not primary; semantic and pragmatic roles offer a better explanation for grammatical structure."
+      }
+    ]
+  }
+  
