@@ -131,7 +131,7 @@ const Courses = () => {
           <span className="mr-1 relative">
             <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
           </span>
-          {windowWidth < 640 ? "REGISTER" : "SEPTEMBER INTAKE: REGISTER"}
+          {windowWidth < 640 ? "REGISTER" : "AUGUST INTAKE: REGISTER"}
         </a>
       );
     } else {
