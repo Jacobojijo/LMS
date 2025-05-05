@@ -1,0 +1,64 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the correct singular noun construct of \"puothe\" (gardens)?",
+        "options": ["puodh-", "puoth-", "puotho-", "puodhno-"],
+        "correctAnswer": 1,
+        "explanation": "The correct singular noun construct is formed by removing the final vowel from the plural noun \"puothe\"."
+      },
+      {
+        "question": "Which of the following plural noun constructs is an exception to the regular rule?",
+        "options": ["chiembe → chiembe-", "puothe → puothe-", "mon → mond-", "yor → yore-"],
+        "correctAnswer": 2,
+        "explanation": "\"mon → mond-\" is an exception to the regular plural noun construction rule."
+      },
+      {
+        "question": "Which demonstrative suffix correctly expresses \"that path (near)\"?",
+        "options": ["-cha", "-ni", "-no", "-ka"],
+        "correctAnswer": 2,
+        "explanation": "The suffix \"-no\" is used to express \"that (near)\" with nouns."
+      },
+      {
+        "question": "What is the singular noun construct for the word \"chiembe\" (foods)?",
+        "options": ["chiembo-", "chiemb-", "chiem-", "chiemebo-"],
+        "correctAnswer": 1,
+        "explanation": "The singular noun construct is formed by removing the final vowel from \"chiembe\" to get \"chiemb-\"."
+      },
+      {
+        "question": "The form \"od-\" in \"odni\" (this house) is an example of what?",
+        "options": ["Plural suffixing", "Demonstrative transformation", "Irregular singular noun construct", "Locative particle usage"],
+        "correctAnswer": 2,
+        "explanation": "\"od-\" is an irregular singular noun construct that doesn't follow the standard pattern."
+      },
+      {
+        "question": "What is the plural noun construct of \"udi\" (houses)?",
+        "options": ["ud-", "uthe-", "ute-", "odi-"],
+        "correctAnswer": 2,
+        "explanation": "The plural noun construct of \"udi\" (houses) is \"ute-\"."
+      },
+      {
+        "question": "Which suffix combination correctly produces \"those paths (far)\" from \"yor\"?",
+        "options": ["yorecha", "yorego", "yoregi", "yoreka"],
+        "correctAnswer": 3,
+        "explanation": "The suffix \"-ka\" is used to express \"those (far)\" with the noun \"yor\" (path)."
+      },
+      {
+        "question": "According to the formation rule, what are the steps to derive the singular noun construct from a regular plural noun?",
+        "options": ["Add a suffix to the singular noun", "Double the final consonant of the plural noun", "Remove the final vowel from the plural noun", "Reverse the plural form"],
+        "correctAnswer": 2,
+        "explanation": "To derive the singular noun construct from a regular plural noun, you remove the final vowel."
+      },
+      {
+        "question": "\"Chiemb\" is often seen in compound words. What memory trick supports this?",
+        "options": ["It's used in royalty names", "It forms idioms involving animals", "It's the base word for landforms", "It's the food root used in many compound words"],
+        "correctAnswer": 3,
+        "explanation": "\"Chiemb-\" is the food root used in many compound words, which serves as a memory aid."
+      },
+      {
+        "question": "Why is \"chi-\" the noun construct for \"dhako\" (woman)?",
+        "options": ["It's a diminutive transformation", "It's an example of root borrowing", "It is a shortened possessive prefix", "It is an irregular noun construct"],
+        "correctAnswer": 3,
+        "explanation": "\"chi-\" is an irregular noun construct for \"dhako\" (woman) that doesn't follow standard patterns."
+      }
+    ]
+  }
