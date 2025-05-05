@@ -1,0 +1,409 @@
+{
+    "title": "Dholuo Simple Sentence Structures and Basic Grammar Assessment",
+    "description": "This CAT evaluates knowledge of Dholuo nouns, pronouns, and adjectives.",
+    "duration": 60,
+    "passingScore": 50,
+    "maxAttempts": 3,
+    "questions": [
+      {
+        "question": "[Nouns Part 01] Which of the following regions is associated with older, more conservative Dholuo vocabulary such as Gonyo, Ndalo, and Olihu?",
+        "options": [
+          "Seme, Uyoma, Asembo, Sakwa",
+          "Karachuonyo, Kabondo, Rusinga, Kadem",
+          "Alego, Yimbo, Ugenya, Usonga",
+          "Kisumu, Nyakach, Kano, Gem"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 01] What is the correct feminine provenance term for a woman from Asembo?",
+        "options": [
+          "Nyar Uyoma",
+          "Nyar Asembo",
+          "Ja Asembo",
+          "Jo Asembo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Nouns Part 01] Identify the pair in which both Dholuo nouns are classified as impersonal.",
+        "options": [
+          "Nyathi, Okil",
+          "Japuonj, Nyamburko",
+          "Koth, Pii",
+          "Japuonjre, Mesa"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 01] In Dholuo, what does the prefix \"Jo-\" signify when used in a noun like Jo Ugenya?",
+        "options": [
+          "A singular person from Ugenya",
+          "A woman from Ugenya",
+          "A group or people from Ugenya",
+          "An ancestral name"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 01] Which set best reflects external, visible parts of the body in Dholuo?",
+        "options": [
+          "Ombich, Obuongo, Chuny",
+          "Wich, Wang', Iit",
+          "Remo, Ler, Chogo",
+          "Adundo, Nyarogno, Oboo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Nouns Part 01] What is the correct Dholuo translation of \"The sun rises from the East\"?",
+        "options": [
+          "Yamo dhi yor Nyandwat",
+          "Chieng' wuok yor Ugwe",
+          "Kawuono chieng' owuok",
+          "Chieng' podho yor Yimbo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Nouns Part 01] In Dholuo, which of the following terms is associated with abstract concepts rather than physical objects?",
+        "options": [
+          "Lwedo",
+          "Mesa",
+          "Hera",
+          "Nyamburko"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 01] Which directional expression correctly shows movement toward the South in Dholuo?",
+        "options": [
+          "Yor Ugwe",
+          "Yor Milambo",
+          "Yor Masawa",
+          "Yor Yimbo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Nouns Part 02] Which of the following pairs both represent abstract nouns in Dholuo?",
+        "options": [
+          "Guok, Ratiro",
+          "Hera, Teko",
+          "Kom, Muolo",
+          "Nyathii, Kuyo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Nouns Part 02] What is the plural form of the Dholuo word Apuoyo (rabbit), according to its noun class pattern?",
+        "options": [
+          "Apuonyo",
+          "Apuoji",
+          "Apuoche",
+          "Apuoyoni"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 02] Which of the following animals is classified as a wild animal and not a domestic or poultry animal in Dholuo?",
+        "options": [
+          "Gueno",
+          "Kwach",
+          "Diel",
+          "Thuon"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Nouns Part 02] The noun Ogwal (frog) belongs to which pluralization class based on suffix patterns?",
+        "options": [
+          "-mbe",
+          "-che",
+          "-nde",
+          "-je"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 02] Which of the following traditional Dholuo vegetables is noted for having mild toxicity and thus requires caution when cooking?",
+        "options": [
+          "Susa",
+          "It Nyanya",
+          "Boo",
+          "Akeyo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Nouns Part 02] Which set correctly lists nouns that would follow the Ja → Jo pluralization pattern in Dholuo?",
+        "options": [
+          "Jagam, Japuonj, Jakom",
+          "Jakom, Kom, Guok",
+          "Jagam, Jajuok, Jopuonj",
+          "Japuonj, Osiep, Otenga"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 02] According to Dholuo noun pluralization, what is the correct plural form of Chogo (bone)?",
+        "options": [
+          "Chogi",
+          "Chogni",
+          "Choke",
+          "Chogche"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Nouns Part 02] Which Luo traditional dish is made from smoked or sun-dried beef and is known for requiring no refrigeration?",
+        "options": [
+          "Mor Alenya",
+          "Aliya",
+          "Kamongo",
+          "Dek"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Pronouns Part 01] Which Dholuo demonstrative pronoun specifically indicates an object located far from both the speaker and listener?",
+        "options": [
+          "Ma",
+          "Mano",
+          "Macha",
+          "Magi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] In the sentence \"Ng'ato ka ng'ato biro chiemo\", what linguistic feature is emphasized?",
+        "options": [
+          "Inclusive pronoun use",
+          "Random object selection",
+          "Distributive individuality",
+          "Emphatic ownership"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] What is the correct plural demonstrative pronoun for referring to items near the listener?",
+        "options": [
+          "Magi",
+          "Maka",
+          "Mago",
+          "Mano"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] Which of the following uses a possessive suffix exclusive to second person plural?",
+        "options": [
+          "Nyathi-ni",
+          "Nyathi-u",
+          "Nyathi-wa",
+          "Nyathi-gi"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Pronouns Part 01] What is the meaning of the expression \"Chiemo duto tee ne ocham!\"?",
+        "options": [
+          "He ate some food",
+          "Everyone brought food",
+          "All the food was eaten, absolutely",
+          "Nothing was left on the plate"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] Which form correctly translates \"their garden\" in Dholuo using the 'mar' construction?",
+        "options": [
+          "Maru",
+          "Mare",
+          "Mara",
+          "Margi"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "[Pronouns Part 01] In which example is the demonstrative combined with a possessive pronoun?",
+        "options": [
+          "Macha e jakwath",
+          "Ma ang'o?",
+          "Man en kom-a",
+          "Magi gin yawuoi"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] Which interrogative pronoun would best fit in the sentence: \"_____ dhi dala?\" (____ is going home?)",
+        "options": [
+          "Karang'o",
+          "Nang'o",
+          "Ng'ano",
+          "Ang'o"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] What is the correct translation of \"Yawoni\" based on the section on specific demonstrative nouns?",
+        "options": [
+          "This fighter",
+          "This pond",
+          "That tree",
+          "That place"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Pronouns Part 01] Which personal pronoun is correctly matched with its plural English equivalent?",
+        "options": [
+          "In → They",
+          "Gin → You (plural)",
+          "Wan → We",
+          "Un → They"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] How would one express \"Adhiambo's child\" using proper possessive grammar?",
+        "options": [
+          "Nyathi mara",
+          "Nyathi mar Adhiambo",
+          "Nyathi mare Adhiambo",
+          "Nyathi Adhiambo-ni"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Pronouns Part 01] Which of the following best exemplifies the distributive use for things?",
+        "options": [
+          "Gimoro",
+          "Moro a mora",
+          "Moro ka moro",
+          "Gimoro amora"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 01] Which example demonstrates an emphatic subject pronoun?",
+        "options": [
+          "An dhi dala",
+          "Dhi dala",
+          "An abiro",
+          "Abiro"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 02] Which of the following Dholuo interrogatives would be most appropriate when asking about the cause of an event rather than the manner of it?",
+        "options": [
+          "Nade",
+          "Karang'o",
+          "Nang'o",
+          "Ng'ano"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 02] In Dholuo, how would you form a tag question that conveys polite doubt after saying \"You're going\"?",
+        "options": [
+          "Idhi nade?",
+          "Be idhi?",
+          "Bende idhi, koso?",
+          "Idhi karang'o?"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 02] Which of the following transformations is incorrect when forming the genitive (possessive) form?",
+        "options": [
+          "Diel → Diend",
+          "Kidi → Kit",
+          "Got → God",
+          "Nyathi → Nyathia"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "[Pronouns Part 02] What is the plural possessive form for \"our lands\" in Dholuo?",
+        "options": [
+          "Lopewa",
+          "Lopwa",
+          "Lopegi",
+          "Lopena"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "[Pronouns Part 02] Which phrase best demonstrates an interrogative used to inquire about time of occurrence?",
+        "options": [
+          "Gin ji adi?",
+          "Ibiro karang'o?",
+          "Kom ni kanye?",
+          "Idhi nade?"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Pronouns Part 02] In Dholuo noun declension, which grammatical case is the only one that results in morphological changes to the noun?",
+        "options": [
+          "Nominative",
+          "Dative",
+          "Genitive",
+          "Accusative"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Pronouns Part 02] Which of the following noun-to-possessive transformations shows both root change and suffix addition?",
+        "options": [
+          "Kom → Kome",
+          "Ot → Oda",
+          "Buk → Bug",
+          "Nyathi → Nyathina"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Adjectives] Which adjective type in Dholuo would the phrase \"whose chair?\" fall under?",
+        "options": [
+          "Possessive",
+          "Demonstrative",
+          "Interrogative",
+          "Comparative"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Adjectives] What is the most likely explanation for the genitive transformation \"Oboke\" → \"Obok\"?",
+        "options": [
+          "Addition of plural suffix",
+          "Simplification of vowel-heavy endings",
+          "Stress accent on first syllable",
+          "Prefix change to show indirect object"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "[Adjectives] Which of the following best represents a consonant-based genitive transformation?",
+        "options": [
+          "Puodho → Puotha",
+          "Pala → Panda",
+          "Lowo → Lop",
+          "Lak → Lak"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "[Adjectives] Which sentence demonstrates an advanced interrogative structure that involves possibility or capability?",
+        "options": [
+          "Ng'ano ma oyie?",
+          "Ng'ato ang'ata nyalo bedo jaloyo?",
+          "Mara ang'o ok ne ibiro?",
+          "Ibiro karang'o?"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }

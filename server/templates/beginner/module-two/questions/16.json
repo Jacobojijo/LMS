@@ -1,0 +1,65 @@
+{
+    "quantifierQuestions": [
+      {
+        "question": "Which phrase refers to each individual thing being considered separately in Dholuo?",
+        "options": ["Moro ka moro", "Ng’ato ang’ata", "Duto tee", "Moro a mora"],
+        "correctAnswer": 0,
+        "explanation": "'Moro ka moro' means 'each and every (thing/person)' considered separately."
+      },
+      {
+        "question": "How would you say in Dholuo, \"Each person will eat\"?",
+        "options": ["Ng’ato ka ng’ato biro chiemo", "Ng’ato ang’ata biro chiemo", "Moro ka moro biro chiemo", "Duto tee biro chiemo"],
+        "correctAnswer": 0,
+        "explanation": "'Ng’ato ka ng’ato' emphasizes each person individually will eat."
+      },
+      {
+        "question": "Which of the following translates to: \"Anyone can go out\"?",
+        "options": ["Ng’ato ang’ata nyalo wuok", "Moro a mora nyalo wuok", "Ng’ato ka ng’ato nyalo wuok", "Ng’ato ang’ata nyalo chiemo"],
+        "correctAnswer": 0,
+        "explanation": "'Ng’ato ang’ata' means 'anyone' or 'any person' in an indefinite sense."
+      },
+      {
+        "question": "In Dholuo, which phrase would you use to say: \"Choose any one thing\"?",
+        "options": ["Gimoro", "Moro ka moro", "Gimoro amora", "Moro a mora"],
+        "correctAnswer": 3,
+        "explanation": "'Moro a mora' translates to 'any one (thing)' as a random option."
+      },
+      {
+        "question": "What is the meaning of “Duto tee”?",
+        "options": ["All things with no emphasis", "Absolutely all things, emphasized", "Every individual person", "Something unknown"],
+        "correctAnswer": 1,
+        "explanation": "'Duto tee' emphasizes completeness — absolutely everything or everyone."
+      },
+      {
+        "question": "How do you say in Dholuo, “Anything could be found there”?",
+        "options": ["Gimoro amora inyalo yudo kanyo", "Gimoro ne oyudo kanyo", "Gimoro a mora inyalo yudo kanyo", "Gimoro amora nyalo yudo kanyo"],
+        "correctAnswer": 0,
+        "explanation": "'Gimoro amora' translates as 'anything whatsoever'."
+      },
+      {
+        "question": "Which phrase would be used to express the idea of “All their relatives will come”?",
+        "options": ["Jowetegi duto biro", "Jowetegi duto tee biro", "Chiemo duto tee biro", "Ng’ato ka ng’ato biro"],
+        "correctAnswer": 1,
+        "explanation": "'Duto tee' adds emphasis — all of them without exception."
+      },
+      {
+        "question": "If you are referring to any random item in Dholuo, which phrase would you use?",
+        "options": ["Moro ka moro", "Moro a mora", "Gimoro amora", "Ng’ato ang’ata"],
+        "correctAnswer": 1,
+        "explanation": "'Moro a mora' refers to any one thing — unspecific or random."
+      },
+      {
+        "question": "In Dholuo, how would you refer to \"each person separately\"?",
+        "options": ["Ng’ato ang’ata", "Ng’ato ka ng’ato", "Duto tee", "Moro a mora"],
+        "correctAnswer": 1,
+        "explanation": "'Ng’ato ka ng’ato' emphasizes individual separation of people."
+      },
+      {
+        "question": "What would you say in Dholuo for “Something was found at the door”?",
+        "options": ["Gimoro ne oyud e dhoot", "Gimoro amora ne oyud e dhoot", "Moro a mora ne oyud e dhoot", "Ng’ato ka ng’ato ne oyud e dhoot"],
+        "correctAnswer": 0,
+        "explanation": "'Gimoro' is the correct indefinite noun for 'something'."
+      }
+    ]
+  }
+  

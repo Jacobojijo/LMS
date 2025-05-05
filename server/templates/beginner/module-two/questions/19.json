@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following correctly explains the behavior of Dholuo nouns in the accusative case?",
+        "options": [
+          "They always end in vowels",
+          "They require a suffix to show object function",
+          "They remain in their original form",
+          "They adopt genitive suffixes"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In Dholuo, nouns in the accusative case generally retain their original form and are not marked with special suffixes."
+      },
+      {
+        "question": "What is the most distinguishing grammatical feature of the Dholuo genitive case?",
+        "options": [
+          "It adds a prefix to every noun",
+          "It changes the form or ending of the noun to a consonant",
+          "It uses tone only, not spelling",
+          "It doubles the last vowel of the noun"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo genitive case often involves altering the noun form to end in a consonant."
+      },
+      {
+        "question": "Identify the pair that shows the correct genitive transformation:",
+        "options": [
+          "Kom → Koma",
+          "Buk → Bug",
+          "Kidi → Kide",
+          "Lum → Lumu"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The noun 'Buk' becomes 'Bug' in the genitive case, following the rule of final consonant alteration."
+      },
+      {
+        "question": "Which noun remains unchanged in spelling but is modified in pronunciation in the genitive case?",
+        "options": [
+          "Got",
+          "Um",
+          "Lak",
+          "Buk"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Lak' retains its spelling in the genitive case but undergoes a pronunciation shift, a feature common in tonal languages."
+      },
+      {
+        "question": "Which of the following is NOT a correct genitive transformation based on Dholuo rules?",
+        "options": [
+          "Lowo → Lop",
+          "Diel → Diend",
+          "Got → God",
+          "Lum → Lumo"
+        ],
+        "correctAnswer": 3,
+        "explanation": "'Lum → Lumo' does not follow the standard genitive transformation rules in Dholuo and is incorrect."
+      },
+      {
+        "question": "What is the genitive form of the noun “Kidi” (stone)?",
+        "options": [
+          "Kidu",
+          "Kita",
+          "Kit",
+          "Kide"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the genitive case, 'Kidi' becomes 'Kit' as it drops the vowel and ends in a consonant."
+      },
+      {
+        "question": "Why is the genitive case particularly important for learners of Dholuo grammar?",
+        "options": [
+          "It is the only case used in questions",
+          "It involves tonal variations and extensive suffixing",
+          "It is the only case where nouns change form",
+          "It completely replaces noun stems"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The genitive case is unique in that it requires noun form changes, which is crucial for learners to understand possessive relationships."
+      },
+      {
+        "question": "In the genitive case, the Dholuo noun “Oboke” becomes:",
+        "options": [
+          "Obok",
+          "Obokie",
+          "Oboka",
+          "Oboku"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Oboke' becomes 'Obok' in the genitive case by dropping the final syllable and ending in a consonant."
+      },
+      {
+        "question": "Which of the following statements best reflects a general rule about genitive case endings in Dholuo?",
+        "options": [
+          "They usually end in a vowel",
+          "They typically include a doubled vowel",
+          "They usually end in a consonant",
+          "They include the suffix “-ni”"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Genitive forms in Dholuo commonly end in consonants as part of the morphological transformation."
+      },
+      {
+        "question": "How does the noun “Kom” (chair) behave in the genitive case?",
+        "options": [
+          "It changes completely to Kombo",
+          "It remains Kom with a tonal shift",
+          "It takes the suffix -ni",
+          "It becomes Kome"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the genitive case, 'Kom' remains spelled the same but undergoes a tonal modification to indicate possession."
+      }
+    ]
+  }
+  

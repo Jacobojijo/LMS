@@ -1,0 +1,80 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In Dholuo, which term correctly refers to the 'eye' in a literal anatomical sense?",
+        "options": ["Wang’", "Tong’ wang’", "Yier", "Um"],
+        "correctAnswer": 1,
+        "explanation": "'Tong’ wang’' means the eyeball or literal anatomical eye, while 'Wang’' can also be used metaphorically."
+      },
+      {
+        "question": "In Dholuo grammar, how are most external body parts treated in terms of countability?",
+        "options": [
+          "Always uncountable nouns",
+          "Uncountable except in idiomatic use",
+          "Always countable nouns",
+          "Only plural in possessive forms"
+        ],
+        "correctAnswer": 2,
+        "explanation": "External body parts like arms, legs, and eyes are countable in Dholuo grammar."
+      },
+      {
+        "question": "Which Dholuo word would correctly be used to refer to 'lungs' in a medical context?",
+        "options": ["Oboo", "Ombich", "Chuny", "Ler"],
+        "correctAnswer": 0,
+        "explanation": "'Oboo' is the correct anatomical term for lungs in Dholuo."
+      },
+      {
+        "question": "What is the Dholuo word for 'blood,' and how is it generally treated grammatically?",
+        "options": [
+          "Remo; treated as countable",
+          "Remo; treated as uncountable",
+          "Ler; treated as countable",
+          "Chogo; treated as collective"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Remo' means 'blood' and is treated as an uncountable noun in Dholuo."
+      },
+      {
+        "question": "Identify the correct Dholuo possessive form for 'my hand.'",
+        "options": ["Lwete", "Lweta", "Lweti", "Lwedo"],
+        "correctAnswer": 1,
+        "explanation": "'Lweta' is the possessive form of 'luwe' (hand) meaning 'my hand'."
+      },
+      {
+        "question": "In Dholuo sentence structure, why is it incorrect to say 'She broke the arm' without a possessive marker?",
+        "options": [
+          "Because Dholuo never uses definite articles.",
+          "Because possessive markers are mandatory to indicate ownership of body parts.",
+          "Because articles are used only for external body parts.",
+          "Because verbs must agree in gender."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, body parts are typically expressed with possessive markers to show whose body part is referred to."
+      },
+      {
+        "question": "What is the Dholuo word for 'shoulder,' a body part often used metaphorically for carrying responsibilities?",
+        "options": ["Gok", "Agok", "Ng’ut", "Tielo"],
+        "correctAnswer": 0,
+        "explanation": "'Gok' means 'shoulder' and is used both anatomically and metaphorically."
+      },
+      {
+        "question": "When expressing 'His head hurt after the accident' in Dholuo, which noun acts as the grammatical subject?",
+        "options": ["Norame", "Masira", "Wiyo", "Wich"],
+        "correctAnswer": 2,
+        "explanation": "'Wiyo' (his head) acts as the subject, showing possession and the one experiencing the pain."
+      },
+      {
+        "question": "In the sentence 'She injured her knee during the match', what is the Dholuo word for 'knee' that serves as the object?",
+        "options": ["Tielo", "Bam", "Chong’", "Ombong’"],
+        "correctAnswer": 2,
+        "explanation": "'Chong’' is the word for 'knee' in Dholuo."
+      },
+      {
+        "question": "Which internal organ in Dholuo is metaphorically significant as the emotional or moral center and is called Adundo?",
+        "options": ["Liver", "Heart", "Brain", "Stomach"],
+        "correctAnswer": 1,
+        "explanation": "'Adundo' is the Dholuo word for 'heart', symbolizing emotion and morality."
+      }
+    ]
+  }
+  

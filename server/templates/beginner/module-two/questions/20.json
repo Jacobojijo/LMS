@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the correct Dholuo form for “my knife”?",
+        "options": [
+          "Pala-a",
+          "Pande-a",
+          "Pand-a",
+          "Pala-na"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The noun 'Pala' (knife) changes to 'Pand' in the genitive and becomes 'Pand-a' to express 'my knife'."
+      },
+      {
+        "question": "Which of the following correctly reflects the possessive form 'their chair'?",
+        "options": [
+          "Kom-gi",
+          "Kom-ne",
+          "Kom-e",
+          "Kom-go"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Kom-gi' is the correct possessive form of 'Kom' (chair) indicating 'their chair'."
+      },
+      {
+        "question": "In Dholuo, what phonetic change occurs when forming the possessive of 'Puodho' (garden)?",
+        "options": [
+          "dh changes to d",
+          "dh changes to g",
+          "dh changes to th",
+          "dh remains unchanged"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The consonant 'dh' often changes to 'th' when forming possessives, as in 'Puodho' becoming 'Puotho'."
+      },
+      {
+        "question": "What is the correct singular possessive form for 'our house' in Dholuo?",
+        "options": [
+          "Ot-wa",
+          "Od-wa",
+          "Odo-wa",
+          "Ote-wa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Od-wa' is the correct possessive form for 'our house', where 'Ot' changes to 'Od' and '-wa' indicates possession."
+      },
+      {
+        "question": "Which form correctly translates to 'your (plural) child'?",
+        "options": [
+          "Nyathi-ni",
+          "Nyathi-wa",
+          "Nyathi-u",
+          "Nyath-u"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Nyathi-u' is the appropriate plural possessive form for 'your child'."
+      },
+      {
+        "question": "Which of the following shows a correct plural possessive form for 'his lands'?",
+        "options": [
+          "Lopewa",
+          "Lopene",
+          "Lopeni",
+          "Lopgo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Lopene' means 'his lands' in Dholuo, where 'Luo' becomes 'Lop' and '-ne' indicates third person singular possession."
+      },
+      {
+        "question": "What is the possessive transformation of the noun 'Chik' (law) for the 1st person singular (my)?",
+        "options": [
+          "Chik-na",
+          "Chika",
+          "Chiki",
+          "Chikwa"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Chik-na' is the correct form for 'my law', where '-na' signifies first person singular possession."
+      },
+      {
+        "question": "What is the correct possessive form of 'stone' (Kidi) for 'her stone'?",
+        "options": [
+          "Kid-e",
+          "Kid-wa",
+          "Kite",
+          "Kidi-ne"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The genitive form 'Kite' expresses 'her stone', where the noun root is modified before the possessive suffix."
+      },
+      {
+        "question": "Which of the following possessive forms is grammatically incorrect in Dholuo?",
+        "options": [
+          "Pand-e — His knife",
+          "Puoth-i — Your garden (sg)",
+          "Ot-u — Your (pl) house",
+          "Nyathi-wa — Our child"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Ot-u' is not a correct possessive form; the expected form would be 'Od-u' with both root and suffix transformation."
+      },
+      {
+        "question": "Which noun exhibits both root transformation and possessive suffix attachment in Dholuo?",
+        "options": [
+          "Kom",
+          "Pala → Pand",
+          "Nyathi",
+          "Chik"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Pala' undergoes root transformation to 'Pand' and attaches possessive suffixes like '-a', showing both changes."
+      }
+    ]
+  }
+  

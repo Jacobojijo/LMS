@@ -1,0 +1,80 @@
+{
+    "interrogativeQuestions": [
+      {
+        "question": "Which of the following Dholuo interrogative pronouns is used to ask about the quantity of something?",
+        "options": ["Nade/i", "Karang’o?", "Adi?", "Ang’o?"],
+        "correctAnswer": 2,
+        "explanation": "'Adi?' is used when asking about quantity or amount in Dholuo."
+      },
+      {
+        "question": "What is the correct Dholuo translation for “Why did you fail to come?”",
+        "options": [
+          "Mara ang’o ok ne ibiro?",
+          "Mara ang’o?",
+          "Nang’o itamori?",
+          "Mara ang’o ok ne wadh?"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Mara ang’o ok ne ibiro?' literally means 'What wrong made you not come?'"
+      },
+      {
+        "question": "In Dholuo, which interrogative pronoun is used to inquire about the manner or process of something?",
+        "options": ["Nang’o/marang’o?", "Nade/i", "Karang’o?", "Ng’ano?"],
+        "correctAnswer": 1,
+        "explanation": "'Nade' or 'Nadi' translates to 'How?' in English."
+      },
+      {
+        "question": "What is the meaning of the Dholuo phrase 'Ng’ano ma oyie?'",
+        "options": [
+          "Who is willing?",
+          "What is this?",
+          "When will you come?",
+          "Who asked for me?"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Ng’ano ma oyie?' means 'Who agrees/is willing?'"
+      },
+      {
+        "question": "Which Dholuo word is used to emphasize a question, similar to 'Are you sure?' in English?",
+        "options": ["Koso?", "Bende", "Ng’ano", "Karang’o"],
+        "correctAnswer": 1,
+        "explanation": "'Bende' is used for emphasis in questions — similar to 'really' or 'surely'."
+      },
+      {
+        "question": "How would you ask 'When will you come?' in Dholuo?",
+        "options": ["Ibiro karang’o?", "Karang’o?", "Bende idhi?", "Nang’o itamori?"],
+        "correctAnswer": 0,
+        "explanation": "'Ibiro karang’o?' directly translates to 'When will you come?'"
+      },
+      {
+        "question": "In Dholuo, which phrase would you use to ask about the location of a chair?",
+        "options": ["Kom ni kanye?", "Pala ni kanye?", "Kom nitie kanye?", "Ere pala?"],
+        "correctAnswer": 0,
+        "explanation": "'Kom ni kanye?' means 'Where is the chair?'"
+      },
+      {
+        "question": "What does the Dholuo phrase 'Bende idhi, koso?' mean?",
+        "options": [
+          "Are you really going?",
+          "Aren’t you going?",
+          "Are you coming?",
+          "Why did you fail to come?"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Bende idhi, koso?' adds emphasis — 'Are you *really* going, or what?'"
+      },
+      {
+        "question": "Which Dholuo word is used to inquire about the identity of a person or people?",
+        "options": ["Ang’o?", "Ng’ano?", "Nade/i", "Adi?"],
+        "correctAnswer": 1,
+        "explanation": "'Ng’ano?' is the interrogative for 'Who?'"
+      },
+      {
+        "question": "How would you ask 'What is this?' in Dholuo?",
+        "options": ["Ma en ang’o?", "Ng’ano ma Openja?", "Pala ni kanye?", "Be idhi?"],
+        "correctAnswer": 0,
+        "explanation": "'Ma en ang’o?' translates directly to 'What is this?'"
+      }
+    ]
+  }
+  

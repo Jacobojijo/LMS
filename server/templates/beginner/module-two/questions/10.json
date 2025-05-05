@@ -1,0 +1,65 @@
+{
+    "pluralClassQuestions": [
+      {
+        "question": "Which plural form correctly belongs to Class VI (Irregular Plurals)?",
+        "options": ["Nam → Nambe", "Ot → Udi", "Kalem → Kalembe", "Wuor → Wuoche"],
+        "correctAnswer": 1,
+        "explanation": "'Ot → Udi' is an irregular plural and fits Class VI."
+      },
+      {
+        "question": "What is the plural of 'Jagam' (mediator) according to the Ja → Jo pattern?",
+        "options": ["Jagome", "Jogam", "Jojagam", "Jogomi"],
+        "correctAnswer": 1,
+        "explanation": "Ja → Jo class changes 'Jagam' to 'Jogam'."
+      },
+      {
+        "question": "Identify the class where the singular and plural forms are always identical.",
+        "options": ["-che Class", "Invariant Class (Le)", "-ni Class", "-je Class"],
+        "correctAnswer": 1,
+        "explanation": "The Invariant Class (Le) does not change form between singular and plural."
+      },
+      {
+        "question": "Which of the following plural forms is not correctly paired with its class?",
+        "options": ["Dala → Mier (Irregular Class)", "Jagoro → Jogoro (Ja → Jo Class)", "Pien → Piende (–nde Class)", "Ong’er → Ong’eche (–mbe Class)"],
+        "correctAnswer": 3,
+        "explanation": "'Ong’er → Ong’eche' actually belongs to the –che Class, not –mbe."
+      },
+      {
+        "question": "What is the plural of 'Adundo' (heart), and what class does it belong to?",
+        "options": ["Adundni – -ni Class", "Adunde – -nde Class", "Adundje – -je Class", "Adundche – -che Class"],
+        "correctAnswer": 0,
+        "explanation": "'Adundo → Adundni' is a –ni Class plural transformation."
+      },
+      {
+        "question": "Which noun undergoes a total transformation in plural and belongs to the irregular class?",
+        "options": ["Dhako → Mon", "Nam → Nambe", "Winy → Winje", "Wuor → Wuoche"],
+        "correctAnswer": 0,
+        "explanation": "'Dhako → Mon' is a complete transformation and is highly irregular."
+      },
+      {
+        "question": "Which class does the plural 'Tende' (strings) belong to, based on its suffix?",
+        "options": ["–che Class", "–ni Class", "–nde Class", "Irregular Class"],
+        "correctAnswer": 2,
+        "explanation": "'Tende' ends with –nde, placing it in that class."
+      },
+      {
+        "question": "Which noun below uses the plural suffix -mbe and belongs to Class III?",
+        "options": ["Picha → Piche", "Thim → Thimbe", "Apaka → Apekni", "Chogo → Choke"],
+        "correctAnswer": 1,
+        "explanation": "'Thim → Thimbe' shows the –mbe plural form characteristic of Class III."
+      },
+      {
+        "question": "The word 'Japuonj' (teacher) would pluralize to:",
+        "options": ["Japuoje", "Jopuonji", "Jopuonj", "Japuonje"],
+        "correctAnswer": 2,
+        "explanation": "The Ja → Jo pattern changes 'Japuonj' to 'Jopuonj'."
+      },
+      {
+        "question": "Which of the following is a Class VIII plural formation using the -ni suffix?",
+        "options": ["Rabuon → Rabuonde", "Sokni → Soko", "Soko → Sokni", "Sokni → Sokche"],
+        "correctAnswer": 2,
+        "explanation": "'Soko → Sokni' is a typical Class VIII formation with the –ni suffix."
+      }
+    ]
+  }
+  

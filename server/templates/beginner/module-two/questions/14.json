@@ -1,0 +1,65 @@
+{
+    "possessiveQuestions": [
+      {
+        "question": "Which possessive suffix correctly marks the phrase “your (plural) child” in Dholuo?",
+        "options": ["-ni", "-wa", "-u", "-gi"],
+        "correctAnswer": 2,
+        "explanation": "The suffix '-u' marks second person plural possession, so 'Nyathi-u' = your (plural) child."
+      },
+      {
+        "question": "Which of the following is the correct Dholuo expression for “Adhiambo’s child”?",
+        "options": ["Nyathi mare", "Nyathi mar Adhiambo", "Nyathigi Adhiambo", "Nyathi-ni Adhiambo"],
+        "correctAnswer": 1,
+        "explanation": "'Mar' shows possession, and 'Nyathi mar Adhiambo' means 'Adhiambo’s child'."
+      },
+      {
+        "question": "What distinguishes “marwa” from “mara” in Dholuo possessive forms?",
+        "options": ["Marwa is singular, Mara is plural", "Marwa means “ours,” Mara means “mine”", "Marwa is used with names, Mara is used with pronouns", "Marwa is second person, Mara is third person"],
+        "correctAnswer": 1,
+        "explanation": "'Marwa' = 'ours'; 'Mara' = 'mine'; both show possession but from different persons."
+      },
+      {
+        "question": "If “Puodho en mare,” what can be inferred?",
+        "options": ["The garden is theirs", "The garden is ours", "The garden is his/hers", "The garden is mine"],
+        "correctAnswer": 2,
+        "explanation": "'Mare' is the possessive form for third person singular (his/her)."
+      },
+      {
+        "question": "Which of these suffixes is used exclusively for 3rd person plural possession?",
+        "options": ["-ne", "-u", "-gi", "-wa"],
+        "correctAnswer": 2,
+        "explanation": "'-gi' is the possessive suffix for third person plural ('their')."
+      },
+      {
+        "question": "Identify the incorrect possessive match:",
+        "options": ["Nyathi-na → my child", "Nyathi-gi → their child", "Nyathi-wa → your child (plural)", "Nyathi-ne → his/her child"],
+        "correctAnswer": 2,
+        "explanation": "'Nyathi-wa' means 'our child', not 'your (plural) child'. The correct form for 'your (plural)' is 'Nyathi-u'."
+      },
+      {
+        "question": "What suffix or structure is used in Dholuo to say “the garden is yours” when speaking to one person?",
+        "options": ["-ni or mari", "-wa or marwa", "-gi or margi", "-u or maru"],
+        "correctAnswer": 0,
+        "explanation": "'-ni' or 'mari' expresses second person singular possession."
+      },
+      {
+        "question": "Which suffix may appear in both first person singular and first person plural, requiring context for clarity?",
+        "options": ["-gi", "-wa", "-ne", "-u"],
+        "correctAnswer": 1,
+        "explanation": "'-wa' can mean 'our' or 'my' depending on context and tone."
+      },
+      {
+        "question": "Which of the following sentences most accurately means “The garden is theirs”?",
+        "options": ["Puodho en marwa", "Puodho en mare", "Puodho en margi", "Puodho en maru"],
+        "correctAnswer": 2,
+        "explanation": "'Margi' means 'theirs' (3rd person plural)."
+      },
+      {
+        "question": "In Dholuo, what would “Nyathi-ni” most likely mean in direct address?",
+        "options": ["Her child", "My child", "Your child (singular)", "Your child (plural)"],
+        "correctAnswer": 2,
+        "explanation": "'-ni' is the second person singular possessive suffix, meaning 'your (singular) child'."
+      }
+    ]
+  }
+  

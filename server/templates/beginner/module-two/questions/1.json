@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which regional variety of Dholuo is characterized by conservative vocabulary and influence from neighboring Luhya languages?",
+        "options": [
+          "South Nyanza",
+          "Central Nyanza",
+          "East Nyanza",
+          "West and North Nyanza"
+        ],
+        "correctAnswer": 3,
+        "explanation": "West and North Nyanza varieties preserve more conservative vocabulary and are influenced by neighboring Luhya languages."
+      },
+      {
+        "question": "In which regional varieties is the word “Puodho” used to refer to a garden?",
+        "options": [
+          "Only in West and North Nyanza",
+          "South, Central, and East Nyanza",
+          "Across all regions",
+          "North and East Nyanza only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The term 'Puodho' is commonly used in South, Central, and East Nyanza to mean a garden."
+      },
+      {
+        "question": "Identify the correct synonym pair for “Today” found in West Nyanza and Central Nyanza, respectively.",
+        "options": [
+          "Kawuono – Olihu",
+          "Gonyo – Kawuono",
+          "Puodho – Ndalo",
+          "Osirawende – Kogwen"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Gonyo' is used in West Nyanza, and 'Kawuono' in Central Nyanza to mean 'today'."
+      },
+      {
+        "question": "Which region acts as a linguistic bridge between conservative and urban speech patterns?",
+        "options": [
+          "West and North Nyanza",
+          "South and Central Nyanza",
+          "South Nyanza only",
+          "East Nyanza only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "South and Central Nyanza serve as a linguistic bridge, blending traditional and urban features."
+      },
+      {
+        "question": "The term “Olithkuon” meaning “cooking stick” is commonly used in which region(s)?",
+        "options": [
+          "West Nyanza only",
+          "West and South Nyanza",
+          "All except West and North Nyanza",
+          "Central Nyanza only"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Olithkuon' is widely used in regions except for West and North Nyanza."
+      },
+      {
+        "question": "Which region's speech is heavily shaped by proximity to urban centers like Kisumu, resulting in greater use of English and Kiswahili?",
+        "options": [
+          "West and North Nyanza",
+          "South and Central Nyanza",
+          "Central and East Nyanza",
+          "South Nyanza only"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Central and East Nyanza regions show greater urban influence and code-switching due to proximity to cities like Kisumu."
+      },
+      {
+        "question": "What function do vocabulary and pronunciation differences serve across regional Dholuo varieties?",
+        "options": [
+          "Create barriers to understanding",
+          "Signal cultural and geographical identity",
+          "Indicate formal vs. informal usage",
+          "Limit expressive ability"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Regional differences in Dholuo serve as cultural and geographical identifiers."
+      },
+      {
+        "question": "Which region shows strong influence from oral tradition and emphasizes rhythm and metaphor in everyday speech?",
+        "options": [
+          "East Nyanza",
+          "West Nyanza",
+          "South and Central Nyanza",
+          "North Nyanza"
+        ],
+        "correctAnswer": 2,
+        "explanation": "South and Central Nyanza regions emphasize poetic forms, rhythm, and metaphor, reflecting strong oral traditions."
+      },
+      {
+        "question": "Which regional speech variety is most noted for its poetic tone, distinct intonation, and folkloric references?",
+        "options": [
+          "West and North Nyanza",
+          "Central Nyanza",
+          "South Nyanza",
+          "East and North Nyanza"
+        ],
+        "correctAnswer": 2,
+        "explanation": "South Nyanza speech is distinguished by its poetic tone and use of folkloric elements."
+      },
+      {
+        "question": "What is the commonly used word for “early in the morning” in southern and central Dholuo-speaking areas?",
+        "options": [
+          "Osirawende",
+          "Kogwen",
+          "Mihiya",
+          "Ndalo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Kogwen' is a term widely used in southern and central Dholuo regions to refer to early morning."
+      }
+    ]
+  }
+  

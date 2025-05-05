@@ -1,0 +1,1940 @@
+{
+    "title": "Advanced Dholuo Language Course",
+    "structure": "structure.html",
+    "modules": [
+      {
+        "title": "MODULE 03",
+        "description": "Simple Sentence Structures and Basic Grammar",
+        "order": 3,
+        "topics": [{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 1,
+            "practiceQuestions": [
+      {
+        "question": "What is the primary function of predicate frames in advanced Dholuo grammar?",
+        "options": [
+          "To determine the phonetic structure of words",
+          "To specify the permissible structure of sentences, including argument roles",
+          "To replace adverbial expressions with more concise phrases",
+          "To define the morphological rules for verb conjugation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Predicate frames in Dholuo grammar specify the permissible structure of sentences, especially focusing on the roles and arrangement of arguments."
+      },
+      {
+        "question": "Which of the following best describes an intransitive predicate frame in Dholuo?",
+        "options": [
+          "A verb that requires both a direct and an indirect object",
+          "A verb that takes only one argument, typically a subject",
+          "A verb that cannot take any arguments",
+          "A verb that must be modified by an adverbial satellite"
+        ],
+        "correctAnswer": 1,
+        "explanation": "An intransitive predicate frame involves a verb that takes only one argument, usually the subject."
+      },
+      {
+        "question": "In the sentence 'Omondi miyo nyar gi pesa', which argument functions as the direct object?",
+        "options": [
+          "Omondi",
+          "nyar gi",
+          "pesa",
+          "miyo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In this ditransitive sentence, 'pesa' (money) functions as the direct object."
+      },
+      {
+        "question": "Which of the following statements about satellites in Dholuo is true?",
+        "options": [
+          "Satellites are mandatory in every predicate frame",
+          "Satellites add additional information to the state of affairs without defining it",
+          "Satellites can only be used to indicate time and location",
+          "Satellites replace nuclear arguments in a predicate frame"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Satellites in Dholuo provide additional information such as time, location, or manner but do not define the core state of affairs."
+      },
+      {
+        "question": "In the sentence 'Otieno dhi nam', what is the semantic function of 'nam'?",
+        "options": [
+          "Agent",
+          "Goal",
+          "Theme",
+          "Instrument"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Nam' (lake) functions as a Goal, indicating the destination of the action."
+      },
+      {
+        "question": "What is the key difference between a nuclear predication and an extended predication in Dholuo?",
+        "options": [
+          "Nuclear predication contains only essential arguments, while extended predication includes satellites",
+          "Nuclear predication has no verbs, while extended predication always includes an action verb",
+          "Extended predication is only used in informal speech, while nuclear predication is formal",
+          "Extended predication is a simpler form of nuclear predication with fewer arguments"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Nuclear predication consists of the verb and its essential arguments, while extended predication adds satellites for additional detail."
+      },
+      {
+        "question": "Which of the following sentences contains a satellite with the semantic function of time?",
+        "options": [
+          "Juma tang’o ne nyathi buk",
+          "Achola kelo pi sani",
+          "Jathum miel mamit",
+          "Otieno dhi nam"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Sani' (now) in the sentence 'Achola kelo pi sani' indicates time, functioning as a temporal satellite."
+      },
+      {
+        "question": "Which of the following verbs is most likely to form a ditransitive predicate frame in Dholuo?",
+        "options": [
+          "tho ('to die')",
+          "wuok ('to leave')",
+          "miyo ('to give')",
+          "nindo ('to sleep')"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Miyo' (to give) typically takes three arguments—subject, indirect object, and direct object—making it a ditransitive verb."
+      },
+      {
+        "question": "What type of semantic role does the subject play in the sentence 'Jathum miel mamit'?",
+        "options": [
+          "Patient",
+          "Experiencer",
+          "Agent",
+          "Theme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence 'Jathum miel mamit' (The musician is beautifully singing), the subject 'Jathum' performs the action, making it the Agent."
+      },
+      {
+        "question": "What is the correct structure of a monotransitive predicate frame in Dholuo?",
+        "options": [
+          "(NP) + V",
+          "(NP) + V + (NP)",
+          "(NP) + V + (NP) + (NP)",
+          "(NP) + (NP) + V"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A monotransitive predicate frame involves a verb with two arguments: a subject and a direct object, structured as (NP) + V + (NP)."
+      }
+    ]
+        },
+        {
+            "title": "Syntax Functions",
+            "htmlContent": "module-three/2.html",
+            "order": 2,
+            "practiceQuestions": [
+      {
+        "question": "In Functional Grammar (FG), what is the purpose of the Subj function?",
+        "options": [
+          "To indicate tense and aspect in a sentence",
+          "To mark the entity from which the perspective of the predication is determined",
+          "To always occupy the preverbal position in all languages",
+          "To determine the number of arguments a verb can take"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Subj function marks the entity from whose perspective the predication is interpreted."
+      },
+      {
+        "question": "Why is the Obj function assigned in Functional Grammar?",
+        "options": [
+          "To introduce an additional verb in a sentence",
+          "To mark the main subject of a passive construction",
+          "To function as the second point of departure or vantage point",
+          "To replace an alpha function in predication"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In FG, the Obj function is used to indicate the second point of departure or vantage point within the sentence structure."
+      },
+      {
+        "question": "Which of the following best explains why Subj assignment is not necessary in Dholuo grammar?",
+        "options": [
+          "The language does not have active-passive transformations",
+          "The order of constituents can only be explained using semantic and pragmatic functions",
+          "There are no distinct subject-object markers in Dholuo",
+          "The verbal predicate always comes before all other terms"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Subj assignment is not necessary in Dholuo grammar because constituent order is best explained using semantic and pragmatic rather than syntactic functions."
+      },
+      {
+        "question": "Which of the following is TRUE regarding constituent order in Dholuo?",
+        "options": [
+          "The preverbal position 1 must always be occupied",
+          "Verbal predicates must always appear in post-verbal positions",
+          "The post-verbal position 2 is always occupied by the object",
+          "All non-alpha terms must appear before the verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, preverbal position 1 is consistently occupied, often by an alpha function like the Agent."
+      },
+      {
+        "question": "In which of the following Dholuo sentences is position 2 occupied by a Goal function?",
+        "options": [
+          "\"Otieno nindo\"",
+          "\"Otieno ochamo rech\"",
+          "\"Otieno miyo paka chak\"",
+          "\"Otieno ong'iewo nanga ne nyathine\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the sentence 'Otieno miyo paka chak', 'chak' functions as a Goal in position 2."
+      },
+      {
+        "question": "Which of the following terms is NOT classified as an alpha function?",
+        "options": [
+          "Agent",
+          "Goal",
+          "Jatedo",
+          "Otieno"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Functional Grammar, Goal is not considered an alpha function; it is a satellite or non-core semantic role."
+      },
+      {
+        "question": "According to the study, which of the following sentences follows the standard constituent order in Dholuo?",
+        "options": [
+          "\"Otieno ong'iewo ne nyathine nanga\"",
+          "\"Otieno rech ochamo\"",
+          "\"Paka Otieno miyo chak\"",
+          "\"Otieno ong'iewo nanga\""
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Otieno ong'iewo ne nyathine nanga' follows the standard constituent order with alpha and non-alpha terms placed according to their semantic function."
+      },
+      {
+        "question": "What determines the position of non-alpha terms in a Dholuo sentence?",
+        "options": [
+          "The complexity of the verb",
+          "Their hierarchical order relative to Ben function",
+          "The presence of multiple verbal predicates",
+          "The number of alpha terms in the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The position of non-alpha terms in Dholuo is determined by their semantic-pragmatic hierarchy relative to the Ben function."
+      },
+      {
+        "question": "Which of the following observations about Dholuo constituent order is INCORRECT?",
+        "options": [
+          "An alpha term must always occupy the preverbal position",
+          "Non-alpha terms lower than Ben on the SFH cannot occupy position 2 if a higher-ranked term is present",
+          "The Obj function is crucial for understanding active-passive relationships",
+          "Semantic and pragmatic functions explain word order better than syntactic functions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Obj function is not crucial for explaining active-passive relationships in Dholuo; such structures are better explained by semantic and pragmatic roles."
+      },
+      {
+        "question": "Why is the notion of 'syntactic function' irrelevant to the description of Dholuo?",
+        "options": [
+          "Dholuo does not have subject-object agreement",
+          "Dholuo grammar is best explained through semantic functions rather than fixed syntactic roles",
+          "Functional Grammar does not apply to African languages",
+          "Dholuo lacks a clear distinction between verbs and nouns"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Dholuo, syntactic functions are not primary; semantic and pragmatic roles offer a better explanation for grammatical structure."
+      }
+    ]
+        },{
+            "title": "Pragmatic Functions",
+            "htmlContent": "module-three/3.html",
+            "order": 3,
+            "practiceQuestions": [
+      {
+        "question": "According to Functional Grammar, what is the role of a Theme in a sentence?",
+        "options": [
+          "To introduce a predication by specifying the universe of discourse",
+          "To conclude a statement with additional information",
+          "To emphasize the verb of the predication",
+          "To replace the subject of the sentence"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Theme sets up the context by introducing the universe of discourse for the predication."
+      },
+      {
+        "question": "Which of the following Dholuo utterances contains a Theme function?",
+        "options": [
+          "\"Ohero koko, en\"",
+          "\"Macha e japuonj, ma wiye oyugno cha\"",
+          "\"Nyako ma biro no en osiepni?\"",
+          "\"Ok adware, wiiye duong' no\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The utterance 'Nyako ma biro no en osiepni?' introduces the theme before the predication."
+      },
+      {
+        "question": "In the example \"Joluo, gin gikia ohala,\" what function does \"Joluo\" serve?",
+        "options": [
+          "Alpha term",
+          "Tail",
+          "Verb phrase",
+          "Theme"
+        ],
+        "correctAnswer": 3,
+        "explanation": "\"Joluo\" introduces the discourse, functioning as the Theme."
+      },
+      {
+        "question": "Which of the following best describes the function of a Tail in Dholuo grammar?",
+        "options": [
+          "It modifies the verb to indicate tense and aspect",
+          "It is an afterthought that provides additional information to a completed predication",
+          "It must always follow a Theme in a sentence",
+          "It replaces the subject to avoid repetition"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Tail provides additional or clarifying information after the main predication."
+      },
+      {
+        "question": "Which of the following statements about Theme and Tail functions in Dholuo is TRUE?",
+        "options": [
+          "A sentence can contain both a Theme and a Tail",
+          "A Tail must always appear before the predication",
+          "A Theme and a Tail must appear in the same sentence",
+          "A Tail must always be preceded by a pause"
+        ],
+        "correctAnswer": 0,
+        "explanation": "It is possible for a Dholuo sentence to include both a Theme and a Tail."
+      },
+      {
+        "question": "Which of the following sentences contains a Tail function?",
+        "options": [
+          "\"Wan, wan jo mohero somo\"",
+          "\"Oloo, en oonge gi weche mathoth\"",
+          "\"Oonge paro, jakong’o no\"",
+          "\"Nyako ma biro no en osiepni?\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The phrase 'jakong’o no' functions as a Tail, providing additional detail."
+      },
+      {
+        "question": "What is the primary difference between a Theme and a Tail in Dholuo?",
+        "options": [
+          "A Theme introduces the discourse, while a Tail adds information after the predication",
+          "A Theme follows the verb, while a Tail precedes the verb",
+          "A Theme can appear anywhere in a sentence, while a Tail is always at the beginning",
+          "A Tail only occurs in interrogative sentences, while a Theme occurs in declarative ones"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A Theme introduces the sentence's context; a Tail follows and adds to the predication."
+      },
+      {
+        "question": "Which of the following sentences demonstrates the use of a Tail that requires a pause?",
+        "options": [
+          "\"Ohero koko, en\"",
+          "\"Macha e japuonj, ma wiye oyugno cha\"",
+          "\"In, in jakuo\"",
+          "\"Kik isud buta, in\""
+        ],
+        "correctAnswer": 1,
+        "explanation": "The clause 'ma wiye oyugno cha' is an inserted Tail after a pause, giving extra detail."
+      },
+      {
+        "question": "What does the sentence \"Macha, ma wiye oyugno cha, e japuonj\" demonstrate about Tail function?",
+        "options": [
+          "A Tail can be inserted parenthetically within a predication",
+          "A Tail must always be positioned at the end of a sentence",
+          "A Theme must follow a Tail in all cases",
+          "A Tail is always introduced with a conjunction"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Tail 'ma wiye oyugno cha' is inserted parenthetically, demonstrating its flexible position."
+      },
+      {
+        "question": "Which of the following best explains the role of the demonstrative pronoun in the sentence \"Mano e maber, ma ok miya tich matek\"?",
+        "options": [
+          "It introduces the Theme of the sentence",
+          "It acts as the Tail, providing additional information about the subject",
+          "It replaces the verb to indicate the passive voice",
+          "It serves as the direct object of the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The demonstrative phrase 'ma ok miya tich matek' acts as a Tail providing further detail."
+      }
+    ]
+        }, {
+            "title": "Topic Function",
+            "htmlContent": "module-three/4.html",
+            "order": 4,
+            "practiceQuestions": [
+      {
+        "question": "According to Functional Grammar theory, which of the following best describes the Topic function?",
+        "options": [
+          "The constituent that introduces new entities into discourse",
+          "The constituent that carries the primary stress in a sentence",
+          "The constituent about which the predication provides information in a given setting",
+          "The constituent that always appears at the end of a sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Topic identifies what the predication is about in the discourse context."
+      },
+      {
+        "question": "Which of the following is NOT one of the three characteristics of the Topic function in Functional Grammar?",
+        "options": [
+          "It designates the entity about which something is predicated",
+          "It must always be a noun phrase in sentence-initial position",
+          "It is often coreferential with a constituent in a preceding or implied question",
+          "Any term in a predication can function as a Topic given the right pragmatic conditions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "While Topics often occur early, they are not strictly limited to sentence-initial noun phrases."
+      },
+      {
+        "question": "In Dholuo, where is the special position for Topic constituents?",
+        "options": [
+          "Postverbal position",
+          "Preverbal position",
+          "Final position in the clause",
+          "Anywhere in the sentence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo assigns Topic elements to the preverbal position for emphasis or focus."
+      },
+      {
+        "question": "Which of the following statements best differentiates the communicative functions of the sentences \"Inego kwach\" and \"Kwach inego\"?",
+        "options": [
+          "The first states what is happening, while the second emphasizes what is happening to the leopard",
+          "The first expresses doubt, while the second expresses certainty",
+          "The first is used in informal speech, while the second is used in formal contexts",
+          "The first is grammatically incorrect, while the second is the only valid structure"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Word order reflects focus: 'Kwach inego' places emphasis on the object (leopard)."
+      },
+      {
+        "question": "Why is \"Kwach inego\" NOT an appropriate response to the question \"Ango ma timore?\" ('What is happening here?')?",
+        "options": [
+          "It lacks a verb, making it ungrammatical",
+          "It does not explicitly mention the agent of the action",
+          "It does not provide general information about what is happening",
+          "It uses a verb form that is inappropriate for this type of question"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The sentence emphasizes a specific object, not the broader event occurring."
+      },
+      {
+        "question": "In response to the question \"Itimo kwach nade?\" ('What is being done to the leopard?'), which of the following is an appropriate answer?",
+        "options": [
+          "kwach tho",
+          "Ineg-e",
+          "Nyithindo nego kwach",
+          "Kwach inego"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Ineg-e\" appropriately aligns with the passive structure asked in the question."
+      },
+      {
+        "question": "Which of the following best represents the general syntactic pattern for Topic marking in Dholuo?",
+        "options": [
+          "Alpha Verb Topic X",
+          "Verb Alpha Topic X",
+          "Topic Alpha Verb X",
+          "Verb Topic Alpha X"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dholuo typically positions the Topic before the Alpha and Verb."
+      },
+      {
+        "question": "What is the significance of sentence (g) \"Kwach nyithindo nego\" compared to (f) \"Nyithindo nego kwach\"?",
+        "options": [
+          "(g) maintains the default sentence order while (f) marks Focus",
+          "(g) assigns Topic function to \"kwach,\" making it the primary referent",
+          "(f) is incorrect because \"kwach\" must always come first",
+          "(g) removes the agent of the action, making it ambiguous"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In sentence (g), 'kwach' is placed at the front to serve as the Topic."
+      },
+      {
+        "question": "In Dholuo, when a Topic element is assigned in a sentence, how does this affect the alpha term?",
+        "options": [
+          "The alpha term remains in its original position",
+          "The alpha term must be moved to the postverbal position",
+          "The alpha term must still appear in the preverbal position",
+          "The alpha term is deleted from the sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The alpha term retains its preverbal position even when a Topic is added."
+      },
+      {
+        "question": "Which of the following statements correctly summarizes the relationship between Topic and sentence structure in Dholuo?",
+        "options": [
+          "Topic assignment always requires a change in word order",
+          "Topic elements must always appear at the end of a sentence",
+          "Topic assignment does not affect sentence structure in any way",
+          "Topic marking is optional and does not follow any specific pattern"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Assigning a Topic typically results in fronting or reordering sentence elements for clarity."
+      }
+    ]
+        }, {
+            "title": "Focus Function",
+            "htmlContent": "module-three/5.html",
+            "order": 5,
+            "practiceQuestions": [
+      {
+        "question": "According to the study, what is the primary function of the Focus marker [e] in Dholuo?",
+        "options": [
+          "To indicate past tense in declarative sentences",
+          "To mark the most salient piece of information in a given pragmatic condition",
+          "To serve as a plural marker in noun phrases",
+          "To indicate negation in Focus constructions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[e] highlights the most important or emphasized information in the clause."
+      },
+      {
+        "question": "Which of the following statements best describes the distinction between sentence (a) “Otieno e wuoyi” and sentence (b) “Otieno wuoyi”?",
+        "options": [
+          "(a) provides emphasis while (b) introduces contrast",
+          "(a) asserts that Otieno is uniquely identified as \"the boy,\" while (b) simply states that he is male",
+          "(a) is grammatically incorrect, while (b) is the standard form",
+          "(a) introduces a negation while (b) provides an affirmative statement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The presence of [e] in (a) introduces a Focus construction implying uniqueness."
+      },
+      {
+        "question": "What is the main factor common to all six 'etics' of Focus identified in the study?",
+        "options": [
+          "They all involve a shift in word order",
+          "They all rely on tonal variation for proper interpretation",
+          "They all assign informational weight to specific elements in a sentence",
+          "They all require explicit marking through Focus particles"
+        ],
+        "correctAnswer": 2,
+        "explanation": "All Focus types relate to the communicative emphasis placed on specific parts of the sentence."
+      },
+      {
+        "question": "Which of the following best describes the function of [ma] in Dholuo Focus constructions?",
+        "options": [
+          "It acts as a relativizer but can also contribute to Focus marking",
+          "It replaces [e] in all Focus constructions",
+          "It only appears in past-tense questions",
+          "It serves as a conjunction linking two Focus elements"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[ma] acts as a relativizer but also contributes to marking Focus, especially in certain clause types."
+      },
+      {
+        "question": "In which of the following contexts is [ma] used as the sole Focus marker instead of [e]?",
+        "options": [
+          "When Focus is applied to noun phrases",
+          "When the Focused term appears in a question-word construction",
+          "When emphasis is placed on verb conjugation",
+          "When indicating negation in relative clauses"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[ma] is typically used alone in contexts involving question-word constructions."
+      },
+      {
+        "question": "Why is the phrase “Chunya e ma rach” significant in understanding the role of Focus markers in Dholuo?",
+        "options": [
+          "It illustrates a Focus construction where [ma] supports [e] without an identifiable omitted head noun",
+          "It demonstrates that [ma] is exclusively used for emotional expressions",
+          "It provides an example where [e] alone serves as the Focus marker",
+          "It shows that [e] and [ma] must always appear together in Focus constructions"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The phrase demonstrates a Focus construction with no overt head noun, where [ma] functions alongside [e]."
+      },
+      {
+        "question": "Which of the following Focus types involves removing incorrect information and replacing it with the correct one?",
+        "options": [
+          "Expanding Focus",
+          "Replacing Focus",
+          "Restricting Focus",
+          "Parallel Focus"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Replacing Focus contrasts two elements and corrects a mistaken assumption or alternative."
+      },
+      {
+        "question": "How does the phrase “Otieno e ng’at ma nyalo konyowa” illustrate the interaction of [e] and [ma]?",
+        "options": [
+          "It shows that [ma] is redundant in Focus constructions",
+          "It demonstrates that [e] and [ma] can co-occur in a Focused relative clause",
+          "It reveals that [e] and [ma] have distinct but interchangeable functions",
+          "It indicates that Focus marking is optional in such sentences"
+        ],
+        "correctAnswer": 1,
+        "explanation": "This sentence shows a valid co-occurrence of [e] and [ma] in a Focused relative clause."
+      },
+      {
+        "question": "Which of the following best summarizes the difference between Completive Focus and Selective Focus?",
+        "options": [
+          "Completive Focus provides entirely new information, whereas Selective Focus highlights an option among known possibilities",
+          "Selective Focus always involves negation, whereas Completive Focus does not",
+          "Completive Focus applies to pronouns, while Selective Focus applies to nouns",
+          "Selective Focus is always marked by [e], whereas Completive Focus requires [ma]"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Completive Focus introduces entirely new material, while Selective Focus chooses from given options."
+      },
+      {
+        "question": "Based on the study, what is the current assumption regarding Focus marking in Dholuo?",
+        "options": [
+          "Focus is marked inconsistently and cannot be analyzed systematically",
+          "The primary Focus markers are [e], [ma], or their combination, but further research is needed to clarify their distribution",
+          "Only [ma] functions as a true Focus marker, while [e] is used for emphasis",
+          "Focus constructions always require the presence of both [e] and [ma]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The study notes that [e], [ma], or both are used for Focus, though their exact rules need more clarification."
+      }
+    ]
+        },{
+            "title": "Expression Rules",
+            "htmlContent": "module-three/6.html",
+            "order": 6,
+            "practiceQuestions": [
+      {
+        "question": "According to the expression rules in FG, which linguistic feature is not explicitly accounted for?",
+        "options": [
+          "The form of terms, including cases and adpositions",
+          "The structure of syllables in Dholuo",
+          "The order of elements in a sentence",
+          "The use of stress and intonation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Expression rules in FG focus on syntactic and morphological elements, not phonological ones like syllable structure."
+      },
+      {
+        "question": "What happens to the verb form in a Dholuo sentence when an incomplete predication occurs?",
+        "options": [
+          "It takes a passive form",
+          "It remains unchanged",
+          "It moves to the end of the sentence",
+          "It takes an auxiliary verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Incomplete predication results in the passive form of the verb being used."
+      },
+      {
+        "question": "In the sentence \"oneg diel\", what grammatical feature is being demonstrated?",
+        "options": [
+          "Active voice",
+          "The use of an auxiliary verb",
+          "Passive voice",
+          "The preverbal positioning of terms"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The verb 'oneg' shows a passive construction with 'diel' (goat) as the subject."
+      },
+      {
+        "question": "What is the main factor determining whether a passive or active verb form is used in Dholuo?",
+        "options": [
+          "The presence of a pragmatic function",
+          "The structure of the sentence",
+          "Whether the predication has an alpha term",
+          "The use of prepositions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "An alpha term (the primary participant) in predication determines verb voice selection."
+      },
+      {
+        "question": "Which of the following correctly illustrates an active verb form?",
+        "options": [
+          "Oneg diel",
+          "Ng'ato nego diel",
+          "Wendo wanego-ne diel",
+          "Yo sikul ema Atieno"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ng'ato nego diel' uses an active verb ('nego') with an explicit subject and object."
+      },
+      {
+        "question": "If a term is placed in the preverbal position due to a pragmatic function, what happens to the verbal predicate?",
+        "options": [
+          "The verb takes a passive form",
+          "The verb gains an affix marking the prepositional SF of the term",
+          "The verb changes to an imperative form",
+          "The verb remains unchanged"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Preverbal pragmatic terms affect the verb by causing it to incorporate affixes indicating the semantic function."
+      },
+      {
+        "question": "In the sentence \"Wendo wanego-ne diel\", which grammatical function causes the change in the verb form?",
+        "options": [
+          "The use of an auxiliary verb",
+          "The presence of a pragmatic function",
+          "The use of an object pronoun",
+          "The omission of the subject"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The pragmatic function of the preverbal element 'Wendo' triggers a verb modification."
+      },
+      {
+        "question": "Why do some semantic functions (SFs), such as Goal, have zero prepositional marking?",
+        "options": [
+          "To simplify the grammar rules",
+          "To avoid inconsistencies in the general expression rules",
+          "Because Dholuo does not allow prepositions",
+          "Because they do not affect the sentence meaning"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Zero marking ensures consistency in how semantic functions are expressed across different contexts."
+      },
+      {
+        "question": "What is the purpose of expression rules in FG?",
+        "options": [
+          "To dictate the exact translation of words",
+          "To determine the surface realization of linguistic elements",
+          "To create new vocabulary in Dholuo",
+          "To define the phonetic structure of words"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Expression rules help specify how abstract functions and roles are realized in actual speech or writing."
+      },
+      {
+        "question": "Which of the following is not a function of expression rules in Functional Grammar?",
+        "options": [
+          "Determining stress and intonation",
+          "Regulating word order",
+          "Defining predicate realization",
+          "Assigning grammatical cases to words"
+        ],
+        "correctAnswer": 3,
+        "explanation": "FG expression rules deal more with syntactic realization than with assigning grammatical cases explicitly."
+      }
+    ]
+        },{
+            "title": "Expression of Semantic & Pragmatic Functions",
+            "htmlContent": "module-three/7.html",
+            "order": 7,
+            "practiceQuestions": [
+      {
+        "question": "According to the study, which of the following semantic functions (SFs) do not require prepositional marking?",
+        "options": [
+          "Possession and Direction",
+          "Goal and Beneficiary",
+          "Ø, PO, Fo, Proc, and Dir (without content-word preposition)",
+          "Locative and Source"
+        ],
+        "correctAnswer": 2,
+        "explanation": "These SFs are expressed without prepositions, often through position or verb morphology."
+      },
+      {
+        "question": "When expressing Possession (Poss) for a singular possessed element in Dholuo, which preposition is used?",
+        "options": [
+          "gi",
+          "mag",
+          "mar",
+          "ne"
+        ],
+        "correctAnswer": 2,
+        "explanation": "‘mar’ is used for singular possessed elements to indicate possession."
+      },
+      {
+        "question": "In Dholuo, what is the correct prepositional marking for Companion (Comp) and Instruction (Instr) functions?",
+        "options": [
+          "ne",
+          "gi",
+          "e",
+          "yo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘gi’ is the appropriate preposition to express Companion and Instruction roles."
+      },
+      {
+        "question": "How is Focus function morphologically expressed in a Dholuo sentence?",
+        "options": [
+          "By adding [e(ma)] immediately after the focused term",
+          "By placing the term at the end of the sentence",
+          "By using a different verb tense",
+          "By omitting the subject in the sentence"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Focus is marked morphologically by the postposed particle [e] or [ema]."
+      },
+      {
+        "question": "In which case does the general preposition \"e\" appear in a predication?",
+        "options": [
+          "When marking a term assigned the Beneficiary function",
+          "When a term takes a prepositional content-word marker like \"yo\"",
+          "When the term has zero semantic function",
+          "When the term is assigned a Focus function"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘e’ appears with prepositions like ‘yo’ in directional expressions."
+      },
+      {
+        "question": "Which preposition is used when marking the Beneficiary (Ben) and Recipient (Rec) functions?",
+        "options": [
+          "mar",
+          "gi",
+          "ne",
+          "e"
+        ],
+        "correctAnswer": 2,
+        "explanation": "‘ne’ is the preposition used for both Beneficiary and Recipient functions."
+      },
+      {
+        "question": "What happens if a prepositionally marked term is assigned the Topic function in Dholuo?",
+        "options": [
+          "The preposition is removed",
+          "The term moves to the preverbal position, causing morphological changes in the verb",
+          "The term remains in its original place but gains an extra suffix",
+          "There is no morphological effect"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Topicalized terms move to the front, affecting the verb through agreement or inflection."
+      },
+      {
+        "question": "Which sentence correctly represents Direction (Dir) with a content-word preposition?",
+        "options": [
+          "Atieno odhi e yo sikul",
+          "Atieno odhi yo sikul",
+          "Sikul odhi Atieno",
+          "Yo sikul ema Atieno odhi ne"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘yo sikul’ is the appropriate directional phrase without the general preposition 'e'."
+      },
+      {
+        "question": "When a plural possessed element is involved in a possession statement, which preposition is used?",
+        "options": [
+          "mar",
+          "gi",
+          "mag",
+          "ne"
+        ],
+        "correctAnswer": 2,
+        "explanation": "‘mag’ indicates plural possession in Dholuo."
+      },
+      {
+        "question": "In which case does a term assigned the Focus function appear as \"... Xl e(ma) ...\" in a sentence?",
+        "options": [
+          "When it is the object of the sentence",
+          "When it appears in the postverbal position",
+          "When it moves to the preverbal position",
+          "When it is not prepositionally marked"
+        ],
+        "correctAnswer": 2,
+        "explanation": "When the focused term is preverbal, it appears with the marker [e] or [ema] following it."
+      }
+    ]
+        },{
+            "title": "Review & Practice",
+            "htmlContent": "module-three/8.html",
+            "order": 8
+        },{
+            "title": "Expression Rules and Constituent Order",
+            "htmlContent": "module-three/9.html",
+            "order": 9,
+            "practiceQuestions": [
+      {
+        "question": "According to Functional Grammar, how are the predications underlying linguistic expressions initially structured?",
+        "options": [
+          "They follow a strict word order from the start.",
+          "They are unordered and require rules to establish linear order.",
+          "They always begin with a verb.",
+          "They are structured based on English grammar principles."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Predications start as unordered structures and require expression rules to define word order."
+      },
+      {
+        "question": "What is the primary role of expression rules in Functional Grammar?",
+        "options": [
+          "To add more words to sentences.",
+          "To determine the meaning of words in isolation.",
+          "To establish the linear order of constituents in a sentence.",
+          "To remove unnecessary words from a sentence."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Expression rules define how elements are ordered linearly in a sentence."
+      },
+      {
+        "question": "Which of the following is NOT one of the preferential tendencies in constituent ordering?",
+        "options": [
+          "Placing constituents with the same function in the same structural position.",
+          "Assigning special positions to certain categories of constituents.",
+          "Avoiding complex sentence structures entirely.",
+          "Ordering constituents from left to right based on increasing complexity."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Avoiding complex structures is not a tendency in Functional Grammar."
+      },
+      {
+        "question": "In Dholuo, what determines the placement of constituents within functional patterns?",
+        "options": [
+          "Syntactic functions",
+          "Semantic functions",
+          "Prepositions",
+          "Random selection"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Semantic functions guide the linear ordering of constituents in Dholuo."
+      },
+      {
+        "question": "What is the designated preverbal position for an alpha term in Dholuo?",
+        "options": [
+          "P1",
+          "V",
+          "A",
+          "Ø"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Position A (alpha) is reserved for terms with core roles and high discourse prominence."
+      },
+      {
+        "question": "Which constituent typically occupies the first postverbal position in Dholuo?",
+        "options": [
+          "The Theme",
+          "One of the non-alpha terms (Goal, Recipient, Beneficiary)",
+          "The Verb",
+          "The Tail"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Non-alpha terms often appear in the first postverbal slot after the verb."
+      },
+      {
+        "question": "Which of the following represents a common postverbal structure in Dholuo?",
+        "options": [
+          "V Rec Go",
+          "Rec V Go",
+          "Go V Rec",
+          "Ben Rec V"
+        ],
+        "correctAnswer": 0,
+        "explanation": "V Rec Go is a typical postverbal ordering of constituents."
+      },
+      {
+        "question": "What distinguishes the (Vø) type of predication in Dholuo?",
+        "options": [
+          "It includes both a Goal and a Locative.",
+          "It has no postverbal constituent with a semantic function.",
+          "It always ends with a Beneficiary.",
+          "It only appears in interrogative sentences."
+        ],
+        "correctAnswer": 1,
+        "explanation": "(Vø) predications consist solely of a verb, lacking postverbal SF-marked constituents."
+      },
+      {
+        "question": "Which of the following examples represents the (V Go Loc) structure?",
+        "options": [
+          "Ng'ato omiyo Atieno pesa mathoth",
+          "Jatedo otuono japidi chiemo",
+          "Mama oketo kuon e mesa",
+          "Ng'at cha paro chiege"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This sentence illustrates a verb followed by a Goal and a Locative element."
+      },
+      {
+        "question": "In an extended predication, what happens if an X-constituent (e.g., Beneficiary) is placed after the binding constituent?",
+        "options": [
+          "The sentence structure remains correct.",
+          "The sentence becomes ungrammatical.",
+          "The X-constituent must always appear before the verb.",
+          "The meaning of the sentence changes completely."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Extended predications allow for flexible placement of X-constituents post-binding."
+      }
+    ]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/10.html",
+            "order": 10,
+            "practiceQuestions": [
+      {
+        "question": "What is the primary linguistic phenomenon under discussion in the provided study?",
+        "options": [
+          "Subject-Verb Agreement",
+          "Word Fronting in Question Formation",
+          "Tense and Aspect Marking",
+          "Gender Marking in Pronouns"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The study focuses on how word fronting operates in forming questions in Dholuo."
+      },
+      {
+        "question": "Which of the following best describes the contrast between straight and Focus interrogatives in Dholuo?",
+        "options": [
+          "Straight interrogatives always have preverbal question words, while Focus interrogatives do not.",
+          "Focus interrogatives contain a Focus-marking element [ma], while straight interrogatives do not.",
+          "Straight interrogatives are used for rhetorical questions only.",
+          "Focus interrogatives occur only in informal speech."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Focus interrogatives use the marker [ma], which is absent in straight interrogatives."
+      },
+      {
+        "question": "In the study, which of the following is an example of a Focus interrogative?",
+        "options": [
+          "Jakuo okawo ang'o?",
+          "Ere wuon ot?",
+          "Ang'o ma jakuo okawo?",
+          "Bende oyud jakuo?"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This example includes the Focus-marking element [ma], typical of Focus interrogatives."
+      },
+      {
+        "question": "What is the role of the Focus-marking element [ma] in Dholuo question formation?",
+        "options": [
+          "It signals past tense in interrogatives.",
+          "It marks the presence of an informational gap in a sentence.",
+          "It differentiates straight interrogatives from Focus interrogatives.",
+          "It serves as a negation marker."
+        ],
+        "correctAnswer": 2,
+        "explanation": "[ma] is a structural marker that distinguishes Focus interrogatives."
+      },
+      {
+        "question": "According to the study, which type of interrogative construction in Dholuo is always a 'straight interrogative'?",
+        "options": [
+          "Questions that seek confirmation using words like [bende, donge, koso].",
+          "Questions that contain the Focus-marking element [ma].",
+          "Questions that have both preverbal and postverbal question words.",
+          "Questions that involve an alpha term."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Confirmation questions always follow the straight interrogative pattern in Dholuo."
+      },
+      {
+        "question": "What linguistic strategy does the question ‘Ang’o ma jakuo okawo?’ employ?",
+        "options": [
+          "It uses word order inversion.",
+          "It employs an optional Q-fronting rule.",
+          "It deletes the subject of the sentence.",
+          "It relies on subject-verb agreement to form a question."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The question demonstrates the optional fronting of question elements in Focus interrogatives."
+      },
+      {
+        "question": "Which of the following best describes the relationship between declarative and interrogative Focus constructions in Dholuo?",
+        "options": [
+          "Declarative Focus constructions mirror Focus interrogatives in structure, but they serve different communicative functions.",
+          "Declarative Focus constructions can only occur in past tense, while interrogative Focus constructions occur in all tenses.",
+          "Focus interrogatives do not require a Focus-marking element, while declarative Focus constructions do.",
+          "There is no structural relationship between them."
+        ],
+        "correctAnswer": 0,
+        "explanation": "They share structure, but differ in communicative intent—one makes a statement, the other asks."
+      },
+      {
+        "question": "What distinguishes Type (ii) interrogatives from Type (iv) interrogatives in the study?",
+        "options": [
+          "Type (ii) interrogatives allow free variation in question-word position, while Type (iv) does not.",
+          "Type (ii) interrogatives contain an alpha term, while Type (iv) interrogatives contain a non-alpha term.",
+          "Type (ii) interrogatives are rhetorical, while Type (iv) interrogatives seek genuine information.",
+          "Type (ii) interrogatives always appear in declarative sentences."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The classification is based on the type of term—alpha for Type (ii), non-alpha for Type (iv)."
+      },
+      {
+        "question": "Which of the following sentences best illustrates a straight interrogative in Dholuo?",
+        "options": [
+          "Ng'a ma sibuor ochamo?",
+          "Ang’o ma jakuo okawo?",
+          "Donge oyud jakuo?",
+          "Ng’a ma chamo punda?"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This is a confirmation-type question that falls under straight interrogatives."
+      },
+      {
+        "question": "What can be concluded about the distribution of interrogative constructions in Dholuo based on the study?",
+        "options": [
+          "Dholuo only has Focus interrogatives, and straight interrogatives do not exist.",
+          "The language allows both Focus and straight interrogatives, with some occurring in free variation and others in complementary distribution.",
+          "Word order is completely fixed in all Dholuo interrogative structures.",
+          "The presence of the Focus-marking element [ma] is optional in all interrogative structures."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dholuo utilizes both forms, with flexible distribution patterns depending on context."
+      }
+    ]
+        },{
+            "title": "Word Fronting",
+            "htmlContent": "module-three/11.html",
+            "order": 11,
+            "practiceQuestions": [
+      {
+        "question": "What position is explicitly avoided for the time adverb in Dholuo?",
+        "options": [
+          "Between the subject and verb",
+          "At the end of the sentence",
+          "Between the verb and object",
+          "Before the subject"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dholuo avoids placing time adverbs between the verb and the object."
+      },
+      {
+        "question": "In the sentence “Otieno nyalo loso kom kawuono ne min,” what can be said about the positioning of the TA [kawuono]?",
+        "options": [
+          "It is highly marked but acceptable.",
+          "It is completely ill-formed.",
+          "It is the most natural placement.",
+          "It is only acceptable in informal speech."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The placement of the TA here is marked but still within acceptable grammatical bounds."
+      },
+      {
+        "question": "Which of the following sentences is completely ill-formed due to incorrect TA placement?",
+        "options": [
+          "Otieno loso kom kawuono ne min gi spana e skul.",
+          "Otieno Ioso kawuono kom ne min gi spana e skul.",
+          "Otieno loso kom ne min gi spana kawuono e skul.",
+          "Otieno kawuono loso kom ne min gi spana e skul."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Placing the TA between the auxiliary and the verb results in an ill-formed sentence."
+      },
+      {
+        "question": "Why is sentence (f) “Otieno nyalo kawuono loso kom ne min” ill-formed?",
+        "options": [
+          "The TA [kawuono] is placed incorrectly between the modal auxiliary and the verb.",
+          "The TA is missing a focus marker.",
+          "The TA should always be placed at the beginning of the sentence.",
+          "The sentence lacks a direct object."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Placing a TA between a modal auxiliary and main verb is ungrammatical in Dholuo."
+      },
+      {
+        "question": "What position is the TA [kawuono] occupying in the sentence “Kawuono Otieno nyalo loso kom ne min”?",
+        "options": [
+          "Object position",
+          "Focus position",
+          "Pre-initial (PI) position",
+          "Post-verbal position"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The TA is in a pre-initial position before the subject, functioning as a topical element."
+      },
+      {
+        "question": "Why is sentence (a) “Otieno loso kom ne min gi spana e skul kawuono” considered highly acceptable?",
+        "options": [
+          "The TA [kawuono] is placed at the beginning, giving it prominence.",
+          "All term constituents are in their expected order.",
+          "The sentence follows a strict Subject-Object-Verb (SOV) order.",
+          "The modal auxiliary governs the placement of the TA."
+        ],
+        "correctAnswer": 1,
+        "explanation": "This sentence is well-formed as it maintains expected word order, including correct placement of the TA."
+      },
+      {
+        "question": "In the response to the question “To kawuono?” which sentence structure is most appropriate?",
+        "options": [
+          "Otieno loso kom ne min gi spana e skul kawuono.",
+          "Kawuono Otieno loso kom ne min gi spana e skul.",
+          "Otieno Ioso kom kawuono ne min gi spana e skul.",
+          "Otieno loso kawuono kom ne min gi spana e skul."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Pre-initial placement of the TA reflects topic-comment structure, which is appropriate as a response."
+      },
+      {
+        "question": "What is the possible structural explanation for the TA in sentence (e) “Otieno Ioso kom ne min gi spana e skul kawuono”?",
+        "options": [
+          "It occupies a pre-initial (PI) position as a topic marker.",
+          "It is a free element without structural commitment.",
+          "It is an example of nuclearization.",
+          "Any of the above could be correct."
+        ],
+        "correctAnswer": 3,
+        "explanation": "The placement allows for multiple interpretations including nuclearization and topic marking."
+      },
+      {
+        "question": "Which of the following best describes the markedness of sentence (g) “Kawuono Otieno loso kom ne min gi spana e skul”?",
+        "options": [
+          "It is highly marked and unacceptable.",
+          "It is highly acceptable due to topic assignment.",
+          "It is ill-formed because it lacks a modal auxiliary.",
+          "It violates the basic word order of Dholuo."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Though marked, this sentence is acceptable as it uses pre-initial positioning for emphasis."
+      },
+      {
+        "question": "Which sentence structure is considered the most marked to be ill but still acceptable?",
+        "options": [
+          "Otieno nyalo loso kom ne min kawuono.",
+          "Otieno loso kom kawuono ne min gi spana e skul.",
+          "Otieno nyalo loso kawuono kom ne min.",
+          "Otieno loso kawuono kom ne min gi spana e skul."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Though unusual, this structure doesn't violate grammatical rules, making it marked but acceptable."
+      }
+    ]
+        },{
+            "title": "Cleft Constructions",
+            "htmlContent": "module-three/12.html",
+            "order": 12,
+            "practiceQuestions": [
+      {
+        "question": "What is the primary function of a cleft-construction in Dholuo?",
+        "options": [
+          "To introduce a new tense marker in the sentence",
+          "To place focus on a specific element in the sentence",
+          "To change the meaning of the verb",
+          "To replace the subject with an object"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Cleft-constructions in Dholuo serve to focus attention on a particular element in the sentence, making it more prominent in discourse."
+      },
+      {
+        "question": "Which of the following is an example of a cleft-construction proper?",
+        "options": [
+          "Gi ma nyathi dwaro en rech",
+          "Gi ma japuonj ni timo en (mana) chwado nyithindo",
+          "Japuonj no ema jodongo ohero",
+          "Nyathi dwaro rech"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Japuonj no ema jodongo ohero' is a cleft-construction proper because it explicitly places focus on the subject through syntactic restructuring."
+      },
+      {
+        "question": "What is the key difference between a cleft-construction and a non-cleft construction?",
+        "options": [
+          "Cleft-constructions separate a unified phrase to emphasize a particular element",
+          "Non-cleft constructions require additional markers for focus",
+          "Cleft-constructions eliminate the need for a subject",
+          "Non-cleft constructions do not allow verbs"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cleft-constructions are used to separate elements in a sentence, allowing specific emphasis on a chosen part, unlike non-cleft constructions."
+      },
+      {
+        "question": "Which of the following sentences is a pseudo-cleft construction?",
+        "options": [
+          "Rech ema nyathi dwaro",
+          "Gi ma nyathi dwaro en rech",
+          "Japuonj no ema jodongo ohero",
+          "Nyathi dwaro rech"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Gi ma nyathi dwaro en rech' is a pseudo-cleft construction because it focuses on a constituent using a relative clause, without requiring transformation rules."
+      },
+      {
+        "question": "In cleft-constructions proper, which part of the sentence usually appears in the preverbal position?",
+        "options": [
+          "The verb",
+          "A non-alpha term",
+          "A conjunction",
+          "The subject pronoun"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A cleft-construction proper typically places a non-alpha (non-subject or object) term in the preverbal position to highlight it."
+      },
+      {
+        "question": "Which of the following is a correct transformation of the non-cleft sentence 'Nyathi dwaro rech' into a cleft-construction proper?",
+        "options": [
+          "Rech ema nyathi dwaro",
+          "Gi ma nyathi dwaro en rech",
+          "Nyathi ema dwaro rech",
+          "Nyathi ni dwaro rech"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Rech ema nyathi dwaro' is a cleft-construction proper that focuses on the object 'rech' through fronting."
+      },
+      {
+        "question": "Why do pseudo-cleft constructions not require a movement rule in a transformational grammar (TG) account?",
+        "options": [
+          "Because they are already in their most natural syntactic order",
+          "Because they do not involve focus constructions",
+          "Because they only require the insertion of lexical elements",
+          "Because they change the tense of the verb"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Pseudo-cleft constructions do not need movement rules in TG because they only require lexical insertion without syntactic reordering."
+      },
+      {
+        "question": "Which of the following sentences is a non-cleft construction?",
+        "options": [
+          "Rech ema nyathi dwaro",
+          "Gi ma japuonj ni timo en (mana) chwado nyithindo",
+          "Jodongo obero japuonj no",
+          "Japuonj no ema jodongo ohero"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Jodongo obero japuonj no' is a non-cleft construction because it follows the standard subject-verb-object order without focus restructuring."
+      },
+      {
+        "question": "What distinguishes cleft-constructions proper from pseudo-cleft constructions?",
+        "options": [
+          "Cleft-constructions proper require movement of non-alpha terms",
+          "Pseudo-cleft constructions require verb inversion",
+          "Cleft-constructions proper always follow a subject-verb-object order",
+          "Pseudo-cleft constructions are only used in past tense"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cleft-constructions proper involve syntactic movement of a focused element, unlike pseudo-cleft constructions which maintain normal word order."
+      },
+      {
+        "question": "Which of the following best explains why cleft-constructions are considered focus constructions?",
+        "options": [
+          "They emphasize a specific part of the sentence",
+          "They eliminate the need for objects",
+          "They are always used with past tense verbs",
+          "They require multiple subject markers"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cleft-constructions highlight a specific part of the sentence, making it the focal point, which is why they are categorized as focus constructions."
+      }
+    ]
+        },{
+            "title": "Ordering Problems involving Specific Words",
+            "htmlContent": "module-three/13.html",
+            "order": 13,
+            "practiceQuestions": [
+      {
+        "question": "What is the primary difference between [ere] and [ni kanye]?",
+        "options": [
+          "[Ere] is used only in the past tense, while [ni kanye] is used in the present",
+          "[Ere] semantically combines the meanings of [kanye] and [ni], while [ni kanye] does not",
+          "[Ni kanye] has no equivalent meaning in Dholuo",
+          "[Ere] and [ni kanye] can be used interchangeably without restrictions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[Ere] semantically combines the meanings of [kanye] and [ni], providing a more compact form than [ni kanye]."
+      },
+      {
+        "question": "Why is the sentence 'Pala ne ere' ill-formed?",
+        "options": [
+          "Because [ere] can only be used in the present tense",
+          "Because [ne] must always follow [ere]",
+          "Because [ere] is only used with pronouns",
+          "Because [ere] must always follow a noun"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Ere] is limited to present tense contexts, so using it with the past tense marker [ne] results in an ill-formed sentence."
+      },
+      {
+        "question": "Which of the following sentences correctly uses [ere]?",
+        "options": [
+          "i-ere",
+          "Pala ne ere",
+          "Ere-i",
+          "Pala kanye ni"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Ere-i' correctly uses [ere] before a pronoun to form a proper question in Dholuo."
+      },
+      {
+        "question": "What is required to form a well-structured question using [ni kanye]?",
+        "options": [
+          "The sentence must be in the past tense",
+          "The sentence must follow a strict Subject-Verb-Object order",
+          "The sentence must use the locative copula [ni]",
+          "The sentence must begin with [ere]"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Using [ni kanye] correctly requires the inclusion of the locative copula [ni]."
+      },
+      {
+        "question": "When forming a question about the location of a pronoun, how should [ere] be positioned?",
+        "options": [
+          "It must always come before the pronoun",
+          "It must always come after the pronoun",
+          "It must be omitted when a pronoun is used",
+          "It must always be used with [ni kanye]"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Ere] precedes the pronoun to correctly form a question about location in Dholuo."
+      },
+      {
+        "question": "Which of the following is a correct sentence using [ni kanye]?",
+        "options": [
+          "Kanye pala.",
+          "Pala ni kanye?",
+          "Pala kanye ni?",
+          "Ere pala kanye?"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Pala ni kanye?' is the correct structure for asking a location question using [ni kanye]."
+      },
+      {
+        "question": "Why is the sentence 'i-ere' incorrect?",
+        "options": [
+          "Because [ere] cannot be used with pronouns",
+          "Because [ere] must always precede the pronoun",
+          "Because [ere] cannot be used in present tense",
+          "Because [ere] must always be followed by [ni]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'i-ere' is incorrect because [ere] must precede the pronoun, making 'ere-i' the correct form."
+      },
+      {
+        "question": "Which of the following statements is true about the use of [ere] in Dholuo?",
+        "options": [
+          "It can be used in past and present tense",
+          "It must always follow a noun",
+          "It can only occur in the present tense",
+          "It is interchangeable with [ni kanye]"
+        ],
+        "correctAnswer": 2,
+        "explanation": "[Ere] is restricted to present tense usage in Dholuo."
+      },
+      {
+        "question": "If a sentence seeks the location of an object using [ere], how should it be structured?",
+        "options": [
+          "The object should be placed at the beginning, followed by [ere]",
+          "[Ere] should be placed before the object",
+          "The object should follow [ni kanye]",
+          "The sentence should start with [ni kanye]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "When using [ere] to ask about the location of an object, it should be placed before the object in the sentence."
+      },
+      {
+        "question": "What can be concluded about the choice between [ere] and [ni kanye]?",
+        "options": [
+          "It is primarily based on strict syntactic rules",
+          "It is mostly arbitrary, with a few grammatical restrictions",
+          "It depends on whether the sentence is interrogative or declarative",
+          "It is determined by tense and aspect alone"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The choice between [ere] and [ni kanye] is guided more by grammatical and semantic restrictions than rigid syntactic rules."
+      }
+    ]
+        },{
+            "title": "Positioning of the Negative Element Ok",
+            "htmlContent": "module-three/14.html",
+            "order": 14,
+            "practiceQuestions": [
+      {
+        "question": "In Dholuo, where can the negative morpheme [ok] be positioned in a sentence?",
+        "options": [
+          "Anywhere in the sentence",
+          "Only before the verb",
+          "Immediately before or after the sentence-initial constituent",
+          "At the end of the sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "[Ok] is flexible but must appear immediately before or after the sentence-initial constituent."
+      },
+      {
+        "question": "Which of the following sentences correctly follows the positioning rules of [ok]?",
+        "options": [
+          "Ng'at ni nyal ok ketho gira kamano",
+          "Ng'at ni nyal ketho gira kamano ok",
+          "Ng'at ni ok nyal ketho gira kamano",
+          "Ng'at ni nyal ketho ok gira kamano"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The correct positioning of [ok] is after the sentence-initial alpha term but before the auxiliary verb."
+      },
+      {
+        "question": "What happens to 'ok' when there is no alpha term in the sentence?",
+        "options": [
+          "It follows the verb",
+          "It appears before the verb in all cases",
+          "It appears after the subject",
+          "It becomes optional"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Without an alpha term, [ok] appears directly before the verb to maintain grammaticality."
+      },
+      {
+        "question": "In predications without an alpha term, where must [ok] be placed?",
+        "options": [
+          "Before the first noun",
+          "Before the verb",
+          "At the end of the sentence",
+          "After the verb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the absence of an alpha term, [ok] must precede the verb."
+      },
+      {
+        "question": "Which of the following sentences demonstrates correct positioning of [ok] in a structure without an alpha term?",
+        "options": [
+          "Okel ok ne japidi nanga",
+          "*Okel ne japidi nanga ok",
+          "*Okel ne ok japidi nanga",
+          "Ok okel ne japidi nanga"
+        ],
+        "correctAnswer": 3,
+        "explanation": "'Ok okel ne japidi nanga' places [ok] correctly before the verb when no alpha term is present."
+      },
+      {
+        "question": "If a sentence contains an auxiliary verb like [bi(ro)] 'to come' as a future marker, how should [ok] be positioned?",
+        "options": [
+          "Immediately before the auxiliary verb",
+          "Immediately after the auxiliary verb",
+          "At the end of the sentence",
+          "Between the auxiliary and the main verb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Ok] should precede the auxiliary verb [bi(ro)] to correctly mark negation."
+      },
+      {
+        "question": "Which of the following sentences correctly places [ok] when the future auxiliary verb [bi(ro)] is present?",
+        "options": [
+          "*Bi ok neg diel ne welo",
+          "Ok bi neg diel ne welo",
+          "*Diel bi ok neg ne welo",
+          "*Neg ok bi diel ne welo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ok bi neg diel ne welo' shows the proper placement of [ok] before the auxiliary [bi]."
+      },
+      {
+        "question": "How does the presence of a Time Adverb (TA) affect the placement of [ok]?",
+        "options": [
+          "[Ok] must always come before the Time Adverb",
+          "[Ok] may come before or after the Time Adverb, depending on the sentence structure",
+          "[Ok] must always be at the end of the sentence",
+          "[Ok] cannot be used with a Time Adverb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "[Ok] placement can vary relative to the Time Adverb depending on the sentence configuration."
+      },
+      {
+        "question": "Which of the following sentences correctly positions [ok] with respect to the Time Adverb (TA)?",
+        "options": [
+          "Ok kawuono Otieno bi neno sinema",
+          "*Otieno ok kawuono bi neno sinema",
+          "*Otieno kawuono bi ok neno sinema",
+          "*Kawuono Otieno bi ok neno sinema"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence 'Ok kawuono Otieno bi neno sinema' correctly places [ok] before the TA and the subject."
+      },
+      {
+        "question": "What is the primary rule governing the placement of [ok] in Dholuo sentences?",
+        "options": [
+          "[Ok] must always be at the beginning of the sentence",
+          "[Ok] must always follow a noun",
+          "[Ok] must be placed immediately before the verb in the absence of an alpha term",
+          "[Ok] can be placed anywhere as long as the meaning is clear"
+        ],
+        "correctAnswer": 2,
+        "explanation": "When there's no alpha term, [ok] must immediately precede the verb to function correctly."
+      }
+    ]
+        },{
+            "title": "Review & Practice",
+            "htmlContent": "module-three/15.html",
+            "order": 15
+        }],
+        "cat": {
+            "title": "Dholuo Predicate Frames, Expression Rules and Complex Sentences Assessment",
+            "description": "This CAT evaluates knowledge of Dholuo predicate frames, expression rules, and complex sentence structures.",
+            "duration": 60,
+            "passingScore": 50,
+            "maxAttempts": 3,
+            "questions": [
+              {
+                "question": "[Predicate Frames] Which of the following best describes an intransitive predicate frame in Dholuo?",
+                "options": [
+                  "It requires a subject and a direct object.",
+                  "It requires a subject, indirect object, and direct object.",
+                  "It requires only a subject and no object.",
+                  "It requires a subject and a locative complement."
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Predicate Frames] Which verb category in Dholuo includes actions where the subject is the experiencer rather than the agent?",
+                "options": [
+                  "Unergative verbs",
+                  "Ditransitive verbs",
+                  "Unaccusative verbs",
+                  "Monotransitive verbs"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Predicate Frames] Which predicate frame is exemplified by the sentence \"Omondi miyo nyar gi pesa\"?",
+                "options": [
+                  "Intransitive",
+                  "Monotransitive",
+                  "Ditransitive",
+                  "Reflexive"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Predicate Frames] Which of the following is NOT considered a satellite in a Dholuo predicate frame?",
+                "options": [
+                  "Time",
+                  "Location",
+                  "Subject",
+                  "Manner"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Predicate Frames] Why does Functional Grammar (FG) reject traditional subject-object assignments in Dholuo?",
+                "options": [
+                  "Because Dholuo lacks a clear distinction between subjects and objects.",
+                  "Because Dholuo relies more on semantic and pragmatic roles for sentence structure.",
+                  "Because the Subj-Obj distinction only applies to passive voice constructions.",
+                  "Because Dholuo allows free word order."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Predicate Frames] In unmarked Dholuo constituent order, what typically comes immediately after the verb?",
+                "options": [
+                  "The alpha term",
+                  "The lowest-ranked term",
+                  "The highest-ranked non-alpha function",
+                  "The satellite"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Predicate Frames] Which pragmatic function introduces a referent into discourse by framing its relevance?",
+                "options": [
+                  "Tail",
+                  "Theme",
+                  "Focus",
+                  "Topic"
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Predicate Frames] Which sentence correctly demonstrates a Tail function in Dholuo?",
+                "options": [
+                  "Kwach inego.",
+                  "Ok adware, wiye duong' no.",
+                  "Juma e ma ji dwaro.",
+                  "Nyako ma biro no en osiepni?"
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Predicate Frames] Which focus function in Dholuo is used to correct incorrect prior information?",
+                "options": [
+                  "Expanding Focus",
+                  "Selective Focus",
+                  "Replacing Focus",
+                  "Parallel Focus"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Predicate Frames] Which focus marker is commonly used in relative clauses?",
+                "options": [
+                  "e",
+                  "ma",
+                  "e ma",
+                  "gi"
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Predicate Frames] Which of the following prepositional markers is used for beneficiary marking in Dholuo?",
+                "options": [
+                  "gi",
+                  "mar",
+                  "e",
+                  "ne"
+                ],
+                "correctAnswer": 3
+              },
+              {
+                "question": "[Predicate Frames] What is the unique syntactic behavior of the directional preposition \"yo\" in Dholuo?",
+                "options": [
+                  "It allows preverbal positioning.",
+                  "It cannot co-occur with other general prepositions.",
+                  "It must always be marked by \"ma.\"",
+                  "It is optional in most cases."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Predicate Frames] Which of the following sentences best demonstrates a passive predicate frame?",
+                "options": [
+                  "Oneg diel.",
+                  "Ng'ato nego diel.",
+                  "Juma e ma ji dwaro.",
+                  "Aketo chiemo e wi mesa."
+                ],
+                "correctAnswer": 0
+              },
+              {
+                "question": "[Predicate Frames] Which of the following modifies a focus structure in Dholuo by introducing emphasis?",
+                "options": [
+                  "The addition of gi before the focus term",
+                  "The use of e ma after the focus term",
+                  "Placing the focus term after the verb",
+                  "The omission of a subject pronoun"
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Expression Rules] Which of the following best describes the role of Expression Rules in Functional Grammar?",
+                "options": [
+                  "They determine semantic roles rather than word order.",
+                  "They organize constituents based on preferential tendencies in sentence structure.",
+                  "They ensure that all constituents appear in free order without restrictions.",
+                  "They apply only to complex sentences and not simple ones."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Expression Rules] According to Dholuo Functional Patterning, where does the Alpha term (Agent) appear in a sentence?",
+                "options": [
+                  "Postverbal position (Ø)",
+                  "Preverbal position (A)",
+                  "Final position in the sentence",
+                  "Between the verb and the object"
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Expression Rules] Which of the following correctly represents a V Go structure in Dholuo?",
+                "options": [
+                  "Juma ema kelo kong'o.",
+                  "Japuonj omiyo nyathi buku.",
+                  "Ng'ato tedo rech.",
+                  "Nyathi dwaro ang'o?"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Expression Rules] In which verb placement pattern does the Goal occur after a Recipient?",
+                "options": [
+                  "V Go",
+                  "V Ben Go",
+                  "V Rec Go",
+                  "VØ"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Expression Rules] Which of the following best explains why X-constituents (e.g., Beneficiary) can be postposed in Dholuo?",
+                "options": [
+                  "They are not semantically necessary in a sentence.",
+                  "Dholuo permits movement of non-alpha terms without affecting grammaticality.",
+                  "They always remain at the end of the sentence regardless of meaning.",
+                  "The Beneficiary role is stronger than the Theme role."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Expression Rules] Which of the following is NOT an accurate description of word fronting in Dholuo interrogatives?",
+                "options": [
+                  "It places question words in preverbal positions.",
+                  "It leads to paraphrase variations in question formation.",
+                  "It allows alpha term interrogatives to appear postverbally.",
+                  "It does not significantly alter the meaning of the question."
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Expression Rules] Which of the following illustrates an interrogative structure where a non-alpha term is questioned?",
+                "options": [
+                  "Ng'a ma dwaro ruoth?",
+                  "Ere wuon ot?",
+                  "Nyathi dwaro ang'o?",
+                  "Ng'a ma sibuor ochamo?"
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Expression Rules] Which of the following demonstrates a questioned focus construction in Dholuo?",
+                "options": [
+                  "Bende oyud jakuo?",
+                  "Punda ng'a ma chamo?",
+                  "Jakuo okawo ang'o?",
+                  "Juma kelo kong'o."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Expression Rules] Which of the following best describes the difference between Straight Interrogatives and Questioned Focus Constructions?",
+                "options": [
+                  "Straight interrogatives use question words in their natural position, while Focus constructions highlight an element.",
+                  "Focus constructions are always declarative, while straight interrogatives are not.",
+                  "Straight interrogatives require auxiliary verbs, while Focus constructions do not.",
+                  "There is no significant difference between the two."
+                ],
+                "correctAnswer": 0
+              },
+              {
+                "question": "[Expression Rules] Which of the following illustrates a free or complementary distribution of an interrogative?",
+                "options": [
+                  "Ang'o ma jakuo okawo?",
+                  "Sibuor ochamo ng'a?",
+                  "Jakuo okawo ang'o?",
+                  "All of the above"
+                ],
+                "correctAnswer": 3
+              },
+              {
+                "question": "[Expression Rules] Which of the following demonstrates a Focus-marked declarative construction in Dholuo?",
+                "options": [
+                  "Juma kelo kong'o.",
+                  "Juma ema kelo kong'o.",
+                  "Bende oyud jakuo?",
+                  "Ng'a ma sibuor ochamo?"
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Expression Rules] Which of the following is grammatically incorrect according to Dholuo Functional Order?",
+                "options": [
+                  "Ng'ato omiyo Atieno pesa mathoth.",
+                  "Jatedo otuono japidi chiemo.",
+                  "Ere nyathi otieno?",
+                  "Ang'o nyathi dwaro?"
+                ],
+                "correctAnswer": 3
+              },
+              {
+                "question": "[Complex Sentences] Which of the following sentences correctly demonstrates the flexibility of Time Adverb (TA) placement in Dholuo?",
+                "options": [
+                  "Otieno nyalo loso kom ne min kawuono.",
+                  "Kawuono Otieno nyalo loso kom ne min.",
+                  "Otieno kawuono nyalo loso kom ne min.",
+                  "All of the above"
+                ],
+                "correctAnswer": 3
+              },
+              {
+                "question": "[Complex Sentences] In Dholuo, why can't a Time Adverb (TA) occur between the predicate and the binding constituent?",
+                "options": [
+                  "It disrupts the sentence's syntactic structure.",
+                  "It changes the meaning of the sentence completely.",
+                  "It results in an ambiguous focus structure.",
+                  "Dholuo does not allow Time Adverbs in any sentence-final position."
+                ],
+                "correctAnswer": 0
+              },
+              {
+                "question": "[Complex Sentences] Which of the following best explains the role of Cleft Constructions in Dholuo?",
+                "options": [
+                  "They provide additional satellite information.",
+                  "They act as Focus markers by separating a unified phrase.",
+                  "They introduce a syntactic pause in spoken discourse.",
+                  "They are primarily used for negation."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Complex Sentences] Which of the following represents a proper cleft construction in Dholuo?",
+                "options": [
+                  "Rech ema nyathi dwaro.",
+                  "Gi ma nyathi dwaro en rech.",
+                  "Nyathi dwaro rech.",
+                  "Otieno kawuono loso kom."
+                ],
+                "correctAnswer": 0
+              },
+              {
+                "question": "[Complex Sentences] Which of the following differentiates a pseudo-cleft from a proper cleft in Dholuo?",
+                "options": [
+                  "Pseudo-clefts use relative clauses, while proper clefts do not.",
+                  "Proper clefts contain more syntactic movement than pseudo-clefts.",
+                  "Pseudo-clefts retain the object-verb order, while proper clefts alter it.",
+                  "All of the above."
+                ],
+                "correctAnswer": 3
+              },
+              {
+                "question": "[Complex Sentences] Why can't the word ere replace ni kanye in Dholuo focus constructions?",
+                "options": [
+                  "Ere only occurs in past-tense constructions.",
+                  "Ere requires a pronominal subject to be grammatical.",
+                  "Ere lacks the necessary syntactic flexibility in focus structures.",
+                  "Ere must always be followed by an auxiliary verb."
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Complex Sentences] Which of the following correctly demonstrates the required placement of ere in a question structure?",
+                "options": [
+                  "Ere-i?",
+                  "I-ere?",
+                  "Ere ni kanye?",
+                  "Kanye ere?"
+                ],
+                "correctAnswer": 0
+              },
+              {
+                "question": "[Complex Sentences] In Dholuo negation, why must the negative morpheme \"ok\" follow the alpha term?",
+                "options": [
+                  "To preserve correct verb morphology.",
+                  "To prevent ambiguity in focus assignment.",
+                  "To ensure that the negative scope is correctly assigned.",
+                  "All of the above."
+                ],
+                "correctAnswer": 3
+              },
+              {
+                "question": "[Complex Sentences] Which of the following is grammatically incorrect in Dholuo negation?",
+                "options": [
+                  "Ok ng'at ni nyal ketho gira kamano.",
+                  "Ng'at ni ok nyal ketho gira kamano.",
+                  "Ng'at ni nyal ok ketho gira kamano.",
+                  "Gira ok ng'at ni nyal ketho kamano."
+                ],
+                "correctAnswer": 2
+              },
+              {
+                "question": "[Complex Sentences] When negating a sentence with an auxiliary verb, where must \"ok\" be placed?",
+                "options": [
+                  "Immediately before the auxiliary verb.",
+                  "After the auxiliary verb but before the main verb.",
+                  "After the main verb.",
+                  "Anywhere in the sentence, as long as negation is intended."
+                ],
+                "correctAnswer": 0
+              },
+              {
+                "question": "[Complex Sentences] Which of the following sentences correctly places \"ok\" in relation to an auxiliary verb?",
+                "options": [
+                  "Bi ok neg diel ne welo.",
+                  "Ok bi neg diel ne welo.",
+                  "Bi neg ok diel ne welo.",
+                  "Neg ok bi diel ne welo."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Complex Sentences] Which of the following negated sentences correctly positions a Time Adverb (TA)?",
+                "options": [
+                  "Ok kawuono Otieno bi neno sinema.",
+                  "Kawuono Otieno ok bi neno sinema.",
+                  "Otieno bi neno sinema ok kawuono.",
+                  "Otieno ok kawuono bi neno sinema."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Complex Sentences] In Dholuo, which word order constraint applies when both a Time Adverb and \"ok\" appear in a sentence?",
+                "options": [
+                  "\"Ok\" must always appear before the Time Adverb.",
+                  "The Time Adverb can appear pre-initially, but \"ok\" must follow the alpha term.",
+                  "\"Ok\" must be placed immediately after the auxiliary verb when a Time Adverb is present.",
+                  "Time Adverbs are incompatible with negation in Dholuo."
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "[Complex Sentences] Which sentence best demonstrates a pragmatic contrast in the placement of \"kawuono\" and \"ok\"?",
+                "options": [
+                  "Ok kawuono Otieno bi neno sinema.",
+                  "Kawuono Otieno ok bi neno sinema.",
+                  "Kawuono ok Otieno bi neno sinema.",
+                  "Otieno ok bi kawuono neno sinema."
+                ],
+                "correctAnswer": 1
+              }
+            ]
+          }
+        }
+    ],
+    "user": "64f8a8b47e89f752f9ef2c2a",
+    "isPublished": false
+}

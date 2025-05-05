@@ -1,0 +1,122 @@
+{
+    "title": "Advanced Dholuo Language Course",
+    "structure": "structure.html",
+    "modules": [
+      {
+        "title": "MODULE 03",
+        "description": "Simple Sentence Structures and Basic Grammar",
+        "order": 3,
+        "topics": [{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 1,
+            "practiceQuestions":[]
+        },
+        {
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 2,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 3,
+            "practiceQuestions":[]
+        }, {
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 4,
+            "practiceQuestions":[]
+        }, {
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 5,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 6,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 7,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 8,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 9,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 10,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 11,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 12,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 13,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 14,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 15,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 16,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 17,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 18,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 19,
+            "practiceQuestions":[]
+        },{
+            "title": "Predicate Frames, Expression Rules and Complex Sentences",
+            "htmlContent": "module-three/1.html",
+            "order": 20,
+            "practiceQuestions":[]
+        }],
+        "cat": {
+        "title": "Module 01 Assessment",
+        "description": "Test your knowledge",
+        "duration": 45,
+        "passingScore": 50,
+        "maxAttempts": 5
+      }
+        }
+    ],
+    "user": "64f8a8b47e89f752f9ef2c2a",
+    "isPublished": false
+}

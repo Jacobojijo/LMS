@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In Dholuo morphology, which prefix best reflects both gender and territorial origin when referring specifically to a woman from Seme?",
+        "options": [
+          "Ja Seme",
+          "Jo Seme",
+          "Nyar Seme",
+          "Nyako Seme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Nyar Seme' is the correct form for referring to a woman from Seme, combining gender ('Nyar') and location."
+      },
+      {
+        "question": "Which of the following pairs correctly demonstrates the singular and plural ethnonymic forms for people from Uganda?",
+        "options": [
+          "Ja Uganda / Ja Jo Uganda",
+          "Nyar Uganda / Jo Uganda",
+          "Ja Uganda / Jo Uganda",
+          "Jo Uganda / Jo Uganda"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Ja Uganda' refers to a single person from Uganda, while 'Jo Uganda' is the plural form."
+      },
+      {
+        "question": "Which region is matched incorrectly with its feminine ethnonymic form?",
+        "options": [
+          "Kabondo – Nyar Kabondo",
+          "Kano – Nyar Kano",
+          "Ugenya – Nyar Ugenya",
+          "Zaire – Nyar Zaire"
+        ],
+        "correctAnswer": 3,
+        "explanation": "'Nyar Zaire' is not a standard Dholuo construction for a feminine ethnonym from Zaire, making this an incorrect match."
+      },
+      {
+        "question": "What does the prefix “Ja-” indicate in Dholuo when attached to a place name?",
+        "options": [
+          "Only female origin",
+          "A plural ethnic group",
+          "A person from that location",
+          "A married woman from another clan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The prefix 'Ja-' indicates a person from the place mentioned, regardless of gender."
+      },
+      {
+        "question": "Which of the following reflects the plural form of Ja Asembo in Dholuo?",
+        "options": [
+          "Jo Asembo",
+          "Nyar Asembo",
+          "Jo Seme",
+          "Nyar Seme"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The plural of 'Ja Asembo' (a person from Asembo) is 'Jo Asembo' (people from Asembo)."
+      },
+      {
+        "question": "The Dholuo morphological system for ethnonyms primarily encodes which of the following linguistic features?",
+        "options": [
+          "Tense and aspect",
+          "Location and gender",
+          "Mood and tone",
+          "Voice and valency"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ethnonyms in Dholuo indicate both the origin (location) and gender of a person."
+      },
+      {
+        "question": "A Kenyan woman would most accurately be referred to as:",
+        "options": [
+          "Jo Kenya",
+          "Ja Kenya",
+          "Nyar Kenya",
+          "Nyako Kenya"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Nyar Kenya' is the appropriate feminine ethnonym for a woman from Kenya."
+      },
+      {
+        "question": "Which of the following demonstrates a correct use of “Ja-” for ethnicity, rather than geography?",
+        "options": [
+          "Ja Kisumo",
+          "Ja Kikuyu",
+          "Ja Asembo",
+          "Ja Kenya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ja Kikuyu' refers to a person of the Kikuyu ethnic group, demonstrating use of 'Ja-' for ethnicity."
+      },
+      {
+        "question": "Why might “Ja-” also imply a role of lineage representation in traditional Luo society?",
+        "options": [
+          "Because it denotes honorific age rank",
+          "Because men were usually community spokespersons",
+          "Because “Ja-” is an older term than “Nyar-”",
+          "Because it means \"firstborn male\""
+        ],
+        "correctAnswer": 1,
+        "explanation": "The use of 'Ja-' often implied social roles such as lineage representation, since men traditionally spoke on behalf of communities."
+      },
+      {
+        "question": "Which of the following sets includes only valid Dholuo regional ethnonyms for a group of people?",
+        "options": [
+          "Jo Kisumo, Jo Asembo, Jo Sudan",
+          "Jo Kenya, Nyar Kano, Jo Zambia",
+          "Jo Seme, Ja Kabondo, Nyar Uganda",
+          "Nyar Zaire, Ja Nyakach, Jo Turkana"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Jo Kisumo', 'Jo Asembo', and 'Jo Sudan' are all valid plural ethnonyms used in Dholuo."
+      }
+    ]
+  }
+  

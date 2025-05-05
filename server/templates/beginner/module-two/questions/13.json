@@ -1,0 +1,65 @@
+{
+    "pronounSentenceQuestions": [
+      {
+        "question": "Which of the following correctly translates “They are entering the house” in Dholuo?",
+        "options": ["Gin biro ot", "Gin gidonjo ot", "Gin bedo ot", "Gin gichopo ot"],
+        "correctAnswer": 1,
+        "explanation": "'Gidonjo' means 'are entering', and 'gin' is 'they', so 'Gin gidonjo ot' is the correct sentence."
+      },
+      {
+        "question": "In the phrase “An ma,” what is the functional purpose of the demonstrative “ma”?",
+        "options": ["It refers to a nearby object", "It acts as a possessive suffix", "It emphasizes the speaker as “this one”", "It replaces the subject pronoun"],
+        "correctAnswer": 2,
+        "explanation": "'Ma' is a demonstrative emphasizing the subject 'An' (I), as in 'I, this one'."
+      },
+      {
+        "question": "What is the correct 2nd person singular pronoun in Dholuo?",
+        "options": ["un", "in", "wan", "gin"],
+        "correctAnswer": 1,
+        "explanation": "'In' means 'you' (singular), used when speaking to one person."
+      },
+      {
+        "question": "Identify the sentence that means “We are sitting here.”",
+        "options": ["Wan wabedo kae", "Wan wabedo kacha", "Wan wabiro kae", "Wan wabedo mano"],
+        "correctAnswer": 0,
+        "explanation": "'Wabedo' is 'we are sitting', and 'kae' is 'here'."
+      },
+      {
+        "question": "Which of the following pronouns can be used for both 'he' and 'she' in Dholuo?",
+        "options": ["wan", "gin", "en", "in"],
+        "correctAnswer": 2,
+        "explanation": "'En' is a gender-neutral third-person singular pronoun meaning 'he/she'."
+      },
+      {
+        "question": "Select the sentence that correctly expresses “You (plural) leave that place.”",
+        "options": ["In wuok kacha", "Un uwuog kacha", "Un uwuok kacha", "Un wuok kae"],
+        "correctAnswer": 1,
+        "explanation": "'Un' is 'you' plural, and 'uwuog' is the plural imperative form of 'leave'."
+      },
+      {
+        "question": "Which Dholuo personal pronoun refers to “they/them”?",
+        "options": ["gin", "wan", "un", "en"],
+        "correctAnswer": 0,
+        "explanation": "'Gin' is the third-person plural pronoun in Dholuo."
+      },
+      {
+        "question": "What is the appropriate Dholuo translation for “You are coming now”?",
+        "options": ["In biro sani", "In biro kiny", "In dhi sani", "In nyalo sani"],
+        "correctAnswer": 0,
+        "explanation": "'Biro' is 'are coming', and 'sani' means 'now'."
+      },
+      {
+        "question": "Which of the following pairs accurately matches a Dholuo pronoun to its English equivalent?",
+        "options": ["wan → you (plural)", "gin → we", "un → you (plural)", "en → we"],
+        "correctAnswer": 2,
+        "explanation": "'Un' is 'you' plural. 'Wan' would be 'we', and 'gin' is 'they'."
+      },
+      {
+        "question": "What is the structure used for forming simple sentences with personal pronouns in Dholuo?",
+        "options": ["Verb + Pronoun + Object", "Demonstrative + Pronoun + Noun", "Subject Pronoun + Verb (+ Object/Location)", "Noun + Verb + Demonstrative"],
+        "correctAnswer": 2,
+        "explanation": "Dholuo uses the structure: Subject Pronoun + Verb + (optional Object/Location), e.g., 'Wan wadhi dala' (We go home)."
+      }
+    ]
+  }
+  

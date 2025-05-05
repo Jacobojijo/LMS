@@ -1,0 +1,65 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following is an example of a concrete noun in Dholuo?",
+        "options": ["Mor", "Kom", "Hera", "Thuolo"],
+        "correctAnswer": 1,
+        "explanation": "'Kom' refers to a tangible object (chair), making it a concrete noun."
+      },
+      {
+        "question": "What does the abstract noun 'Kuyo' in Dholuo represent?",
+        "options": ["Peace", "Sadness", "Strength", "Health"],
+        "correctAnswer": 1,
+        "explanation": "'Kuyo' expresses the emotion of sadness, making it an abstract noun."
+      },
+      {
+        "question": "Which of the following is an abstract noun representing a concept in Dholuo?",
+        "options": ["Buore", "Hera", "Guok", "Nyathii"],
+        "correctAnswer": 1,
+        "explanation": "'Hera' means love, a conceptual and emotional state, classifying it as an abstract noun."
+      },
+      {
+        "question": "In Dholuo, which of these is an example of a concrete noun related to animals?",
+        "options": ["Nyambura", "Mor", "Ratiro", "Muolo"],
+        "correctAnswer": 0,
+        "explanation": "'Nyambura' refers to a female animal, making it a concrete noun."
+      },
+      {
+        "question": "Which of the following abstract nouns in Dholuo refers to a positive quality?",
+        "options": ["Kuyo", "Teko", "Ngima", "Luor"],
+        "correctAnswer": 1,
+        "explanation": "'Teko' means strength, a positive and intangible quality, thus abstract."
+      },
+      {
+        "question": "What is the Dholuo word for 'field', a concrete noun representing a place?",
+        "options": ["Alap", "Skul", "Buore", "Liech"],
+        "correctAnswer": 0,
+        "explanation": "'Alap' means field, a specific physical location, making it a concrete noun."
+      },
+      {
+        "question": "Which of these is an abstract noun referring to a state of being in Dholuo?",
+        "options": ["Kwee", "Skul", "Nyinyo", "Nyathii"],
+        "correctAnswer": 0,
+        "explanation": "'Kwee' represents calmness or peace, a state of being that is abstract in nature."
+      },
+      {
+        "question": "Which of the following is an example of a concrete noun in Dholuo referring to an object?",
+        "options": ["Nyamburko", "Mor", "Muolo", "Thuolo"],
+        "correctAnswer": 0,
+        "explanation": "'Nyamburko' is a tangible object, fitting the definition of a concrete noun."
+      },
+      {
+        "question": "Which of the following abstract nouns in Dholuo represents an emotion?",
+        "options": ["Ber", "Mor", "Yien", "Guok"],
+        "correctAnswer": 1,
+        "explanation": "'Mor' means happiness or joy, an emotional state and thus an abstract noun."
+      },
+      {
+        "question": "In Dholuo, the word 'Nyinyo' represents which of the following?",
+        "options": ["Steel", "Freedom", "Honesty", "Child"],
+        "correctAnswer": 0,
+        "explanation": "'Nyinyo' means steel, a physical and tangible substance, making it a concrete noun."
+      }
+    ]
+  }
+  

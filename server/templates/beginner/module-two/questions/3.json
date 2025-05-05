@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following features best distinguishes personal nouns from impersonal nouns in Dholuo?",
+        "options": [
+          "They can be both abstract and concrete",
+          "They refer to countable objects",
+          "They are associated with agency and consciousness",
+          "They refer to phenomena like rain and wind"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Personal nouns in Dholuo typically indicate beings with agency and consciousness, such as people."
+      },
+      {
+        "question": "What type of noun is represented by the Dholuo word 'japuonjre'?",
+        "options": [
+          "Proper Personal Noun",
+          "Abstract Impersonal Noun",
+          "Relational/Occupational Personal Noun",
+          "Mass Impersonal Noun"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Japuonjre' refers to a teacher or instructor, making it an occupational personal noun."
+      },
+      {
+        "question": "Which of the following is an accurate pair of impersonal nouns in Dholuo based on their type?",
+        "options": [
+          "Nyathi – Mass / Mesa – Abstract",
+          "Koth – Natural / Pii – Mass",
+          "Okil – Abstract / Jatend piny – Concrete",
+          "Japuonj – Concrete / Hera – Kinship"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Koth' (rain) is a natural impersonal noun, while 'Pii' (water) is a mass noun."
+      },
+      {
+        "question": "Which pronouns in Dholuo are typically used to replace personal nouns?",
+        "options": [
+          "En, gi",
+          "En, gin",
+          "En, gi, ni",
+          "Gi, ma"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'En' (he/she) and 'gin' (they) are used for replacing singular and plural personal nouns."
+      },
+      {
+        "question": "Why would the noun 'japuonj' be classified as a personal noun in Dholuo?",
+        "options": [
+          "It represents an abstract idea",
+          "It lacks agency but is countable",
+          "It refers to a professional human role",
+          "It refers to a natural phenomenon"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Japuonj' refers to a teacher, a human with agency, hence a personal noun."
+      },
+      {
+        "question": "Which of the following statements is true regarding impersonal nouns in Dholuo?",
+        "options": [
+          "They refer only to intangible concepts",
+          "They can represent abstract, natural, concrete, or material elements",
+          "They are always replaced by gin",
+          "They indicate social identity and gender"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Impersonal nouns encompass abstract concepts, natural elements, and material things."
+      },
+      {
+        "question": "Identify the mismatch between noun type and category:",
+        "options": [
+          "Got – Concrete Impersonal",
+          "Lwasi – Abstract/Natural Impersonal",
+          "Japuonj – Kinship Personal",
+          "Kech – Abstract Impersonal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Japuonj' is occupational, not kinship-based, making this a category mismatch."
+      },
+      {
+        "question": "Which set of Dholuo nouns exclusively consists of mass or material impersonal nouns?",
+        "options": [
+          "Ochele, Pii, Moo",
+          "Nyathi, Mesa, Got",
+          "Hera, Teko, Thuolo",
+          "Koth, Nyamburko, Mor polo"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Ochele' (salt), 'Pii' (water), and 'Moo' (grain/alcohol) are mass or material impersonal nouns."
+      },
+      {
+        "question": "In the sentence 'Koth noketho nyamburko,' why are both nouns classified as impersonal?",
+        "options": [
+          "They both refer to abstract cultural values",
+          "They both represent titles and social identities",
+          "They do not involve human or personified agents",
+          "They are professional and kinship terms"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both 'Koth' (rain) and 'Nyamburko' (storm) are natural phenomena without agency, hence impersonal."
+      },
+      {
+        "question": "According to the classification presented, which of the following influences does not directly justify the categorization of nouns in Dholuo?",
+        "options": [
+          "Gender and agency of referents",
+          "Countability and mass noun behavior",
+          "Presence in metaphorical or poetic expressions",
+          "Nature of phenomena or abstract concepts"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Metaphorical use does not determine noun classification; agency, countability, and nature do."
+      }
+    ]
+  }
+  

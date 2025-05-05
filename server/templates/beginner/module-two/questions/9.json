@@ -1,0 +1,65 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which traditional Luo dish is prepared using silver cyprinid fish, often eaten fried or boiled?",
+        "options": ["Kamongo", "Omena", "Monye", "Aluru"],
+        "correctAnswer": 1,
+        "explanation": "'Omena' refers to silver cyprinid fish, a staple in Luo cuisine, commonly fried or boiled."
+      },
+      {
+        "question": "What cooking method involves fermenting vegetables such as spider plant (Akeyo) before preparation?",
+        "options": ["Aruda", "Aboka", "Alenya", "Kuon"],
+        "correctAnswer": 1,
+        "explanation": "'Aboka' is the fermentation method for preparing traditional vegetables like Akeyo."
+      },
+      {
+        "question": "Which vegetable, known for its slightly bitter taste, is often cooked with milk or butter in Luo cuisine?",
+        "options": ["Apoth", "Boo", "Osuga", "Onyulo"],
+        "correctAnswer": 2,
+        "explanation": "'Osuga' is known for its bitterness and is often softened by cooking it with milk or butter."
+      },
+      {
+        "question": "What Luo traditional food is made from pumpkin leaves often cooked with groundnut paste or milk?",
+        "options": ["Susa", "Mor alenya", "Alot Boo", "Dek"],
+        "correctAnswer": 0,
+        "explanation": "'Susa' is a dish made from pumpkin leaves cooked traditionally with groundnut paste or milk."
+      },
+      {
+        "question": "In Luo traditional food preservation, what is 'Aliya' best described as?",
+        "options": ["Fresh fish stew", "Smoked or sun-dried beef", "Fermented porridge", "Grilled mushroom"],
+        "correctAnswer": 1,
+        "explanation": "'Aliya' is preserved beef, either smoked or sun-dried, and commonly rehydrated before eating."
+      },
+      {
+        "question": "Which of the following is NOT a traditional Luo fruit according to the provided list?",
+        "options": ["Apoyo", "Mananas", "Rabolo", "Aluru"],
+        "correctAnswer": 3,
+        "explanation": "'Aluru' is not considered a traditional fruit among the Luo; it's typically known as an animal (edible frog)."
+      },
+      {
+        "question": "Which edible vegetable thrives mostly in swampy or wet riverbank areas?",
+        "options": ["It Kipoyo", "Nyasgumba", "Alika", "Nyuka"],
+        "correctAnswer": 1,
+        "explanation": "'Nyasgumba' is a leafy vegetable commonly found near swamps and riverbanks."
+      },
+      {
+        "question": "What is the primary traditional Luo carbohydrate dish made from maize flour?",
+        "options": ["Rabuon", "Kuon", "Mariewa", "Nyuka"],
+        "correctAnswer": 1,
+        "explanation": "'Kuon' is the staple dish made from maize flour, similar to ugali, and central to Luo meals."
+      },
+      {
+        "question": "\"Obwolo Madongo\" refers specifically to what kind of traditional Luo food?",
+        "options": ["Large wild mushrooms", "Stewed lungfish", "Roasted beef ribs", "Sweet fermented porridge"],
+        "correctAnswer": 0,
+        "explanation": "'Obwolo Madongo' refers to large edible wild mushrooms used in traditional Luo dishes."
+      },
+      {
+        "question": "Which vegetable requires very careful preparation due to its potential toxicity from cyanide compounds?",
+        "options": ["It Pilu Pilu", "It Omuogo", "It Nyanya", "Dindi"],
+        "correctAnswer": 1,
+        "explanation": "'It Omuogo' must be prepared with care as it can contain cyanide compounds if not handled properly."
+      }
+    ]
+  }
+  

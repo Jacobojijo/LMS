@@ -1,0 +1,75 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "In Dholuo, which term is used to express the direction 'South'?",
+        "options": ["Masawa", "Yimbo", "Milambo", "Nyandwat"],
+        "correctAnswer": 2,
+        "explanation": "'Milambo' is the Dholuo term commonly associated with 'South'."
+      },
+      {
+        "question": "Which Dholuo phrase would you use to say 'the sun sets in the West'?",
+        "options": [
+          "Chieng’ wuok yor Ugwe",
+          "Chieng’ podho yor Yimbo",
+          "Yamo dhi yor Milambo",
+          "Chieng’ wuok yor Masawa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Chieng’ podho yor Yimbo' directly translates to 'the sun sets towards Yimbo (the West)'."
+      },
+      {
+        "question": "What is the correct translation for the Dholuo phrase 'Idh malo'?",
+        "options": ["Come down", "Climb up", "Sit down", "Stand up"],
+        "correctAnswer": 1,
+        "explanation": "'Idh malo' means 'climb up' in Dholuo."
+      },
+      {
+        "question": "Which of the following Dholuo terms is associated with 'down' or 'below'?",
+        "options": ["Malo", "Piny", "Yor", "Masawa"],
+        "correctAnswer": 1,
+        "explanation": "'Piny' in Dholuo refers to 'the ground' or 'down/below'."
+      },
+      {
+        "question": "Which term combines a verb and a locative marker to express the action 'Come down'?",
+        "options": ["Idh malo", "Lor piny", "Bed piny", "Chung’ malo"],
+        "correctAnswer": 1,
+        "explanation": "'Lor piny' literally translates to 'come down'."
+      },
+      {
+        "question": "In Dholuo, what is the correct phrase for instructing many people to 'sit down'?",
+        "options": ["Bed piny", "Lor piny", "Bedu uru piny", "Chung’ malo"],
+        "correctAnswer": 2,
+        "explanation": "'Bedu uru piny' is the plural command for 'sit down'."
+      },
+      {
+        "question": "The Dholuo term 'Masawa' primarily refers to which cardinal direction?",
+        "options": ["East", "South", "North / Central", "West"],
+        "correctAnswer": 2,
+        "explanation": "'Masawa' refers to the North or Central region in Dholuo spatial orientation."
+      },
+      {
+        "question": "What does the verb-preposition structure 'Chieng’ wuok yor Ugwe' illustrate?",
+        "options": [
+          "Vertical movement only",
+          "Ascending actions",
+          "Subject + verb + directional phrase",
+          "Object + verb + directional phrase"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The structure represents subject ('Chieng’') + verb ('wuok') + direction ('yor Ugwe')."
+      },
+      {
+        "question": "Which movement expression would describe traveling eastwards in Dholuo?",
+        "options": ["Yor Yimbo", "Yor Milambo", "Yor Ugwe", "Yor Masawa"],
+        "correctAnswer": 2,
+        "explanation": "'Yor Ugwe' is used to express eastward movement."
+      },
+      {
+        "question": "Which cultural observation is associated with the term 'Yimbo' in Dholuo cosmology?",
+        "options": ["Sunrise", "Sunset", "Wind from the south", "Wind from the north"],
+        "correctAnswer": 1,
+        "explanation": "'Yimbo' is culturally associated with the direction of sunset in Dholuo cosmology."
+      }
+    ]
+  }
+  

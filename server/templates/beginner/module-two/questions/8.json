@@ -1,0 +1,65 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following is an example of a wild animal in Dholuo?",
+        "options": ["Gueno", "Sibuor", "Dhiang’", "Akuru"],
+        "correctAnswer": 1,
+        "explanation": "'Sibuor' refers to a leopard, which is a wild animal in Dholuo."
+      },
+      {
+        "question": "What is the Dholuo word for 'cow'?",
+        "options": ["Diel", "Dhiang’", "Ruath", "Dhok"],
+        "correctAnswer": 1,
+        "explanation": "'Dhiang’' is the Dholuo word for cow, a commonly domesticated animal."
+      },
+      {
+        "question": "Which of the following animals is a type of fish in Dholuo?",
+        "options": ["Kamongo", "Jowi", "Opuk", "Ogwang’"],
+        "correctAnswer": 0,
+        "explanation": "'Kamongo' refers to catfish, a type of fish in Dholuo."
+      },
+      {
+        "question": "Which of the following is a type of bird in Dholuo?",
+        "options": ["Nyakech", "Tula", "Fuko", "Nyiguogi"],
+        "correctAnswer": 1,
+        "explanation": "'Tula' is a type of bird, commonly recognized in Dholuo language."
+      },
+      {
+        "question": "What is the Dholuo word for 'goat'?",
+        "options": ["Rombo", "Diel", "Yim", "Paka"],
+        "correctAnswer": 1,
+        "explanation": "'Diel' is the Dholuo word for goat, a domesticated animal."
+      },
+      {
+        "question": "Which of the following animals is a wild cat in Dholuo?",
+        "options": ["Kibwe", "Ogwang’", "Jowi", "Liwinji"],
+        "correctAnswer": 1,
+        "explanation": "'Ogwang’' is the Dholuo term for a wild cat species."
+      },
+      {
+        "question": "What is the Dholuo word for 'rabbit'?",
+        "options": ["Apuoyo", "Nyakech", "Opuk", "Magwar Okanga"],
+        "correctAnswer": 0,
+        "explanation": "'Apuoyo' is the Dholuo word for rabbit, a small mammal."
+      },
+      {
+        "question": "Which of the following animals is a type of fish in Dholuo?",
+        "options": ["Mbuta", "Ruath", "Tiga Ng’ute bor", "Jowi"],
+        "correctAnswer": 0,
+        "explanation": "'Mbuta' refers to Nile perch, a common fish in Dholuo-speaking regions."
+      },
+      {
+        "question": "Which of these is the correct plural form of 'Guok' (dog) in Dholuo?",
+        "options": ["Guogi", "Nyiguogi", "Pekni", "Dhok"],
+        "correctAnswer": 0,
+        "explanation": "'Guogi' is the plural form of 'Guok' (dog) in Dholuo."
+      },
+      {
+        "question": "Which of the following is a domestic animal in Dholuo?",
+        "options": ["Sibuor", "Dhiang’", "Rawo", "Thuol"],
+        "correctAnswer": 1,
+        "explanation": "'Dhiang’' (cow) is a domesticated animal in Dholuo culture."
+      }
+    ]
+  }
+  

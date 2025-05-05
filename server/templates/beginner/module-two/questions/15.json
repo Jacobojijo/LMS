@@ -1,0 +1,65 @@
+{
+    "demonstrativeQuestions": [
+      {
+        "question": "Which demonstrative would correctly translate the phrase “That over there is a herdsman”?",
+        "options": ["Ma en jakwath", "Mago en jakwath", "Mano en jakwath", "Macha e jakwath"],
+        "correctAnswer": 3,
+        "explanation": "'Macha' is the far demonstrative for singular nouns, meaning 'that over there'."
+      },
+      {
+        "question": "What is the Dholuo phrase for “These are boys”?",
+        "options": ["Mago gin yawuoi", "Magi gin yawuoi", "Maka gin yawuoi", "Magi en yawuoi"],
+        "correctAnswer": 1,
+        "explanation": "'Magi' is used for nearby plural nouns, and 'gin' matches plural subject."
+      },
+      {
+        "question": "Which demonstrative suffix should be added to “Ng’at” to form “This person”?",
+        "options": ["-go", "-ni", "-ka", "-cha"],
+        "correctAnswer": 1,
+        "explanation": "'-ni' is the suffix for 'this' when referring to something close."
+      },
+      {
+        "question": "What is the Dholuo equivalent of the phrase “Those are your cows”?",
+        "options": ["Maka gin dhog-u", "Maka en dhog-u", "Mago gin dhog-u", "Mago en dhog-u"],
+        "correctAnswer": 0,
+        "explanation": "'Maka' is for plural demonstrative far from the speaker; 'gin' is the plural subject."
+      },
+      {
+        "question": "Which of the following pairs correctly shows singular and plural demonstratives far from both speaker and listener?",
+        "options": ["Ma / Magi", "Mano / Mago", "Macha / Maka", "Ma / Maka"],
+        "correctAnswer": 2,
+        "explanation": "'Macha' (that over there - singular) and 'Maka' (those over there - plural)."
+      },
+      {
+        "question": "Which of these translates as “This lake” in Dholuo using the correct demonstrative noun form?",
+        "options": ["Dheni", "Namni", "Dalani", "Namcha"],
+        "correctAnswer": 1,
+        "explanation": "'Nam' (lake) + '-ni' (this) → 'Namni'."
+      },
+      {
+        "question": "If “Yawoni” means “this pond,” which of the following follows the same demonstrative formation logic?",
+        "options": ["Komgo", "Dheni", "Mano", "Maka"],
+        "correctAnswer": 1,
+        "explanation": "'Dheni' follows the structure noun + '-ni', same as 'Yawoni'."
+      },
+      {
+        "question": "Which phrase means “What are those?” referring to nearby plural objects?",
+        "options": ["Magi ang’o?", "Maka ang’o?", "Mago ang’o?", "Mano ang’o?"],
+        "correctAnswer": 2,
+        "explanation": "'Mago' is for nearby plural objects; 'ang’o' means 'what'."
+      },
+      {
+        "question": "What is the correct translation for the sentence: “This is her tree”?",
+        "options": ["Ma en yadhgi", "Ma en yadh-e", "Ma ni yadh-e", "Ma e yadh-e"],
+        "correctAnswer": 1,
+        "explanation": "Use 'Ma en' for 'This is' and 'yadh-e' for 'her tree'."
+      },
+      {
+        "question": "Which demonstrative form correctly matches “Odni” in both structure and spatial reference?",
+        "options": ["Ng’atcha", "Yorcha", "Dheni", "Dalani"],
+        "correctAnswer": 3,
+        "explanation": "Like 'Odni', 'Dalani' uses '-ni' and refers to a nearby place."
+      }
+    ]
+  }
+  
