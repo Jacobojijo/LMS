@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What was the primary role of elders (jodongo) in Luo public speaking?",
+        "options": [
+          "Telling fictional stories for entertainment",
+          "Addressing the community on important matters",
+          "Teaching children how to dance",
+          "Writing speeches for the younger generation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Elders (jodongo) were respected figures who addressed the community on important social, political, and cultural matters."
+      },
+      {
+        "question": "Which of the following was a key cultural foundation of Luo public speaking?",
+        "options": [
+          "Written speeches",
+          "Storytelling tradition (sigana)",
+          "Use of technology in presentations",
+          "Reciting speeches from books"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The storytelling tradition (sigana) was central to Luo public speaking, serving both instructional and rhetorical purposes."
+      },
+      {
+        "question": "What is the purpose of the introduction in a Luo speech?",
+        "options": [
+          "To immediately present the conclusion",
+          "To summarize all points at once",
+          "To capture the audience’s attention and establish rapport",
+          "To provide unrelated information before the main topic"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The introduction sets the tone for the speech, engages the audience, and establishes a connection with listeners."
+      },
+      {
+        "question": "How was storytelling (sigana) used in Luo public speaking?",
+        "options": [
+          "To structure speeches using metaphors and anecdotes",
+          "To replace formal speeches in important meetings",
+          "To entertain children during ceremonies",
+          "To confuse the audience with unnecessary details"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Storytelling was used to illustrate points and engage listeners using cultural metaphors and narratives."
+      },
+      {
+        "question": "Which of the following is a technique for organizing a speech in Luo culture?",
+        "options": [
+          "Starting with the conclusion",
+          "Using a narrative structure with a problem, solution, and call to action",
+          "Avoiding cultural references",
+          "Speaking without any logical flow"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Luo speeches often followed a narrative format, presenting a problem, offering solutions, and ending with a call to action."
+      },
+      {
+        "question": "What technique did Luo speakers use to guide the audience through their speech?",
+        "options": [
+          "Ignoring transitional phrases",
+          "Using transitional phrases for logical flow",
+          "Speaking in one continuous sentence",
+          "Pausing frequently to let the audience guess the next point"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Transitional phrases were used to maintain flow and clarity in the structure of the speech."
+      },
+      {
+        "question": "Why was eye contact important in Luo public speaking?",
+        "options": [
+          "It helped memorize the speech",
+          "It created a connection and built trust with the audience",
+          "It was used only when addressing elders",
+          "It helped the speaker avoid nervousness"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Maintaining eye contact helped speakers build trust and demonstrate sincerity to their audience."
+      },
+      {
+        "question": "What was the function of proverbs (ngero) in Luo speech conclusions?",
+        "options": [
+          "To introduce a new topic",
+          "To summarize key points and leave a lasting impression",
+          "To confuse the audience with difficult words",
+          "To distract listeners from the main message"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Proverbs were commonly used at the end of speeches to emphasize core messages and provide cultural wisdom."
+      },
+      {
+        "question": "Which of the following was NOT a delivery technique used in Luo public speaking?",
+        "options": [
+          "Vocal modulation",
+          "Avoiding eye contact",
+          "Body language",
+          "Pacing and pauses"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Avoiding eye contact was not encouraged; effective speakers used voice, gestures, and eye contact to enhance delivery."
+      },
+      {
+        "question": "What was a key function of public speaking in traditional Luo society?",
+        "options": [
+          "Strengthening social cohesion and decision-making",
+          "Encouraging personal wealth accumulation",
+          "Promoting individual competition over communal unity",
+          "Preventing storytelling from being used in communication"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Public speaking in traditional Luo society was vital for promoting unity, sharing knowledge, and guiding communal decisions."
+      }
+    ]
+  }
+  

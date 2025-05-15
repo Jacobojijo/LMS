@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What does the Dholuo idiom \"goyo oriti\" mean?",
+        "options": [
+          "To make noise",
+          "To say good-bye",
+          "To paint",
+          "To play soccer"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Goyo oriti\" is a polite or affectionate way of bidding farewell in Dholuo."
+      },
+      {
+        "question": "Which of the following idioms expresses perseverance in Dholuo?",
+        "options": [
+          "Bul Ng’or",
+          "Twee Okanda",
+          "Cham Nyanji",
+          "Achiedh Nade"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Twee Okanda\" literally means 'iron rod bends,' metaphorically representing endurance or perseverance."
+      },
+      {
+        "question": "The expression \"wiye owil\" in Dholuo figuratively means:",
+        "options": [
+          "He is sad",
+          "He is intelligent",
+          "He has forgotten",
+          "He is angry"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Wiye owil\" implies sharpness of mind or intelligence — 'his brain is fast'."
+      },
+      {
+        "question": "If someone tells you \"Piny Obaya Gi Bad Ogwal\", what does it mean?",
+        "options": [
+          "They are warning of a coming disaster",
+          "They are describing failure",
+          "They are encouraging someone",
+          "They are referring to a tough situation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The idiom literally translates to 'the world has ended like a frog’s back' and denotes failure or a bad outcome."
+      },
+      {
+        "question": "Which idiom means \"Relax\" in Dholuo?",
+        "options": [
+          "Ng’ado Guok",
+          "Ol Pii e Agogi",
+          "Bul Ng’or",
+          "Kaa Laki"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Bul Ng’or\" is a calming idiomatic expression meaning 'take it easy' or 'relax.'"
+      },
+      {
+        "question": "The literal translation of \"mako ich\" is \"to hold stomach.\" What does it actually mean?",
+        "options": [
+          "To be full",
+          "To have stomach pain",
+          "To conceive",
+          "To be scared"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Figuratively, \"mako ich\" is a euphemism for pregnancy or conceiving."
+      },
+      {
+        "question": "In Dholuo, what does \"Cham Nyanji\" figuratively mean?",
+        "options": [
+          "To be patient",
+          "To compromise",
+          "To be greedy",
+          "To humble oneself"
+        ],
+        "correctAnswer": 3,
+        "explanation": "\"Cham Nyanji\" (eating leftovers) implies humility or being modest."
+      },
+      {
+        "question": "If a Dholuo speaker says \"chieth opong’o odheru\", what are they referring to?",
+        "options": [
+          "A funny situation",
+          "A difficult time",
+          "A misunderstanding",
+          "A happy event"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Literally 'ashes have filled the fireplace,' referring to hardship or tough times."
+      },
+      {
+        "question": "What does the idiom \"Olwar e Pii gi Lepe\" convey?",
+        "options": [
+          "Things turned against someone",
+          "Someone is stubborn",
+          "A person is exhausted",
+          "Someone is being encouraged"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The phrase implies a person is caught in an unfavorable situation, like being swept in turbulent waters with luggage."
+      },
+      {
+        "question": "Which of the following idioms means “Ignore” in Dholuo?",
+        "options": [
+          "Go gi Chung’",
+          "Kaa Laki",
+          "Din Iti",
+          "Dee Nyuok"
+        ],
+        "correctAnswer": 0,
+        "explanation": "\"Go gi Chung’\" is used to indicate brushing something off or ignoring someone/something."
+      }
+    ]
+  }
+  

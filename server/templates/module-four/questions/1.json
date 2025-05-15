@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What morpheme signals the conditional clause in Dholuo?",
+        "options": [
+          "[mondo]",
+          "[ka]",
+          "[to]",
+          "[pogae]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The morpheme [ka] is used to signal conditional clauses in Dholuo."
+      },
+      {
+        "question": "Which of the following sentences illustrates the variation in the positioning of the conditional clause in Dholuo?",
+        "options": [
+          "Ka ng'ato dwaro chiemo to (mondo) otedi.",
+          "Ka in gi pesa to wadhi e duka ka meru ok nyal dhaw.",
+          "Guok ka onego paka to wan gi chandruok.",
+          "All of the above."
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three sentences demonstrate different ways a conditional clause can be positioned within a sentence in Dholuo."
+      },
+      {
+        "question": "In the sentence 'Ka oriemb japuonj to an bende aa,' what does [ka] signify?",
+        "options": [
+          "A subject marker",
+          "A past tense marker",
+          "A conditional clause marker",
+          "A plural marker"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The marker [ka] signals a conditional clause in Dholuo grammar."
+      },
+      {
+        "question": "What restriction applies when there are multiple conditional clauses in one sentence?",
+        "options": [
+          "They must always appear at the beginning of the sentence.",
+          "There is no restriction; conditional clauses can be placed freely.",
+          "The second conditional clause cannot begin the sentence.",
+          "Each conditional clause must contain the word [mondo]."
+        ],
+        "correctAnswer": 2,
+        "explanation": "When there are multiple conditional clauses, the second one cannot begin the sentence."
+      },
+      {
+        "question": "What determines the placement of [ka] within a conditional clause?",
+        "options": [
+          "The presence of an adverbial phrase",
+          "The left-most preverbal nominal constituent",
+          "The use of [mondo] in the sentence",
+          "Whether the sentence contains a verb"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The position of [ka] is determined by the left-most preverbal nominal constituent in the clause."
+      },
+      {
+        "question": "Which sentence demonstrates the unacceptable pattern of conditional clause positioning?",
+        "options": [
+          "Ka in gi kuon to pognae ka meru ok nyal dhaw.",
+          "Ka meru ok nyal dhaw to pognae kuon ka in go.",
+          "Ka in go to pognae kuon ka meru ok nyal dhaw.",
+          "Ka meru ok nyal dhaw to ka in gi kuon to pognae."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sentence (c) demonstrates an unacceptable structure due to improper ordering of conditional clauses."
+      },
+      {
+        "question": "In the sentence 'Ka paka guok onego to wan gi chandruok,' what syntactic function does [ka] serve?",
+        "options": [
+          "Object marker",
+          "Topicalization marker",
+          "Conditional clause marker",
+          "Possessive marker"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In this sentence, [ka] functions as a marker introducing the conditional clause."
+      },
+      {
+        "question": "Which of the following correctly generalizes the derivational structure of a conditional clause in Dholuo?",
+        "options": [
+          "[Ka] S to [mondo] Q or Q [ka] S",
+          "Q to [ka] S [mondo]",
+          "S [mondo] Q [ka]",
+          "Q S to [ka] [mondo]"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The correct generalization for the structure is '[Ka] S to [mondo] Q' or 'Q [ka] S'."
+      },
+      {
+        "question": "What is the role of a conditional clause in Dholuo syntax?",
+        "options": [
+          "It acts as an adverbial satellite modifying the whole independent clause.",
+          "It always introduces a subject noun phrase.",
+          "It is used to mark tense and aspect.",
+          "It functions only in imperative sentences."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Conditional clauses in Dholuo act as adverbial satellites modifying the entire independent clause."
+      },
+      {
+        "question": "Why is the phrase 'Ka waonge' in the sentence 'Ka in gi pesa to wadhi e duka ka meru ok nyal dhaw kaobiro oyudo ka waonge' not considered a conditional clause?",
+        "options": [
+          "Because it lacks a verb.",
+          "Because it is a temporal rather than a conditional clause.",
+          "Because it contains the word [mondo].",
+          "Because [ka] cannot appear before a noun."
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Ka waonge' is interpreted as a temporal clause, not a conditional clause, even though it contains [ka]."
+      }
+    ]
+  }
+  

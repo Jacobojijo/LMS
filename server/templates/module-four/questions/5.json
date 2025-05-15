@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What was the primary purpose of music in the Luo community?",
+        "options": [
+          "For entertainment only",
+          "To express personal emotions",
+          "It was functional, serving ceremonial, religious, and political purposes",
+          "To replace written records"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Music in the Luo community was functional, used in ceremonies, religious events, and political settings."
+      },
+      {
+        "question": "Which of the following is NOT a genre of Luo oral literature?",
+        "options": [
+          "Sigana (narratives)",
+          "Pakruok (self-praise)",
+          "Tugo (drama/play)",
+          "Mitunguu (legends)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "‘Mitunguu’ is not a recognized genre in Luo oral literature, unlike Sigana, Pakruok, and Tugo."
+      },
+      {
+        "question": "Which Luo proverb emphasizes the importance of intelligence?",
+        "options": [
+          "Chieng’ Ber nenore okinyi",
+          "Obwongo en mwandu",
+          "Ng’ama paro ni ochung’, ong’i kik ogore piny",
+          "Piyopiyo onge gi gweth"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘Obwongo en mwandu’ means 'intelligence is wealth', emphasizing the value of intellect."
+      },
+      {
+        "question": "What is the primary function of proverbs in Luo society?",
+        "options": [
+          "To confuse listeners",
+          "To entertain people at gatherings",
+          "To provide moral instruction and wisdom",
+          "To create complex poetry"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Luo proverbs are rich in moral teaching and often convey traditional wisdom."
+      },
+      {
+        "question": "How do Luo proverbs relate to idioms?",
+        "options": [
+          "They both have literal meanings only",
+          "Proverbs are statements of wisdom, while idioms are figurative expressions",
+          "Idioms are only found in English, while proverbs exist in Luo",
+          "Proverbs are used for humor, while idioms teach moral lessons"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Proverbs are wise sayings; idioms are culturally specific expressions not always literal."
+      },
+      {
+        "question": "What does the proverb \"A cowardly hyena lives for many years\" mean?",
+        "options": [
+          "A hyena is stronger than other animals",
+          "Being cautious and patient leads to survival",
+          "Cowards do not face their fears",
+          "Hyenas are scared animals"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The proverb praises caution and patience as traits that help ensure survival."
+      },
+      {
+        "question": "Which Luo proverb warns against acting too hastily?",
+        "options": [
+          "Chieng’ Ber nenore okinyi",
+          "Piyopiyo onge gi gweth",
+          "Obwongo en mwandu",
+          "A hare is small but gives birth to twins"
+        ],
+        "correctAnswer": 1,
+        "explanation": "‘Piyopiyo onge gi gweth’ means 'haste has no blessings', warning against rushing into actions."
+      },
+      {
+        "question": "What is the literal meaning of the proverb \"Chieng’ Ber nenore okinyi\"?",
+        "options": [
+          "A bad day starts in the morning",
+          "The sun is always bright in the morning",
+          "A good day is visible in the morning",
+          "Rain comes before the sun rises"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This proverb suggests that the success or failure of a day is often evident early on."
+      },
+      {
+        "question": "What is the role of oral literature in the Luo community?",
+        "options": [
+          "It is used only for amusement",
+          "It helps preserve cultural identity and history",
+          "It is written down in historical books",
+          "It is only performed during ceremonies"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Oral literature is central to the preservation of Luo culture and history."
+      },
+      {
+        "question": "Which of the following best describes how Luo proverbs are transmitted?",
+        "options": [
+          "Through written records and textbooks",
+          "Through oral storytelling and conversation",
+          "Only through formal education in schools",
+          "By translating them into multiple languages"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Luo proverbs are passed down orally through storytelling and informal communication."
+      }
+    ]
+  }
+  

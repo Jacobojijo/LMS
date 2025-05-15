@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What was the primary function of debate in traditional Luo society?",
+        "options": [
+          "To promote individual dominance in the community",
+          "To foster critical thinking and collaborative decision-making",
+          "To replace storytelling as the main form of communication",
+          "To entertain elders with complex arguments"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Debates were used to engage in critical thinking and facilitate collaborative decision-making for the good of the community."
+      },
+      {
+        "question": "How were debates used in conflict resolution among the Luo?",
+        "options": [
+          "They allowed the most powerful individual to dictate the outcome",
+          "They were used to avoid resolving disputes and prolong conflicts",
+          "They involved participants presenting arguments to elders or community leaders for judgment",
+          "They focused only on personal grievances rather than communal issues"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Debates provided a structured platform for presenting arguments, allowing elders or leaders to assess and resolve conflicts."
+      },
+      {
+        "question": "What was a key feature of communal governance debates in Luo society?",
+        "options": [
+          "Emphasizing collective decision-making over individual dominance",
+          "Encouraging aggressive competition among leaders",
+          "Promoting secrecy in decision-making processes",
+          "Avoiding discussions on important communal issues"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Luo debates focused on unity and consensus-building rather than individual control."
+      },
+      {
+        "question": "What was the first step in structuring arguments in a Luo debate?",
+        "options": [
+          "Presenting counterarguments immediately",
+          "Clearly defining the issue and stating one’s position",
+          "Avoiding any cultural references",
+          "Starting with the rebuttal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Debaters began by clearly stating the issue and their stance to lay a solid foundation for discussion."
+      },
+      {
+        "question": "How did Luo debaters strengthen their arguments?",
+        "options": [
+          "By using cultural values, historical examples, or personal anecdotes",
+          "By making random statements without logical connections",
+          "By speaking louder than their opponents",
+          "By ignoring opposing arguments"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Debaters used culturally resonant examples and values to make their points more convincing and relatable."
+      },
+      {
+        "question": "What was the purpose of the rebuttal in a Luo debate?",
+        "options": [
+          "To ignore opposing arguments",
+          "To directly address and refute opposing arguments with logical reasoning",
+          "To repeat the opening statement",
+          "To change the topic of the debate"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Rebuttals allowed speakers to counter opposing points thoughtfully and logically."
+      },
+      {
+        "question": "Why was cultural relevance important in Luo debates?",
+        "options": [
+          "It made arguments more relatable and persuasive to the audience",
+          "It allowed debaters to avoid answering difficult questions",
+          "It made debates longer and more complicated",
+          "It helped speakers avoid logical consistency"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tying arguments to cultural context made them more meaningful and effective for the audience."
+      },
+      {
+        "question": "How did debates contribute to leadership and governance in Luo society?",
+        "options": [
+          "They ensured that communal decisions were democratic and inclusive",
+          "They allowed leaders to impose their decisions without opposition",
+          "They discouraged open discussions among community members",
+          "They were used only for entertainment purposes"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Debates helped foster inclusive and participatory decision-making in governance."
+      },
+      {
+        "question": "What role did speeches and debates play in cultural education among the Luo?",
+        "options": [
+          "They transmitted knowledge and cultural values to younger generations",
+          "They were only used for entertainment at ceremonies",
+          "They focused only on political leadership and ignored other aspects of life",
+          "They prevented the use of oral traditions in communication"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Debating and public speaking were tools for teaching values, history, and knowledge to the youth."
+      },
+      {
+        "question": "How did Luo debaters maintain respect and civility in debates?",
+        "options": [
+          "By avoiding personal attacks and upholding community harmony",
+          "By interrupting opponents frequently to gain an advantage",
+          "By refusing to acknowledge opposing viewpoints",
+          "By using aggressive language to dominate discussions"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Respect and community harmony were crucial, so debaters avoided personal attacks and maintained civility."
+      }
+    ]
+  }
+  

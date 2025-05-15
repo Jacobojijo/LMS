@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What was the primary purpose of music in Luo culture?",
+        "options": [
+          "To serve specific functional purposes within the community",
+          "To entertain without any deeper meaning",
+          "To replace storytelling as the main form of communication",
+          "To imitate Western musical styles"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Music in Luo culture served specific functional purposes such as for ceremonies, communal work, and spiritual significance."
+      },
+      {
+        "question": "In which ceremony was music used to praise the departed and console the bereaved?",
+        "options": [
+          "Dudu",
+          "Tero Buru",
+          "Ohangla",
+          "Ramogi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Tero Buru ceremony involved music to honor and console those mourning the loss of loved ones."
+      },
+      {
+        "question": "How did Luo music contribute to communal work activities?",
+        "options": [
+          "By helping workers maintain a rhythmic pace and foster teamwork",
+          "By distracting workers from their tasks",
+          "By replacing verbal communication during labor",
+          "By being performed only in private settings"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Luo music helped to synchronize the rhythm of work and promote cooperation among community members."
+      },
+      {
+        "question": "Which of the following was a spiritual use of music in Luo culture?",
+        "options": [
+          "Organizing wrestling matches",
+          "Composing war songs for returning warriors",
+          "Chasing away evil spirits, such as in Nyawawa songs",
+          "Enhancing beer parties (Dudu)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Music was used spiritually, including the Nyawawa songs that were intended to drive away evil spirits."
+      },
+      {
+        "question": "Which of the following was a key characteristic of Luo music's rhythmic structure?",
+        "options": [
+          "Simple and monotonous beats",
+          "Complex syncopation with anacrusic beginnings",
+          "Complete absence of rhythm in songs",
+          "Strict use of Western-style time signatures"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Luo music was characterized by complex rhythms, with syncopation and anacrusic (off-beat) beginnings."
+      },
+      {
+        "question": "What was the purpose of the call-and-response style in Luo music?",
+        "options": [
+          "To create audience participation and interaction with the lead singer",
+          "To limit the number of people involved in performances",
+          "To avoid repetition in songs",
+          "To discourage communal involvement in music"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Call-and-response allowed the audience to actively participate and engage with the music."
+      },
+      {
+        "question": "What was the role of Pakruok in Luo musical performances?",
+        "options": [
+          "It involved a performer pausing to chant self-praise",
+          "It was a type of slow, mournful singing style",
+          "It was a traditional musical instrument",
+          "It was used to teach young children how to sing"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Pakruok referred to a style of self-praise chanting used by performers during certain musical rituals."
+      },
+      {
+        "question": "Which instrument was central to traditional Luo music and later replaced by the guitar in Benga music?",
+        "options": [
+          "Tung' (Horn)",
+          "Nyatiti (Eight-stringed lyre)",
+          "Abul (Trumpet)",
+          "Sigalagala (Ululation)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Nyatiti, a traditional eight-stringed lyre, was a central instrument in traditional Luo music before being replaced by the guitar in Benga music."
+      },
+      {
+        "question": "How did Benga music modify traditional Luo musical styles?",
+        "options": [
+          "By fusing traditional rhythms with Western instruments, particularly the guitar",
+          "By completely replacing traditional Luo instruments with electronic sounds",
+          "By adopting only Western melodies while ignoring Luo musical elements",
+          "By using no lyrics and focusing solely on instrumentals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Benga music combined traditional Luo rhythms with Western instruments like the guitar, creating a modern fusion."
+      },
+      {
+        "question": "What did traditional Luo performers wear during musical performances?",
+        "options": [
+          "Skins, beads, and clay-based ornaments reflecting cultural identity",
+          "Only modern Western-style outfits",
+          "Expensive jewelry made of imported materials",
+          "Plain, undecorated clothing without symbolic meaning"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Traditional Luo performers wore attire such as skins, beads, and ornaments that reflected their cultural identity."
+      }
+    ]
+  }
+  

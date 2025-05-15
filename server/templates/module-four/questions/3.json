@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary semantic role of the Dholuo Q-words donge, bende, and nang’o?",
+        "options": [
+          "They function as auxiliary verbs",
+          "They serve as interrogative pronouns",
+          "They act as Q-elements with a questioning function",
+          "They replace subject nouns in a sentence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "These Q-words serve a questioning function, making them Q-elements in Dholuo syntax."
+      },
+      {
+        "question": "Which of the following statements about [donge] is true based on its surface positioning?",
+        "options": [
+          "It can only appear before the verb in a sentence.",
+          "It is strictly a sentence-final element.",
+          "It is generally free in its positioning but restricted in post-verbal placement.",
+          "It is only used in sentences with negation."
+        ],
+        "correctAnswer": 2,
+        "explanation": "[Donge] is flexible in placement but cannot freely appear immediately after verbs."
+      },
+      {
+        "question": "Why are some sentence constructions with [donge] marked as ungrammatical?",
+        "options": [
+          "Because [donge] can only appear at the start of a sentence.",
+          "Because it cannot occur in the middle of the sentence disrupting syntactic flow.",
+          "Because it can only modify verb phrases directly.",
+          "Because it does not function as an independent constituent."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Positioning [donge] mid-sentence inappropriately can disrupt syntactic flow, leading to ungrammaticality."
+      },
+      {
+        "question": "What is a key distinction between the positioning of [donge] and [bende]?",
+        "options": [
+          "[Donge] can appear sentence-finally as a question tag, while [bende] cannot.",
+          "[Bende] must always precede the verb, while [donge] follows it.",
+          "[Bende] is completely unrestricted in positioning, unlike [donge].",
+          "[Donge] occurs mainly in informal speech, while [bende] is formal."
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Donge] can function as a sentence-final tag, which [bende] typically does not."
+      },
+      {
+        "question": "Which of the following is an acceptable sentence structure for [bende] in preverbal positioning?",
+        "options": [
+          "Ruoth kelo pesa bende ne joticbne kawuono?",
+          "Pesa ruoth kelo ne joticbne bende kawuono?",
+          "Bende ruoth kelo pesa ne joticbne kawuono?",
+          "Ruoth kelo pesa ne joticbne kawuono bende?"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Preverbal positioning of [bende] as in Option C is grammatically acceptable."
+      },
+      {
+        "question": "What key feature differentiates the syntactic flexibility of [nang’o] from that of [donge] and [bende]?",
+        "options": [
+          "[Nang’o] can freely occur at the beginning, middle, or end of a sentence.",
+          "[Nang’o] must always be in the sentence-final position.",
+          "[Nang’o] functions only in embedded clauses.",
+          "[Nang’o] cannot co-occur with temporal elements like \"kawuono.\""
+        ],
+        "correctAnswer": 0,
+        "explanation": "[Nang’o] shows greater flexibility in sentence position compared to [donge] and [bende]."
+      },
+      {
+        "question": "What is the preferred positioning for [nang’o] in a Dholuo sentence?",
+        "options": [
+          "Before the subject",
+          "After the verb",
+          "At the end of the sentence",
+          "Before the prepositional phrase"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The natural and preferred placement for [nang’o] is at the sentence-final position."
+      },
+      {
+        "question": "Which of the following correctly illustrates an acceptable sentence structure involving [nang’o]?",
+        "options": [
+          "Maria chamo nang’o rech e jikon kawuono?",
+          "Maria chamo rech e jikon kawuono nang’o?",
+          "Maria chamo rech nang’o e jikon kawuono?",
+          "Nang’o rech Maria chamo e jikon kawuono?"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sentence-final placement of [nang’o] in Option B follows common usage patterns."
+      },
+      {
+        "question": "Why is the sentence \"Maria chamo rech e jikon nang’o kawuono?\" more acceptable to some speakers?",
+        "options": [
+          "Because the placement of [kawuono] before the verb increases acceptability.",
+          "Because [nang’o] functions better when it directly modifies a noun.",
+          "Because it follows the rule of [bende] and [donge] positioning.",
+          "Because it eliminates the need for a subject in the sentence."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The repositioning of temporal elements like [kawuono] improves the sentence’s flow and acceptability."
+      },
+      {
+        "question": "What can be concluded about the general syntactic behavior of Q-words in Dholuo?",
+        "options": [
+          "They are strictly bound to a fixed sentence position.",
+          "They follow a completely random distribution in sentence structures.",
+          "They exhibit some flexibility but follow distinct positional constraints.",
+          "They do not affect sentence structure and can be omitted without altering meaning."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Q-words in Dholuo show positional variation, but within structured syntactic limits."
+      }
+    ]
+  }
+  

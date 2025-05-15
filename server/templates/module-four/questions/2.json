@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "Which of the following best defines a deictic locative (DL) in Dholuo?",
+        "options": [
+          "A locative phrase that requires a prepositional marker.",
+          "A locative element that functions without a prepositional marker.",
+          "A locative phrase that must always appear at the end of a sentence.",
+          "A locative phrase that does not indicate spatial reference."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Deictic locatives (DL) in Dholuo function independently without the need for a prepositional marker."
+      },
+      {
+        "question": "What is the fundamental difference between deictic locative (DL) and non-deictic locative (NDL) elements in Dholuo?",
+        "options": [
+          "DL elements require a prepositional marker, whereas NDL elements do not.",
+          "DL elements function without a prepositional marker, whereas NDL elements usually require one.",
+          "DL elements are only used in questions, while NDL elements are used in statements.",
+          "DL elements are always positioned at the beginning of a sentence."
+        ],
+        "correctAnswer": 1,
+        "explanation": "DL elements do not need prepositional markers, unlike NDL elements which usually require them."
+      },
+      {
+        "question": "Which of the following is NOT a deictic locative (DL) in Dholuo?",
+        "options": [
+          "ka",
+          "kanyo",
+          "kacha",
+          "e dho nam"
+        ],
+        "correctAnswer": 3,
+        "explanation": "'e dho nam' includes a prepositional marker, making it a non-deictic locative."
+      },
+      {
+        "question": "In the sentence 'Japuonj ndiko baruwa ne nyathine gi kalam sani e sikul,' what type of locative is 'e sikul'?",
+        "options": [
+          "Deictic locative (DL)",
+          "Non-deictic locative (NDL)",
+          "Temporal marker",
+          "Subject pronoun"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'e sikul' is a non-deictic locative because it contains the prepositional marker 'e'."
+      },
+      {
+        "question": "Which of the following sentences correctly places both a DL and NDL element?",
+        "options": [
+          "Japuonj ndiko baruwa ne nyathine gi kalam sani e sikul ka",
+          "Japuonj ndiko e sikul ka baruwa ne nyathine gi kalam sani",
+          "Japuonj ndiko baruwa ne nyathine ka e sikul gi kalam sani",
+          "Japuonj e sikul ka ndiko baruwa ne nyathine gi kalam sani"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The sentence correctly positions both the DL 'ka' and NDL 'e sikul'."
+      },
+      {
+        "question": "Which of the following statements about Dholuo locative constituents is TRUE?",
+        "options": [
+          "NDL elements never require a prepositional marker.",
+          "DL elements can function without a prepositional marker.",
+          "DL elements always appear at the end of a sentence.",
+          "NDL elements and DL elements are interchangeable in all sentence structures."
+        ],
+        "correctAnswer": 1,
+        "explanation": "DL elements do not need prepositional markers to function, making them flexible in structure."
+      },
+      {
+        "question": "What happens when 'ka' (a DL) is positioned immediately after 'ndiko' (write) in a sentence?",
+        "options": [
+          "The sentence remains grammatically correct.",
+          "The sentence becomes ungrammatical.",
+          "The sentence becomes a question.",
+          "The meaning of the sentence changes significantly."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Placing 'ka' directly after the verb disrupts the syntax, making the sentence ungrammatical."
+      },
+      {
+        "question": "In which of the following sentences is the locative placement INCORRECT?",
+        "options": [
+          "Japuonj ndiko baruwa e sikul ne nyathine gi kalam sani",
+          "Japuonj ndiko baruwa ne nyathine e sikul gi kalam sani",
+          "Japuonj e sikul ndiko baruwa ne nyathine gi kalam sani",
+          "Japuonj ndiko baruwa ne nyathine gi kalam sani e sikul"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Locating 'e sikul' before the verb 'ndiko' in this context violates the acceptable locative structure in Dholuo."
+      },
+      {
+        "question": "Why is 'ka' not acceptable in the sentence 'Japuonj ndiko e sikul ka baruwa ne nyathine gi kalam sani'?",
+        "options": [
+          "Because DL elements cannot follow NDL elements in this structure.",
+          "Because 'ka' must always appear before the verb.",
+          "Because 'ka' must be placed after 'gi kalam.'",
+          "Because 'ka' does not function as a locative in this context."
+        ],
+        "correctAnswer": 0,
+        "explanation": "In Dholuo, DL elements like 'ka' should not follow NDL elements like 'e sikul' in this syntactic structure."
+      },
+      {
+        "question": "What is the preferred locative arrangement in Dholuo for long sentences?",
+        "options": [
+          "Top-TA-Alpha",
+          "TA-Top-Alpha",
+          "Alpha-Top-TA",
+          "TA-Alpha-Top"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Top-TA-Alpha is the preferred arrangement for locative constituents in complex or long Dholuo sentences."
+      }
+    ]
+  }
+  

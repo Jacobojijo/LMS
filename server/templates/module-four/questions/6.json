@@ -1,0 +1,115 @@
+{
+    "practiceQuestions": [
+      {
+        "question": "What is the primary purpose of a tongue twister in Luo culture?",
+        "options": [
+          "To confuse listeners deliberately",
+          "To make fun of people who mispronounce words",
+          "To provide a spoken word game for entertainment and articulation practice",
+          "To replace proverbs in cultural teachings"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tongue twisters serve as spoken word games used for entertainment and articulation practice in Luo culture."
+      },
+      {
+        "question": "Why are some tongue twisters humorous when spoken aloud?",
+        "options": [
+          "Because they always contain funny words",
+          "Because they involve mispronunciations and speaker mistakes",
+          "Because they use only nonsense words",
+          "Because they are always told as jokes"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tongue twisters often cause mispronunciations and mistakes, leading to humorous effects when spoken aloud."
+      },
+      {
+        "question": "What is a common characteristic of Luo riddles (ngeche)?",
+        "options": [
+          "They always involve storytelling",
+          "They present statements or questions with hidden meanings",
+          "They are only used to test intelligence",
+          "They do not require critical thinking"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Luo riddles typically present questions or statements with hidden meanings that require thoughtful interpretation."
+      },
+      {
+        "question": "What is an example of an enigma riddle in Luo culture?",
+        "options": [
+          "\"My house has no door\" referring to an egg",
+          "\"The more you take, the more you leave behind\" referring to footsteps",
+          "\"A hare is small but gives birth to twins\" referring to unexpected potential",
+          "\"A cowardly hyena lives for many years\" referring to careful survival"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The riddle \"My house has no door\" is an enigma in Luo culture, metaphorically referring to an egg."
+      },
+      {
+        "question": "How do riddles contribute to community bonding in Luo culture?",
+        "options": [
+          "By making people laugh at each other",
+          "By encouraging arguments and debates",
+          "By creating social engagement through competitive exchanges",
+          "By ensuring only the smartest people can participate"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Riddles foster social interaction and engagement through fun, competitive exchanges that bring people together."
+      },
+      {
+        "question": "How are riddles and proverbs connected in Luo tradition?",
+        "options": [
+          "Riddles and proverbs are always used separately",
+          "Proverbs are used to explain riddles and offer moral reflections",
+          "Riddles are considered more important than proverbs",
+          "Proverbs are only used by elders, while riddles are for children"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Proverbs often follow riddles in Luo culture to offer moral insight or wisdom, reinforcing their educational value."
+      },
+      {
+        "question": "Which Luo proverb warns against ingratitude?",
+        "options": [
+          "\"A cowardly hyena lives for many years\"",
+          "\"A hare is small but gives birth to twins\"",
+          "\"The eye you have treated will look at you contemptuously\"",
+          "\"My house has no door\""
+        ],
+        "correctAnswer": 2,
+        "explanation": "The proverb \"The eye you have treated will look at you contemptuously\" cautions against ingratitude."
+      },
+      {
+        "question": "What lesson does the proverb \"A cowardly hyena lives for many years\" teach?",
+        "options": [
+          "That bravery is the best survival tactic",
+          "That those who take risks will always win",
+          "That caution and patience can help one survive",
+          "That hyenas are the smartest animals"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This proverb teaches that cautious and patient behavior can lead to long-term survival."
+      },
+      {
+        "question": "What is one moral or philosophical question addressed by Luo riddles and proverbs?",
+        "options": [
+          "Why do people die?",
+          "How do birds fly?",
+          "Why do the Luo live near lakes?",
+          "What is the fastest way to run?"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Luo riddles and proverbs often address deep moral and philosophical questions such as the nature of life and death."
+      },
+      {
+        "question": "Why do riddles serve as important teaching tools in Luo culture?",
+        "options": [
+          "Because they test how well someone can memorize stories",
+          "Because they pass down traditional wisdom and encourage ethical reflection",
+          "Because they replace formal education in schools",
+          "Because they are only used for entertainment"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Riddles in Luo culture help transmit traditional knowledge and stimulate moral reasoning across generations."
+      }
+    ]
+  }
+  
