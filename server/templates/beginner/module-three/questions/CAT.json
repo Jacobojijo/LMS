@@ -1,0 +1,409 @@
+{
+  "title": "Continuous Assessment Test 03 - Everyday Conversations & Cultural Context",
+  "description": "This CAT evaluates knowledge of Dholuo adjectives, verbs, and tenses in everyday conversational contexts.",
+  "duration": 90,
+  "passingScore": 60,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following is the correct comparative form of marach (bad)?",
+      "options": [
+        "mach",
+        "rach",
+        "bor",
+        "mar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the sentence Mae mit kaka macha, what grammatical function does the word kaka serve?",
+      "options": [
+        "Marker of possession",
+        "Superlative indicator",
+        "Equality comparison",
+        "Verb intensifier"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which verb form in Dholuo would best express \"to study\" in the infinitive?",
+      "options": [
+        "somo",
+        "somi",
+        "somyo",
+        "som"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What prefix is used in Dholuo to conjugate a verb for the subject pronoun Wan (we)?",
+      "options": [
+        "Wi-",
+        "Na-",
+        "Wa-",
+        "Wo-"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the meaning of the Dholuo sentence Paul nitie?",
+      "options": [
+        "Paul is absent",
+        "Paul is here",
+        "Paul is present",
+        "Paul is doing something"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following correctly expresses \"There is no food\" in Dholuo?",
+      "options": [
+        "Chiemo nitie",
+        "Chiemo onge",
+        "Chiemo tie",
+        "Chiemo kod onge"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What construction would correctly express \"The most intelligent\" in Dholuo using the standard superlative form?",
+      "options": [
+        "mariek moloyo te",
+        "riek moloyo",
+        "mariek kaka te",
+        "riek machal kod te"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What does the phrase rateng' ti mean in Dholuo as used in intensification?",
+      "options": [
+        "Completely dark",
+        "The darkest of all",
+        "Very black/dark",
+        "As black as"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which Dholuo construction correctly conveys \"I am here\" using the verb tie?",
+      "options": [
+        "An nitie",
+        "Antie",
+        "An kod ka",
+        "An e tie"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the morphosyntactic structure of Dholuo adjectives, what is the primary function of the \"ma-\" prefix?",
+      "options": [
+        "It turns adjectives into nouns to enhance formality",
+        "It intensifies the semantic value of the adjective",
+        "It acts as a linking particle, converting descriptors into relative clauses",
+        "It marks future tense in attributive clauses"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following Dholuo adjectives does not follow the ma- prefix pattern?",
+      "options": [
+        "Maber",
+        "Manok",
+        "Marach",
+        "Maduong'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What semantic distinction is drawn between matho and motho in Dholuo adjective clauses?",
+      "options": [
+        "Gender specificity of the subject",
+        "Past vs. future participle forms",
+        "Positive vs. negative polarity",
+        "Ongoing process vs. completed state"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which adjective is irregular in both form and developmental reference, bypassing the standard prefix system?",
+      "options": [
+        "Matin",
+        "Maratong'",
+        "Manumu",
+        "Maogundho"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following Dholuo adjective pairs exemplifies pluralization through suffixation?",
+      "options": [
+        "Makwar → Makwaro",
+        "Maduong' → Madongo",
+        "Manok → Manoki",
+        "Machiek → Machikni"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which adjective conveys moral and aesthetic approval in Dholuo and may intensify with ahinya?",
+      "options": [
+        "Marach",
+        "Maber",
+        "Marieny",
+        "Maodhero"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In Dholuo, which adjective denotes sufficiency, and may commonly lose the \"ma-\" prefix in speech?",
+      "options": [
+        "Maogundho",
+        "Mang'eny",
+        "Mathoth",
+        "Moromo"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following color adjectives derives from an environmental referent?",
+      "options": [
+        "Marachar – white",
+        "Marabuor – brown",
+        "Maratong' – yellow",
+        "Marapir – indigo"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the plural form of the adjective marach (\"bad\")?",
+      "options": [
+        "Marachni",
+        "Maricho",
+        "Marachere",
+        "Marachno"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following adjectives is classified as invariant, resisting inflection even in plural contexts?",
+      "options": [
+        "Mabeyo",
+        "Madongo",
+        "Mamit",
+        "Machieko"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which of the following best illustrates the use of an applicative extension in Dholuo?",
+      "options": [
+        "An gi kom",
+        "Abet e kom",
+        "Puonj-e",
+        "Wa-wer"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] In Dholuo, which of the following reflects the correct verb structure for a transitive construction?",
+      "options": [
+        "Verb Root + Object + Subject",
+        "Subject Prefix + Object Suffix + Verb Root",
+        "Subject Prefix + Verb Root + Object Suffix",
+        "Object Suffix + Subject Prefix + Verb Root"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] What enables a verb like \"goyo\" to function independently in a clause?",
+      "options": [
+        "Verbal extensions",
+        "Verb-initial syntax",
+        "Morphological fusion of subject and object",
+        "Reflexive suffix -re"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which of the following forms shows reflexive morphology?",
+      "options": [
+        "Ginegowa",
+        "Tedore",
+        "Agoye",
+        "Nyuomo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] What is the grammatical issue with the phrase \"an kod guok\" when expressing possession?",
+      "options": [
+        "Misuse of object pronoun",
+        "Redundant subject prefix",
+        "Incorrect reflexive verb form",
+        "Semantic error in possession"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Verbs Part 02] Which example best illustrates antipassive usage in Dholuo?",
+      "options": [
+        "Olum goye",
+        "Wa-wer",
+        "Opuonjore",
+        "Osetho"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] Identify the correct Dholuo translation of \"They have killed us.\"",
+      "options": [
+        "Gikendowa",
+        "Onegowa",
+        "Ginegowa",
+        "Gin gi tho"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which form demonstrates a fully fused verbal clause in Dholuo?",
+      "options": [
+        "Gin gi lowo",
+        "Apuonjora",
+        "Ok odwar luokore",
+        "An kod guok"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] Which is true about the verb nyuomo in Dholuo?",
+      "options": [
+        "It can be used by any gender",
+        "It only applies to legal ceremonies",
+        "It is culturally male-exclusive",
+        "It is always reflexive"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] What grammatical process forms the noun luokruok?",
+      "options": [
+        "Antipassive shift",
+        "Nominalization via -ruok",
+        "Agglutination of pronouns",
+        "Use of possessive \"gi\""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] Why does Gikendore mean \"They are married\"?",
+      "options": [
+        "Auxiliary makes it passive",
+        "Kendo is polysemous",
+        "Subject-object reversal",
+        "Reflexive intransitive form"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] In the construction \"Nene osebedo ka koth chue,\" which grammatical element is primarily responsible for placing the action prior to another past event?",
+      "options": [
+        "The static verb \"bedo\"",
+        "The subject prefix \"o-\"",
+        "The auxiliary \"nene\" combined with the perfective infix \"-se-\"",
+        "The clause marker \"ka\""
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] Which of the following Dholuo sentences best exemplifies a contracted form of the recent past perfective?",
+      "options": [
+        "Nene osechiemo",
+        "Osebedo ka ochamo",
+        "Asechiemo",
+        "A chiemo"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] What is the function of the \"-ga\" suffix in the verb phrase \"Nene achiemoga\"?",
+      "options": [
+        "To express politeness or deference in past narration",
+        "To emphasize completed action in the past",
+        "To mark obligation tied to habitual action",
+        "To denote a repeated or ongoing past action (past habitual/continuous)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Tenses] In which of the following constructions is the infinitive verb form maintained despite temporal marking?",
+      "options": [
+        "Nene andiko",
+        "Asebedo ka andiko",
+        "Abiro chiemo",
+        "A chiemoga"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] Which of the following demonstrates incorrect application of the overt subject rule?",
+      "options": [
+        "Achieng' wuotho",
+        "Achieng' owuotho",
+        "Ochieng' bedo",
+        "Mama dhi kar thieth"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] Which sentence properly expresses the future continuous tense in Dholuo?",
+      "options": [
+        "Gibiro bedo gi chiemo",
+        "Gibiro chiemo",
+        "Gibiro ga chiemo maber",
+        "Gibo chiemo maber"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] What does the prefix \"nyoro-\" convey in a sentence like \"Nyoro natuo\"?",
+      "options": [
+        "Past habitual illness",
+        "Ongoing sickness",
+        "General recent past",
+        "Specific reference to an event that occurred yesterday"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Tenses] Which structure correctly conveys the modal \"should have\" in Dholuo?",
+      "options": [
+        "Ne giromo kodgi",
+        "Ne onego andik",
+        "Onegandik",
+        "Asebedo ka andik"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] What is the primary pedagogical challenge in interpreting present continuous actions in Dholuo?",
+      "options": [
+        "The need to memorize subject-object order",
+        "The absence of explicit progressive morphology, requiring contextual inference",
+        "The lack of plural forms in present verbs",
+        "The instability of the \"ma-\" prefix"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] Which of the following morphosyntactic combinations indicates \"They had been...\" in Dholuo past perfect tense?",
+      "options": [
+        "Gibiro bedo",
+        "Gisebedo",
+        "Nene gisebedo",
+        "Nene gibiro bedo"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

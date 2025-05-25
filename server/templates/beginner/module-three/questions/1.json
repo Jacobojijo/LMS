@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains the syntactic function of the prefix 'ma-' in Dholuo adjectives?",
+      "options": [
+        "It marks plurality in the noun phrase.",
+        "It transforms a noun into a verb phrase.",
+        "It links a noun to its descriptive root, forming a reduced relative clause.",
+        "It functions as a tense marker for verbal predicates."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'ma-' links a noun to its descriptive root, forming a reduced relative clause that functions adjectivally."
+    },
+    {
+      "question": "What is the most accurate Dholuo translation of the phrase 'the brown woman'?",
+      "options": [
+        "Dhako masilwal",
+        "Nyako marapudo",
+        "Dhako malando",
+        "Dhako madichol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Dhako malando' correctly describes 'the brown woman' in Dholuo, with 'malando' as the appropriate adjective."
+    },
+    {
+      "question": "How would you correctly describe a 'hot porridge' in Dholuo, adhering to the adjective clause structure?",
+      "options": [
+        "Nyuka liet",
+        "Nyuka maliet",
+        "Maliet nyuka",
+        "Porridge lietma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nyuka maliet' is the correct structure, with 'maliet' functioning as the adjective following the noun."
+    },
+    {
+      "question": "Based on the morphosyntactic structure, which of the following constructions is grammatically incorrect in Dholuo?",
+      "options": [
+        "Kom makech – “Bitter chair”",
+        "Ji mang’eny – “Many people”",
+        "Rombo duong’ – “Big sheep”",
+        "Roya matin – “Small calf”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adjectives in Dholuo require the 'ma-' prefix. 'Rombo duong’' is incorrect; it should be 'Rombo maduong’'."
+    },
+    {
+      "question": "Which of the following derived adjectives correctly expresses a completed state from a verb root in Dholuo?",
+      "options": [
+        "mawer – singing",
+        "motho – has died",
+        "matho – is dying",
+        "miloso – is being made"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Motho' represents a completed action, meaning 'has died'."
+    },
+    {
+      "question": "If 'madichol' means 'black (female)', what is the most likely Dholuo adjective for a 'black (male) goat'?",
+      "options": [
+        "Diel marateng’",
+        "Diel madichol",
+        "Diel malando",
+        "Diel marapudo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Marateng’' is the gender-neutral adjective for 'black', appropriate for a male goat. 'Madichol' is female-specific."
+    },
+    {
+      "question": "Which of the following examples illustrates a verb-derived adjective functioning as an ongoing action?",
+      "options": [
+        "Molosi – which has already been made",
+        "Motho – which has died",
+        "Miloso – which is being made",
+        "Marieny – intelligent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Miloso' describes an ongoing process – something that is currently being made."
+    },
+    {
+      "question": "In the semantic category of 'Quality and Character,' which adjective carries both physical and moral weight in its cultural interpretation?",
+      "options": [
+        "Machiek – short",
+        "Maber – good",
+        "Mamit – sweet",
+        "Mool – tired"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Maber' culturally implies both goodness in character and attractiveness, hence carrying moral and physical connotations."
+    },
+    {
+      "question": "What does the adjective clause 'ma otho' semantically contribute to a noun in Dholuo?",
+      "options": [
+        "It indicates habitual action.",
+        "It denotes an object that is dying.",
+        "It describes an object that has died.",
+        "It forms a passive construction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ma otho' means 'which has died', thus describing a completed state attributed to the noun."
+    },
+    {
+      "question": "Which of the following pairs both belong to the 'Temperature and Taste' semantic category in Dholuo?",
+      "options": [
+        "Mamit and Maber",
+        "Mang’ich and Maliet",
+        "Mapek and Malach",
+        "Machiek and Makech"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mang’ich' (cold) and 'Maliet' (hot) are adjectives that fall under the semantic category of temperature and taste."
+    }
+  ]
+}

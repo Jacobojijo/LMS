@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct contracted future form of “you (plural) will eat” in Dholuo?",
+      "options": [
+        "ibochiemo",
+        "ubochiemo",
+        "gibochiemo",
+        "wabochiemo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“ubochiemo” is the correct future contracted form for the second person plural subject."
+    },
+    {
+      "question": "Which of the following best represents the future continuous form of “they will be eating well”?",
+      "options": [
+        "Gibiro chiemo maber",
+        "Gibiro bedo chiemo maber",
+        "Gibiro ga chiemo maber",
+        "Gibochiemo maber"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Gibiro ga chiemo maber” uses the habitual/future progressive marker ‘ga’ correctly."
+    },
+    {
+      "question": "In the sentence “Abiro chiemo,” which part of the construction indicates the future tense?",
+      "options": [
+        "chiemo",
+        "abiro",
+        "abochiemo",
+        "a-"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“abiro” contains the auxiliary “biro” marking the future tense with the subject prefix “a-”."
+    },
+    {
+      "question": "Which of the following is the correct literal interpretation of the sentence “Abiro bedo gi nyithindo ariyo”?",
+      "options": [
+        "I will come eat with two children.",
+        "I will be with two children.",
+        "I come to be with children two.",
+        "I go to be with two children."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence literally translates as ‘I come to be with children two,’ reflecting Dholuo word order."
+    },
+    {
+      "question": "What does the sentence “Nyaka wanene” imply in terms of grammatical obligation?",
+      "options": [
+        "He may see us",
+        "We should try to see him",
+        "We must see him",
+        "Let’s go see him"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nyaka” expresses necessity or obligation; “wanene” means ‘we see him’ — so together: ‘We must see him’."
+    },
+    {
+      "question": "Which of the following phrases demonstrates a misuse of the auxiliary “biro”?",
+      "options": [
+        "Gibiro dhi",
+        "Obiro chiemo",
+        "Ibiro bedo",
+        "Abiro chiem"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Abiro chiem” is incorrect; ‘chiem’ is not an infinitive or participial form — it should be ‘chiemo’."
+    },
+    {
+      "question": "What is the source of the auxiliary “biro” used in Dholuo future constructions?",
+      "options": [
+        "From the root “chiemo” (to eat)",
+        "From the prefix “bo”",
+        "From the verb “bedo” (to be)",
+        "From the verb “bi” (to come)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Biro” is derived from the verb “bi” (to come), used to form the future tense."
+    },
+    {
+      "question": "Which of the following correctly illustrates a future event happening tomorrow?",
+      "options": [
+        "Abiro ga dhi lime",
+        "Ang’nadogi",
+        "Kiny nadogi",
+        "Chieng’ nadogi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Kiny nadogi” translates to ‘Tomorrow they will come,’ correctly indicating a future action."
+    },
+    {
+      "question": "What syntactic property is unique to the use of the auxiliary “biro” in Dholuo?",
+      "options": [
+        "It always follows the main verb",
+        "It carries subject and tense agreement",
+        "It requires the main verb to be conjugated",
+        "It appears only in plural forms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Biro” inflects for subject agreement and functions as the future auxiliary."
+    },
+    {
+      "question": "Why is “bochiemo” considered grammatically valid in Dholuo?",
+      "options": [
+        "It is a present tense verb",
+        "It replaces both subject and verb",
+        "It’s a contraction of “biro chiemo” and includes subject agreement",
+        "It’s a compound word for future continuous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Bochiemo” is a valid contraction of “biro chiemo” with integrated subject agreement prefix."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which adjective in Dholuo denotes moral uprightness, physical beauty, or social approval, and uses an intensifier to express extremity?",
+      "options": [
+        "Marach ahinya",
+        "Maber ahinya",
+        "Moromo",
+        "Mathoth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maber ahinya’ combines the adjective ‘maber’ (good) with the intensifier ‘ahinya’ (very/extremely) to convey strong moral and physical approval."
+    },
+    {
+      "question": "Identify the Dholuo adjective that intensifies the idea of abundance beyond “many,” and implies excess or overflowing.",
+      "options": [
+        "Mang’eny",
+        "Moromo",
+        "Mathoth",
+        "Maduong’"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mathoth’ expresses a level of abundance that exceeds ‘many’, implying excess or overflowing."
+    },
+    {
+      "question": "What is the correct morphological structure of the Dholuo adjective “Maduong’”?",
+      "options": [
+        "ma- + tin",
+        "ma- + duong’",
+        "ma- + ng’eny",
+        "ma- + oromo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maduong’ is morphologically derived from the prefix ‘ma-’ and the root ‘duong’ meaning ‘big’."
+    },
+    {
+      "question": "Which Dholuo adjective of quality is irregular in morphological formation and not prefixed by “ma-”?",
+      "options": [
+        "Maber",
+        "Manumu",
+        "Marach",
+        "Matin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Manumu’ is an irregular adjective that does not follow the common ‘ma-’ prefix rule, unlike typical Dholuo adjectives."
+    },
+    {
+      "question": "If you want to ask someone about the number of objects in Dholuo, which interrogative quantifier should you use?",
+      "options": [
+        "Oromo nade?",
+        "Adi?",
+        "Maogundho?",
+        "Thoth?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Adi?’ is the correct Dholuo interrogative quantifier for asking ‘How many?’"
+    },
+    {
+      "question": "Choose the correct pair where one adjective loses its “ma-” prefix in spoken Dholuo.",
+      "options": [
+        "Maoromo → Moromo",
+        "Matin → Tin",
+        "Maber → Ber",
+        "Marach → Rach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Maoromo’ commonly drops the ‘ma-’ prefix in speech, becoming ‘Moromo’ for ease of use."
+    },
+    {
+      "question": "Which adjective conveys sufficiency and often appears without its morphological prefix in casual speech?",
+      "options": [
+        "Maduong’",
+        "Mang’eny",
+        "Moromo",
+        "Manok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Moromo’ derives from ‘maoromo’ and means ‘enough’ or ‘sufficient,’ frequently used in its shortened form."
+    },
+    {
+      "question": "Which of the following pairs contrasts adjectives of quality with adjectives of quantity?",
+      "options": [
+        "Manumu and Manok",
+        "Marach and Mathoth",
+        "Moromo and Mang’eny",
+        "Maduong’ and Matin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Marach’ (bad) is a quality adjective, while ‘Mathoth’ (excessive/many) is a quantity adjective, showing contrast in category."
+    },
+    {
+      "question": "What is the semantic difference between “Mang’eny” and “Mathoth” in Dholuo?",
+      "options": [
+        "Mathoth refers to quantity while Mang’eny refers to size",
+        "Both mean “few” but used differently",
+        "Mathoth is a stronger, more excessive form of Mang’eny",
+        "Mang’eny is used only with mass nouns; Mathoth is not"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mathoth’ expresses a more extreme degree of abundance than ‘Mang’eny’, which simply means ‘many’."
+    },
+    {
+      "question": "What kind of descriptive value does “Marach ahinya” convey in Dholuo?",
+      "options": [
+        "Neutral observation",
+        "Intensely negative moral or aesthetic judgment",
+        "High quantity but low value",
+        "A blend of beauty and importance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Marach ahinya’ is a strongly negative phrase, emphasizing a highly undesirable moral or physical trait."
+    }
+  ]
+}

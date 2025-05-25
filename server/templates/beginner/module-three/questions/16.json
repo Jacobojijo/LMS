@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why “Olum chiemo” can mean both “Olum eats” and “Olum is eating”?",
+      "options": [
+        "The verb is reflexive in form",
+        "The context includes a future time indicator",
+        "Dholuo does not morphologically distinguish simple and continuous present tenses",
+        "The subject is omitted in the sentence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dholuo does not morphologically distinguish between simple and continuous present tenses; context provides the interpretation."
+    },
+    {
+      "question": "In Dholuo, which morphological feature marks a verb as habitual in aspect?",
+      "options": [
+        "Prefixation of subject pronouns",
+        "Addition of the suffix -ga to the verb root",
+        "Use of a temporal adverb",
+        "Use of object focus markers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix -ga is used to indicate habitual actions."
+    },
+    {
+      "question": "What role does context play in understanding the present continuous tense in Dholuo?",
+      "options": [
+        "It shows where to insert the suffix -ga",
+        "It helps determine whether an action is ongoing or habitual",
+        "It marks the verb with an auxiliary",
+        "It eliminates the need for the verb root"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since morphology does not distinguish between simple and continuous present, context determines meaning."
+    },
+    {
+      "question": "Which of the following sentences illustrates a habitual action in Dholuo?",
+      "options": [
+        "Olum chiemo",
+        "Dhiang’ kwayo",
+        "Paul chiemoga gokinyi",
+        "Dayo gano ni nyikwaye"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The use of -ga in 'chiemoga' indicates a habitual action."
+    },
+    {
+      "question": "Why is “Fuko dakga e bur” classified as habitual action in Dholuo grammar?",
+      "options": [
+        "It uses the infinitive without prefixation",
+        "The verb is marked with the suffix -ga indicating repetition",
+        "The subject is not a human agent",
+        "It includes an overt temporal noun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix -ga marks the verb as habitual."
+    },
+    {
+      "question": "What distinguishes “Olum chiemo” from “Olum chiemoga” in function?",
+      "options": [
+        "“Chiemoga” indicates a passive construction",
+        "“Chiemoga” expresses habitual action with the suffix -ga",
+        "“Chiemo” is a negative form",
+        "“Chiemo” refers to a future plan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Chiemoga” means a habitual eating action due to the -ga suffix."
+    },
+    {
+      "question": "Which of the following statements is TRUE about present continuous tense in Dholuo?",
+      "options": [
+        "It always uses the suffix -ga",
+        "It requires an auxiliary verb",
+        "It is inferred from context, not morphology",
+        "It uses a future time adverb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dholuo lacks a dedicated present continuous form; the difference is contextual."
+    },
+    {
+      "question": "Which sentence best demonstrates the dual interpretation of present tense in Dholuo?",
+      "options": [
+        "Aheroga sikuma",
+        "Japuonj puonjo nyithindo",
+        "Paul chiemoga gokinyi",
+        "Fuko dakga e bur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Japuonj puonjo nyithindo’ can be interpreted as 'The teacher teaches children' or 'The teacher is teaching children,' depending on context."
+    },
+    {
+      "question": "What is the function of the suffix -ga in Dholuo verbal morphology?",
+      "options": [
+        "To express politeness",
+        "To mark the past perfect",
+        "To show regular, habitual actions",
+        "To indicate question formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix -ga denotes repetition or habitual aspect."
+    },
+    {
+      "question": "According to the morphological structure in Dholuo, how is a habitual sentence typically formed?",
+      "options": [
+        "By adding the prefix “gi-” to the verb",
+        "By placing the verb in future tense",
+        "By attaching -ga to the verb stem",
+        "By using reduplication of the verb root"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix -ga is attached to the verb stem to form habitual aspect."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct adjectival form of the Dholuo root rakwar (red) when modifying a noun?",
+      "options": [
+        "marakwar",
+        "makwar",
+        "marakwar / makwar",
+        "rakwarma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both ‘marakwar’ and ‘makwar’ are accepted forms for deriving adjectives from the color root ‘rakwar’ (red), used to modify nouns in Dholuo."
+    },
+    {
+      "question": "Which Dholuo color adjective would best describe “a white fish”?",
+      "options": [
+        "marateng’",
+        "marachar",
+        "marapir",
+        "marakwar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Marachar’ is the color adjective for ‘white’ and is appropriately used to describe a white fish."
+    },
+    {
+      "question": "The Dholuo adjective maratong’ is culturally derived from which of the following sources?",
+      "options": [
+        "Brown soil",
+        "Indigo dye",
+        "Egg yolk",
+        "Palm fruit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maratong’ (yellow) is derived from the traditional use of egg yolk in cultural descriptions of the color."
+    },
+    {
+      "question": "If you were describing clothing that is both black and white in Dholuo, which adjective would you most accurately use?",
+      "options": [
+        "marapir",
+        "maralik",
+        "maradier",
+        "marateng’"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maradier’ refers to a mixed or patchy black and white appearance, suitable for describing such clothing."
+    },
+    {
+      "question": "What is the semantic significance of the Dholuo adjective marachar beyond its literal meaning?",
+      "options": [
+        "Associated with royalty",
+        "Symbol of darkness and mystery",
+        "Reflects abundance and richness",
+        "Linked with purity and cleanliness"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Marachar’ signifies whiteness and carries cultural connotations of purity and cleanliness."
+    },
+    {
+      "question": "Which of the following is NOT a valid root form of a Dholuo color adjective?",
+      "options": [
+        "rakwar",
+        "rapir",
+        "ralum",
+        "maralik"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Maralik’ is already a full adjectival form, not a root. Valid roots are ‘rakwar’, ‘rapir’, and ‘ralum’."
+    },
+    {
+      "question": "Choose the correct example of a noun modified by the color adjective for brown.",
+      "options": [
+        "Nyako marabuor — “Brown-skinned girl”",
+        "Kom marapir — “Brown chair”",
+        "Rech marateng’ — “Brown fish”",
+        "Diel marakwar — “Brown goat”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Nyako marabuor’ uses ‘marabuor’, which is the correct color adjective for brown, especially in describing skin tone."
+    },
+    {
+      "question": "What is the likely meaning of the phrase Law marambulu based on the morphological rules described?",
+      "options": [
+        "Blue paper",
+        "Blue dress",
+        "Blue chair",
+        "Blue clothes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Law’ means clothes and ‘marambulu’ derives from the root ‘rambulu’ (blue), forming the phrase ‘blue clothes’."
+    },
+    {
+      "question": "The color adjective maralik is most closely associated with which cultural concept?",
+      "options": [
+        "Modesty",
+        "Royalty and rich tones",
+        "Hard work",
+        "Mourning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maralik’ is associated with luxurious, rich, or royal colors, reflecting high status or cultural prestige."
+    },
+    {
+      "question": "Which Dholuo adjective would appropriately describe vegetables with a natural green hue?",
+      "options": [
+        "marapir",
+        "maralum",
+        "maratong’",
+        "maradier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maralum’ is derived from the root ‘ralum’ (green) and is used to describe green-colored items like vegetables."
+    }
+  ]
+}

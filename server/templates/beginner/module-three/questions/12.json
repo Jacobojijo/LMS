@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the Dholuo sentence 'Giherou', what does the object pronoun '-u' represent?",
+      "options": ["Me", "Them", "You (plural)", "Him/Her"],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-u' in Dholuo verbs refers to a plural 'you' (second person plural object)."
+    },
+    {
+      "question": "Which of the following illustrates the correct structure for the verb 'to teach him/her' in Dholuo?",
+      "options": ["Epuonjgi", "Puonj-e", "Gi-puonjo", "Puonjegi"],
+      "correctAnswer": 1,
+      "explanation": "‘Puonj-e’ is the correct combination of the verb root and the object pronoun for 'him/her'."
+    },
+    {
+      "question": "What is the function of the object pronoun '-a' in the conjugated verb 'Onega'?",
+      "options": ["It shows plural action", "It marks the speaker as the object", "It marks him/her as the object", "It indicates future tense"],
+      "correctAnswer": 1,
+      "explanation": "The '-a' suffix indicates that 'me' is the object being acted upon."
+    },
+    {
+      "question": "Which verb below demonstrates correct full agglutinative structure with a subject and object?",
+      "options": ["Hero", "Waherogi", "Gihero", "Nyuomo"],
+      "correctAnswer": 1,
+      "explanation": "‘Waherogi’ = 'We love them' – it fuses subject (wa), verb (hero), and object (gi)."
+    },
+    {
+      "question": "Identify the object pronoun in the Dholuo verb 'Unegogi'.",
+      "options": ["U-", "-u", "-gi", "-go"],
+      "correctAnswer": 2,
+      "explanation": "‘-gi’ is the object pronoun representing ‘them’ in this conjugated form."
+    },
+    {
+      "question": "What does the conjugated form 'Aherou' mean in Dholuo?",
+      "options": ["I love him", "He loves you", "I love you (plural)", "They love you (plural)"],
+      "correctAnswer": 2,
+      "explanation": "‘Aherou’ = I (a-) love (hero) you plural (-u)."
+    },
+    {
+      "question": "What structural role does the suffix play in Dholuo transitive verbs like 'Onegi'?",
+      "options": ["It changes the tense", "It identifies the object of the action", "It converts verb to noun", "It replaces the verb root"],
+      "correctAnswer": 1,
+      "explanation": "Suffixes like '-gi' denote the object – in this case, ‘them’."
+    },
+    {
+      "question": "From the verb 'Onyuoma', what can be inferred about the subject and object?",
+      "options": ["She is marrying you", "He is marrying me", "I am marrying her", "They are marrying us"],
+      "correctAnswer": 1,
+      "explanation": "‘Onyuoma’ = He (o-) is marrying (nyuom) me (-a)."
+    },
+    {
+      "question": "In the sentence 'Anegou', what does the subject–verb–object alignment reveal?",
+      "options": ["I am loved by you (plural)", "I have killed you (plural)", "You have killed me", "He has killed you (plural)"],
+      "correctAnswer": 1,
+      "explanation": "‘Anegou’ = I (a-) have killed (neg) you plural (-u)."
+    },
+    {
+      "question": "Why is Dholuo described as agglutinative based on its verb structure?",
+      "options": ["Because it repeats root words for emphasis", "Because all words must end in vowels", "Because a single word fuses subject, verb, and object", "Because object pronouns are separate from verbs"],
+      "correctAnswer": 2,
+      "explanation": "Agglutinative verbs in Dholuo combine subject markers, verb roots, and object suffixes into one unit."
+    }
+  ]
+}

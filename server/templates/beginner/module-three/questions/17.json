@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following sentences correctly demonstrates the contracted form of the plain past tense in Dholuo?",
+      "options": [
+        "Asechiemo",
+        "Nyatuo",
+        "Nandiko",
+        "Ne andiko"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nandiko’ is the contracted form of ‘Ne andiko’, commonly used in everyday speech."
+    },
+    {
+      "question": "What is the role of the particle “nene” in Dholuo past tense construction?",
+      "options": [
+        "It negates the verb in the past tense.",
+        "It marks habitual future actions.",
+        "It replaces the subject prefix in all past constructions.",
+        "It serves as an auxiliary to mark completed past actions."
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Nene’ is an auxiliary used to indicate completed past actions."
+    },
+    {
+      "question": "Choose the Dholuo equivalent of the sentence: “They met them.”",
+      "options": [
+        "Nene giromo kodu",
+        "Nene giromo kodgi",
+        "Nene gindiko",
+        "Negindiko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘kodgi’ correctly reflects the object pronoun for ‘them’ in Dholuo."
+    },
+    {
+      "question": "Which of the following statements about Dholuo past continuous tense is FALSE?",
+      "options": [
+        "It uses the particle “nene.”",
+        "It includes a habitual suffix “-ga.”",
+        "It can express repeated past actions.",
+        "It uses the -se- infix to show continuity."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The -se- infix marks recent perfective, not past continuous. Continuity is usually inferred contextually."
+    },
+    {
+      "question": "Which past tense marker would best express that something happened yesterday?",
+      "options": [
+        "a-",
+        "se-",
+        "nyo-",
+        "yande"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘nyo-’ is used for past actions tied to yesterday (recent past)."
+    },
+    {
+      "question": "What is the correct Dholuo translation of the sentence: “I have just dug (but now stopped)”",
+      "options": [
+        "A ipuro",
+        "A apuro",
+        "Nene apuro",
+        "Apurose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘A apuro’ is a recent past perfective construction showing completed action."
+    },
+    {
+      "question": "Which of the following sentences most accurately reflects a habitual past action in Dholuo?",
+      "options": [
+        "Nyatuo",
+        "Nene awachoga Dholuo maber",
+        "Asechiemo",
+        "Nene ayudo tich"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The use of ‘-ga’ in ‘awachoga’ marks habitual past action."
+    },
+    {
+      "question": "Identify the morphologically correct way to say “We have eaten” using the recent past perfective form.",
+      "options": [
+        "Ne wasechiemo",
+        "Wasechiemo",
+        "Newandiko",
+        "Nene wachiemoga"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wasechiemo’ combines the subject prefix ‘wa-’ and the recent past marker ‘-se-’ with the verb root."
+    },
+    {
+      "question": "What morphological structure is common to asechiemo, isechiemo, and osechiemo?",
+      "options": [
+        "Prefix a- marking yesterday",
+        "Infix -se- marking completed recent action",
+        "Suffix -ga marking habitual past",
+        "Nene prefix for distant past"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The -se- infix is a consistent marker for recent perfective actions across all three forms."
+    },
+    {
+      "question": "Which of the following best explains why “Nene uromo kodwa” differs in meaning from “Nene oromo kode”?",
+      "options": [
+        "Different verb tense usage",
+        "Subject and object positions determine the meaning",
+        "Nene cannot be used with second-person subjects",
+        "One uses recent perfective, the other does not"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Word order and agreement between subject and object alter the meaning significantly."
+    }
+  ]
+}

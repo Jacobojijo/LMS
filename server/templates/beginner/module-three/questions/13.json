@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following Dholuo sentences correctly uses an intransitive verb?",
+      "options": [
+        "An gi guok – I have a dog",
+        "Asedhi Kisumu – I have gone to Kisumu",
+        "Abet e kom – I sit on the chair",
+        "Apuonjora – I am learning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Abet e kom' uses the intransitive verb 'abet' (to sit), which does not require a direct object."
+    },
+    {
+      "question": "In Dholuo, how is the concept of 'having' best expressed when describing possession?",
+      "options": [
+        "By placing the noun before the subject",
+        "Using the auxiliary verb “se”",
+        "By combining a pronoun with the word gi",
+        "Using the suffix -re"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Possession is commonly expressed using 'gi' with pronouns, e.g., 'An gi chiemo' = I have food."
+    },
+    {
+      "question": "What is the correct reflexive form of the Dholuo verb puonjo (to teach)?",
+      "options": [
+        "Puonjore",
+        "Puonjoruok",
+        "Puonjo gi",
+        "Apuonja"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Puonjore’ means 'to teach oneself' – the reflexive form of 'puonjo'."
+    },
+    {
+      "question": "What is the correct Dholuo construction for 'They have land'?",
+      "options": [
+        "Gin kod lowo",
+        "Gin gi lowo",
+        "Gin lowo gi",
+        "Gise lowo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Gin gi lowo’ combines the subject 'they' (Gin) with 'gi' to indicate possession."
+    },
+    {
+      "question": "Which morphological marker is added to a verb in Dholuo to indicate reflexivity?",
+      "options": [
+        "-gi",
+        "-ruok",
+        "-re",
+        "-se"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-re' marks reflexivity in Dholuo verbs, e.g., 'tedore' (cook oneself)."
+    },
+    {
+      "question": "Choose the correct Dholuo sentence that expresses 'She is married.'",
+      "options": [
+        "En gi dichuo",
+        "Osedhi Kisumu",
+        "Osedhi katedo",
+        "Asekadho nyuomo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Osedhi katedo’ means 'she has gone to be married' – a culturally appropriate expression."
+    },
+    {
+      "question": "What grammatical role does the suffix -ruok play in Dholuo reflexive constructions?",
+      "options": [
+        "Converts verbs into negative form",
+        "Indicates plural subject action",
+        "Forms noun equivalents of reflexive verbs",
+        "Denotes auxiliary past tense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘-ruok’ nominalizes reflexive actions, e.g., 'puonjruok' (self-teaching)."
+    },
+    {
+      "question": "Which of the following verb pairs accurately shows the intransitive–reflexive relationship in Dholuo?",
+      "options": [
+        "Tiyo – Tiyogi",
+        "Ringo – Ringogi",
+        "Tedo – Tedore",
+        "Miel – Mielruok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Tedo’ (to cook), ‘Tedore’ (to cook oneself) shows proper reflexive transformation."
+    },
+    {
+      "question": "In the sentence 'Gisechiemo', what grammatical aspect is being used?",
+      "options": [
+        "Simple future",
+        "Past imperfect",
+        "Reflexive mood",
+        "Perfect aspect using 'se'"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Se’ is used in perfect tense to express actions that have already happened."
+    },
+    {
+      "question": "Why is 'an kod guok' not preferred over 'an gi guok' for expressing possession in Dholuo?",
+      "options": [
+        "It incorrectly uses plural agreement",
+        "It translates more literally as 'I and the dog'",
+        "It lacks subject–verb concord",
+        "It uses the auxiliary verb instead of the main"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'An kod guok' literally means 'I and the dog' rather than expressing possession."
+    }
+  ]
+}

@@ -3,1786 +3,2334 @@
     "structure": "beginner/structure.html",
     "modules": [
       {
-        "title": "MODULE 02",
-        "description": "Simple Sentence Structures and Basic Grammar",
-        "order": 2,
-        "topics": [{
-            "title": "Nouns (Part 02)",
-            "htmlContent": "beginner/module-two/1.html",
+        "title": "MODULE 03",
+        "description": "  Everyday Conversations and Cultural Context",
+        "order": 3,
+        "topics": [
+          {
+            "title": "Adjectives",
+            "htmlContent": "beginner/module-three/1.html",
             "order": 1,
             "practiceQuestions": [
-      {
-        "question": "Which regional variety of Dholuo is characterized by conservative vocabulary and influence from neighboring Luhya languages?",
-        "options": [
-          "South Nyanza",
-          "Central Nyanza",
-          "East Nyanza",
-          "West and North Nyanza"
-        ],
-        "correctAnswer": 3,
-        "explanation": "West and North Nyanza varieties preserve more conservative vocabulary and are influenced by neighboring Luhya languages."
-      },
-      {
-        "question": "In which regional varieties is the word “Puodho” used to refer to a garden?",
-        "options": [
-          "Only in West and North Nyanza",
-          "South, Central, and East Nyanza",
-          "Across all regions",
-          "North and East Nyanza only"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The term 'Puodho' is commonly used in South, Central, and East Nyanza to mean a garden."
-      },
-      {
-        "question": "Identify the correct synonym pair for “Today” found in West Nyanza and Central Nyanza, respectively.",
-        "options": [
-          "Kawuono – Olihu",
-          "Gonyo – Kawuono",
-          "Puodho – Ndalo",
-          "Osirawende – Kogwen"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Gonyo' is used in West Nyanza, and 'Kawuono' in Central Nyanza to mean 'today'."
-      },
-      {
-        "question": "Which region acts as a linguistic bridge between conservative and urban speech patterns?",
-        "options": [
-          "West and North Nyanza",
-          "South and Central Nyanza",
-          "South Nyanza only",
-          "East Nyanza only"
-        ],
-        "correctAnswer": 1,
-        "explanation": "South and Central Nyanza serve as a linguistic bridge, blending traditional and urban features."
-      },
-      {
-        "question": "The term “Olithkuon” meaning “cooking stick” is commonly used in which region(s)?",
-        "options": [
-          "West Nyanza only",
-          "West and South Nyanza",
-          "All except West and North Nyanza",
-          "Central Nyanza only"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Olithkuon' is widely used in regions except for West and North Nyanza."
-      },
-      {
-        "question": "Which region's speech is heavily shaped by proximity to urban centers like Kisumu, resulting in greater use of English and Kiswahili?",
-        "options": [
-          "West and North Nyanza",
-          "South and Central Nyanza",
-          "Central and East Nyanza",
-          "South Nyanza only"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Central and East Nyanza regions show greater urban influence and code-switching due to proximity to cities like Kisumu."
-      },
-      {
-        "question": "What function do vocabulary and pronunciation differences serve across regional Dholuo varieties?",
-        "options": [
-          "Create barriers to understanding",
-          "Signal cultural and geographical identity",
-          "Indicate formal vs. informal usage",
-          "Limit expressive ability"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Regional differences in Dholuo serve as cultural and geographical identifiers."
-      },
-      {
-        "question": "Which region shows strong influence from oral tradition and emphasizes rhythm and metaphor in everyday speech?",
-        "options": [
-          "East Nyanza",
-          "West Nyanza",
-          "South and Central Nyanza",
-          "North Nyanza"
-        ],
-        "correctAnswer": 2,
-        "explanation": "South and Central Nyanza regions emphasize poetic forms, rhythm, and metaphor, reflecting strong oral traditions."
-      },
-      {
-        "question": "Which regional speech variety is most noted for its poetic tone, distinct intonation, and folkloric references?",
-        "options": [
-          "West and North Nyanza",
-          "Central Nyanza",
-          "South Nyanza",
-          "East and North Nyanza"
-        ],
-        "correctAnswer": 2,
-        "explanation": "South Nyanza speech is distinguished by its poetic tone and use of folkloric elements."
-      },
-      {
-        "question": "What is the commonly used word for “early in the morning” in southern and central Dholuo-speaking areas?",
-        "options": [
-          "Osirawende",
-          "Kogwen",
-          "Mihiya",
-          "Ndalo"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Kogwen' is a term widely used in southern and central Dholuo regions to refer to early morning."
-      }
-    ]
+    {
+      "question": "Which of the following best explains the syntactic function of the prefix 'ma-' in Dholuo adjectives?",
+      "options": [
+        "It marks plurality in the noun phrase.",
+        "It transforms a noun into a verb phrase.",
+        "It links a noun to its descriptive root, forming a reduced relative clause.",
+        "It functions as a tense marker for verbal predicates."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'ma-' links a noun to its descriptive root, forming a reduced relative clause that functions adjectivally."
+    },
+    {
+      "question": "What is the most accurate Dholuo translation of the phrase 'the brown woman'?",
+      "options": [
+        "Dhako masilwal",
+        "Nyako marapudo",
+        "Dhako malando",
+        "Dhako madichol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Dhako malando' correctly describes 'the brown woman' in Dholuo, with 'malando' as the appropriate adjective."
+    },
+    {
+      "question": "How would you correctly describe a 'hot porridge' in Dholuo, adhering to the adjective clause structure?",
+      "options": [
+        "Nyuka liet",
+        "Nyuka maliet",
+        "Maliet nyuka",
+        "Porridge lietma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nyuka maliet' is the correct structure, with 'maliet' functioning as the adjective following the noun."
+    },
+    {
+      "question": "Based on the morphosyntactic structure, which of the following constructions is grammatically incorrect in Dholuo?",
+      "options": [
+        "Kom makech – “Bitter chair”",
+        "Ji mang’eny – “Many people”",
+        "Rombo duong’ – “Big sheep”",
+        "Roya matin – “Small calf”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adjectives in Dholuo require the 'ma-' prefix. 'Rombo duong’' is incorrect; it should be 'Rombo maduong’'."
+    },
+    {
+      "question": "Which of the following derived adjectives correctly expresses a completed state from a verb root in Dholuo?",
+      "options": [
+        "mawer – singing",
+        "motho – has died",
+        "matho – is dying",
+        "miloso – is being made"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Motho' represents a completed action, meaning 'has died'."
+    },
+    {
+      "question": "If 'madichol' means 'black (female)', what is the most likely Dholuo adjective for a 'black (male) goat'?",
+      "options": [
+        "Diel marateng’",
+        "Diel madichol",
+        "Diel malando",
+        "Diel marapudo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Marateng’' is the gender-neutral adjective for 'black', appropriate for a male goat. 'Madichol' is female-specific."
+    },
+    {
+      "question": "Which of the following examples illustrates a verb-derived adjective functioning as an ongoing action?",
+      "options": [
+        "Molosi – which has already been made",
+        "Motho – which has died",
+        "Miloso – which is being made",
+        "Marieny – intelligent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Miloso' describes an ongoing process – something that is currently being made."
+    },
+    {
+      "question": "In the semantic category of 'Quality and Character,' which adjective carries both physical and moral weight in its cultural interpretation?",
+      "options": [
+        "Machiek – short",
+        "Maber – good",
+        "Mamit – sweet",
+        "Mool – tired"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Maber' culturally implies both goodness in character and attractiveness, hence carrying moral and physical connotations."
+    },
+    {
+      "question": "What does the adjective clause 'ma otho' semantically contribute to a noun in Dholuo?",
+      "options": [
+        "It indicates habitual action.",
+        "It denotes an object that is dying.",
+        "It describes an object that has died.",
+        "It forms a passive construction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ma otho' means 'which has died', thus describing a completed state attributed to the noun."
+    },
+    {
+      "question": "Which of the following pairs both belong to the 'Temperature and Taste' semantic category in Dholuo?",
+      "options": [
+        "Mamit and Maber",
+        "Mang’ich and Maliet",
+        "Mapek and Malach",
+        "Machiek and Makech"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mang’ich' (cold) and 'Maliet' (hot) are adjectives that fall under the semantic category of temperature and taste."
+    }
+  ]
         },
         {
-            "title": "Provenance of Luo People",
-            "htmlContent": "beginner/module-two/2.html",
+            "title": "Adjective of Quality and Quantity",
+            "htmlContent": "beginner/module-three/2.html",
             "order": 2,
             "practiceQuestions": [
-      {
-        "question": "In Dholuo morphology, which prefix best reflects both gender and territorial origin when referring specifically to a woman from Seme?",
-        "options": [
-          "Ja Seme",
-          "Jo Seme",
-          "Nyar Seme",
-          "Nyako Seme"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Nyar Seme' is the correct form for referring to a woman from Seme, combining gender ('Nyar') and location."
-      },
-      {
-        "question": "Which of the following pairs correctly demonstrates the singular and plural ethnonymic forms for people from Uganda?",
-        "options": [
-          "Ja Uganda / Ja Jo Uganda",
-          "Nyar Uganda / Jo Uganda",
-          "Ja Uganda / Jo Uganda",
-          "Jo Uganda / Jo Uganda"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Ja Uganda' refers to a single person from Uganda, while 'Jo Uganda' is the plural form."
-      },
-      {
-        "question": "Which region is matched incorrectly with its feminine ethnonymic form?",
-        "options": [
-          "Kabondo – Nyar Kabondo",
-          "Kano – Nyar Kano",
-          "Ugenya – Nyar Ugenya",
-          "Zaire – Nyar Zaire"
-        ],
-        "correctAnswer": 3,
-        "explanation": "'Nyar Zaire' is not a standard Dholuo construction for a feminine ethnonym from Zaire, making this an incorrect match."
-      },
-      {
-        "question": "What does the prefix “Ja-” indicate in Dholuo when attached to a place name?",
-        "options": [
-          "Only female origin",
-          "A plural ethnic group",
-          "A person from that location",
-          "A married woman from another clan"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The prefix 'Ja-' indicates a person from the place mentioned, regardless of gender."
-      },
-      {
-        "question": "Which of the following reflects the plural form of Ja Asembo in Dholuo?",
-        "options": [
-          "Jo Asembo",
-          "Nyar Asembo",
-          "Jo Seme",
-          "Nyar Seme"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The plural of 'Ja Asembo' (a person from Asembo) is 'Jo Asembo' (people from Asembo)."
-      },
-      {
-        "question": "The Dholuo morphological system for ethnonyms primarily encodes which of the following linguistic features?",
-        "options": [
-          "Tense and aspect",
-          "Location and gender",
-          "Mood and tone",
-          "Voice and valency"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Ethnonyms in Dholuo indicate both the origin (location) and gender of a person."
-      },
-      {
-        "question": "A Kenyan woman would most accurately be referred to as:",
-        "options": [
-          "Jo Kenya",
-          "Ja Kenya",
-          "Nyar Kenya",
-          "Nyako Kenya"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Nyar Kenya' is the appropriate feminine ethnonym for a woman from Kenya."
-      },
-      {
-        "question": "Which of the following demonstrates a correct use of “Ja-” for ethnicity, rather than geography?",
-        "options": [
-          "Ja Kisumo",
-          "Ja Kikuyu",
-          "Ja Asembo",
-          "Ja Kenya"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Ja Kikuyu' refers to a person of the Kikuyu ethnic group, demonstrating use of 'Ja-' for ethnicity."
-      },
-      {
-        "question": "Why might “Ja-” also imply a role of lineage representation in traditional Luo society?",
-        "options": [
-          "Because it denotes honorific age rank",
-          "Because men were usually community spokespersons",
-          "Because “Ja-” is an older term than “Nyar-”",
-          "Because it means \"firstborn male\""
-        ],
-        "correctAnswer": 1,
-        "explanation": "The use of 'Ja-' often implied social roles such as lineage representation, since men traditionally spoke on behalf of communities."
-      },
-      {
-        "question": "Which of the following sets includes only valid Dholuo regional ethnonyms for a group of people?",
-        "options": [
-          "Jo Kisumo, Jo Asembo, Jo Sudan",
-          "Jo Kenya, Nyar Kano, Jo Zambia",
-          "Jo Seme, Ja Kabondo, Nyar Uganda",
-          "Nyar Zaire, Ja Nyakach, Jo Turkana"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Jo Kisumo', 'Jo Asembo', and 'Jo Sudan' are all valid plural ethnonyms used in Dholuo."
-      }
-    ]
-        },{
-            "title": "Personal & Impersonal Nouns",
-            "htmlContent": "beginner/module-two/3.html",
+    {
+      "question": "Which adjective in Dholuo denotes moral uprightness, physical beauty, or social approval, and uses an intensifier to express extremity?",
+      "options": [
+        "Marach ahinya",
+        "Maber ahinya",
+        "Moromo",
+        "Mathoth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maber ahinya’ combines the adjective ‘maber’ (good) with the intensifier ‘ahinya’ (very/extremely) to convey strong moral and physical approval."
+    },
+    {
+      "question": "Identify the Dholuo adjective that intensifies the idea of abundance beyond “many,” and implies excess or overflowing.",
+      "options": [
+        "Mang’eny",
+        "Moromo",
+        "Mathoth",
+        "Maduong’"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mathoth’ expresses a level of abundance that exceeds ‘many’, implying excess or overflowing."
+    },
+    {
+      "question": "What is the correct morphological structure of the Dholuo adjective “Maduong’”?",
+      "options": [
+        "ma- + tin",
+        "ma- + duong’",
+        "ma- + ng’eny",
+        "ma- + oromo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maduong’ is morphologically derived from the prefix ‘ma-’ and the root ‘duong’ meaning ‘big’."
+    },
+    {
+      "question": "Which Dholuo adjective of quality is irregular in morphological formation and not prefixed by “ma-”?",
+      "options": [
+        "Maber",
+        "Manumu",
+        "Marach",
+        "Matin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Manumu’ is an irregular adjective that does not follow the common ‘ma-’ prefix rule, unlike typical Dholuo adjectives."
+    },
+    {
+      "question": "If you want to ask someone about the number of objects in Dholuo, which interrogative quantifier should you use?",
+      "options": [
+        "Oromo nade?",
+        "Adi?",
+        "Maogundho?",
+        "Thoth?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Adi?’ is the correct Dholuo interrogative quantifier for asking ‘How many?’"
+    },
+    {
+      "question": "Choose the correct pair where one adjective loses its “ma-” prefix in spoken Dholuo.",
+      "options": [
+        "Maoromo → Moromo",
+        "Matin → Tin",
+        "Maber → Ber",
+        "Marach → Rach"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Maoromo’ commonly drops the ‘ma-’ prefix in speech, becoming ‘Moromo’ for ease of use."
+    },
+    {
+      "question": "Which adjective conveys sufficiency and often appears without its morphological prefix in casual speech?",
+      "options": [
+        "Maduong’",
+        "Mang’eny",
+        "Moromo",
+        "Manok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Moromo’ derives from ‘maoromo’ and means ‘enough’ or ‘sufficient,’ frequently used in its shortened form."
+    },
+    {
+      "question": "Which of the following pairs contrasts adjectives of quality with adjectives of quantity?",
+      "options": [
+        "Manumu and Manok",
+        "Marach and Mathoth",
+        "Moromo and Mang’eny",
+        "Maduong’ and Matin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Marach’ (bad) is a quality adjective, while ‘Mathoth’ (excessive/many) is a quantity adjective, showing contrast in category."
+    },
+    {
+      "question": "What is the semantic difference between “Mang’eny” and “Mathoth” in Dholuo?",
+      "options": [
+        "Mathoth refers to quantity while Mang’eny refers to size",
+        "Both mean “few” but used differently",
+        "Mathoth is a stronger, more excessive form of Mang’eny",
+        "Mang’eny is used only with mass nouns; Mathoth is not"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mathoth’ expresses a more extreme degree of abundance than ‘Mang’eny’, which simply means ‘many’."
+    },
+    {
+      "question": "What kind of descriptive value does “Marach ahinya” convey in Dholuo?",
+      "options": [
+        "Neutral observation",
+        "Intensely negative moral or aesthetic judgment",
+        "High quantity but low value",
+        "A blend of beauty and importance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Marach ahinya’ is a strongly negative phrase, emphasizing a highly undesirable moral or physical trait."
+    }
+  ]
+        },
+        {
+            "title": "Adjective of Color",
+            "htmlContent": "beginner/module-three/3.html",
             "order": 3,
             "practiceQuestions": [
-      {
-        "question": "Which of the following features best distinguishes personal nouns from impersonal nouns in Dholuo?",
-        "options": [
-          "They can be both abstract and concrete",
-          "They refer to countable objects",
-          "They are associated with agency and consciousness",
-          "They refer to phenomena like rain and wind"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Personal nouns in Dholuo typically indicate beings with agency and consciousness, such as people."
-      },
-      {
-        "question": "What type of noun is represented by the Dholuo word 'japuonjre'?",
-        "options": [
-          "Proper Personal Noun",
-          "Abstract Impersonal Noun",
-          "Relational/Occupational Personal Noun",
-          "Mass Impersonal Noun"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Japuonjre' refers to a teacher or instructor, making it an occupational personal noun."
-      },
-      {
-        "question": "Which of the following is an accurate pair of impersonal nouns in Dholuo based on their type?",
-        "options": [
-          "Nyathi – Mass / Mesa – Abstract",
-          "Koth – Natural / Pii – Mass",
-          "Okil – Abstract / Jatend piny – Concrete",
-          "Japuonj – Concrete / Hera – Kinship"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Koth' (rain) is a natural impersonal noun, while 'Pii' (water) is a mass noun."
-      },
-      {
-        "question": "Which pronouns in Dholuo are typically used to replace personal nouns?",
-        "options": [
-          "En, gi",
-          "En, gin",
-          "En, gi, ni",
-          "Gi, ma"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'En' (he/she) and 'gin' (they) are used for replacing singular and plural personal nouns."
-      },
-      {
-        "question": "Why would the noun 'japuonj' be classified as a personal noun in Dholuo?",
-        "options": [
-          "It represents an abstract idea",
-          "It lacks agency but is countable",
-          "It refers to a professional human role",
-          "It refers to a natural phenomenon"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Japuonj' refers to a teacher, a human with agency, hence a personal noun."
-      },
-      {
-        "question": "Which of the following statements is true regarding impersonal nouns in Dholuo?",
-        "options": [
-          "They refer only to intangible concepts",
-          "They can represent abstract, natural, concrete, or material elements",
-          "They are always replaced by gin",
-          "They indicate social identity and gender"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Impersonal nouns encompass abstract concepts, natural elements, and material things."
-      },
-      {
-        "question": "Identify the mismatch between noun type and category:",
-        "options": [
-          "Got – Concrete Impersonal",
-          "Lwasi – Abstract/Natural Impersonal",
-          "Japuonj – Kinship Personal",
-          "Kech – Abstract Impersonal"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Japuonj' is occupational, not kinship-based, making this a category mismatch."
-      },
-      {
-        "question": "Which set of Dholuo nouns exclusively consists of mass or material impersonal nouns?",
-        "options": [
-          "Ochele, Pii, Moo",
-          "Nyathi, Mesa, Got",
-          "Hera, Teko, Thuolo",
-          "Koth, Nyamburko, Mor polo"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Ochele' (salt), 'Pii' (water), and 'Moo' (grain/alcohol) are mass or material impersonal nouns."
-      },
-      {
-        "question": "In the sentence 'Koth noketho nyamburko,' why are both nouns classified as impersonal?",
-        "options": [
-          "They both refer to abstract cultural values",
-          "They both represent titles and social identities",
-          "They do not involve human or personified agents",
-          "They are professional and kinship terms"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both 'Koth' (rain) and 'Nyamburko' (storm) are natural phenomena without agency, hence impersonal."
-      },
-      {
-        "question": "According to the classification presented, which of the following influences does not directly justify the categorization of nouns in Dholuo?",
-        "options": [
-          "Gender and agency of referents",
-          "Countability and mass noun behavior",
-          "Presence in metaphorical or poetic expressions",
-          "Nature of phenomena or abstract concepts"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Metaphorical use does not determine noun classification; agency, countability, and nature do."
-      }
-    ]
-        }, {
-            "title": "Directions",
-            "htmlContent": "beginner/module-two/4.html",
+    {
+      "question": "What is the correct adjectival form of the Dholuo root rakwar (red) when modifying a noun?",
+      "options": [
+        "marakwar",
+        "makwar",
+        "marakwar / makwar",
+        "rakwarma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both ‘marakwar’ and ‘makwar’ are accepted forms for deriving adjectives from the color root ‘rakwar’ (red), used to modify nouns in Dholuo."
+    },
+    {
+      "question": "Which Dholuo color adjective would best describe “a white fish”?",
+      "options": [
+        "marateng’",
+        "marachar",
+        "marapir",
+        "marakwar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Marachar’ is the color adjective for ‘white’ and is appropriately used to describe a white fish."
+    },
+    {
+      "question": "The Dholuo adjective maratong’ is culturally derived from which of the following sources?",
+      "options": [
+        "Brown soil",
+        "Indigo dye",
+        "Egg yolk",
+        "Palm fruit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maratong’ (yellow) is derived from the traditional use of egg yolk in cultural descriptions of the color."
+    },
+    {
+      "question": "If you were describing clothing that is both black and white in Dholuo, which adjective would you most accurately use?",
+      "options": [
+        "marapir",
+        "maralik",
+        "maradier",
+        "marateng’"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maradier’ refers to a mixed or patchy black and white appearance, suitable for describing such clothing."
+    },
+    {
+      "question": "What is the semantic significance of the Dholuo adjective marachar beyond its literal meaning?",
+      "options": [
+        "Associated with royalty",
+        "Symbol of darkness and mystery",
+        "Reflects abundance and richness",
+        "Linked with purity and cleanliness"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Marachar’ signifies whiteness and carries cultural connotations of purity and cleanliness."
+    },
+    {
+      "question": "Which of the following is NOT a valid root form of a Dholuo color adjective?",
+      "options": [
+        "rakwar",
+        "rapir",
+        "ralum",
+        "maralik"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Maralik’ is already a full adjectival form, not a root. Valid roots are ‘rakwar’, ‘rapir’, and ‘ralum’."
+    },
+    {
+      "question": "Choose the correct example of a noun modified by the color adjective for brown.",
+      "options": [
+        "Nyako marabuor — “Brown-skinned girl”",
+        "Kom marapir — “Brown chair”",
+        "Rech marateng’ — “Brown fish”",
+        "Diel marakwar — “Brown goat”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Nyako marabuor’ uses ‘marabuor’, which is the correct color adjective for brown, especially in describing skin tone."
+    },
+    {
+      "question": "What is the likely meaning of the phrase Law marambulu based on the morphological rules described?",
+      "options": [
+        "Blue paper",
+        "Blue dress",
+        "Blue chair",
+        "Blue clothes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Law’ means clothes and ‘marambulu’ derives from the root ‘rambulu’ (blue), forming the phrase ‘blue clothes’."
+    },
+    {
+      "question": "The color adjective maralik is most closely associated with which cultural concept?",
+      "options": [
+        "Modesty",
+        "Royalty and rich tones",
+        "Hard work",
+        "Mourning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maralik’ is associated with luxurious, rich, or royal colors, reflecting high status or cultural prestige."
+    },
+    {
+      "question": "Which Dholuo adjective would appropriately describe vegetables with a natural green hue?",
+      "options": [
+        "marapir",
+        "maralum",
+        "maratong’",
+        "maradier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Maralum’ is derived from the root ‘ralum’ (green) and is used to describe green-colored items like vegetables."
+    }
+  ]
+        },
+        {
+            "title": "Adjectives & their Plural",
+            "htmlContent": "beginner/module-three/4.html",
             "order": 4,
             "practiceQuestions": [
-      {
-        "question": "In Dholuo, which term is used to express the direction 'South'?",
-        "options": ["Masawa", "Yimbo", "Milambo", "Nyandwat"],
-        "correctAnswer": 2,
-        "explanation": "'Milambo' is the Dholuo term commonly associated with 'South'."
-      },
-      {
-        "question": "Which Dholuo phrase would you use to say 'the sun sets in the West'?",
-        "options": [
-          "Chieng’ wuok yor Ugwe",
-          "Chieng’ podho yor Yimbo",
-          "Yamo dhi yor Milambo",
-          "Chieng’ wuok yor Masawa"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Chieng’ podho yor Yimbo' directly translates to 'the sun sets towards Yimbo (the West)'."
-      },
-      {
-        "question": "What is the correct translation for the Dholuo phrase 'Idh malo'?",
-        "options": ["Come down", "Climb up", "Sit down", "Stand up"],
-        "correctAnswer": 1,
-        "explanation": "'Idh malo' means 'climb up' in Dholuo."
-      },
-      {
-        "question": "Which of the following Dholuo terms is associated with 'down' or 'below'?",
-        "options": ["Malo", "Piny", "Yor", "Masawa"],
-        "correctAnswer": 1,
-        "explanation": "'Piny' in Dholuo refers to 'the ground' or 'down/below'."
-      },
-      {
-        "question": "Which term combines a verb and a locative marker to express the action 'Come down'?",
-        "options": ["Idh malo", "Lor piny", "Bed piny", "Chung’ malo"],
-        "correctAnswer": 1,
-        "explanation": "'Lor piny' literally translates to 'come down'."
-      },
-      {
-        "question": "In Dholuo, what is the correct phrase for instructing many people to 'sit down'?",
-        "options": ["Bed piny", "Lor piny", "Bedu uru piny", "Chung’ malo"],
-        "correctAnswer": 2,
-        "explanation": "'Bedu uru piny' is the plural command for 'sit down'."
-      },
-      {
-        "question": "The Dholuo term 'Masawa' primarily refers to which cardinal direction?",
-        "options": ["East", "South", "North / Central", "West"],
-        "correctAnswer": 2,
-        "explanation": "'Masawa' refers to the North or Central region in Dholuo spatial orientation."
-      },
-      {
-        "question": "What does the verb-preposition structure 'Chieng’ wuok yor Ugwe' illustrate?",
-        "options": [
-          "Vertical movement only",
-          "Ascending actions",
-          "Subject + verb + directional phrase",
-          "Object + verb + directional phrase"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The structure represents subject ('Chieng’') + verb ('wuok') + direction ('yor Ugwe')."
-      },
-      {
-        "question": "Which movement expression would describe traveling eastwards in Dholuo?",
-        "options": ["Yor Yimbo", "Yor Milambo", "Yor Ugwe", "Yor Masawa"],
-        "correctAnswer": 2,
-        "explanation": "'Yor Ugwe' is used to express eastward movement."
-      },
-      {
-        "question": "Which cultural observation is associated with the term 'Yimbo' in Dholuo cosmology?",
-        "options": ["Sunrise", "Sunset", "Wind from the south", "Wind from the north"],
-        "correctAnswer": 1,
-        "explanation": "'Yimbo' is culturally associated with the direction of sunset in Dholuo cosmology."
-      }
-    ]
-        }, {
-            "title": "Parts of the Body",
-            "htmlContent": "beginner/module-two/5.html",
-            "order": 5,
-            "practiceQuestions": [
-      {
-        "question": "In Dholuo, which term correctly refers to the 'eye' in a literal anatomical sense?",
-        "options": ["Wang’", "Tong’ wang’", "Yier", "Um"],
-        "correctAnswer": 1,
-        "explanation": "'Tong’ wang’' means the eyeball or literal anatomical eye, while 'Wang’' can also be used metaphorically."
-      },
-      {
-        "question": "In Dholuo grammar, how are most external body parts treated in terms of countability?",
-        "options": [
-          "Always uncountable nouns",
-          "Uncountable except in idiomatic use",
-          "Always countable nouns",
-          "Only plural in possessive forms"
-        ],
-        "correctAnswer": 2,
-        "explanation": "External body parts like arms, legs, and eyes are countable in Dholuo grammar."
-      },
-      {
-        "question": "Which Dholuo word would correctly be used to refer to 'lungs' in a medical context?",
-        "options": ["Oboo", "Ombich", "Chuny", "Ler"],
-        "correctAnswer": 0,
-        "explanation": "'Oboo' is the correct anatomical term for lungs in Dholuo."
-      },
-      {
-        "question": "What is the Dholuo word for 'blood,' and how is it generally treated grammatically?",
-        "options": [
-          "Remo; treated as countable",
-          "Remo; treated as uncountable",
-          "Ler; treated as countable",
-          "Chogo; treated as collective"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Remo' means 'blood' and is treated as an uncountable noun in Dholuo."
-      },
-      {
-        "question": "Identify the correct Dholuo possessive form for 'my hand.'",
-        "options": ["Lwete", "Lweta", "Lweti", "Lwedo"],
-        "correctAnswer": 1,
-        "explanation": "'Lweta' is the possessive form of 'luwe' (hand) meaning 'my hand'."
-      },
-      {
-        "question": "In Dholuo sentence structure, why is it incorrect to say 'She broke the arm' without a possessive marker?",
-        "options": [
-          "Because Dholuo never uses definite articles.",
-          "Because possessive markers are mandatory to indicate ownership of body parts.",
-          "Because articles are used only for external body parts.",
-          "Because verbs must agree in gender."
-        ],
-        "correctAnswer": 1,
-        "explanation": "In Dholuo, body parts are typically expressed with possessive markers to show whose body part is referred to."
-      },
-      {
-        "question": "What is the Dholuo word for 'shoulder,' a body part often used metaphorically for carrying responsibilities?",
-        "options": ["Gok", "Agok", "Ng’ut", "Tielo"],
-        "correctAnswer": 0,
-        "explanation": "'Gok' means 'shoulder' and is used both anatomically and metaphorically."
-      },
-      {
-        "question": "When expressing 'His head hurt after the accident' in Dholuo, which noun acts as the grammatical subject?",
-        "options": ["Norame", "Masira", "Wiyo", "Wich"],
-        "correctAnswer": 2,
-        "explanation": "'Wiyo' (his head) acts as the subject, showing possession and the one experiencing the pain."
-      },
-      {
-        "question": "In the sentence 'She injured her knee during the match', what is the Dholuo word for 'knee' that serves as the object?",
-        "options": ["Tielo", "Bam", "Chong’", "Ombong’"],
-        "correctAnswer": 2,
-        "explanation": "'Chong’' is the word for 'knee' in Dholuo."
-      },
-      {
-        "question": "Which internal organ in Dholuo is metaphorically significant as the emotional or moral center and is called Adundo?",
-        "options": ["Liver", "Heart", "Brain", "Stomach"],
-        "correctAnswer": 1,
-        "explanation": "'Adundo' is the Dholuo word for 'heart', symbolizing emotion and morality."
-      }
-    ]
-        },{
+    {
+      "question": "Which of the following is the correct plural phrase for “a short chair” in Dholuo?",
+      "options": [
+        "Kom machiek",
+        "Kombe machieko",
+        "Kombe machiek",
+        "Kom machieko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kombe’ is the plural of ‘Kom’ (chair), and ‘machieko’ is the plural form of the adjective ‘machiek’ (short)."
+    },
+    {
+      "question": "In Dholuo, which of the following adjectives does not inflect for plurality?",
+      "options": [
+        "maber",
+        "matindo",
+        "makuar",
+        "marach"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Makwar’ (rough) is an invariant adjective and does not change based on plurality."
+    },
+    {
+      "question": "What is the correct plural form of the adjective “marachar” (white)?",
+      "options": [
+        "marachero",
+        "marachere",
+        "marachoro",
+        "marachiyo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct plural form of ‘marachar’ is ‘marachere’, following the inflectional rules for adjectives in Dholuo."
+    },
+    {
+      "question": "Choose the correct transformation from singular to plural: “Nyako maber” (a beautiful girl).",
+      "options": [
+        "Nyako mabeyo",
+        "Nyakni maber",
+        "Nyiri mabeyo",
+        "Nyiri maber"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nyiri’ is the plural of ‘Nyako’ (girl), and ‘mabeyo’ is the plural of ‘maber’ (beautiful)."
+    },
+    {
+      "question": "Which of the following noun–adjective pairs is mismatched in plural agreement?",
+      "options": [
+        "Puga matin → Puke matindo",
+        "Nyathi maber → Nyithindo mabeyo",
+        "Kom machiek → Kombe machieko",
+        "Ndigni matindo → Ndiga matindo"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Ndiga’ is the plural of ‘ndigni’, but the adjective ‘matindo’ (small) should also be pluralized to ‘matinjo’ or similar; thus, this is mismatched."
+    },
+    {
+      "question": "In Dholuo morphosyntax, what feature primarily triggers adjective inflection?",
+      "options": [
+        "Verb tense",
+        "Gender",
+        "Number",
+        "Mood"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Number (singular/plural) is the primary feature that determines adjective inflection in Dholuo."
+    },
+    {
+      "question": "Which of the following adjectives remains invariant in both singular and plural noun phrases?",
+      "options": [
+        "marach",
+        "mamit",
+        "maduong’",
+        "marateng’"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mamit’ (sweet) does not change in plural contexts and is considered invariant."
+    },
+    {
+      "question": "Identify the correct plural adjective form for “mabor” (tall/long).",
+      "options": [
+        "mabori",
+        "maburo",
+        "maboyo",
+        "maboro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maboyo’ is the correct plural form of ‘mabor’, following the appropriate morphological rules."
+    },
+    {
+      "question": "Based on the semantic classification provided, which adjective is linked to taste or emotion rather than size or color?",
+      "options": [
+        "marateng’",
+        "makwiny",
+        "matindo",
+        "marachere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Makwiny’ relates to bitterness (taste), setting it apart from physical descriptors like color or size."
+    },
+    {
+      "question": "What linguistic implication can be drawn from the existence of invariant adjectives in Dholuo?",
+      "options": [
+        "Adjective forms are arbitrary in Dholuo.",
+        "Dholuo adjectives have no grammatical agreement rules.",
+        "Cultural or sensory descriptors resist inflection in some cases.",
+        "Invariant adjectives only apply to animate nouns."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Some adjectives, especially those expressing cultural or sensory concepts, remain unchanged across number, suggesting a unique resistance to inflection."
+    }
+  ]
+        },
+        {
             "title": "Review & Practice",
-            "htmlContent": "beginner/module-two/6.html",
-            "order": 6
-        },{
-            "title": "Nouns (Part 03)",
-            "htmlContent": "beginner/module-two/7.html",
+            "htmlContent": "beginner/module-three/5.html",
+            "order": 5
+        },
+        {
+            "title": "Adjectives and Comparatives",
+            "htmlContent": "beginner/module-three/6.html",
+            "order": 6,
+            "practiceQuestions": [
+    {
+      "question": "Which Luo adjective correctly transforms into the comparative form ber?",
+      "options": ["mariek", "marach", "maber", "mamit"],
+      "correctAnswer": 2,
+      "explanation": "‘Maber’ (good) transforms into the comparative form ‘ber’ (better)."
+    },
+    {
+      "question": "Which of the following sentences correctly illustrates the use of 'machal kod' to compare equality?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Ma nyap kaka macha",
+        "Mae bor machal kod macha",
+        "Ma bor moloyo macha"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Machal kod’ expresses equality. ‘Mae bor machal kod macha’ means ‘This is as tall as that one.’"
+    },
+    {
+      "question": "What is the most accurate English translation of 'Ma riek kaka macha' based on the provided context?",
+      "options": [
+        "This is cleverer than that one",
+        "This is as wise as that one",
+        "This is the wisest one",
+        "This is as tall as that one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kaka’ means ‘as’, so this translates as ‘This is as wise as that one.’"
+    },
+    {
+      "question": "Which option shows a correct pairing of a positive adjective and its comparative form?",
+      "options": ["marach → ber", "mamit → bor", "mabor → bor", "mariek → rach"],
+      "correctAnswer": 2,
+      "explanation": "‘Mabor’ (tall) transforms to ‘bor’ in its comparative form."
+    },
+    {
+      "question": "Which structure would be most appropriate for comparing two things as equal in sweetness?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Mae mit machal kod macha",
+        "Mae mit ber kaka macha",
+        "Mae mit ber kod macha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Machal kod’ expresses equality, so ‘Mae mit machal kod macha’ means ‘This is as sweet as that one.’"
+    },
+    {
+      "question": "What is the primary morphological pattern observed in forming comparatives from adjectives in Luo?",
+      "options": [
+        "Addition of 'ma' as a prefix",
+        "Reduction of the syllable",
+        "Doubling the last consonant",
+        "Inversion of the vowel sequence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Comparative forms often result from syllable reduction or shortening the root, such as ‘mabor’ → ‘bor’, ‘maber’ → ‘ber’."
+    },
+    {
+      "question": "Which of the following is not a valid comparative form based on the material?",
+      "options": ["bor", "mit", "nyap", "rach"],
+      "correctAnswer": 2,
+      "explanation": "‘Nyap’ is not a comparative adjective in this context; others like ‘bor’ and ‘rach’ are used comparatively."
+    },
+    {
+      "question": "Which Luo comparative sentence best translates to 'This is worse than that one'?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Mae rach moloyo macha",
+        "Ma rach kaka macha",
+        "Mae riek machal kod macha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mae rach moloyo macha’ directly translates to ‘This is worse than that one.’"
+    },
+    {
+      "question": "Why is 'kaka' significant in Luo comparative grammar?",
+      "options": [
+        "It forms the superlative of adjectives",
+        "It is used to express equality between two entities",
+        "It marks possession in comparative structures",
+        "It turns adjectives into verbs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kaka’ means ‘as’ and is key in expressing equality (e.g., 'as good as')."
+    },
+    {
+      "question": "Which of the following statements best reflects the cultural-linguistic insight drawn from Luo comparative usage?",
+      "options": [
+        "Luo language limits comparisons to physical traits",
+        "Comparisons in Luo mostly emphasize animals and nature",
+        "Luo comparisons often reflect moral and personality traits",
+        "Luo comparatives are only used in poetic or ceremonial speech"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Luo comparatives commonly emphasize moral or character traits, such as wisdom and goodness, beyond just physical comparisons."
+    }
+  ]
+        },
+        {
+            "title": "Comparison of two things & Superlatives",
+            "htmlContent": "beginner/module-three/7.html",
             "order": 7,
             "practiceQuestions": [
-      {
-        "question": "Which of the following is an example of a concrete noun in Dholuo?",
-        "options": ["Mor", "Kom", "Hera", "Thuolo"],
-        "correctAnswer": 1,
-        "explanation": "'Kom' refers to a tangible object (chair), making it a concrete noun."
-      },
-      {
-        "question": "What does the abstract noun 'Kuyo' in Dholuo represent?",
-        "options": ["Peace", "Sadness", "Strength", "Health"],
-        "correctAnswer": 1,
-        "explanation": "'Kuyo' expresses the emotion of sadness, making it an abstract noun."
-      },
-      {
-        "question": "Which of the following is an abstract noun representing a concept in Dholuo?",
-        "options": ["Buore", "Hera", "Guok", "Nyathii"],
-        "correctAnswer": 1,
-        "explanation": "'Hera' means love, a conceptual and emotional state, classifying it as an abstract noun."
-      },
-      {
-        "question": "In Dholuo, which of these is an example of a concrete noun related to animals?",
-        "options": ["Nyambura", "Mor", "Ratiro", "Muolo"],
-        "correctAnswer": 0,
-        "explanation": "'Nyambura' refers to a female animal, making it a concrete noun."
-      },
-      {
-        "question": "Which of the following abstract nouns in Dholuo refers to a positive quality?",
-        "options": ["Kuyo", "Teko", "Ngima", "Luor"],
-        "correctAnswer": 1,
-        "explanation": "'Teko' means strength, a positive and intangible quality, thus abstract."
-      },
-      {
-        "question": "What is the Dholuo word for 'field', a concrete noun representing a place?",
-        "options": ["Alap", "Skul", "Buore", "Liech"],
-        "correctAnswer": 0,
-        "explanation": "'Alap' means field, a specific physical location, making it a concrete noun."
-      },
-      {
-        "question": "Which of these is an abstract noun referring to a state of being in Dholuo?",
-        "options": ["Kwee", "Skul", "Nyinyo", "Nyathii"],
-        "correctAnswer": 0,
-        "explanation": "'Kwee' represents calmness or peace, a state of being that is abstract in nature."
-      },
-      {
-        "question": "Which of the following is an example of a concrete noun in Dholuo referring to an object?",
-        "options": ["Nyamburko", "Mor", "Muolo", "Thuolo"],
-        "correctAnswer": 0,
-        "explanation": "'Nyamburko' is a tangible object, fitting the definition of a concrete noun."
-      },
-      {
-        "question": "Which of the following abstract nouns in Dholuo represents an emotion?",
-        "options": ["Ber", "Mor", "Yien", "Guok"],
-        "correctAnswer": 1,
-        "explanation": "'Mor' means happiness or joy, an emotional state and thus an abstract noun."
-      },
-      {
-        "question": "In Dholuo, the word 'Nyinyo' represents which of the following?",
-        "options": ["Steel", "Freedom", "Honesty", "Child"],
-        "correctAnswer": 0,
-        "explanation": "'Nyinyo' means steel, a physical and tangible substance, making it a concrete noun."
-      }
-    ]
-        },{
-            "title": "Animals",
-            "htmlContent": "beginner/module-two/8.html",
+    {
+      "question": "Which of the following correctly uses the superlative form of the adjective mamit (sweet)?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Mamit moloyo te",
+        "Ma mit kaka macha",
+        "Mae mamit moloyo mari"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mamit moloyo te’ translates to ‘the sweetest of all,’ correctly using the superlative structure."
+    },
+    {
+      "question": "In the phrase ma ber kaka macha, what grammatical structure is being expressed?",
+      "options": [
+        "A superlative comparison",
+        "A moral judgment",
+        "A comparison of equality",
+        "An intensifier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kaka’ means ‘as,’ and this phrase expresses equality."
+    },
+    {
+      "question": "Which of the following sentences uses a morphological comparative form where the adjective root is shortened?",
+      "options": [
+        "Mamit moloyo te",
+        "Ma mit kaka macha",
+        "Mara ber moloyo mari",
+        "Chiega mariek moloyo te"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maber’ (good) becomes ‘ber’ (better) through morphological reduction."
+    },
+    {
+      "question": "What is the meaning of Puotha duong’ moloyo puothi?",
+      "options": [
+        "My farm is the largest of all.",
+        "My farm is bigger than yours.",
+        "My land is the most fertile.",
+        "My house is newer than his."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Moloyo’ indicates comparison; the sentence means ‘My farm is bigger than yours.’"
+    },
+    {
+      "question": "Identify the correct Dholuo sentence for: “This is as tall as that one.”",
+      "options": [
+        "Mae mabor machal kod macha",
+        "Mae bor moloyo macha",
+        "Ma bor kaka macha",
+        "Mae duong' moloyo macha"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Bor’ (tall/long) + ‘kaka’ = ‘as tall as’; correct structure: ‘Ma bor kaka macha.’"
+    },
+    {
+      "question": "Which adjective does not change form when expressing comparative degree?",
+      "options": [
+        "Mamit",
+        "Marach",
+        "Mabor",
+        "Mabich"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mabor’ already ends in the comparative form ‘bor’ and is thus invariant."
+    },
+    {
+      "question": "What does the structure moloyo te convey in Dholuo grammar?",
+      "options": [
+        "A literal comparison",
+        "A neutral comparison",
+        "The highest degree of quality",
+        "An equality of two qualities"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Moloyo te’ marks the superlative, meaning ‘more than all others’ or ‘the most.’"
+    },
+    {
+      "question": "Choose the correct translation of Yorni bor moloyo yor cha.",
+      "options": [
+        "This road is the longest of all.",
+        "That Road is better than this one.",
+        "This way is longer than that one.",
+        "This path is equally long."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Yorni bor moloyo yor cha’ means ‘This way is longer than that one.’"
+    },
+    {
+      "question": "Which of the following sentences best demonstrates the use of an intensifier in Dholuo?",
+      "options": [
+        "Ma ber kaka macha",
+        "Ng’atno riek ndii",
+        "Mae riek moloyo macha",
+        "Mariek moloyo te"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ndii’ acts as an intensifier, emphasizing the subject’s wisdom."
+    },
+    {
+      "question": "Which comparative structure is used to express “His wife is better than theirs” in Dholuo?",
+      "options": [
+        "Chiega maber machal kod chiegi",
+        "Chiega mit moloyo chiegi",
+        "Chiega ber moloyo chiegi",
+        "Chiega riek moloyo te"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ber moloyo’ expresses ‘better than’; thus, the phrase correctly compares two entities."
+    }
+  ]
+        },
+        {
+            "title": "Verbs (Part 01)",
+            "htmlContent": "beginner/module-three/8.html",
             "order": 8,
             "practiceQuestions": [
-      {
-        "question": "Which of the following is an example of a wild animal in Dholuo?",
-        "options": ["Gueno", "Sibuor", "Dhiang’", "Akuru"],
-        "correctAnswer": 1,
-        "explanation": "'Sibuor' refers to a leopard, which is a wild animal in Dholuo."
-      },
-      {
-        "question": "What is the Dholuo word for 'cow'?",
-        "options": ["Diel", "Dhiang’", "Ruath", "Dhok"],
-        "correctAnswer": 1,
-        "explanation": "'Dhiang’' is the Dholuo word for cow, a commonly domesticated animal."
-      },
-      {
-        "question": "Which of the following animals is a type of fish in Dholuo?",
-        "options": ["Kamongo", "Jowi", "Opuk", "Ogwang’"],
-        "correctAnswer": 0,
-        "explanation": "'Kamongo' refers to catfish, a type of fish in Dholuo."
-      },
-      {
-        "question": "Which of the following is a type of bird in Dholuo?",
-        "options": ["Nyakech", "Tula", "Fuko", "Nyiguogi"],
-        "correctAnswer": 1,
-        "explanation": "'Tula' is a type of bird, commonly recognized in Dholuo language."
-      },
-      {
-        "question": "What is the Dholuo word for 'goat'?",
-        "options": ["Rombo", "Diel", "Yim", "Paka"],
-        "correctAnswer": 1,
-        "explanation": "'Diel' is the Dholuo word for goat, a domesticated animal."
-      },
-      {
-        "question": "Which of the following animals is a wild cat in Dholuo?",
-        "options": ["Kibwe", "Ogwang’", "Jowi", "Liwinji"],
-        "correctAnswer": 1,
-        "explanation": "'Ogwang’' is the Dholuo term for a wild cat species."
-      },
-      {
-        "question": "What is the Dholuo word for 'rabbit'?",
-        "options": ["Apuoyo", "Nyakech", "Opuk", "Magwar Okanga"],
-        "correctAnswer": 0,
-        "explanation": "'Apuoyo' is the Dholuo word for rabbit, a small mammal."
-      },
-      {
-        "question": "Which of the following animals is a type of fish in Dholuo?",
-        "options": ["Mbuta", "Ruath", "Tiga Ng’ute bor", "Jowi"],
-        "correctAnswer": 0,
-        "explanation": "'Mbuta' refers to Nile perch, a common fish in Dholuo-speaking regions."
-      },
-      {
-        "question": "Which of these is the correct plural form of 'Guok' (dog) in Dholuo?",
-        "options": ["Guogi", "Nyiguogi", "Pekni", "Dhok"],
-        "correctAnswer": 0,
-        "explanation": "'Guogi' is the plural form of 'Guok' (dog) in Dholuo."
-      },
-      {
-        "question": "Which of the following is a domestic animal in Dholuo?",
-        "options": ["Sibuor", "Dhiang’", "Rawo", "Thuol"],
-        "correctAnswer": 1,
-        "explanation": "'Dhiang’' (cow) is a domesticated animal in Dholuo culture."
-      }
-    ]
-        },{
-            "title": "Luo Traditional Foods and Vegetables",
-            "htmlContent": "beginner/module-two/9.html",
+    {
+      "question": "Which of the following is the correct infinitive form in Dholuo?",
+      "options": ["japuonj", "bedi", "bedo", "en"],
+      "correctAnswer": 2,
+      "explanation": "‘Bedo’ is the infinitive form of the verb ‘to be,’ which ends in ‘-o’ or ‘-yo’ in Dholuo."
+    },
+    {
+      "question": "Which sentence below correctly demonstrates the present indicative structure using a plural subject?",
+      "options": ["Wan e japuonj", "Un e ker", "Gin jo Nairobi", "In ja Nairobi"],
+      "correctAnswer": 2,
+      "explanation": "‘Gin jo Nairobi’ means ‘They are people of Nairobi,’ using the correct structure for third person plural."
+    },
+    {
+      "question": "What distinguishes the verb “to be” in Dholuo from regular infinitive verbs?",
+      "options": [
+        "It has a prefix only.",
+        "It ends in \"-yo\" like all other verbs.",
+        "It takes no subject.",
+        "It does not end in \"-o\" or \"-yo\" and is marked by \"N\"."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The verb ‘to be’ in Dholuo is irregular and marked by 'N' rather than a regular verb ending."
+    },
+    {
+      "question": "What role does the particle “e” play in the sentence \"An e jatend piny\"?",
+      "options": [
+        "It marks the object.",
+        "It is the subject of the sentence.",
+        "It functions as the copula (linking verb).",
+        "It is a pronoun modifier."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘E’ acts as the copula linking subject and predicate."
+    },
+    {
+      "question": "Which of the following best represents the correct subject-pronoun pair for \"You (plural)\" in Dholuo?",
+      "options": [
+        "In — used with \"e\"",
+        "Un — used with \"n\"",
+        "Gin — used with \"e\"",
+        "U — used with \"e\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Un’ is the 2nd person plural subject and pairs with the copula ‘n’ (e.g., Un n japuonj — You are teachers)."
+    },
+    {
+      "question": "Why is “Wan Jo Luo” grammatically accurate in Dholuo?",
+      "options": [
+        "“Jo Luo” is a verb phrase.",
+        "“Wan” takes the plural copula “n”.",
+        "“Wan” always uses “e” as the verb.",
+        "It uses an infinitive ending in \"-yo\"."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wan’ (we) uses ‘n’ in present tense linking verbs (e.g., Wan n Jo Luo — We are Luo people)."
+    },
+    {
+      "question": "Which of the following is not a correct feature of the Dholuo verb \"to be\"?",
+      "options": [
+        "It varies by subject pronoun.",
+        "It always ends in \"n\" in the present tense.",
+        "It conforms to the \"-o\" infinitive ending.",
+        "It expresses identity and profession."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unlike most infinitives, the verb 'to be' does not conform to the '-o' ending pattern."
+    },
+    {
+      "question": "Identify the sentence that correctly demonstrates the use of the third person singular subject with the verb “to be”.",
+      "options": [
+        "En e japuonj",
+        "En jo Kenya",
+        "Gin e japuonj",
+        "En Jo Luo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘En e japuonj’ means ‘He/She is a teacher,’ showing correct use of third person singular."
+    },
+    {
+      "question": "Which of the following pairings is correctly matched with its grammatical role?",
+      "options": [
+        "Wa – 2nd person singular",
+        "Gi – 3rd person plural",
+        "A – 3rd person singular",
+        "I – 1st person singular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Gi’ is the correct subject pronoun for 3rd person plural (they)."
+    },
+    {
+      "question": "Based on Dholuo grammar, which option best explains the use of “N” in identity statements?",
+      "options": [
+        "It is an adjective",
+        "It indicates a future event",
+        "It acts as the copula for linking subject to identity",
+        "It marks plural objects"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘N’ is used to link the subject and identity/predicate (e.g., Wan n japuonj — We are teachers)."
+    }
+  ]
+        },
+        {
+            "title": "Verb Conjugation (Verb to be) & (to have)",
+            "htmlContent": "beginner/module-three/9.html",
             "order": 9,
             "practiceQuestions": [
-      {
-        "question": "Which traditional Luo dish is prepared using silver cyprinid fish, often eaten fried or boiled?",
-        "options": ["Kamongo", "Omena", "Monye", "Aluru"],
-        "correctAnswer": 1,
-        "explanation": "'Omena' refers to silver cyprinid fish, a staple in Luo cuisine, commonly fried or boiled."
-      },
-      {
-        "question": "What cooking method involves fermenting vegetables such as spider plant (Akeyo) before preparation?",
-        "options": ["Aruda", "Aboka", "Alenya", "Kuon"],
-        "correctAnswer": 1,
-        "explanation": "'Aboka' is the fermentation method for preparing traditional vegetables like Akeyo."
-      },
-      {
-        "question": "Which vegetable, known for its slightly bitter taste, is often cooked with milk or butter in Luo cuisine?",
-        "options": ["Apoth", "Boo", "Osuga", "Onyulo"],
-        "correctAnswer": 2,
-        "explanation": "'Osuga' is known for its bitterness and is often softened by cooking it with milk or butter."
-      },
-      {
-        "question": "What Luo traditional food is made from pumpkin leaves often cooked with groundnut paste or milk?",
-        "options": ["Susa", "Mor alenya", "Alot Boo", "Dek"],
-        "correctAnswer": 0,
-        "explanation": "'Susa' is a dish made from pumpkin leaves cooked traditionally with groundnut paste or milk."
-      },
-      {
-        "question": "In Luo traditional food preservation, what is 'Aliya' best described as?",
-        "options": ["Fresh fish stew", "Smoked or sun-dried beef", "Fermented porridge", "Grilled mushroom"],
-        "correctAnswer": 1,
-        "explanation": "'Aliya' is preserved beef, either smoked or sun-dried, and commonly rehydrated before eating."
-      },
-      {
-        "question": "Which of the following is NOT a traditional Luo fruit according to the provided list?",
-        "options": ["Apoyo", "Mananas", "Rabolo", "Aluru"],
-        "correctAnswer": 3,
-        "explanation": "'Aluru' is not considered a traditional fruit among the Luo; it's typically known as an animal (edible frog)."
-      },
-      {
-        "question": "Which edible vegetable thrives mostly in swampy or wet riverbank areas?",
-        "options": ["It Kipoyo", "Nyasgumba", "Alika", "Nyuka"],
-        "correctAnswer": 1,
-        "explanation": "'Nyasgumba' is a leafy vegetable commonly found near swamps and riverbanks."
-      },
-      {
-        "question": "What is the primary traditional Luo carbohydrate dish made from maize flour?",
-        "options": ["Rabuon", "Kuon", "Mariewa", "Nyuka"],
-        "correctAnswer": 1,
-        "explanation": "'Kuon' is the staple dish made from maize flour, similar to ugali, and central to Luo meals."
-      },
-      {
-        "question": "\"Obwolo Madongo\" refers specifically to what kind of traditional Luo food?",
-        "options": ["Large wild mushrooms", "Stewed lungfish", "Roasted beef ribs", "Sweet fermented porridge"],
-        "correctAnswer": 0,
-        "explanation": "'Obwolo Madongo' refers to large edible wild mushrooms used in traditional Luo dishes."
-      },
-      {
-        "question": "Which vegetable requires very careful preparation due to its potential toxicity from cyanide compounds?",
-        "options": ["It Pilu Pilu", "It Omuogo", "It Nyanya", "Dindi"],
-        "correctAnswer": 1,
-        "explanation": "'It Omuogo' must be prepared with care as it can contain cyanide compounds if not handled properly."
-      }
-    ]
-        },{
-            "title": "Noun Plurals",
-            "htmlContent": "beginner/module-two/10.html",
-            "order": 10,
-            "pluralClassQuestions": [
-      {
-        "question": "Which plural form correctly belongs to Class VI (Irregular Plurals)?",
-        "options": ["Nam → Nambe", "Ot → Udi", "Kalem → Kalembe", "Wuor → Wuoche"],
-        "correctAnswer": 1,
-        "explanation": "'Ot → Udi' is an irregular plural and fits Class VI."
-      },
-      {
-        "question": "What is the plural of 'Jagam' (mediator) according to the Ja → Jo pattern?",
-        "options": ["Jagome", "Jogam", "Jojagam", "Jogomi"],
-        "correctAnswer": 1,
-        "explanation": "Ja → Jo class changes 'Jagam' to 'Jogam'."
-      },
-      {
-        "question": "Identify the class where the singular and plural forms are always identical.",
-        "options": ["-che Class", "Invariant Class (Le)", "-ni Class", "-je Class"],
-        "correctAnswer": 1,
-        "explanation": "The Invariant Class (Le) does not change form between singular and plural."
-      },
-      {
-        "question": "Which of the following plural forms is not correctly paired with its class?",
-        "options": ["Dala → Mier (Irregular Class)", "Jagoro → Jogoro (Ja → Jo Class)", "Pien → Piende (–nde Class)", "Ong’er → Ong’eche (–mbe Class)"],
-        "correctAnswer": 3,
-        "explanation": "'Ong’er → Ong’eche' actually belongs to the –che Class, not –mbe."
-      },
-      {
-        "question": "What is the plural of 'Adundo' (heart), and what class does it belong to?",
-        "options": ["Adundni – -ni Class", "Adunde – -nde Class", "Adundje – -je Class", "Adundche – -che Class"],
-        "correctAnswer": 0,
-        "explanation": "'Adundo → Adundni' is a –ni Class plural transformation."
-      },
-      {
-        "question": "Which noun undergoes a total transformation in plural and belongs to the irregular class?",
-        "options": ["Dhako → Mon", "Nam → Nambe", "Winy → Winje", "Wuor → Wuoche"],
-        "correctAnswer": 0,
-        "explanation": "'Dhako → Mon' is a complete transformation and is highly irregular."
-      },
-      {
-        "question": "Which class does the plural 'Tende' (strings) belong to, based on its suffix?",
-        "options": ["–che Class", "–ni Class", "–nde Class", "Irregular Class"],
-        "correctAnswer": 2,
-        "explanation": "'Tende' ends with –nde, placing it in that class."
-      },
-      {
-        "question": "Which noun below uses the plural suffix -mbe and belongs to Class III?",
-        "options": ["Picha → Piche", "Thim → Thimbe", "Apaka → Apekni", "Chogo → Choke"],
-        "correctAnswer": 1,
-        "explanation": "'Thim → Thimbe' shows the –mbe plural form characteristic of Class III."
-      },
-      {
-        "question": "The word 'Japuonj' (teacher) would pluralize to:",
-        "options": ["Japuoje", "Jopuonji", "Jopuonj", "Japuonje"],
-        "correctAnswer": 2,
-        "explanation": "The Ja → Jo pattern changes 'Japuonj' to 'Jopuonj'."
-      },
-      {
-        "question": "Which of the following is a Class VIII plural formation using the -ni suffix?",
-        "options": ["Rabuon → Rabuonde", "Sokni → Soko", "Soko → Sokni", "Sokni → Sokche"],
-        "correctAnswer": 2,
-        "explanation": "'Soko → Sokni' is a typical Class VIII formation with the –ni suffix."
-      }
-    ]
-        },{
-            "title": "Noun Construct",
-            "htmlContent": "beginner/module-two/11.html",
-            "order": 11,
-            "practiceQuestions": [
-      {
-        "question": "What is the correct singular noun construct of \"puothe\" (gardens)?",
-        "options": ["puodh-", "puoth-", "puotho-", "puodhno-"],
-        "correctAnswer": 1,
-        "explanation": "The correct singular noun construct is formed by removing the final vowel from the plural noun \"puothe\"."
-      },
-      {
-        "question": "Which of the following plural noun constructs is an exception to the regular rule?",
-        "options": ["chiembe → chiembe-", "puothe → puothe-", "mon → mond-", "yor → yore-"],
-        "correctAnswer": 2,
-        "explanation": "\"mon → mond-\" is an exception to the regular plural noun construction rule."
-      },
-      {
-        "question": "Which demonstrative suffix correctly expresses \"that path (near)\"?",
-        "options": ["-cha", "-ni", "-no", "-ka"],
-        "correctAnswer": 2,
-        "explanation": "The suffix \"-no\" is used to express \"that (near)\" with nouns."
-      },
-      {
-        "question": "What is the singular noun construct for the word \"chiembe\" (foods)?",
-        "options": ["chiembo-", "chiemb-", "chiem-", "chiemebo-"],
-        "correctAnswer": 1,
-        "explanation": "The singular noun construct is formed by removing the final vowel from \"chiembe\" to get \"chiemb-\"."
-      },
-      {
-        "question": "The form \"od-\" in \"odni\" (this house) is an example of what?",
-        "options": ["Plural suffixing", "Demonstrative transformation", "Irregular singular noun construct", "Locative particle usage"],
-        "correctAnswer": 2,
-        "explanation": "\"od-\" is an irregular singular noun construct that doesn't follow the standard pattern."
-      },
-      {
-        "question": "What is the plural noun construct of \"udi\" (houses)?",
-        "options": ["ud-", "uthe-", "ute-", "odi-"],
-        "correctAnswer": 2,
-        "explanation": "The plural noun construct of \"udi\" (houses) is \"ute-\"."
-      },
-      {
-        "question": "Which suffix combination correctly produces \"those paths (far)\" from \"yor\"?",
-        "options": ["yorecha", "yorego", "yoregi", "yoreka"],
-        "correctAnswer": 3,
-        "explanation": "The suffix \"-ka\" is used to express \"those (far)\" with the noun \"yor\" (path)."
-      },
-      {
-        "question": "According to the formation rule, what are the steps to derive the singular noun construct from a regular plural noun?",
-        "options": ["Add a suffix to the singular noun", "Double the final consonant of the plural noun", "Remove the final vowel from the plural noun", "Reverse the plural form"],
-        "correctAnswer": 2,
-        "explanation": "To derive the singular noun construct from a regular plural noun, you remove the final vowel."
-      },
-      {
-        "question": "\"Chiemb\" is often seen in compound words. What memory trick supports this?",
-        "options": ["It's used in royalty names", "It forms idioms involving animals", "It's the base word for landforms", "It's the food root used in many compound words"],
-        "correctAnswer": 3,
-        "explanation": "\"Chiemb-\" is the food root used in many compound words, which serves as a memory aid."
-      },
-      {
-        "question": "Why is \"chi-\" the noun construct for \"dhako\" (woman)?",
-        "options": ["It's a diminutive transformation", "It's an example of root borrowing", "It is a shortened possessive prefix", "It is an irregular noun construct"],
-        "correctAnswer": 3,
-        "explanation": "\"chi-\" is an irregular noun construct for \"dhako\" (woman) that doesn't follow standard patterns."
-      }
-    ]
-        },{
-            "title": "Review & Practice",
-            "htmlContent": "beginner/module-two/12.html",
-            "order": 12
-        },{
-            "title": "Pronouns (Part 01)",
-            "htmlContent": "beginner/module-two/13.html",
-            "order": 13,
-            "practiceQuestions": [
-      {
-        "question": "Which of the following correctly translates “They are entering the house” in Dholuo?",
-        "options": ["Gin biro ot", "Gin gidonjo ot", "Gin bedo ot", "Gin gichopo ot"],
-        "correctAnswer": 1,
-        "explanation": "'Gidonjo' means 'are entering', and 'gin' is 'they', so 'Gin gidonjo ot' is the correct sentence."
-      },
-      {
-        "question": "In the phrase “An ma,” what is the functional purpose of the demonstrative “ma”?",
-        "options": ["It refers to a nearby object", "It acts as a possessive suffix", "It emphasizes the speaker as “this one”", "It replaces the subject pronoun"],
-        "correctAnswer": 2,
-        "explanation": "'Ma' is a demonstrative emphasizing the subject 'An' (I), as in 'I, this one'."
-      },
-      {
-        "question": "What is the correct 2nd person singular pronoun in Dholuo?",
-        "options": ["un", "in", "wan", "gin"],
-        "correctAnswer": 1,
-        "explanation": "'In' means 'you' (singular), used when speaking to one person."
-      },
-      {
-        "question": "Identify the sentence that means “We are sitting here.”",
-        "options": ["Wan wabedo kae", "Wan wabedo kacha", "Wan wabiro kae", "Wan wabedo mano"],
-        "correctAnswer": 0,
-        "explanation": "'Wabedo' is 'we are sitting', and 'kae' is 'here'."
-      },
-      {
-        "question": "Which of the following pronouns can be used for both 'he' and 'she' in Dholuo?",
-        "options": ["wan", "gin", "en", "in"],
-        "correctAnswer": 2,
-        "explanation": "'En' is a gender-neutral third-person singular pronoun meaning 'he/she'."
-      },
-      {
-        "question": "Select the sentence that correctly expresses “You (plural) leave that place.”",
-        "options": ["In wuok kacha", "Un uwuog kacha", "Un uwuok kacha", "Un wuok kae"],
-        "correctAnswer": 1,
-        "explanation": "'Un' is 'you' plural, and 'uwuog' is the plural imperative form of 'leave'."
-      },
-      {
-        "question": "Which Dholuo personal pronoun refers to “they/them”?",
-        "options": ["gin", "wan", "un", "en"],
-        "correctAnswer": 0,
-        "explanation": "'Gin' is the third-person plural pronoun in Dholuo."
-      },
-      {
-        "question": "What is the appropriate Dholuo translation for “You are coming now”?",
-        "options": ["In biro sani", "In biro kiny", "In dhi sani", "In nyalo sani"],
-        "correctAnswer": 0,
-        "explanation": "'Biro' is 'are coming', and 'sani' means 'now'."
-      },
-      {
-        "question": "Which of the following pairs accurately matches a Dholuo pronoun to its English equivalent?",
-        "options": ["wan → you (plural)", "gin → we", "un → you (plural)", "en → we"],
-        "correctAnswer": 2,
-        "explanation": "'Un' is 'you' plural. 'Wan' would be 'we', and 'gin' is 'they'."
-      },
-      {
-        "question": "What is the structure used for forming simple sentences with personal pronouns in Dholuo?",
-        "options": ["Verb + Pronoun + Object", "Demonstrative + Pronoun + Noun", "Subject Pronoun + Verb (+ Object/Location)", "Noun + Verb + Demonstrative"],
-        "correctAnswer": 2,
-        "explanation": "Dholuo uses the structure: Subject Pronoun + Verb + (optional Object/Location), e.g., 'Wan wadhi dala' (We go home)."
-      }
-    ]
-        },{
-            "title": "Possessive Pronouns and Cases",
-            "htmlContent": "Possessive Pronouns and Cases",
-            "order": 14,
-            "practiceQuestions": [
-      {
-        "question": "Which possessive suffix correctly marks the phrase “your (plural) child” in Dholuo?",
-        "options": ["-ni", "-wa", "-u", "-gi"],
-        "correctAnswer": 2,
-        "explanation": "The suffix '-u' marks second person plural possession, so 'Nyathi-u' = your (plural) child."
-      },
-      {
-        "question": "Which of the following is the correct Dholuo expression for “Adhiambo’s child”?",
-        "options": ["Nyathi mare", "Nyathi mar Adhiambo", "Nyathigi Adhiambo", "Nyathi-ni Adhiambo"],
-        "correctAnswer": 1,
-        "explanation": "'Mar' shows possession, and 'Nyathi mar Adhiambo' means 'Adhiambo’s child'."
-      },
-      {
-        "question": "What distinguishes “marwa” from “mara” in Dholuo possessive forms?",
-        "options": ["Marwa is singular, Mara is plural", "Marwa means “ours,” Mara means “mine”", "Marwa is used with names, Mara is used with pronouns", "Marwa is second person, Mara is third person"],
-        "correctAnswer": 1,
-        "explanation": "'Marwa' = 'ours'; 'Mara' = 'mine'; both show possession but from different persons."
-      },
-      {
-        "question": "If “Puodho en mare,” what can be inferred?",
-        "options": ["The garden is theirs", "The garden is ours", "The garden is his/hers", "The garden is mine"],
-        "correctAnswer": 2,
-        "explanation": "'Mare' is the possessive form for third person singular (his/her)."
-      },
-      {
-        "question": "Which of these suffixes is used exclusively for 3rd person plural possession?",
-        "options": ["-ne", "-u", "-gi", "-wa"],
-        "correctAnswer": 2,
-        "explanation": "'-gi' is the possessive suffix for third person plural ('their')."
-      },
-      {
-        "question": "Identify the incorrect possessive match:",
-        "options": ["Nyathi-na → my child", "Nyathi-gi → their child", "Nyathi-wa → your child (plural)", "Nyathi-ne → his/her child"],
-        "correctAnswer": 2,
-        "explanation": "'Nyathi-wa' means 'our child', not 'your (plural) child'. The correct form for 'your (plural)' is 'Nyathi-u'."
-      },
-      {
-        "question": "What suffix or structure is used in Dholuo to say “the garden is yours” when speaking to one person?",
-        "options": ["-ni or mari", "-wa or marwa", "-gi or margi", "-u or maru"],
-        "correctAnswer": 0,
-        "explanation": "'-ni' or 'mari' expresses second person singular possession."
-      },
-      {
-        "question": "Which suffix may appear in both first person singular and first person plural, requiring context for clarity?",
-        "options": ["-gi", "-wa", "-ne", "-u"],
-        "correctAnswer": 1,
-        "explanation": "'-wa' can mean 'our' or 'my' depending on context and tone."
-      },
-      {
-        "question": "Which of the following sentences most accurately means “The garden is theirs”?",
-        "options": ["Puodho en marwa", "Puodho en mare", "Puodho en margi", "Puodho en maru"],
-        "correctAnswer": 2,
-        "explanation": "'Margi' means 'theirs' (3rd person plural)."
-      },
-      {
-        "question": "In Dholuo, what would “Nyathi-ni” most likely mean in direct address?",
-        "options": ["Her child", "My child", "Your child (singular)", "Your child (plural)"],
-        "correctAnswer": 2,
-        "explanation": "'-ni' is the second person singular possessive suffix, meaning 'your (singular) child'."
-      }
-    ]
-        },{
-            "title": "Demonstrative pronouns",
-            "htmlContent": "beginner/module-two/15.html",
-            "order": 15,
-            "practiceQuestions": [
-      {
-        "question": "Which demonstrative would correctly translate the phrase “That over there is a herdsman”?",
-        "options": ["Ma en jakwath", "Mago en jakwath", "Mano en jakwath", "Macha e jakwath"],
-        "correctAnswer": 3,
-        "explanation": "'Macha' is the far demonstrative for singular nouns, meaning 'that over there'."
-      },
-      {
-        "question": "What is the Dholuo phrase for “These are boys”?",
-        "options": ["Mago gin yawuoi", "Magi gin yawuoi", "Maka gin yawuoi", "Magi en yawuoi"],
-        "correctAnswer": 1,
-        "explanation": "'Magi' is used for nearby plural nouns, and 'gin' matches plural subject."
-      },
-      {
-        "question": "Which demonstrative suffix should be added to “Ng’at” to form “This person”?",
-        "options": ["-go", "-ni", "-ka", "-cha"],
-        "correctAnswer": 1,
-        "explanation": "'-ni' is the suffix for 'this' when referring to something close."
-      },
-      {
-        "question": "What is the Dholuo equivalent of the phrase “Those are your cows”?",
-        "options": ["Maka gin dhog-u", "Maka en dhog-u", "Mago gin dhog-u", "Mago en dhog-u"],
-        "correctAnswer": 0,
-        "explanation": "'Maka' is for plural demonstrative far from the speaker; 'gin' is the plural subject."
-      },
-      {
-        "question": "Which of the following pairs correctly shows singular and plural demonstratives far from both speaker and listener?",
-        "options": ["Ma / Magi", "Mano / Mago", "Macha / Maka", "Ma / Maka"],
-        "correctAnswer": 2,
-        "explanation": "'Macha' (that over there - singular) and 'Maka' (those over there - plural)."
-      },
-      {
-        "question": "Which of these translates as “This lake” in Dholuo using the correct demonstrative noun form?",
-        "options": ["Dheni", "Namni", "Dalani", "Namcha"],
-        "correctAnswer": 1,
-        "explanation": "'Nam' (lake) + '-ni' (this) → 'Namni'."
-      },
-      {
-        "question": "If “Yawoni” means “this pond,” which of the following follows the same demonstrative formation logic?",
-        "options": ["Komgo", "Dheni", "Mano", "Maka"],
-        "correctAnswer": 1,
-        "explanation": "'Dheni' follows the structure noun + '-ni', same as 'Yawoni'."
-      },
-      {
-        "question": "Which phrase means “What are those?” referring to nearby plural objects?",
-        "options": ["Magi ang’o?", "Maka ang’o?", "Mago ang’o?", "Mano ang’o?"],
-        "correctAnswer": 2,
-        "explanation": "'Mago' is for nearby plural objects; 'ang’o' means 'what'."
-      },
-      {
-        "question": "What is the correct translation for the sentence: “This is her tree”?",
-        "options": ["Ma en yadhgi", "Ma en yadh-e", "Ma ni yadh-e", "Ma e yadh-e"],
-        "correctAnswer": 1,
-        "explanation": "Use 'Ma en' for 'This is' and 'yadh-e' for 'her tree'."
-      },
-      {
-        "question": "Which demonstrative form correctly matches “Odni” in both structure and spatial reference?",
-        "options": ["Ng’atcha", "Yorcha", "Dheni", "Dalani"],
-        "correctAnswer": 3,
-        "explanation": "Like 'Odni', 'Dalani' uses '-ni' and refers to a nearby place."
-      }
-    ]
-        },{
-            "title": "Review & Practice",
-            "htmlContent": "beginner/module-two/16.html",
-            "order": 16
-        },{
-            "title": "Review & Practice",
-            "htmlContent": "beginner/module-two/17.html",
-            "order": 17
-        },{
-            "title": "Pronouns & Noun Declension",
-            "htmlContent": "beginner/module-two/18.html",
-            "order": 18,
-            "interrogativeQuestions": [
-      {
-        "question": "Which of the following Dholuo interrogative pronouns is used to ask about the quantity of something?",
-        "options": ["Nade/i", "Karang’o?", "Adi?", "Ang’o?"],
-        "correctAnswer": 2,
-        "explanation": "'Adi?' is used when asking about quantity or amount in Dholuo."
-      },
-      {
-        "question": "What is the correct Dholuo translation for “Why did you fail to come?”",
-        "options": [
-          "Mara ang’o ok ne ibiro?",
-          "Mara ang’o?",
-          "Nang’o itamori?",
-          "Mara ang’o ok ne wadh?"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Mara ang’o ok ne ibiro?' literally means 'What wrong made you not come?'"
-      },
-      {
-        "question": "In Dholuo, which interrogative pronoun is used to inquire about the manner or process of something?",
-        "options": ["Nang’o/marang’o?", "Nade/i", "Karang’o?", "Ng’ano?"],
-        "correctAnswer": 1,
-        "explanation": "'Nade' or 'Nadi' translates to 'How?' in English."
-      },
-      {
-        "question": "What is the meaning of the Dholuo phrase 'Ng’ano ma oyie?'",
-        "options": [
-          "Who is willing?",
-          "What is this?",
-          "When will you come?",
-          "Who asked for me?"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Ng’ano ma oyie?' means 'Who agrees/is willing?'"
-      },
-      {
-        "question": "Which Dholuo word is used to emphasize a question, similar to 'Are you sure?' in English?",
-        "options": ["Koso?", "Bende", "Ng’ano", "Karang’o"],
-        "correctAnswer": 1,
-        "explanation": "'Bende' is used for emphasis in questions — similar to 'really' or 'surely'."
-      },
-      {
-        "question": "How would you ask 'When will you come?' in Dholuo?",
-        "options": ["Ibiro karang’o?", "Karang’o?", "Bende idhi?", "Nang’o itamori?"],
-        "correctAnswer": 0,
-        "explanation": "'Ibiro karang’o?' directly translates to 'When will you come?'"
-      },
-      {
-        "question": "In Dholuo, which phrase would you use to ask about the location of a chair?",
-        "options": ["Kom ni kanye?", "Pala ni kanye?", "Kom nitie kanye?", "Ere pala?"],
-        "correctAnswer": 0,
-        "explanation": "'Kom ni kanye?' means 'Where is the chair?'"
-      },
-      {
-        "question": "What does the Dholuo phrase 'Bende idhi, koso?' mean?",
-        "options": [
-          "Are you really going?",
-          "Aren’t you going?",
-          "Are you coming?",
-          "Why did you fail to come?"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Bende idhi, koso?' adds emphasis — 'Are you *really* going, or what?'"
-      },
-      {
-        "question": "Which Dholuo word is used to inquire about the identity of a person or people?",
-        "options": ["Ang’o?", "Ng’ano?", "Nade/i", "Adi?"],
-        "correctAnswer": 1,
-        "explanation": "'Ng’ano?' is the interrogative for 'Who?'"
-      },
-      {
-        "question": "How would you ask 'What is this?' in Dholuo?",
-        "options": ["Ma en ang’o?", "Ng’ano ma Openja?", "Pala ni kanye?", "Be idhi?"],
-        "correctAnswer": 0,
-        "explanation": "'Ma en ang’o?' translates directly to 'What is this?'"
-      }
-    ]
-        },{
-            "title": "Noun Declension in Dholuo",
-            "htmlContent": "beginner/module-two/19.html",
-            "order": 19,
-            "practiceQuestions": [
-      {
-        "question": "Which of the following correctly explains the behavior of Dholuo nouns in the accusative case?",
-        "options": [
-          "They always end in vowels",
-          "They require a suffix to show object function",
-          "They remain in their original form",
-          "They adopt genitive suffixes"
-        ],
-        "correctAnswer": 2,
-        "explanation": "In Dholuo, nouns in the accusative case generally retain their original form and are not marked with special suffixes."
-      },
-      {
-        "question": "What is the most distinguishing grammatical feature of the Dholuo genitive case?",
-        "options": [
-          "It adds a prefix to every noun",
-          "It changes the form or ending of the noun to a consonant",
-          "It uses tone only, not spelling",
-          "It doubles the last vowel of the noun"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Dholuo genitive case often involves altering the noun form to end in a consonant."
-      },
-      {
-        "question": "Identify the pair that shows the correct genitive transformation:",
-        "options": [
-          "Kom → Koma",
-          "Buk → Bug",
-          "Kidi → Kide",
-          "Lum → Lumu"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The noun 'Buk' becomes 'Bug' in the genitive case, following the rule of final consonant alteration."
-      },
-      {
-        "question": "Which noun remains unchanged in spelling but is modified in pronunciation in the genitive case?",
-        "options": [
-          "Got",
-          "Um",
-          "Lak",
-          "Buk"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Lak' retains its spelling in the genitive case but undergoes a pronunciation shift, a feature common in tonal languages."
-      },
-      {
-        "question": "Which of the following is NOT a correct genitive transformation based on Dholuo rules?",
-        "options": [
-          "Lowo → Lop",
-          "Diel → Diend",
-          "Got → God",
-          "Lum → Lumo"
-        ],
-        "correctAnswer": 3,
-        "explanation": "'Lum → Lumo' does not follow the standard genitive transformation rules in Dholuo and is incorrect."
-      },
-      {
-        "question": "What is the genitive form of the noun “Kidi” (stone)?",
-        "options": [
-          "Kidu",
-          "Kita",
-          "Kit",
-          "Kide"
-        ],
-        "correctAnswer": 2,
-        "explanation": "In the genitive case, 'Kidi' becomes 'Kit' as it drops the vowel and ends in a consonant."
-      },
-      {
-        "question": "Why is the genitive case particularly important for learners of Dholuo grammar?",
-        "options": [
-          "It is the only case used in questions",
-          "It involves tonal variations and extensive suffixing",
-          "It is the only case where nouns change form",
-          "It completely replaces noun stems"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The genitive case is unique in that it requires noun form changes, which is crucial for learners to understand possessive relationships."
-      },
-      {
-        "question": "In the genitive case, the Dholuo noun “Oboke” becomes:",
-        "options": [
-          "Obok",
-          "Obokie",
-          "Oboka",
-          "Oboku"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Oboke' becomes 'Obok' in the genitive case by dropping the final syllable and ending in a consonant."
-      },
-      {
-        "question": "Which of the following statements best reflects a general rule about genitive case endings in Dholuo?",
-        "options": [
-          "They usually end in a vowel",
-          "They typically include a doubled vowel",
-          "They usually end in a consonant",
-          "They include the suffix “-ni”"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Genitive forms in Dholuo commonly end in consonants as part of the morphological transformation."
-      },
-      {
-        "question": "How does the noun “Kom” (chair) behave in the genitive case?",
-        "options": [
-          "It changes completely to Kombo",
-          "It remains Kom with a tonal shift",
-          "It takes the suffix -ni",
-          "It becomes Kome"
-        ],
-        "correctAnswer": 1,
-        "explanation": "In the genitive case, 'Kom' remains spelled the same but undergoes a tonal modification to indicate possession."
-      }
-    ]
-        },{
-            "title": "Adjectives",
-            "htmlContent": "beginner/module-two/20.html",
-            "order": 20,
-            "practiceQuestions": [
-      {
-        "question": "What is the correct Dholuo form for “my knife”?",
-        "options": [
-          "Pala-a",
-          "Pande-a",
-          "Pand-a",
-          "Pala-na"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The noun 'Pala' (knife) changes to 'Pand' in the genitive and becomes 'Pand-a' to express 'my knife'."
-      },
-      {
-        "question": "Which of the following correctly reflects the possessive form 'their chair'?",
-        "options": [
-          "Kom-gi",
-          "Kom-ne",
-          "Kom-e",
-          "Kom-go"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Kom-gi' is the correct possessive form of 'Kom' (chair) indicating 'their chair'."
-      },
-      {
-        "question": "In Dholuo, what phonetic change occurs when forming the possessive of 'Puodho' (garden)?",
-        "options": [
-          "dh changes to d",
-          "dh changes to g",
-          "dh changes to th",
-          "dh remains unchanged"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The consonant 'dh' often changes to 'th' when forming possessives, as in 'Puodho' becoming 'Puotho'."
-      },
-      {
-        "question": "What is the correct singular possessive form for 'our house' in Dholuo?",
-        "options": [
-          "Ot-wa",
-          "Od-wa",
-          "Odo-wa",
-          "Ote-wa"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Od-wa' is the correct possessive form for 'our house', where 'Ot' changes to 'Od' and '-wa' indicates possession."
-      },
-      {
-        "question": "Which form correctly translates to 'your (plural) child'?",
-        "options": [
-          "Nyathi-ni",
-          "Nyathi-wa",
-          "Nyathi-u",
-          "Nyath-u"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Nyathi-u' is the appropriate plural possessive form for 'your child'."
-      },
-      {
-        "question": "Which of the following shows a correct plural possessive form for 'his lands'?",
-        "options": [
-          "Lopewa",
-          "Lopene",
-          "Lopeni",
-          "Lopgo"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Lopene' means 'his lands' in Dholuo, where 'Luo' becomes 'Lop' and '-ne' indicates third person singular possession."
-      },
-      {
-        "question": "What is the possessive transformation of the noun 'Chik' (law) for the 1st person singular (my)?",
-        "options": [
-          "Chik-na",
-          "Chika",
-          "Chiki",
-          "Chikwa"
-        ],
-        "correctAnswer": 0,
-        "explanation": "'Chik-na' is the correct form for 'my law', where '-na' signifies first person singular possession."
-      },
-      {
-        "question": "What is the correct possessive form of 'stone' (Kidi) for 'her stone'?",
-        "options": [
-          "Kid-e",
-          "Kid-wa",
-          "Kite",
-          "Kidi-ne"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The genitive form 'Kite' expresses 'her stone', where the noun root is modified before the possessive suffix."
-      },
-      {
-        "question": "Which of the following possessive forms is grammatically incorrect in Dholuo?",
-        "options": [
-          "Pand-e — His knife",
-          "Puoth-i — Your garden (sg)",
-          "Ot-u — Your (pl) house",
-          "Nyathi-wa — Our child"
-        ],
-        "correctAnswer": 2,
-        "explanation": "'Ot-u' is not a correct possessive form; the expected form would be 'Od-u' with both root and suffix transformation."
-      },
-      {
-        "question": "Which noun exhibits both root transformation and possessive suffix attachment in Dholuo?",
-        "options": [
-          "Kom",
-          "Pala → Pand",
-          "Nyathi",
-          "Chik"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Pala' undergoes root transformation to 'Pand' and attaches possessive suffixes like '-a', showing both changes."
-      }
-    ]
-        }, {
-            "title": "Review & Practice",
-            "htmlContent": "beginner/module-two/21.html",
-            "order": 21
-        }],
+    {
+      "question": "Which of the following best explains why the sentence \"Chiemo mamit!\" does not include a verb in Dholuo?",
+      "options": [
+        "Dholuo uses auxiliary verbs for taste descriptors.",
+        "Present-tense declaratives do not require the verb “to be”.",
+        "The word “mamit” already contains the verb.",
+        "The verb “tie” is implied by the noun."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Dholuo, present-tense descriptive sentences often omit the verb 'to be'."
+    },
+    {
+      "question": "Which of the following correctly demonstrates the use of the verb \"tie\" with a personal pronoun?",
+      "options": [
+        "Chiemo tie ka.",
+        "Antie ka.",
+        "Tie an ka.",
+        "Ka tie wan."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Antie ka’ means ‘I am here/present’ — correct use of ‘tie’ with subject pronoun."
+    },
+    {
+      "question": "What is the correct Dholuo phrase for \"They are present\"?",
+      "options": [
+        "Gintie",
+        "Untie",
+        "En tie",
+        "Nitiegin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Gintie’ = ‘They are present.’ ‘Gin’ (they) + ‘tie’ (to be present)."
+    },
+    {
+      "question": "Which structure is correctly used when the subject is explicit (e.g., Paul)?",
+      "options": [
+        "En gi Paul",
+        "Paul en gi",
+        "Paul nitie",
+        "Paul antie"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the subject is named (explicit), 'nitie' is used. ‘Paul nitie’ = ‘Paul is present.’"
+    },
+    {
+      "question": "Which Dholuo construction best expresses the sentence “My co-wife has children”?",
+      "options": [
+        "Nyieka kod nyithindo",
+        "Nyieka gi nyithindo",
+        "Nyieka nigi nyithindo",
+        "Nyithindo gi nyieka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘nigi’ = ‘has (they possess)’; ‘Nyieka nigi nyithindo’ = ‘My co-wife has children.’"
+    },
+    {
+      "question": "In which case must the copula “ni” be inserted before “gi” when expressing possession?",
+      "options": [
+        "When the subject is in third person plural.",
+        "When using abstract nouns.",
+        "When the object is a location.",
+        "When the subject is overt/named."
+      ],
+      "correctAnswer": 3,
+      "explanation": "With overt/named subjects, ‘ni’ must precede ‘gi’ (e.g., ‘Nyieka **ni**gi nyithindo’)."
+    },
+    {
+      "question": "Which of the following Dholuo forms properly expresses \"We are here\" using the location verb form?",
+      "options": [
+        "Wan ka",
+        "Wantie ka",
+        "Watie",
+        "Wan gi ka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wantie ka’ = ‘We are here,’ with correct conjugation of the verb ‘tie’."
+    },
+    {
+      "question": "What is the correct negation form of the sentence “He is present”?",
+      "options": [
+        "En onge",
+        "Oonge",
+        "En tie",
+        "En nitie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Oonge’ is the negated form meaning ‘He/She is not present.’"
+    },
+    {
+      "question": "If \"An gi chiemo\" means \"I have food,\" what does \"Gin gi nyithindo\" most accurately translate to?",
+      "options": [
+        "We have children.",
+        "They are children.",
+        "They have children.",
+        "Children have them."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gin gi nyithindo’ = ‘They have children.’"
+    },
+    {
+      "question": "Which prefix pair accurately indicates the difference between singular and plural subject pronouns in Dholuo verb conjugation?",
+      "options": [
+        "A- / E-",
+        "Wa- / Gi-",
+        "In- / An-",
+        "E- / U-"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wa-’ is the prefix for ‘we’ and ‘Gi-’ for ‘they’ in verb conjugation (e.g., Wantie, Gintie)."
+    }
+  ]
+        },
+        {
+          "title": "Review & Practice",
+          "htmlContent": "beginner/module-three/10.html",
+          "order": 10
+        },
+        {
+          "title": "Verbs (Part 02)",
+          "htmlContent": "beginner/module-three/11.html",
+          "order": 11,
+          "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why “goyo” is considered a transitive verb in Dholuo?",
+      "options": [
+        "It contains an auxiliary",
+        "It carries tonal alternation",
+        "It takes a direct object",
+        "It ends with a subject suffix"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transitive verbs take direct objects. ‘Goyo’ (to beat) can be followed by an object."
+    },
+    {
+      "question": "In the sentence Ogoye, what grammatical elements are fused together?",
+      "options": [
+        "Auxiliary, verb, adverb",
+        "Subject pronoun, verb stem, object pronoun",
+        "Object noun, verb stem, subject noun",
+        "Verb prefix, plural suffix, tense marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ogoye’ includes subject (O-), verb stem (goy-), and object suffix (-e)."
+    },
+    {
+      "question": "What is the primary syntactic function of the suffix “-ye” in the verb Agoye?",
+      "options": [
+        "Marks tense",
+        "Indicates plurality",
+        "Shows the object",
+        "Functions as an auxiliary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ‘-ye’ suffix marks the object being acted upon."
+    },
+    {
+      "question": "In Dholuo, what change allows an originally intransitive verb to function transitively?",
+      "options": [
+        "Tone modification",
+        "Auxiliary insertion",
+        "Verbal extension (e.g. applicative)",
+        "Prefix repetition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Verbal extensions like applicatives allow intransitive verbs to take objects."
+    },
+    {
+      "question": "Which of the following is the correct gloss for Olum goyo bul?",
+      "options": [
+        "Subject + object + verb",
+        "Verb + object + subject",
+        "Subject noun + transitive verb + direct object",
+        "Auxiliary + verb stem + applicative extension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Olum goyo bul’ = ‘Olum beats the drum’ — subject, verb, object."
+    },
+    {
+      "question": "What best defines the term “agglutinative” in the context of Dholuo verb morphology?",
+      "options": [
+        "A verb structure that involves repeating syllables",
+        "A language pattern where affixes are fused to show tone",
+        "A morphological system where distinct morphemes are combined into a single unit",
+        "A verb formation that only uses pronouns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Agglutinative morphology combines discrete morphemes in a consistent sequence."
+    },
+    {
+      "question": "How does Dholuo signal a shift from transitivity to intransitivity in certain verbs?",
+      "options": [
+        "Through the use of auxiliary verbs",
+        "By inserting an object suffix",
+        "By applying antipassivity",
+        "Through object repetition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antipassive constructions reduce or omit the object, marking the verb as intransitive."
+    },
+    {
+      "question": "Which structure accurately represents a typical Dholuo sentence with a transitive verb and subject pronoun?",
+      "options": [
+        "Object + Auxiliary + Verb + Subject",
+        "Subject Pronoun + Verb Root + Object Suffix",
+        "Auxiliary + Subject + Object + Verb",
+        "Verb + Object + Subject Pronoun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dholuo fuses subject pronouns and verb roots, often adding object suffixes."
+    },
+    {
+      "question": "Based on the examples, which question reveals the direct object in a Dholuo transitive sentence?",
+      "options": [
+        "Ne osomo iye?",
+        "Ne ochamo ng’a?",
+        "Ne wanyiewo ang’o?",
+        "Ne goye o?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Wanyiewo ang’o?’ = ‘What did we buy?’ — ‘ang’o’ (what) is the object."
+    },
+    {
+      "question": "Which of the following is not true about subjective pronouns in Dholuo as described?",
+      "options": [
+        "They typically appear after the verb",
+        "They indicate the doer of the action",
+        "They function as agents of the verb",
+        "They are central to verb conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subject pronouns appear **before** or are fused **within** the verb, not after."
+    }
+  ]
+        },
+        {
+          "title": "The Objective Pronoun",
+          "htmlContent": "beginner/module-three/12.html",
+          "order": 12,
+          "practiceQuestions": [
+    {
+      "question": "In the Dholuo sentence 'Giherou', what does the object pronoun '-u' represent?",
+      "options": ["Me", "Them", "You (plural)", "Him/Her"],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-u' in Dholuo verbs refers to a plural 'you' (second person plural object)."
+    },
+    {
+      "question": "Which of the following illustrates the correct structure for the verb 'to teach him/her' in Dholuo?",
+      "options": ["Epuonjgi", "Puonj-e", "Gi-puonjo", "Puonjegi"],
+      "correctAnswer": 1,
+      "explanation": "‘Puonj-e’ is the correct combination of the verb root and the object pronoun for 'him/her'."
+    },
+    {
+      "question": "What is the function of the object pronoun '-a' in the conjugated verb 'Onega'?",
+      "options": ["It shows plural action", "It marks the speaker as the object", "It marks him/her as the object", "It indicates future tense"],
+      "correctAnswer": 1,
+      "explanation": "The '-a' suffix indicates that 'me' is the object being acted upon."
+    },
+    {
+      "question": "Which verb below demonstrates correct full agglutinative structure with a subject and object?",
+      "options": ["Hero", "Waherogi", "Gihero", "Nyuomo"],
+      "correctAnswer": 1,
+      "explanation": "‘Waherogi’ = 'We love them' – it fuses subject (wa), verb (hero), and object (gi)."
+    },
+    {
+      "question": "Identify the object pronoun in the Dholuo verb 'Unegogi'.",
+      "options": ["U-", "-u", "-gi", "-go"],
+      "correctAnswer": 2,
+      "explanation": "‘-gi’ is the object pronoun representing ‘them’ in this conjugated form."
+    },
+    {
+      "question": "What does the conjugated form 'Aherou' mean in Dholuo?",
+      "options": ["I love him", "He loves you", "I love you (plural)", "They love you (plural)"],
+      "correctAnswer": 2,
+      "explanation": "‘Aherou’ = I (a-) love (hero) you plural (-u)."
+    },
+    {
+      "question": "What structural role does the suffix play in Dholuo transitive verbs like 'Onegi'?",
+      "options": ["It changes the tense", "It identifies the object of the action", "It converts verb to noun", "It replaces the verb root"],
+      "correctAnswer": 1,
+      "explanation": "Suffixes like '-gi' denote the object – in this case, ‘them’."
+    },
+    {
+      "question": "From the verb 'Onyuoma', what can be inferred about the subject and object?",
+      "options": ["She is marrying you", "He is marrying me", "I am marrying her", "They are marrying us"],
+      "correctAnswer": 1,
+      "explanation": "‘Onyuoma’ = He (o-) is marrying (nyuom) me (-a)."
+    },
+    {
+      "question": "In the sentence 'Anegou', what does the subject–verb–object alignment reveal?",
+      "options": ["I am loved by you (plural)", "I have killed you (plural)", "You have killed me", "He has killed you (plural)"],
+      "correctAnswer": 1,
+      "explanation": "‘Anegou’ = I (a-) have killed (neg) you plural (-u)."
+    },
+    {
+      "question": "Why is Dholuo described as agglutinative based on its verb structure?",
+      "options": ["Because it repeats root words for emphasis", "Because all words must end in vowels", "Because a single word fuses subject, verb, and object", "Because object pronouns are separate from verbs"],
+      "correctAnswer": 2,
+      "explanation": "Agglutinative verbs in Dholuo combine subject markers, verb roots, and object suffixes into one unit."
+    }
+  ]
+        },
+        {
+          "title": "Intransitive & Reflexive Verbs",
+          "htmlContent": "beginner/module-three/13.html",
+          "order": 13,
+          "practiceQuestions": [
+    {
+      "question": "Which of the following Dholuo sentences correctly uses an intransitive verb?",
+      "options": [
+        "An gi guok – I have a dog",
+        "Asedhi Kisumu – I have gone to Kisumu",
+        "Abet e kom – I sit on the chair",
+        "Apuonjora – I am learning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Abet e kom' uses the intransitive verb 'abet' (to sit), which does not require a direct object."
+    },
+    {
+      "question": "In Dholuo, how is the concept of 'having' best expressed when describing possession?",
+      "options": [
+        "By placing the noun before the subject",
+        "Using the auxiliary verb “se”",
+        "By combining a pronoun with the word gi",
+        "Using the suffix -re"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Possession is commonly expressed using 'gi' with pronouns, e.g., 'An gi chiemo' = I have food."
+    },
+    {
+      "question": "What is the correct reflexive form of the Dholuo verb puonjo (to teach)?",
+      "options": [
+        "Puonjore",
+        "Puonjoruok",
+        "Puonjo gi",
+        "Apuonja"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Puonjore’ means 'to teach oneself' – the reflexive form of 'puonjo'."
+    },
+    {
+      "question": "What is the correct Dholuo construction for 'They have land'?",
+      "options": [
+        "Gin kod lowo",
+        "Gin gi lowo",
+        "Gin lowo gi",
+        "Gise lowo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Gin gi lowo’ combines the subject 'they' (Gin) with 'gi' to indicate possession."
+    },
+    {
+      "question": "Which morphological marker is added to a verb in Dholuo to indicate reflexivity?",
+      "options": [
+        "-gi",
+        "-ruok",
+        "-re",
+        "-se"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-re' marks reflexivity in Dholuo verbs, e.g., 'tedore' (cook oneself)."
+    },
+    {
+      "question": "Choose the correct Dholuo sentence that expresses 'She is married.'",
+      "options": [
+        "En gi dichuo",
+        "Osedhi Kisumu",
+        "Osedhi katedo",
+        "Asekadho nyuomo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Osedhi katedo’ means 'she has gone to be married' – a culturally appropriate expression."
+    },
+    {
+      "question": "What grammatical role does the suffix -ruok play in Dholuo reflexive constructions?",
+      "options": [
+        "Converts verbs into negative form",
+        "Indicates plural subject action",
+        "Forms noun equivalents of reflexive verbs",
+        "Denotes auxiliary past tense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘-ruok’ nominalizes reflexive actions, e.g., 'puonjruok' (self-teaching)."
+    },
+    {
+      "question": "Which of the following verb pairs accurately shows the intransitive–reflexive relationship in Dholuo?",
+      "options": [
+        "Tiyo – Tiyogi",
+        "Ringo – Ringogi",
+        "Tedo – Tedore",
+        "Miel – Mielruok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Tedo’ (to cook), ‘Tedore’ (to cook oneself) shows proper reflexive transformation."
+    },
+    {
+      "question": "In the sentence 'Gisechiemo', what grammatical aspect is being used?",
+      "options": [
+        "Simple future",
+        "Past imperfect",
+        "Reflexive mood",
+        "Perfect aspect using 'se'"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Se’ is used in perfect tense to express actions that have already happened."
+    },
+    {
+      "question": "Why is 'an kod guok' not preferred over 'an gi guok' for expressing possession in Dholuo?",
+      "options": [
+        "It incorrectly uses plural agreement",
+        "It translates more literally as 'I and the dog'",
+        "It lacks subject–verb concord",
+        "It uses the auxiliary verb instead of the main"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'An kod guok' literally means 'I and the dog' rather than expressing possession."
+    }
+  ]
+        },
+        {
+          "title": "Review & Practice",
+          "htmlContent": "beginner/module-three/14.html",
+          "order": 14
+        },
+        {
+          "title": "Tenses",
+          "htmlContent": "beginner/module-three/15.html",
+          "order": 15,
+          "practiceQuestions": [
+    {
+      "question": "Which of the following correctly reflects the Present Tense conjugation for “we eat” in Dholuo?",
+      "options": ["Wachiemo", "Wachiemo gi", "Wachamo", "Watiemo"],
+      "correctAnswer": 0,
+      "explanation": "“wa-” is the correct prefix for “wan” (we), added to “chiemo” → wachiemo"
+    },
+    {
+      "question": "What happens to the verb when it follows an overt subject in the present tense?",
+      "options": [
+        "It changes to a past form.",
+        "It uses a subject prefix.",
+        "It drops the prefix and retains the infinitive form.",
+        "It adds both subject and object markers."
+      ],
+      "correctAnswer": 2,
+      "explanation": "With overt subjects like names or nouns, the subject prefix is dropped."
+    },
+    {
+      "question": "In the sentence “Achieng’ uso”, what grammatical rule is illustrated?",
+      "options": [
+        "Reflexive object pronoun",
+        "Subject agreement by suffix",
+        "Overt subject rule",
+        "Progressive aspect insertion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 'Achieng’' is an overt subject, the verb is used without the prefix."
+    },
+    {
+      "question": "Which of the following sentences demonstrates incorrect use of the present tense prefix system in Dholuo?",
+      "options": ["Achiemo", "Utiyo", "Gichiemo", "Enchiemo"],
+      "correctAnswer": 3,
+      "explanation": "“en” becomes “o-” not “en-”; correct form is ochiemo."
+    },
+    {
+      "question": "Choose the correct present tense conjugation of the verb lemo (to pray) for 'they':",
+      "options": ["Gilemo", "Gilemogi", "Giluemo", "Gilemogi"],
+      "correctAnswer": 0,
+      "explanation": "“gi-” is the correct prefix for “gin” (they), so → gilemo."
+    },
+    {
+      "question": "Which of the following is true about the verb form tiyo in the sentence “Onyango tiyo”?",
+      "options": [
+        "It is incorrectly conjugated; it should be 'otiye.'",
+        "It retains the infinitive form due to an overt subject.",
+        "It includes the subject prefix for 'he.'",
+        "It has lost its infinitive meaning."
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Onyango” is an overt subject, so “tiyo” is used in its infinitive form."
+    },
+    {
+      "question": "What is the correct translation of “uchiemo” based on Dholuo present tense rules?",
+      "options": ["I eat", "You (pl.) eat", "They are eating", "He eats"],
+      "correctAnswer": 1,
+      "explanation": "“u-” is the present tense prefix for “un” (you plural)."
+    },
+    {
+      "question": "Which of the following statements is FALSE according to Dholuo present tense structure?",
+      "options": [
+        "“Ochamo” means “he is eating”",
+        "Verbs change their ending depending on subject gender",
+        "Verbs retain the -o/-yo infinitive endings",
+        "There is no difference between 'he eats' and 'he is eating'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dholuo does not alter verb endings for gender; it uses prefixes."
+    },
+    {
+      "question": "In the sentence “Olum kwayo dhoggi”, why is no prefix used before the verb kwayo?",
+      "options": [
+        "The object is already clear",
+        "The verb has a reflexive pronoun",
+        "The subject is overt, so prefix is omitted",
+        "The verb root starts with a consonant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Olum” is an overt subject, so the verb uses the infinitive form."
+    },
+    {
+      "question": "Which of the following best describes the morphological structure of Dholuo present tense verbs?",
+      "options": [
+        "Prefixation of tense markers at the end of verb roots",
+        "Agglutinative prefixing of subject pronouns to infinitives",
+        "Reduplication of verb stems for emphasis",
+        "Use of auxiliary verbs to denote time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subject pronouns are added as prefixes to form the present tense in an agglutinative manner."
+    }
+  ]
+        },
+        {
+          "title": "Present Continuous Tense & Habitual Action",
+          "htmlContent": "beginner/module-three/16.html",
+          "order": 16,
+          "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why “Olum chiemo” can mean both “Olum eats” and “Olum is eating”?",
+      "options": [
+        "The verb is reflexive in form",
+        "The context includes a future time indicator",
+        "Dholuo does not morphologically distinguish simple and continuous present tenses",
+        "The subject is omitted in the sentence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dholuo does not morphologically distinguish between simple and continuous present tenses; context provides the interpretation."
+    },
+    {
+      "question": "In Dholuo, which morphological feature marks a verb as habitual in aspect?",
+      "options": [
+        "Prefixation of subject pronouns",
+        "Addition of the suffix -ga to the verb root",
+        "Use of a temporal adverb",
+        "Use of object focus markers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix -ga is used to indicate habitual actions."
+    },
+    {
+      "question": "What role does context play in understanding the present continuous tense in Dholuo?",
+      "options": [
+        "It shows where to insert the suffix -ga",
+        "It helps determine whether an action is ongoing or habitual",
+        "It marks the verb with an auxiliary",
+        "It eliminates the need for the verb root"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since morphology does not distinguish between simple and continuous present, context determines meaning."
+    },
+    {
+      "question": "Which of the following sentences illustrates a habitual action in Dholuo?",
+      "options": [
+        "Olum chiemo",
+        "Dhiang’ kwayo",
+        "Paul chiemoga gokinyi",
+        "Dayo gano ni nyikwaye"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The use of -ga in 'chiemoga' indicates a habitual action."
+    },
+    {
+      "question": "Why is “Fuko dakga e bur” classified as habitual action in Dholuo grammar?",
+      "options": [
+        "It uses the infinitive without prefixation",
+        "The verb is marked with the suffix -ga indicating repetition",
+        "The subject is not a human agent",
+        "It includes an overt temporal noun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix -ga marks the verb as habitual."
+    },
+    {
+      "question": "What distinguishes “Olum chiemo” from “Olum chiemoga” in function?",
+      "options": [
+        "“Chiemoga” indicates a passive construction",
+        "“Chiemoga” expresses habitual action with the suffix -ga",
+        "“Chiemo” is a negative form",
+        "“Chiemo” refers to a future plan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Chiemoga” means a habitual eating action due to the -ga suffix."
+    },
+    {
+      "question": "Which of the following statements is TRUE about present continuous tense in Dholuo?",
+      "options": [
+        "It always uses the suffix -ga",
+        "It requires an auxiliary verb",
+        "It is inferred from context, not morphology",
+        "It uses a future time adverb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dholuo lacks a dedicated present continuous form; the difference is contextual."
+    },
+    {
+      "question": "Which sentence best demonstrates the dual interpretation of present tense in Dholuo?",
+      "options": [
+        "Aheroga sikuma",
+        "Japuonj puonjo nyithindo",
+        "Paul chiemoga gokinyi",
+        "Fuko dakga e bur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Japuonj puonjo nyithindo’ can be interpreted as 'The teacher teaches children' or 'The teacher is teaching children,' depending on context."
+    },
+    {
+      "question": "What is the function of the suffix -ga in Dholuo verbal morphology?",
+      "options": [
+        "To express politeness",
+        "To mark the past perfect",
+        "To show regular, habitual actions",
+        "To indicate question formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix -ga denotes repetition or habitual aspect."
+    },
+    {
+      "question": "According to the morphological structure in Dholuo, how is a habitual sentence typically formed?",
+      "options": [
+        "By adding the prefix “gi-” to the verb",
+        "By placing the verb in future tense",
+        "By attaching -ga to the verb stem",
+        "By using reduplication of the verb root"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix -ga is attached to the verb stem to form habitual aspect."
+    }
+  ]
+        },
+        {
+          "title": "Past Tense",
+          "htmlContent": "beginner/module-three/17.html",
+          "order": 17,
+          "practiceQuestions": [
+    {
+      "question": "Which of the following sentences correctly demonstrates the contracted form of the plain past tense in Dholuo?",
+      "options": [
+        "Asechiemo",
+        "Nyatuo",
+        "Nandiko",
+        "Ne andiko"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nandiko’ is the contracted form of ‘Ne andiko’, commonly used in everyday speech."
+    },
+    {
+      "question": "What is the role of the particle “nene” in Dholuo past tense construction?",
+      "options": [
+        "It negates the verb in the past tense.",
+        "It marks habitual future actions.",
+        "It replaces the subject prefix in all past constructions.",
+        "It serves as an auxiliary to mark completed past actions."
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Nene’ is an auxiliary used to indicate completed past actions."
+    },
+    {
+      "question": "Choose the Dholuo equivalent of the sentence: “They met them.”",
+      "options": [
+        "Nene giromo kodu",
+        "Nene giromo kodgi",
+        "Nene gindiko",
+        "Negindiko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘kodgi’ correctly reflects the object pronoun for ‘them’ in Dholuo."
+    },
+    {
+      "question": "Which of the following statements about Dholuo past continuous tense is FALSE?",
+      "options": [
+        "It uses the particle “nene.”",
+        "It includes a habitual suffix “-ga.”",
+        "It can express repeated past actions.",
+        "It uses the -se- infix to show continuity."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The -se- infix marks recent perfective, not past continuous. Continuity is usually inferred contextually."
+    },
+    {
+      "question": "Which past tense marker would best express that something happened yesterday?",
+      "options": [
+        "a-",
+        "se-",
+        "nyo-",
+        "yande"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘nyo-’ is used for past actions tied to yesterday (recent past)."
+    },
+    {
+      "question": "What is the correct Dholuo translation of the sentence: “I have just dug (but now stopped)”",
+      "options": [
+        "A ipuro",
+        "A apuro",
+        "Nene apuro",
+        "Apurose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘A apuro’ is a recent past perfective construction showing completed action."
+    },
+    {
+      "question": "Which of the following sentences most accurately reflects a habitual past action in Dholuo?",
+      "options": [
+        "Nyatuo",
+        "Nene awachoga Dholuo maber",
+        "Asechiemo",
+        "Nene ayudo tich"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The use of ‘-ga’ in ‘awachoga’ marks habitual past action."
+    },
+    {
+      "question": "Identify the morphologically correct way to say “We have eaten” using the recent past perfective form.",
+      "options": [
+        "Ne wasechiemo",
+        "Wasechiemo",
+        "Newandiko",
+        "Nene wachiemoga"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wasechiemo’ combines the subject prefix ‘wa-’ and the recent past marker ‘-se-’ with the verb root."
+    },
+    {
+      "question": "What morphological structure is common to asechiemo, isechiemo, and osechiemo?",
+      "options": [
+        "Prefix a- marking yesterday",
+        "Infix -se- marking completed recent action",
+        "Suffix -ga marking habitual past",
+        "Nene prefix for distant past"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The -se- infix is a consistent marker for recent perfective actions across all three forms."
+    },
+    {
+      "question": "Which of the following best explains why “Nene uromo kodwa” differs in meaning from “Nene oromo kode”?",
+      "options": [
+        "Different verb tense usage",
+        "Subject and object positions determine the meaning",
+        "Nene cannot be used with second-person subjects",
+        "One uses recent perfective, the other does not"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Word order and agreement between subject and object alter the meaning significantly."
+    }
+  ]
+        },
+        {
+          "title": "Past Perfect Tense",
+          "htmlContent": "beginner/module-three/18.html",
+          "order": 18,
+          "practiceQuestions": [
+    {
+      "question": "What is the function of “nene” in the construction nene osebedo?",
+      "options": [
+        "To mark habitual aspect",
+        "To indicate subjunctive mood",
+        "To anchor the construction in the past",
+        "To mark future irrealis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nene” unequivocally anchors the construction in the past."
+    },
+    {
+      "question": "Which of the following is the correct past perfect form for “we had been”?",
+      "options": [
+        "Nene wasebedo",
+        "Nene gisebedo",
+        "Nene wasebedo ka",
+        "Nene osebedo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Wa-” is the correct subject prefix for “we” combined with -se- and “bedo”."
+    },
+    {
+      "question": "In the sentence Nene osebedo ka koth chue, what grammatical role does “ka koth chue” play?",
+      "options": [
+        "Future conditional clause",
+        "Nominal subject complement",
+        "Temporal adverbial clause",
+        "Progressive verb phrase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Ka koth chue” (‘when it rained’) provides the temporal reference for the prior action."
+    },
+    {
+      "question": "What distinguishes nene osebedo from osebedo?",
+      "options": [
+        "The first is passive voice, the second is active",
+        "The first implies a future action, the second a past one",
+        "The first is past perfect, the second is present perfect",
+        "They are identical in tense and usage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nene” shifts the construction from present perfect to past perfect."
+    },
+    {
+      "question": "Which of the following is NOT a correct component of the past perfect construction?",
+      "options": [
+        "“nene”",
+        "subject prefix",
+        "“-ga-”",
+        "“bedo”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“-ga-” is a habitual marker and not used in past perfect constructions."
+    },
+    {
+      "question": "Why must learners avoid conjugating the verb “bedo” directly?",
+      "options": [
+        "It is an irregular verb with unpredictable forms",
+        "It only appears in negative constructions",
+        "It is a participle and does not change form",
+        "It is no longer used in modern Dholuo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Bedo” is a non-finite participle and remains grammatically fixed."
+    },
+    {
+      "question": "Which of the following conveys the idea: “They had been visiting one another”?",
+      "options": [
+        "Nene gisebedo ka gilimore",
+        "Nene osebedo ka gilimore",
+        "Nene isebedo ka gilimore",
+        "Nene wasebedo ka gilimore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Gi-” is the subject prefix for “they”; the rest follows the correct structure."
+    },
+    {
+      "question": "What aspectual meaning does the auxiliary “-se-” introduce into the construction?",
+      "options": [
+        "Habitual repetition",
+        "Progressive continuity",
+        "Imperative urgency",
+        "Perfective completion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“-se-” functions similarly to “have” and denotes perfective (completed) aspect."
+    },
+    {
+      "question": "Which element of the construction is responsible for subject agreement?",
+      "options": [
+        "“bedo”",
+        "“-se-”",
+        "Subject prefix",
+        "“ka”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Subject agreement is realized through the concord prefix (e.g., a-, o-, gi-)."
+    },
+    {
+      "question": "Which of the following would be the most pedagogically sound classroom exercise for teaching this tense?",
+      "options": [
+        "Asking students to inflect “bedo” in all subject forms",
+        "Having students replace “nene” with “ose” in examples",
+        "Practicing with subordinate clauses using “ka + verb”",
+        "Comparing “bedo” with irregular English past participles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Practicing with subordinate clauses enhances understanding of temporal backgrounding."
+    }
+  ]
+        },
+        {
+          "title": "Future Tense & Future Continuous Tense",
+          "htmlContent": "beginner/module-three/19.html",
+          "order": 19,
+          "practiceQuestions": [
+    {
+      "question": "What is the correct contracted future form of “you (plural) will eat” in Dholuo?",
+      "options": [
+        "ibochiemo",
+        "ubochiemo",
+        "gibochiemo",
+        "wabochiemo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“ubochiemo” is the correct future contracted form for the second person plural subject."
+    },
+    {
+      "question": "Which of the following best represents the future continuous form of “they will be eating well”?",
+      "options": [
+        "Gibiro chiemo maber",
+        "Gibiro bedo chiemo maber",
+        "Gibiro ga chiemo maber",
+        "Gibochiemo maber"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Gibiro ga chiemo maber” uses the habitual/future progressive marker ‘ga’ correctly."
+    },
+    {
+      "question": "In the sentence “Abiro chiemo,” which part of the construction indicates the future tense?",
+      "options": [
+        "chiemo",
+        "abiro",
+        "abochiemo",
+        "a-"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“abiro” contains the auxiliary “biro” marking the future tense with the subject prefix “a-”."
+    },
+    {
+      "question": "Which of the following is the correct literal interpretation of the sentence “Abiro bedo gi nyithindo ariyo”?",
+      "options": [
+        "I will come eat with two children.",
+        "I will be with two children.",
+        "I come to be with children two.",
+        "I go to be with two children."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence literally translates as ‘I come to be with children two,’ reflecting Dholuo word order."
+    },
+    {
+      "question": "What does the sentence “Nyaka wanene” imply in terms of grammatical obligation?",
+      "options": [
+        "He may see us",
+        "We should try to see him",
+        "We must see him",
+        "Let’s go see him"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nyaka” expresses necessity or obligation; “wanene” means ‘we see him’ — so together: ‘We must see him’."
+    },
+    {
+      "question": "Which of the following phrases demonstrates a misuse of the auxiliary “biro”?",
+      "options": [
+        "Gibiro dhi",
+        "Obiro chiemo",
+        "Ibiro bedo",
+        "Abiro chiem"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Abiro chiem” is incorrect; ‘chiem’ is not an infinitive or participial form — it should be ‘chiemo’."
+    },
+    {
+      "question": "What is the source of the auxiliary “biro” used in Dholuo future constructions?",
+      "options": [
+        "From the root “chiemo” (to eat)",
+        "From the prefix “bo”",
+        "From the verb “bedo” (to be)",
+        "From the verb “bi” (to come)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Biro” is derived from the verb “bi” (to come), used to form the future tense."
+    },
+    {
+      "question": "Which of the following correctly illustrates a future event happening tomorrow?",
+      "options": [
+        "Abiro ga dhi lime",
+        "Ang’nadogi",
+        "Kiny nadogi",
+        "Chieng’ nadogi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Kiny nadogi” translates to ‘Tomorrow they will come,’ correctly indicating a future action."
+    },
+    {
+      "question": "What syntactic property is unique to the use of the auxiliary “biro” in Dholuo?",
+      "options": [
+        "It always follows the main verb",
+        "It carries subject and tense agreement",
+        "It requires the main verb to be conjugated",
+        "It appears only in plural forms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Biro” inflects for subject agreement and functions as the future auxiliary."
+    },
+    {
+      "question": "Why is “bochiemo” considered grammatically valid in Dholuo?",
+      "options": [
+        "It is a present tense verb",
+        "It replaces both subject and verb",
+        "It’s a contraction of “biro chiemo” and includes subject agreement",
+        "It’s a compound word for future continuous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Bochiemo” is a valid contraction of “biro chiemo” with integrated subject agreement prefix."
+    }
+  ]
+        },
+        {
+          "title": "Other Tenses",
+          "htmlContent": "beginner/module-three/10.html",
+          "order": 20,
+          "practiceQuestions": [
+    {
+      "question": "Which of the following Dholuo forms correctly expresses “We should write” in its contracted form?",
+      "options": [
+        "Onegowandiko",
+        "Nogenowandik",
+        "Onegowandik",
+        "Wandikgoone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Onegowandik” is the correct contracted form for expressing obligation (‘we should write’) in Dholuo."
+    },
+    {
+      "question": "What distinguishes the “may” construction from the “should” construction in Dholuo, based on verb morphology?",
+      "options": [
+        "The “may” construction always removes the final -o in the verb.",
+        "The “should” construction keeps the full verb form.",
+        "The “may” construction uses full verb form, retaining -o.",
+        "The “should” construction uses “Ne” to mark the mood."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ‘may’ construction in Dholuo retains the full verb form, including the final -o, unlike ‘should’ which drops it."
+    },
+    {
+      "question": "Which of the following forms represents a contracted hypothetical (would) expression for 'I would write'?",
+      "options": [
+        "Onegandik",
+        "Dandiko",
+        "Dipopandik",
+        "Nasendiko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Dandiko” expresses a hypothetical mood meaning ‘I would write.’"
+    },
+    {
+      "question": "Which structural feature signals subjunctive mood in most relevant Dholuo verb forms?",
+      "options": [
+        "Prefixing with “de”",
+        "Use of “ne”",
+        "Insertion of “onego”",
+        "Dropping the final -o from the verb"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dropping the final -o is a common structural signal of subjunctive or imperative mood in Dholuo."
+    },
+    {
+      "question": "Identify the correct sequence for expressing a past obligation in Dholuo, such as “We should have written.”",
+      "options": [
+        "Ne dipop wandiko",
+        "Ne onego wandik",
+        "Dipopwandik",
+        "Onegowandiko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Ne onego wandik” combines past marker “ne” with modal “onego” and subjunctive verb form."
+    },
+    {
+      "question": "In the Dholuo phrase Nasendiko, what grammatical information is embedded?",
+      "options": [
+        "Future habitual action",
+        "A polite request",
+        "Past perfect: I had written",
+        "Conditional future"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nasendiko” is a past perfect form meaning ‘I had written’."
+    },
+    {
+      "question": "In causative constructions like Wami indik, what is the role of “wami”?",
+      "options": [
+        "Future marker",
+        "Negative auxiliary",
+        "Modal particle",
+        "Subject + causative verb: “we make”"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Wami” is a causative form meaning ‘we make/let’ and is part of constructions like ‘We make him write.’"
+    },
+    {
+      "question": "Which of the following best explains the contrast between Dipopandiko and Dandiko?",
+      "options": [
+        "One is imperative, the other is hypothetical.",
+        "One expresses obligation, the other expresses ability.",
+        "One expresses permission/possibility, the other expresses hypothetical intent.",
+        "Both are past perfect constructions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Dipopandiko” means ‘I might write’ (possibility), while “Dandiko” means ‘I would write’ (hypothetical)."
+    },
+    {
+      "question": "What is the function of the particle ne in constructions like Ne onego andik and Ne asendiko?",
+      "options": [
+        "Marks subjunctive intent",
+        "Indicates future aspect",
+        "Indicates politeness",
+        "Marks past tense or perfect aspect"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Ne” serves to mark past tense or perfect aspect in Dholuo constructions."
+    },
+    {
+      "question": "Which of the following best illustrates the imperative/subjunctive command structure in Dholuo?",
+      "options": [
+        "Ami ondiko",
+        "Dipop wandiko",
+        "Wandik!",
+        "Onego wandik"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Wandik!” is a direct imperative or subjunctive command meaning ‘(You) write!’"
+    }
+  ]
+        },
+        {
+          "title": "Review & Practice",
+          "htmlContent": "beginner/module-three/21.html",
+          "order": 21
+        }
+      ],
         "cat": {
-            "title": "Dholuo Simple Sentence Structures and Basic Grammar Assessment",
-            "description": "This CAT evaluates knowledge of Dholuo nouns, pronouns, and adjectives.",
-            "duration": 60,
-            "passingScore": 50,
-            "maxAttempts": 3,
-            "questions": [
-              {
-                "question": "[Nouns Part 01] Which of the following regions is associated with older, more conservative Dholuo vocabulary such as Gonyo, Ndalo, and Olihu?",
-                "options": [
-                  "Seme, Uyoma, Asembo, Sakwa",
-                  "Karachuonyo, Kabondo, Rusinga, Kadem",
-                  "Alego, Yimbo, Ugenya, Usonga",
-                  "Kisumu, Nyakach, Kano, Gem"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 01] What is the correct feminine provenance term for a woman from Asembo?",
-                "options": [
-                  "Nyar Uyoma",
-                  "Nyar Asembo",
-                  "Ja Asembo",
-                  "Jo Asembo"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Nouns Part 01] Identify the pair in which both Dholuo nouns are classified as impersonal.",
-                "options": [
-                  "Nyathi, Okil",
-                  "Japuonj, Nyamburko",
-                  "Koth, Pii",
-                  "Japuonjre, Mesa"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 01] In Dholuo, what does the prefix \"Jo-\" signify when used in a noun like Jo Ugenya?",
-                "options": [
-                  "A singular person from Ugenya",
-                  "A woman from Ugenya",
-                  "A group or people from Ugenya",
-                  "An ancestral name"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 01] Which set best reflects external, visible parts of the body in Dholuo?",
-                "options": [
-                  "Ombich, Obuongo, Chuny",
-                  "Wich, Wang', Iit",
-                  "Remo, Ler, Chogo",
-                  "Adundo, Nyarogno, Oboo"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Nouns Part 01] What is the correct Dholuo translation of \"The sun rises from the East\"?",
-                "options": [
-                  "Yamo dhi yor Nyandwat",
-                  "Chieng' wuok yor Ugwe",
-                  "Kawuono chieng' owuok",
-                  "Chieng' podho yor Yimbo"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Nouns Part 01] In Dholuo, which of the following terms is associated with abstract concepts rather than physical objects?",
-                "options": [
-                  "Lwedo",
-                  "Mesa",
-                  "Hera",
-                  "Nyamburko"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 01] Which directional expression correctly shows movement toward the South in Dholuo?",
-                "options": [
-                  "Yor Ugwe",
-                  "Yor Milambo",
-                  "Yor Masawa",
-                  "Yor Yimbo"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Nouns Part 02] Which of the following pairs both represent abstract nouns in Dholuo?",
-                "options": [
-                  "Guok, Ratiro",
-                  "Hera, Teko",
-                  "Kom, Muolo",
-                  "Nyathii, Kuyo"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Nouns Part 02] What is the plural form of the Dholuo word Apuoyo (rabbit), according to its noun class pattern?",
-                "options": [
-                  "Apuonyo",
-                  "Apuoji",
-                  "Apuoche",
-                  "Apuoyoni"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 02] Which of the following animals is classified as a wild animal and not a domestic or poultry animal in Dholuo?",
-                "options": [
-                  "Gueno",
-                  "Kwach",
-                  "Diel",
-                  "Thuon"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Nouns Part 02] The noun Ogwal (frog) belongs to which pluralization class based on suffix patterns?",
-                "options": [
-                  "-mbe",
-                  "-che",
-                  "-nde",
-                  "-je"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 02] Which of the following traditional Dholuo vegetables is noted for having mild toxicity and thus requires caution when cooking?",
-                "options": [
-                  "Susa",
-                  "It Nyanya",
-                  "Boo",
-                  "Akeyo"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Nouns Part 02] Which set correctly lists nouns that would follow the Ja → Jo pluralization pattern in Dholuo?",
-                "options": [
-                  "Jagam, Japuonj, Jakom",
-                  "Jakom, Kom, Guok",
-                  "Jagam, Jajuok, Jopuonj",
-                  "Japuonj, Osiep, Otenga"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 02] According to Dholuo noun pluralization, what is the correct plural form of Chogo (bone)?",
-                "options": [
-                  "Chogi",
-                  "Chogni",
-                  "Choke",
-                  "Chogche"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Nouns Part 02] Which Luo traditional dish is made from smoked or sun-dried beef and is known for requiring no refrigeration?",
-                "options": [
-                  "Mor Alenya",
-                  "Aliya",
-                  "Kamongo",
-                  "Dek"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Pronouns Part 01] Which Dholuo demonstrative pronoun specifically indicates an object located far from both the speaker and listener?",
-                "options": [
-                  "Ma",
-                  "Mano",
-                  "Macha",
-                  "Magi"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] In the sentence \"Ng'ato ka ng'ato biro chiemo\", what linguistic feature is emphasized?",
-                "options": [
-                  "Inclusive pronoun use",
-                  "Random object selection",
-                  "Distributive individuality",
-                  "Emphatic ownership"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] What is the correct plural demonstrative pronoun for referring to items near the listener?",
-                "options": [
-                  "Magi",
-                  "Maka",
-                  "Mago",
-                  "Mano"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] Which of the following uses a possessive suffix exclusive to second person plural?",
-                "options": [
-                  "Nyathi-ni",
-                  "Nyathi-u",
-                  "Nyathi-wa",
-                  "Nyathi-gi"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Pronouns Part 01] What is the meaning of the expression \"Chiemo duto tee ne ocham!\"?",
-                "options": [
-                  "He ate some food",
-                  "Everyone brought food",
-                  "All the food was eaten, absolutely",
-                  "Nothing was left on the plate"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] Which form correctly translates \"their garden\" in Dholuo using the 'mar' construction?",
-                "options": [
-                  "Maru",
-                  "Mare",
-                  "Mara",
-                  "Margi"
-                ],
-                "correctAnswer": 3
-              },
-              {
-                "question": "[Pronouns Part 01] In which example is the demonstrative combined with a possessive pronoun?",
-                "options": [
-                  "Macha e jakwath",
-                  "Ma ang'o?",
-                  "Man en kom-a",
-                  "Magi gin yawuoi"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] Which interrogative pronoun would best fit in the sentence: \"_____ dhi dala?\" (____ is going home?)",
-                "options": [
-                  "Karang'o",
-                  "Nang'o",
-                  "Ng'ano",
-                  "Ang'o"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] What is the correct translation of \"Yawoni\" based on the section on specific demonstrative nouns?",
-                "options": [
-                  "This fighter",
-                  "This pond",
-                  "That tree",
-                  "That place"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Pronouns Part 01] Which personal pronoun is correctly matched with its plural English equivalent?",
-                "options": [
-                  "In → They",
-                  "Gin → You (plural)",
-                  "Wan → We",
-                  "Un → They"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] How would one express \"Adhiambo's child\" using proper possessive grammar?",
-                "options": [
-                  "Nyathi mara",
-                  "Nyathi mar Adhiambo",
-                  "Nyathi mare Adhiambo",
-                  "Nyathi Adhiambo-ni"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Pronouns Part 01] Which of the following best exemplifies the distributive use for things?",
-                "options": [
-                  "Gimoro",
-                  "Moro a mora",
-                  "Moro ka moro",
-                  "Gimoro amora"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 01] Which example demonstrates an emphatic subject pronoun?",
-                "options": [
-                  "An dhi dala",
-                  "Dhi dala",
-                  "An abiro",
-                  "Abiro"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 02] Which of the following Dholuo interrogatives would be most appropriate when asking about the cause of an event rather than the manner of it?",
-                "options": [
-                  "Nade",
-                  "Karang'o",
-                  "Nang'o",
-                  "Ng'ano"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 02] In Dholuo, how would you form a tag question that conveys polite doubt after saying \"You're going\"?",
-                "options": [
-                  "Idhi nade?",
-                  "Be idhi?",
-                  "Bende idhi, koso?",
-                  "Idhi karang'o?"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 02] Which of the following transformations is incorrect when forming the genitive (possessive) form?",
-                "options": [
-                  "Diel → Diend",
-                  "Kidi → Kit",
-                  "Got → God",
-                  "Nyathi → Nyathia"
-                ],
-                "correctAnswer": 3
-              },
-              {
-                "question": "[Pronouns Part 02] What is the plural possessive form for \"our lands\" in Dholuo?",
-                "options": [
-                  "Lopewa",
-                  "Lopwa",
-                  "Lopegi",
-                  "Lopena"
-                ],
-                "correctAnswer": 0
-              },
-              {
-                "question": "[Pronouns Part 02] Which phrase best demonstrates an interrogative used to inquire about time of occurrence?",
-                "options": [
-                  "Gin ji adi?",
-                  "Ibiro karang'o?",
-                  "Kom ni kanye?",
-                  "Idhi nade?"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Pronouns Part 02] In Dholuo noun declension, which grammatical case is the only one that results in morphological changes to the noun?",
-                "options": [
-                  "Nominative",
-                  "Dative",
-                  "Genitive",
-                  "Accusative"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Pronouns Part 02] Which of the following noun-to-possessive transformations shows both root change and suffix addition?",
-                "options": [
-                  "Kom → Kome",
-                  "Ot → Oda",
-                  "Buk → Bug",
-                  "Nyathi → Nyathina"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Adjectives] Which adjective type in Dholuo would the phrase \"whose chair?\" fall under?",
-                "options": [
-                  "Possessive",
-                  "Demonstrative",
-                  "Interrogative",
-                  "Comparative"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Adjectives] What is the most likely explanation for the genitive transformation \"Oboke\" → \"Obok\"?",
-                "options": [
-                  "Addition of plural suffix",
-                  "Simplification of vowel-heavy endings",
-                  "Stress accent on first syllable",
-                  "Prefix change to show indirect object"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "question": "[Adjectives] Which of the following best represents a consonant-based genitive transformation?",
-                "options": [
-                  "Puodho → Puotha",
-                  "Pala → Panda",
-                  "Lowo → Lop",
-                  "Lak → Lak"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "question": "[Adjectives] Which sentence demonstrates an advanced interrogative structure that involves possibility or capability?",
-                "options": [
-                  "Ng'ano ma oyie?",
-                  "Ng'ato ang'ata nyalo bedo jaloyo?",
-                  "Mara ang'o ok ne ibiro?",
-                  "Ibiro karang'o?"
-                ],
-                "correctAnswer": 1
-              }
-            ]
-          }
+      "title": "Continuous Assessment Test 03 - Everyday Conversations & Cultural Context",
+      "description": "This CAT evaluates knowledge of Dholuo adjectives, verbs, and tenses in everyday conversational contexts.",
+      "duration": 90,
+      "passingScore": 60,
+      "maxAttempts": 3,
+      "questions": [
+        {
+          "question": "[Adjectives & Verbs Part 01] Which of the following is the correct comparative form of marach (bad)?",
+          "options": [
+            "mach",
+            "rach",
+            "bor",
+            "mar"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] In the sentence Mae mit kaka macha, what grammatical function does the word kaka serve?",
+          "options": [
+            "Marker of possession",
+            "Superlative indicator",
+            "Equality comparison",
+            "Verb intensifier"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which verb form in Dholuo would best express \"to study\" in the infinitive?",
+          "options": [
+            "somo",
+            "somi",
+            "somyo",
+            "som"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] What prefix is used in Dholuo to conjugate a verb for the subject pronoun Wan (we)?",
+          "options": [
+            "Wi-",
+            "Na-",
+            "Wa-",
+            "Wo-"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] What is the meaning of the Dholuo sentence Paul nitie?",
+          "options": [
+            "Paul is absent",
+            "Paul is here",
+            "Paul is present",
+            "Paul is doing something"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which of the following correctly expresses \"There is no food\" in Dholuo?",
+          "options": [
+            "Chiemo nitie",
+            "Chiemo onge",
+            "Chiemo tie",
+            "Chiemo kod onge"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] What construction would correctly express \"The most intelligent\" in Dholuo using the standard superlative form?",
+          "options": [
+            "mariek moloyo te",
+            "riek moloyo",
+            "mariek kaka te",
+            "riek machal kod te"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] What does the phrase rateng' ti mean in Dholuo as used in intensification?",
+          "options": [
+            "Completely dark",
+            "The darkest of all",
+            "Very black/dark",
+            "As black as"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which Dholuo construction correctly conveys \"I am here\" using the verb tie?",
+          "options": [
+            "An nitie",
+            "Antie",
+            "An kod ka",
+            "An e tie"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] In the morphosyntactic structure of Dholuo adjectives, what is the primary function of the \"ma-\" prefix?",
+          "options": [
+            "It turns adjectives into nouns to enhance formality",
+            "It intensifies the semantic value of the adjective",
+            "It acts as a linking particle, converting descriptors into relative clauses",
+            "It marks future tense in attributive clauses"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which of the following Dholuo adjectives does not follow the ma- prefix pattern?",
+          "options": [
+            "Maber",
+            "Manok",
+            "Marach",
+            "Maduong'"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] What semantic distinction is drawn between matho and motho in Dholuo adjective clauses?",
+          "options": [
+            "Gender specificity of the subject",
+            "Past vs. future participle forms",
+            "Positive vs. negative polarity",
+            "Ongoing process vs. completed state"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which adjective is irregular in both form and developmental reference, bypassing the standard prefix system?",
+          "options": [
+            "Matin",
+            "Maratong'",
+            "Manumu",
+            "Maogundho"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which of the following Dholuo adjective pairs exemplifies pluralization through suffixation?",
+          "options": [
+            "Makwar → Makwaro",
+            "Maduong' → Madongo",
+            "Manok → Manoki",
+            "Machiek → Machikni"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which adjective conveys moral and aesthetic approval in Dholuo and may intensify with ahinya?",
+          "options": [
+            "Marach",
+            "Maber",
+            "Marieny",
+            "Maodhero"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] In Dholuo, which adjective denotes sufficiency, and may commonly lose the \"ma-\" prefix in speech?",
+          "options": [
+            "Maogundho",
+            "Mang'eny",
+            "Mathoth",
+            "Moromo"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which of the following color adjectives derives from an environmental referent?",
+          "options": [
+            "Marachar – white",
+            "Marabuor – brown",
+            "Maratong' – yellow",
+            "Marapir – indigo"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] What is the plural form of the adjective marach (\"bad\")?",
+          "options": [
+            "Marachni",
+            "Maricho",
+            "Marachere",
+            "Marachno"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Adjectives & Verbs Part 01] Which of the following adjectives is classified as invariant, resisting inflection even in plural contexts?",
+          "options": [
+            "Mabeyo",
+            "Madongo",
+            "Mamit",
+            "Machieko"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Verbs Part 02] Which of the following best illustrates the use of an applicative extension in Dholuo?",
+          "options": [
+            "An gi kom",
+            "Abet e kom",
+            "Puonj-e",
+            "Wa-wer"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Verbs Part 02] In Dholuo, which of the following reflects the correct verb structure for a transitive construction?",
+          "options": [
+            "Verb Root + Object + Subject",
+            "Subject Prefix + Object Suffix + Verb Root",
+            "Subject Prefix + Verb Root + Object Suffix",
+            "Object Suffix + Subject Prefix + Verb Root"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Verbs Part 02] What enables a verb like \"goyo\" to function independently in a clause?",
+          "options": [
+            "Verbal extensions",
+            "Verb-initial syntax",
+            "Morphological fusion of subject and object",
+            "Reflexive suffix -re"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Verbs Part 02] Which of the following forms shows reflexive morphology?",
+          "options": [
+            "Ginegowa",
+            "Tedore",
+            "Agoye",
+            "Nyuomo"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Verbs Part 02] What is the grammatical issue with the phrase \"an kod guok\" when expressing possession?",
+          "options": [
+            "Misuse of object pronoun",
+            "Redundant subject prefix",
+            "Incorrect reflexive verb form",
+            "Semantic error in possession"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "[Verbs Part 02] Which example best illustrates antipassive usage in Dholuo?",
+          "options": [
+            "Olum goye",
+            "Wa-wer",
+            "Opuonjore",
+            "Osetho"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Verbs Part 02] Identify the correct Dholuo translation of \"They have killed us.\"",
+          "options": [
+            "Gikendowa",
+            "Onegowa",
+            "Ginegowa",
+            "Gin gi tho"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Verbs Part 02] Which form demonstrates a fully fused verbal clause in Dholuo?",
+          "options": [
+            "Gin gi lowo",
+            "Apuonjora",
+            "Ok odwar luokore",
+            "An kod guok"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Verbs Part 02] Which is true about the verb nyuomo in Dholuo?",
+          "options": [
+            "It can be used by any gender",
+            "It only applies to legal ceremonies",
+            "It is culturally male-exclusive",
+            "It is always reflexive"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Verbs Part 02] What grammatical process forms the noun luokruok?",
+          "options": [
+            "Antipassive shift",
+            "Nominalization via -ruok",
+            "Agglutination of pronouns",
+            "Use of possessive \"gi\""
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Verbs Part 02] Why does Gikendore mean \"They are married\"?",
+          "options": [
+            "Auxiliary makes it passive",
+            "Kendo is polysemous",
+            "Subject-object reversal",
+            "Reflexive intransitive form"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Tenses] In the construction \"Nene osebedo ka koth chue,\" which grammatical element is primarily responsible for placing the action prior to another past event?",
+          "options": [
+            "The static verb \"bedo\"",
+            "The subject prefix \"o-\"",
+            "The auxiliary \"nene\" combined with the perfective infix \"-se-\"",
+            "The clause marker \"ka\""
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Tenses] Which of the following Dholuo sentences best exemplifies a contracted form of the recent past perfective?",
+          "options": [
+            "Nene osechiemo",
+            "Osebedo ka ochamo",
+            "Asechiemo",
+            "A chiemo"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Tenses] What is the function of the \"-ga\" suffix in the verb phrase \"Nene achiemoga\"?",
+          "options": [
+            "To express politeness or deference in past narration",
+            "To emphasize completed action in the past",
+            "To mark obligation tied to habitual action",
+            "To denote a repeated or ongoing past action (past habitual/continuous)"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "[Tenses] In which of the following constructions is the infinitive verb form maintained despite temporal marking?",
+          "options": [
+            "Nene andiko",
+            "Asebedo ka andiko",
+            "Abiro chiemo",
+            "A chiemoga"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Tenses] Which of the following demonstrates incorrect application of the overt subject rule?",
+          "options": [
+            "Achieng' wuotho",
+            "Achieng' owuotho",
+            "Ochieng' bedo",
+            "Mama dhi kar thieth"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Tenses] Which sentence properly expresses the future continuous tense in Dholuo?",
+          "options": [
+            "Gibiro bedo gi chiemo",
+            "Gibiro chiemo",
+            "Gibiro ga chiemo maber",
+            "Gibo chiemo maber"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "[Tenses] What does the prefix \"nyoro-\" convey in a sentence like \"Nyoro natuo\"?",
+          "options": [
+            "Past habitual illness",
+            "Ongoing sickness",
+            "General recent past",
+            "Specific reference to an event that occurred yesterday"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "[Tenses] Which structure correctly conveys the modal \"should have\" in Dholuo?",
+          "options": [
+            "Ne giromo kodgi",
+            "Ne onego andik",
+            "Onegandik",
+            "Asebedo ka andik"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Tenses] What is the primary pedagogical challenge in interpreting present continuous actions in Dholuo?",
+          "options": [
+            "The need to memorize subject-object order",
+            "The absence of explicit progressive morphology, requiring contextual inference",
+            "The lack of plural forms in present verbs",
+            "The instability of the \"ma-\" prefix"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "[Tenses] Which of the following morphosyntactic combinations indicates \"They had been...\" in Dholuo past perfect tense?",
+          "options": [
+            "Gibiro bedo",
+            "Gisebedo",
+            "Nene gisebedo",
+            "Nene gibiro bedo"
+          ],
+          "correctAnswer": 2
+        }
+  ]
+}
         }
     ],
     "user": "64f8a8b47e89f752f9ef2c2a",

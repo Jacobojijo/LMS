@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following Dholuo forms correctly expresses “We should write” in its contracted form?",
+      "options": [
+        "Onegowandiko",
+        "Nogenowandik",
+        "Onegowandik",
+        "Wandikgoone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Onegowandik” is the correct contracted form for expressing obligation (‘we should write’) in Dholuo."
+    },
+    {
+      "question": "What distinguishes the “may” construction from the “should” construction in Dholuo, based on verb morphology?",
+      "options": [
+        "The “may” construction always removes the final -o in the verb.",
+        "The “should” construction keeps the full verb form.",
+        "The “may” construction uses full verb form, retaining -o.",
+        "The “should” construction uses “Ne” to mark the mood."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ‘may’ construction in Dholuo retains the full verb form, including the final -o, unlike ‘should’ which drops it."
+    },
+    {
+      "question": "Which of the following forms represents a contracted hypothetical (would) expression for 'I would write'?",
+      "options": [
+        "Onegandik",
+        "Dandiko",
+        "Dipopandik",
+        "Nasendiko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Dandiko” expresses a hypothetical mood meaning ‘I would write.’"
+    },
+    {
+      "question": "Which structural feature signals subjunctive mood in most relevant Dholuo verb forms?",
+      "options": [
+        "Prefixing with “de”",
+        "Use of “ne”",
+        "Insertion of “onego”",
+        "Dropping the final -o from the verb"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dropping the final -o is a common structural signal of subjunctive or imperative mood in Dholuo."
+    },
+    {
+      "question": "Identify the correct sequence for expressing a past obligation in Dholuo, such as “We should have written.”",
+      "options": [
+        "Ne dipop wandiko",
+        "Ne onego wandik",
+        "Dipopwandik",
+        "Onegowandiko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Ne onego wandik” combines past marker “ne” with modal “onego” and subjunctive verb form."
+    },
+    {
+      "question": "In the Dholuo phrase Nasendiko, what grammatical information is embedded?",
+      "options": [
+        "Future habitual action",
+        "A polite request",
+        "Past perfect: I had written",
+        "Conditional future"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nasendiko” is a past perfect form meaning ‘I had written’."
+    },
+    {
+      "question": "In causative constructions like Wami indik, what is the role of “wami”?",
+      "options": [
+        "Future marker",
+        "Negative auxiliary",
+        "Modal particle",
+        "Subject + causative verb: “we make”"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Wami” is a causative form meaning ‘we make/let’ and is part of constructions like ‘We make him write.’"
+    },
+    {
+      "question": "Which of the following best explains the contrast between Dipopandiko and Dandiko?",
+      "options": [
+        "One is imperative, the other is hypothetical.",
+        "One expresses obligation, the other expresses ability.",
+        "One expresses permission/possibility, the other expresses hypothetical intent.",
+        "Both are past perfect constructions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Dipopandiko” means ‘I might write’ (possibility), while “Dandiko” means ‘I would write’ (hypothetical)."
+    },
+    {
+      "question": "What is the function of the particle ne in constructions like Ne onego andik and Ne asendiko?",
+      "options": [
+        "Marks subjunctive intent",
+        "Indicates future aspect",
+        "Indicates politeness",
+        "Marks past tense or perfect aspect"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Ne” serves to mark past tense or perfect aspect in Dholuo constructions."
+    },
+    {
+      "question": "Which of the following best illustrates the imperative/subjunctive command structure in Dholuo?",
+      "options": [
+        "Ami ondiko",
+        "Dipop wandiko",
+        "Wandik!",
+        "Onego wandik"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Wandik!” is a direct imperative or subjunctive command meaning ‘(You) write!’"
+    }
+  ]
+}

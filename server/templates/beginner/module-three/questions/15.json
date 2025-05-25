@@ -1,0 +1,94 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following correctly reflects the Present Tense conjugation for “we eat” in Dholuo?",
+      "options": ["Wachiemo", "Wachiemo gi", "Wachamo", "Watiemo"],
+      "correctAnswer": 0,
+      "explanation": "“wa-” is the correct prefix for “wan” (we), added to “chiemo” → wachiemo"
+    },
+    {
+      "question": "What happens to the verb when it follows an overt subject in the present tense?",
+      "options": [
+        "It changes to a past form.",
+        "It uses a subject prefix.",
+        "It drops the prefix and retains the infinitive form.",
+        "It adds both subject and object markers."
+      ],
+      "correctAnswer": 2,
+      "explanation": "With overt subjects like names or nouns, the subject prefix is dropped."
+    },
+    {
+      "question": "In the sentence “Achieng’ uso”, what grammatical rule is illustrated?",
+      "options": [
+        "Reflexive object pronoun",
+        "Subject agreement by suffix",
+        "Overt subject rule",
+        "Progressive aspect insertion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 'Achieng’' is an overt subject, the verb is used without the prefix."
+    },
+    {
+      "question": "Which of the following sentences demonstrates incorrect use of the present tense prefix system in Dholuo?",
+      "options": ["Achiemo", "Utiyo", "Gichiemo", "Enchiemo"],
+      "correctAnswer": 3,
+      "explanation": "“en” becomes “o-” not “en-”; correct form is ochiemo."
+    },
+    {
+      "question": "Choose the correct present tense conjugation of the verb lemo (to pray) for 'they':",
+      "options": ["Gilemo", "Gilemogi", "Giluemo", "Gilemogi"],
+      "correctAnswer": 0,
+      "explanation": "“gi-” is the correct prefix for “gin” (they), so → gilemo."
+    },
+    {
+      "question": "Which of the following is true about the verb form tiyo in the sentence “Onyango tiyo”?",
+      "options": [
+        "It is incorrectly conjugated; it should be 'otiye.'",
+        "It retains the infinitive form due to an overt subject.",
+        "It includes the subject prefix for 'he.'",
+        "It has lost its infinitive meaning."
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Onyango” is an overt subject, so “tiyo” is used in its infinitive form."
+    },
+    {
+      "question": "What is the correct translation of “uchiemo” based on Dholuo present tense rules?",
+      "options": ["I eat", "You (pl.) eat", "They are eating", "He eats"],
+      "correctAnswer": 1,
+      "explanation": "“u-” is the present tense prefix for “un” (you plural)."
+    },
+    {
+      "question": "Which of the following statements is FALSE according to Dholuo present tense structure?",
+      "options": [
+        "“Ochamo” means “he is eating”",
+        "Verbs change their ending depending on subject gender",
+        "Verbs retain the -o/-yo infinitive endings",
+        "There is no difference between 'he eats' and 'he is eating'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dholuo does not alter verb endings for gender; it uses prefixes."
+    },
+    {
+      "question": "In the sentence “Olum kwayo dhoggi”, why is no prefix used before the verb kwayo?",
+      "options": [
+        "The object is already clear",
+        "The verb has a reflexive pronoun",
+        "The subject is overt, so prefix is omitted",
+        "The verb root starts with a consonant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Olum” is an overt subject, so the verb uses the infinitive form."
+    },
+    {
+      "question": "Which of the following best describes the morphological structure of Dholuo present tense verbs?",
+      "options": [
+        "Prefixation of tense markers at the end of verb roots",
+        "Agglutinative prefixing of subject pronouns to infinitives",
+        "Reduplication of verb stems for emphasis",
+        "Use of auxiliary verbs to denote time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subject pronouns are added as prefixes to form the present tense in an agglutinative manner."
+    }
+  ]
+}

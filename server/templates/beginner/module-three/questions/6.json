@@ -1,0 +1,99 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Luo adjective correctly transforms into the comparative form ber?",
+      "options": ["mariek", "marach", "maber", "mamit"],
+      "correctAnswer": 2,
+      "explanation": "‘Maber’ (good) transforms into the comparative form ‘ber’ (better)."
+    },
+    {
+      "question": "Which of the following sentences correctly illustrates the use of 'machal kod' to compare equality?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Ma nyap kaka macha",
+        "Mae bor machal kod macha",
+        "Ma bor moloyo macha"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Machal kod’ expresses equality. ‘Mae bor machal kod macha’ means ‘This is as tall as that one.’"
+    },
+    {
+      "question": "What is the most accurate English translation of 'Ma riek kaka macha' based on the provided context?",
+      "options": [
+        "This is cleverer than that one",
+        "This is as wise as that one",
+        "This is the wisest one",
+        "This is as tall as that one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kaka’ means ‘as’, so this translates as ‘This is as wise as that one.’"
+    },
+    {
+      "question": "Which option shows a correct pairing of a positive adjective and its comparative form?",
+      "options": ["marach → ber", "mamit → bor", "mabor → bor", "mariek → rach"],
+      "correctAnswer": 2,
+      "explanation": "‘Mabor’ (tall) transforms to ‘bor’ in its comparative form."
+    },
+    {
+      "question": "Which structure would be most appropriate for comparing two things as equal in sweetness?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Mae mit machal kod macha",
+        "Mae mit ber kaka macha",
+        "Mae mit ber kod macha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Machal kod’ expresses equality, so ‘Mae mit machal kod macha’ means ‘This is as sweet as that one.’"
+    },
+    {
+      "question": "What is the primary morphological pattern observed in forming comparatives from adjectives in Luo?",
+      "options": [
+        "Addition of 'ma' as a prefix",
+        "Reduction of the syllable",
+        "Doubling the last consonant",
+        "Inversion of the vowel sequence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Comparative forms often result from syllable reduction or shortening the root, such as ‘mabor’ → ‘bor’, ‘maber’ → ‘ber’."
+    },
+    {
+      "question": "Which of the following is not a valid comparative form based on the material?",
+      "options": ["bor", "mit", "nyap", "rach"],
+      "correctAnswer": 2,
+      "explanation": "‘Nyap’ is not a comparative adjective in this context; others like ‘bor’ and ‘rach’ are used comparatively."
+    },
+    {
+      "question": "Which Luo comparative sentence best translates to 'This is worse than that one'?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Mae rach moloyo macha",
+        "Ma rach kaka macha",
+        "Mae riek machal kod macha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mae rach moloyo macha’ directly translates to ‘This is worse than that one.’"
+    },
+    {
+      "question": "Why is 'kaka' significant in Luo comparative grammar?",
+      "options": [
+        "It forms the superlative of adjectives",
+        "It is used to express equality between two entities",
+        "It marks possession in comparative structures",
+        "It turns adjectives into verbs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kaka’ means ‘as’ and is key in expressing equality (e.g., 'as good as')."
+    },
+    {
+      "question": "Which of the following statements best reflects the cultural-linguistic insight drawn from Luo comparative usage?",
+      "options": [
+        "Luo language limits comparisons to physical traits",
+        "Comparisons in Luo mostly emphasize animals and nature",
+        "Luo comparisons often reflect moral and personality traits",
+        "Luo comparatives are only used in poetic or ceremonial speech"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Luo comparatives commonly emphasize moral or character traits, such as wisdom and goodness, beyond just physical comparisons."
+    }
+  ]
+}

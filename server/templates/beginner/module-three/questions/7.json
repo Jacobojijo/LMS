@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following correctly uses the superlative form of the adjective mamit (sweet)?",
+      "options": [
+        "Mae mit moloyo macha",
+        "Mamit moloyo te",
+        "Ma mit kaka macha",
+        "Mae mamit moloyo mari"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mamit moloyo te’ translates to ‘the sweetest of all,’ correctly using the superlative structure."
+    },
+    {
+      "question": "In the phrase ma ber kaka macha, what grammatical structure is being expressed?",
+      "options": [
+        "A superlative comparison",
+        "A moral judgment",
+        "A comparison of equality",
+        "An intensifier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kaka’ means ‘as,’ and this phrase expresses equality."
+    },
+    {
+      "question": "Which of the following sentences uses a morphological comparative form where the adjective root is shortened?",
+      "options": [
+        "Mamit moloyo te",
+        "Ma mit kaka macha",
+        "Mara ber moloyo mari",
+        "Chiega mariek moloyo te"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maber’ (good) becomes ‘ber’ (better) through morphological reduction."
+    },
+    {
+      "question": "What is the meaning of Puotha duong’ moloyo puothi?",
+      "options": [
+        "My farm is the largest of all.",
+        "My farm is bigger than yours.",
+        "My land is the most fertile.",
+        "My house is newer than his."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Moloyo’ indicates comparison; the sentence means ‘My farm is bigger than yours.’"
+    },
+    {
+      "question": "Identify the correct Dholuo sentence for: “This is as tall as that one.”",
+      "options": [
+        "Mae mabor machal kod macha",
+        "Mae bor moloyo macha",
+        "Ma bor kaka macha",
+        "Mae duong' moloyo macha"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Bor’ (tall/long) + ‘kaka’ = ‘as tall as’; correct structure: ‘Ma bor kaka macha.’"
+    },
+    {
+      "question": "Which adjective does not change form when expressing comparative degree?",
+      "options": [
+        "Mamit",
+        "Marach",
+        "Mabor",
+        "Mabich"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mabor’ already ends in the comparative form ‘bor’ and is thus invariant."
+    },
+    {
+      "question": "What does the structure moloyo te convey in Dholuo grammar?",
+      "options": [
+        "A literal comparison",
+        "A neutral comparison",
+        "The highest degree of quality",
+        "An equality of two qualities"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Moloyo te’ marks the superlative, meaning ‘more than all others’ or ‘the most.’"
+    },
+    {
+      "question": "Choose the correct translation of Yorni bor moloyo yor cha.",
+      "options": [
+        "This road is the longest of all.",
+        "That Road is better than this one.",
+        "This way is longer than that one.",
+        "This path is equally long."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Yorni bor moloyo yor cha’ means ‘This way is longer than that one.’"
+    },
+    {
+      "question": "Which of the following sentences best demonstrates the use of an intensifier in Dholuo?",
+      "options": [
+        "Ma ber kaka macha",
+        "Ng’atno riek ndii",
+        "Mae riek moloyo macha",
+        "Mariek moloyo te"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ndii’ acts as an intensifier, emphasizing the subject’s wisdom."
+    },
+    {
+      "question": "Which comparative structure is used to express “His wife is better than theirs” in Dholuo?",
+      "options": [
+        "Chiega maber machal kod chiegi",
+        "Chiega mit moloyo chiegi",
+        "Chiega ber moloyo chiegi",
+        "Chiega riek moloyo te"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ber moloyo’ expresses ‘better than’; thus, the phrase correctly compares two entities."
+    }
+  ]
+}

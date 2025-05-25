@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is the correct plural phrase for “a short chair” in Dholuo?",
+      "options": [
+        "Kom machiek",
+        "Kombe machieko",
+        "Kombe machiek",
+        "Kom machieko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kombe’ is the plural of ‘Kom’ (chair), and ‘machieko’ is the plural form of the adjective ‘machiek’ (short)."
+    },
+    {
+      "question": "In Dholuo, which of the following adjectives does not inflect for plurality?",
+      "options": [
+        "maber",
+        "matindo",
+        "makuar",
+        "marach"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Makwar’ (rough) is an invariant adjective and does not change based on plurality."
+    },
+    {
+      "question": "What is the correct plural form of the adjective “marachar” (white)?",
+      "options": [
+        "marachero",
+        "marachere",
+        "marachoro",
+        "marachiyo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct plural form of ‘marachar’ is ‘marachere’, following the inflectional rules for adjectives in Dholuo."
+    },
+    {
+      "question": "Choose the correct transformation from singular to plural: “Nyako maber” (a beautiful girl).",
+      "options": [
+        "Nyako mabeyo",
+        "Nyakni maber",
+        "Nyiri mabeyo",
+        "Nyiri maber"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nyiri’ is the plural of ‘Nyako’ (girl), and ‘mabeyo’ is the plural of ‘maber’ (beautiful)."
+    },
+    {
+      "question": "Which of the following noun–adjective pairs is mismatched in plural agreement?",
+      "options": [
+        "Puga matin → Puke matindo",
+        "Nyathi maber → Nyithindo mabeyo",
+        "Kom machiek → Kombe machieko",
+        "Ndigni matindo → Ndiga matindo"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Ndiga’ is the plural of ‘ndigni’, but the adjective ‘matindo’ (small) should also be pluralized to ‘matinjo’ or similar; thus, this is mismatched."
+    },
+    {
+      "question": "In Dholuo morphosyntax, what feature primarily triggers adjective inflection?",
+      "options": [
+        "Verb tense",
+        "Gender",
+        "Number",
+        "Mood"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Number (singular/plural) is the primary feature that determines adjective inflection in Dholuo."
+    },
+    {
+      "question": "Which of the following adjectives remains invariant in both singular and plural noun phrases?",
+      "options": [
+        "marach",
+        "mamit",
+        "maduong’",
+        "marateng’"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mamit’ (sweet) does not change in plural contexts and is considered invariant."
+    },
+    {
+      "question": "Identify the correct plural adjective form for “mabor” (tall/long).",
+      "options": [
+        "mabori",
+        "maburo",
+        "maboyo",
+        "maboro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Maboyo’ is the correct plural form of ‘mabor’, following the appropriate morphological rules."
+    },
+    {
+      "question": "Based on the semantic classification provided, which adjective is linked to taste or emotion rather than size or color?",
+      "options": [
+        "marateng’",
+        "makwiny",
+        "matindo",
+        "marachere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Makwiny’ relates to bitterness (taste), setting it apart from physical descriptors like color or size."
+    },
+    {
+      "question": "What linguistic implication can be drawn from the existence of invariant adjectives in Dholuo?",
+      "options": [
+        "Adjective forms are arbitrary in Dholuo.",
+        "Dholuo adjectives have no grammatical agreement rules.",
+        "Cultural or sensory descriptors resist inflection in some cases.",
+        "Invariant adjectives only apply to animate nouns."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Some adjectives, especially those expressing cultural or sensory concepts, remain unchanged across number, suggesting a unique resistance to inflection."
+    }
+  ]
+}

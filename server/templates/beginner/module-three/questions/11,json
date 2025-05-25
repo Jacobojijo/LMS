@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why “goyo” is considered a transitive verb in Dholuo?",
+      "options": [
+        "It contains an auxiliary",
+        "It carries tonal alternation",
+        "It takes a direct object",
+        "It ends with a subject suffix"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transitive verbs take direct objects. ‘Goyo’ (to beat) can be followed by an object."
+    },
+    {
+      "question": "In the sentence Ogoye, what grammatical elements are fused together?",
+      "options": [
+        "Auxiliary, verb, adverb",
+        "Subject pronoun, verb stem, object pronoun",
+        "Object noun, verb stem, subject noun",
+        "Verb prefix, plural suffix, tense marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ogoye’ includes subject (O-), verb stem (goy-), and object suffix (-e)."
+    },
+    {
+      "question": "What is the primary syntactic function of the suffix “-ye” in the verb Agoye?",
+      "options": [
+        "Marks tense",
+        "Indicates plurality",
+        "Shows the object",
+        "Functions as an auxiliary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ‘-ye’ suffix marks the object being acted upon."
+    },
+    {
+      "question": "In Dholuo, what change allows an originally intransitive verb to function transitively?",
+      "options": [
+        "Tone modification",
+        "Auxiliary insertion",
+        "Verbal extension (e.g. applicative)",
+        "Prefix repetition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Verbal extensions like applicatives allow intransitive verbs to take objects."
+    },
+    {
+      "question": "Which of the following is the correct gloss for Olum goyo bul?",
+      "options": [
+        "Subject + object + verb",
+        "Verb + object + subject",
+        "Subject noun + transitive verb + direct object",
+        "Auxiliary + verb stem + applicative extension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Olum goyo bul’ = ‘Olum beats the drum’ — subject, verb, object."
+    },
+    {
+      "question": "What best defines the term “agglutinative” in the context of Dholuo verb morphology?",
+      "options": [
+        "A verb structure that involves repeating syllables",
+        "A language pattern where affixes are fused to show tone",
+        "A morphological system where distinct morphemes are combined into a single unit",
+        "A verb formation that only uses pronouns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Agglutinative morphology combines discrete morphemes in a consistent sequence."
+    },
+    {
+      "question": "How does Dholuo signal a shift from transitivity to intransitivity in certain verbs?",
+      "options": [
+        "Through the use of auxiliary verbs",
+        "By inserting an object suffix",
+        "By applying antipassivity",
+        "Through object repetition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antipassive constructions reduce or omit the object, marking the verb as intransitive."
+    },
+    {
+      "question": "Which structure accurately represents a typical Dholuo sentence with a transitive verb and subject pronoun?",
+      "options": [
+        "Object + Auxiliary + Verb + Subject",
+        "Subject Pronoun + Verb Root + Object Suffix",
+        "Auxiliary + Subject + Object + Verb",
+        "Verb + Object + Subject Pronoun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dholuo fuses subject pronouns and verb roots, often adding object suffixes."
+    },
+    {
+      "question": "Based on the examples, which question reveals the direct object in a Dholuo transitive sentence?",
+      "options": [
+        "Ne osomo iye?",
+        "Ne ochamo ng’a?",
+        "Ne wanyiewo ang’o?",
+        "Ne goye o?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Wanyiewo ang’o?’ = ‘What did we buy?’ — ‘ang’o’ (what) is the object."
+    },
+    {
+      "question": "Which of the following is not true about subjective pronouns in Dholuo as described?",
+      "options": [
+        "They typically appear after the verb",
+        "They indicate the doer of the action",
+        "They function as agents of the verb",
+        "They are central to verb conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subject pronouns appear **before** or are fused **within** the verb, not after."
+    }
+  ]
+}

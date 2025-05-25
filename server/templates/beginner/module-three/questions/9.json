@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why the sentence \"Chiemo mamit!\" does not include a verb in Dholuo?",
+      "options": [
+        "Dholuo uses auxiliary verbs for taste descriptors.",
+        "Present-tense declaratives do not require the verb “to be”.",
+        "The word “mamit” already contains the verb.",
+        "The verb “tie” is implied by the noun."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Dholuo, present-tense descriptive sentences often omit the verb 'to be'."
+    },
+    {
+      "question": "Which of the following correctly demonstrates the use of the verb \"tie\" with a personal pronoun?",
+      "options": [
+        "Chiemo tie ka.",
+        "Antie ka.",
+        "Tie an ka.",
+        "Ka tie wan."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Antie ka’ means ‘I am here/present’ — correct use of ‘tie’ with subject pronoun."
+    },
+    {
+      "question": "What is the correct Dholuo phrase for \"They are present\"?",
+      "options": [
+        "Gintie",
+        "Untie",
+        "En tie",
+        "Nitiegin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Gintie’ = ‘They are present.’ ‘Gin’ (they) + ‘tie’ (to be present)."
+    },
+    {
+      "question": "Which structure is correctly used when the subject is explicit (e.g., Paul)?",
+      "options": [
+        "En gi Paul",
+        "Paul en gi",
+        "Paul nitie",
+        "Paul antie"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When the subject is named (explicit), 'nitie' is used. ‘Paul nitie’ = ‘Paul is present.’"
+    },
+    {
+      "question": "Which Dholuo construction best expresses the sentence “My co-wife has children”?",
+      "options": [
+        "Nyieka kod nyithindo",
+        "Nyieka gi nyithindo",
+        "Nyieka nigi nyithindo",
+        "Nyithindo gi nyieka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘nigi’ = ‘has (they possess)’; ‘Nyieka nigi nyithindo’ = ‘My co-wife has children.’"
+    },
+    {
+      "question": "In which case must the copula “ni” be inserted before “gi” when expressing possession?",
+      "options": [
+        "When the subject is in third person plural.",
+        "When using abstract nouns.",
+        "When the object is a location.",
+        "When the subject is overt/named."
+      ],
+      "correctAnswer": 3,
+      "explanation": "With overt/named subjects, ‘ni’ must precede ‘gi’ (e.g., ‘Nyieka **ni**gi nyithindo’)."
+    },
+    {
+      "question": "Which of the following Dholuo forms properly expresses \"We are here\" using the location verb form?",
+      "options": [
+        "Wan ka",
+        "Wantie ka",
+        "Watie",
+        "Wan gi ka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wantie ka’ = ‘We are here,’ with correct conjugation of the verb ‘tie’."
+    },
+    {
+      "question": "What is the correct negation form of the sentence “He is present”?",
+      "options": [
+        "En onge",
+        "Oonge",
+        "En tie",
+        "En nitie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Oonge’ is the negated form meaning ‘He/She is not present.’"
+    },
+    {
+      "question": "If \"An gi chiemo\" means \"I have food,\" what does \"Gin gi nyithindo\" most accurately translate to?",
+      "options": [
+        "We have children.",
+        "They are children.",
+        "They have children.",
+        "Children have them."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gin gi nyithindo’ = ‘They have children.’"
+    },
+    {
+      "question": "Which prefix pair accurately indicates the difference between singular and plural subject pronouns in Dholuo verb conjugation?",
+      "options": [
+        "A- / E-",
+        "Wa- / Gi-",
+        "In- / An-",
+        "E- / U-"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wa-’ is the prefix for ‘we’ and ‘Gi-’ for ‘they’ in verb conjugation (e.g., Wantie, Gintie)."
+    }
+  ]
+}

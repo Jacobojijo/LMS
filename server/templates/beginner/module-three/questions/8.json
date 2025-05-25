@@ -1,0 +1,104 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is the correct infinitive form in Dholuo?",
+      "options": ["japuonj", "bedi", "bedo", "en"],
+      "correctAnswer": 2,
+      "explanation": "‘Bedo’ is the infinitive form of the verb ‘to be,’ which ends in ‘-o’ or ‘-yo’ in Dholuo."
+    },
+    {
+      "question": "Which sentence below correctly demonstrates the present indicative structure using a plural subject?",
+      "options": ["Wan e japuonj", "Un e ker", "Gin jo Nairobi", "In ja Nairobi"],
+      "correctAnswer": 2,
+      "explanation": "‘Gin jo Nairobi’ means ‘They are people of Nairobi,’ using the correct structure for third person plural."
+    },
+    {
+      "question": "What distinguishes the verb “to be” in Dholuo from regular infinitive verbs?",
+      "options": [
+        "It has a prefix only.",
+        "It ends in \"-yo\" like all other verbs.",
+        "It takes no subject.",
+        "It does not end in \"-o\" or \"-yo\" and is marked by \"N\"."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The verb ‘to be’ in Dholuo is irregular and marked by 'N' rather than a regular verb ending."
+    },
+    {
+      "question": "What role does the particle “e” play in the sentence \"An e jatend piny\"?",
+      "options": [
+        "It marks the object.",
+        "It is the subject of the sentence.",
+        "It functions as the copula (linking verb).",
+        "It is a pronoun modifier."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘E’ acts as the copula linking subject and predicate."
+    },
+    {
+      "question": "Which of the following best represents the correct subject-pronoun pair for \"You (plural)\" in Dholuo?",
+      "options": [
+        "In — used with \"e\"",
+        "Un — used with \"n\"",
+        "Gin — used with \"e\"",
+        "U — used with \"e\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Un’ is the 2nd person plural subject and pairs with the copula ‘n’ (e.g., Un n japuonj — You are teachers)."
+    },
+    {
+      "question": "Why is “Wan Jo Luo” grammatically accurate in Dholuo?",
+      "options": [
+        "“Jo Luo” is a verb phrase.",
+        "“Wan” takes the plural copula “n”.",
+        "“Wan” always uses “e” as the verb.",
+        "It uses an infinitive ending in \"-yo\"."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Wan’ (we) uses ‘n’ in present tense linking verbs (e.g., Wan n Jo Luo — We are Luo people)."
+    },
+    {
+      "question": "Which of the following is not a correct feature of the Dholuo verb \"to be\"?",
+      "options": [
+        "It varies by subject pronoun.",
+        "It always ends in \"n\" in the present tense.",
+        "It conforms to the \"-o\" infinitive ending.",
+        "It expresses identity and profession."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unlike most infinitives, the verb 'to be' does not conform to the '-o' ending pattern."
+    },
+    {
+      "question": "Identify the sentence that correctly demonstrates the use of the third person singular subject with the verb “to be”.",
+      "options": [
+        "En e japuonj",
+        "En jo Kenya",
+        "Gin e japuonj",
+        "En Jo Luo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘En e japuonj’ means ‘He/She is a teacher,’ showing correct use of third person singular."
+    },
+    {
+      "question": "Which of the following pairings is correctly matched with its grammatical role?",
+      "options": [
+        "Wa – 2nd person singular",
+        "Gi – 3rd person plural",
+        "A – 3rd person singular",
+        "I – 1st person singular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Gi’ is the correct subject pronoun for 3rd person plural (they)."
+    },
+    {
+      "question": "Based on Dholuo grammar, which option best explains the use of “N” in identity statements?",
+      "options": [
+        "It is an adjective",
+        "It indicates a future event",
+        "It acts as the copula for linking subject to identity",
+        "It marks plural objects"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘N’ is used to link the subject and identity/predicate (e.g., Wan n japuonj — We are teachers)."
+    }
+  ]
+}

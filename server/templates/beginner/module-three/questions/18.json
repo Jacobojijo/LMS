@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the function of “nene” in the construction nene osebedo?",
+      "options": [
+        "To mark habitual aspect",
+        "To indicate subjunctive mood",
+        "To anchor the construction in the past",
+        "To mark future irrealis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nene” unequivocally anchors the construction in the past."
+    },
+    {
+      "question": "Which of the following is the correct past perfect form for “we had been”?",
+      "options": [
+        "Nene wasebedo",
+        "Nene gisebedo",
+        "Nene wasebedo ka",
+        "Nene osebedo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Wa-” is the correct subject prefix for “we” combined with -se- and “bedo”."
+    },
+    {
+      "question": "In the sentence Nene osebedo ka koth chue, what grammatical role does “ka koth chue” play?",
+      "options": [
+        "Future conditional clause",
+        "Nominal subject complement",
+        "Temporal adverbial clause",
+        "Progressive verb phrase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Ka koth chue” (‘when it rained’) provides the temporal reference for the prior action."
+    },
+    {
+      "question": "What distinguishes nene osebedo from osebedo?",
+      "options": [
+        "The first is passive voice, the second is active",
+        "The first implies a future action, the second a past one",
+        "The first is past perfect, the second is present perfect",
+        "They are identical in tense and usage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nene” shifts the construction from present perfect to past perfect."
+    },
+    {
+      "question": "Which of the following is NOT a correct component of the past perfect construction?",
+      "options": [
+        "“nene”",
+        "subject prefix",
+        "“-ga-”",
+        "“bedo”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“-ga-” is a habitual marker and not used in past perfect constructions."
+    },
+    {
+      "question": "Why must learners avoid conjugating the verb “bedo” directly?",
+      "options": [
+        "It is an irregular verb with unpredictable forms",
+        "It only appears in negative constructions",
+        "It is a participle and does not change form",
+        "It is no longer used in modern Dholuo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Bedo” is a non-finite participle and remains grammatically fixed."
+    },
+    {
+      "question": "Which of the following conveys the idea: “They had been visiting one another”?",
+      "options": [
+        "Nene gisebedo ka gilimore",
+        "Nene osebedo ka gilimore",
+        "Nene isebedo ka gilimore",
+        "Nene wasebedo ka gilimore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Gi-” is the subject prefix for “they”; the rest follows the correct structure."
+    },
+    {
+      "question": "What aspectual meaning does the auxiliary “-se-” introduce into the construction?",
+      "options": [
+        "Habitual repetition",
+        "Progressive continuity",
+        "Imperative urgency",
+        "Perfective completion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“-se-” functions similarly to “have” and denotes perfective (completed) aspect."
+    },
+    {
+      "question": "Which element of the construction is responsible for subject agreement?",
+      "options": [
+        "“bedo”",
+        "“-se-”",
+        "Subject prefix",
+        "“ka”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Subject agreement is realized through the concord prefix (e.g., a-, o-, gi-)."
+    },
+    {
+      "question": "Which of the following would be the most pedagogically sound classroom exercise for teaching this tense?",
+      "options": [
+        "Asking students to inflect “bedo” in all subject forms",
+        "Having students replace “nene” with “ose” in examples",
+        "Practicing with subordinate clauses using “ka + verb”",
+        "Comparing “bedo” with irregular English past participles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Practicing with subordinate clauses enhances understanding of temporal backgrounding."
+    }
+  ]
+}
