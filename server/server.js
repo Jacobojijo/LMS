@@ -41,6 +41,9 @@ if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
 
+// Enable CORS
+app.use(cors());
+
 // Security middleware
 // Set security headers
 app.use(helmet());
@@ -62,9 +65,6 @@ app.use(hpp());
 
 // Sanitize data
 app.use(mongoSanitize());
-
-// Enable CORS
-app.use(cors());
 
 // Initialize Passport
 app.use(passport.initialize());
