@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which auxiliary is used to mark the past tense in Dholuo indicative mood?",
+      "options": [
+        "Abiro",
+        "Biro",
+        "Nene",
+        "Ok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nene’ is used to indicate past tense in Dholuo's indicative mood."
+    },
+    {
+      "question": "How is the future tense expressed in the Dholuo indicative mood?",
+      "options": [
+        "Using the verb root only",
+        "Adding the suffix -yo",
+        "Using the auxiliary “abiro” + verb stem",
+        "Prefixing “nene” before the verb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The future tense is formed by combining the auxiliary ‘abiro’ with the verb stem."
+    },
+    {
+      "question": "Which sentence correctly demonstrates the present tense in Dholuo indicative?",
+      "options": [
+        "Nene ang’ado",
+        "Ang’ado",
+        "Abiro ng’ado",
+        "Ok ang’ado"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ang’ado’ is present tense; it uses the subject prefix and verb stem without auxiliary."
+    },
+    {
+      "question": "What is the consistent feature of the present tense verb forms in Dholuo?",
+      "options": [
+        "They always start with “nene”",
+        "They begin with “a-” representing 1st person singular",
+        "They have the suffix “-o”",
+        "They require “abiro” before the verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Present tense verbs in first person typically begin with the prefix ‘a-’ (e.g., ‘ang’ado’)."
+    },
+    {
+      "question": "Given the verb root “ndiko” (to write), which is the correct past tense form?",
+      "options": [
+        "Abiro ndiko",
+        "Ndiko",
+        "Nene andiko",
+        "Ok andiko"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Past tense is marked by ‘nene’, so the correct form is ‘Nene andiko’."
+    },
+    {
+      "question": "Which of the following best captures the conceptual meaning behind the use of “abiro” in future tense?",
+      "options": [
+        "It indicates certainty of the action",
+        "It denotes a completed action",
+        "It reflects movement toward the action, showing time as approaching",
+        "It implies habitual action"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Abiro’ suggests movement toward an action — marking the future."
+    },
+    {
+      "question": "Identify the correct set of past, present, and future forms for the verb “to buy” in Dholuo:",
+      "options": [
+        "Nene awang’o → Awang’o → Abiro wang’o",
+        "Nene ang’iewo → Ang’iewo → Abiro ng’iewo",
+        "Nene achako → Achako → Abiro chako",
+        "Nene akelo → Akelo → Abiro kelo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct tense progression for ‘to buy’ is: Nene ang’iewo (past), Ang’iewo (present), Abiro ng’iewo (future)."
+    },
+    {
+      "question": "Which auxiliary is not used in the indicative mood tenses in Dholuo?",
+      "options": [
+        "Nene",
+        "Abiro",
+        "Nyalo",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nyalo’ expresses ability, not tense — it's used for potential mood, not indicative."
+    },
+    {
+      "question": "The verb “to sleep” in Dholuo is nindo. Which is the correct future tense form?",
+      "options": [
+        "Nene anindo",
+        "Anindo",
+        "Abiro nindo",
+        "Ok anindo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Abiro nindo’ is the future tense form meaning ‘I will sleep’."
+    },
+    {
+      "question": "The indicative mood in Dholuo is primarily used for:",
+      "options": [
+        "Expressing commands and requests",
+        "Expressing factual, real events in past, present, and future",
+        "Hypothetical and counterfactual scenarios",
+        "Expressing polite suggestions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The indicative mood is used to state factual information or real events across tenses."
+    }
+  ]
+}

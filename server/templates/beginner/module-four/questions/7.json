@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Adhi e chiro gi Maria”, what is the function of \"gi Maria\"?",
+      "options": [
+        "Coordinating subject with Maria",
+        "Stating Maria’s destination",
+        "Indicating Maria’s companionship in the action",
+        "Denoting Maria’s possession of the market"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘gi Maria’ shows that Maria is accompanying the speaker in going to the market."
+    },
+    {
+      "question": "Which preposition in Dholuo introduces a topic of discourse?",
+      "options": [
+        "gi",
+        "ni",
+        "e",
+        "kuom"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Kuom’ means ‘about’ or ‘concerning’, marking a topic of discussion."
+    },
+    {
+      "question": "What distinguishes the complement of company from simple coordination in Dholuo?",
+      "options": [
+        "It uses \"ni\" instead of \"gi\"",
+        "It marks participation in action, not equal grammatical subjecthood",
+        "It always comes after a speech verb",
+        "It implies opposition between individuals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A complement of company means someone is accompanying the main subject, not acting independently as a subject."
+    },
+    {
+      "question": "Choose the sentence that exemplifies the complement of argument:",
+      "options": [
+        "Odipo dhi e tich gi Olum",
+        "Olum dhi e skul gi Anyango",
+        "Ker nene owuoyo kuom dongruok",
+        "Adhi e chiro gi Maria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kuom dongruok’ = ‘about unity’, so this shows a topic complement — an argument topic."
+    },
+    {
+      "question": "The preposition “kuom” can be semantically interpreted as all of the following except:",
+      "options": [
+        "About",
+        "With",
+        "Concerning",
+        "On"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kuom’ does not mean ‘with’ (companionship); that’s what ‘gi’ is for."
+    },
+    {
+      "question": "Which of the following would be grammatically correct to express companionship in an action?",
+      "options": [
+        "Wadhi gi e chiro Maria",
+        "Adhi e chiro kuom Maria",
+        "Odipo dhi e tich gi Olum",
+        "Ker owuoyo gi dongruok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Odipo dhi e tich gi Olum’ means ‘Odipo goes to work with Olum’, correctly using ‘gi’ for companionship."
+    },
+    {
+      "question": "What is the syntactic role of \"kuom tiegruok\" in “Nene wawuoyo kuom tiegruok”?",
+      "options": [
+        "Locative adjunct",
+        "Direct object",
+        "Complement of argument",
+        "Complement of company"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kuom tiegruok’ means ‘about peace’, marking the topic or argument complement."
+    },
+    {
+      "question": "In Dholuo, the complement of company is most frequently used in contexts involving:",
+      "options": [
+        "Thought or memory",
+        "Ownership and possession",
+        "Movement or action",
+        "Formal or legal argumentation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The complement of company (‘gi’) appears often with verbs of movement/action, like ‘go’ or ‘work’."
+    },
+    {
+      "question": "Which option best captures the functional contrast between “gi” and “kuom”?",
+      "options": [
+        "gi = “of”; kuom = “with”",
+        "gi = locative; kuom = temporal",
+        "gi = companion in action; kuom = topic of discourse",
+        "gi = causal; kuom = coordinating"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gi’ marks companionship in action, ‘kuom’ marks a topic or argument."
+    },
+    {
+      "question": "How would one best describe the linguistic function of “gi” in “Olum dhi e skul gi Anyango”?",
+      "options": [
+        "It equates Olum and Anyango as subjects",
+        "It marks Anyango as Olum’s companion in action",
+        "It introduces a secondary argument topic",
+        "It indicates spatial proximity only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘gi Anyango’ shows that Anyango accompanies Olum in going to school."
+    }
+  ]
+}

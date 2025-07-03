@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What core message is conveyed by the Luo proverb “Jarikini jamuod nyoyo gi kuoyo”?",
+      "options": [
+        "One should always ask for guidance",
+        "Patience is more fruitful than haste",
+        "Cooperation is better than working alone",
+        "Do not sleep while others are working"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This proverb teaches that patience (walking with a walking stick) is more fruitful than haste (running with shoes)."
+    },
+    {
+      "question": "The proverb “Chako to ok e tieko” serves as a cultural reminder to:",
+      "options": [
+        "Never leave a place once you begin",
+        "Focus more on initiating tasks",
+        "Remain committed until the end",
+        "Ask for help during transitions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It means starting is not the same as finishing — so stay committed."
+    },
+    {
+      "question": "The idiom “Cham Nyanji” metaphorically advises individuals to:",
+      "options": [
+        "Embrace public speaking",
+        "Swallow pride and remain humble",
+        "Compete with dignity",
+        "Apologize in public"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Cham Nyanji’ literally means ‘Eat greens’ — meaning humble yourself and accept a modest life."
+    },
+    {
+      "question": "According to Luo proverbial thought, “Ajuoga ok thiedhore owuon” most directly conveys the idea that:",
+      "options": [
+        "A healer must heal themselves first",
+        "One must rely on mystical powers",
+        "No one is entirely self-sufficient",
+        "Sorcery is ineffective without belief"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A witchdoctor cannot fully treat themselves — we all need others."
+    },
+    {
+      "question": "What cultural caution does “Acham ayieng nonego suna” imply?",
+      "options": [
+        "Laughter can kill",
+        "Overindulgence can have deadly outcomes",
+        "Anger harms relationships",
+        "Illness follows pride"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It means eating too many termites can kill a lizard — excess has consequences."
+    },
+    {
+      "question": "The idiom “Piny Obaya gi Bad Ogwal” functions as a humorous metaphor for:",
+      "options": [
+        "Complete failure or defeat",
+        "A noisy community",
+        "Winning against all odds",
+        "Cowardice and retreat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Literally: ‘The world is covered by a frog’s butt.’ It means total loss or collapse."
+    },
+    {
+      "question": "In “Thuondi ariyo ok tedi e agulu achiel”, the “one pot” symbolizes:",
+      "options": [
+        "An actual cooking pot",
+        "Family unity",
+        "Limited space for conflicting powers",
+        "Generational inheritance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It teaches that two powerful people cannot share the same space peacefully."
+    },
+    {
+      "question": "The idiom “Makna Guok” figuratively means:",
+      "options": [
+        "Chase the dog",
+        "Accompany someone as a show of support",
+        "Accuse someone publicly",
+        "Act without permission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It means follow someone closely like a dog — offering support or allegiance."
+    },
+    {
+      "question": "“Alot michayo ematero kuon” and “Alot maichayo e matieko kuon” are both designed to:",
+      "options": [
+        "Mock one's enemies",
+        "Challenge dismissive attitudes toward undervalued things",
+        "Encourage culinary excellence",
+        "Reflect on power dynamics in family"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Even a dirty spoon stirs the ugali — never underestimate something small or dismissed."
+    },
+    {
+      "question": "What does “Kar chuny jatuo” communicate about empathy and human relationships?",
+      "options": [
+        "Do not help sick people",
+        "The needs of the suffering should be honored",
+        "Only doctors know what’s best",
+        "Pain is universal, help yourself first"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It means the seat of the sick belongs to them — respect the space of those in need."
+    }
+  ]
+}

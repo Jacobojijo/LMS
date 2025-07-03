@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What key morphological change transforms “gipuonjo” (they teach) into its correct subjunctive form?",
+      "options": [
+        "Dropping the “pu”",
+        "Doubling the “jo”",
+        "Replacing “-jo” with “-ji”",
+        "Adding the prefix “nyalo-”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the subjunctive, ‘gipuonjo’ becomes ‘gipuonji’ by replacing ‘-jo’ with ‘-ji’."
+    },
+    {
+      "question": "Which of the following best expresses a purpose clause using the subjunctive?",
+      "options": [
+        "Ginyalo wuok chieng’",
+        "Koth nyalo chue",
+        "Miya pi amodhi — Give me water that I may drink",
+        "Awinjore mondo ichiemo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Miya pi amodhi’ uses the subjunctive ‘amodhi’ to express intended action (purpose clause)."
+    },
+    {
+      "question": "Which verb transformation does NOT follow the regular subjunctive rule of dropping “-o”?",
+      "options": [
+        "Chiemo → Chiem",
+        "Aluok → Aluok",
+        "Tedo → Ted",
+        "Lemo → Lem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Aluok’ stays the same and doesn't follow the regular subjunctive drop rule — it is irregular."
+    },
+    {
+      "question": "What is the subjunctive of “Ochiemo” (He eats)?",
+      "options": [
+        "Ochiemo",
+        "Ochiem",
+        "Ochiemni",
+        "Ochiedho"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The subjunctive drops the final “-o”, making it ‘Ochiem’."
+    },
+    {
+      "question": "Which Dholuo sentence correctly illustrates the “A-n-A” imperative future pattern?",
+      "options": [
+        "Aparo ni agombo dhi",
+        "Ana dhi! — I shall go!",
+        "Adwaro mondo adhi",
+        "Nyalo dhi chieng’"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ana dhi!’ shows the ‘A-n-A’ pattern where the subject and verb are reduplicated with a future intent."
+    },
+    {
+      "question": "Which of the following is the most appropriate subjunctive usage for exhortation or urging?",
+      "options": [
+        "Ok abi chiemo kiny",
+        "Inindo matin ka",
+        "Wanyalo wuok chieng’",
+        "Wachiem! — Let’s eat!"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Wachiem!’ is a classic subjunctive expression of collective urging or encouragement."
+    },
+    {
+      "question": "Identify the sentence that contains a polite supposition using the potential prefix “d-”.",
+      "options": [
+        "Awinjore idhi",
+        "Dakonyi puro koso? — Could I possibly help you dig?",
+        "Kik ibi",
+        "Miya pi amodhi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Dakonyi...’ uses the potential mood prefix ‘d-’ to express politeness or mild supposition."
+    },
+    {
+      "question": "Which subjunctive transformation is used when the verb ends in -nyo?",
+      "options": [
+        "Drop “nyo” entirely and add “i”",
+        "Add “nyali”",
+        "Drop “y” and add the pronoun suffix",
+        "Keep unchanged; tone distinguishes mood"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For verbs ending in ‘-nyo’, the ‘y’ is dropped and a subjunctive suffix is added depending on person."
+    },
+    {
+      "question": "What is the subjunctive of the irregular verb “Biro” (he/she comes)?",
+      "options": [
+        "Biri",
+        "Biya",
+        "Bi",
+        "Bino"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The subjunctive form of ‘Biro’ is ‘Bi’, following irregular verb simplification rules."
+    },
+    {
+      "question": "In the sentence “Ruoth ka iyie to kel koth!”, which mood is being expressed and why?",
+      "options": [
+        "Indicative, because it reports a fact",
+        "Subjunctive, as it expresses divine pleading",
+        "Imperative, as it gives a command",
+        "Negative subjunctive, due to uncertainty"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a subjunctive construction, invoking divine action upon the condition of belief."
+    }
+  ]
+}

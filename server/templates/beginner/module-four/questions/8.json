@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Watiyo ni pesa”, what is the grammatical function of “ni pesa”?",
+      "options": [
+        "Complement of locality",
+        "Complement of aim",
+        "Complement of cause",
+        "Adverbial phrase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘ni pesa’ marks the aim or purpose — working for money."
+    },
+    {
+      "question": "Which sentence expresses a cause using a correct Dholuo causal marker?",
+      "options": [
+        "Wadak Kenya",
+        "Watiyo ni adieri",
+        "Odipo ringo nikech olewo",
+        "Ataro ni Kisumo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘nikech’ means ‘because’, marking the cause."
+    },
+    {
+      "question": "Identify the marker that introduces purpose in a Dholuo sentence:",
+      "options": [
+        "nikech",
+        "ni",
+        "nimar",
+        "tie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘ni’ introduces the aim or purpose in complements of aim."
+    },
+    {
+      "question": "What distinguishes “ni” in “Nam ni Kisumo” from its use in “Watiyo ni pesa”?",
+      "options": [
+        "It marks aim in both cases",
+        "It is optional in both",
+        "One marks locality, the other marks aim",
+        "It only functions with abstract nouns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In ‘Nam ni Kisumo’, ‘ni’ marks the destination/locality. In ‘Watiyo ni pesa’, it marks aim."
+    },
+    {
+      "question": "Which of the following sentences correctly shows a complement of locality?",
+      "options": [
+        "Adhi neno jathieth nikuop atuo",
+        "Odipo ringo nimar olewo",
+        "Adak Siaya",
+        "Nene oneggi ni adieri"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Adak Siaya’ = ‘I live in Siaya’, showing locality."
+    },
+    {
+      "question": "Choose the sentence that reflects an ideological aim:",
+      "options": [
+        "Odak Kisumu",
+        "Nene oneggi ni adieri",
+        "Adhi neno jathieth",
+        "Olum ok obiro e skul nimar otuo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nene oneggi ni adieri’ = ‘They left him for truth/justice’ — an aim or ideological purpose."
+    },
+    {
+      "question": "Which complement answers the question \"Why did it happen?\" in Dholuo grammar?",
+      "options": [
+        "Complement of aim",
+        "Complement of cause",
+        "Complement of locality",
+        "Complement of tense"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The complement of cause (‘nikech’, ‘nimar’) explains ‘why’."
+    },
+    {
+      "question": "Which of the following best characterizes Dholuo complement of locality?",
+      "options": [
+        "Always preceded by “ni”",
+        "Places follow verb directly without preposition",
+        "Introduced by \"nikech\"",
+        "Can only refer to abstract space"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Places usually follow the verb directly: ‘Adak Siaya’."
+    },
+    {
+      "question": "What is the correct interrogative form for asking where someone lives in Dholuo?",
+      "options": [
+        "Un Kisumo?",
+        "Idak kanye?",
+        "Watiyo kanye?",
+        "Odipo ringo kanye?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Idak kanye?’ = ‘Where do you live?’"
+    },
+    {
+      "question": "Which of the following would be a valid response to the question “Untie Nairobi?”",
+      "options": [
+        "Ooyo, ok wantie",
+        "Ee, wantie Nairobi",
+        "Untie ni Nairobi",
+        "Nikech wantie Nairobi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ee, wantie Nairobi’ = ‘Yes, we are in Nairobi.’"
+    }
+  ]
+}

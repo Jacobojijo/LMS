@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What grammatical role does “ni” perform in the sentence “Odipo pimo adiera ni jong’ad bura”?",
+      "options": [
+        "It indicates subject-verb agreement",
+        "It introduces the terminal complement (receiver of the action)",
+        "It marks tense and aspect",
+        "It connects two independent clauses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ni’ introduces the terminal complement, indicating who receives the result of the action."
+    },
+    {
+      "question": "In the sentence “Olum chiwo barua ni wuon-go”, which element represents the terminal complement, and why?",
+      "options": [
+        "barua — because it's an indirect object",
+        "Olum — because he initiates the offering",
+        "wuon-go — because it receives the offered item via “ni”",
+        "chiwo — because it’s a verb that doesn't require “ni”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘wuon-go’ is the terminal complement, receiving ‘barua’ through ‘ni’."
+    },
+    {
+      "question": "Which of the following verbs does NOT require “ni” to introduce a recipient?",
+      "options": [
+        "Chiwo",
+        "Pimo",
+        "Miyo",
+        "Wuoyo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Miyo’ inherently encodes giving and does not require ‘ni’ for the recipient."
+    },
+    {
+      "question": "What distinguishes “chiwo” from “miyo” in terms of terminality encoding?",
+      "options": [
+        "Miyo lacks semantic transfer; chiwo implies dual action",
+        "Both always require “ni” before any object",
+        "Chiwo needs “ni” to show destination; miyo encodes terminality inherently",
+        "Chiwo implies reception; miyo only expresses giving to objects"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Chiwo’ often needs ‘ni’ to mark the destination/recipient explicitly, while ‘miyo’ does not."
+    },
+    {
+      "question": "Which of the following is a correct structural formula for a sentence involving a terminal complement introduced by \"ni\"?",
+      "options": [
+        "Subject + Verb + Indirect Object + Preposition",
+        "Subject + Verb + Object + “ni” + Terminal Complement",
+        "Subject + “ni” + Verb + Terminal Complement",
+        "Verb + Subject + Terminal Complement + Object"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pattern is: Subject + Verb + Direct Object + ‘ni’ + Terminal Complement."
+    },
+    {
+      "question": "In the phrase “Ler mar chieng’”, what semantic relationship does “mar” establish?",
+      "options": [
+        "It denotes the grammatical subject",
+        "It marks possession or source attribution",
+        "It introduces a prepositional phrase",
+        "It modifies the verb tense"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mar’ shows possession or source — ‘light of the sun/day’. "
+    },
+    {
+      "question": "Which of the following Dholuo phrases uses “mar” to express a natural origin?",
+      "options": [
+        "Amiyo nyaminwa njugu",
+        "Apaka mar nam",
+        "Odipo chiwo barua ni wuon-go",
+        "Nyathi biro mar nam"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Apaka mar nam’ means ‘fish from the lake’, showing natural origin."
+    },
+    {
+      "question": "Why is the phrase “Ndalo mag pasaka” different from “Teko mar liech” in terms of structure?",
+      "options": [
+        "The first uses a verb instead of a noun",
+        "The first uses “mag” (plural), while the second uses “mar” (singular)",
+        "The second includes a preposition",
+        "The first omits a necessary terminal marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mag’ is the plural possessive marker for ‘days of Easter’, while ‘mar’ is singular for ‘strength of an animal’."
+    },
+    {
+      "question": "What is the grammatical function of “mar” in the phrase “Agwecho mar punda”?",
+      "options": [
+        "To mark the object of a verb",
+        "To express possession or inherent trait",
+        "To connect two clauses",
+        "To show temporal placement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mar’ indicates possession or an inherent trait — ‘tail of a donkey’."
+    },
+    {
+      "question": "Which of the following most accurately explains the difference between “mar” and “mag”?",
+      "options": [
+        "“Mar” marks tense; “mag” marks plural pronouns",
+        "“Mar” is singular possessive; “mag” is plural possessive",
+        "“Mar” introduces terminal complements; “mag” introduces adverbial clauses",
+        "“Mag” is optional, while “mar” is obligatory in all cases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mar’ expresses singular possessive, while ‘mag’ is the plural equivalent."
+    }
+  ]
+}

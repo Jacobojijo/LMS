@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Otieno nomiyo Onyango mich”, which component serves as the compound object?",
+      "options": [
+        "Otieno",
+        "Onyango mich",
+        "nomiyo",
+        "Onyango"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Onyango mich’ is the compound object receiving the action from the verb."
+    },
+    {
+      "question": "Which of the following best exemplifies tense and aspect integration within the SVO structure?",
+      "options": [
+        "Be osomo buk Onyango",
+        "Biro Otieno buk",
+        "Gi somo buk",
+        "Ne mich Otieno"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gi somo buk’ shows tense/aspect through ‘gi’ (they) + verb ‘somo’ (read) + object ‘buk’ (book)."
+    },
+    {
+      "question": "According to the provided syntactic model, what is the primary grammatical function of the word “nobedo” in “Nyambura nobedo e wi kom”?",
+      "options": [
+        "Adverb modifying the subject",
+        "Subject referencing habitual aspect",
+        "Verb representing past action",
+        "Object indicating place"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nobedo’ is the verb indicating past tense (‘was’ or ‘stayed’)."
+    },
+    {
+      "question": "What makes the structure “Be ne osomo buk?” syntactically significant in Dholuo?",
+      "options": [
+        "It demonstrates reduplication in the object",
+        "It features subject-auxiliary inversion for interrogative clarity",
+        "It omits the verb to show progressive aspect",
+        "It eliminates the need for objects in yes/no questions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The auxiliary precedes the subject for a question: subject-auxiliary inversion."
+    },
+    {
+      "question": "Which of the following violates the canonical Dholuo SVO word order?",
+      "options": [
+        "Ne osomo buk",
+        "Otieno nomiyo mich Onyango",
+        "Buk osomo Ne",
+        "Nyambura nobedo e wi kom"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Buk osomo Ne’ incorrectly puts the object before the verb, violating SVO order."
+    },
+    {
+      "question": "In Dholuo syntax, which auxiliary would most likely be used to form the perfect aspect in the sentence “They have read a book”?",
+      "options": [
+        "bi",
+        "be",
+        "gi",
+        "tim"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gi’ (‘they’) is used with verbs to indicate subject + perfect aspect in some constructions."
+    },
+    {
+      "question": "Which pedagogical activity best helps learners understand sentence expansion while maintaining SVO order?",
+      "options": [
+        "Verb root isolation",
+        "Clause expansion with adverbs and time phrases",
+        "Tone pattern memorization",
+        "Object deletion drills"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expanding sentences with adverbs and time phrases teaches structure while preserving SVO."
+    },
+    {
+      "question": "In the example “Ne en biro”, what function does “en” serve?",
+      "options": [
+        "Main verb showing movement",
+        "Auxiliary verb showing progressive aspect",
+        "Object indicating direction",
+        "Interrogative marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘En’ acts as an auxiliary indicating ongoing or future action (‘will/shall come’)."
+    },
+    {
+      "question": "What makes the Dholuo SVO structure both rigid and adaptable, according to linguistic observations?",
+      "options": [
+        "It varies based on word class",
+        "It allows optional modifiers without altering core order",
+        "It can invert subject and object freely",
+        "It permits verbs to occur at sentence-final position"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modifiers like adverbs can be added without changing the fundamental SVO pattern."
+    },
+    {
+      "question": "Which of the following best captures the benefit of SVO consistency in Dholuo as stated in the linguistic implications?",
+      "options": [
+        "It promotes idiomatic expressiveness",
+        "It enhances thematic clarity and translation accuracy",
+        "It replaces the need for auxiliary verbs",
+        "It reduces the importance of verb tense markers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A consistent SVO structure supports clarity and makes translation more straightforward."
+    }
+  ]
+}

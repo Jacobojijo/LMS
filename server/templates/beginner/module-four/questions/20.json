@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In a standard Dholuo conditional construction, what tense is used in the consequence clause?",
+      "options": [
+        "Present tense",
+        "Subjunctive tense",
+        "Future tense (BIRO form)",
+        "Past continuous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The consequence clause in a Dholuo conditional typically uses the future tense (e.g., with 'biro')."
+    },
+    {
+      "question": "What is the correct Dholuo equivalent of the sentence: \"If he sings, we will dance\"?",
+      "options": [
+        "Ka owero, to wabiro chiemo",
+        "Ka ower, to wabiro miel",
+        "Ka oting'o, to wabiro ng'eyo",
+        "Ka oyie, to wabiro wuok"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ka ower, to wabiro miel’ correctly shows a present condition with a future consequence."
+    },
+    {
+      "question": "Identify the correct structure for a negative conditional sentence in Dholuo:",
+      "options": [
+        "Ka ok + verb (present), (to) + verb (future)",
+        "Ka + verb (present), to ok + verb (future)",
+        "Ka ok + verb (present), to ok + verb (future)",
+        "Ok ka + verb (present), to + verb (future)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In negative conditional statements, both clauses are negated: ‘Ka ok... to ok...’"
+    },
+    {
+      "question": "Which construction below demonstrates a remote past conditional expressing regret?",
+      "options": [
+        "Ka ibiro, to wabiro chiemo",
+        "Ka itedo, to wabiro nindo",
+        "Ka nene bedi ni aseng’eye, to nene di ok ageno kuome",
+        "Ka ok inindo, to ok abiro wachoni"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a composed conditional perfect, showing regret or unrealized past action."
+    },
+    {
+      "question": "What is the primary grammatical function of the word \"TO\" in the conditional mood?",
+      "options": [
+        "Denotes negation of the antecedent",
+        "Marks subjunctive tone in commands",
+        "Indicates habitual aspect of consequence",
+        "Emphasizes the consequence clause (\"then\")"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘To’ is used to introduce or emphasize the result (consequence) of the ‘ka’ clause."
+    },
+    {
+      "question": "Which of the following is a valid composed past conditional in Dholuo?",
+      "options": [
+        "Ka nene bedi ni owang’o chiemo, to nene ok oyie",
+        "Ka nene bedi ni ang’eyo ni koth biro chwe, to nene di ating’o mabul",
+        "Ka oyie, to abiro wuok",
+        "Ka ok ochulo, to ok abiro luwo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This sentence properly uses conditional past form with ‘nene di’ expressing a hypothetical past."
+    },
+    {
+      "question": "How is a future conditional typically expressed in Dholuo?",
+      "options": [
+        "Using “ka” in both clauses",
+        "With “ok” before both verbs",
+        "With subjunctive markers",
+        "Using “obiro” in both antecedent and consequence"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Future conditionals use forms like ‘obiro’ or ‘biro’ to signal upcoming consequence."
+    },
+    {
+      "question": "What is the most accurate explanation of “nene di” in conditional constructions?",
+      "options": [
+        "A prefix indicating ability",
+        "A negative potential future",
+        "A marker introducing a conditional perfect (“would have…”)",
+        "A reduplicated present participle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nene di’ is used to form conditional perfect, often translated as ‘would have’ in English."
+    },
+    {
+      "question": "Which of the following best fits the structure: Ka + Present, TO + Future (BIRO)?",
+      "options": [
+        "Ka oseng’eyo, to nene di wuok",
+        "Ka oyanya, to abirogoye",
+        "Ka ok inindo, to ok ibiro chiemo",
+        "Ka obiro yie, to nene di wuok"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ka oyanya, to abirogoye’ matches the present condition and future result format."
+    },
+    {
+      "question": "What linguistic purpose does “KA…TO…” serve in Dholuo communication?",
+      "options": [
+        "Constructing repetitive action clauses",
+        "Bridging conditional logic and dependency in discourse",
+        "Expressing sarcasm and idioms",
+        "Marking definiteness of noun subjects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ka…to…’ links conditional logic — ‘if… then…’ — expressing dependent clauses in reasoning."
+    }
+  ]
+}

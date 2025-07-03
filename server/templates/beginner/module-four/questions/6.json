@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the phrase “Ng’ango mar bao”, what semantic role does \"mar\" fulfill?",
+      "options": [
+        "Denotes temporal relation",
+        "Marks the purpose of the bed",
+        "Links the bed to its material composition",
+        "Indicates ownership"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mar’ links ‘Ng’ango’ (thing/object) to its material ‘bao’ (wood), showing composition."
+    },
+    {
+      "question": "Which of the following correctly represents a complement of purpose?",
+      "options": [
+        "Tigo mar mula",
+        "Sa mar dhahabu",
+        "Pesa mar chiemo",
+        "Ng’ango mar bao"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Pesa mar chiemo’ means ‘money for food’, marking purpose."
+    },
+    {
+      "question": "The construction “Law mar tich” is best interpreted as:",
+      "options": [
+        "Clothes made from tich",
+        "Clothes owned by tich",
+        "Clothes intended for work",
+        "Clothes sold by tich"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Law mar tich’ means ‘work clothes’ — clothes for the purpose of work."
+    },
+    {
+      "question": "The word “mar” in both material and purpose complements functions primarily as:",
+      "options": [
+        "A verb indicating action",
+        "A temporal marker",
+        "A genitive linker expressing composition or function",
+        "An interrogative particle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mar’ links the noun to material or purpose, acting as a genitive connector."
+    },
+    {
+      "question": "If a “tawo” is described as “tawo mar lowo”, what cultural implication is conveyed?",
+      "options": [
+        "The pot is expensive and ornamental",
+        "The pot is broken or unusable",
+        "The pot reflects traditional craftsmanship and material heritage",
+        "The pot is used exclusively for ceremonial purposes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Tawo mar lowo’ implies the pot is made from clay/earth, showing cultural craft value."
+    },
+    {
+      "question": "Which phrase best exemplifies the use of “mar” as a complement of material?",
+      "options": [
+        "Pi mar modho",
+        "Sa mar dhahabu",
+        "Pesa mar chiemo",
+        "Law mar tich"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Sa mar dhahabu’ means ‘golden watch’, using ‘mar’ for material composition."
+    },
+    {
+      "question": "The phrase “Kwer mar pur” links “kwer” with “pur” to indicate:",
+      "options": [
+        "The tool’s ownership by pur",
+        "The location where the hoe was found",
+        "The hoe’s intended agricultural purpose",
+        "The hoe’s material composition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kwer mar pur’ means ‘hoe for farming’ — purpose complement."
+    },
+    {
+      "question": "How does the complement of purpose differ semantically from the complement of material?",
+      "options": [
+        "Material indicates possession; purpose indicates size",
+        "Material indicates composition; purpose indicates intended use",
+        "Material indicates ownership; purpose indicates temporal sequence",
+        "Material indicates location; purpose indicates quality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Material = what it’s made of; Purpose = what it’s used for."
+    },
+    {
+      "question": "The phrase “Tigo mar mula” carries what implied meaning beyond literal composition?",
+      "options": [
+        "The chain is fragile and easily broken",
+        "The chain is made of cheap material",
+        "The chain suggests elegance or value through precious metal",
+        "The chain is used for cooking"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Mula’ (silver) implies elegance or value in Dholuo cultural sense."
+    },
+    {
+      "question": "If you wanted to describe a water container used for drinking, which phrase would be grammatically and semantically correct in Dholuo?",
+      "options": [
+        "Pi mar pur",
+        "Pi mar dhahabu",
+        "Pi mar modho",
+        "Pi mar bao"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Pi mar modho’ = ‘water for drinking’; shows purpose complement."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Dholuo, which interrogative structure would best inquire about the quantity of items?",
+      "options": [
+        "Kanye",
+        "Nadi",
+        "Adi",
+        "Mane"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Adi’ asks ‘How many?’ or ‘How much?’ — used for quantity."
+    },
+    {
+      "question": "Which question illustrates a proper use of subjunctive mood in expressing preference?",
+      "options": [
+        "Nyingi ng’a?",
+        "Diher chiemo mane?",
+        "Kalam ni kanye?",
+        "Bende idhi koso ok idhi?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Diher chiemo mane?’ — ‘Which food would you prefer?’ uses the subjunctive to ask preference."
+    },
+    {
+      "question": "What is the function of the preposition \"ni\" in questions like “Kalam ni kanye?”?",
+      "options": [
+        "Denotes agency of the action",
+        "Indicates spatial placement or attribution",
+        "Marks gender in origin statements",
+        "Acts as a plural marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ni’ shows location or relation — ‘Kalam ni kanye?’ → ‘Where is the pen?’"
+    },
+    {
+      "question": "Which sentence properly uses the negation particle in the subjunctive form?",
+      "options": [
+        "Ok adhi",
+        "Ooyo, ok abi biro",
+        "Idhi koso?",
+        "Ee, abi biro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ooyo, ok abi biro’ — ‘No, I will not come.’ — uses subjunctive negation with ‘ok’."
+    },
+    {
+      "question": "How does the interrogative particle “bende” function in Dholuo questions?",
+      "options": [
+        "Indicates an agent in passive voice",
+        "Frames yes/no or emphatic questions",
+        "Marks plural possessives",
+        "Negates present actions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Bende’ starts yes/no or emphatic questions like ‘Bende ibiro?’"
+    },
+    {
+      "question": "What is the correct question tag in the sentence: _“Bende ing’eye, __?”",
+      "options": [
+        "ok?",
+        "adhi?",
+        "koso?",
+        "kamano?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Koso?’ means ‘or?’ and works as a tag: ‘Do you know, or?’"
+    },
+    {
+      "question": "Which interrogative term in Dholuo is specifically used for plural object location?",
+      "options": [
+        "ere",
+        "eke",
+        "kar ang’o",
+        "mage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Eke’ is ‘where are (plural)?’"
+    },
+    {
+      "question": "In the question “Ihero kombe mage?”, what is the grammatical function of “mage”?",
+      "options": [
+        "Object marker for singular",
+        "Interrogative for plural selection (“which”)",
+        "Temporal inquiry marker",
+        "Possessive form of “mar”"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mage’ means ‘these’ — used for plural ‘which ones?’"
+    },
+    {
+      "question": "Which response correctly affirms a tag question in Dholuo?",
+      "options": [
+        "Ok",
+        "Ooyo",
+        "Kamano",
+        "Nene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kamano’ = ‘That’s right.’"
+    },
+    {
+      "question": "Identify the sentence that best illustrates a confirmatory tag in Dholuo grammar.",
+      "options": [
+        "Ma ng’a?",
+        "Nyingi ng’a?",
+        "Ing’eyo japuonj, ok kamano?",
+        "Chiemo mane madiher?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ing’eyo japuonj, ok kamano?’ — ‘You know the teacher, right?’"
+    }
+  ]
+}

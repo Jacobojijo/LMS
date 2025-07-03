@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Chiemo ni mondo ayud teko”, which of the following best describes the syntactic role of “ni mondo”?",
+      "options": [
+        "It indicates a past reason for eating",
+        "It replaces the need for a subject",
+        "It introduces a purpose clause showing future intent",
+        "It serves as an additive conjunction joining two nouns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ni mondo’ introduces a purpose clause, expressing intended or future result."
+    },
+    {
+      "question": "Which of the following best captures the semantic difference between “ni mondo” and “nikech”?",
+      "options": [
+        "Both express the same type of cause",
+        "“Nikech” is future-oriented, “ni mondo” is past-oriented",
+        "“Ni mondo” indicates future purpose; “nikech” marks present or past reasons",
+        "“Ni mondo” is a conjunction; “nikech” is a preposition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ni mondo’ shows intended purpose, while ‘nikech’ gives current or past reasoning."
+    },
+    {
+      "question": "Which pair of Dholuo conjunctions are stylistic variants offering a similar disjunctive function?",
+      "options": [
+        "Gi and kod",
+        "Nikech and nimar",
+        "Kata and koso",
+        "Nikuop and mondo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kata’ and ‘koso’ both function to express alternatives or choices."
+    },
+    {
+      "question": "Identify the sentence that correctly uses a coordinating conjunction for accompaniment.",
+      "options": [
+        "Mia ma to kata macha",
+        "Ating’o okombe kod tate",
+        "Chiemo ni mondo ayud teko",
+        "Ang’o momiyo idong’?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kod’ links two nouns, showing accompaniment (e.g., you and Tate)."
+    },
+    {
+      "question": "Which of these statements about “gi” is accurate based on the material?",
+      "options": [
+        "It introduces causal clauses",
+        "It functions exclusively with animate nouns",
+        "It links similar grammatical elements such as nouns and phrases",
+        "It is the only correct word for “with” in Dholuo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gi’ connects similar elements like noun phrases — a coordinating conjunction."
+    },
+    {
+      "question": "What is the primary syntactic value of “kanyakla” or “ka’achiel”?",
+      "options": [
+        "They express contrast or exclusion",
+        "They emphasize collectivity or joint action",
+        "They denote time-based conjunctions",
+        "They modify verbs for subjunctive mood"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They stress collective or cooperative participation in an action."
+    },
+    {
+      "question": "In the phrase: “Idwa dhi koso ihero mondo idong’?”, what is the role of “koso”?",
+      "options": [
+        "It indicates instrumentality",
+        "It introduces a consequence",
+        "It offers an alternative in a choice",
+        "It acts as a future tense marker"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Koso’ is used to present an alternative — a disjunctive conjunction."
+    },
+    {
+      "question": "When expressing a reason in Alego or Ugenya dialects of Luo, which form is most naturally used?",
+      "options": [
+        "Mondo",
+        "Kata",
+        "Nikech",
+        "Ni"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nikech’ is a common causal connector in these dialect regions."
+    },
+    {
+      "question": "Which of the following shows an incorrect logical relationship according to Dholuo conjunction principles?",
+      "options": [
+        "Asomo Dholuo nikech adwaro ng’eye",
+        "Atugo nikech alo — I play because I win",
+        "Atugo ni alo — I play to win",
+        "Atugo ni mondo alo — I play so that I may win"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using ‘nikech’ to say ‘I play because I win’ reverses logic — winning is the result, not the cause."
+    },
+    {
+      "question": "Which of the following best explains the dialect-sensitive interchangeability of causal connectors?",
+      "options": [
+        "“Gi” is preferred in Alego, “kod” in Ugenya",
+        "“Kata” is only used in written Dholuo",
+        "“Nimar”, “nikech”, and “nikuop” all mean “because” and are regionally variable",
+        "“Kanyakla” and “kata” are identical in all uses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These causal forms are all used to mean ‘because’, but their use varies by region or dialect."
+    }
+  ]
+}

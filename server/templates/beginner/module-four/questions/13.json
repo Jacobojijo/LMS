@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "A child named Omondi was most likely born:",
+      "options": [
+        "At noon",
+        "After midnight",
+        "In the early morning",
+        "During a rainstorm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Omondi’ traditionally means a boy born at dawn or early morning."
+    },
+    {
+      "question": "What naming principle is illustrated when a child is called Auma?",
+      "options": [
+        "Named after a historical ancestor",
+        "Named based on physical birth posture",
+        "Named to preserve twin order",
+        "Named due to famine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Auma’ means born breech — tied to posture during birth."
+    },
+    {
+      "question": "Which pair of names correctly reflects twin birth order in the Luo tradition?",
+      "options": [
+        "Odongo (first), Opiyo (second)",
+        "Opiyo (first), Odongo (second)",
+        "Onyango (first), Omondi (second)",
+        "Okeyo (first), Okech (second)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opiyo is the elder twin; Odongo the younger twin."
+    },
+    {
+      "question": "If a male child is named Atieno, what cultural principle is at work?",
+      "options": [
+        "Place-based naming",
+        "Phenomenon-linked naming",
+        "Time-based naming for females",
+        "Inheritance-based naming defying gender conventions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Atieno’ means ‘female born at night’ — gender is reflected in prefix ‘A-’."
+    },
+    {
+      "question": "Which of the following names would NOT be used to indicate geographic location of birth?",
+      "options": [
+        "Ooko",
+        "Oyoo",
+        "Ogot",
+        "Okoth"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Okoth’ means ‘born during rain’ — phenomenon, not place."
+    },
+    {
+      "question": "Which naming pair best represents event-based identity formation?",
+      "options": [
+        "Otieno / Atieno",
+        "Obiero / Abiero",
+        "Okeyo / Akeyo",
+        "Ogot / Agot"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Okeyo / Akeyo’ are names linked to events surrounding birth."
+    },
+    {
+      "question": "A child born under bright sunlight would traditionally be named:",
+      "options": [
+        "Ouma or Auma",
+        "Okoth or Akoth",
+        "Ochieng’ or Achieng’",
+        "Omondi or Amondi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ochieng’ means born when the sun shines bright."
+    },
+    {
+      "question": "The Luo naming system treats names as lived stories because:",
+      "options": [
+        "Names are reused cyclically without meaning",
+        "Children are named after foreign leaders",
+        "They are assigned numerically at birth",
+        "They encode time, place, events, ancestry, and symbolism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Each name encodes significant context — time, event, place, or posture."
+    },
+    {
+      "question": "Which name pair reflects umbilical cord-related birth symbolism?",
+      "options": [
+        "Owino / Awino",
+        "Onyango / Anyango",
+        "Odongo / Adongo",
+        "Okeyo / Akeyo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Owino’ means child born with umbilical cord around the neck or still attached."
+    },
+    {
+      "question": "What does the name Obiero most accurately imply?",
+      "options": [
+        "Child born at sunset",
+        "Child born during rainfall",
+        "Child born after a retained placenta",
+        "Child born on a mountain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Obiero’ means born when the placenta is retained."
+    }
+  ]
+}

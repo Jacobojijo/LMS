@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence \"Olum ringo matek ahinya\", what grammatical phenomenon is represented by the structure of “matek ahinya”?",
+      "options": [
+        "Elliptical ellipsis",
+        "Nominal embedding",
+        "Layered adverbial modification",
+        "Object-initial topicalization"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Matek ahinya” shows layered adverbial modification: an adverb modified by a degree intensifier."
+    },
+    {
+      "question": "Which of the following best illustrates the semantic function of an adverb of frequency?",
+      "options": [
+        "Yamo kudho matek",
+        "Odipo nene oduogo piyo",
+        "Kwer puro maber",
+        "Seche moko wan gi tich mathoth"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Seche moko wan gi tich mathoth” uses ‘seche moko’ to indicate frequency (sometimes/often)."
+    },
+    {
+      "question": "What syntactic flexibility allows Dholuo adverbs like “piyo” to be placed after or before the verb?",
+      "options": [
+        "Subject-predicate inversion",
+        "The nominalization of verb roots",
+        "Emphatic or stylistic fronting",
+        "Verb compounding with prepositions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Emphatic or stylistic fronting allows adverbs like 'piyo' to shift positions for emphasis or style."
+    },
+    {
+      "question": "Which of the following sentences demonstrates reduplication as a strategy for intensification?",
+      "options": [
+        "Yamo kudho gi kwee",
+        "Olum owuotho piyo piyo",
+        "Mama dwoko maber",
+        "Kanyo en piny"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Piyo piyo’ is an example of reduplication to intensify the meaning (‘very quietly’)."
+    },
+    {
+      "question": "Which adverbial element carries socio-cultural connotation beyond mere syntactic function in the following: “gi kwee”?",
+      "options": [
+        "It simply means “calmly”",
+        "It implies social peace or communal harmony",
+        "It is a metaphor for invisibility",
+        "It marks habitual silence in religious discourse"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Gi kwee’ literally means ‘with peace’ but implies social peace or communal harmony."
+    },
+    {
+      "question": "The phrase “bor ahinya” exemplifies what type of adverbial construction?",
+      "options": [
+        "Degree + noun + modal",
+        "Adjective modified by degree adverb",
+        "Reduplicated noun intensifier",
+        "Mood-influenced adjective quantifier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Bor ahinya’ is an adjective phrase where the adjective ‘bor’ is modified by the degree adverb ‘ahinya’."
+    },
+    {
+      "question": "In the phrase “gi dwol mamalo,” what semantic domain does the adverb belong to?",
+      "options": [
+        "Degree",
+        "Manner",
+        "Frequency",
+        "Place"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mamalo’ describes manner – ‘with a high voice’, so it belongs to the Manner domain."
+    },
+    {
+      "question": "The placement of “machiegni” in a sentence such as “Gin biro chopo machiegni” serves which function?",
+      "options": [
+        "Locational anchoring of the action",
+        "Intensification of mood",
+        "Temporal prediction or imminence",
+        "Modifier of agency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Machiegni’ indicates that the event is imminent (‘soon’)."
+    },
+    {
+      "question": "What makes “piyo piyo” and “mos mos” structurally similar?",
+      "options": [
+        "Both are inflected verbs in subjunctive mood",
+        "Both are reduplicated adverbs of manner for emphasis",
+        "Both are contracted noun phrases",
+        "Both are honorific expressions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both are reduplicated adverbs of manner used for emphasis (‘very quietly’, ‘slowly’)."
+    },
+    {
+      "question": "Which example best reflects the combination of adverbial categories within a single clause?",
+      "options": [
+        "Kanyo en malo",
+        "Olum ringo matek ahinya sani",
+        "Seche moko wabiro chopo",
+        "Yamo kudho matek"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Olum ringo matek ahinya sani’ combines degree (‘matek ahinya’) with a time adverb (‘sani’)."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary syntactic function of the Dholuo word “móndo” (with a sharp tone)?",
+      "options": [
+        "To indicate arrival time",
+        "To denote past cause",
+        "To introduce a dependent clause expressing purpose or condition",
+        "To mark possession"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Móndo’ introduces purpose or conditional subordinate clauses — e.g., ‘so that…’"
+    },
+    {
+      "question": "How does the tonal difference between “móndo” and “mondo” affect meaning?",
+      "options": [
+        "Both mean the same: “that”",
+        "“Móndo” means “that/so that,” while “mondo” (flat tone) means “to arrive early”",
+        "“Móndo” means “arrive early,” “mondo” means “cause”",
+        "Tonal difference does not affect meaning in this context"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tone is crucial — ‘móndo’ means ‘so that’; ‘mondo’ with flat tone refers to arriving early."
+    },
+    {
+      "question": "In the phrase “Ahombi (ni) mondo ayud cham”, what does “ni” contribute?",
+      "options": [
+        "Negation",
+        "Past tense marker",
+        "A directive element meaning “so” to form “so that”",
+        "Plural marker"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ni’ is a complementizer helping introduce purpose in ‘ni mondo’ (so that)."
+    },
+    {
+      "question": "Which of the following best expresses a future-oriented purpose in Dholuo?",
+      "options": [
+        "“Achiemo nikech adenyo” (I eat because I am hungry)",
+        "“Aidho yath mondo apon olemo” (I plant a tree so that I may find shade)",
+        "“Aringo nikech alewo” (I run because I’m late)",
+        "“Otamore wuoyo koda nikech nene wadhaw” (He refused to talk to me because we quarreled)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The use of ‘mondo’ in planting implies a purpose or future intent — to find shade."
+    },
+    {
+      "question": "Which connector would you use to express a cause related to a past or existing reason?",
+      "options": [
+        "Mondo",
+        "Ni mondo",
+        "Nikech",
+        "Nikuop"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nikech’ is used to explain observed or past cause — meaning ‘because.’"
+    },
+    {
+      "question": "Consider the sentence: “Wamiel ni mondo wabed mamor.” What is the meaning of “ni mondo” here?",
+      "options": [
+        "Because we are happy",
+        "When we are happy",
+        "So that we may be happy",
+        "Since we were happy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ni mondo’ expresses the purpose or intent — to result in happiness."
+    },
+    {
+      "question": "What does the example “Apenjo ni mondo ayud teko” illustrate about the use of “ni mondo”?",
+      "options": [
+        "It expresses refusal",
+        "It denotes past cause",
+        "It shows intention or purpose (“I ask so that I may gain strength”)",
+        "It marks an imperative command"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This shows the structure for expressing purpose or expected outcome."
+    },
+    {
+      "question": "Which of the following is true about “nikech” in Dholuo?",
+      "options": [
+        "It is a relative pronoun for future events",
+        "It functions as a preposition",
+        "It functions as a causal connector meaning “because”",
+        "It means “arrive early”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nikech’ serves as a causal marker, commonly meaning ‘because.’"
+    },
+    {
+      "question": "What is the correct explanation for the phrase “Inka ni iti!”?",
+      "options": [
+        "It is a question asking “Are you here?”",
+        "It expresses a request for help",
+        "It is an imperative meaning “You are here to work!”",
+        "It denotes past action"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase can command presence or attention in a context of work or duty."
+    },
+    {
+      "question": "Which of the following best summarizes the distinction between “móndo” and “nikech”?",
+      "options": [
+        "Móndo indicates past cause; Nikech indicates future intent",
+        "Both are interchangeable causal connectors",
+        "Móndo expresses future-oriented intent or consequence; Nikech expresses immediate or observed cause",
+        "Móndo is used only in questions; Nikech only in statements"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Móndo’ projects future purpose; ‘nikech’ explains present/past reasons."
+    }
+  ]
+}

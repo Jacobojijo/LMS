@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence \"Odipo beto lum\", what makes lum function as a complement?",
+      "options": [
+        "It is a subject modified by a verb",
+        "It appears before the verb in SVO order",
+        "It directly receives the action of the verb beto",
+        "It acts as an indirect beneficiary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Lum’ is the direct object receiving the action of the verb ‘beto’ (carry)."
+    },
+    {
+      "question": "Which of the following most accurately represents the complete syntactic structure of the sentence \"Odipo miyo Olum luth\"?",
+      "options": [
+        "Subject + Object + Verb + Recipient",
+        "Verb + Subject + Direct Object + Indirect Complement",
+        "Subject + Verb + Indirect Complement + Direct Object",
+        "Subject + Verb + Adverbial + Object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The structure is Subject (Odipo) + Verb (miyo) + Indirect Complement (Olum) + Direct Object (luth)."
+    },
+    {
+      "question": "In the clause \"Olum kawo luth kuom Odipo\", the phrase \"kuom Odipo\" semantically expresses:",
+      "options": [
+        "The affected object",
+        "The source of transfer",
+        "The recipient of the action",
+        "An optional adverbial of time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kuom Odipo’ indicates the source of the transfer: the person from whom ‘luth’ is taken."
+    },
+    {
+      "question": "In which of the following constructions is the complement essential for maintaining syntactic and semantic completeness?",
+      "options": [
+        "Odipo biro",
+        "Olum wuok",
+        "Odipo tong’o yien",
+        "Nyathi nindo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Yien’ (tree/branch) is a necessary direct complement for the verb ‘tong’o’ (cut)."
+    },
+    {
+      "question": "Which best describes the dual-object relationship in the sentence “Nyathi miyo mingi adita”?",
+      "options": [
+        "One object acts as both recipient and theme",
+        "One is a recipient (mother), the other a transferred item (basket)",
+        "There is only a single compound object",
+        "The direct object precedes the indirect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mingi’ (mother) is the recipient; ‘adita’ (basket) is the transferred theme."
+    },
+    {
+      "question": "Why is the word “kuon” in “Odipo gi Olum chamo kuon” classified as a complement?",
+      "options": [
+        "It introduces a prepositional phrase",
+        "It modifies the verb in tense",
+        "It is the direct object receiving the verb action",
+        "It acts as the subject of the sentence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Kuon’ (ugali/porridge) is the direct object eaten (‘chamo’)."
+    },
+    {
+      "question": "Which sentence correctly demonstrates the use of a prepositional indirect complement?",
+      "options": [
+        "Nyathi chamo kuon",
+        "Olum kawo luth kuom Odipo",
+        "Odipo miyo Olum luth",
+        "Amiyo barua Olum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kuom Odipo’ is a prepositional phrase marking an indirect complement (source)."
+    },
+    {
+      "question": "What syntactic rule is demonstrated by the phrase “Amiyo Olum barua”?",
+      "options": [
+        "The indirect complement must be postverbal but final",
+        "Direct objects cannot precede indirect complements",
+        "The indirect complement precedes the direct object in a transfer verb",
+        "Verbs in Dholuo require only one object at a time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dholuo places the indirect complement (‘Olum’) before the direct object (‘barua’) in ditransitive constructions."
+    },
+    {
+      "question": "Why is “dhoot” in both “Olum yawo dhoot” and “Odipo loro dhoot” an example of a direct complement?",
+      "options": [
+        "It is always accompanied by an adverb",
+        "It serves as the recipient in a passive construction",
+        "It is the direct receiver of two different transitive actions",
+        "It modifies the subject rather than the verb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Dhoot’ (door) directly receives the actions ‘yawo’ (open) and ‘loro’ (close)."
+    },
+    {
+      "question": "According to Dholuo morphosyntactic rules, what happens when an indirect complement is introduced by \"kuom\"?",
+      "options": [
+        "The subject and verb must be reversed",
+        "It marks a prepositional recipient in receptive constructions",
+        "The direct object is eliminated",
+        "The action becomes reflexive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kuom’ introduces a prepositional phrase indicating the recipient or source of the action."
+    }
+  ]
+}

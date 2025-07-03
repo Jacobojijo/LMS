@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct negative response to the question “Bende ibiro?” (Will you come)?",
+      "options": [
+        "Kamano, abi biro",
+        "Ok abi biro",
+        "Kik bi!",
+        "Ooyo, ok abi biro"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Ooyo, ok abi biro’ means ‘No, I will not come.’"
+    },
+    {
+      "question": "Which sentence best exemplifies past perfect negation?",
+      "options": [
+        "Ok abi biro",
+        "Pok asechiemo",
+        "Kik bi",
+        "Nokachiemo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Pok asechiemo’ = ‘I have not yet eaten.’ (‘Pok’ + past = not yet)"
+    },
+    {
+      "question": "In Dholuo, how is negation typically formed in affirmative commands?",
+      "options": [
+        "By using “Ok” before the verb",
+        "By replacing “Ok” with “Kik”",
+        "By adding “Pok” after the subject",
+        "By using “Ee” after the verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Imperative or command negation uses ‘Kik’ (e.g., ‘Kik bi!’ = ‘Don’t come!’)"
+    },
+    {
+      "question": "What is the function of “Pok” in Dholuo grammar?",
+      "options": [
+        "Future negation marker",
+        "Subjunctive mood particle",
+        "Past perfect negation particle meaning “not yet”",
+        "Command intensifier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Pok’ shows incompletion: ‘not yet’ done."
+    },
+    {
+      "question": "Which phrase is a correct negative contraction in the past tense?",
+      "options": [
+        "Okabechiemo",
+        "Ooyo, ok unu-nyal",
+        "Nokachiemo",
+        "Pok abi biro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nokachiemo’ = ‘He/She did not eat.’ The negative is fused into the verb."
+    },
+    {
+      "question": "Identify the grammatically correct subjunctive negative form in the present/future tense:",
+      "options": [
+        "Ok abi biro",
+        "Ok achiem",
+        "Ok orach",
+        "Ooyo, pok abi biro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ok achiem’ = ‘I will not eat’ or ‘I do not eat.’"
+    },
+    {
+      "question": "Which of the following correctly illustrates pronoun-negation fusion?",
+      "options": [
+        "Ok abi chiemo",
+        "Ooyo, ok bu-nyal",
+        "Ooyo, wana-nyal",
+        "Kik bu chiemo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Wana-nyal’ means ‘we cannot’ — pronoun + negation fused."
+    },
+    {
+      "question": "How would you politely say “No, you (plural) will not manage” in Dholuo?",
+      "options": [
+        "Ooyo, ok ini-nyal",
+        "Ooyo, ok bu-nyal",
+        "Ooyo, ok unu-nyal",
+        "Ok gi nyal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Unu’ = you (plural) + nyal = be able. ‘Ok unu-nyal’ = ‘You won’t manage.’"
+    },
+    {
+      "question": "Which of the following best represents a correct affirmative response?",
+      "options": [
+        "Ok abi biro",
+        "Ee",
+        "Pok asechiemo",
+        "Kik bi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ee’ = ‘Yes’ in Dholuo."
+    },
+    {
+      "question": "What does the sentence “Ok orach” mean?",
+      "options": [
+        "He will not go",
+        "He/She/It is not bad",
+        "Don’t be bad",
+        "I didn’t go"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ok orach’ = ‘It’s not bad’ or ‘He/She/It is not bad.’"
+    }
+  ]
+}

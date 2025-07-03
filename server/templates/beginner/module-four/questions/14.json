@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the most formally structured expression to ask the price of a specific item in Dholuo?",
+      "options": [
+        "Tiang’ en pesa adi?",
+        "En pesa adi?",
+        "Nengo tiang’ en adi?",
+        "Tiang’ nengo pesa en?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nengo tiang’ en adi?’ is a complete and polite structure emphasizing both the item and its price clearly."
+    },
+    {
+      "question": "Which phrase best emphasizes monetary value over the item itself?",
+      "options": [
+        "Nengo tiang’ en adi?",
+        "Tiang’ en pesa adi?",
+        "En nengo pesa?",
+        "Nengone en adi?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Tiang’ en pesa adi?’ puts the monetary value first, spotlighting the cost."
+    },
+    {
+      "question": "The term \"goyo nengo\" is best understood as:",
+      "options": [
+        "Asking for price only",
+        "Culturally embedded price negotiation",
+        "Giving a price discount",
+        "Writing prices on items"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Goyo nengo’ involves culturally accepted negotiation, not just asking price."
+    },
+    {
+      "question": "In the phrase “Rabolo en pesa adi?”, what is the role of the word “pesa”?",
+      "options": [
+        "It qualifies the banana's color",
+        "It refers to location of sale",
+        "It highlights monetary cost",
+        "It names the item being sold"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Pesa’ refers to the monetary value or price being asked."
+    },
+    {
+      "question": "Why is goyo nengo not considered impolite in Luo culture?",
+      "options": [
+        "It’s rare and reserved for elders",
+        "It is done silently",
+        "It reflects social intelligence and mutual respect",
+        "It is an obligation enforced by vendors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It’s seen as a social skill, showing politeness and engagement."
+    },
+    {
+      "question": "What makes the question structure \"Nengone en adi?\" linguistically and culturally significant?",
+      "options": [
+        "It hides the object’s identity",
+        "It omits the use of nouns deliberately",
+        "It prioritizes object identification before price inquiry",
+        "It translates literally to “Buy me now!”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This structure begins with the object, showing culturally tuned focus on identity first."
+    },
+    {
+      "question": "In Dholuo, asking “Nengo rabolo en adi?” serves primarily to:",
+      "options": [
+        "Identify the price of a banana in context",
+        "Offer a discount on bananas",
+        "Praise the quality of a banana",
+        "Compare multiple fruit options"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This directly asks for the price of a banana, contextualized."
+    },
+    {
+      "question": "Which of the following best illustrates functional flexibility in Dholuo price inquiry?",
+      "options": [
+        "Saying “en pesa nengo”",
+        "Alternating between item-led and currency-led syntax",
+        "Whispering the price at the market",
+        "Never stating “adi” out loud"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dholuo allows both item-first or price-first phrasing in price-related questions."
+    },
+    {
+      "question": "Which statement best explains how penjo nengo is embedded in social behavior?",
+      "options": [
+        "It’s only taught in schools",
+        "It intertwines politeness, economic intent, and communal norms",
+        "It avoids direct conversation",
+        "It is restricted to large markets only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Price asking in Dholuo is deeply social — shaped by politeness and communal respect."
+    },
+    {
+      "question": "What broader cultural skill is enhanced through mastery of penjo nengo?",
+      "options": [
+        "Reading and writing Dholuo",
+        "Economic fluency and interpersonal negotiation",
+        "Singing traditional songs",
+        "Cooking local cuisine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Practicing ‘penjo nengo’ hones negotiation and economic navigation in community spaces."
+    }
+  ]
+}

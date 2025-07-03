@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Dholuo preposition would you use to express that something is inside a house?",
+      "options": [
+        "ewi",
+        "ebuo",
+        "ei",
+        "chien"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘ei’ means ‘inside’ — used to describe presence within an enclosed space like a house."
+    },
+    {
+      "question": "The preposition “mar” primarily functions to express:",
+      "options": [
+        "Direction or movement",
+        "Possession or association",
+        "Cause or reason",
+        "Companionship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘mar’ typically shows possession or associative relationships."
+    },
+    {
+      "question": "What is the best English equivalent of the Dholuo preposition “ewi” and its anatomical metaphorical origin?",
+      "options": [
+        "Under; from foot",
+        "On top; from head",
+        "On top; derived from “e wiy” meaning “at the head of”",
+        "Behind; from back"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘ewi’ comes from ‘e wiy’, meaning ‘at the head’ — used to indicate being on top."
+    },
+    {
+      "question": "In the phrase “Abiro kod Achieng’”, the preposition “kod” is used because:",
+      "options": [
+        "It denotes possession",
+        "It implies location",
+        "It expresses accompaniment with a person",
+        "It indicates cause or reason"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘kod’ indicates accompaniment or being with someone or something."
+    },
+    {
+      "question": "Which of the following pairs correctly reflects the semantic distinction between “ni” and “kuom”?",
+      "options": [
+        "Ni — gratitude; Kuom — direction",
+        "Ni — possession; Kuom — companionship",
+        "Ni — purpose or motive; Kuom — gratitude or causal attribution",
+        "Ni — spatial position; Kuom — temporal marker"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘ni’ expresses purpose; ‘kuom’ relates to gratitude or reasons."
+    },
+    {
+      "question": "If someone says “Wan gi nyithindo ariyo e odwa”, what does “e” indicate?",
+      "options": [
+        "The children are going to the market",
+        "The children are behind the house",
+        "The children are located at the house",
+        "The children are under the table"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘e’ signifies location — the children are *at* the house."
+    },
+    {
+      "question": "Which preposition would you use to say “under the table” and what does it reflect about Dholuo spatial conceptualization?",
+      "options": [
+        "malo; it reflects elevation",
+        "ebuo or etie; it reflects spatial orientation based on body parts",
+        "chien; it indicates possession",
+        "piny; it means “on the ground”"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘ebuo’ and ‘etie’ reflect body-part-based spatial metaphors — like below or under."
+    },
+    {
+      "question": "Which of these sentences best illustrates the flexibility of “kod” with pronoun suffixes?",
+      "options": [
+        "Abiro gi agulu",
+        "Abiro kode e ot",
+        "Ere chak mar nithindo?",
+        "Paka nitie ewi ot"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘kode’ is ‘kod’ + ‘e’ (him/her) — shows how prepositions can join with pronouns."
+    },
+    {
+      "question": "The Dholuo preposition “piny” most accurately translates to:",
+      "options": [
+        "Behind",
+        "Above",
+        "Down/on the ground",
+        "With"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘piny’ refers to the ground or being down — a spatial reference point."
+    },
+    {
+      "question": "What is the primary linguistic reason the Dholuo prepositions “ewi,” “ei,” and “etie” have such anatomical roots?",
+      "options": [
+        "To simplify vocabulary acquisition",
+        "To denote possession clearly",
+        "To metaphorically conceptualize spatial relations via body parts",
+        "To distinguish between human and non-human objects"
+      ],
+      "correctAnswer": 2,
+      "explanation": "These prepositions use body metaphors to explain spatial relations — like head (ewi), inside (ei), etc."
+    }
+  ]
+}
