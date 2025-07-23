@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is a masculine noun in Kikuyu?",
+      "options": [
+        "Mwarĩ",
+        "Giti",
+        "Njamba",
+        "Nyumba"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Njamba' refers to a hero or brave person, typically masculine in Kikuyu."
+    },
+    {
+      "question": "The Kikuyu noun 'Ng’ombe' refers to a:",
+      "options": [
+        "Cow",
+        "Ram",
+        "Girl",
+        "Bed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ng’ombe' means 'cow' in Kikuyu and is generally considered feminine."
+    },
+    {
+      "question": "Which noun below is neuter (not masculine or feminine)?",
+      "options": [
+        "Mũrũ wa nyina",
+        "Mugunda",
+        "Ndurume",
+        "Mũkũrũ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mugunda' (a plot of land) is a neuter noun as it does not refer to a gendered being."
+    },
+    {
+      "question": "What is the Kikuyu word for a female child (girl)?",
+      "options": [
+        "Mũthuuri",
+        "Mwarĩ",
+        "Njamba",
+        "Njiro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mwarĩ' is the Kikuyu word for a girl or young woman."
+    },
+    {
+      "question": "'Njiro' in Kikuyu refers to which animal?",
+      "options": [
+        "Calf",
+        "Cow",
+        "Bull",
+        "Hen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Njiro' is a term for a bull in Kikuyu, indicating masculinity."
+    },
+    {
+      "question": "Which of the following is a feminine noun?",
+      "options": [
+        "Njamba",
+        "Ng’ombe",
+        "Mũrũ wa nyina",
+        "Gitanda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ng’ombe' (cow) is considered a feminine noun in Kikuyu."
+    },
+    {
+      "question": "Which of the following pairs both contain neuter nouns?",
+      "options": [
+        "Mwarĩ, Gitanda",
+        "Mugunda, Mũthenya",
+        "Njamba, Nyumba",
+        "Ndurume, Giti"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mugunda' (land) and 'Mũthenya' (day) are both neuter nouns not assigned to gender."
+    },
+    {
+      "question": "'Giti' in Kikuyu refers to a:",
+      "options": [
+        "Farm",
+        "Girl",
+        "Chair",
+        "Bull"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Giti' means 'chair', a neuter noun not associated with gender."
+    },
+    {
+      "question": "The Kikuyu word 'Kanyoni ka cũcũ' refers to a:",
+      "options": [
+        "Hen",
+        "Girl",
+        "Ram",
+        "Cock"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kanyoni ka cũcũ' translates to 'grandmother's bird', typically referring to a hen."
+    },
+    {
+      "question": "Which of these is the correct masculine-feminine pair in Kikuyu?",
+      "options": [
+        "Mũthuuri – Gitanda",
+        "Mwarĩ – Ndurume",
+        "Mũrũ wa nyina – Mwarĩ",
+        "Njaũ – Njamba"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũrũ wa nyina' (son of the mother) and 'Mwarĩ' (daughter) represent a masculine-feminine pair."
+    }
+  ]
+}

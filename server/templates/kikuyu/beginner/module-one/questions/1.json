@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the historical and spiritual significance of the word 'Gĩkũyũ' in Kikuyu culture?",
+      "options": [
+        "It represents the ancestral mountain range of the Agikuyu.",
+        "It means 'peaceful land of ancestors.'",
+        "It refers to a large sycamore tree associated with divine revelation.",
+        "It is a colonial term for Kikuyu territory."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gĩkũyũ' refers to a large sycamore tree associated with divine revelation in Kikuyu culture, symbolizing spiritual significance."
+    },
+    {
+      "question": "Which of the following Kikuyu vowels is nasalized and could change the meaning of a word if mispronounced?",
+      "options": [
+        "I",
+        "A",
+        "Ũ",
+        "O"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vowel 'Ũ' is nasalized in Kikuyu, and mispronunciation can alter the meaning of words."
+    },
+    {
+      "question": "Which linguistic group does Kikuyu belong to within the language classification tree?",
+      "options": [
+        "Afro-Asiatic > Cushitic > Highland East",
+        "Niger-Congo > Atlantic-Congo > Benue-Congo > Bantu > Northeast Bantu > Thagiicu",
+        "Nilo-Saharan > Eastern Nilotic",
+        "Indo-European > Romance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu is part of the Niger-Congo > Atlantic-Congo > Benue-Congo > Bantu > Northeast Bantu > Thagiicu language group."
+    },
+    {
+      "question": "The term 'mbari' in Kikuyu social structure refers to:",
+      "options": [
+        "The head of the household",
+        "A sub-clan or extended family lineage",
+        "A sacred tree grove",
+        "A group of spiritual elders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbari' refers to a sub-clan or extended family lineage within Kikuyu social structure."
+    },
+    {
+      "question": "Why are the Kikuyu vowels Ĩ and Ũ considered critical in pronunciation?",
+      "options": [
+        "They mark the plural form of most nouns.",
+        "They are never stressed in words.",
+        "They introduce grammatical tenses.",
+        "They are nasalized and function as distinct phonemes, affecting meaning."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ĩ and Ũ are nasalized vowels in Kikuyu and function as distinct phonemes, which means they can change the meaning of words."
+    },
+    {
+      "question": "Which consonant group in Kikuyu represents the sound /ʧ/ as in 'church'?",
+      "options": [
+        "GI",
+        "TH",
+        "CI",
+        "NG"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'CI' consonant group in Kikuyu represents the /ʧ/ sound, similar to 'church' in English."
+    },
+    {
+      "question": "According to Kikuyu oral tradition, which group is believed to have descended directly from Gikũyũ and Mũmbi?",
+      "options": [
+        "Agacera a Kĩmathi",
+        "Atumia a Gathigia",
+        "Aigana a Gikũyũ na Mũmbi",
+        "Aigana a Thagana"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Aigana a Gikũyũ na Mũmbi' are believed, in Kikuyu oral tradition, to have descended directly from the founding couple."
+    },
+    {
+      "question": "Which of the following words illustrates the use of a nasalized vowel in Kikuyu?",
+      "options": [
+        "ciana",
+        "kĩgũrũ",
+        "nyoni",
+        "ng’ombe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kĩgũrũ' contains a nasalized vowel 'ũ', showing how nasalization is used in Kikuyu phonology."
+    },
+    {
+      "question": "Why is Kikuyu pronunciation said to be 'relatively phonetic' compared to English?",
+      "options": [
+        "It omits vowels in stress positions.",
+        "Each sound is consistently linked to one letter, especially in vowels and consonants.",
+        "It has a high use of diphthongs.",
+        "Consonants are usually silent."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu pronunciation is considered phonetic because letters consistently represent specific sounds, unlike English."
+    },
+    {
+      "question": "Which settlement pattern supports the theory of Kikuyu migration rather than autochthonous origin?",
+      "options": [
+        "Their presence near Lake Turkana",
+        "Oral traditions of descent from Mount Kilimanjaro",
+        "Shared linguistic and cultural traits with Embu, Meru, and Kamba",
+        "Colonial records from Kabete"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Kikuyu share linguistic and cultural traits with the Embu, Meru, and Kamba, supporting the migration theory."
+    }
+  ]
+}

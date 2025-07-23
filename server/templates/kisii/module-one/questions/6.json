@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii expression for 16?",
+      "options": [
+        "Ikomi na kianda",
+        "Ikomi na isano nemo",
+        "Ikomi na isato nemo",
+        "Ikomi nemo na isano"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The number 16 is expressed as 'Ikomi na isano nemo', meaning '10 and 5 plus 1'."
+    },
+    {
+      "question": "Which of the following best represents “80” in Ekegusii?",
+      "options": [
+        "Emerong’etano na ibere",
+        "Emerong’ene na isano",
+        "Emeron’etano n’etato",
+        "Emerongo etato na etano"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Emeron’etano n’etato' correctly expresses 80 in Ekegusii (literally: four twenties)."
+    },
+    {
+      "question": "Translate the phrase: “One woman and two men” into Ekegusii.",
+      "options": [
+        "Omokungu oyomo na abasacha ibere",
+        "Abasacha ibere n’omokungu eyemo",
+        "Omokungu eyemo n’abasacha babere",
+        "Omokungu oyomo n’abasacha babere"
+      ],
+      "correctAnswer": [0, 3],
+      "explanation": "Both 'Omokungu oyomo na abasacha ibere' and 'Omokungu oyomo n’abasacha babere' are acceptable, as 'oyomo' and 'eyemo' are interchangeable variants."
+    },
+    {
+      "question": "How would you express the number “9999” in Ekegusii?",
+      "options": [
+        "Chiribu kianda, chimia kianda na emerongo kianda na kianda",
+        "Chiribu kianda n’ekomi kianda",
+        "Chimia kianda na ikomi na kianda",
+        "Rigana kianda, emerongo kianda, na kianda"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Chiribu kianda, chimia kianda na emerongo kianda na kianda' represents 9999 as 9000 + 900 + 90 + 9."
+    },
+    {
+      "question": "Which of the following best illustrates the structure of “13” in Ekegusii?",
+      "options": [
+        "Ikomi na ibere",
+        "Ikomi na isato",
+        "Isato na ikomi",
+        "Ikomi na inye"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'13' is structured as 'Ikomi na isato' (10 and 3) in Ekegusii."
+    },
+    {
+      "question": "Which term in Ekegusii correctly refers to “200”?",
+      "options": [
+        "Emia ibere",
+        "Amagana ibere",
+        "Chimia ibere",
+        "Rigana ibere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Chimia ibere' translates to 200 (two hundreds) in Ekegusii."
+    },
+    {
+      "question": "What is the correct way to say “How many girls? (9)” in Ekegusii?",
+      "options": [
+        "Abakobwa b’ingine isano na ibere",
+        "Abaiseke kianda kianda",
+        "Abakobwa b’ingine ikomi",
+        "Abakobwa kianda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Abaiseke kianda kianda' is a proper way to ask about 9 girls in Ekegusii."
+    },
+    {
+      "question": "Identify the correct numerical breakdown of “Emerong’etano n’ebere”.",
+      "options": [
+        "50 + 2",
+        "60 + 2",
+        "70",
+        "80"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Emerong’etano n’ebere' translates to 70 (five twenties + two)."
+    },
+    {
+      "question": "Which of the following terms is used to express “1000” in Ekegusii?",
+      "options": [
+        "Chiribu eyemo",
+        "Eribu eyemo",
+        "Amagana eyemo",
+        "Rigana eyemo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Eribu eyemo' means 'one thousand' in Ekegusii."
+    },
+    {
+      "question": "Which is the correct Ekegusii representation for “900 + 90”?",
+      "options": [
+        "Emerongo etano na emerongo etano",
+        "Emerongo kianda na kianda",
+        "Emerongo ebere n’eberere",
+        "Kianda n’emerongo kianda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Emerongo kianda na kianda' correctly expresses 900 + 90 (nine hundreds and ninety)."
+    }
+  ]
+}

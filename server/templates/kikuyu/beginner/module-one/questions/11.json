@@ -1,0 +1,59 @@
+{
+  "title": "Kikuyu Kinship and Family Terminology – Multiple Choice Questions",
+  "description": "Practice identifying Kikuyu words used for family members and relatives.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "What is the Kikuyu term for \"mother\"?",
+      "options": ["Maitũ", "Cũcũ", "Tata", "Mwarĩ"],
+      "answer": "Maitũ"
+    },
+    {
+      "question": "Which of the following means “grandmother” in Kikuyu?",
+      "options": ["Gũkũ", "Maitũ", "Cũcũ", "Nyaciara"],
+      "answer": "Cũcũ"
+    },
+    {
+      "question": "“Mwarĩ wa tata” refers to which relative?",
+      "options": ["Daughter", "Female cousin", "Niece", "Aunt"],
+      "answer": "Female cousin"
+    },
+    {
+      "question": "What is the correct Kikuyu term for a sister-in-law?",
+      "options": ["Mwarĩ wa nyina", "Maramu", "Wamũgongo", "Nyaciara"],
+      "answer": "Maramu"
+    },
+    {
+      "question": "The Kikuyu term “Tūcūkūrū” refers to:",
+      "options": ["Grandchildren", "Great-grandchildren", "Great-great-grandchildren", "Cousins"],
+      "answer": "Great-grandchildren"
+    },
+    {
+      "question": "Who is called “Baba Mūkūrū” in Kikuyu culture?",
+      "options": ["Your grandfather", "Your mother's younger brother", "Your father's older brother", "Your aunt’s husband"],
+      "answer": "Your father's older brother"
+    },
+    {
+      "question": "What does the term “Nyakīambūri” mean in Kikuyu kinship?",
+      "options": ["First wife", "Second wife", "Grandmother", "Daughter-in-law"],
+      "answer": "Second wife"
+    },
+    {
+      "question": "Which Kikuyu term means “I am your nephew”?",
+      "options": ["Mũihwa", "Mũriũ", "Mũrũ wa nyina", "Mũrũ wa tata"],
+      "answer": "Mũihwa"
+    },
+    {
+      "question": "What is the Kikuyu word for “great-great-grandchildren”?",
+      "options": ["Tūcūcū", "Tūcūkūrū", "Cūkūrūkū", "Gũkũ"],
+      "answer": "Cūkūrūkū"
+    },
+    {
+      "question": "The term “Wamũgongo” refers to which in-law?",
+      "options": ["Sister-in-law", "Father-in-law", "Brother-in-law", "Uncle"],
+      "answer": "Brother-in-law"
+    }
+  ]
+}

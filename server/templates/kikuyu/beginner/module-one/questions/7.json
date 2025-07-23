@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the Kikuyu name for Monday?",
+      "options": [
+        "Njata",
+        "Jumatatũ",
+        "Nne",
+        "Kiumia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Jumatatũ' is the Kikuyu word for Monday, adapted from Swahili."
+    },
+    {
+      "question": "Which day in Kikuyu is traditionally the day of rest and worship?",
+      "options": [
+        "Njambĩ",
+        "Njirũ",
+        "Kiumia",
+        "Nĩtanĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kiumia' is the Kikuyu word for Sunday, often observed as a day of rest and worship."
+    },
+    {
+      "question": "Wa gatatũ refers to which day of the week in Kikuyu?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wa gatatũ' means 'third', which corresponds to Wednesday in the Kikuyu weekly calendar."
+    },
+    {
+      "question": "Which Kikuyu day is associated with market activities and social gatherings?",
+      "options": [
+        "Jumamothi",
+        "Nĩtanĩ",
+        "Njirũ",
+        "Njata"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Jumamothi' is traditionally known as a day for market and communal activities."
+    },
+    {
+      "question": "What is the Kikuyu name for Friday?",
+      "options": [
+        "Nne",
+        "Njirũ",
+        "Juma",
+        "Njambĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Juma' is the Kikuyu term used for Friday, derived from Swahili."
+    },
+    {
+      "question": "Which Kikuyu day name means “Second day of work” and is often linked to farming?",
+      "options": [
+        "Njamba",
+        "Wa kerĩ",
+        "Njata",
+        "Nĩtanĩ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wa kerĩ' means 'second', commonly used to refer to Tuesday and associated with work routines like farming."
+    },
+    {
+      "question": "What is the Kikuyu term for “month”?",
+      "options": [
+        "Mũthenya",
+        "Njamba",
+        "Mweri",
+        "Thirikari"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mweri' is the Kikuyu term for 'month'."
+    },
+    {
+      "question": "How do you say “April” in Kikuyu?",
+      "options": [
+        "Mweri wa gatatũ",
+        "Mweri wa kana",
+        "Mweri wa gatano",
+        "Mweri wa ikũmi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mweri wa kana' means 'the fourth month' in Kikuyu, corresponding to April."
+    },
+    {
+      "question": "What is 'Mweri wa mũgwanja' in English?",
+      "options": [
+        "June",
+        "August",
+        "July",
+        "September"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mweri wa mũgwanja' means 'the seventh month', which is July."
+    },
+    {
+      "question": "Which Kikuyu month is referred to as 'Mweri wa ikũmi na imwe'?",
+      "options": [
+        "October",
+        "November",
+        "December",
+        "September"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mweri wa ikũmi na imwe' translates to 'the eleventh month', which is November."
+    }
+  ]
+}

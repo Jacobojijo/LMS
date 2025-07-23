@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kikuyu Numbers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1, h2, h3, h4 {
+            color: #008080; /* Teal color for headings */
+            margin-top: 20px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            border-bottom: 2px solid #008080;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            border-left: 4px solid #008080;
+            padding-left: 10px;
+        }
+        
+        h3 {
+            font-size: 20px;
+        }
+        
+        h4 {
+            font-size: 18px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        blockquote {
+            border-left: 4px solid #008080;
+            padding-left: 15px;
+            margin-left: 0;
+            color: #555;
+        }
+        
+        ul, ol {
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #008080;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .example {
+            background-color: #e6f3f3;
+            padding: 10px;
+            border-left: 3px solid #008080;
+            margin-bottom: 15px;
+        }
+        
+        .phoneme-table {
+            margin: 20px 0;
+        }
+        
+        .kikuyu-text {
+            font-style: italic;
+            font-weight: bold;
+            color: #006400;
+        }
+        
+        .sentence-example {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 3px solid #4169E1;
+        }
+        
+        .construction-note {
+            background-color: #fff8dc;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border: 1px solid #daa520;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>1.4 Numbers and Numbering</h2>
+        
+        <h3>1.4.1 Introduction</h3>
+        <p>Numbers in the Kikuyu language (Gĩkũyũ) are vital for counting, quantifying, and structuring daily life. Rooted in a decimal system, they reflect the Agĩkũyũ people's cultural organization, trade systems, and communal activities.</p>
+        
+        <h3>1.4.2 Cardinal Numbers</h3>
+        
+        <h4>I. Introduction to Cardinal Numbers</h4>
+        <p>Cardinal numbers are quantifiers used to denote count, quantity, and amount.</p>
+        <p>In Kikuyu (Gĩkũyũ), numerals serve both mathematical and communicative functions, providing clarity in enumeration, classification, and measurement.</p>
+        <p>These numbers appear in daily interactions, transactional contexts, rituals, and cultural storytelling.</p>
+        
+        <h4>II. Foundational Cardinal Numbers (1–10)</h4>
+        <p>The Kikuyu numeral system begins with a base-10 structure, utilizing unique lexical items for digits 1 through 10.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Kikuyu Term</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><span class="kikuyu-text">imwe</span></td>
+                    <td>Fundamental unit of counting</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><span class="kikuyu-text">igĩrĩ</span></td>
+                    <td>First plural form</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><span class="kikuyu-text">ithatũ</span></td>
+                    <td>Used frequently in idioms</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><span class="kikuyu-text">inya</span></td>
+                    <td>Culturally symbolic number</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><span class="kikuyu-text">ithano</span></td>
+                    <td>Midpoint in single digits</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><span class="kikuyu-text">ithathatũ</span></td>
+                    <td>Compound of three and double</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><span class="kikuyu-text">mugwanja</span></td>
+                    <td>Derived from root "seven"</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><span class="kikuyu-text">inanya</span></td>
+                    <td>Phonologically rounded</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><span class="kikuyu-text">kenda</span></td>
+                    <td>Often implies fullness</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><span class="kikuyu-text">ikũmi</span></td>
+                    <td>Structural base for compound numbers</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>III. Construction of Compound Numbers (11–19)</h4>
+        <p>Compound numbers are created by joining <span class="kikuyu-text">"ikũmi"</span> (10) with additional digits using the conjunction <span class="kikuyu-text">"na"</span> (and).</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Kikuyu Form</th>
+                    <th>Construction Logic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>11</td>
+                    <td><span class="kikuyu-text">ikũmi na imwe</span></td>
+                    <td>10 + 1</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><span class="kikuyu-text">ikũmi na igĩrĩ</span></td>
+                    <td>10 + 2</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td><span class="kikuyu-text">ikũmi na ithatũ</span></td>
+                    <td>10 + 3</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td><span class="kikuyu-text">ikũmi na inya</span></td>
+                    <td>10 + 4</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td><span class="kikuyu-text">ikũmi na ithano</span></td>
+                    <td>10 + 5</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td><span class="kikuyu-text">ikũmi na ithathatũ</span></td>
+                    <td>10 + 6</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td><span class="kikuyu-text">ikũmi na mugwanja</span></td>
+                    <td>10 + 7</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td><span class="kikuyu-text">ikũmi na inanya</span></td>
+                    <td>10 + 8</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td><span class="kikuyu-text">ikũmi na kenda</span></td>
+                    <td>10 + 9</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>IV. Multiples of Ten (Makũmi / Mirongo)</h4>
+        <p>Tens are expressed by combining <span class="kikuyu-text">"mirongo"</span> (tens) with ordinal-based forms.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Kikuyu Term</th>
+                    <th>Semantic Component</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10</td>
+                    <td><span class="kikuyu-text">ikũmi</span></td>
+                    <td>Base number</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><span class="kikuyu-text">mirongo eerĩ</span></td>
+                    <td>Tens of two</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td><span class="kikuyu-text">mirongo etatũ</span></td>
+                    <td>Tens of three</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><span class="kikuyu-text">mirongo ena</span></td>
+                    <td>Tens of four</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td><span class="kikuyu-text">mirongo etano</span></td>
+                    <td>Tens of five</td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td><span class="kikuyu-text">mirongo ithathatũ</span></td>
+                    <td>Tens of six</td>
+                </tr>
+                <tr>
+                    <td>70</td>
+                    <td><span class="kikuyu-text">mirongo mugwanja</span></td>
+                    <td>Tens of seven</td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td><span class="kikuyu-text">mirongo inyanya</span></td>
+                    <td>Tens of eight</td>
+                </tr>
+                <tr>
+                    <td>90</td>
+                    <td><span class="kikuyu-text">mirongo kenda</span></td>
+                    <td>Tens of nine</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>V. Hundreds and Their Form (Magana)</h4>
+        <p>The Kikuyu term for "hundred" is <span class="kikuyu-text">"magana"</span>, used with numeral qualifiers.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Kikuyu Form</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>700</td>
+                    <td><span class="kikuyu-text">magana mũgwanja</span></td>
+                    <td>Seven hundreds</td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td><span class="kikuyu-text">magana ikũmi</span></td>
+                    <td>Ten hundreds = 1000</td>
+                </tr>
+                <tr>
+                    <td>730</td>
+                    <td><span class="kikuyu-text">magana mũgwanja na makũmi ethatũ</span></td>
+                    <td>Example of compound construction</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>VI. Thousands and Structure (Ngiri)</h4>
+        <p>The term <span class="kikuyu-text">"ngiri"</span> denotes thousands, prefixed by the appropriate base numeral.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Kikuyu Term</th>
+                    <th>Equivalent in Numerals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1000</td>
+                    <td><span class="kikuyu-text">ngiri imwe</span></td>
+                    <td>1,000</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td><span class="kikuyu-text">ngiri igĩrĩ</span></td>
+                    <td>2,000</td>
+                </tr>
+                <tr>
+                    <td>3000</td>
+                    <td><span class="kikuyu-text">ngiri ithatũ</span></td>
+                    <td>3,000</td>
+                </tr>
+                <tr>
+                    <td>4000</td>
+                    <td><span class="kikuyu-text">ngiri inya</span></td>
+                    <td>4,000</td>
+                </tr>
+                <tr>
+                    <td>5000</td>
+                    <td><span class="kikuyu-text">ngiri ithano</span></td>
+                    <td>5,000</td>
+                </tr>
+                <tr>
+                    <td>6000</td>
+                    <td><span class="kikuyu-text">ngiri ithathatũ</span></td>
+                    <td>6,000</td>
+                </tr>
+                <tr>
+                    <td>7000</td>
+                    <td><span class="kikuyu-text">ngiri mugwanja</span></td>
+                    <td>7,000</td>
+                </tr>
+                <tr>
+                    <td>8000</td>
+                    <td><span class="kikuyu-text">ngiri inyanya</span></td>
+                    <td>8,000</td>
+                </tr>
+                <tr>
+                    <td>9000</td>
+                    <td><span class="kikuyu-text">ngiri kenda</span></td>
+                    <td>9,000</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>VII. Usage in Sentences (Mĩgambo ya Mĩharĩrũko)</h4>
+        
+        <div class="sentence-example">
+            <p><span class="kikuyu-text">Wanja arĩa nyama ithano.</span><br>
+            → Wanja ate five pieces of meat.<br>
+            ✓ Functional in culinary counting and food portions.</p>
+        </div>
+        
+        <div class="sentence-example">
+            <p><span class="kikuyu-text">Athoni mecĩirwo miti mirogo mugwanja.</span><br>
+            → The elders planted seventy trees.<br>
+            ✓ Demonstrates agricultural enumeration.</p>
+        </div>
+        
+        <div class="sentence-example">
+            <p><span class="kikuyu-text">Mũtumia ũmwe nĩari kũinagwo.</span><br>
+            → One woman was dancing.<br>
+            ✓ Indicates solitary participation in activity.</p>
+        </div>
+        
+        <div class="sentence-example">
+            <p><span class="kikuyu-text">Ni nguo ithatũ.</span><br>
+            → They are three clothes.<br>
+            ✓ Used in market contexts and inventory checks.</p>
+        </div>
+        
+        <div class="sentence-example">
+            <p><span class="kikuyu-text">Mũtumia ũmwe na athoni eerĩ.</span><br>
+            → One woman and two men.<br>
+            ✓ Useful for group descriptions or event planning.</p>
+        </div>
+        
+        <h4>VIII. Practice Exercises: Countable Noun Conjugation (Mĩhĩrĩga na Vĩheti)</h4>
+        <p>Respond using Kikuyu numerals:</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Kikuyu Response</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>How many goats (mbũri)?</td>
+                    <td><span class="kikuyu-text">ithano</span> (five)</td>
+                </tr>
+                <tr>
+                    <td>How many girls (airetu)?</td>
+                    <td><span class="kikuyu-text">kenda</span> (nine)</td>
+                </tr>
+                <tr>
+                    <td>How many homes (nyũmba)?</td>
+                    <td><span class="kikuyu-text">ikũmi na ithano</span> (15)</td>
+                </tr>
+                <tr>
+                    <td>How many children (ciana)?</td>
+                    <td><span class="kikuyu-text">ikũmi na ũmwe</span> (11)</td>
+                </tr>
+                <tr>
+                    <td>How many houses (nyũmba)?</td>
+                    <td><span class="kikuyu-text">ikũmi</span> (ten)</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>IX. Summary of Structural and Cultural Relevance</h4>
+        <div class="construction-note">
+            <p><strong>Grammatical Logic:</strong> The Kikuyu number system integrates morphological clarity with semantic transparency.</p>
+            <p><strong>Functional Versatility:</strong><br>
+            Applied in economic transactions, education, oral storytelling, and spiritual contexts.</p>
+            <p><strong>Cultural Embeddedness:</strong><br>
+            Numbers are tied to agricultural cycles, family structures, and ritualistic traditions.</p>
+            <p><strong>Pedagogical Value:</strong><br>
+            Crucial for learners seeking fluency in numeric expression and formal Kikuyu syntax.</p>
+        </div>
+    </div>
+</body>
+</html>

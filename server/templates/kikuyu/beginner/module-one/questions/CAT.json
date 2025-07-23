@@ -1,0 +1,409 @@
+{
+  "title": "Kikuyu Alphabet, Basic Greetings, and Vocabulary CAT",
+  "description": "This Continuous Assessment Test evaluates knowledge of Kikuyu phonology, numerals, time expressions, and cultural communication norms.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following statements about Kikuyu vowels is TRUE?",
+      "options": [
+        "Kikuyu vowels change depending on stress.",
+        "Kikuyu vowels include nasalized tones.",
+        "Kikuyu vowels retain their full sound regardless of stress.",
+        "Kikuyu vowels behave like English vowels."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is the phonemic significance of vowel length in Kikuyu?",
+      "options": [
+        "It adds beauty but doesn't change meaning.",
+        "It determines tense in verbs.",
+        "It can change the meaning of a word.",
+        "It only applies to songs."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of these represents a Kikuyu consonant digraph?",
+      "options": [
+        "Gi",
+        "Th",
+        "Ki",
+        "Mu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which is a unique feature of Kikuyu consonants?",
+      "options": [
+        "They use clicks.",
+        "They are all voiced.",
+        "They include plosives like \"g\" and fricatives like \"th.\"",
+        "They are identical to English ones."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What role does tone play in Kikuyu pronunciation?",
+      "options": [
+        "None – Kikuyu is not tonal.",
+        "It determines sentence structure only.",
+        "It changes the meaning of words.",
+        "It applies only in singing."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Why is the letter “C” not common in Kikuyu writing?",
+      "options": [
+        "It is only used for foreign words.",
+        "It is replaced by “G.”",
+        "Kikuyu uses “K” and “G” sounds instead.",
+        "Kikuyu avoids the letter entirely."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of these is incorrectly paired with its Kikuyu phonetic description?",
+      "options": [
+        "TH – Dental fricative",
+        "NG – Velar nasal",
+        "NY – Palatal nasal",
+        "MB – Glottal stop"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Pronunciation and Alphabets] In Kikuyu, how does tone affect the word “gũtirĩ”?",
+      "options": [
+        "It does not affect anything.",
+        "It changes it from negative to affirmative.",
+        "It distinguishes it from “mũtirĩ.”",
+        "It turns it into a question."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following pronunciation features does NOT add to Kikuyu phonological complexity?",
+      "options": [
+        "Tonality",
+        "Vowel length",
+        "Consonant voicing",
+        "Syllable stress"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is the best method for mastering Kikuyu pronunciation?",
+      "options": [
+        "Rely only on reading.",
+        "Practice with native speakers and listen actively.",
+        "Translate word for word from English.",
+        "Avoid using tonal words."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Time] How is the number 17 expressed in Kikuyu?",
+      "options": [
+        "Ikũmi na igĩrĩ",
+        "Ikũmi na mũgwanja",
+        "Mũgwanja na ikũmi",
+        "Gĩkumi na mũgwanja"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Time] What is the correct Kikuyu term for 800?",
+      "options": [
+        "Magana manhano",
+        "Magana marĩnã",
+        "Magana mana",
+        "Gĩkũmi gĩa marĩnã"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Time] Which statement about ordinal numbers in Kikuyu is INCORRECT?",
+      "options": [
+        "Most use “Wa” as a prefix.",
+        "“Wa mbere” means the first.",
+        "“Wa kerĩ” means the second.",
+        "“Wa mũgwanja” means seventh."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Time] How would you say “The sixth person arrived late” in Kikuyu?",
+      "options": [
+        "Mũndũ wa mũgwanja niarũgũire na tha",
+        "Mũndũ wa gatandatu niarũgũire na tha",
+        "Mũndũ wa gathano niarũgũire na tha",
+        "Mũndũ wa kana niarũgũire na tha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Time] If someone refers to “Kiumia,” what day is it?",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Monday",
+        "Saturday"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Time] In which month would you use “Mweri wa kenda”?",
+      "options": [
+        "September",
+        "October",
+        "August",
+        "November"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Time] What does “Hwaini” most closely mean in Kikuyu?",
+      "options": [
+        "Early morning",
+        "Evening",
+        "Sunrise",
+        "Afternoon"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Time] Which of the following Kikuyu words refers to “noon”?",
+      "options": [
+        "Rũciinĩ",
+        "Njuma",
+        "Muthenya",
+        "Gatagatĩ ka mũthenya"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Numbers and Time] How would you say “twenty” in Kikuyu?",
+      "options": [
+        "Mirongo ĩrĩ",
+        "Magana meri",
+        "Magana matano",
+        "Gĩkũmi gĩa mirongo ĩrĩ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Time] Which of these Kikuyu expressions is grammatically correct?",
+      "options": [
+        "Nĩngwendete wendo",
+        "Nĩngwendete kũraya",
+        "Nĩndahota gũkinya hĩndĩ ya njuma",
+        "Nĩngwenda mũno"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Time] Which of these is NOT part of Kikuyu’s division of the day?",
+      "options": [
+        "Rũcinĩ",
+        "Gatagatĩ ka mũthenya",
+        "Kihooto",
+        "Njuma"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Time] If someone says “Magana mana,” which number are they referring to?",
+      "options": [
+        "80",
+        "90",
+        "40",
+        "400"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Time] How would you say “the ninth child” in Kikuyu?",
+      "options": [
+        "Mwana wa mũgwanja",
+        "Mwana wa kenda",
+        "Mwana wa kana",
+        "Mwana wa ikũmi"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Time] What does “gĩthima” mean in Kikuyu?",
+      "options": [
+        "Clay pot",
+        "Spoon",
+        "Water source / well",
+        "Hut"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Time] What would be the correct way to say “the third house” in Kikuyu?",
+      "options": [
+        "Nyũmba ya kana",
+        "Nyũmba ya gatatũ",
+        "Nyũmba ya kenda",
+        "Nyũmba ya mbere"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] What is the cultural purpose of Kikuyu greetings like “Wakia mũthenya”?",
+      "options": [
+        "To show respect, ask about well-being, and build community bonds",
+        "To indicate someone's rank",
+        "To request food",
+        "To close a conversation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] What is the appropriate reply to “Wakia mũthenya?”",
+      "options": [
+        "Wakia mũno",
+        "Nĩ wega, na wĩ mwega?",
+        "Nĩgũkũheo",
+        "Gũtirĩ nawe"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] In Kikuyu, what does “Ngai akuhe thayũ” express?",
+      "options": [
+        "Request for money",
+        "Farewell with a blessing",
+        "Welcome into a home",
+        "Demand for silence"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] How do you say “May I come in?” in Kikuyu?",
+      "options": [
+        "Tondũ wĩ waku?",
+        "Rũgendo rũgaathe",
+        "Ndingĩthiĩ?",
+        "Gũtirĩ ũrĩa?"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] What does “Guka” mean?",
+      "options": [
+        "Uncle",
+        "Brother-in-law",
+        "Grandfather",
+        "Cousin"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] Which of the following is NOT a correct use of “Tata”?",
+      "options": [
+        "Aunt",
+        "Father",
+        "Father’s sister",
+        "Mother’s sister"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] In Kikuyu, how do you distinguish between “nephew” and “niece”?",
+      "options": [
+        "Mũihwa wa mũrũ (nephew), Mũihwa wa mwarĩ (niece)",
+        "Mwana wa mũndũ",
+        "Mũrũ wa mama",
+        "Mũrũ na mwarĩ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] In a Kikuyu polygamous setting, what is the first wife called?",
+      "options": [
+        "Mũtumia wa mbere",
+        "Nyakĩnyua",
+        "Mũtumia wa kana",
+        "Ciana ya mbere"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] What does “gĩcicio” refer to in Kikuyu households?",
+      "options": [
+        "Radio",
+        "Mirror",
+        "Pillow",
+        "Fireplace"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] Which item is traditionally used for sweeping the house?",
+      "options": [
+        "Kĩondo",
+        "Kĩhato",
+        "Kĩrato",
+        "Mũgunda"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] In Kikuyu, who is a “Mũgĩkũyũ”?",
+      "options": [
+        "A cook",
+        "A thief",
+        "A Kikuyu person",
+        "A singer"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] What is the correct response to “Thengiu muno”?",
+      "options": [
+        "Nĩwega",
+        "Ngũkũhe",
+        "Ndĩ mwega",
+        "Gũtirĩ tawe"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] Which of the following is NOT a tonal equivocal word in Kikuyu?",
+      "options": [
+        "Tha",
+        "Gĩthima",
+        "Rũgendo",
+        "Rũraaya"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] What Kikuyu word can mean “law,” “trap,” or “method” depending on tone and context?",
+      "options": [
+        "Watho",
+        "Hinya",
+        "Thayu",
+        "Mena"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] What is the best way for a non-native speaker to master Kikuyu tones and vocabulary?",
+      "options": [
+        "Translate English words literally",
+        "Ignore tones as they’re not important",
+        "Memorize dictionary entries",
+        "Practice with native speakers and engage in context-rich conversations"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}

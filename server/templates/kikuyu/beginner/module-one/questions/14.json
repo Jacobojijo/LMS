@@ -1,0 +1,59 @@
+{
+  "title": "Expressing Politeness – Multiple Choice Questions",
+  "description": "Practice expressing politeness in Kikuyu using common phrases and polite forms.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "What Kikuyu word would you use to say “Thank you”?",
+      "options": ["Nĩ Sori", "Thegio", "Ndeithia", "Ndũnyonie"],
+      "answer": "Thegio"
+    },
+    {
+      "question": "How do you politely ask someone to give you something in Kikuyu?",
+      "options": ["Ndũhe...", "Ndekera...", "Nĩ wega...", "Nĩ Sori..."],
+      "answer": "Ndũhe..."
+    },
+    {
+      "question": "Which phrase would you say if you made a mistake and want to apologize?",
+      "options": ["Nĩdĩreda uteithio", "Thegio", "Nĩ Sori", "Aca"],
+      "answer": "Nĩ Sori"
+    },
+    {
+      "question": "What does “Nĩ wega” mean in Kikuyu?",
+      "options": ["Help me", "It’s okay", "Forgive me", "Please give me"],
+      "answer": "It’s okay"
+    },
+    {
+      "question": "How would you say “Please forgive me” in Kikuyu?",
+      "options": ["Ndekera", "Ndũhe", "Nĩ Sori", "Ndikumenyaga"],
+      "answer": "Ndekera"
+    },
+    {
+      "question": "If someone says \"Thegio muno,\" how should you respond politely?",
+      "options": ["Ndũnyonie", "Nĩ wega", "Aca", "Ndekera"],
+      "answer": "Nĩ wega"
+    },
+    {
+      "question": "How do you say “Please help me” in Kikuyu?",
+      "options": ["Ndikumenyaga", "Nĩdĩreda uteithio", "Ndũhe", "Nĩ Sori"],
+      "answer": "Nĩdĩreda uteithio"
+    },
+    {
+      "question": "Which of these means “I didn’t know” in Kikuyu?",
+      "options": ["Ndekera", "Ndikumenyaga", "Nĩ wega", "Nĩ Sori"],
+      "answer": "Ndikumenyaga"
+    },
+    {
+      "question": "Which Kikuyu word is used to refuse something politely?",
+      "options": ["Aca", "Ĩĩ", "Thegio", "Ndũnyonie"],
+      "answer": "Aca"
+    },
+    {
+      "question": "How do you say “Please show me the way” in Kikuyu?",
+      "options": ["Ndũhe njira", "Nĩ Sori", "Ndũnyonie njira", "Ndekera njira"],
+      "answer": "Ndũnyonie njira"
+    }
+  ]
+}

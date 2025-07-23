@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary feature that changes meaning in Kikuyu words like kura and kũra?",
+      "options": [
+        "Verb tense",
+        "Spelling rules",
+        "Tone and vowel length",
+        "Word order"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu, tone and vowel length are phonemic and can significantly change the meaning of a word, as seen in words like 'kura' and 'kũra'."
+    },
+    {
+      "question": "How does vowel elongation affect meaning in Kikuyu?",
+      "options": [
+        "It makes words more polite",
+        "It changes grammatical tense",
+        "It alters the meaning of the word entirely",
+        "It affects sentence structure only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vowel elongation in Kikuyu can change a word’s meaning completely, making it a critical phonological feature."
+    },
+    {
+      "question": "What does the pronunciation [Kùra] indicate in Kikuyu?",
+      "options": [
+        "To vote",
+        "To scratch",
+        "To grow",
+        "To plant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "[Kùra] in Kikuyu means 'to grow', highlighting the role of tonal pronunciation in word meaning."
+    },
+    {
+      "question": "How does [Kũra] differ from [Kura] in pronunciation and meaning?",
+      "options": [
+        "It does not differ",
+        "[Kũra] means 'to scratch,' [Kura] means 'to vote'",
+        "[Kũra] means 'to vote,' [Kura] means 'to cut'",
+        "They are both greetings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "[Kũra] means 'to scratch' while [Kura] means 'to vote', showing how nasalization and tone change meaning."
+    },
+    {
+      "question": "Why is tonal variation crucial in mastering Kikuyu pronunciation?",
+      "options": [
+        "It improves understanding of Swahili",
+        "It helps with sentence stress in English",
+        "It differentiates words that are spelled the same",
+        "It adds rhythm to poems only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tonal variation in Kikuyu helps distinguish words that are otherwise identical in spelling."
+    },
+    {
+      "question": "Which of the following strategies is NOT recommended for learning Kikuyu pronunciation?",
+      "options": [
+        "Using phonetic transcription",
+        "Listening to native speakers",
+        "Ignoring vowel length",
+        "Practicing with contextual phrases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ignoring vowel length is detrimental to learning Kikuyu, as vowel length significantly affects meaning."
+    },
+    {
+      "question": "What role does vowel length play in Kikuyu?",
+      "options": [
+        "It makes speech faster",
+        "It emphasizes emotion only",
+        "It changes word meaning",
+        "It only affects plurals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vowel length plays a semantic role in Kikuyu, often changing the meaning of words."
+    },
+    {
+      "question": "In the case study, what does the pronunciation [Kura] mean?",
+      "options": [
+        "To grow",
+        "To vote",
+        "To scratch",
+        "To eat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the case study, [Kura] means 'to vote', showing the importance of distinguishing similar-sounding words."
+    },
+    {
+      "question": "How can learners best understand tonal meaning in everyday Kikuyu?",
+      "options": [
+        "Memorizing tone charts",
+        "Reading only dictionary definitions",
+        "Listening to isolated words",
+        "Using words in context"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using words in context helps learners grasp tonal distinctions in natural usage."
+    },
+    {
+      "question": "Why is phonetic transcription useful for Kikuyu learners?",
+      "options": [
+        "It shows tone and vowel length clearly",
+        "It replaces listening to native speakers",
+        "It helps write Kikuyu poems only",
+        "It avoids the need for practice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phonetic transcription makes tone and vowel length visually explicit, aiding accurate pronunciation and understanding."
+    }
+  ]
+}

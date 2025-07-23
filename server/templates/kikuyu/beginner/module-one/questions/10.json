@@ -1,0 +1,109 @@
+{
+  "title": "Kikuyu Greetings and Communication – Multiple Choice Questions",
+  "description": "This quiz evaluates understanding of common Kikuyu greetings and polite expressions.",
+  "duration": 30,
+  "passingScore": 70,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "How do you greet one person in the morning in Kikuyu?",
+      "options": [
+        "Mũrĩeega hwainĩ",
+        "Wĩ mwega rũcinĩ",
+        "Wĩ mwega mũthenya",
+        "Komai wega"
+      ],
+      "answer": "Wĩ mwega rũcinĩ"
+    },
+    {
+      "question": "What is the correct response to “Wĩ mwega rũcinĩ”?",
+      "options": [
+        "Nĩwega",
+        "Ndĩ mwega, na we wĩ mwega?",
+        "Komai na thayũ",
+        "Ndĩ mwega mũno"
+      ],
+      "answer": "Ndĩ mwega mũno"
+    },
+    {
+      "question": "Which of these greetings is used during the day (midday)?",
+      "options": [
+        "Wĩ mwega hwainĩ",
+        "Wĩ mwega rũcinĩ",
+        "Mũrĩeega mũthenya",
+        "Komai wega"
+      ],
+      "answer": "Mũrĩeega mũthenya"
+    },
+    {
+      "question": "What does “Komai wega” mean?",
+      "options": [
+        "Good morning",
+        "Goodbye",
+        "Be in peace",
+        "Sleep well (to many people)"
+      ],
+      "answer": "Sleep well (to many people)"
+    },
+    {
+      "question": "What is a proper way to say “Good evening” to one person?",
+      "options": [
+        "Wĩ mwega mũthenya",
+        "Komai wega",
+        "Wĩ mwega hwainĩ",
+        "Wĩ mwega rũcinĩ"
+      ],
+      "answer": "Wĩ mwega hwainĩ"
+    },
+    {
+      "question": "How do you say “We will see each other again” in Kikuyu?",
+      "options": [
+        "Thie na thayũ",
+        "No nyigĩre",
+        "Tũonane rĩngĩ",
+        "Karibu"
+      ],
+      "answer": "Tũonane rĩngĩ"
+    },
+    {
+      "question": "What does “Kurũo na thayũ” mean?",
+      "options": [
+        "Good night",
+        "Be in peace (to one person)",
+        "Go in peace (to many people)",
+        "Thank you"
+      ],
+      "answer": "Be in peace (to one person)"
+    },
+    {
+      "question": "Which expression is a greeting to many people in the evening?",
+      "options": [
+        "Komai wega",
+        "Mũrĩeega mũthenya",
+        "Mũrĩeega hwainĩ",
+        "Kurũo na thayũ"
+      ],
+      "answer": "Mũrĩeega hwainĩ"
+    },
+    {
+      "question": "What is the Kikuyu phrase for “May I come in?”",
+      "options": [
+        "Wĩ mwega?",
+        "Karibu",
+        "Wĩ na thayũ",
+        "No nyigĩre"
+      ],
+      "answer": "No nyigĩre"
+    },
+    {
+      "question": "What does “Karibu” mean in Kikuyu?",
+      "options": [
+        "Be in peace",
+        "Goodbye",
+        "How are you?",
+        "Welcome"
+      ],
+      "answer": "Welcome"
+    }
+  ]
+}

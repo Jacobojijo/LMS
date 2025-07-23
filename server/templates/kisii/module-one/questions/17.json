@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of an Ekegusii abstract noun?",
+      "options": [
+        "Oborabu",
+        "Egetabu",
+        "Egekombe",
+        "Eng’era"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Oborabu' represents an abstract concept, making it an abstract noun in Ekegusii."
+    },
+    {
+      "question": "In Ekegusii, what does the word 'Igoro' mean in the context of Day?",
+      "options": [
+        "Eastward",
+        "Up",
+        "Yesterday",
+        "A place of burial"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Igoro' refers to 'yesterday' in the context of time in Ekegusii."
+    },
+    {
+      "question": "Which of the following words can mean both 'Nose' and 'Machete' in Ekegusii?",
+      "options": [
+        "Emioro",
+        "Igoro",
+        "Erongori",
+        "Amato"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Emioro' is an equivocal word in Ekegusii that can mean either 'nose' or 'machete' depending on context."
+    },
+    {
+      "question": "How does pronunciation affect the meaning of the word 'Emioro' in Ekegusii?",
+      "options": [
+        "It determines if it means 'Respect' or 'cowdung'.",
+        "It distinguishes between 'porridge' and 'condolence money'.",
+        "It differentiates between 'nose' and 'machete'.",
+        "There is no phonetic distinction in meaning."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pronunciation helps differentiate the meanings of 'Emioro' as 'nose' or 'machete'."
+    },
+    {
+      "question": "In what context does 'emeri' mean 'roots' in Ekegusii?",
+      "options": [
+        "When referring to an egg",
+        "When talking about a weapon",
+        "As an imperative form of the verbs",
+        "When describing a boundary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Emeri' means 'roots' when used in the imperative context in Ekegusii."
+    },
+    {
+      "question": "What is the primary linguistic challenge associated with Ekegusii equivocal words?",
+      "options": [
+        "Lack of proper written documentation",
+        "Dependence on pronunciation and context to determine meaning",
+        "The absence of grammatical structure",
+        "Limited vocabulary in the language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Understanding equivocal words in Ekegusii depends heavily on pronunciation and context."
+    },
+    {
+      "question": "Which word can mean both 'to cough' and 'to see' in Ekegusii, depending on pronunciation?",
+      "options": [
+        "Nakororire",
+        "Oboke",
+        "Omogoko",
+        "Rora"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nakororire' can mean either 'to cough' or 'to see' depending on its pronunciation."
+    },
+    {
+      "question": "If someone says 'Okwegena' in a religious discussion, what is the most likely meaning?",
+      "options": [
+        "A boat",
+        "Faith",
+        "To sweep",
+        "A boundary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In religious contexts, 'Okwegena' is interpreted as 'faith'."
+    },
+    {
+      "question": "What strategy is most effective in understanding Ekegusii equivocal words?",
+      "options": [
+        "Memorizing all possible meanings",
+        "Ignoring pronunciation differences",
+        "Practicing in real-life conversations with native speakers",
+        "Avoiding words with multiple meanings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Engaging in real-life conversation with native speakers is the best way to master equivocal word meanings."
+    },
+    {
+      "question": "In Gusii culture, which of the following words refers to both 'Happiness' and 'stingy'?",
+      "options": [
+        "Omogoko",
+        "Yaa",
+        "Rora",
+        "Omokia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omogoko' is an equivocal word in Ekegusii that can mean both 'happiness' and 'stingy'."
+    }
+  ]
+}

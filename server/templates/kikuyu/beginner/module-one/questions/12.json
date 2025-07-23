@@ -1,0 +1,59 @@
+{
+  "title": "Kikuyu Domestic & Household Items – Multiple Choice Questions",
+  "description": "Practice identifying Kikuyu words for household and domestic objects.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "What is the Kikuyu word for \"bucket\"?",
+      "options": ["Kĩtabu", "Ndoo", "Kabati", "Kĩhato"],
+      "answer": "Ndoo"
+    },
+    {
+      "question": "Which item would you use to sit on in a traditional Kikuyu home?",
+      "options": ["Gĩtĩ", "Gĩtanda", "Kĩhato", "Gĩcicio"],
+      "answer": "Gĩtĩ"
+    },
+    {
+      "question": "What is “Gilathi” used for?",
+      "options": ["Washing clothes", "Carrying food", "Drinking liquids", "Sweeping"],
+      "answer": "Drinking liquids"
+    },
+    {
+      "question": "What is the Kikuyu word for \"Farm/Garden\"?",
+      "options": ["Mũgwati", "Mũgũnda", "Kabati", "Nyugu"],
+      "answer": "Mũgũnda"
+    },
+    {
+      "question": "Which of the following is a traditional cooking vessel?",
+      "options": ["Kĩrato", "Ikembe", "Nyugu", "Kalamu"],
+      "answer": "Nyugu"
+    },
+    {
+      "question": "What does \"Gĩcicio\" refer to?",
+      "options": ["A radio", "A chair", "A mirror", "A slipper"],
+      "answer": "A mirror"
+    },
+    {
+      "question": "“Kĩtabu” is used for...",
+      "options": ["Cooking", "Reading and writing", "Sweeping", "Drinking"],
+      "answer": "Reading and writing"
+    },
+    {
+      "question": "Which of the following would be found in a living room?",
+      "options": ["Metha", "Sofa", "Kabati", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "If you are going to clean the compound, which item would you use?",
+      "options": ["Gĩtanda", "Kĩhato", "Redio", "Gilathi"],
+      "answer": "Kĩhato"
+    },
+    {
+      "question": "What item is worn casually around the house?",
+      "options": ["Kĩtabu", "Kĩrato", "Ngurũ", "Mũgwati"],
+      "answer": "Ngurũ"
+    }
+  ]
+}

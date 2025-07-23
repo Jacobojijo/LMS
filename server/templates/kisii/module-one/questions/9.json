@@ -1,0 +1,104 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii translation for 'right now'?",
+      "options": [
+        "Bono",
+        "Bono bono/ Bono iga",
+        "Kare",
+        "Mambia"
+      ],
+      "answer": "Bono bono/ Bono iga"
+    },
+    {
+      "question": "Which term refers to the 'day before yesterday' in Ekegusii?",
+      "options": [
+        "Moisonde",
+        "Igoro",
+        "Mambiy’ende",
+        "Rero"
+      ],
+      "answer": "Moisonde"
+    },
+    {
+      "question": "Which of the following correctly represents the morning in Ekegusii?",
+      "options": [
+        "Omogaka",
+        "Makori",
+        "Maambi",
+        "Mogaso"
+      ],
+      "answer": "Maambi"
+    },
+    {
+      "question": "How would you correctly say 'Later, we will help with the work' in Ekegusii?",
+      "options": [
+        "Kare, ntoche tokonye emeremo",
+        "Kare nkochagocha tore tokore emeremo",
+        "Bono bono twachire tokore emeremo",
+        "Mambia maambi ngocha tore tokore emeremo"
+      ],
+      "answer": "Kare, ntoche tokonye emeremo"
+    },
+    {
+      "question": "What is the correct meaning of 'Chinsa kianda igoro'?",
+      "options": [
+        "Exactly 12 PM",
+        "Exactly 3 PM",
+        "Midnight",
+        "Late evening"
+      ],
+      "answer": "Exactly 3 PM"
+    },
+    {
+      "question": "Which of the following phrases correctly describes 'The day after tomorrow'?",
+      "options": [
+        "Ankio",
+        "Moisonde",
+        "Igoro",
+        "Mambiy’ende"
+      ],
+      "answer": "Mambiy’ende"
+    },
+    {
+      "question": "In Ekegusii, what does 'Mobaso gati' refer to?",
+      "options": [
+        "Early in the morning",
+        "Exactly noon",
+        "Midnight",
+        "Late evening"
+      ],
+      "answer": "Exactly noon"
+    },
+    {
+      "question": "What is the correct sentence structure when expressing time in Ekegusii?",
+      "options": [
+        "Verb + Subject + Time marker",
+        "Time marker + Subject + Verb + Object",
+        "Object + Subject + Verb + Time marker",
+        "Time marker + Object + Subject + Verb"
+      ],
+      "answer": "Time marker + Subject + Verb + Object"
+    },
+    {
+      "question": "If someone says 'Imbwate emeremo emenge bono,' what does it mean?",
+      "options": [
+        "I will have work tomorrow.",
+        "I had a lot of work yesterday.",
+        "I have a lot of work now.",
+        "I will work later."
+      ],
+      "answer": "I have a lot of work now."
+    },
+    {
+      "question": "Which of the following best translates to 'Very early in the morning' in Ekegusii?",
+      "options": [
+        "Omong’ina",
+        "Maambi mambi",
+        "Chinsa kianda",
+        "Mambia"
+      ],
+      "answer": "Maambi mambi"
+    }
+  ]
+}

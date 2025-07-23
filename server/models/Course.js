@@ -33,16 +33,16 @@ const PracticeQuestionSchema = new mongoose.Schema({
   },
 });
 
-// Update to TopicSchema
-const TopicSchema = new mongoose.Schema({
+// New SubtopicSchema
+const SubtopicSchema = new mongoose.Schema({
   title: {
     type: String,
-    required: [true, "Please add a topic title"],
+    required: [true, "Please add a subtopic title"],
     trim: true,
   },
   htmlContent: {
     type: String,
-    required: [true, "Please upload HTML content for this topic"],
+    required: [true, "Please upload HTML content for this subtopic"],
   },
   order: {
     type: Number,
@@ -52,6 +52,32 @@ const TopicSchema = new mongoose.Schema({
   passingScore: {
     type: Number,
     default: 50, // 50% passing score for practice questions
+    min: 0,
+    max: 100,
+  },
+});
+
+// Updated TopicSchema to include subtopics
+const TopicSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: [true, "Please add a topic title"],
+    trim: true,
+  },
+  description: {
+    type: String,
+    required: false,
+  },
+  order: {
+    type: Number,
+    required: true,
+  },
+  subtopics: [SubtopicSchema],
+  // Optional: Topic-level practice questions that cover all subtopics
+  practiceQuestions: [PracticeQuestionSchema],
+  passingScore: {
+    type: Number,
+    default: 50, // 50% passing score for topic-level practice questions
     min: 0,
     max: 100,
   },
@@ -200,6 +226,27 @@ CourseSchema.methods.hasModuleAccess = async function (userId, moduleId) {
     enrollment.moduleAccess.length === 0 ||
     enrollment.moduleAccess.includes(moduleId)
   );
+};
+
+// Helper method to get all subtopics in a course
+CourseSchema.methods.getAllSubtopics = function() {
+  const subtopics = [];
+  this.modules.forEach(module => {
+    module.topics.forEach(topic => {
+      topic.subtopics.forEach(subtopic => {
+        subtopics.push({
+          moduleId: module._id,
+          moduleTitle: module.title,
+          topicId: topic._id,
+          topicTitle: topic.title,
+          subtopicId: subtopic._id,
+          subtopicTitle: subtopic.title,
+          order: subtopic.order
+        });
+      });
+    });
+  });
+  return subtopics;
 };
 
 module.exports = mongoose.model("Course", CourseSchema);

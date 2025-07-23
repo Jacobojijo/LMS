@@ -1,0 +1,59 @@
+{
+  "title": "Kikuyu Titles of the People – Multiple Choice Questions",
+  "description": "Practice understanding Kikuyu terms for various titles and roles in society.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "What is the Kikuyu title for a traditional chief or king?",
+      "options": ["Mũkũrũ", "Mũthamaki", "Mũthigari", "Mũrutwo"],
+      "answer": "Mũthamaki"
+    },
+    {
+      "question": "Which Kikuyu title is used for a respected elder?",
+      "options": ["Mũtumia", "Mũrata", "Mũkũrũ", "Mũno"],
+      "answer": "Mũkũrũ"
+    },
+    {
+      "question": "What does \"Mutongoria mũnene\" refer to in Kikuyu?",
+      "options": ["News reader", "Watchman", "President or head of government", "Lawyer"],
+      "answer": "President or head of government"
+    },
+    {
+      "question": "Which title is used to refer to a young man?",
+      "options": ["Kĩhii", "Mũthoni", "Mũrutani", "Mũhoti"],
+      "answer": "Kĩhii"
+    },
+    {
+      "question": "Who is a \"Mũrĩmũ wa ũhoro\" in Kikuyu?",
+      "options": ["Soldier", "Teacher", "News reader", "Secretary"],
+      "answer": "News reader"
+    },
+    {
+      "question": "What title is used for a married woman in Kikuyu?",
+      "options": ["Mũhindi", "Mũtumia mũrata", "Mũcemanĩ", "Mũrutwo"],
+      "answer": "Mũtumia mũrata"
+    },
+    {
+      "question": "Which title is used for someone who teaches students?",
+      "options": ["Mũcunjĩ wa mbeca", "Injĩnia", "Mwarimũ or Mũrutani", "Mũgo"],
+      "answer": "Mwarimũ or Mũrutani"
+    },
+    {
+      "question": "What does “Mũcemanĩ” mean?",
+      "options": ["Lawyer", "Messenger", "Treasurer", "Herbalist"],
+      "answer": "Messenger"
+    },
+    {
+      "question": "Which title would a Kikuyu speaker use to refer to a friend?",
+      "options": ["Mũno", "Mũrata", "Mũtharitũ", "Mũtumia"],
+      "answer": "Mũrata"
+    },
+    {
+      "question": "What does “Wamũkũrũ” refer to when used casually?",
+      "options": ["Staff or worker", "Elders", "Police", "Engineer"],
+      "answer": "Elders"
+    }
+  ]
+}
