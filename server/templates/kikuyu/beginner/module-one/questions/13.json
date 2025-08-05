@@ -1,59 +1,114 @@
 {
-  "title": "Kikuyu Titles of the People – Multiple Choice Questions",
-  "description": "Practice understanding Kikuyu terms for various titles and roles in society.",
-  "duration": 60,
-  "passingScore": 50,
-  "maxAttempts": 3,
-  "questions": [
+  "practiceQuestions": [
     {
       "question": "What is the Kikuyu title for a traditional chief or king?",
-      "options": ["Mũkũrũ", "Mũthamaki", "Mũthigari", "Mũrutwo"],
-      "answer": "Mũthamaki"
+      "options": [
+        "Mũkũrũ",
+        "Mũthamaki",
+        "Mũthigari",
+        "Mũrutwo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũthamaki' is the Kikuyu title for a traditional chief or king."
     },
     {
       "question": "Which Kikuyu title is used for a respected elder?",
-      "options": ["Mũtumia", "Mũrata", "Mũkũrũ", "Mũno"],
-      "answer": "Mũkũrũ"
+      "options": [
+        "Mũtumia",
+        "Mũrata",
+        "Mũkũrũ",
+        "Mũno"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũkũrũ' is the Kikuyu term for a respected elder."
     },
     {
-      "question": "What does \"Mutongoria mũnene\" refer to in Kikuyu?",
-      "options": ["News reader", "Watchman", "President or head of government", "Lawyer"],
-      "answer": "President or head of government"
+      "question": "What does 'Mutongoria mũnene' refer to in Kikuyu?",
+      "options": [
+        "News reader",
+        "Watchman",
+        "President or head of government",
+        "Lawyer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mutongoria mũnene' refers to the president or head of government in Kikuyu."
     },
     {
       "question": "Which title is used to refer to a young man?",
-      "options": ["Kĩhii", "Mũthoni", "Mũrutani", "Mũhoti"],
-      "answer": "Kĩhii"
+      "options": [
+        "Kĩhii",
+        "Mũthoni",
+        "Mũrutani",
+        "Mũhoti"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kĩhii' is the title used for a young man in Kikuyu."
     },
     {
-      "question": "Who is a \"Mũrĩmũ wa ũhoro\" in Kikuyu?",
-      "options": ["Soldier", "Teacher", "News reader", "Secretary"],
-      "answer": "News reader"
+      "question": "Who is a 'Mũrĩmũ wa ũhoro' in Kikuyu?",
+      "options": [
+        "Soldier",
+        "Teacher",
+        "News reader",
+        "Secretary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũrĩmũ wa ũhoro' literally means a news reader in Kikuyu."
     },
     {
       "question": "What title is used for a married woman in Kikuyu?",
-      "options": ["Mũhindi", "Mũtumia mũrata", "Mũcemanĩ", "Mũrutwo"],
-      "answer": "Mũtumia mũrata"
+      "options": [
+        "Mũhindi",
+        "Mũtumia mũrata",
+        "Mũcemanĩ",
+        "Mũrutwo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũtumia mũrata' is the title for a married woman in Kikuyu."
     },
     {
       "question": "Which title is used for someone who teaches students?",
-      "options": ["Mũcunjĩ wa mbeca", "Injĩnia", "Mwarimũ or Mũrutani", "Mũgo"],
-      "answer": "Mwarimũ or Mũrutani"
+      "options": [
+        "Mũcunjĩ wa mbeca",
+        "Injĩnia",
+        "Mwarimũ or Mũrutani",
+        "Mũgo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mwarimũ' or 'Mũrutani' refers to a teacher in Kikuyu."
     },
     {
-      "question": "What does “Mũcemanĩ” mean?",
-      "options": ["Lawyer", "Messenger", "Treasurer", "Herbalist"],
-      "answer": "Messenger"
+      "question": "What does 'Mũcemanĩ' mean?",
+      "options": [
+        "Lawyer",
+        "Messenger",
+        "Treasurer",
+        "Herbalist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũcemanĩ' means a messenger in Kikuyu."
     },
     {
       "question": "Which title would a Kikuyu speaker use to refer to a friend?",
-      "options": ["Mũno", "Mũrata", "Mũtharitũ", "Mũtumia"],
-      "answer": "Mũrata"
+      "options": [
+        "Mũno",
+        "Mũrata",
+        "Mũtharitũ",
+        "Mũtumia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũrata' is the Kikuyu word for a friend."
     },
     {
-      "question": "What does “Wamũkũrũ” refer to when used casually?",
-      "options": ["Staff or worker", "Elders", "Police", "Engineer"],
-      "answer": "Elders"
+      "question": "What does 'Wamũkũrũ' refer to when used casually?",
+      "options": [
+        "Staff or worker",
+        "Elders",
+        "Police",
+        "Engineer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wamũkũrũ' is a casual reference to elders in Kikuyu."
     }
   ]
 }

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the meaning of the term 'Jumatatu' in the Kipsigis weekly calendar?",
+      "options": [
+        "The day of rest and worship",
+        "The first day of work",
+        "The last day of the week",
+        "The day for visiting the market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Jumatatu' corresponds to Monday, considered the first day of work in the Kipsigis weekly calendar."
+    },
+    {
+      "question": "Why is Saturday called 'Juma mos' in the Kipsigis calendar?",
+      "options": [
+        "It is the day when people start work",
+        "It is the day for communal prayers",
+        "It is named after the Swahili word 'mosi'",
+        "It is the day when people travel to visit relatives"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Juma mos' comes from Swahili 'Jumamosi' (Saturday), where 'mosi' means 'first', indicating it precedes Sunday."
+    },
+    {
+      "question": "What is the Kipsigis name for the ninth month of the year?",
+      "options": [
+        "Arawetab Oeng",
+        "Arawet ab Sogol",
+        "Arawet ab Tisap",
+        "Arawet ab Taman"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Arawet ab Sogol' is the Kipsigis name for the ninth month, meaning 'Month of Nine'."
+    },
+    {
+      "question": "What does 'Kasitab mut' (Friday) signify in the Kipsigis calendar?",
+      "options": [
+        "The third day of work",
+        "The fifth day of work",
+        "The day of rest before the weekend",
+        "The day for traditional ceremonies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kasitab mut' means 'Friday' and aligns with the fifth day of the working week."
+    },
+    {
+      "question": "Which month in the Kipsigis calendar is associated with intense cold?",
+      "options": [
+        "Arawet netai",
+        "Arawet ab Sisit",
+        "Arawet ab Tisab",
+        "Arawet ab Oeng"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Arawet ab Tisab' (Month of Ten) typically falls during a cold season in Kipsigis territory."
+    },
+    {
+      "question": "What is the primary cultural significance of 'Jumampili' (Sunday) in the Kipsigis calendar?",
+      "options": [
+        "It is a day for farming",
+        "It is a market day",
+        "It is a day of prayer and rest",
+        "It marks the beginning of a new month"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Jumampili' (Sunday) is recognized as a day of worship and rest among the Kipsigis, reflecting religious influence."
+    },
+    {
+      "question": "What does 'Arawet ab taman ak oeng' refer to in the Kipsigis calendar?",
+      "options": [
+        "The eleventh month of the year",
+        "The twelfth month of the year",
+        "The tenth month of the year",
+        "The beginning of the dry season"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Arawet ab taman ak oeng' means 'Month of Eleven', referring to the eleventh month in the calendar year."
+    },
+    {
+      "question": "Which day is referred to as 'Kasitab oeng'' in Kipsigis?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kasitab oeng'' is Tuesday in the Kipsigis calendar, derived from the second workday."
+    },
+    {
+      "question": "In traditional Kipsigis society, how was the week structured?",
+      "options": [
+        "It had 5 days of work and 2 rest days",
+        "It followed a 10-day cycle",
+        "It was based on agricultural tasks, not fixed days",
+        "It had 6 days of work and 1 rest day"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Traditional Kipsigis weeks had six workdays and one rest day, aligning with communal and religious practices."
+    },
+    {
+      "question": "What does 'Arawet ab netai' represent in the Kipsigis calendar?",
+      "options": [
+        "First month of the year",
+        "Last month of the year",
+        "Middle month of the year",
+        "The coldest month of the year"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Arawet ab netai' refers to the first month of the year, derived from 'netai' meaning 'first'."
+    }
+  ]
+}

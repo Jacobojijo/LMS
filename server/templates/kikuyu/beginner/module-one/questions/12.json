@@ -1,59 +1,114 @@
 {
-  "title": "Kikuyu Domestic & Household Items – Multiple Choice Questions",
-  "description": "Practice identifying Kikuyu words for household and domestic objects.",
-  "duration": 60,
-  "passingScore": 50,
-  "maxAttempts": 3,
-  "questions": [
+  "practiceQuestions": [
     {
-      "question": "What is the Kikuyu word for \"bucket\"?",
-      "options": ["Kĩtabu", "Ndoo", "Kabati", "Kĩhato"],
-      "answer": "Ndoo"
+      "question": "What is the Kikuyu word for 'bucket'?",
+      "options": [
+        "Kĩtabu",
+        "Ndoo",
+        "Kabati",
+        "Kĩhato"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ndoo' is the Kikuyu term for a bucket."
     },
     {
       "question": "Which item would you use to sit on in a traditional Kikuyu home?",
-      "options": ["Gĩtĩ", "Gĩtanda", "Kĩhato", "Gĩcicio"],
-      "answer": "Gĩtĩ"
+      "options": [
+        "Gĩtĩ",
+        "Gĩtanda",
+        "Kĩhato",
+        "Gĩcicio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Gĩtĩ' is a chair used for sitting in a traditional Kikuyu home."
     },
     {
-      "question": "What is “Gilathi” used for?",
-      "options": ["Washing clothes", "Carrying food", "Drinking liquids", "Sweeping"],
-      "answer": "Drinking liquids"
+      "question": "What is 'Gilathi' used for?",
+      "options": [
+        "Washing clothes",
+        "Carrying food",
+        "Drinking liquids",
+        "Sweeping"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gilathi' is a container or cup used for drinking liquids."
     },
     {
-      "question": "What is the Kikuyu word for \"Farm/Garden\"?",
-      "options": ["Mũgwati", "Mũgũnda", "Kabati", "Nyugu"],
-      "answer": "Mũgũnda"
+      "question": "What is the Kikuyu word for 'Farm/Garden'?",
+      "options": [
+        "Mũgwati",
+        "Mũgũnda",
+        "Kabati",
+        "Nyugu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũgũnda' is the Kikuyu term for a farm or garden."
     },
     {
       "question": "Which of the following is a traditional cooking vessel?",
-      "options": ["Kĩrato", "Ikembe", "Nyugu", "Kalamu"],
-      "answer": "Nyugu"
+      "options": [
+        "Kĩrato",
+        "Ikembe",
+        "Nyugu",
+        "Kalamu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nyugu' is the traditional cooking pot used in Kikuyu homes."
     },
     {
-      "question": "What does \"Gĩcicio\" refer to?",
-      "options": ["A radio", "A chair", "A mirror", "A slipper"],
-      "answer": "A mirror"
+      "question": "What does 'Gĩcicio' refer to?",
+      "options": [
+        "A radio",
+        "A chair",
+        "A mirror",
+        "A slipper"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gĩcicio' is the Kikuyu word for a mirror."
     },
     {
-      "question": "“Kĩtabu” is used for...",
-      "options": ["Cooking", "Reading and writing", "Sweeping", "Drinking"],
-      "answer": "Reading and writing"
+      "question": "‘Kĩtabu’ is used for...",
+      "options": [
+        "Cooking",
+        "Reading and writing",
+        "Sweeping",
+        "Drinking"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kĩtabu' is a book used for reading and writing."
     },
     {
       "question": "Which of the following would be found in a living room?",
-      "options": ["Metha", "Sofa", "Kabati", "All of the above"],
-      "answer": "All of the above"
+      "options": [
+        "Metha",
+        "Sofa",
+        "Kabati",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A living room may have a table (Metha), a sofa, and a cabinet (Kabati)."
     },
     {
       "question": "If you are going to clean the compound, which item would you use?",
-      "options": ["Gĩtanda", "Kĩhato", "Redio", "Gilathi"],
-      "answer": "Kĩhato"
+      "options": [
+        "Gĩtanda",
+        "Kĩhato",
+        "Redio",
+        "Gilathi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kĩhato' is a broom used to clean the compound."
     },
     {
       "question": "What item is worn casually around the house?",
-      "options": ["Kĩtabu", "Kĩrato", "Ngurũ", "Mũgwati"],
-      "answer": "Ngurũ"
+      "options": [
+        "Kĩtabu",
+        "Kĩrato",
+        "Ngurũ",
+        "Mũgwati"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ngurũ' refers to slippers or casual footwear worn around the house."
     }
   ]
 }

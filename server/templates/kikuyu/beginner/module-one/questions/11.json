@@ -1,59 +1,114 @@
 {
-  "title": "Kikuyu Kinship and Family Terminology – Multiple Choice Questions",
-  "description": "Practice identifying Kikuyu words used for family members and relatives.",
-  "duration": 60,
-  "passingScore": 50,
-  "maxAttempts": 3,
-  "questions": [
+  "practiceQuestions": [
     {
-      "question": "What is the Kikuyu term for \"mother\"?",
-      "options": ["Maitũ", "Cũcũ", "Tata", "Mwarĩ"],
-      "answer": "Maitũ"
+      "question": "What is the Kikuyu term for 'mother'?",
+      "options": [
+        "Maitũ",
+        "Cũcũ",
+        "Tata",
+        "Mwarĩ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Maitũ' is the Kikuyu word for 'mother'."
     },
     {
-      "question": "Which of the following means “grandmother” in Kikuyu?",
-      "options": ["Gũkũ", "Maitũ", "Cũcũ", "Nyaciara"],
-      "answer": "Cũcũ"
+      "question": "Which of the following means 'grandmother' in Kikuyu?",
+      "options": [
+        "Gũkũ",
+        "Maitũ",
+        "Cũcũ",
+        "Nyaciara"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Cũcũ' is the Kikuyu term for 'grandmother'."
     },
     {
       "question": "“Mwarĩ wa tata” refers to which relative?",
-      "options": ["Daughter", "Female cousin", "Niece", "Aunt"],
-      "answer": "Female cousin"
+      "options": [
+        "Daughter",
+        "Female cousin",
+        "Niece",
+        "Aunt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mwarĩ wa tata' literally means 'father's daughter,' referring to a female cousin."
     },
     {
       "question": "What is the correct Kikuyu term for a sister-in-law?",
-      "options": ["Mwarĩ wa nyina", "Maramu", "Wamũgongo", "Nyaciara"],
-      "answer": "Maramu"
+      "options": [
+        "Mwarĩ wa nyina",
+        "Maramu",
+        "Wamũgongo",
+        "Nyaciara"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Maramu' is the Kikuyu term for a sister-in-law."
     },
     {
-      "question": "The Kikuyu term “Tūcūkūrū” refers to:",
-      "options": ["Grandchildren", "Great-grandchildren", "Great-great-grandchildren", "Cousins"],
-      "answer": "Great-grandchildren"
+      "question": "The Kikuyu term 'Tūcūkūrū' refers to:",
+      "options": [
+        "Grandchildren",
+        "Great-grandchildren",
+        "Great-great-grandchildren",
+        "Cousins"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Tūcūkūrū' means 'great-grandchildren' in Kikuyu."
     },
     {
-      "question": "Who is called “Baba Mūkūrū” in Kikuyu culture?",
-      "options": ["Your grandfather", "Your mother's younger brother", "Your father's older brother", "Your aunt’s husband"],
-      "answer": "Your father's older brother"
+      "question": "Who is called 'Baba Mūkūrū' in Kikuyu culture?",
+      "options": [
+        "Your grandfather",
+        "Your mother's younger brother",
+        "Your father's older brother",
+        "Your aunt’s husband"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Baba Mūkūrū' refers to your father's elder brother in Kikuyu kinship."
     },
     {
-      "question": "What does the term “Nyakīambūri” mean in Kikuyu kinship?",
-      "options": ["First wife", "Second wife", "Grandmother", "Daughter-in-law"],
-      "answer": "Second wife"
+      "question": "What does the term 'Nyakīambūri' mean in Kikuyu kinship?",
+      "options": [
+        "First wife",
+        "Second wife",
+        "Grandmother",
+        "Daughter-in-law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nyakīambūri' is the term for the second wife in Kikuyu culture."
     },
     {
-      "question": "Which Kikuyu term means “I am your nephew”?",
-      "options": ["Mũihwa", "Mũriũ", "Mũrũ wa nyina", "Mũrũ wa tata"],
-      "answer": "Mũihwa"
+      "question": "Which Kikuyu term means 'I am your nephew'?",
+      "options": [
+        "Mũihwa",
+        "Mũriũ",
+        "Mũrũ wa nyina",
+        "Mũrũ wa tata"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Mũihwa' is used by a male to indicate he is someone's nephew."
     },
     {
-      "question": "What is the Kikuyu word for “great-great-grandchildren”?",
-      "options": ["Tūcūcū", "Tūcūkūrū", "Cūkūrūkū", "Gũkũ"],
-      "answer": "Cūkūrūkū"
+      "question": "What is the Kikuyu word for 'great-great-grandchildren'?",
+      "options": [
+        "Tūcūcū",
+        "Tūcūkūrū",
+        "Cūkūrūkū",
+        "Gũkũ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Cūkūrūkū' is the Kikuyu word for great-great-grandchildren."
     },
     {
-      "question": "The term “Wamũgongo” refers to which in-law?",
-      "options": ["Sister-in-law", "Father-in-law", "Brother-in-law", "Uncle"],
-      "answer": "Brother-in-law"
+      "question": "The term 'Wamũgongo' refers to which in-law?",
+      "options": [
+        "Sister-in-law",
+        "Father-in-law",
+        "Brother-in-law",
+        "Uncle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Wamũgongo' refers to a brother-in-law in Kikuyu kinship."
     }
   ]
 }

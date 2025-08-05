@@ -1,0 +1,44 @@
+{
+  "title": "Kikuyu Language Course for Beginners",
+  "structure": "course-structure.html",
+  "modules": [
+    {
+      "title": "MODULE 01",
+      "description": "Kikuyu Alphabet, Basic Greetings, and Vocabulary",
+      "order": 1,
+      "topics": [
+        {
+          "title": "1.1 Introduction to Kikuyu and Agikuyu",
+          "type": "standalone",
+          "order": 1,
+          "htmlContent": "kikuyu/beginner/module-one/1.html",
+          "passingScore": 50
+        },
+
+        {
+          "title": "1.2 Pronunciation and Alphabets",
+          "type": "container",
+          "order": 2,
+          "subtopics": [
+            {
+              "title": "Variables and Functions",
+              "htmlContent": "kikuyu/beginner/module-one/1.html",
+              "order": 1,
+              "practiceQuestions": "",
+              "passingScore": 50
+            },
+            {
+              "title": "DOM Manipulation",
+              "htmlContent": "js-dom.html",
+              "order": 2,
+              "practiceQuestions": "",
+              "passingScore": 50
+            }
+          ]
+        }
+      ],
+      "cat": ""
+    }
+  ],
+  "isPublished": true
+}

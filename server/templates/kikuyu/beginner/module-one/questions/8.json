@@ -1,29 +1,26 @@
 {
-  "title": "Kikuyu Time-Related Concepts – Multiple Choice Questions",
-  "description": "This quiz assesses understanding of Kikuyu time-related vocabulary and expressions.",
-  "duration": 30,
-  "passingScore": 70,
-  "maxAttempts": 3,
-  "questions": [
+  "practiceQuestions": [
     {
-      "question": "What is the Kikuyu word for “morning”?",
+      "question": "What is the Kikuyu word for 'morning'?",
       "options": [
         "Hwainĩ",
         "Rũciinĩ",
         "Ũtukũ",
         "Ũmũthĩ"
       ],
-      "answer": "Rũciinĩ"
+      "correctAnswer": 1,
+      "explanation": "'Rũciinĩ' is the Kikuyu word for morning."
     },
     {
-      "question": "Which phrase means “the day after tomorrow” in Kikuyu?",
+      "question": "Which phrase means 'the day after tomorrow' in Kikuyu?",
       "options": [
         "Ũmũthĩ",
         "Rũciinĩ rwa kũgũrũka",
         "Oke",
         "Rũcio"
       ],
-      "answer": "Rũciinĩ rwa kũgũrũka"
+      "correctAnswer": 1,
+      "explanation": "'Rũciinĩ rwa kũgũrũka' means 'the day after tomorrow' in Kikuyu."
     },
     {
       "question": "“Ira” in Kikuyu means:",
@@ -33,77 +30,85 @@
         "Yesterday",
         "Evening"
       ],
-      "answer": "Yesterday"
+      "correctAnswer": 2,
+      "explanation": "'Ira' in Kikuyu refers to 'yesterday'."
     },
     {
-      "question": "How do you say “Now” in Kikuyu?",
+      "question": "How do you say 'Now' in Kikuyu?",
       "options": [
         "Thaa ici",
         "Thaa inge",
         "Rũciinĩ",
         "Gatagatĩ ka mũthenya"
       ],
-      "answer": "Thaa ici"
+      "correctAnswer": 0,
+      "explanation": "'Thaa ici' translates to 'now' in Kikuyu."
     },
     {
-      "question": "What time of day does “Hwainĩ” refer to?",
+      "question": "What time of day does 'Hwainĩ' refer to?",
       "options": [
         "Morning",
         "Midday",
         "Evening",
         "Night"
       ],
-      "answer": "Evening"
+      "correctAnswer": 2,
+      "explanation": "'Hwainĩ' in Kikuyu refers to the evening time."
     },
     {
-      "question": "Which of the following one does not refer to time of the day",
+      "question": "Which of the following does not refer to time of the day?",
       "options": [
         "Ũtukũ",
         "Hwainĩ",
         "Ira",
         "Mũthenya"
       ],
-      "answer": "Ira"
+      "correctAnswer": 2,
+      "explanation": "'Ira' means 'yesterday', which is a day reference, not a time of day."
     },
     {
-      "question": "Which of the following means “now” in Kikuyu?",
+      "question": "Which of the following means 'now' in Kikuyu?",
       "options": [
         "Thaa inge",
         "Thaa ici",
         "Rũciinĩ",
         "Ira"
       ],
-      "answer": "Thaa ici"
+      "correctAnswer": 1,
+      "explanation": "'Thaa ici' is the Kikuyu phrase for 'now'."
     },
     {
-      "question": "What is the Kikuyu word for “night”?",
+      "question": "What is the Kikuyu word for 'night'?",
       "options": [
         "Gatagatĩ ka mũthenya",
         "Hwainĩ",
         "Ũtukũ",
         "Ũmũthĩ"
       ],
-      "answer": "Ũtukũ"
+      "correctAnswer": 2,
+      "explanation": "'Ũtukũ' is the Kikuyu term for 'night'."
     },
     {
-      "question": "Which Kikuyu phrase best fits this sentence: “__________, tũgĩambĩra gũtũma.” (The day after tomorrow, we will begin planting)",
+      "question": "Which Kikuyu phrase best fits this sentence: '__________, tũgĩambĩra gũtũma.' (The day after tomorrow, we will begin planting)",
       "options": [
         "Rũcio",
         "Rũciinĩ rwa kũgũrũka",
         "Oke",
         "Thaa inge"
       ],
-      "answer": "Rũciinĩ rwa kũgũrũka"
+      "correctAnswer": 1,
+      "explanation": "'Rũciinĩ rwa kũgũrũka' correctly expresses 'the day after tomorrow'."
     },
     {
-      "question": "What kind of weather is usually described at “Gatagatĩ ka mũthenya”?",
+      "question": "What kind of weather is usually described at 'Gatagatĩ ka mũthenya'?",
       "options": [
         "Fog and cold",
         "Heavy rain",
         "Bright sunshine",
         "Strong wind"
       ],
-      "answer": "Bright sunshine"
+      "correctAnswer": 2,
+      "explanation": "'Gatagatĩ ka mũthenya' refers to midday, which is typically bright and sunny."
     }
   ]
 }

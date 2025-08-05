@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "How are ordinal numbers in Kipsigis generally formed?",
+      "options": [
+        "By adding the prefix 'ata' to cardinal numbers",
+        "By using the suffix 'any' with cardinal numbers",
+        "By adding the prefix 'nebo' to cardinal numbers",
+        "By using only unique words unrelated to cardinal numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ordinal numbers in Kipsigis are typically formed by adding the prefix 'nebo' to the corresponding cardinal number."
+    },
+    {
+      "question": "What is the Kipsigis word for 'First'?",
+      "options": [
+        "Neletu",
+        "Nebo agenge/Netai",
+        "Netaai",
+        "Nerube"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Netaai' is the Kipsigis word for 'first' and is an exception to the 'nebo' pattern."
+    },
+    {
+      "question": "Which of the following represents the fifth position in Kipsigis?",
+      "options": [
+        "Nebo ang’wan",
+        "Nebo muut",
+        "Nebo somok",
+        "Nebo lo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ordinal form of 'muut' (five) is 'nebo muut', meaning 'fifth'."
+    },
+    {
+      "question": "In Kipsigis, which ordinal number is used in the sentence: 'Nebo somok aweche kongoi en bwanuneng’wong’'?",
+      "options": [
+        "First",
+        "Seventh",
+        "Third",
+        "Tenth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nebo somok' means 'third', and it is used to express the third position in a sequence."
+    },
+    {
+      "question": "Which of the following is NOT a correct characteristic of ordinal numbers in Kipsigis?",
+      "options": [
+        "They are formed by adding 'nebo' to a cardinal number",
+        "They indicate sequence and ranking",
+        "'Netai' is an exception and not derived from a cardinal number",
+        "They are used for counting objects"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ordinal numbers indicate order, not quantity, so they are not used for counting objects."
+    },
+    {
+      "question": "What is the correct Kipsigis translation for 'The second child is sick'?",
+      "options": [
+        "Mioni lakweet netaai",
+        "Mioni lakweet nebo muut",
+        "Mioni lakweet nebo oeng’",
+        "Mioni lakweet nebo somok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nebo oeng’' indicates 'second', so 'Mioni lakweet nebo oeng’' translates to 'The second child is sick'."
+    },
+    {
+      "question": "Which of the following represents the eighth in Kipsigis?",
+      "options": [
+        "Nebo sisit",
+        "Nebo somok",
+        "Nebo lo",
+        "Nebo ang’wan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nebo sisit' is the correct form of 'eighth' in Kipsigis."
+    },
+    {
+      "question": "What is the last ordinal number in Kipsigis?",
+      "options": [
+        "Netaai",
+        "Neletu",
+        "Nebo agenge",
+        "Nebo taman"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Neletu' is used to denote the last item in a sequence in Kipsigis."
+    },
+    {
+      "question": "Which of the following best explains the function of 'nebo' in Kipsigis ordinal numbers?",
+      "options": [
+        "It emphasizes ownership of objects",
+        "It connects the ordinal number to its cardinal base",
+        "It is a standalone number",
+        "It represents a specific type of number unrelated to counting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nebo' functions as a linking prefix that connects ordinal forms to their corresponding cardinal roots."
+    },
+    {
+      "question": "In Kipsigis, how would you correctly express 'The fourth leader is speaking'?",
+      "options": [
+        "Ng’olole kandoindet nebo ang’wan",
+        "Ng’olole kandoindet nebo somok",
+        "Ng’olole kandoindet nebo tisab",
+        "Ng’olole kandoindet netaai"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nebo ang’wan' means 'fourth', making the correct sentence: 'Ng’olole kandoindet nebo ang’wan'."
+    }
+  ]
+}

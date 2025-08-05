@@ -33,7 +33,7 @@ const PracticeQuestionSchema = new mongoose.Schema({
   },
 });
 
-// New SubtopicSchema
+// SubtopicSchema - for topics that have multiple subtopics
 const SubtopicSchema = new mongoose.Schema({
   title: {
     type: String,
@@ -57,7 +57,7 @@ const SubtopicSchema = new mongoose.Schema({
   },
 });
 
-// Updated TopicSchema to include subtopics
+// Updated TopicSchema - can either have subtopics OR be standalone with content
 const TopicSchema = new mongoose.Schema({
   title: {
     type: String,
@@ -72,15 +72,79 @@ const TopicSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
-  subtopics: [SubtopicSchema],
-  // Optional: Topic-level practice questions that cover all subtopics
+  // Topic type: 'standalone' for single topics with content, 'container' for topics with subtopics
+  type: {
+    type: String,
+    enum: ['standalone', 'container'],
+    required: true,
+    default: 'container'
+  },
+  
+  // For standalone topics - same content structure as subtopics
+  htmlContent: {
+    type: String,
+    required: function() {
+      return this.type === 'standalone';
+    },
+    validate: {
+      validator: function(v) {
+        // If type is standalone, htmlContent is required
+        if (this.type === 'standalone') {
+          return v && v.trim().length > 0;
+        }
+        // If type is container, htmlContent should be empty or null
+        return !v || v.trim().length === 0;
+      },
+      message: "Standalone topics must have HTML content, container topics should not"
+    }
+  },
+  
+  // For container topics - array of subtopics
+  subtopics: {
+    type: [SubtopicSchema],
+    validate: {
+      validator: function(v) {
+        // If type is container, must have at least one subtopic
+        if (this.type === 'container') {
+          return v && v.length > 0;
+        }
+        // If type is standalone, should have no subtopics
+        return !v || v.length === 0;
+      },
+      message: "Container topics must have subtopics, standalone topics should not"
+    }
+  },
+  
+  // Practice questions - can exist on both standalone and container topics
   practiceQuestions: [PracticeQuestionSchema],
   passingScore: {
     type: Number,
-    default: 50, // 50% passing score for topic-level practice questions
+    default: 50, // 50% passing score for practice questions
     min: 0,
     max: 100,
   },
+});
+
+// Add validation to ensure topic structure consistency
+TopicSchema.pre('validate', function(next) {
+  if (this.type === 'standalone') {
+    // Standalone topics should have content but no subtopics
+    if (!this.htmlContent || this.htmlContent.trim().length === 0) {
+      return next(new Error('Standalone topics must have HTML content'));
+    }
+    if (this.subtopics && this.subtopics.length > 0) {
+      return next(new Error('Standalone topics cannot have subtopics'));
+    }
+  } else if (this.type === 'container') {
+    // Container topics should have subtopics but no direct content
+    if (!this.subtopics || this.subtopics.length === 0) {
+      return next(new Error('Container topics must have at least one subtopic'));
+    }
+    if (this.htmlContent && this.htmlContent.trim().length > 0) {
+      return next(new Error('Container topics should not have direct HTML content'));
+    }
+  }
+  next();
 });
 
 // CAT Schema (Continuous Assessment Test - multiple choice)
@@ -228,25 +292,71 @@ CourseSchema.methods.hasModuleAccess = async function (userId, moduleId) {
   );
 };
 
-// Helper method to get all subtopics in a course
-CourseSchema.methods.getAllSubtopics = function() {
-  const subtopics = [];
+// Updated helper method to get all content items (topics and subtopics) in a course
+CourseSchema.methods.getAllContentItems = function() {
+  const contentItems = [];
+  
   this.modules.forEach(module => {
     module.topics.forEach(topic => {
-      topic.subtopics.forEach(subtopic => {
-        subtopics.push({
+      if (topic.type === 'standalone') {
+        // Add standalone topic as a content item
+        contentItems.push({
           moduleId: module._id,
           moduleTitle: module.title,
           topicId: topic._id,
           topicTitle: topic.title,
-          subtopicId: subtopic._id,
-          subtopicTitle: subtopic.title,
-          order: subtopic.order
+          contentType: 'topic',
+          order: topic.order,
+          htmlContent: topic.htmlContent,
+          practiceQuestions: topic.practiceQuestions
         });
+      } else if (topic.type === 'container') {
+        // Add each subtopic as a content item
+        topic.subtopics.forEach(subtopic => {
+          contentItems.push({
+            moduleId: module._id,
+            moduleTitle: module.title,
+            topicId: topic._id,
+            topicTitle: topic.title,
+            subtopicId: subtopic._id,
+            subtopicTitle: subtopic.title,
+            contentType: 'subtopic',
+            order: subtopic.order,
+            htmlContent: subtopic.htmlContent,
+            practiceQuestions: subtopic.practiceQuestions
+          });
+        });
+      }
+    });
+  });
+  
+  return contentItems;
+};
+
+// Helper method to get all topics in a course (both standalone and container)
+CourseSchema.methods.getAllTopics = function() {
+  const topics = [];
+  
+  this.modules.forEach(module => {
+    module.topics.forEach(topic => {
+      topics.push({
+        moduleId: module._id,
+        moduleTitle: module.title,
+        topicId: topic._id,
+        topicTitle: topic.title,
+        topicType: topic.type,
+        order: topic.order,
+        subtopicsCount: topic.subtopics ? topic.subtopics.length : 0
       });
     });
   });
-  return subtopics;
+  
+  return topics;
+};
+
+// Legacy method for backward compatibility - now returns all content items
+CourseSchema.methods.getAllSubtopics = function() {
+  return this.getAllContentItems();
 };
 
 module.exports = mongoose.model("Course", CourseSchema);

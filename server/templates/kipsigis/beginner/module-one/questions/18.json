@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary basis for noun gender classification in Kipsigis?",
+      "options": [
+        "The length of the word",
+        "Natural gender and grammatical neutrality",
+        "The number of syllables",
+        "The pronunciation of the word"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis nouns are categorized primarily by natural gender and grammatical neutrality, reflecting both biological sex and neutral classifications."
+    },
+    {
+      "question": "Which of the following nouns is classified as masculine in Kipsigis?",
+      "options": [
+        "Koita",
+        "Chepto",
+        "Ng’etet",
+        "Beek"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ng’etet' is a masculine noun in Kipsigis, typically referring to objects or animals associated with male traits."
+    },
+    {
+      "question": "Which of the following is a feminine noun in Kipsigis?",
+      "options": [
+        "Kirgit",
+        "Kipsoiwet",
+        "Teta",
+        "Koita"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Teta' is a feminine noun in Kipsigis, often used to refer to women or female-associated entities."
+    },
+    {
+      "question": "What is the meaning of the Kipsigis noun 'Koita'?",
+      "options": [
+        "A garden",
+        "Stone",
+        "A river",
+        "A tree"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Koita' translates to 'stone' in English and is a neuter noun in Kipsigis."
+    },
+    {
+      "question": "Which of the following statements best describes neuter nouns in Kipsigis?",
+      "options": [
+        "They refer to only abstract ideas.",
+        "They refer to inanimate objects, places, and concepts.",
+        "They only refer to natural features like mountains and rivers.",
+        "They must always end with a vowel."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neuter nouns in Kipsigis refer to inanimate or non-gendered entities such as places, objects, and ideas."
+    },
+    {
+      "question": "Which of the following pairs correctly represents masculine and feminine nouns in Kipsigis?",
+      "options": [
+        "Kirgit - Chepto",
+        "Goita - Teta",
+        "Kipsoiwet - Beek",
+        "Tulwet - Boskilit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kirgit' (masculine) and 'Chepto' (feminine) form a common gendered noun pair in Kipsigis."
+    },
+    {
+      "question": "Which neuter noun in Kipsigis refers to a place of residence?",
+      "options": [
+        "Koita",
+        "Gaa",
+        "Kirgit",
+        "Anget"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Gaa' is a neuter noun meaning 'home' or 'residence' in Kipsigis."
+    },
+    {
+      "question": "Which of the following is NOT a masculine noun in Kipsigis?",
+      "options": [
+        "Ng’etet",
+        "Kirgit",
+        "Ng’okiet",
+        "Kipsoiwet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ng’okiet' is not classified as masculine; it is either neuter or feminine depending on context."
+    },
+    {
+      "question": "Which masculine noun in Kipsigis refers to a male bird?",
+      "options": [
+        "Ngokiet",
+        "Kipsoiwet",
+        "Kirgit",
+        "Koita"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kipsoiwet' refers to a male bird and is recognized as a masculine noun in Kipsigis."
+    },
+    {
+      "question": "What is the best description of 'Oret' in Kipsigis?",
+      "options": [
+        "A type of tree",
+        "A road or path",
+        "A mountain",
+        "A river"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Oret' means road or path and is a commonly used noun in the Kipsigis language."
+    }
+  ]
+}

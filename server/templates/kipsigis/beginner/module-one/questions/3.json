@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which feature is most responsible for differentiating the meanings of the three variations of 'moet'?",
+      "options": [
+        "Voicing of the consonants",
+        "Stress and vowel length differences",
+        "Consonant clusters",
+        "Syllable count"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Differences in stress placement and vowel length distinguish meanings of words like 'moet' in Kipsigis."
+    },
+    {
+      "question": "What distinguishes the meanings of the two pronunciations of 'muget'?",
+      "options": [
+        "The position of tone across syllables",
+        "The degree of stress on the second syllable",
+        "The diphthong shift in the final syllable",
+        "The glottal stop before the 'g' sound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stress on different syllables can change the meaning of 'muget' in Kipsigis, making stress a critical feature."
+    },
+    {
+      "question": "In the example [moeet] meaning 'a failure to grow/thrive,' what phonological phenomenon is at play?",
+      "options": [
+        "Stress shift from first to second syllable",
+        "Vowel lengthening in the second syllable",
+        "Voicing of the /t/ consonant",
+        "Addition of a diphthong at word-final position"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The meaning shift in [moeet] is due to vowel lengthening in the second syllable, which alters the semantic interpretation."
+    },
+    {
+      "question": "Which pronunciation of 'moet' means 'stomach'?",
+      "options": [
+        "[mo-eet] with extended final vowel",
+        "[mo-et] with first syllable stress",
+        "[moet] with second syllable stress",
+        "[moit] with high-falling tone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kipsigis, '[moet]' with stress on the second syllable conveys the meaning 'stomach'."
+    },
+    {
+      "question": "What is a key linguistic challenge illustrated by the 'moet' and 'muget' examples?",
+      "options": [
+        "Allophonic consonant rules",
+        "The impact of stress and pitch on semantic interpretation",
+        "Vowel reduction in unstressed syllables",
+        "Grammatical gender confusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stress and pitch variations in 'moet' and 'muget' demonstrate how these features can significantly change meaning in Kipsigis."
+    },
+    {
+      "question": "Which of the following would be the most effective strategy to master tonal distinctions in Kipsigis?",
+      "options": [
+        "Memorizing noun classes by root consonants",
+        "Repeating isolated root forms silently",
+        "Using English stress rules on Kipsigis words",
+        "Practicing with native speakers for real-time tonal correction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Native speakers provide immediate and authentic feedback, making them the best resource for mastering tone in Kipsigis."
+    },
+    {
+      "question": "Which linguistic tool is recommended for visualizing vowel length and tone in pronunciation?",
+      "options": [
+        "A tonal spectrogram",
+        "IPA (International Phonetic Alphabet) transcription",
+        "Morphological decomposition",
+        "Lexical glossing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IPA transcription allows learners to see phonetic details like vowel length and tone crucial to Kipsigis pronunciation."
+    },
+    {
+      "question": "Why might audio drills be particularly effective for Kipsigis learners?",
+      "options": [
+        "They improve silent reading fluency",
+        "They help internalize pitch, stress, and length distinctions",
+        "They reinforce spelling conventions",
+        "They reduce consonantal deletion errors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Audio drills enhance learners’ ability to perceive and produce correct pitch, stress, and length—key phonological features in Kipsigis."
+    },
+    {
+      "question": "What practice is directly recommended to address syllable stress issues in Kipsigis?",
+      "options": [
+        "Recitation of verb paradigms",
+        "Targeted exercises on stressed vs. unstressed syllables",
+        "Memorizing tone-marked vocab lists",
+        "Practicing glottal stops"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Focused stress exercises help learners distinguish and apply the appropriate stress patterns in Kipsigis."
+    },
+    {
+      "question": "Why is contextual learning important in Kipsigis pronunciation?",
+      "options": [
+        "It increases passive vocabulary for loanwords",
+        "It allows learners to hear how tonal shifts affect meaning in real usage",
+        "It simplifies plural formation and verb conjugation",
+        "It helps learners internalize vowel elision in suffixes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Contextual learning helps learners understand the functional role of tone and stress in actual speech, reinforcing accurate pronunciation."
+    }
+  ]
+}
