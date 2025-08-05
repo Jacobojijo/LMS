@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In traditional Kipsigis governance, who held the highest authority in overseeing justice, rituals, and resource allocation?",
+      "options": [
+        "Bot",
+        "Laitoriat",
+        "Nekonyitot",
+        "Boyap kok"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Laitoriat was the highest authority, overseeing key aspects of justice, rituals, and community resources in traditional Kipsigis society."
+    },
+    {
+      "question": "Which title is used to refer to the leader of the Kipsigis Council of Elders?",
+      "options": [
+        "Kondoindetap emet",
+        "Boyap kok",
+        "Laitoriat",
+        "Kwony"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The title 'Boyap kok' refers to the respected leader of the Kipsigis Council of Elders."
+    },
+    {
+      "question": "What is the Kipsigis equivalent of 'Miss,' used to respectfully address a young unmarried woman?",
+      "options": [
+        "Chepochii",
+        "Kwony",
+        "Botap kok",
+        "Laitoriat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Chepochii' is a respectful title used to address an unmarried young woman in Kipsigis."
+    },
+    {
+      "question": "Which of the following titles is given to someone who teaches and educates others?",
+      "options": [
+        "Konetindet",
+        "Kipsomaniat",
+        "Okiliot",
+        "Arap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Konetindet’ is the title for a teacher or educator in the Kipsigis community."
+    },
+    {
+      "question": "In Kipsigis culture, what does the term 'Wei' signify?",
+      "options": [
+        "A term for youth involved in community activities",
+        "An informal way of addressing a friend or cousin",
+        "A title of respect for an elder",
+        "A person skilled in legal matters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wei' is used informally to address a friend, cousin, or peer with familiarity in Kipsigis."
+    },
+    {
+      "question": "What title is used to refer to a professional news anchor in Kipsigis society?",
+      "options": [
+        "Sirindet neo",
+        "Sirindet",
+        "Koborostoindet ab logoywek",
+        "Konyoindet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Koborostoindet ab logoywek' is the formal title used to describe a news anchor or broadcaster."
+    },
+    {
+      "question": "Which title represents a medical professional in the Kipsigis language?",
+      "options": [
+        "Konyoindet",
+        "Tekindet",
+        "Konetindet",
+        "Laitoriat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Konyoindet' is the title for a doctor or medical professional in Kipsigis."
+    },
+    {
+      "question": "What term is commonly used for a person responsible for financial management?",
+      "options": [
+        "Okiliot",
+        "Konorindet ab legut",
+        "Boyap kok",
+        "Sirindet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Konorindet ab legut' is the title for someone in charge of managing finances in Kipsigis society."
+    },
+    {
+      "question": "Which of the following titles best describes someone who practices mystical arts?",
+      "options": [
+        "Arap",
+        "Kwony",
+        "Bonindet",
+        "Konyoindet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Bonindet' is used to refer to a person with mystical or supernatural knowledge in Kipsigis culture."
+    },
+    {
+      "question": "In Kipsigis society, what is the correct term for a soldier?",
+      "options": [
+        "Nekonyitot",
+        "Ripindetap kalyet",
+        "Okoliot",
+        "Ponindet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ripindetap kalyet' is the proper title used to describe a soldier in the Kipsigis language."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary linguistic function of synonyms in Ekegusii?",
+      "options": [
+        "They limit the number of words in the language.",
+        "They simplify oral traditions by reducing vocabulary.",
+        "They enhance expressiveness, cultural relevance, and regional variations.",
+        "They eliminate the need for dialectal differences."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Synonyms in Ekegusii enhance expressiveness, cultural relevance, and reflect regional language diversity."
+    },
+    {
+      "question": "Which of the following Ekegusii words refers to a flower?",
+      "options": [
+        "Emete",
+        "Amache",
+        "Rioga",
+        "Omoreu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Rioga' is the Ekegusii word that refers to a flower."
+    },
+    {
+      "question": "In Ekegusii, what is the difference between 'Atoka' and 'Speak'?",
+      "options": [
+        "Atoka refers to a specific ethnic group, while Kwana refers to a small family.",
+        "Atoka refers to expressing thoughts, opinions or feelings, while speak refers to the act of talking or using one’s voice to communicate.",
+        "Atoka is used only in urban areas, while Kwana is used in rural settings.",
+        "Atoka is a ceremonial title, while Kwana means 'foreigners'."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Atoka' conveys the expression of thoughts or feelings, while 'speak' (kwana) refers to the physical act of talking."
+    },
+    {
+      "question": "Which of the following is a synonym for 'mokane' in Ekegusii?",
+      "options": [
+        "Rimusu",
+        "Omwanchi",
+        "Egesicha",
+        "Baba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omwanchi' is a synonym for 'mokane' (father) in Ekegusii."
+    },
+    {
+      "question": "'Chitaratara' is a term used by people from which region to refer to slippers or sandals?",
+      "options": [
+        "Abagusii of the upper side",
+        "Abagusii of the lower side",
+        "Abagusii from west Mogirango",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Chitaratara' is commonly used by the Abagusii of the upper side to refer to sandals or slippers."
+    },
+    {
+      "question": "Which of the following best describes 'Rimusu' in Ekegusii?",
+      "options": [
+        "A type of footwear",
+        "A small hut",
+        "Smell",
+        "A traditional song"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Rimusu' refers to 'smell' in Ekegusii."
+    },
+    {
+      "question": "Which of these words refers to a farm, particularly used in small-scale farming?",
+      "options": [
+        "Echiro",
+        "Egeticha",
+        "Omogondo",
+        "Egetii"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Egeticha' is used to refer to a small-scale farm in Ekegusii."
+    },
+    {
+      "question": "What is a synonym for 'porridge' in Ekegusii?",
+      "options": [
+        "Erongori",
+        "Amaemba",
+        "Chinsaga",
+        "Chibesa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Erongori' is used as a synonym for 'porridge' in Ekegusii."
+    },
+    {
+      "question": "'Igoro' in Ekegusii can refer to?",
+      "options": [
+        "It can refer to both a yesterday and up.",
+        "It only applies to Eastward regions.",
+        "It has no cultural significance.",
+        "It only refers yesterday and down."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Igoro' is an equivocal term in Ekegusii that can refer to both 'yesterday' and 'up' depending on context."
+    },
+    {
+      "question": "Which of the following statements is true about Ekegusii synonyms?",
+      "options": [
+        "They are entirely fixed and do not vary across regions.",
+        "They reflect cultural contexts and dialectal differences.",
+        "They are only used in ancient oral traditions.",
+        "They do not contribute to the richness of the language."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii synonyms often vary across regions and reflect cultural and dialectal diversity."
+    }
+  ]
+}

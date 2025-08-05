@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In traditional Gusii governance, who held the highest authority in overseeing justice, rituals, and resource allocation?",
+      "options": [
+        "Omorisia",
+        "Omogambi",
+        "Omonda",
+        "Omorendi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'Omogambi' was the title given to the individual with the highest authority in traditional Gusii governance."
+    },
+    {
+      "question": "Which title is used to refer to the leader of the Gusii Council of Elders?",
+      "options": [
+        "Omogaka",
+        "Omotureti",
+        "Kemanyi",
+        "Omoruoti"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omotureti' refers to the leader of the Gusii Council of Elders."
+    },
+    {
+      "question": "What is the Gusii equivalent of 'Miss,' used to respectfully address a young unmarried woman?",
+      "options": [
+        "Omonyaroka",
+        "Omokungu",
+        "Omosacha",
+        "Omotakanwa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omonyaroka' is the respectful title used to address a young unmarried woman in Gusii."
+    },
+    {
+      "question": "Which of the following titles is given to someone who teaches and educates others?",
+      "options": [
+        "Omworokia",
+        "Omworokigwa",
+        "Omorendi",
+        "Omosikari"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omworokia' is a title given to educators or those who impart knowledge in the Gusii community."
+    },
+    {
+      "question": "In Gusii culture, what does the term 'Yaa' signify?",
+      "options": [
+        "A term for youth involved in community activities",
+        "An informal way of addressing a friend or cousin",
+        "A title of respect for an elder",
+        "A person skilled in legal matters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Yaa' is an informal term used to address a friend or cousin in Gusii culture."
+    },
+    {
+      "question": "What title is used to refer to a professional news anchor in Gusii society?",
+      "options": [
+        "Omogaka",
+        "Omorendi",
+        "Omararia",
+        "Omoamate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omararia' is the title used for a professional news anchor in Gusii."
+    },
+    {
+      "question": "Which title represents a medical professional in the Gusii language?",
+      "options": [
+        "Omorwari/ omonyagitari",
+        "Omworokia",
+        "Omosomu",
+        "Omorendi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omorwari' or 'Omonyagitari' is the title used for a doctor or medical professional."
+    },
+    {
+      "question": "What term is commonly used for a person responsible for financial management?",
+      "options": [
+        "Omorogi",
+        "Omwoonchoreria",
+        "Omorai",
+        "Omong’ina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omwoonchoreria' is used to describe a person who manages finances."
+    },
+    {
+      "question": "Which of the following titles best describes someone who practices mystical arts?",
+      "options": [
+        "Omworokia",
+        "Omworokigwa",
+        "Omwagachi",
+        "Omoremi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omwagachi' is the Gusii title for someone who practices mystical arts."
+    },
+    {
+      "question": "In Gusii society, what is the correct term for a soldier?",
+      "options": [
+        "Omosikari",
+        "Omorendi",
+        "Omorai",
+        "Omorisia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omorendi' refers to a soldier in Gusii society."
+    }
+  ]
+}

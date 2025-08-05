@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What Kikuyu number is represented by 'inyanya'?",
+      "options": [
+        "Six",
+        "Eight",
+        "Nine",
+        "Seven"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Inyanya' represents the number eight in Kikuyu."
+    },
+    {
+      "question": "Which is the correct Kikuyu phrase for the number 14?",
+      "options": [
+        "ikũmi na kenda",
+        "ikũmi na inanya",
+        "ikũmi na inya",
+        "makũmi inya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'ikũmi na inya' translates to 14 in Kikuyu, combining ten (ikũmi) and four (inya)."
+    },
+    {
+      "question": "What does 'mirongo etatũ' mean in Kikuyu?",
+      "options": [
+        "300",
+        "30",
+        "13",
+        "130"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mirongo etatũ' means 30 in Kikuyu, where 'mirongo' refers to tens and 'etatũ' is three."
+    },
+    {
+      "question": "How do you say 2000 in Kikuyu?",
+      "options": [
+        "magana eerĩ",
+        "makũmi igĩrĩ",
+        "ngiri igĩrĩ",
+        "ikũmi na igĩrĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ngiri igĩrĩ' means 2000 in Kikuyu, where 'ngiri' refers to thousands and 'igĩrĩ' is two."
+    },
+    {
+      "question": "Which Kikuyu word stands for 'five'?",
+      "options": [
+        "ithano",
+        "ithathatũ",
+        "igĩrĩ",
+        "mugwanja"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ithano' is the Kikuyu word for the number five."
+    },
+    {
+      "question": "Which is the correct way to say '90' in Kikuyu?",
+      "options": [
+        "makũmi mugwanja",
+        "mirongo kenda",
+        "ikũmi na kenda",
+        "magana kenda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mirongo kenda' is the correct way to say 90 in Kikuyu, with 'mirongo' indicating tens and 'kenda' meaning nine."
+    },
+    {
+      "question": "If 'ikũmi na igĩrĩ' means 12, what does 'ikũmi na kenda' mean?",
+      "options": [
+        "20",
+        "10",
+        "17",
+        "19"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Ikũmi na kenda' means 19 in Kikuyu—ten (ikũmi) plus nine (kenda)."
+    },
+    {
+      "question": "Translate this number into Kikuyu: 4000",
+      "options": [
+        "magana inya",
+        "ngiri inya",
+        "makũmi enya",
+        "ikũmi na inya"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ngiri inya' is the correct translation for 4000 in Kikuyu."
+    },
+    {
+      "question": "Which of the following phrases means 'three thousand' in Kikuyu?",
+      "options": [
+        "magana ithatũ",
+        "makũmi ethatũ",
+        "ngiri ithatũ",
+        "ikũmi na ithatũ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ngiri ithatũ' means 3000 in Kikuyu, combining 'ngiri' (thousand) with 'ithatũ' (three)."
+    },
+    {
+      "question": "What does the Kikuyu phrase 'athoni mecĩirwo miti mirongo mugwanja' mean?",
+      "options": [
+        "The guests ate seventy bananas",
+        "The elders planted seventy trees",
+        "The children planted seven trees",
+        "The women built seventy huts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Athoni mecĩirwo miti mirongo mugwanja' translates to 'The elders planted seventy trees.'"
+    }
+  ]
+}

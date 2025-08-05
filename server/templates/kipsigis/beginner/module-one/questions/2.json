@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best describes the organization of Kipsigis vowels?",
+      "options": [
+        "Based on nasalization and tone",
+        "Based on ATR distinction and vowel length",
+        "Based on glottalization and tense-lax opposition",
+        "Based on aspiration and diphthong placement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis vowels are organized based on Advanced Tongue Root (ATR) distinction and vowel length, which are crucial features in the language’s phonology."
+    },
+    {
+      "question": "What is the correct contrast between 'mas' and 'maas' in Kipsigis?",
+      "options": [
+        "Different tense-lax vowel forms of the same root",
+        "Short vowel 'hit' vs. long vowel 'mislead'",
+        "One is imperative; the other is infinitive",
+        "Both are synonyms differentiated by tone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kipsigis, 'mas' means 'hit' (short vowel) while 'maas' means 'mislead' (long vowel), demonstrating a length-based distinction."
+    },
+    {
+      "question": "What kind of sound is represented by the consonant digraph “ng’” in Kipsigis?",
+      "options": [
+        "Voiceless palatal fricative",
+        "Nasal with glottal closure",
+        "Voiced alveolar lateral",
+        "Voiceless labio-velar stop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The digraph 'ng’' in Kipsigis represents a nasal sound combined with a glottal closure, distinguishing it from other nasal types."
+    },
+    {
+      "question": "The vowel /ee/ in 'teep' contributes to which of the following grammatical meanings?",
+      "options": [
+        "A future marker",
+        "An imperative or infinitive meaning 'stay'",
+        "A subjunctive mood",
+        "A plural noun derivation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kipsigis, the vowel /ee/ in 'teep' indicates an imperative or infinitive form meaning 'stay'."
+    },
+    {
+      "question": "The difference between 'tie' and 'tye' exemplifies what phonological process?",
+      "options": [
+        "Tonal inversion",
+        "Vowel harmony",
+        "Glide substitution for syllabic vowels",
+        "Epenthesis of a consonant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The contrast between 'tie' and 'tye' illustrates glide substitution, where a glide replaces a syllabic vowel for phonological reasons."
+    },
+    {
+      "question": "In Kipsigis, what would most likely result from mispronouncing 'chuut' as 'chut'?",
+      "options": [
+        "It would produce a tonal variant with the same meaning",
+        "It would completely alter the meaning due to vowel length",
+        "It would become a plural form of the original",
+        "It would only affect dialectal acceptability, not meaning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vowel length in Kipsigis is phonemic, so mispronouncing 'chuut' as 'chut' would likely result in a completely different word or an unintelligible form."
+    },
+    {
+      "question": "Which of the following is a fricative consonant in Kipsigis?",
+      "options": [
+        "ch",
+        "s",
+        "ny",
+        "ng'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'s' is a fricative consonant in Kipsigis, unlike 'ch' (affricate), 'ny' (nasal), or 'ng’' (nasal with glottal closure)."
+    },
+    {
+      "question": "What distinguishes 'mooek' from 'mooita' in terms of pronunciation?",
+      "options": [
+        "Diphthong use",
+        "Intervocalic lenition",
+        "Tonal contrast (high vs. low)",
+        "Vowel harmony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mooek' and 'mooita' are distinguished primarily by tone, indicating high versus low pitch, which carries semantic weight in Kipsigis."
+    },
+    {
+      "question": "The term 'kiptaaiyiaat' demonstrates which Kipsigis pronunciation feature?",
+      "options": [
+        "Diphthong omission",
+        "Use of multiple consonants and vowel harmony",
+        "Tonal reduplication",
+        "Final vowel devoicing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kiptaaiyiaat' illustrates Kipsigis' use of complex consonant clusters and vowel harmony, reflecting the phonotactic richness of the language."
+    },
+    {
+      "question": "Which of the following words demonstrates the importance of consonantal accuracy?",
+      "options": [
+        "teep / toor",
+        "kas / sas",
+        "miis / saak",
+        "cheer / chir"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The pair 'cheer' vs. 'chir' shows how a small change in consonant can lead to significant differences in meaning in Kipsigis, emphasizing the importance of precise articulation."
+    }
+  ]
+}

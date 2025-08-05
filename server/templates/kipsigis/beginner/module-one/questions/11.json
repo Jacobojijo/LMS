@@ -1,0 +1,69 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Kipsigis culture, which term is used to refer to a mother’s brother?",
+      "options": ["Bamongo", "Abule", "Senge", "Boger"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How does Kipsigis kinship terminology distinguish between male and female child?",
+      "options": [
+        "Ng’etet (male) and Chepto (female)",
+        "Abule(male) and Senge (female)",
+        "Bamong’o(male) and Koruchon (female)",
+        "Bomori(male) and Batiem(female)"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Which of the following statements accurately reflects the Kipsigis concept of generational hierarchy?",
+      "options": [
+        "Kipsigis kinship does not extend beyond grandparents.",
+        "Kipsigis culture doesn't assigns unique names to great-grandchildren up to the third generation.",
+        "Kipsigis society does not recognize the role of nieces and nephews.",
+        "The firstborn son is always called \"Law.\""
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What term is used to refer to a son-in-law in Kipsigis by the mother of the lady he married?",
+      "options": ["Siet", "Batiem", "Boger", "Sandanin"],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "In Kipsigis culture, the term 'Siet' refers to:",
+      "options": ["The second wife", "The mother of the family", "The Cowife", "A grandmother"],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the Kipsigis term for \"grandfather\"?",
+      "options": ["Bomori", "Batiem", "Bamong’o", "Senge"],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Which of the following best describes the term ‘Law’ in the Kipsigis family structure?",
+      "options": [
+        "A term referring to a brother’s son",
+        "A shared term for both sister-in-law and son-in-law",
+        "The title given to the eldest uncle in the family",
+        "A name given to the second wife in a polygamous marriage"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the correct Kipsigis term for an Aunt who is the sister of one’s father?",
+      "options": ["Obule", "Senge", "Chepkam", "Kamati"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "In a Kipsigis household, what term is used to refer to the father by an initiated man?",
+      "options": ["Batiem", "Bamongo", "Bomori", "Chepkam"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Which term is correctly matched with its English equivalent?",
+      "options": ["Chepto – Son", "Batiem – My father", "Mochogoret – Grandson", "Senge– Uncle"],
+      "correctAnswer": "C"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "How do you greet one person in the morning in Kikuyu?",
+      "options": [
+        "Mũrĩeega hwainĩ",
+        "Wĩ mwega rũcinĩ",
+        "Wĩ mwega mũthenya",
+        "Komai wega"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wĩ mwega rũcinĩ' is the proper Kikuyu greeting for one person in the morning."
+    },
+    {
+      "question": "What is the correct response to 'Wĩ mwega rũcinĩ'?",
+      "options": [
+        "Nĩwega",
+        "Ndĩ mwega, na we wĩ mwega?",
+        "Komai na thayũ",
+        "Ndĩ mwega mũno"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Ndĩ mwega mũno' is the polite response to 'Wĩ mwega rũcinĩ'."
+    },
+    {
+      "question": "Which of these greetings is used during the day (midday)?",
+      "options": [
+        "Wĩ mwega hwainĩ",
+        "Wĩ mwega rũcinĩ",
+        "Mũrĩeega mũthenya",
+        "Komai wega"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũrĩeega mũthenya' is the Kikuyu greeting used during midday."
+    },
+    {
+      "question": "What does 'Komai wega' mean?",
+      "options": [
+        "Good morning",
+        "Goodbye",
+        "Be in peace",
+        "Sleep well (to many people)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Komai wega' is used to wish many people to sleep well in Kikuyu."
+    },
+    {
+      "question": "What is a proper way to say 'Good evening' to one person?",
+      "options": [
+        "Wĩ mwega mũthenya",
+        "Komai wega",
+        "Wĩ mwega hwainĩ",
+        "Wĩ mwega rũcinĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Wĩ mwega hwainĩ' is the appropriate Kikuyu greeting for one person in the evening."
+    },
+    {
+      "question": "How do you say 'We will see each other again' in Kikuyu?",
+      "options": [
+        "Thie na thayũ",
+        "No nyigĩre",
+        "Tũonane rĩngĩ",
+        "Karibu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Tũonane rĩngĩ' literally means 'We will see each other again' in Kikuyu."
+    },
+    {
+      "question": "What does 'Kurũo na thayũ' mean?",
+      "options": [
+        "Good night",
+        "Be in peace (to one person)",
+        "Go in peace (to many people)",
+        "Thank you"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kurũo na thayũ' is used to tell one person to 'be in peace'."
+    },
+    {
+      "question": "Which expression is a greeting to many people in the evening?",
+      "options": [
+        "Komai wega",
+        "Mũrĩeega mũthenya",
+        "Mũrĩeega hwainĩ",
+        "Kurũo na thayũ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũrĩeega hwainĩ' is the evening greeting to many people in Kikuyu."
+    },
+    {
+      "question": "What is the Kikuyu phrase for 'May I come in?'",
+      "options": [
+        "Wĩ mwega?",
+        "Karibu",
+        "Wĩ na thayũ",
+        "No nyigĩre"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'No nyigĩre' is the polite way to ask 'May I come in?' in Kikuyu."
+    },
+    {
+      "question": "What does 'Karibu' mean in Kikuyu?",
+      "options": [
+        "Be in peace",
+        "Goodbye",
+        "How are you?",
+        "Welcome"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Karibu' is commonly used to mean 'Welcome' in Kikuyu."
+    }
+  ]
+}

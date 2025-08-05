@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following accurately lists all the front vowels in Ekegusii?",
+      "options": [
+        "/a/, /e/, /i/",
+        "/e/, /ɛ/, /i/",
+        "/i/, /e/, /o/",
+        "/ɛ/, /a/, /o/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Front vowels in Ekegusii include /e/, /ɛ/, and /i/, based on their articulatory position toward the front of the mouth."
+    },
+    {
+      "question": "What is the correct phonetic classification of the Ekegusii vowel /ɔ/?",
+      "options": [
+        "Mid-high central unrounded",
+        "Open-mid back rounded",
+        "Close-mid front unrounded",
+        "Open front unrounded"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vowel /ɔ/ in Ekegusii is classified as an open-mid back rounded vowel due to its tongue position and lip rounding."
+    },
+    {
+      "question": "Which consonant cluster involves a nasal onset followed by a glottalized velar release?",
+      "options": [
+        "MB",
+        "NG’",
+        "NY",
+        "NCH"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NG’ represents a nasal onset followed by a glottalized velar release, characteristic of prenasalized velar stops."
+    },
+    {
+      "question": "In Ekegusii, the vowel /a/ serves what critical phonological role?",
+      "options": [
+        "Marks glottal transitions",
+        "Anchors morphological boundaries",
+        "Enhances tonal stress",
+        "Signals nasalized onsets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vowel /a/ plays a crucial role in anchoring morphological boundaries in Ekegusii word structure."
+    },
+    {
+      "question": "Identify the cluster that represents a prenasalized palatal affricate.",
+      "options": [
+        "NCH",
+        "ND",
+        "NY",
+        "NG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NCH represents a prenasalized palatal affricate, combining a nasal onset with a palatal stop-release."
+    },
+    {
+      "question": "Which of the following phonemes is non-phonemic and arises through morphophonemic derivation?",
+      "options": [
+        "/j/",
+        "/w/",
+        "/ɾ/",
+        "/ʧ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phoneme /w/ is non-phonemic in Ekegusii and typically surfaces due to morphophonemic processes rather than being contrastive."
+    },
+    {
+      "question": "Which feature is common to all Ekegusii vowels?",
+      "options": [
+        "They are always unrounded.",
+        "Each has a voiced nasal counterpart.",
+        "Each has a lengthened variant.",
+        "Each is limited to root positions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "All Ekegusii vowels exhibit a lengthened (or long) variant, which may be phonemically distinctive."
+    },
+    {
+      "question": "The consonant group TW in Ekegusii typically represents:",
+      "options": [
+        "A nasalized alveolar fricative",
+        "An affricate + glide combination",
+        "A labialized alveolar plosive cluster",
+        "A voiced velar nasal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TW in Ekegusii represents a labialized alveolar plosive cluster, combining a plosive with a rounding glide."
+    },
+    {
+      "question": "Which of the following accurately contrasts Ekegusii fricatives using minimal pairs?",
+      "options": [
+        "/sɔa/ vs. /βɔa/",
+        "/ɲɔkɔ/ vs. /ŋɔkɔ/",
+        "/ama/ vs. /ana/",
+        "/ogo/ vs. /ugo/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pair /sɔa/ vs. /βɔa/ demonstrates contrast between two fricatives and thus forms a true minimal pair."
+    },
+    {
+      "question": "What articulatory description best defines the phoneme /ɲ/?",
+      "options": [
+        "Bilabial plosive with nasal onset",
+        "Voiced alveolar plosive",
+        "Palatal nasal with tongue contacting hard palate",
+        "Velar nasal with ejective release"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phoneme /ɲ/ is a palatal nasal, articulated by pressing the tongue against the hard palate."
+    }
+  ]
+}

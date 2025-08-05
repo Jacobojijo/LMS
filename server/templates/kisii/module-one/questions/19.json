@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary basis for noun gender classification in Ekegusii?",
+      "options": [
+        "The length of the word",
+        "Natural gender and grammatical neutrality",
+        "The number of syllables",
+        "The pronunciation of the word"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii classifies nouns based on natural gender and grammatical neutrality rather than word length or syllables."
+    },
+    {
+      "question": "Which of the following nouns is classified as masculine in Ekegusii?",
+      "options": [
+        "Esibeni",
+        "Omoiseke",
+        "Eeri",
+        "Omong’ina"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Eeri' is a masculine noun in Ekegusii, typically referring to something with masculine characteristics or association."
+    },
+    {
+      "question": "Which of the following is a feminine noun in Ekegusii?",
+      "options": [
+        "Tata",
+        "Omogaka",
+        "Omokungu",
+        "Egoree"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omokungu' is a feminine noun in Ekegusii, referring to a woman."
+    },
+    {
+      "question": "What is the meaning of the Ekegusii noun 'Enyange'?",
+      "options": [
+        "A garden",
+        "A bicycle",
+        "A river",
+        "A tree"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Enyange' in Ekegusii refers to a bicycle."
+    },
+    {
+      "question": "Which of the following statements best describes neuter nouns in Ekegusii?",
+      "options": [
+        "They refer to only abstract ideas.",
+        "They refer to inanimate objects, places, and concepts.",
+        "They only refer to natural features like mountains and rivers.",
+        "They must always end with a vowel."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neuter nouns in Ekegusii include objects, places, and abstract concepts, not necessarily tied to natural gender."
+    },
+    {
+      "question": "Which of the following pairs correctly represents masculine and feminine nouns in Ekegusii?",
+      "options": [
+        "Omomura - Omoiseke",
+        "Omorai - Omwana",
+        "Esibeni - Embori",
+        "Omokungu - Omoiseke"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omomura' (boy) and 'Omoiseke' (girl) represent masculine and feminine noun pairs respectively."
+    },
+    {
+      "question": "Which neuter noun in Ekegusii refers to a place of residence?",
+      "options": [
+        "Enkogoti",
+        "Enka",
+        "Omonene",
+        "Epara"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Enka' is the Ekegusii word for a homestead or place of residence and is a neuter noun."
+    },
+    {
+      "question": "Which of the following is NOT a masculine noun in Ekegusii?",
+      "options": [
+        "Omogaka",
+        "Omosacha",
+        "Omoiseke",
+        "Omomura"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omoiseke' is a feminine noun, referring to a girl."
+    },
+    {
+      "question": "Which masculine noun in Ekegusii refers to a male bird?",
+      "options": [
+        "Richore",
+        "Etuoni",
+        "Omoiseke",
+        "Engoko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Etuoni' is a masculine noun referring to a male bird in Ekegusii."
+    },
+    {
+      "question": "What is the best description of 'rikori' in Ekegusii?",
+      "options": [
+        "A type of tree",
+        "A road or path",
+        "A mountain",
+        "A river"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Rikori' refers to a road or path in Ekegusii."
+    }
+  ]
+}

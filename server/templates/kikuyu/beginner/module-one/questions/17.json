@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Kikuyu, what are the gendered synonyms for 'Mũndũ' (person)?",
+      "options": [
+        "Mũciĩ / Mũthuuro",
+        "Mũthenya / Ngoro",
+        "Mũtumia / Mũthuuri",
+        "Njĩra / Itara"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũtumia' (woman) and 'Mũthuuri' (man) are gendered synonyms for 'Mũndũ' (person) in Kikuyu."
+    },
+    {
+      "question": "Which Kikuyu term is a synonym of 'Njĩra' (path) when used figuratively?",
+      "options": [
+        "Wendo",
+        "Ngoro ya mũndũ",
+        "Kĩheti",
+        "Mũthuuro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ngoro ya mũndũ' (a person's heart) is metaphorically used to refer to an internal path or journey."
+    },
+    {
+      "question": "The Kikuyu word 'Kĩheti' is a synonym for what general term?",
+      "options": [
+        "Mũthuuri – Man",
+        "Mbũri – Goat",
+        "Gĩthaka – Land",
+        "Mũciĩ – Home"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kĩheti' refers to a goat, making it a synonym for 'Mbũri' in Kikuyu."
+    },
+    {
+      "question": "Which Kikuyu word refers specifically to a homestead for men, and is a synonym of 'Nyũmba'?",
+      "options": [
+        "Mũthuuro",
+        "Itara",
+        "Ngoro",
+        "Gĩcagi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Itara' is a culturally specific term for a man's homestead, and can function as a synonym of 'Nyũmba'."
+    },
+    {
+      "question": "In Kikuyu, the word 'Wĩhĩtĩ' is a synonym of which concept, though less formal?",
+      "options": [
+        "Njĩra – Path",
+        "Mũthuuro – Village",
+        "Wendo – Love",
+        "Gĩcagi – Land"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Wĩhĩtĩ' is a colloquial or less formal synonym of 'Wendo' (love) in Kikuyu."
+    },
+    {
+      "question": "When discussing ancestral or cultural connections to land, which Kikuyu word is used synonymously with 'Gĩthaka'?",
+      "options": [
+        "Itara",
+        "Gĩcagi",
+        "Kĩgũũ",
+        "Njĩra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Gĩcagi' often refers to land in the sense of ancestral or cultural belonging, making it a synonym of 'Gĩthaka'."
+    },
+    {
+      "question": "Which pair correctly matches the general term and its dialectal or cultural synonym?",
+      "options": [
+        "Nyũmba – Wĩhĩtĩ",
+        "Mũciĩ – Mũthuuro",
+        "Gĩthaka – Mũthuuro",
+        "Mũndũ – Gĩcagi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũthuuro' is a culturally nuanced synonym of 'Mũciĩ' (home) in Kikuyu."
+    },
+    {
+      "question": "In Kikuyu, Ngoro ya mũndũ as a path metaphorically refers to:",
+      "options": [
+        "Ancestral land",
+        "Village leadership",
+        "One’s inner journey or heart",
+        "Road to the market"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ngoro ya mũndũ' metaphorically describes one's inner journey or emotional path."
+    },
+    {
+      "question": "'Mũtumia' and 'Mũthuuri' are both semantically connected to what broader Kikuyu noun?",
+      "options": [
+        "Wendo",
+        "Mũndũ",
+        "Mũthuuro",
+        "Mbũri"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both 'Mũtumia' and 'Mũthuuri' represent gendered forms of the broader noun 'Mũndũ' (person)."
+    },
+    {
+      "question": "Which Kikuyu synonym pair is thematically related to place or dwelling?",
+      "options": [
+        "Wendo / Wĩhĩtĩ",
+        "Mũciĩ / Mũthuuro",
+        "Mbũri / Kĩheti",
+        "Njĩra / Wĩhĩtĩ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũciĩ' and 'Mũthuuro' both refer to concepts related to home or dwelling in Kikuyu."
+    }
+  ]
+}

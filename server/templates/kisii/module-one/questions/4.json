@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the tonal interpretation of the Ekegusii word /mˋoʹake/?",
+      "options": [
+        "Go away",
+        "Beat him/her",
+        "Hide it",
+        "Come quickly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tonal pattern /mˋoʹake/ in Ekegusii translates as 'Beat him/her'. Tone distinguishes meaning in such forms."
+    },
+    {
+      "question": "In Ekegusii autosegmental phonology, what tier contains the actual consonants and vowels?",
+      "options": [
+        "Skeletal Tier",
+        "Tonal Tier",
+        "Segmental Tier",
+        "Syllabic Tier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Segmental Tier in autosegmental phonology contains the consonants and vowels of a word."
+    },
+    {
+      "question": "Which of the following Ekegusii tone types is only found on long vowels and is not contrastive?",
+      "options": [
+        "High (H)",
+        "Low (L)",
+        "Falling (↓)",
+        "Mid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Falling tone (↓) in Ekegusii is restricted to long vowels and is not contrastive on its own."
+    },
+    {
+      "question": "The phrase 'Ogo’saba' with stress on the second syllable most accurately translates as:",
+      "options": [
+        "To borrow",
+        "To pray",
+        "To sell",
+        "To dig"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the stress is on the second syllable, 'Ogo’saba' means 'To pray'. Stress shifts impact meaning."
+    },
+    {
+      "question": "According to Ekegusii tonal phonology, what happens when you shift the tonal pattern in the form /mˋoˋake/ to /mˋoʹake/?",
+      "options": [
+        "The tense changes",
+        "The word changes meaning",
+        "A vowel drops",
+        "A suffix is added"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Changing the tone from /mˋoˋake/ to /mˋoʹake/ changes the meaning of the word, demonstrating lexical tone."
+    },
+    {
+      "question": "In autosegmental representation of 'mbaremere', which syllable aligns with the high tone (H)?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The high tone in 'mbaremere' aligns with the third syllable in its autosegmental representation."
+    },
+    {
+      "question": "In the pronunciation of 'Omogaka', which version refers to “an elder”?",
+      "options": [
+        "[Omo-gaka]",
+        "[Omoga-ka]",
+        "[Mo’gaka]",
+        "[Omogaka]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pronunciation [Omoga-ka] corresponds to 'an elder' in Ekegusii; stress placement is key to meaning."
+    },
+    {
+      "question": "Which of the following is not one of the tiers used in Ekegusii Autosegmental Phonology?",
+      "options": [
+        "Tonal Tier",
+        "Lexical Tier",
+        "Syllabic Tier",
+        "CV (Skeletal) Tier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'Lexical Tier' is not a recognized tier in autosegmental phonology; common tiers include tonal, segmental, and skeletal."
+    },
+    {
+      "question": "Which of these strategies is most directly intended to help learners master pitch and rhythm in Ekegusii?",
+      "options": [
+        "Learning Swahili",
+        "Reading dictionaries",
+        "Audio drills and repetition",
+        "Studying root morphology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Audio drills and repetition target pitch and rhythm mastery in tonal languages like Ekegusii."
+    },
+    {
+      "question": "What is the effect of stress placement in words like 'Omogaka' or 'Ogosaba' in Ekegusii?",
+      "options": [
+        "It determines the verb tense",
+        "It alters phoneme structure",
+        "It distinguishes lexical meaning",
+        "It removes vowel harmony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Stress placement in Ekegusii alters lexical meaning, making it a critical phonological feature."
+    }
+  ]
+}

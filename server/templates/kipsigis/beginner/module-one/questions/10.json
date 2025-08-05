@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct Kipsigis greeting for “Hello” when addressing one person?",
+      "options": ["Oamune", "Iyomune", "Itagat", "Kongoi"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "In Kipsigis, what does the term “Ingoribin” literally mean?",
+      "options": ["Stay well", "Go well", "May He protect you", "See you later"],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Which of the following greetings is used exclusively in the morning when the sun is rising?",
+      "options": ["Karonet nemie", "Kemout nemie", "Chamgei", "Betut nemie"],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "How do you say “Good day” to a group of people in Kipsigis?",
+      "options": ["Iomune", "Oamune", "Betut nemie", "Kongoi neo"],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What grammatical feature is evident in Kipsigis plural greetings such as “Oruiyen komie”?",
+      "options": [
+        "The tone and stress indicate plural",
+        "The prefix \"O-\" and suffix “yen” mark plurality",
+        "Kipsigis does not distinguish between singular and plural",
+        "The word order changes in plural greetings"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Which phrase would be used when someone is going to sleep?",
+      "options": ["Betut nemie", "Ru komie", "Kongoi", "Itagat"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "How do the Kipsigis people emphasize politeness and respect in their greetings?",
+      "options": [
+        "By bowing while greeting",
+        "By using intensifiers like “mising”",
+        "By avoiding greetings during meals",
+        "By repeating the greeting multiple times"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "If someone greets you with “Nemie” (informal “What’s up?”), What is the culturally appropriate response?",
+      "options": ["Kongoi", "Nemie kot", "Itagat", "Acha"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What does the word \"Chamgei\" mean in Kipsigis?",
+      "options": ["Good morning", "General greeting for the day", "Good evening", "Safe journey"],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Which Kipsigis farewell expression is most appropriate when wishing someone a safe journey?",
+      "options": ["Betut nemie", "Kemout nemie", "panda nemie", "Ruonik chemiach"],
+      "correctAnswer": "C"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the meaning of the term 'Tichi rimo' in the Abagusii weekly calendar?",
+      "options": [
+        "The day of rest and worship",
+        "The first day of work",
+        "The last day of the week",
+        "The day for visiting the market"
+      ],
+      "answer": "The first day of work"
+    },
+    {
+      "question": "Why is Saturday called 'Enyongesa' in the Abagusii calendar?",
+      "options": [
+        "It is the day when people start work",
+        "It is the day for communal prayers",
+        "It is named after the Swahili word 'ongeza' due to bargaining at markets",
+        "It is the day when people travel to visit relatives"
+      ],
+      "answer": "It is named after the Swahili word 'ongeza' due to bargaining at markets"
+    },
+    {
+      "question": "What is the Abagusii name for the ninth month of the year?",
+      "options": [
+        "Omotienyi o’ikomi",
+        "Omotienyi o’kianda",
+        "Omotienyi okabere",
+        "Omotienyi o’gatano na rimo"
+      ],
+      "answer": "Omotienyi o’kianda"
+    },
+    {
+      "question": "What does 'Tichi gatano' (Friday) signify in the Abagusii calendar?",
+      "options": [
+        "The third day of work",
+        "The fifth day of work",
+        "The day of rest before the weekend",
+        "The day for traditional ceremonies"
+      ],
+      "answer": "The fifth day of work"
+    },
+    {
+      "question": "Which month in the Abagusii calendar is associated with intense cold?",
+      "options": [
+        "Omotienyi omotakani",
+        "Omotienyi o’ikomi",
+        "Omotienyi ogatano na kabere",
+        "Omotienyi ogatano narimo"
+      ],
+      "answer": "Omotienyi ogatano na kabere"
+    },
+    {
+      "question": "What is the primary cultural significance of 'Omokubio' (Sunday) in the Abagusii calendar?",
+      "options": [
+        "It is a day for farming",
+        "It is a market day",
+        "It is a day of prayer and rest",
+        "It marks the beginning of a new month"
+      ],
+      "answer": "It is a day of prayer and rest"
+    },
+    {
+      "question": "What does 'Omotienyi o’ikomi na kabere' refer to in the Abagusii calendar?",
+      "options": [
+        "The eleventh month of the year",
+        "The twelfth month of the year",
+        "The tenth month of the year",
+        "The eighth month of the year"
+      ],
+      "answer": "The twelfth month of the year"
+    },
+    {
+      "question": "Why were men expected to be away from home on 'Tichi gatano' (Friday) in precolonial times?",
+      "options": [
+        "They attended religious ceremonies",
+        "They were engaged in farming activities",
+        "They traveled for trade and exploration",
+        "They prepared for war"
+      ],
+      "answer": "They were engaged in farming activities"
+    },
+    {
+      "question": "In the Abagusii calendar, which month is often associated with students preparing for change?",
+      "options": [
+        "Omotienyi omotang’ani",
+        "Omotienyi ogatano na gatato",
+        "Omotienyi ogatato",
+        "Omotienyi o’ikomi"
+      ],
+      "answer": "Omotienyi ogatano na gatato"
+    },
+    {
+      "question": "What is the meaning of 'Omotienyi ogatano na rimo' in the Abagusii calendar?",
+      "options": [
+        "The first month of the year",
+        "The second month of the year",
+        "The eleventh month of the year",
+        "The tenth month of the year"
+      ],
+      "answer": "The eleventh month of the year"
+    }
+  ]
+}

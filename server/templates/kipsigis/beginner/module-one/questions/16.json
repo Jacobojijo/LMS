@@ -1,0 +1,74 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of a Kipsigis abstract noun?",
+      "options": ["Beek", "Bukut", "Teta", "Kot"],
+      "correctAnswer": "Beek"
+    },
+    {
+      "question": "In Kipsigis, what does the word \"Beek\" mean in the context of food?",
+      "options": ["Fat of an animal", "Distance", "Flour/wheat", "A place of burial"],
+      "correctAnswer": "Flour/wheat"
+    },
+    {
+      "question": "Which of the following words can mean both “later” and “to marry” in Kipsigis?",
+      "options": ["Tuun", "Beek", "Chut", "Bolik"],
+      "correctAnswer": "Tuun"
+    },
+    {
+      "question": "How does pronunciation affect the meaning of the word \"Kuut\" in Kipsigis?",
+      "options": [
+        "It determines if it means \"buffalo\" or \"head.\"",
+        "It distinguishes between \"language\" and \"peace.\"",
+        "It differentiates between \"mouth,\" \"blow,\" and \"language.\"",
+        "There is no phonetic distinction in meaning."
+      ],
+      "correctAnswer": "It differentiates between \"mouth,\" \"blow,\" and \"language.\""
+    },
+    {
+      "question": "In what context does \"Kut’\" mean \"to cut\" in Kipsigis?",
+      "options": [
+        "When referring to an egg",
+        "When talking about a weapon",
+        "As an imperative form of the verb \"kutit\"",
+        "When describing a boundary"
+      ],
+      "correctAnswer": "As an imperative form of the verb \"kutit\""
+    },
+    {
+      "question": "What is the primary linguistic challenge associated with Kipsigis equivocal words?",
+      "options": [
+        "Lack of proper written documentation",
+        "Dependence on pronunciation and context to determine meaning",
+        "The absence of grammatical structure",
+        "Limited vocabulary in the language"
+      ],
+      "correctAnswer": "Dependence on pronunciation and context to determine meaning"
+    },
+    {
+      "question": "Which word can mean both \"see\" and \"close\" in Kipsigis, depending on pronunciation?",
+      "options": ["Ker", "Muut", "Bolik", "Beek"],
+      "correctAnswer": "Ker"
+    },
+    {
+      "question": "If someone says \"kosobindet\" in a religious discussion, what is the most likely meaning?",
+      "options": ["A boat", "Healer", "To sweep", "A boundary"],
+      "correctAnswer": "Healer"
+    },
+    {
+      "question": "What strategy is most effective in understanding Kipsigis equivocal words?",
+      "options": [
+        "Memorizing all possible meanings",
+        "Ignoring pronunciation differences",
+        "Practicing in real-life conversations with native speakers",
+        "Avoiding words with multiple meanings"
+      ],
+      "correctAnswer": "Practicing in real-life conversations with native speakers"
+    },
+    {
+      "question": "In Kipsigis culture, which of the following words refers to both \"to blow\" and \"mouth\"?",
+      "options": ["Kuut", "Ker", "Beek", "Bolik"],
+      "correctAnswer": "Kuut"
+    }
+  ]
+}

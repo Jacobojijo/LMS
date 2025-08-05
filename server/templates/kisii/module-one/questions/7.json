@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "How are ordinal numbers in Ekegusii generally formed?",
+      "options": [
+        "By adding the prefix \"omwana\" to cardinal numbers",
+        "By using the suffix \"-oga\" with cardinal numbers",
+        "By adding the prefix \"oyo\" to cardinal numbers",
+        "By using only unique words unrelated to cardinal numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ordinal numbers in Ekegusii are typically formed by prefixing the cardinal number with 'oyo'."
+    },
+    {
+      "question": "What is the Ekegusii word for \"First\"?",
+      "options": [
+        "Oyo gochaka",
+        "Aba ikomi",
+        "Motang’ani",
+        "Abagatato"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Motang’ani\" is the Ekegusii word for 'First' and is an exception, not formed with 'oyo'."
+    },
+    {
+      "question": "Which of the following represents the fifth position in Ekegusii?",
+      "options": [
+        "Oyo kane",
+        "Oyo gatano",
+        "Abatang’ani",
+        "Oyo ikomi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Oyo gatano\" represents the fifth in ordinal sequence."
+    },
+    {
+      "question": "In Ekegusii, which ordinal number is used in the sentence: \"Omonto okianda naigwete amang’ana amayia\"?",
+      "options": [
+        "First",
+        "Seventh",
+        "Ninth",
+        "Tenth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence includes \"okianda\", indicating the ninth position in sequence."
+    },
+    {
+      "question": "Which of the following is NOT a correct characteristic of ordinal numbers in Ekegusii?",
+      "options": [
+        "They are formed by adding \"oyo\" to a cardinal number",
+        "They indicate sequence and ranking",
+        "\"Motang’ani\" is an exception and not derived from a cardinal number",
+        "They are used for counting objects"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ordinal numbers in Ekegusii are used for ordering, not for counting quantities like cardinal numbers."
+    },
+    {
+      "question": "What is the correct Ekegusii translation for \"The second child is sick\"?",
+      "options": [
+        "Omwana okabere aarwarete",
+        "Omwana okabere orwarire",
+        "Omwana okabere nomorwaire",
+        "Omwana ogatato nomorwaire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omwana okabere nomorwaire\" accurately translates to \"The second child is sick\" in Ekegusii."
+    },
+    {
+      "question": "Which of the following represents the eighth in Ekegusii?",
+      "options": [
+        "Oyo gatano na Gatato",
+        "Oyo kianda",
+        "Oyo gatano",
+        "Oyo kane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Oyo gatano na Gatato\" means 'fifth and third' which together indicate eighth in ordinal terms."
+    },
+    {
+      "question": "What is the last ordinal number in Ekegusii?",
+      "options": [
+        "Oyo Ikomi",
+        "Omoerio",
+        "Motang’ani",
+        "Oyo kianda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omoerio\" is a special term used to represent 'the last' in Ekegusii ordinal structure."
+    },
+    {
+      "question": "Which of the following best explains the function of \"oyo\" in Ekegusii ordinal numbers?",
+      "options": [
+        "It emphasizes ownership of objects",
+        "It connects the ordinal number to its cardinal base",
+        "It is a standalone number",
+        "It represents a specific type of number unrelated to counting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'oyo' links ordinal forms to their cardinal roots and helps mark sequence."
+    },
+    {
+      "question": "In Ekegusii, how would you correctly express \"The fourth leader is speaking\"?",
+      "options": [
+        "Omorai Okane ngokwanara",
+        "Omorai okianda ngokwanara",
+        "Omorai ogatano ngokwanara",
+        "Omorai okabere ngokwanara"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Omorai Okane ngokwanara\" correctly translates to 'The fourth leader is speaking' in Ekegusii."
+    }
+  ]
+}

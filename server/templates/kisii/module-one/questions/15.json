@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the most common way to express gratitude in Ekegusii?",
+      "options": [
+        "Yaya",
+        "Mbuyamono",
+        "Nakanire",
+        "Ngonye"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbuyamono' is the most commonly used expression of gratitude in Ekegusii."
+    },
+    {
+      "question": "If someone thanks you in Ekegusii, how should you politely respond?",
+      "options": [
+        "Ayie",
+        "Konya",
+        "Kwareganigwe",
+        "Okayie"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A polite response to gratitude in Ekegusii is 'Kwareganigwe,' meaning 'you are welcome.'"
+    },
+    {
+      "question": "Which phrase would be used to politely ask for something in Ekegusii?",
+      "options": [
+        "Ngonye",
+        "Timanyeti",
+        "Eebono",
+        "Nakanire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ngonye' means 'please' or 'excuse me' and is used when politely asking for something."
+    },
+    {
+      "question": "How would a Gusii speaker say 'I’m sorry' to express regret?",
+      "options": [
+        "Ngonye gaki",
+        "Ng’abere",
+        "Yaa",
+        "Mbuyamono"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ng’abere' is used in Ekegusii to express sorrow or regret, equivalent to 'I'm sorry.'"
+    },
+    {
+      "question": "In Ekegusii, what phrase is used when politely asking for forgiveness or permission to leave?",
+      "options": [
+        "Gaki ng’abere, nachiire",
+        "Gaki ng’abere, Ng’anchere ngende",
+        "Ngochande",
+        "Omogaka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Gaki ng’abere, Ng’anchere ngende' is used to ask for forgiveness or politely take leave."
+    },
+    {
+      "question": "What does the phrase 'ngonye' mean in a polite conversation?",
+      "options": [
+        "Help me",
+        "Excuse me",
+        "No, I refuse",
+        "Thank you"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ngonye' is a polite way of requesting help in Ekegusii."
+    },
+    {
+      "question": "If someone says 'Nyasaye ngokonyare, noanche?', how would you agree with them?",
+      "options": [
+        "Ng’abere",
+        "Yaya",
+        "Eeh",
+        "Ngonye"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Eeh' is the appropriate affirmative response in agreement with the phrase."
+    },
+    {
+      "question": "Which of the following phrases is used to politely decline a request?",
+      "options": [
+        "Ngonye",
+        "Eebono",
+        "Yaya",
+        "Ng’abere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Yaya' is a polite way to decline something in Ekegusii."
+    },
+    {
+      "question": "What phrase would someone use when requesting directions in Ekegusii?",
+      "options": [
+        "Gaki ing’orokie enchera?",
+        "Nagokanirie tintageti",
+        "Ngong’orokiore enchera?",
+        "Ngonye namache"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Gaki ing’orokie enchera?' means 'Please show me the way?' when requesting directions."
+    },
+    {
+      "question": "In Ekegusii culture, what is emphasized besides words when expressing politeness?",
+      "options": [
+        "Facial expressions and tone",
+        "Loud speaking",
+        "Using only formal titles",
+        "Avoiding eye contact"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Besides words, facial expressions and tone are vital in showing politeness in Ekegusii culture."
+    }
+  ]
+}

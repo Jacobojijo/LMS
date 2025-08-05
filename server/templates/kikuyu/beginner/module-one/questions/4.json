@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What prefix is used to form ordinal numbers in Kikuyu?",
+      "options": [
+        "Ki-",
+        "Wa-",
+        "Ma-",
+        "Na-"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'Wa-' is used to indicate ordinal numbers in Kikuyu, such as 'Wa mbere' for 'first'."
+    },
+    {
+      "question": "How do you say 'second' in Kikuyu ordinal numbers?",
+      "options": [
+        "Wa kabiri",
+        "Wa kerĩ",
+        "Wa kenda",
+        "Wa mũgwanja"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wa kerĩ' means 'second' in Kikuyu ordinal numbers."
+    },
+    {
+      "question": "What does 'Wa mbere' mean?",
+      "options": [
+        "First",
+        "Third",
+        "Fourth",
+        "Fifth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Wa mbere' means 'first' and is commonly used in Kikuyu to indicate the first in order."
+    },
+    {
+      "question": "Which ordinal number means 'seventh' in Kikuyu?",
+      "options": [
+        "Wa gatano",
+        "Wa gatandatũ",
+        "Wa mũgwanja",
+        "Wa inyanya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Wa mũgwanja' is the correct Kikuyu ordinal number for 'seventh'."
+    },
+    {
+      "question": "How is 'tenth' expressed in Kikuyu ordinal numbers?",
+      "options": [
+        "Wa ikũmi",
+        "Wa kenda",
+        "Wa kerĩ",
+        "Wa mbere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Wa ikũmi' is the Kikuyu way of expressing 'tenth'."
+    },
+    {
+      "question": "In the sentence, 'Mwana wa mbere nĩwe wainire kĩrĩra,' what does 'wa mbere' refer to?",
+      "options": [
+        "The last child",
+        "The second child",
+        "The first child",
+        "The third child"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Wa mbere' means 'first', so the sentence refers to the first child."
+    },
+    {
+      "question": "Which of the following is the correct Kikuyu ordinal number for 'fourth'?",
+      "options": [
+        "Wa kana",
+        "Wa gatano",
+        "Wa kerĩ",
+        "Wa kthatũ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Wa kana' means 'fourth' in Kikuyu ordinal numbers."
+    },
+    {
+      "question": "If you wanted to say 'ninth' in Kikuyu ordinal numbers, which would you use?",
+      "options": [
+        "Wa kenda",
+        "Wa kerĩ",
+        "Wa gatandatũ",
+        "Wa mũgwanja"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Wa kenda' is the Kikuyu ordinal for 'ninth'."
+    },
+    {
+      "question": "What is the meaning of 'Wa gatandatũ' in Kikuyu?",
+      "options": [
+        "Sixth",
+        "Fifth",
+        "Seventh",
+        "Eighth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Wa gatandatũ' means 'sixth' in Kikuyu ordinal numbering."
+    },
+    {
+      "question": "Which prefix would you NOT find in Kikuyu ordinal numbers?",
+      "options": [
+        "Wa",
+        "Ki",
+        "Wa kerĩ",
+        "Wa ikũmi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ordinal numbers in Kikuyu consistently use the prefix 'Wa-'; the prefix 'Ki-' is not used for this purpose."
+    }
+  ]
+}

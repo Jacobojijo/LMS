@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct Kipsigis translation for 'right now'?",
+      "options": [
+        "Koron",
+        "Inguni/Ingunitok",
+        "Amut",
+        "Kemoo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Inguni' or 'Ingunitok' is the correct Kipsigis term for 'right now', indicating the present moment."
+    },
+    {
+      "question": "Which term refers to the 'day before yesterday' in Kipsigis?",
+      "options": [
+        "Oiin",
+        "Amut",
+        "Koyoin",
+        "Koron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Oiin' is used in Kipsigis to refer to the day before yesterday."
+    },
+    {
+      "question": "Which of the following correctly represents the morning in Kipsigis?",
+      "options": [
+        "Beet",
+        "Kemoo",
+        "Koronet",
+        "Langat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Koronet' is the Kipsigis term that represents the morning time."
+    },
+    {
+      "question": "How would you correctly say 'Later, we will help with the work' in Kipsigis?",
+      "options": [
+        "Tor,ketoretin en boisyet",
+        "Langat kemii nyeketoretin",
+        "Inguni yeketoretin en boisyet",
+        "Kemoo kotor kegerun kasinon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Tor,ketoretin en boisyet' means 'Later, we will help with the work' in Kipsigis."
+    },
+    {
+      "question": "What is the correct meaning of 'Sai sogol neboo koskoleng''?",
+      "options": [
+        "Exactly 12 PM",
+        "Exactly 3 PM",
+        "Midnight",
+        "Late evening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Sai sogol neboo koskoleng'' refers to exactly 3 PM in Kipsigis."
+    },
+    {
+      "question": "Which of the following phrases correctly describes 'The day after tomorrow'?",
+      "options": [
+        "Raini",
+        "Amut",
+        "Miutai",
+        "Koyoin"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Koyoin' is used in Kipsigis to describe the day after tomorrow."
+    },
+    {
+      "question": "In Kipsigis, what does 'Bet kwen' refer to?",
+      "options": [
+        "Early in the morning",
+        "Exactly noon",
+        "Midnight",
+        "Late evening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Bet kwen' means 'Exactly noon' in Kipsigis."
+    },
+    {
+      "question": "What is the correct sentence structure when expressing time in Kipsigis?",
+      "options": [
+        "Verb + Subject + Time marker",
+        "Time marker + Subject + Verb + Object",
+        "Object + Subject + Verb + Time marker",
+        "Time marker + Object + Subject + Verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The typical sentence structure when expressing time in Kipsigis is: Time marker + Subject + Verb + Object."
+    },
+    {
+      "question": "If someone says 'Atinyee boishet neo inguni,' what does it mean?",
+      "options": [
+        "I will have work tomorrow.",
+        "I had a lot of work yesterday.",
+        "I have a lot of work now.",
+        "I will work later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Atinyee boishet neo inguni' translates to 'I have a lot of work now.'"
+    },
+    {
+      "question": "Which of the following best translates to 'Very early in the morning' in Kipsigis?",
+      "options": [
+        "Kemoo",
+        "Koronet",
+        "Langat",
+        "Bet kwen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Koronet' refers to 'very early in the morning' in Kipsigis."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary linguistic function of synonyms in Kipsigis?",
+      "options": [
+        "They limit the number of words in the language.",
+        "They simplify oral traditions by reducing vocabulary.",
+        "They enhance expressiveness, cultural relevance, and regional variations.",
+        "They eliminate the need for dialectal differences."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Synonyms in Kipsigis enrich the language by adding expressiveness, reflecting cultural depth, and accounting for regional or dialectal variation."
+    },
+    {
+      "question": "Which of the following Kipsigis words refers to a well-tarmacked road within towns or cities?",
+      "options": [
+        "Barabaret",
+        "Oret",
+        "Lamit",
+        "Ng’wony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Lamit' refers to a well-tarmacked or paved road typically found in urban settings."
+    },
+    {
+      "question": "Which of the following is a synonym for 'homestead' in Kipsigis?",
+      "options": [
+        "Oret",
+        "Kap",
+        "Baranget",
+        "Anget"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kap' is a commonly used synonym for 'homestead' in the Kipsigis language."
+    },
+    {
+      "question": "Which is a term used by Kipsigis to refer to a garden or farmland?",
+      "options": [
+        "Kabungui",
+        "Oret",
+        "Lamit",
+        "Kot"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kabungui' refers to a garden or farmland where crops are typically cultivated."
+    },
+    {
+      "question": "Which of the following best describes 'Anget' in Kipsigis?",
+      "options": [
+        "A type of footwear",
+        "A small hut",
+        "A cloth or fabric used by women to keep warmth",
+        "A traditional song"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Anget' is a cloth or wrap used by women, especially for warmth during cold seasons."
+    },
+    {
+      "question": "Which of these words refers to a thick cloth, particularly used during cold times?",
+      "options": [
+        "Oret",
+        "Lesoit",
+        "Kitambaet",
+        "Anget"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Lesoit' refers to a heavy cloth or blanket often used to provide warmth."
+    },
+    {
+      "question": "What is a synonym for 'Roads' in Kipsigis?",
+      "options": [
+        "Oret",
+        "Kot",
+        "Lesoit",
+        "Anget"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Oret' is a general Kipsigis term that refers to roads or paths."
+    },
+    {
+      "question": "Which of the following statements is true about Kipsigis synonyms?",
+      "options": [
+        "They are entirely fixed and do not vary across regions.",
+        "They reflect cultural contexts and dialectal differences.",
+        "They are only used in ancient oral traditions.",
+        "They do not contribute to the richness of the language."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis synonyms often reflect regional dialects and cultural contexts, adding depth to communication and oral traditions."
+    }
+  ]
+}

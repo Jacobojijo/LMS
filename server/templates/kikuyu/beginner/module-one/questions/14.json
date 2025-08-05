@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What Kikuyu word would you use to say 'Thank you'?",
+      "options": [
+        "Nĩ Sori",
+        "Thegio",
+        "Ndeithia",
+        "Ndũnyonie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Thegio' is the Kikuyu word for 'Thank you'."
+    },
+    {
+      "question": "How do you politely ask someone to give you something in Kikuyu?",
+      "options": [
+        "Ndũhe...",
+        "Ndekera...",
+        "Nĩ wega...",
+        "Nĩ Sori..."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ndũhe...' is used when politely asking someone to give you something."
+    },
+    {
+      "question": "Which phrase would you say if you made a mistake and want to apologize?",
+      "options": [
+        "Nĩdĩreda uteithio",
+        "Thegio",
+        "Nĩ Sori",
+        "Aca"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩ Sori' is the Kikuyu phrase for apologizing."
+    },
+    {
+      "question": "What does 'Nĩ wega' mean in Kikuyu?",
+      "options": [
+        "Help me",
+        "It’s okay",
+        "Forgive me",
+        "Please give me"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩ wega' translates to 'It’s okay' in Kikuyu."
+    },
+    {
+      "question": "How would you say 'Please forgive me' in Kikuyu?",
+      "options": [
+        "Ndekera",
+        "Ndũhe",
+        "Nĩ Sori",
+        "Ndikumenyaga"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ndekera' is used to politely ask for forgiveness in Kikuyu."
+    },
+    {
+      "question": "If someone says 'Thegio muno,' how should you respond politely?",
+      "options": [
+        "Ndũnyonie",
+        "Nĩ wega",
+        "Aca",
+        "Ndekera"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Responding with 'Nĩ wega' is the polite way to acknowledge 'Thegio muno'."
+    },
+    {
+      "question": "How do you say 'Please help me' in Kikuyu?",
+      "options": [
+        "Ndikumenyaga",
+        "Nĩdĩreda uteithio",
+        "Ndũhe",
+        "Nĩ Sori"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩdĩreda uteithio' means 'Please help me' in Kikuyu."
+    },
+    {
+      "question": "Which of these means 'I didn’t know' in Kikuyu?",
+      "options": [
+        "Ndekera",
+        "Ndikumenyaga",
+        "Nĩ wega",
+        "Nĩ Sori"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ndikumenyaga' translates to 'I didn’t know' in Kikuyu."
+    },
+    {
+      "question": "Which Kikuyu word is used to refuse something politely?",
+      "options": [
+        "Aca",
+        "Ĩĩ",
+        "Thegio",
+        "Ndũnyonie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Aca' is the polite way to refuse something in Kikuyu."
+    },
+    {
+      "question": "How do you say 'Please show me the way' in Kikuyu?",
+      "options": [
+        "Ndũhe njira",
+        "Nĩ Sori",
+        "Ndũnyonie nzira",
+        "Ndekera njira"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ndũnyonie njira' is the Kikuyu way to politely ask someone to show you the way."
+    }
+  ]
+}

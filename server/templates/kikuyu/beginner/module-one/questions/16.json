@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Kikuyu, the word 'gĩthaka' can mean both:",
+      "options": [
+        "Clan / Path",
+        "Land / Goat",
+        "Land / Skin",
+        "Money / Soil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gĩthaka' in Kikuyu is equivocal and can mean both 'Land' and 'Skin' depending on context."
+    },
+    {
+      "question": "The Kikuyu word 'kĩrĩra' requires contextual understanding because it can mean:",
+      "options": [
+        "To eat / To lead",
+        "Wait / Grow",
+        "Vulture / Delay",
+        "Ask / Prosper"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kĩrĩra' is contextually dependent in Kikuyu, carrying the meanings 'Wait' and 'Grow'."
+    },
+    {
+      "question": "Which of the following Kikuyu words can mean both 'To buy' and 'To peel'?",
+      "options": [
+        "kũona",
+        "kũrĩa",
+        "kũgũra",
+        "kũhe"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kũgũra' in Kikuyu can mean both 'To buy' and 'To peel', demonstrating semantic ambiguity."
+    },
+    {
+      "question": "The term 'gũtirĩ' is contextually ambiguous because it refers to:",
+      "options": [
+        "Absence / Fear",
+        "There isn't / A goat’s cry",
+        "Complaint / Sickness",
+        "No one / A drumbeat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Gũtirĩ' can mean 'There isn't' or refer to 'A goat’s cry', showing dual meaning in Kikuyu."
+    },
+    {
+      "question": "How would one distinguish between 'To eat' and 'To ask' in the Kikuyu word 'kũrĩa'?",
+      "options": [
+        "Tone and stress only",
+        "Prefix change",
+        "Contextual usage (gũciarĩra)",
+        "Suffix marker"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Kikuyu word 'kũrĩa' is disambiguated through context (e.g., gũciarĩra) to determine whether it means 'To eat' or 'To ask'."
+    },
+    {
+      "question": "The Kikuyu word 'ndũrũ' is equivocal. What are its two meanings?",
+      "options": [
+        "War / Weapon",
+        "War / Vulture",
+        "Bird / Drum",
+        "Pain / Violence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ndũrũ' in Kikuyu can mean both 'War' and 'Vulture', depending on the usage."
+    },
+    {
+      "question": "'Mũtwe' in Kikuyu can mean:",
+      "options": [
+        "Skull / Brain",
+        "Head / Lead (of a group)",
+        "Head / Father",
+        "Hair / Rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũtwe' in Kikuyu may refer to the physical 'Head' or metaphorically to the 'Lead' of a group."
+    },
+    {
+      "question": "Choose the pair of meanings for the word 'kũhe':",
+      "options": [
+        "To take / To bless",
+        "To give / To marry",
+        "To buy / To wed",
+        "To cook / To invite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kũhe' can mean 'To give' or 'To marry', with meaning determined by context."
+    },
+    {
+      "question": "Which word means both 'money' and 'metal' in Kikuyu?",
+      "options": [
+        "mbari",
+        "mbeca",
+        "wendo",
+        "gĩkanda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbeca' is used to mean both 'money' and 'metal' in Kikuyu."
+    },
+    {
+      "question": "The word 'kĩgũũ' can mean which of the following?",
+      "options": [
+        "Path / Knife",
+        "Limp / Wisdom",
+        "Disabled leg / Crooked path",
+        "Wound / Trail"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kĩgũũ' in Kikuyu can refer to a 'Disabled leg' or a 'Crooked path', illustrating semantic flexibility."
+    }
+  ]
+}
