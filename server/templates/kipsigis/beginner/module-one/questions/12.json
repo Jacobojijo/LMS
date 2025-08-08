@@ -2,103 +2,63 @@
   "practiceQuestions": [
     {
       "question": "In a traditional Kipsigis homestead, what is the significance of the ‘Kot’?",
-      "options": {
-        "A": "It is a sacred place of worship",
-        "B": "It is used only for food storage",
-        "C": "It serves as a cultural and family gathering hub",
-        "D": "It is where livestock are kept"
-      },
-      "correctAnswer": "C"
+      "options": ["It is a sacred place of worship", "It is used only for food storage", "It serves as a cultural and family gathering hub", "It is where livestock are kept"],
+      "correctAnswer": 2,
+      "explanation": "The 'Kot' is a central cultural and family gathering place in a traditional Kipsigis homestead."
     },
     {
       "question": "Which of the following is traditionally used to serve liquids in Kipsigis culture?",
-      "options": {
-        "A": "Sanit",
-        "B": "Glasit",
-        "C": "Sotet",
-        "D": "Ng’echeret"
-      },
-      "correctAnswer": "C"
+      "options": ["Sanit", "Glasit", "Sotet", "Ng’echeret"],
+      "correctAnswer": 2,
+      "explanation": "'Sotet' is the traditional vessel used to serve liquids in Kipsigis culture."
     },
     {
       "question": "What does ‘Kimonchok’ symbolize in a Kipsigis household?",
-      "options": {
-        "A": "A place for community meetings",
-        "B": "Protection, as it serves as the roof",
-        "C": "A decorative part of the house",
-        "D": "A special seat for elders"
-      },
-      "correctAnswer": "B"
+      "options": ["A place for community meetings", "Protection, as it serves as the roof", "A decorative part of the house", "A special seat for elders"],
+      "correctAnswer": 1,
+      "explanation": "'Kimonchok' symbolizes protection in the household as it refers to the roof."
     },
     {
       "question": "Which Kipsigis household item is commonly used for sweeping?",
-      "options": {
-        "A": "Ndoit",
-        "B": "Pirirwet",
-        "C": "Meset",
-        "D": "Kabat"
-      },
-      "correctAnswer": "B"
+      "options": ["Ndoit", "Pirirwet", "Meset", "Kabat"],
+      "correctAnswer": 1,
+      "explanation": "'Pirirwet' is the traditional sweeping tool used in Kipsigis homes."
     },
     {
       "question": "Which of the following best describes the function of a ‘Kok’ in a Kipsigis home?",
-      "options": {
-        "A": "A kitchen utensil used for serving food",
-        "B": "A storage item for keeping valuables",
-        "C": "A seating area, often used by elders",
-        "D": "A farming tool for tilling land"
-      },
-      "correctAnswer": "C"
+      "options": ["A kitchen utensil used for serving food", "A storage item for keeping valuables", "A seating area, often used by elders", "A farming tool for tilling land"],
+      "correctAnswer": 2,
+      "explanation": "'Kok' is a seating area in the home, often reserved for elders."
     },
     {
       "question": "In a traditional Kipsigis kitchen, which item is most essential for cooking?",
-      "options": {
-        "A": "Chepungut",
-        "B": "Kalamit",
-        "C": "Ndoit",
-        "D": "Meset"
-      },
-      "correctAnswer": "A"
+      "options": ["Chepungut", "Kalamit", "Ndoit", "Meset"],
+      "correctAnswer": 0,
+      "explanation": "'Chepungut' is an essential cooking utensil in traditional Kipsigis kitchens."
     },
     {
       "question": "What does ‘Kurget’ refer to in a modern Kipsigis household?",
-      "options": {
-        "A": "A traditional cooking method",
-        "B": "An entrance door to the house",
-        "C": "A traditional storytelling session",
-        "D": "A musical instrument"
-      },
-      "correctAnswer": "B"
+      "options": ["A traditional cooking method", "An entrance door to the house", "A traditional storytelling session", "A musical instrument"],
+      "correctAnswer": 1,
+      "explanation": "'Kurget' refers to the entrance door in a modern Kipsigis household."
     },
     {
       "question": "How is the evolution of modern dining practices reflected in Kipsigis homes?",
-      "options": {
-        "A": "The replacement of communal floor dining with a ‘Meset’",
-        "B": "The use of calabashes instead of metal cups",
-        "C": "The removal of chairs in traditional gatherings",
-        "D": "The introduction of multiple cooking stations"
-      },
-      "correctAnswer": "A"
+      "options": ["The replacement of communal floor dining with a ‘Meset’", "The use of calabashes instead of metal cups", "The removal of chairs in traditional gatherings", "The introduction of multiple cooking stations"],
+      "correctAnswer": 0,
+      "explanation": "Modern Kipsigis homes have replaced communal floor dining with the use of a 'Meset' (table)."
     },
     {
       "question": "Which of the following best represents a traditional Kipsigis farming area for staple food?",
-      "options": {
-        "A": "Rokoet",
-        "B": "Kapungui",
-        "C": "Kabat",
-        "D": "Imbar"
-      },
-      "correctAnswer": "B"
+      "options": ["Rokoet", "Kapungui", "Kabat", "Imbar"],
+      "correctAnswer": 1,
+      "explanation": "'Kapungui' is the traditional farming area for staple foods in Kipsigis culture."
     },
     {
       "question": "In Kipsigis culture, what is the purpose of ‘Kipngalal batai’?",
-      "options": {
-        "A": "It is a modern security system",
-        "B": "It is used to store utensils",
-        "C": "It is a radio for news, music, and storytelling",
-        "D": "It is a type of traditional footwear"
-      },
-      "correctAnswer": "C"
+      "options": ["It is a modern security system", "It is used to store utensils", "It is a radio for news, music, and storytelling", "It is a type of traditional footwear"],
+      "correctAnswer": 2,
+      "explanation": "'Kipngalal batai' is a radio used for news, music, and storytelling in Kipsigis households."
     }
   ]
 }

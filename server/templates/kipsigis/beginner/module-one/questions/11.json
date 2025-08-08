@@ -3,42 +3,48 @@
     {
       "question": "In Kipsigis culture, which term is used to refer to a mother’s brother?",
       "options": ["Bamongo", "Abule", "Senge", "Boger"],
-      "correctAnswer": "B"
+      "correctAnswer": 1,
+      "explanation": "In Kipsigis, 'Abule' is the term for a mother’s brother."
     },
     {
       "question": "How does Kipsigis kinship terminology distinguish between male and female child?",
       "options": [
         "Ng’etet (male) and Chepto (female)",
-        "Abule(male) and Senge (female)",
-        "Bamong’o(male) and Koruchon (female)",
-        "Bomori(male) and Batiem(female)"
+        "Abule (male) and Senge (female)",
+        "Bamong’o (male) and Koruchon (female)",
+        "Bomori (male) and Batiem (female)"
       ],
-      "correctAnswer": "A"
+      "correctAnswer": 0,
+      "explanation": "Kipsigis uses 'Ng’etet' for a male child and 'Chepto' for a female child."
     },
     {
       "question": "Which of the following statements accurately reflects the Kipsigis concept of generational hierarchy?",
       "options": [
         "Kipsigis kinship does not extend beyond grandparents.",
-        "Kipsigis culture doesn't assigns unique names to great-grandchildren up to the third generation.",
+        "Kipsigis culture assigns unique names to great-grandchildren up to the third generation.",
         "Kipsigis society does not recognize the role of nieces and nephews.",
         "The firstborn son is always called \"Law.\""
       ],
-      "correctAnswer": "B"
+      "correctAnswer": 1,
+      "explanation": "Kipsigis culture recognizes generational hierarchy and assigns unique names to great-grandchildren up to the third generation."
     },
     {
       "question": "What term is used to refer to a son-in-law in Kipsigis by the mother of the lady he married?",
       "options": ["Siet", "Batiem", "Boger", "Sandanin"],
-      "correctAnswer": "C"
+      "correctAnswer": 2,
+      "explanation": "'Boger' is the correct term for a son-in-law when spoken by the mother of the bride."
     },
     {
       "question": "In Kipsigis culture, the term 'Siet' refers to:",
-      "options": ["The second wife", "The mother of the family", "The Cowife", "A grandmother"],
-      "correctAnswer": "C"
+      "options": ["The second wife", "The mother of the family", "The cowife", "A grandmother"],
+      "correctAnswer": 2,
+      "explanation": "'Siet' refers to a cowife in Kipsigis culture."
     },
     {
       "question": "What is the Kipsigis term for \"grandfather\"?",
       "options": ["Bomori", "Batiem", "Bamong’o", "Senge"],
-      "correctAnswer": "A"
+      "correctAnswer": 0,
+      "explanation": "The term 'Bomori' means 'grandfather' in Kipsigis."
     },
     {
       "question": "Which of the following best describes the term ‘Law’ in the Kipsigis family structure?",
@@ -48,22 +54,26 @@
         "The title given to the eldest uncle in the family",
         "A name given to the second wife in a polygamous marriage"
       ],
-      "correctAnswer": "B"
+      "correctAnswer": 1,
+      "explanation": "'Law' is used for both a sister-in-law and a son-in-law in Kipsigis culture."
     },
     {
       "question": "What is the correct Kipsigis term for an Aunt who is the sister of one’s father?",
       "options": ["Obule", "Senge", "Chepkam", "Kamati"],
-      "correctAnswer": "B"
+      "correctAnswer": 1,
+      "explanation": "'Senge' refers to a paternal aunt in Kipsigis."
     },
     {
       "question": "In a Kipsigis household, what term is used to refer to the father by an initiated man?",
       "options": ["Batiem", "Bamongo", "Bomori", "Chepkam"],
-      "correctAnswer": "B"
+      "correctAnswer": 1,
+      "explanation": "An initiated man refers to his father as 'Bamongo' in Kipsigis."
     },
     {
       "question": "Which term is correctly matched with its English equivalent?",
-      "options": ["Chepto – Son", "Batiem – My father", "Mochogoret – Grandson", "Senge– Uncle"],
-      "correctAnswer": "C"
+      "options": ["Chepto – Son", "Batiem – My father", "Mochogoret – Grandson", "Senge – Uncle"],
+      "correctAnswer": 2,
+      "explanation": "'Mochogoret' means 'grandson' in Kipsigis."
     }
   ]
 }

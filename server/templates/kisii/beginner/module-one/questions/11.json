@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii greeting for “Good morning” when addressing one person?",
+      "options": [
+        "Obotuko Obuya",
+        "Bwakire",
+        "Mbuyande",
+        "Naye boigo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Bwakire\" is the correct greeting for 'Good morning' in Ekegusii when addressing an individual."
+    },
+    {
+      "question": "In Ekegusii, what does the term “Genda buya” literally mean?",
+      "options": [
+        "Stay well",
+        "Go well",
+        "May He protect you",
+        "See you later"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Genda buya\" literally translates to 'Go well' and is used as a farewell."
+    },
+    {
+      "question": "Which of the following greetings is used exclusively in the morning when the sun is rising?",
+      "options": [
+        "Bwakire",
+        "Bwairire",
+        "Mbuyore",
+        "Obotuko obuya"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Bwakire\" is used exclusively in the early morning when the sun is rising."
+    },
+    {
+      "question": "How do you say “Good evening” to a group of people in Ekegusii?",
+      "options": [
+        "Bwakire buya",
+        "Bwairire buya",
+        "Bwairire",
+        "Obotuo obuya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Bwairire\" is the proper way to say 'Good evening' to a group in Ekegusii."
+    },
+    {
+      "question": "What grammatical feature is evident in Ekegusii plural greetings such as “Oyimoreuru”?",
+      "options": [
+        "The suffix \"-nainwe\" indicates plural",
+        "The prefix \"naye-\" marks plurality",
+        "Ekegusii does not distinguish between singular and plural",
+        "The word order changes in plural greetings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Ekegusii, the suffix \"-nainwe\" is used to indicate plurality in greetings like \"Oyimoreuru.\""
+    },
+    {
+      "question": "Which Ekegusii phrase would be used when someone is going to sleep?",
+      "options": [
+        "Oboke buya",
+        "Orare buya",
+        "Bwakire buya",
+        "Marogoba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Orare buya\" means 'sleep well' and is used when someone is going to sleep."
+    },
+    {
+      "question": "How do the Abagusii people emphasize politeness and respect in their greetings?",
+      "options": [
+        "By bowing while greeting",
+        "By using intensifiers like “Gaki”",
+        "By avoiding greetings during meals",
+        "By repeating the greeting multiple times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abagusii people use intensifiers such as “Gaki” to show respect and politeness in greetings."
+    },
+    {
+      "question": "If someone greets you with “Naki” (informal “What’s up?”), what is the culturally appropriate response?",
+      "options": [
+        "Orare buya",
+        "Ogende buya",
+        "Timbwati mang’ana",
+        "Bwakire buya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Timbwati mang’ana\" is a culturally appropriate and casual response to the greeting \"Naki.\""
+    },
+    {
+      "question": "What does the word \"omogaso omuya\" mean in Ekegusii?",
+      "options": [
+        "Good morning",
+        "General greeting for the day",
+        "Good evening",
+        "Safe journey"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omogaso omuya\" is a general daily greeting, not tied to a specific time like morning or evening."
+    },
+    {
+      "question": "Which Ekegusii farewell expression is most appropriate when wishing someone a safe journey?",
+      "options": [
+        "Bwairire buya",
+        "Obotuko obuya",
+        "Ogende buya",
+        "Bwakire buya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Ogende buya\" is used to wish someone a safe journey and means 'Go well'."
+    }
+  ]
+}

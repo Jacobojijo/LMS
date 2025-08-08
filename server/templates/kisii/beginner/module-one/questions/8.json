@@ -8,7 +8,8 @@
         "The last day of the week",
         "The day for visiting the market"
       ],
-      "answer": "The first day of work"
+      "correctAnswer": 1,
+      "explanation": "\"Tichi rimo\" translates to 'the first day of work' in the Abagusii weekly calendar system."
     },
     {
       "question": "Why is Saturday called 'Enyongesa' in the Abagusii calendar?",
@@ -18,17 +19,19 @@
         "It is named after the Swahili word 'ongeza' due to bargaining at markets",
         "It is the day when people travel to visit relatives"
       ],
-      "answer": "It is named after the Swahili word 'ongeza' due to bargaining at markets"
+      "correctAnswer": 2,
+      "explanation": "Saturday is called 'Enyongesa' because it derives from the Swahili word 'ongeza', reflecting the bargaining activities that take place at markets on this day."
     },
     {
       "question": "What is the Abagusii name for the ninth month of the year?",
       "options": [
-        "Omotienyi o’ikomi",
-        "Omotienyi o’kianda",
+        "Omotienyi o'ikomi",
+        "Omotienyi o'kianda",
         "Omotienyi okabere",
-        "Omotienyi o’gatano na rimo"
+        "Omotienyi o'gatano na rimo"
       ],
-      "answer": "Omotienyi o’kianda"
+      "correctAnswer": 1,
+      "explanation": "\"Omotienyi o'kianda\" is the Abagusii name for the ninth month of the year, with 'kianda' representing the ordinal number nine."
     },
     {
       "question": "What does 'Tichi gatano' (Friday) signify in the Abagusii calendar?",
@@ -38,17 +41,19 @@
         "The day of rest before the weekend",
         "The day for traditional ceremonies"
       ],
-      "answer": "The fifth day of work"
+      "correctAnswer": 1,
+      "explanation": "\"Tichi gatano\" literally means 'the fifth day of work' in the Abagusii weekly calendar system."
     },
     {
       "question": "Which month in the Abagusii calendar is associated with intense cold?",
       "options": [
         "Omotienyi omotakani",
-        "Omotienyi o’ikomi",
+        "Omotienyi o'ikomi",
         "Omotienyi ogatano na kabere",
         "Omotienyi ogatano narimo"
       ],
-      "answer": "Omotienyi ogatano na kabere"
+      "correctAnswer": 2,
+      "explanation": "\"Omotienyi ogatano na kabere\" (the seventh month) is associated with intense cold weather in the Abagusii calendar."
     },
     {
       "question": "What is the primary cultural significance of 'Omokubio' (Sunday) in the Abagusii calendar?",
@@ -58,17 +63,19 @@
         "It is a day of prayer and rest",
         "It marks the beginning of a new month"
       ],
-      "answer": "It is a day of prayer and rest"
+      "correctAnswer": 2,
+      "explanation": "\"Omokubio\" (Sunday) holds primary cultural significance as a day of prayer and rest in the Abagusii calendar system."
     },
     {
-      "question": "What does 'Omotienyi o’ikomi na kabere' refer to in the Abagusii calendar?",
+      "question": "What does 'Omotienyi o'ikomi na kabere' refer to in the Abagusii calendar?",
       "options": [
         "The eleventh month of the year",
         "The twelfth month of the year",
         "The tenth month of the year",
         "The eighth month of the year"
       ],
-      "answer": "The twelfth month of the year"
+      "correctAnswer": 1,
+      "explanation": "\"Omotienyi o'ikomi na kabere\" refers to the twelfth month of the year, combining 'ten and two' to indicate the twelfth position."
     },
     {
       "question": "Why were men expected to be away from home on 'Tichi gatano' (Friday) in precolonial times?",
@@ -78,17 +85,19 @@
         "They traveled for trade and exploration",
         "They prepared for war"
       ],
-      "answer": "They were engaged in farming activities"
+      "correctAnswer": 1,
+      "explanation": "In precolonial times, men were expected to be away from home on 'Tichi gatano' (Friday) because they were engaged in farming activities."
     },
     {
       "question": "In the Abagusii calendar, which month is often associated with students preparing for change?",
       "options": [
-        "Omotienyi omotang’ani",
+        "Omotienyi omotang'ani",
         "Omotienyi ogatano na gatato",
         "Omotienyi ogatato",
-        "Omotienyi o’ikomi"
+        "Omotienyi o'ikomi"
       ],
-      "answer": "Omotienyi ogatano na gatato"
+      "correctAnswer": 1,
+      "explanation": "\"Omotienyi ogatano na gatato\" (the eighth month) is often associated with students preparing for change in the Abagusii calendar."
     },
     {
       "question": "What is the meaning of 'Omotienyi ogatano na rimo' in the Abagusii calendar?",
@@ -98,7 +107,8 @@
         "The eleventh month of the year",
         "The tenth month of the year"
       ],
-      "answer": "The eleventh month of the year"
+      "correctAnswer": 2,
+      "explanation": "\"Omotienyi ogatano na rimo\" means 'the eleventh month of the year', combining 'five and one' plus 'five' to indicate the eleventh position."
     }
   ]
 }

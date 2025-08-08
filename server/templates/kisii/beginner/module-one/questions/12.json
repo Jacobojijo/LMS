@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Abagusii culture, which term is used to refer to a mother's brother, who holds an important decision-making role in the family?",
+      "options": [
+        "Semo",
+        "Tata moke",
+        "Tata",
+        "Bamwabo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Tata moke\" is the term used to refer to a mother's brother in Abagusii culture, who holds an important decision-making role in the family."
+    },
+    {
+      "question": "How does Abagusii kinship terminology distinguish between mother and father?",
+      "options": [
+        "Baba/mama (mother) and Tata (father)",
+        "Omoiseke (mother) and omomura (father)",
+        "Bamwabo(male) and Anko (female)",
+        "Semo (male) and Bamwabo (female)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abagusii kinship terminology distinguishes between mother and father using \"Baba/mama\" for mother and \"Tata\" for father."
+    },
+    {
+      "question": "Which of the following statements accurately reflects the Abagusii concept of generational hierarchy?",
+      "options": [
+        "Abagusii kinship does not extend beyond grandparents.",
+        "Abagusii culture assigns unique names to great-grandchildren up to the third generation.",
+        "Abagusii society does not recognize the role of nieces and nephews.",
+        "The first-born son is always called \"Law.\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abagusii culture assigns unique names to great-grandchildren up to the third generation, reflecting their complex generational hierarchy system."
+    },
+    {
+      "question": "What term is used to refer to a daughter-in-law when she returns to her paternal home?",
+      "options": [
+        "Omoiseke",
+        "Bamwabo",
+        "Moka momura",
+        "Omokungu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Moka momura\" is the term used to refer to a daughter-in-law when she returns to her paternal home in Abagusii culture."
+    },
+    {
+      "question": "In Abagusii culture, the term 'Omokungu omotang'ani' refers to:",
+      "options": [
+        "The second wife",
+        "The mother of the family",
+        "The first wife",
+        "A grandmother"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omokungu omotang'ani\" refers to the first wife in Abagusii polygamous family structures."
+    },
+    {
+      "question": "What is the Gusii term for \"grandfather\"?",
+      "options": [
+        "Sokoro",
+        "Magokoro",
+        "Tata moke",
+        "Bamwabo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Sokoro\" is the Gusii term for grandfather in the kinship terminology system."
+    },
+    {
+      "question": "Which of the following best describes the term 'Law' in Abagusii family structure?",
+      "options": [
+        "A term referring to a brother's son",
+        "A shared term for both father-in-law and son-in-law",
+        "The title given to the eldest uncle in the family",
+        "A name given to the second wife in a polygamous marriage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Law\" is a shared term used for both father-in-law and son-in-law in Abagusii family structure, reflecting the reciprocal nature of in-law relationships."
+    },
+    {
+      "question": "What is the correct Abagusii term for an aunt who is the sister of one's father?",
+      "options": [
+        "Anko",
+        "Mako moke",
+        "Omwana omoiseke",
+        "Kamati"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Mako moke\" is the correct Abagusii term for an aunt who is the sister of one's father (paternal aunt)."
+    },
+    {
+      "question": "In a polygamous Abagusii household, what term is used to refer to the second wife?",
+      "options": [
+        "Omokungu o'gatato",
+        "Omokungu o'kabere",
+        "Omokungu o'motang'ani",
+        "Baba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omokungu o'kabere\" is the term used to refer to the second wife in a polygamous Abagusii household."
+    },
+    {
+      "question": "Which term is correctly matched with its English equivalent?",
+      "options": [
+        "Omoiseke – Son",
+        "Baba ominto– My father",
+        "Omochokoro omomura – Grandson",
+        "Mako moke – Uncle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omochokoro omomura\" correctly translates to grandson in English, representing the male grandchild relationship in Abagusii kinship terms."
+    }
+  ]
+}

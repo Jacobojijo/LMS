@@ -1,0 +1,409 @@
+{
+  "title": "Ekegusii Alphabet, Basic Greetings, and Vocabulary CAT",
+  "description": "This Continuous Assessment Test evaluates knowledge of Ekegusii phonology, numerals, time expressions, and cultural communication norms.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following statements about Ekegusii vowels is TRUE?",
+      "options": [
+        "Ekegusii vowels can undergo reduction in unstressed syllables, similar to English.",
+        "Ekegusii vowels always retain their full phonetic value regardless of stress.",
+        "Ekegusii has seven primary vowels, with distinct nasalized variants.",
+        "Ekegusii vowels do not affect meaning when lengthened."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is the significance of vowel length in Ekegusii?",
+      "options": [
+        "It does not affect word meaning and is purely a stylistic feature.",
+        "It determines whether a word is a noun or a verb.",
+        "It is phonemically significant and can change the meaning of a word.",
+        "It only affects the rhythm of speech but not meaning."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following words exemplifies the use of a consonantal digraph in Ekegusii?",
+      "options": [
+        "Omoiseke",
+        "Igoro",
+        "Omwando",
+        "Tata"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is a unique feature of Ekegusii consonants compared to English consonants?",
+      "options": [
+        "They have no plosives.",
+        "They rely on vowel harmony for pronunciation.",
+        "They include nasalized plosives and palatalized clusters.",
+        "They do not form digraphs."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] How does the tonal aspect of Ekegusii influence meaning?",
+      "options": [
+        "It primarily affects sentence structure, not word meaning.",
+        "It dictates word stress but not pronunciation.",
+        "It is crucial in differentiating words that otherwise have identical spelling.",
+        "It has no impact on lexical meaning, only on emphasis."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is a defining characteristic of Ekegusii consonants?",
+      "options": [
+        "They change based on stress in a word.",
+        "They include plosives, nasals, and fricatives.",
+        "They are silent when placed before vowels.",
+        "They always appear at the beginning of words."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Speech sounds differ in:",
+      "options": [
+        "Pitch, Loudness and Tempo",
+        "Loudness, Quality and Pitch",
+        "Pitch, Loudness, and Quality",
+        "Loudness, Tempo and Quality"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] In the word \"mogaka,\" how does tonal variation change its meaning?",
+      "options": [
+        "It distinguishes between \"elder\" and \"aloe vera.\"",
+        "It differentiates \"elder\" from \"man.\"",
+        "It changes \"child\" into \"woman.\"",
+        "It alters \"to look\" into \"to spread.\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following pronunciation features does NOT contribute to phonological complexity in Ekegusii?",
+      "options": [
+        "Syllable stress",
+        "Vowel length",
+        "Use of voiced fricatives",
+        "Tonality"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] How can a learner best master Ekegusii pronunciation challenges?",
+      "options": [
+        "By avoiding tonal variations to maintain consistency",
+        "By memorizing written words without focusing on phonetics",
+        "By interacting with native speakers and practicing syllable stress",
+        "By replacing Dholuo consonants with their closest English equivalents"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] How is the number 17 correctly expressed in Ekegusii?",
+      "options": [
+        "Ikomi na inye",
+        "Ikomi na isano isato",
+        "Ikomi na isano ibere",
+        "Ikomi na isano"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] What is the correct term for 800 in Ekegusii?",
+      "options": [
+        "Chimia Inye",
+        "Chimia isano na isato",
+        "Emerongo etano na etato",
+        "Chimia isano nemo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] Which statement about ordinal numbers in Ekegusii is incorrect?",
+      "options": [
+        "\"Oyo\" is prefixed to most ordinal numbers.",
+        "\"Amakwani\" is the only ordinal number that does not use \"oyo.\"",
+        "\"Omokungu o’gatato\" means the last in a sequence.",
+        "Ordinal numbers are only used in ranking people."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"The sixth person arrived late\" in Ekegusii?",
+      "options": [
+        "Omonto o’gatano na rimo aigete ekero ebiro biarire",
+        "Omonto o’gatano achete ekero chingaki chiaerire",
+        "Omonto achete chinsa kianda",
+        "Omonto o’ikomi na rimo ochire"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Numbering] If someone refers to \"Tichi gatato,\" which day are they talking about?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] In which month would you refer to \"Omotienyi o’gatano na rimo\"?",
+      "options": [
+        "October",
+        "November",
+        "December",
+        "February"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] What is the correct meaning of \"Omokubiol\" in Ekegusii?",
+      "options": [
+        "A day for spiritual reflection",
+        "A day when people plant crops",
+        "A day for market trading",
+        "A day to begin work"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following Ekegusii words refers to \"early morning\"?",
+      "options": [
+        "Mambia",
+        "Maambi mambi",
+        "Botuko gati",
+        "Igoro"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"twenty\" in Ekegusii?",
+      "options": [
+        "Chimia ibere",
+        "Emerongo ene",
+        "Emerongo ebere",
+        "Amagana abere"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following phrases is correctly structured in Ekegusii?",
+      "options": [
+        "Nachire bono",
+        "Ngogenda inde kare",
+        "Ninche ngende",
+        "Nachiire"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following is NOT part of the four-part day division in Ekegusii?",
+      "options": [
+        "Bwairire",
+        "Bwakire",
+        "Mambi mbuya",
+        "Obotuko obuya"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] If an elder refers to \"Chiribu kianda,\" what number are they talking about?",
+      "options": [
+        "9",
+        "90",
+        "900",
+        "9000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"the ninth child\" in Ekegusii?",
+      "options": [
+        "Omwana o’kane",
+        "Omwana o’kianda",
+        "Omwana biakianda",
+        "Omwana o’ikomi"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] What does \"Risase’\" most closely mean in Ekegusii?",
+      "options": [
+        "Time",
+        "Moon",
+        "Sun",
+        "Season"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] What would be the correct way to say \"the third house\" in Ekegusii?",
+      "options": [
+        "Enka ya kane",
+        "Enka ya gatato",
+        "Enka ya ikomi",
+        "Enka ya kianda"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] Which of the following best describes the primary function of Ekegusii greetings (Amakwani)?",
+      "options": [
+        "To establish religious authority.",
+        "To reflect temporal specificity, kinship, and social cohesion.",
+        "To mark grammatical complexity only.",
+        "To signify political affiliations."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] What is the correct response to \"Bwakire\" in Ekegusii?",
+      "options": [
+        "Emarogoba engiya",
+        "Bwairire buya",
+        "Bwakire buya",
+        "Obotuko obuya"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] In Ekegusii, what does the farewell term “eri” derive from?",
+      "options": [
+        "To move.",
+        "To protect.",
+        "To listen.",
+        "To thank."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] Which of the following phrases means \"May I come in?\"",
+      "options": [
+        "Anyalo donjoNgong’anchera ore nsoe?",
+        "Naki?",
+        "Timbwati mang’ana.",
+        "Gaki ngonye"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] In Ekegusii, what does the term \"sokoro\" mean?",
+      "options": [
+        "Uncle",
+        "Aunt",
+        "Grandfather",
+        "Cousin"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] Which of the following is NOT a recognized function of “yaa” in Ekegusii kinship?",
+      "options": [
+        "Refers to a brother.",
+        "Can refer to a close male cousin.",
+        "Specifically means \"maternal uncle.\"",
+        "Can be used informally to mean \"friend.\""
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] How does Ekegusii differentiate between “Grandson” and “Granddaughter”?",
+      "options": [
+        "Omochokoro omomura (Grandson), omochokoro omoiseke (Granddaughter)",
+        "Omochokoro oye (Grandson), omochokoro obo (Granddaughter)",
+        "Yaa ngogosore (Grandson), enyaroke yane (Granddaughter)",
+        "Sokoro ominto (Grandson), Magokoro ominto (Granddaughter)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] In Gusii polygamous household structure, which wife holds the highest status?",
+      "options": [
+        "Omokungu O’kabere",
+        "Omokungu omotang’ani",
+        "Omokungu omokogoti",
+        "Omokungu o’gatato"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] What does \"ekibukibuki/ekioroki mang’ana\" refer to in modern Ekegusii households?",
+      "options": [
+        "A traditional drinking gourd",
+        "A ceremonial fire pit",
+        "A television",
+        "A storytelling gathering"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] In Ekegusii, which of the following items is essential for sweeping the house?",
+      "options": [
+        "Ekiabuso",
+        "Nichwo",
+        "ENdoo",
+        "EsanI"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] In Ekegusii professional titles, which term refers to a teacher?",
+      "options": [
+        "Omworokia",
+        "Omworokigwa",
+        "Omosoni",
+        "Omosikari"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] What is the correct Ekegusii response to \"Mbuyamono ase ogocha kondora\"?",
+      "options": [
+        "Tocha naende",
+        "Kwareganigwe",
+        "Mbuyamono",
+        "Ogende buya"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] Which of the following is NOT an example of a tonal equivocal word in Ekegusii?",
+      "options": [
+        "Emingichi",
+        "Egoree",
+        "Eng’ombe",
+        "Esibeni"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] In Ekegusii, which of these words can mean \"law,\" \"trap,\" or \"plan\" depending on context?",
+      "options": [
+        "Oborabu",
+        "Richiko",
+        "Obotambe",
+        "Omwana"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] What is the best way for a non-native speaker to navigate Ekegusii’s tonal complexity?",
+      "options": [
+        "Relying only on written texts.",
+        "Practicing with native speakers and immersing in cultural settings.",
+        "Ignoring tonal distinctions since they are unimportant.",
+        "Using direct English translations."
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

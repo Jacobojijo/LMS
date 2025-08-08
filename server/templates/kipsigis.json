@@ -1,0 +1,1942 @@
+{
+  "title": "Kipsisgis Language Course for Beginners",
+  "structure": "course-structure.html",
+  "modules": [
+    {
+      "title": "MODULE 01",
+      "description": "Kipsigis Alphabet, Basic Greetings, and Vocabulary ",
+      "order": 1,
+      "topics": [
+        {
+          "title": "1.1 Introduction to Kipsigis Language & Culture",
+          "type": "standalone",
+          "order": 1,
+          "htmlContent": "kipsigis/beginner/module-one/1.html",
+          "passingScore": 50
+        },
+
+        {
+          "title": "1.2 Pronunciation and Alphabets",
+          "type": "container",
+          "order": 2,
+          "subtopics": [
+            {
+              "title": "Kipsigis Alphabets",
+              "htmlContent": "kipsigis/beginner/module-one/2.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "Which of the following best describes the organization of Kipsigis vowels?",
+      "options": [
+        "Based on nasalization and tone",
+        "Based on ATR distinction and vowel length",
+        "Based on glottalization and tense-lax opposition",
+        "Based on aspiration and diphthong placement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis vowels are organized based on Advanced Tongue Root (ATR) distinction and vowel length, which are crucial features in the language’s phonology."
+    },
+    {
+      "question": "What is the correct contrast between 'mas' and 'maas' in Kipsigis?",
+      "options": [
+        "Different tense-lax vowel forms of the same root",
+        "Short vowel 'hit' vs. long vowel 'mislead'",
+        "One is imperative; the other is infinitive",
+        "Both are synonyms differentiated by tone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kipsigis, 'mas' means 'hit' (short vowel) while 'maas' means 'mislead' (long vowel), demonstrating a length-based distinction."
+    },
+    {
+      "question": "What kind of sound is represented by the consonant digraph “ng’” in Kipsigis?",
+      "options": [
+        "Voiceless palatal fricative",
+        "Nasal with glottal closure",
+        "Voiced alveolar lateral",
+        "Voiceless labio-velar stop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The digraph 'ng’' in Kipsigis represents a nasal sound combined with a glottal closure, distinguishing it from other nasal types."
+    },
+    {
+      "question": "The vowel /ee/ in 'teep' contributes to which of the following grammatical meanings?",
+      "options": [
+        "A future marker",
+        "An imperative or infinitive meaning 'stay'",
+        "A subjunctive mood",
+        "A plural noun derivation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kipsigis, the vowel /ee/ in 'teep' indicates an imperative or infinitive form meaning 'stay'."
+    },
+    {
+      "question": "The difference between 'tie' and 'tye' exemplifies what phonological process?",
+      "options": [
+        "Tonal inversion",
+        "Vowel harmony",
+        "Glide substitution for syllabic vowels",
+        "Epenthesis of a consonant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The contrast between 'tie' and 'tye' illustrates glide substitution, where a glide replaces a syllabic vowel for phonological reasons."
+    },
+    {
+      "question": "In Kipsigis, what would most likely result from mispronouncing 'chuut' as 'chut'?",
+      "options": [
+        "It would produce a tonal variant with the same meaning",
+        "It would completely alter the meaning due to vowel length",
+        "It would become a plural form of the original",
+        "It would only affect dialectal acceptability, not meaning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vowel length in Kipsigis is phonemic, so mispronouncing 'chuut' as 'chut' would likely result in a completely different word or an unintelligible form."
+    },
+    {
+      "question": "Which of the following is a fricative consonant in Kipsigis?",
+      "options": [
+        "ch",
+        "s",
+        "ny",
+        "ng'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'s' is a fricative consonant in Kipsigis, unlike 'ch' (affricate), 'ny' (nasal), or 'ng’' (nasal with glottal closure)."
+    },
+    {
+      "question": "What distinguishes 'mooek' from 'mooita' in terms of pronunciation?",
+      "options": [
+        "Diphthong use",
+        "Intervocalic lenition",
+        "Tonal contrast (high vs. low)",
+        "Vowel harmony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mooek' and 'mooita' are distinguished primarily by tone, indicating high versus low pitch, which carries semantic weight in Kipsigis."
+    },
+    {
+      "question": "The term 'kiptaaiyiaat' demonstrates which Kipsigis pronunciation feature?",
+      "options": [
+        "Diphthong omission",
+        "Use of multiple consonants and vowel harmony",
+        "Tonal reduplication",
+        "Final vowel devoicing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kiptaaiyiaat' illustrates Kipsigis' use of complex consonant clusters and vowel harmony, reflecting the phonotactic richness of the language."
+    },
+    {
+      "question": "Which of the following words demonstrates the importance of consonantal accuracy?",
+      "options": [
+        "teep / toor",
+        "kas / sas",
+        "miis / saak",
+        "cheer / chir"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The pair 'cheer' vs. 'chir' shows how a small change in consonant can lead to significant differences in meaning in Kipsigis, emphasizing the importance of precise articulation."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.2.2.5 Problem of Pronunciation.",
+              "htmlContent": "kipsigis/beginner/module-one/3.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "Which feature is most responsible for differentiating the meanings of the three variations of 'moet'?",
+      "options": [
+        "Voicing of the consonants",
+        "Stress and vowel length differences",
+        "Consonant clusters",
+        "Syllable count"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Differences in stress placement and vowel length distinguish meanings of words like 'moet' in Kipsigis."
+    },
+    {
+      "question": "What distinguishes the meanings of the two pronunciations of 'muget'?",
+      "options": [
+        "The position of tone across syllables",
+        "The degree of stress on the second syllable",
+        "The diphthong shift in the final syllable",
+        "The glottal stop before the 'g' sound"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stress on different syllables can change the meaning of 'muget' in Kipsigis, making stress a critical feature."
+    },
+    {
+      "question": "In the example [moeet] meaning 'a failure to grow/thrive,' what phonological phenomenon is at play?",
+      "options": [
+        "Stress shift from first to second syllable",
+        "Vowel lengthening in the second syllable",
+        "Voicing of the /t/ consonant",
+        "Addition of a diphthong at word-final position"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The meaning shift in [moeet] is due to vowel lengthening in the second syllable, which alters the semantic interpretation."
+    },
+    {
+      "question": "Which pronunciation of 'moet' means 'stomach'?",
+      "options": [
+        "[mo-eet] with extended final vowel",
+        "[mo-et] with first syllable stress",
+        "[moet] with second syllable stress",
+        "[moit] with high-falling tone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kipsigis, '[moet]' with stress on the second syllable conveys the meaning 'stomach'."
+    },
+    {
+      "question": "What is a key linguistic challenge illustrated by the 'moet' and 'muget' examples?",
+      "options": [
+        "Allophonic consonant rules",
+        "The impact of stress and pitch on semantic interpretation",
+        "Vowel reduction in unstressed syllables",
+        "Grammatical gender confusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stress and pitch variations in 'moet' and 'muget' demonstrate how these features can significantly change meaning in Kipsigis."
+    },
+    {
+      "question": "Which of the following would be the most effective strategy to master tonal distinctions in Kipsigis?",
+      "options": [
+        "Memorizing noun classes by root consonants",
+        "Repeating isolated root forms silently",
+        "Using English stress rules on Kipsigis words",
+        "Practicing with native speakers for real-time tonal correction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Native speakers provide immediate and authentic feedback, making them the best resource for mastering tone in Kipsigis."
+    },
+    {
+      "question": "Which linguistic tool is recommended for visualizing vowel length and tone in pronunciation?",
+      "options": [
+        "A tonal spectrogram",
+        "IPA (International Phonetic Alphabet) transcription",
+        "Morphological decomposition",
+        "Lexical glossing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "IPA transcription allows learners to see phonetic details like vowel length and tone crucial to Kipsigis pronunciation."
+    },
+    {
+      "question": "Why might audio drills be particularly effective for Kipsigis learners?",
+      "options": [
+        "They improve silent reading fluency",
+        "They help internalize pitch, stress, and length distinctions",
+        "They reinforce spelling conventions",
+        "They reduce consonantal deletion errors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Audio drills enhance learners’ ability to perceive and produce correct pitch, stress, and length—key phonological features in Kipsigis."
+    },
+    {
+      "question": "What practice is directly recommended to address syllable stress issues in Kipsigis?",
+      "options": [
+        "Recitation of verb paradigms",
+        "Targeted exercises on stressed vs. unstressed syllables",
+        "Memorizing tone-marked vocab lists",
+        "Practicing glottal stops"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Focused stress exercises help learners distinguish and apply the appropriate stress patterns in Kipsigis."
+    },
+    {
+      "question": "Why is contextual learning important in Kipsigis pronunciation?",
+      "options": [
+        "It increases passive vocabulary for loanwords",
+        "It allows learners to hear how tonal shifts affect meaning in real usage",
+        "It simplifies plural formation and verb conjugation",
+        "It helps learners internalize vowel elision in suffixes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Contextual learning helps learners understand the functional role of tone and stress in actual speech, reinforcing accurate pronunciation."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.3 Review & Practice",
+          "type": "standalone",
+          "order": 3,
+          "htmlContent": "kipsigis/beginner/module-one/4.html",
+          "passingScore": 50
+        },
+        {
+          "title": "1.4 Numbers and Numbering",
+          "type": "container",
+          "order": 4,
+          "subtopics": [
+            {
+              "title": " 1.4.1 Introduction and 1.4.2 Cardinal Numbers",
+              "htmlContent": "kipsigis/beginner/module-one/5.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "What is the Kipsigis term for the number 7?",
+      "options": [
+        "Agenge",
+        "Tisab",
+        "Ang’wan",
+        "Taman"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kipsigis, the number 7 is 'Tisab'."
+    },
+    {
+      "question": "How would you correctly say '30' in Kipsigis?",
+      "options": [
+        "somok",
+        "Tiptem",
+        "Sosom",
+        "Artam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct term for 30 in Kipsigis is 'Sosom', derived from the root for three tens."
+    },
+    {
+      "question": "Which number is correctly written as 'elipusiek ang’wan'?",
+      "options": [
+        "4000",
+        "400",
+        "40",
+        "40,000"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Elipusiek ang’wan' means four thousands, hence 4000."
+    },
+    {
+      "question": "What is the correct way to say '15' in Kipsigis?",
+      "options": [
+        "Taman ak muut",
+        "Taman ak agenge",
+        "Bogol ak muut",
+        "Tomonwogik muut"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kipsigis expresses 15 as 'Taman ak muut'—ten and five."
+    },
+    {
+      "question": "How would you correctly write 9900 in Kipsigis?",
+      "options": [
+        "Elipusiek sogol ak bogol sogol",
+        "Elipusiek bogol sogol",
+        "Bogol sogol ak sogol",
+        "Elipusiek sogol ak sogol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "9900 is expressed as 'Elipusiek sogol ak bogol sogol' in Kipsigis."
+    },
+    {
+      "question": "If someone says 'bogol sisiit', what number are they referring to?",
+      "options": [
+        "8000",
+        "800",
+        "80",
+        "800"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Bogol sisiit' refers to 800 in Kipsigis."
+    },
+    {
+      "question": "Which of the following correctly represents 11 in Kipsigis?",
+      "options": [
+        "Taman ak agenge",
+        "Bogol agenge",
+        "Tiptem",
+        "Taman"
+      ],
+      "correctAnswer": 0,
+      "explanation": "11 is said as 'Taman ak agenge'—ten and one."
+    },
+    {
+      "question": "What is the Kipsigis number for 100?",
+      "options": [
+        "Elipuut agenge",
+        "Tomonwogik taman",
+        "Bogol agenge",
+        "Taman ak agenge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Bogol agenge' translates to one hundred in Kipsigis."
+    },
+    {
+      "question": "If you were to say '9999' in Kipsigis, how would you express it?",
+      "options": [
+        "Elipusiek sogol ak bogol sogol ak tomonwogik sogol ak sogol",
+        "Elipusiek bogol sogol",
+        "Bogol sogol ak sogol",
+        "Elipusiek sogol ak sogol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "9999 is accurately expressed as 'Elipusiek sogol ak bogol sogol ak tomonwogik sogol ak sogol'."
+    },
+    {
+      "question": "In the sentence 'Koib chesireret aruet agenge', what does 'agenge' mean?",
+      "options": [
+        "Two",
+        "Three",
+        "One",
+        "Four"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Agenge' means 'one' in Kipsigis."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.4.3 Ordinal Numbers",
+              "htmlContent": "kipsigis/beginner/module-one/6.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "How are ordinal numbers in Kipsigis generally formed?",
+      "options": [
+        "By adding the prefix 'ata' to cardinal numbers",
+        "By using the suffix 'any' with cardinal numbers",
+        "By adding the prefix 'nebo' to cardinal numbers",
+        "By using only unique words unrelated to cardinal numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ordinal numbers in Kipsigis are typically formed by adding the prefix 'nebo' to the corresponding cardinal number."
+    },
+    {
+      "question": "What is the Kipsigis word for 'First'?",
+      "options": [
+        "Neletu",
+        "Nebo agenge/Netai",
+        "Netaai",
+        "Nerube"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Netaai' is the Kipsigis word for 'first' and is an exception to the 'nebo' pattern."
+    },
+    {
+      "question": "Which of the following represents the fifth position in Kipsigis?",
+      "options": [
+        "Nebo ang’wan",
+        "Nebo muut",
+        "Nebo somok",
+        "Nebo lo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ordinal form of 'muut' (five) is 'nebo muut', meaning 'fifth'."
+    },
+    {
+      "question": "In Kipsigis, which ordinal number is used in the sentence: 'Nebo somok aweche kongoi en bwanuneng’wong’'?",
+      "options": [
+        "First",
+        "Seventh",
+        "Third",
+        "Tenth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nebo somok' means 'third', and it is used to express the third position in a sequence."
+    },
+    {
+      "question": "Which of the following is NOT a correct characteristic of ordinal numbers in Kipsigis?",
+      "options": [
+        "They are formed by adding 'nebo' to a cardinal number",
+        "They indicate sequence and ranking",
+        "'Netai' is an exception and not derived from a cardinal number",
+        "They are used for counting objects"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ordinal numbers indicate order, not quantity, so they are not used for counting objects."
+    },
+    {
+      "question": "What is the correct Kipsigis translation for 'The second child is sick'?",
+      "options": [
+        "Mioni lakweet netaai",
+        "Mioni lakweet nebo muut",
+        "Mioni lakweet nebo oeng’",
+        "Mioni lakweet nebo somok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nebo oeng’' indicates 'second', so 'Mioni lakweet nebo oeng’' translates to 'The second child is sick'."
+    },
+    {
+      "question": "Which of the following represents the eighth in Kipsigis?",
+      "options": [
+        "Nebo sisit",
+        "Nebo somok",
+        "Nebo lo",
+        "Nebo ang’wan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nebo sisit' is the correct form of 'eighth' in Kipsigis."
+    },
+    {
+      "question": "What is the last ordinal number in Kipsigis?",
+      "options": [
+        "Netaai",
+        "Neletu",
+        "Nebo agenge",
+        "Nebo taman"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Neletu' is used to denote the last item in a sequence in Kipsigis."
+    },
+    {
+      "question": "Which of the following best explains the function of 'nebo' in Kipsigis ordinal numbers?",
+      "options": [
+        "It emphasizes ownership of objects",
+        "It connects the ordinal number to its cardinal base",
+        "It is a standalone number",
+        "It represents a specific type of number unrelated to counting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nebo' functions as a linking prefix that connects ordinal forms to their corresponding cardinal roots."
+    },
+    {
+      "question": "In Kipsigis, how would you correctly express 'The fourth leader is speaking'?",
+      "options": [
+        "Ng’olole kandoindet nebo ang’wan",
+        "Ng’olole kandoindet nebo somok",
+        "Ng’olole kandoindet nebo tisab",
+        "Ng’olole kandoindet netaai"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nebo ang’wan' means 'fourth', making the correct sentence: 'Ng’olole kandoindet nebo ang’wan'."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.4.4 Days of the Week and Months ",
+              "htmlContent": "kipsigis/beginner/module-one/7.html",
+              "order": 3,
+              "practiceQuestions": [
+    {
+      "question": "What is the meaning of the term 'Jumatatu' in the Kipsigis weekly calendar?",
+      "options": [
+        "The day of rest and worship",
+        "The first day of work",
+        "The last day of the week",
+        "The day for visiting the market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Jumatatu' corresponds to Monday, considered the first day of work in the Kipsigis weekly calendar."
+    },
+    {
+      "question": "Why is Saturday called 'Juma mos' in the Kipsigis calendar?",
+      "options": [
+        "It is the day when people start work",
+        "It is the day for communal prayers",
+        "It is named after the Swahili word 'mosi'",
+        "It is the day when people travel to visit relatives"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Juma mos' comes from Swahili 'Jumamosi' (Saturday), where 'mosi' means 'first', indicating it precedes Sunday."
+    },
+    {
+      "question": "What is the Kipsigis name for the ninth month of the year?",
+      "options": [
+        "Arawetab Oeng",
+        "Arawet ab Sogol",
+        "Arawet ab Tisap",
+        "Arawet ab Taman"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Arawet ab Sogol' is the Kipsigis name for the ninth month, meaning 'Month of Nine'."
+    },
+    {
+      "question": "What does 'Kasitab mut' (Friday) signify in the Kipsigis calendar?",
+      "options": [
+        "The third day of work",
+        "The fifth day of work",
+        "The day of rest before the weekend",
+        "The day for traditional ceremonies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kasitab mut' means 'Friday' and aligns with the fifth day of the working week."
+    },
+    {
+      "question": "Which month in the Kipsigis calendar is associated with intense cold?",
+      "options": [
+        "Arawet netai",
+        "Arawet ab Sisit",
+        "Arawet ab Tisab",
+        "Arawet ab Oeng"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Arawet ab Tisab' (Month of Ten) typically falls during a cold season in Kipsigis territory."
+    },
+    {
+      "question": "What is the primary cultural significance of 'Jumampili' (Sunday) in the Kipsigis calendar?",
+      "options": [
+        "It is a day for farming",
+        "It is a market day",
+        "It is a day of prayer and rest",
+        "It marks the beginning of a new month"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Jumampili' (Sunday) is recognized as a day of worship and rest among the Kipsigis, reflecting religious influence."
+    },
+    {
+      "question": "What does 'Arawet ab taman ak oeng' refer to in the Kipsigis calendar?",
+      "options": [
+        "The eleventh month of the year",
+        "The twelfth month of the year",
+        "The tenth month of the year",
+        "The beginning of the dry season"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Arawet ab taman ak oeng' means 'Month of Eleven', referring to the eleventh month in the calendar year."
+    },
+    {
+      "question": "Which day is referred to as 'Kasitab oeng'' in Kipsigis?",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kasitab oeng'' is Tuesday in the Kipsigis calendar, derived from the second workday."
+    },
+    {
+      "question": "In traditional Kipsigis society, how was the week structured?",
+      "options": [
+        "It had 5 days of work and 2 rest days",
+        "It followed a 10-day cycle",
+        "It was based on agricultural tasks, not fixed days",
+        "It had 6 days of work and 1 rest day"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Traditional Kipsigis weeks had six workdays and one rest day, aligning with communal and religious practices."
+    },
+    {
+      "question": "What does 'Arawet ab netai' represent in the Kipsigis calendar?",
+      "options": [
+        "First month of the year",
+        "Last month of the year",
+        "Middle month of the year",
+        "The coldest month of the year"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Arawet ab netai' refers to the first month of the year, derived from 'netai' meaning 'first'."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.4.5 Telling Time ",
+              "htmlContent": "kipsigis/beginner/module-one/8.html",
+              "order": 4,
+              "practiceQuestions": [
+    {
+      "question": "What is the correct Kipsigis translation for 'right now'?",
+      "options": [
+        "Koron",
+        "Inguni/Ingunitok",
+        "Amut",
+        "Kemoo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Inguni' or 'Ingunitok' is the correct Kipsigis term for 'right now', indicating the present moment."
+    },
+    {
+      "question": "Which term refers to the 'day before yesterday' in Kipsigis?",
+      "options": [
+        "Oiin",
+        "Amut",
+        "Koyoin",
+        "Koron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Oiin' is used in Kipsigis to refer to the day before yesterday."
+    },
+    {
+      "question": "Which of the following correctly represents the morning in Kipsigis?",
+      "options": [
+        "Beet",
+        "Kemoo",
+        "Koronet",
+        "Langat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Koronet' is the Kipsigis term that represents the morning time."
+    },
+    {
+      "question": "How would you correctly say 'Later, we will help with the work' in Kipsigis?",
+      "options": [
+        "Tor,ketoretin en boisyet",
+        "Langat kemii nyeketoretin",
+        "Inguni yeketoretin en boisyet",
+        "Kemoo kotor kegerun kasinon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Tor,ketoretin en boisyet' means 'Later, we will help with the work' in Kipsigis."
+    },
+    {
+      "question": "What is the correct meaning of 'Sai sogol neboo koskoleng''?",
+      "options": [
+        "Exactly 12 PM",
+        "Exactly 3 PM",
+        "Midnight",
+        "Late evening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Sai sogol neboo koskoleng'' refers to exactly 3 PM in Kipsigis."
+    },
+    {
+      "question": "Which of the following phrases correctly describes 'The day after tomorrow'?",
+      "options": [
+        "Raini",
+        "Amut",
+        "Miutai",
+        "Koyoin"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Koyoin' is used in Kipsigis to describe the day after tomorrow."
+    },
+    {
+      "question": "In Kipsigis, what does 'Bet kwen' refer to?",
+      "options": [
+        "Early in the morning",
+        "Exactly noon",
+        "Midnight",
+        "Late evening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Bet kwen' means 'Exactly noon' in Kipsigis."
+    },
+    {
+      "question": "What is the correct sentence structure when expressing time in Kipsigis?",
+      "options": [
+        "Verb + Subject + Time marker",
+        "Time marker + Subject + Verb + Object",
+        "Object + Subject + Verb + Time marker",
+        "Time marker + Object + Subject + Verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The typical sentence structure when expressing time in Kipsigis is: Time marker + Subject + Verb + Object."
+    },
+    {
+      "question": "If someone says 'Atinyee boishet neo inguni,' what does it mean?",
+      "options": [
+        "I will have work tomorrow.",
+        "I had a lot of work yesterday.",
+        "I have a lot of work now.",
+        "I will work later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Atinyee boishet neo inguni' translates to 'I have a lot of work now.'"
+    },
+    {
+      "question": "Which of the following best translates to 'Very early in the morning' in Kipsigis?",
+      "options": [
+        "Kemoo",
+        "Koronet",
+        "Langat",
+        "Bet kwen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Koronet' refers to 'very early in the morning' in Kipsigis."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.5 Review & Practice",
+          "type": "standalone",
+          "order": 5,
+          "htmlContent": "kipsigis/beginner/module-one/9.html",
+          "passingScore": 50
+        },
+        {
+          "title": "1.6 General ways of Communication ",
+          "type": "container",
+          "order": 6,
+          "subtopics": [
+            {
+              "title": "1.6.1 Introduction and 1.6.2 General Forms of Greetings",
+              "htmlContent": "kipsigis/beginner/module-one/10.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "What is the correct Kipsigis greeting for “Hello” when addressing one person?",
+      "options": ["Oamune", "Iyomune", "Itagat", "Kongoi"],
+      "correctAnswer": 1,
+      "explanation": "The correct greeting for 'Hello' when addressing one person in Kipsigis is 'Iyomune'."
+    },
+    {
+      "question": "In Kipsigis, what does the term “Ingoribin” literally mean?",
+      "options": ["Stay well", "Go well", "May He protect you", "See you later"],
+      "correctAnswer": 2,
+      "explanation": "'Ingoribin' literally means 'May He protect you' in Kipsigis."
+    },
+    {
+      "question": "Which of the following greetings is used exclusively in the morning when the sun is rising?",
+      "options": ["Karonet nemie", "Kemout nemie", "Chamgei", "Betut nemie"],
+      "correctAnswer": 0,
+      "explanation": "'Karonet nemie' is used in the morning when the sun is rising."
+    },
+    {
+      "question": "How do you say “Good day” to a group of people in Kipsigis?",
+      "options": ["Iomune", "Oamune", "Betut nemie", "Kongoi neo"],
+      "correctAnswer": 2,
+      "explanation": "'Betut nemie' is the correct way to say 'Good day' to a group of people in Kipsigis."
+    },
+    {
+      "question": "What grammatical feature is evident in Kipsigis plural greetings such as “Oruiyen komie”?",
+      "options": [
+        "The tone and stress indicate plural",
+        "The prefix \"O-\" and suffix “yen” mark plurality",
+        "Kipsigis does not distinguish between singular and plural",
+        "The word order changes in plural greetings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In plural greetings like 'Oruiyen komie', the prefix 'O-' and suffix 'yen' mark plurality."
+    },
+    {
+      "question": "Which phrase would be used when someone is going to sleep?",
+      "options": ["Betut nemie", "Ru komie", "Kongoi", "Itagat"],
+      "correctAnswer": 1,
+      "explanation": "'Ru komie' is the appropriate phrase for someone going to sleep in Kipsigis."
+    },
+    {
+      "question": "How do the Kipsigis people emphasize politeness and respect in their greetings?",
+      "options": [
+        "By bowing while greeting",
+        "By using intensifiers like “mising”",
+        "By avoiding greetings during meals",
+        "By repeating the greeting multiple times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis people emphasize politeness by using intensifiers like 'mising'."
+    },
+    {
+      "question": "If someone greets you with “Nemie” (informal “What’s up?”), What is the culturally appropriate response?",
+      "options": ["Kongoi", "Nemie kot", "Itagat", "Acha"],
+      "correctAnswer": 1,
+      "explanation": "The appropriate response to 'Nemie' is 'Nemie kot'."
+    },
+    {
+      "question": "What does the word \"Chamgei\" mean in Kipsigis?",
+      "options": ["Good morning", "General greeting for the day", "Good evening", "Safe journey"],
+      "correctAnswer": 1,
+      "explanation": "'Chamgei' is a general greeting for the day in Kipsigis."
+    },
+    {
+      "question": "Which Kipsigis farewell expression is most appropriate when wishing someone a safe journey?",
+      "options": ["Betut nemie", "Kemout nemie", "panda nemie", "Ruonik chemiach"],
+      "correctAnswer": 2,
+      "explanation": "'Panda nemie' is the correct farewell to wish someone a safe journey in Kipsigis."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.3 Family Members",
+              "htmlContent": "kipsigis/beginner/module-one/11.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "In Kipsigis culture, which term is used to refer to a mother’s brother?",
+      "options": ["Bamongo", "Abule", "Senge", "Boger"],
+      "correctAnswer": 1,
+      "explanation": "In Kipsigis, 'Abule' is the term for a mother’s brother."
+    },
+    {
+      "question": "How does Kipsigis kinship terminology distinguish between male and female child?",
+      "options": [
+        "Ng’etet (male) and Chepto (female)",
+        "Abule (male) and Senge (female)",
+        "Bamong’o (male) and Koruchon (female)",
+        "Bomori (male) and Batiem (female)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kipsigis uses 'Ng’etet' for a male child and 'Chepto' for a female child."
+    },
+    {
+      "question": "Which of the following statements accurately reflects the Kipsigis concept of generational hierarchy?",
+      "options": [
+        "Kipsigis kinship does not extend beyond grandparents.",
+        "Kipsigis culture assigns unique names to great-grandchildren up to the third generation.",
+        "Kipsigis society does not recognize the role of nieces and nephews.",
+        "The firstborn son is always called \"Law.\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis culture recognizes generational hierarchy and assigns unique names to great-grandchildren up to the third generation."
+    },
+    {
+      "question": "What term is used to refer to a son-in-law in Kipsigis by the mother of the lady he married?",
+      "options": ["Siet", "Batiem", "Boger", "Sandanin"],
+      "correctAnswer": 2,
+      "explanation": "'Boger' is the correct term for a son-in-law when spoken by the mother of the bride."
+    },
+    {
+      "question": "In Kipsigis culture, the term 'Siet' refers to:",
+      "options": ["The second wife", "The mother of the family", "The cowife", "A grandmother"],
+      "correctAnswer": 2,
+      "explanation": "'Siet' refers to a cowife in Kipsigis culture."
+    },
+    {
+      "question": "What is the Kipsigis term for \"grandfather\"?",
+      "options": ["Bomori", "Batiem", "Bamong’o", "Senge"],
+      "correctAnswer": 0,
+      "explanation": "The term 'Bomori' means 'grandfather' in Kipsigis."
+    },
+    {
+      "question": "Which of the following best describes the term ‘Law’ in the Kipsigis family structure?",
+      "options": [
+        "A term referring to a brother’s son",
+        "A shared term for both sister-in-law and son-in-law",
+        "The title given to the eldest uncle in the family",
+        "A name given to the second wife in a polygamous marriage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Law' is used for both a sister-in-law and a son-in-law in Kipsigis culture."
+    },
+    {
+      "question": "What is the correct Kipsigis term for an Aunt who is the sister of one’s father?",
+      "options": ["Obule", "Senge", "Chepkam", "Kamati"],
+      "correctAnswer": 1,
+      "explanation": "'Senge' refers to a paternal aunt in Kipsigis."
+    },
+    {
+      "question": "In a Kipsigis household, what term is used to refer to the father by an initiated man?",
+      "options": ["Batiem", "Bamongo", "Bomori", "Chepkam"],
+      "correctAnswer": 1,
+      "explanation": "An initiated man refers to his father as 'Bamongo' in Kipsigis."
+    },
+    {
+      "question": "Which term is correctly matched with its English equivalent?",
+      "options": ["Chepto – Son", "Batiem – My father", "Mochogoret – Grandson", "Senge – Uncle"],
+      "correctAnswer": 2,
+      "explanation": "'Mochogoret' means 'grandson' in Kipsigis."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.4 Everyday Objects (Domestic & Household items)",
+              "htmlContent": "kipsigis/beginner/module-one/12.html",
+              "order": 3,
+              "practiceQuestions": [
+    {
+      "question": "In a traditional Kipsigis homestead, what is the significance of the ‘Kot’?",
+      "options": ["It is a sacred place of worship", "It is used only for food storage", "It serves as a cultural and family gathering hub", "It is where livestock are kept"],
+      "correctAnswer": 2,
+      "explanation": "The 'Kot' is a central cultural and family gathering place in a traditional Kipsigis homestead."
+    },
+    {
+      "question": "Which of the following is traditionally used to serve liquids in Kipsigis culture?",
+      "options": ["Sanit", "Glasit", "Sotet", "Ng’echeret"],
+      "correctAnswer": 2,
+      "explanation": "'Sotet' is the traditional vessel used to serve liquids in Kipsigis culture."
+    },
+    {
+      "question": "What does ‘Kimonchok’ symbolize in a Kipsigis household?",
+      "options": ["A place for community meetings", "Protection, as it serves as the roof", "A decorative part of the house", "A special seat for elders"],
+      "correctAnswer": 1,
+      "explanation": "'Kimonchok' symbolizes protection in the household as it refers to the roof."
+    },
+    {
+      "question": "Which Kipsigis household item is commonly used for sweeping?",
+      "options": ["Ndoit", "Pirirwet", "Meset", "Kabat"],
+      "correctAnswer": 1,
+      "explanation": "'Pirirwet' is the traditional sweeping tool used in Kipsigis homes."
+    },
+    {
+      "question": "Which of the following best describes the function of a ‘Kok’ in a Kipsigis home?",
+      "options": ["A kitchen utensil used for serving food", "A storage item for keeping valuables", "A seating area, often used by elders", "A farming tool for tilling land"],
+      "correctAnswer": 2,
+      "explanation": "'Kok' is a seating area in the home, often reserved for elders."
+    },
+    {
+      "question": "In a traditional Kipsigis kitchen, which item is most essential for cooking?",
+      "options": ["Chepungut", "Kalamit", "Ndoit", "Meset"],
+      "correctAnswer": 0,
+      "explanation": "'Chepungut' is an essential cooking utensil in traditional Kipsigis kitchens."
+    },
+    {
+      "question": "What does ‘Kurget’ refer to in a modern Kipsigis household?",
+      "options": ["A traditional cooking method", "An entrance door to the house", "A traditional storytelling session", "A musical instrument"],
+      "correctAnswer": 1,
+      "explanation": "'Kurget' refers to the entrance door in a modern Kipsigis household."
+    },
+    {
+      "question": "How is the evolution of modern dining practices reflected in Kipsigis homes?",
+      "options": ["The replacement of communal floor dining with a ‘Meset’", "The use of calabashes instead of metal cups", "The removal of chairs in traditional gatherings", "The introduction of multiple cooking stations"],
+      "correctAnswer": 0,
+      "explanation": "Modern Kipsigis homes have replaced communal floor dining with the use of a 'Meset' (table)."
+    },
+    {
+      "question": "Which of the following best represents a traditional Kipsigis farming area for staple food?",
+      "options": ["Rokoet", "Kapungui", "Kabat", "Imbar"],
+      "correctAnswer": 1,
+      "explanation": "'Kapungui' is the traditional farming area for staple foods in Kipsigis culture."
+    },
+    {
+      "question": "In Kipsigis culture, what is the purpose of ‘Kipngalal batai’?",
+      "options": ["It is a modern security system", "It is used to store utensils", "It is a radio for news, music, and storytelling", "It is a type of traditional footwear"],
+      "correctAnswer": 2,
+      "explanation": "'Kipngalal batai' is a radio used for news, music, and storytelling in Kipsigis households."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.5 Titles of the people",
+              "htmlContent": "kipsigis/beginner/module-one/13.html",
+              "order": 4,
+              "practiceQuestions": [
+    {
+      "question": "In traditional Kipsigis governance, who held the highest authority in overseeing justice, rituals, and resource allocation?",
+      "options": [
+        "Bot",
+        "Laitoriat",
+        "Nekonyitot",
+        "Boyap kok"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Laitoriat was the highest authority, overseeing key aspects of justice, rituals, and community resources in traditional Kipsigis society."
+    },
+    {
+      "question": "Which title is used to refer to the leader of the Kipsigis Council of Elders?",
+      "options": [
+        "Kondoindetap emet",
+        "Boyap kok",
+        "Laitoriat",
+        "Kwony"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The title 'Boyap kok' refers to the respected leader of the Kipsigis Council of Elders."
+    },
+    {
+      "question": "What is the Kipsigis equivalent of 'Miss,' used to respectfully address a young unmarried woman?",
+      "options": [
+        "Chepochii",
+        "Kwony",
+        "Botap kok",
+        "Laitoriat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Chepochii' is a respectful title used to address an unmarried young woman in Kipsigis."
+    },
+    {
+      "question": "Which of the following titles is given to someone who teaches and educates others?",
+      "options": [
+        "Konetindet",
+        "Kipsomaniat",
+        "Okiliot",
+        "Arap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Konetindet’ is the title for a teacher or educator in the Kipsigis community."
+    },
+    {
+      "question": "In Kipsigis culture, what does the term 'Wei' signify?",
+      "options": [
+        "A term for youth involved in community activities",
+        "An informal way of addressing a friend or cousin",
+        "A title of respect for an elder",
+        "A person skilled in legal matters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wei' is used informally to address a friend, cousin, or peer with familiarity in Kipsigis."
+    },
+    {
+      "question": "What title is used to refer to a professional news anchor in Kipsigis society?",
+      "options": [
+        "Sirindet neo",
+        "Sirindet",
+        "Koborostoindet ab logoywek",
+        "Konyoindet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Koborostoindet ab logoywek' is the formal title used to describe a news anchor or broadcaster."
+    },
+    {
+      "question": "Which title represents a medical professional in the Kipsigis language?",
+      "options": [
+        "Konyoindet",
+        "Tekindet",
+        "Konetindet",
+        "Laitoriat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Konyoindet' is the title for a doctor or medical professional in Kipsigis."
+    },
+    {
+      "question": "What term is commonly used for a person responsible for financial management?",
+      "options": [
+        "Okiliot",
+        "Konorindet ab legut",
+        "Boyap kok",
+        "Sirindet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Konorindet ab legut' is the title for someone in charge of managing finances in Kipsigis society."
+    },
+    {
+      "question": "Which of the following titles best describes someone who practices mystical arts?",
+      "options": [
+        "Arap",
+        "Kwony",
+        "Bonindet",
+        "Konyoindet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Bonindet' is used to refer to a person with mystical or supernatural knowledge in Kipsigis culture."
+    },
+    {
+      "question": "In Kipsigis society, what is the correct term for a soldier?",
+      "options": [
+        "Nekonyitot",
+        "Ripindetap kalyet",
+        "Okoliot",
+        "Ponindet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ripindetap kalyet' is the proper title used to describe a soldier in the Kipsigis language."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.6 Expressing Politeness",
+              "htmlContent": "kipsigis/beginner/module-one/14.html",
+              "order": 5,
+              "practiceQuestions": [
+    {
+      "question": "In traditional Kipsigis governance, who held the highest authority in overseeing justice, rituals, and resource allocation?",
+      "options": [
+        "Bot",
+        "Laitoriat",
+        "Nekonyitot",
+        "Boyap kok"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Laitoriat was the highest authority, overseeing key aspects of justice, rituals, and community resources in traditional Kipsigis society."
+    },
+    {
+      "question": "Which title is used to refer to the leader of the Kipsigis Council of Elders?",
+      "options": [
+        "Kondoindetap emet",
+        "Boyap kok",
+        "Laitoriat",
+        "Kwony"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The title 'Boyap kok' refers to the respected leader of the Kipsigis Council of Elders."
+    },
+    {
+      "question": "What is the Kipsigis equivalent of 'Miss,' used to respectfully address a young unmarried woman?",
+      "options": [
+        "Chepochii",
+        "Kwony",
+        "Botap kok",
+        "Laitoriat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Chepochii' is a respectful title used to address an unmarried young woman in Kipsigis."
+    },
+    {
+      "question": "Which of the following titles is given to someone who teaches and educates others?",
+      "options": [
+        "Konetindet",
+        "Kipsomaniat",
+        "Okiliot",
+        "Arap"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Konetindet’ is the title for a teacher or educator in the Kipsigis community."
+    },
+    {
+      "question": "In Kipsigis culture, what does the term 'Wei' signify?",
+      "options": [
+        "A term for youth involved in community activities",
+        "An informal way of addressing a friend or cousin",
+        "A title of respect for an elder",
+        "A person skilled in legal matters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wei' is used informally to address a friend, cousin, or peer with familiarity in Kipsigis."
+    },
+    {
+      "question": "What title is used to refer to a professional news anchor in Kipsigis society?",
+      "options": [
+        "Sirindet neo",
+        "Sirindet",
+        "Koborostoindet ab logoywek",
+        "Konyoindet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Koborostoindet ab logoywek' is the formal title used to describe a news anchor or broadcaster."
+    },
+    {
+      "question": "Which title represents a medical professional in the Kipsigis language?",
+      "options": [
+        "Konyoindet",
+        "Tekindet",
+        "Konetindet",
+        "Laitoriat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Konyoindet' is the title for a doctor or medical professional in Kipsigis."
+    },
+    {
+      "question": "What term is commonly used for a person responsible for financial management?",
+      "options": [
+        "Okiliot",
+        "Konorindet ab legut",
+        "Boyap kok",
+        "Sirindet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Konorindet ab legut' is the title for someone in charge of managing finances in Kipsigis society."
+    },
+    {
+      "question": "Which of the following titles best describes someone who practices mystical arts?",
+      "options": [
+        "Arap",
+        "Kwony",
+        "Bonindet",
+        "Konyoindet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Bonindet' is used to refer to a person with mystical or supernatural knowledge in Kipsigis culture."
+    },
+    {
+      "question": "In Kipsigis society, what is the correct term for a soldier?",
+      "options": [
+        "Nekonyitot",
+        "Ripindetap kalyet",
+        "Okoliot",
+        "Ponindet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ripindetap kalyet' is the proper title used to describe a soldier in the Kipsigis language."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.7 Review & Practice",
+          "type": "standalone",
+          "order": 7,
+          "htmlContent": "kipsigis/beginner/module-one/15.html",
+          "passingScore": 50
+        },
+        {
+          "title": "1.7 Nouns (Part 01)",
+          "type": "container",
+          "order": 8,
+          "subtopics": [
+            {
+              "title": "1.7.1 Introduction to Noun and 1.7.2 Kipsigis Equivocal & Synonyms",
+              "htmlContent": "kipsigis/beginner/module-one/16.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of a Kipsigis abstract noun?",
+      "options": ["Beek", "Bukut", "Teta", "Kot"],
+      "correctAnswer": 0,
+      "explanation": "'Beek' is an abstract noun in Kipsigis, meaning 'flour/wheat' depending on context."
+    },
+    {
+      "question": "In Kipsigis, what does the word \"Beek\" mean in the context of food?",
+      "options": ["Fat of an animal", "Distance", "Flour/wheat", "A place of burial"],
+      "correctAnswer": 2,
+      "explanation": "When used in the context of food, 'Beek' refers to flour or wheat."
+    },
+    {
+      "question": "Which of the following words can mean both “later” and “to marry” in Kipsigis?",
+      "options": ["Tuun", "Beek", "Chut", "Bolik"],
+      "correctAnswer": 0,
+      "explanation": "'Tuun' can mean both 'later' and 'to marry' depending on context."
+    },
+    {
+      "question": "How does pronunciation affect the meaning of the word \"Kuut\" in Kipsigis?",
+      "options": [
+        "It determines if it means \"buffalo\" or \"head.\"",
+        "It distinguishes between \"language\" and \"peace.\"",
+        "It differentiates between \"mouth,\" \"blow,\" and \"language.\"",
+        "There is no phonetic distinction in meaning."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pronunciation changes allow 'Kuut' to mean 'mouth', 'blow', or 'language' in Kipsigis."
+    },
+    {
+      "question": "In what context does \"Kut’\" mean \"to cut\" in Kipsigis?",
+      "options": [
+        "When referring to an egg",
+        "When talking about a weapon",
+        "As an imperative form of the verb \"kutit\"",
+        "When describing a boundary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kut’' means 'to cut' when used as the imperative form of 'kutit'."
+    },
+    {
+      "question": "What is the primary linguistic challenge associated with Kipsigis equivocal words?",
+      "options": [
+        "Lack of proper written documentation",
+        "Dependence on pronunciation and context to determine meaning",
+        "The absence of grammatical structure",
+        "Limited vocabulary in the language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main challenge is that meaning depends heavily on pronunciation and context."
+    },
+    {
+      "question": "Which word can mean both \"see\" and \"close\" in Kipsigis, depending on pronunciation?",
+      "options": ["Ker", "Muut", "Bolik", "Beek"],
+      "correctAnswer": 0,
+      "explanation": "'Ker' can mean 'see' or 'close' depending on pronunciation."
+    },
+    {
+      "question": "If someone says \"kosobindet\" in a religious discussion, what is the most likely meaning?",
+      "options": ["A boat", "Healer", "To sweep", "A boundary"],
+      "correctAnswer": 1,
+      "explanation": "In religious contexts, 'kosobindet' most likely means 'healer'."
+    },
+    {
+      "question": "What strategy is most effective in understanding Kipsigis equivocal words?",
+      "options": [
+        "Memorizing all possible meanings",
+        "Ignoring pronunciation differences",
+        "Practicing in real-life conversations with native speakers",
+        "Avoiding words with multiple meanings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Real-life practice with native speakers helps understand context and pronunciation nuances."
+    },
+    {
+      "question": "In Kipsigis culture, which of the following words refers to both \"to blow\" and \"mouth\"?",
+      "options": ["Kuut", "Ker", "Beek", "Bolik"],
+      "correctAnswer": 0,
+      "explanation": "'Kuut' can mean both 'to blow' and 'mouth' depending on pronunciation and context."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.7.3 Kipsigis Synonyms",
+              "htmlContent": "kipsigis/beginner/module-one/17.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "What is the primary linguistic function of synonyms in Kipsigis?",
+      "options": [
+        "They limit the number of words in the language.",
+        "They simplify oral traditions by reducing vocabulary.",
+        "They enhance expressiveness, cultural relevance, and regional variations.",
+        "They eliminate the need for dialectal differences."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Synonyms in Kipsigis enrich the language by adding expressiveness, reflecting cultural depth, and accounting for regional or dialectal variation."
+    },
+    {
+      "question": "Which of the following Kipsigis words refers to a well-tarmacked road within towns or cities?",
+      "options": [
+        "Barabaret",
+        "Oret",
+        "Lamit",
+        "Ng’wony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Lamit' refers to a well-tarmacked or paved road typically found in urban settings."
+    },
+    {
+      "question": "Which of the following is a synonym for 'homestead' in Kipsigis?",
+      "options": [
+        "Oret",
+        "Kap",
+        "Baranget",
+        "Anget"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kap' is a commonly used synonym for 'homestead' in the Kipsigis language."
+    },
+    {
+      "question": "Which is a term used by Kipsigis to refer to a garden or farmland?",
+      "options": [
+        "Kabungui",
+        "Oret",
+        "Lamit",
+        "Kot"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kabungui' refers to a garden or farmland where crops are typically cultivated."
+    },
+    {
+      "question": "Which of the following best describes 'Anget' in Kipsigis?",
+      "options": [
+        "A type of footwear",
+        "A small hut",
+        "A cloth or fabric used by women to keep warmth",
+        "A traditional song"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Anget' is a cloth or wrap used by women, especially for warmth during cold seasons."
+    },
+    {
+      "question": "Which of these words refers to a thick cloth, particularly used during cold times?",
+      "options": [
+        "Oret",
+        "Lesoit",
+        "Kitambaet",
+        "Anget"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Lesoit' refers to a heavy cloth or blanket often used to provide warmth."
+    },
+    {
+      "question": "What is a synonym for 'Roads' in Kipsigis?",
+      "options": [
+        "Oret",
+        "Kot",
+        "Lesoit",
+        "Anget"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Oret' is a general Kipsigis term that refers to roads or paths."
+    },
+    {
+      "question": "Which of the following statements is true about Kipsigis synonyms?",
+      "options": [
+        "They are entirely fixed and do not vary across regions.",
+        "They reflect cultural contexts and dialectal differences.",
+        "They are only used in ancient oral traditions.",
+        "They do not contribute to the richness of the language."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis synonyms often reflect regional dialects and cultural contexts, adding depth to communication and oral traditions."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.7.4 Gender of Nouns",
+              "htmlContent": "kipsigis/beginner/module-one/18.html",
+              "order": 3,
+              "practiceQuestions": [
+    {
+      "question": "What is the primary basis for noun gender classification in Kipsigis?",
+      "options": [
+        "The length of the word",
+        "Natural gender and grammatical neutrality",
+        "The number of syllables",
+        "The pronunciation of the word"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kipsigis nouns are categorized primarily by natural gender and grammatical neutrality, reflecting both biological sex and neutral classifications."
+    },
+    {
+      "question": "Which of the following nouns is classified as masculine in Kipsigis?",
+      "options": [
+        "Koita",
+        "Chepto",
+        "Ng’etet",
+        "Beek"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ng’etet' is a masculine noun in Kipsigis, typically referring to objects or animals associated with male traits."
+    },
+    {
+      "question": "Which of the following is a feminine noun in Kipsigis?",
+      "options": [
+        "Kirgit",
+        "Kipsoiwet",
+        "Teta",
+        "Koita"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Teta' is a feminine noun in Kipsigis, often used to refer to women or female-associated entities."
+    },
+    {
+      "question": "What is the meaning of the Kipsigis noun 'Koita'?",
+      "options": [
+        "A garden",
+        "Stone",
+        "A river",
+        "A tree"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Koita' translates to 'stone' in English and is a neuter noun in Kipsigis."
+    },
+    {
+      "question": "Which of the following statements best describes neuter nouns in Kipsigis?",
+      "options": [
+        "They refer to only abstract ideas.",
+        "They refer to inanimate objects, places, and concepts.",
+        "They only refer to natural features like mountains and rivers.",
+        "They must always end with a vowel."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neuter nouns in Kipsigis refer to inanimate or non-gendered entities such as places, objects, and ideas."
+    },
+    {
+      "question": "Which of the following pairs correctly represents masculine and feminine nouns in Kipsigis?",
+      "options": [
+        "Kirgit - Chepto",
+        "Goita - Teta",
+        "Kipsoiwet - Beek",
+        "Tulwet - Boskilit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kirgit' (masculine) and 'Chepto' (feminine) form a common gendered noun pair in Kipsigis."
+    },
+    {
+      "question": "Which neuter noun in Kipsigis refers to a place of residence?",
+      "options": [
+        "Koita",
+        "Gaa",
+        "Kirgit",
+        "Anget"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Gaa' is a neuter noun meaning 'home' or 'residence' in Kipsigis."
+    },
+    {
+      "question": "Which of the following is NOT a masculine noun in Kipsigis?",
+      "options": [
+        "Ng’etet",
+        "Kirgit",
+        "Ng’okiet",
+        "Kipsoiwet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ng’okiet' is not classified as masculine; it is either neuter or feminine depending on context."
+    },
+    {
+      "question": "Which masculine noun in Kipsigis refers to a male bird?",
+      "options": [
+        "Ngokiet",
+        "Kipsoiwet",
+        "Kirgit",
+        "Koita"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kipsoiwet' refers to a male bird and is recognized as a masculine noun in Kipsigis."
+    },
+    {
+      "question": "What is the best description of 'Oret' in Kipsigis?",
+      "options": [
+        "A type of tree",
+        "A road or path",
+        "A mountain",
+        "A river"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Oret' means road or path and is a commonly used noun in the Kipsigis language."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.8 Review & Practice",
+          "type": "standalone",
+          "order": 9,
+          "htmlContent": "kipsigis/beginner/module-one/19.html",
+          "passingScore": 50
+        }
+      ],
+      "cat": {
+  "title": "Kipsigis Alphabet, Basic Greetings, and Vocabulary Assessment",
+  "description": "This CAT evaluates knowledge of Kipsigis pronunciation, alphabets, numbers, greetings, and vocabulary.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following statements about Kipsigis vowels is TRUE?",
+      "options": [
+        "Kipsigis vowels can undergo reduction in unstressed syllables, similar to English.",
+        "Kipsigis vowels always retain their full phonetic value regardless of stress.",
+        "Kipsigis has seven primary vowels, with distinct nasalized variants.",
+        "Kipsigis vowels do not affect meaning when lengthened."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is the significance of vowel length in Kipsigis?",
+      "options": [
+        "It does not affect word meaning and is purely a stylistic feature.",
+        "It determines whether a word is a noun or a verb.",
+        "It is phonemically significant and can change the meaning of a word.",
+        "It only affects the rhythm of speech, but not meaning."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is a unique feature of Kipsigis consonants compared to English consonants?",
+      "options": [
+        "They have no plosives.",
+        "They rely on vowel harmony for pronunciation.",
+        "They include nasalized plosives and palatalized clusters.",
+        "They do not form digraphs."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] How does the tonal aspect of Kipsigis influence meaning?",
+      "options": [
+        "It primarily affects sentence structure, not word meaning.",
+        "It dictates word stress but not pronunciation.",
+        "It is crucial in differentiating words that otherwise have identical spelling.",
+        "It has no impact on lexical meaning, only on emphasis."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Why does the letter \"C\" not occur in isolation in Kipsigis?",
+      "options": [
+        "It is replaced by the letter \"K\" in all instances.",
+        "It is only used in borrowed words.",
+        "It exists solely as part of the digraph \"CH,\" which produces a distinct phoneme.",
+        "It has no phonemic value in the language."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] In the word \"Beek,\" how does tonal variation change its meaning?",
+      "options": [
+        "It distinguishes between \"water\" and \"wheat/flour.\"",
+        "It differentiates \"cow\" from \"beer.\"",
+        "It changes \"child\" into \"woman.\"",
+        "It alters \"to look\" into \"to spread.\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following pronunciation features does NOT contribute to phonological complexity in Kipsigis?",
+      "options": [
+        "Syllable stress",
+        "Vowel length",
+        "Use of voiced fricatives",
+        "Tonality"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] How can a learner best master the Kipsigis pronunciation challenge?",
+      "options": [
+        "By avoiding tonal variations to maintain consistency",
+        "By memorizing written words without focusing on phonetics",
+        "By interacting with native speakers and practicing syllable stress",
+        "By replacing Kipsigis consonants with their closest English equivalents"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] How is the number 17 correctly expressed in Kipsigis?",
+      "options": [
+        "Taman ak ang'wan",
+        "Taman ak somok",
+        "Taman ak Tisab",
+        "Taman ak sogol"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] What is the correct term for 800 in Kipsigis?",
+      "options": [
+        "Bogol ang'wan",
+        "Bogol Sisit",
+        "Bogol mut",
+        "Bogol oeng'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] Which statement about ordinal numbers in Kipsigis is incorrect?",
+      "options": [
+        "\"Nebo\" is prefixed to most ordinal numbers.",
+        "\"Netai\" is the only ordinal number that does not use \"nebo.\"",
+        "\"Nebolet\" means the last in a sequence.",
+        "Ordinal numbers are only used in ranking people."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"The sixth person arrived late\" in Kipsigis?",
+      "options": [
+        "Nebo lo chito ko kachelewan",
+        "Kait chito nebo oeng' kokolet",
+        "Nebo angw'an chito ko kachelewan",
+        "Chitab mut ko kait ko kachelewan"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Numbering] If someone refers to \"betut ab somok,\" which day are they talking about?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] In which month would you refer to \"Arawet ab taman ak agenge\"?",
+      "options": [
+        "October",
+        "November",
+        "December",
+        "February"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] What is the correct meaning of \"Jumampili\" in Kipsigis?",
+      "options": [
+        "A day for spiritual reflection",
+        "A day when people plant crops",
+        "A day for market trading",
+        "A day to begin work"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following Kipsigis words refers to \"early morning\"?",
+      "options": [
+        "Langat",
+        "Subuhi",
+        "Tor",
+        "Kemoo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"twenty\" in Kipsigis?",
+      "options": [
+        "Taman",
+        "Artam",
+        "Tiptem",
+        "Somok"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following phrases is correctly structured in Kipsigis?",
+      "options": [
+        "Siketuyen Inguni",
+        "Siketuyen Tor",
+        "Siketuyen Oin",
+        "Siketuyen Amut"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following is NOT part of the four-part day division in Kipsigis?",
+      "options": [
+        "Karonet",
+        "Langat",
+        "Koyoin",
+        "Kemoo"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] If an elder refers to \"bogol sogol,\" what number are they talking about?",
+      "options": [
+        "9",
+        "90",
+        "900",
+        "9000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"the ninth child\" in Kipsigis?",
+      "options": [
+        "Lakwet ab ang'wan",
+        "Lakwet ab sogol",
+        "Lakwet ab somok",
+        "Lakwet ab oeng'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] What does \"Asis'\" most closely mean in Kipsigis?",
+      "options": [
+        "Time",
+        "Moon",
+        "Sun",
+        "Season"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] What would be the correct way to say \"the third house\" in Kipsigis?",
+      "options": [
+        "Kot ab ang'wan",
+        "Kot ab Somok",
+        "Kot ab Lo",
+        "Kot ab taman"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication & Nouns] Which of the following best describes the primary function of Kipsigis greetings (Kogotiet)?",
+      "options": [
+        "To establish religious authority.",
+        "To reflect temporal specificity, kinship, and social cohesion.",
+        "To mark grammatical complexity only.",
+        "To signify political affiliations."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication & Nouns] What is the correct response to \"Oruiyen komie\" in Kipsigis?",
+      "options": [
+        "Oruyen okinye",
+        "Sasawa akinye",
+        "Oruiyen komie ak okwek",
+        "Ruu komie okinye"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication & Nouns] In Kipsigis, what does the farewell term \"Saisere\" derive from?",
+      "options": [
+        "To move.",
+        "To be safe.",
+        "To listen.",
+        "To thank."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication & Nouns] Which of the following phrases means \"How was your day?\"",
+      "options": [
+        "Koune petut?",
+        "Nemie?",
+        "Iyemune.",
+        "Siruu komie."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication & Nouns] In Kipsigis, what does the term \"Bomori\" mean?",
+      "options": [
+        "Uncle",
+        "Aunt",
+        "Grandfather",
+        "Cousin"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication & Nouns] Which of the following is NOT a recognized function of \"maat\" in Kipsigis kinship?",
+      "options": [
+        "Refers to a brother.",
+        "Can refer to a close male cousin.",
+        "Specifically means \"maternal uncle.\"",
+        "Can be used informally to mean \"friend.\""
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication & Nouns] How does Kipsigis differentiate between Uncle (Mother's brother) and Aunt (Father's sister)?",
+      "options": [
+        "Abule(uncle), Senge (Aunt)",
+        "Boger(uncle), Batiem (Aunt)",
+        "Mochogor (Uncle), Chepto(Aunt)",
+        "Bomori(Uncle)Moto(Aunt)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication & Nouns] In Kipsigis, what is the name given to a married women/ wife?",
+      "options": [
+        "Abule",
+        "Kwondo",
+        "Batiem",
+        "Mochogor"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication & Nouns] What does \"kiptang'anyit\" refer to in modern Kipsigis households?",
+      "options": [
+        "A traditional drinking gourd",
+        "A ceremonial fire pit",
+        "A television",
+        "A storytelling gathering"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication & Nouns] In Kipsigis, which of the following items is essential for sweeping the house?",
+      "options": [
+        "Pirirwet",
+        "Sanit",
+        "Ndoit",
+        "Kombet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication & Nouns] In Kipsigis professional titles, which term refers to a teacher?",
+      "options": [
+        "Konetindet",
+        "Konyoindet",
+        "Kirwogindet",
+        "Sirindet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication & Nouns] What is the correct Kipsigis response to \"Kongoi en tokset\"?",
+      "options": [
+        "Kongoi",
+        "Itagat",
+        "Asome",
+        "Missing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication & Nouns] Which of the following is NOT an example of a tonal equivocal word in Kipsigis?",
+      "options": [
+        "Muget",
+        "Moet",
+        "Mutai",
+        "Muut"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication & Nouns] In Kipsigis, which of these words can mean \"strike,\" \"five,\" or \"carry\" depending on context?",
+      "options": [
+        "Beek",
+        "Muut",
+        "Ker",
+        "Amut"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication & Nouns] What is the best way for a non-native speaker to navigate Kipsigis' tonal complexity?",
+      "options": [
+        "Relying only on written texts.",
+        "Practicing with native speakers and immersing in cultural settings.",
+        "Ignoring tonal distinctions since they are unimportant.",
+        "Using direct English translations."
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
+    }
+  ],
+  "isPublished": true
+}

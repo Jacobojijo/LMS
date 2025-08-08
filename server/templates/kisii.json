@@ -1,0 +1,2151 @@
+{
+  "title": "Ekegusii Language Course for Beginners",
+  "structure": "course-structure.html",
+  "modules": [
+    {
+      "title": "MODULE 01",
+      "description": "Ekegusii Alphabet, Basic Greetings, and Vocabulary",
+      "order": 1,
+      "topics": [
+        {
+          "title": "1.1 Introduction to Abagusii and Ekegusii ",
+          "type": "container",
+          "order": 1,
+          "subtopics": [
+            {
+              "title": "1.1.1 Introduction",
+              "htmlContent": "kisii/beginner/module-one/1.html",
+              "order": 1,
+              "passingScore": 50
+            },
+            {
+              "title": "1.1.2.1 Review & Practice",
+              "htmlContent": "kisii/beginner/module-one/2.html",
+              "order": 2,
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.2 Pronunciation and Alphabets",
+          "type": "container",
+          "order": 2,
+          "subtopics": [
+            {
+              "title": "1.2.1 Introduction  and 1.2.2 Ekegusii Alphabets",
+              "htmlContent": "kisii/beginner/module-one/3.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "Which of the following accurately lists all the front vowels in Ekegusii?",
+      "options": [
+        "/a/, /e/, /i/",
+        "/e/, /ɛ/, /i/",
+        "/i/, /e/, /o/",
+        "/ɛ/, /a/, /o/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Front vowels in Ekegusii include /e/, /ɛ/, and /i/, based on their articulatory position toward the front of the mouth."
+    },
+    {
+      "question": "What is the correct phonetic classification of the Ekegusii vowel /ɔ/?",
+      "options": [
+        "Mid-high central unrounded",
+        "Open-mid back rounded",
+        "Close-mid front unrounded",
+        "Open front unrounded"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vowel /ɔ/ in Ekegusii is classified as an open-mid back rounded vowel due to its tongue position and lip rounding."
+    },
+    {
+      "question": "Which consonant cluster involves a nasal onset followed by a glottalized velar release?",
+      "options": [
+        "MB",
+        "NG’",
+        "NY",
+        "NCH"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NG’ represents a nasal onset followed by a glottalized velar release, characteristic of prenasalized velar stops."
+    },
+    {
+      "question": "In Ekegusii, the vowel /a/ serves what critical phonological role?",
+      "options": [
+        "Marks glottal transitions",
+        "Anchors morphological boundaries",
+        "Enhances tonal stress",
+        "Signals nasalized onsets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vowel /a/ plays a crucial role in anchoring morphological boundaries in Ekegusii word structure."
+    },
+    {
+      "question": "Identify the cluster that represents a prenasalized palatal affricate.",
+      "options": [
+        "NCH",
+        "ND",
+        "NY",
+        "NG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NCH represents a prenasalized palatal affricate, combining a nasal onset with a palatal stop-release."
+    },
+    {
+      "question": "Which of the following phonemes is non-phonemic and arises through morphophonemic derivation?",
+      "options": [
+        "/j/",
+        "/w/",
+        "/ɾ/",
+        "/ʧ/"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phoneme /w/ is non-phonemic in Ekegusii and typically surfaces due to morphophonemic processes rather than being contrastive."
+    },
+    {
+      "question": "Which feature is common to all Ekegusii vowels?",
+      "options": [
+        "They are always unrounded.",
+        "Each has a voiced nasal counterpart.",
+        "Each has a lengthened variant.",
+        "Each is limited to root positions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "All Ekegusii vowels exhibit a lengthened (or long) variant, which may be phonemically distinctive."
+    },
+    {
+      "question": "The consonant group TW in Ekegusii typically represents:",
+      "options": [
+        "A nasalized alveolar fricative",
+        "An affricate + glide combination",
+        "A labialized alveolar plosive cluster",
+        "A voiced velar nasal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TW in Ekegusii represents a labialized alveolar plosive cluster, combining a plosive with a rounding glide."
+    },
+    {
+      "question": "Which of the following accurately contrasts Ekegusii fricatives using minimal pairs?",
+      "options": [
+        "/sɔa/ vs. /βɔa/",
+        "/ɲɔkɔ/ vs. /ŋɔkɔ/",
+        "/ama/ vs. /ana/",
+        "/ogo/ vs. /ugo/"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pair /sɔa/ vs. /βɔa/ demonstrates contrast between two fricatives and thus forms a true minimal pair."
+    },
+    {
+      "question": "What articulatory description best defines the phoneme /ɲ/?",
+      "options": [
+        "Bilabial plosive with nasal onset",
+        "Voiced alveolar plosive",
+        "Palatal nasal with tongue contacting hard palate",
+        "Velar nasal with ejective release"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phoneme /ɲ/ is a palatal nasal, articulated by pressing the tongue against the hard palate."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.2.2.4 Problem of Pronunciation.",
+              "htmlContent": "kisii/beginner/module-one/4.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "What is the tonal interpretation of the Ekegusii word /mˋoʹake/?",
+      "options": [
+        "Go away",
+        "Beat him/her",
+        "Hide it",
+        "Come quickly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The tonal pattern /mˋoʹake/ in Ekegusii translates as 'Beat him/her'. Tone distinguishes meaning in such forms."
+    },
+    {
+      "question": "In Ekegusii autosegmental phonology, what tier contains the actual consonants and vowels?",
+      "options": [
+        "Skeletal Tier",
+        "Tonal Tier",
+        "Segmental Tier",
+        "Syllabic Tier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Segmental Tier in autosegmental phonology contains the consonants and vowels of a word."
+    },
+    {
+      "question": "Which of the following Ekegusii tone types is only found on long vowels and is not contrastive?",
+      "options": [
+        "High (H)",
+        "Low (L)",
+        "Falling (↓)",
+        "Mid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Falling tone (↓) in Ekegusii is restricted to long vowels and is not contrastive on its own."
+    },
+    {
+      "question": "The phrase 'Ogo’saba' with stress on the second syllable most accurately translates as:",
+      "options": [
+        "To borrow",
+        "To pray",
+        "To sell",
+        "To dig"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the stress is on the second syllable, 'Ogo’saba' means 'To pray'. Stress shifts impact meaning."
+    },
+    {
+      "question": "According to Ekegusii tonal phonology, what happens when you shift the tonal pattern in the form /mˋoˋake/ to /mˋoʹake/?",
+      "options": [
+        "The tense changes",
+        "The word changes meaning",
+        "A vowel drops",
+        "A suffix is added"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Changing the tone from /mˋoˋake/ to /mˋoʹake/ changes the meaning of the word, demonstrating lexical tone."
+    },
+    {
+      "question": "In autosegmental representation of 'mbaremere', which syllable aligns with the high tone (H)?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The high tone in 'mbaremere' aligns with the third syllable in its autosegmental representation."
+    },
+    {
+      "question": "In the pronunciation of 'Omogaka', which version refers to “an elder”?",
+      "options": [
+        "[Omo-gaka]",
+        "[Omoga-ka]",
+        "[Mo’gaka]",
+        "[Omogaka]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pronunciation [Omoga-ka] corresponds to 'an elder' in Ekegusii; stress placement is key to meaning."
+    },
+    {
+      "question": "Which of the following is not one of the tiers used in Ekegusii Autosegmental Phonology?",
+      "options": [
+        "Tonal Tier",
+        "Lexical Tier",
+        "Syllabic Tier",
+        "CV (Skeletal) Tier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'Lexical Tier' is not a recognized tier in autosegmental phonology; common tiers include tonal, segmental, and skeletal."
+    },
+    {
+      "question": "Which of these strategies is most directly intended to help learners master pitch and rhythm in Ekegusii?",
+      "options": [
+        "Learning Swahili",
+        "Reading dictionaries",
+        "Audio drills and repetition",
+        "Studying root morphology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Audio drills and repetition target pitch and rhythm mastery in tonal languages like Ekegusii."
+    },
+    {
+      "question": "What is the effect of stress placement in words like 'Omogaka' or 'Ogosaba' in Ekegusii?",
+      "options": [
+        "It determines the verb tense",
+        "It alters phoneme structure",
+        "It distinguishes lexical meaning",
+        "It removes vowel harmony"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Stress placement in Ekegusii alters lexical meaning, making it a critical phonological feature."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.3 Review & Practice",
+          "type": "standalone",
+          "order": 3,
+          "htmlContent": "kisii/beginner/module-one/5.html",
+          "passingScore": 50
+        },
+        {
+          "title": "1.4 Numbers and Numbering",
+          "type": "container",
+          "order": 4,
+          "subtopics": [
+            {
+              "title": " 1.4.1 Introduction and 1.4.2 Cardinal Numbers",
+              "htmlContent": "kisii/beginner/module-one/6.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii expression for 16?",
+      "options": [
+        "Ikomi na kianda",
+        "Ikomi na isano nemo",
+        "Ikomi na isato nemo",
+        "Ikomi nemo na isano"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The number 16 is expressed as 'Ikomi na isano nemo', meaning '10 and 5 plus 1'."
+    },
+    {
+      "question": "Which of the following best represents “80” in Ekegusii?",
+      "options": [
+        "Emerong’etano na ibere",
+        "Emerong’ene na isano",
+        "Emeron’etano n’etato",
+        "Emerongo etato na etano"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Emeron’etano n’etato' correctly expresses 80 in Ekegusii (literally: four twenties)."
+    },
+    {
+      "question": "Translate the phrase: “One woman and two men” into Ekegusii.",
+      "options": [
+        "Omokungu oyomo na abasacha ibere",
+        "Abasacha ibere n’omokungu eyemo",
+        "Omokungu eyemo n’abasacha babere",
+        "Omokungu oyomo n’abasacha babere"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both 'Omokungu oyomo na abasacha ibere' and 'Omokungu oyomo n’abasacha babere' are acceptable, as 'oyomo' and 'eyemo' are interchangeable variants."
+    },
+    {
+      "question": "How would you express the number “9999” in Ekegusii?",
+      "options": [
+        "Chiribu kianda, chimia kianda na emerongo kianda na kianda",
+        "Chiribu kianda n’ekomi kianda",
+        "Chimia kianda na ikomi na kianda",
+        "Rigana kianda, emerongo kianda, na kianda"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Chiribu kianda, chimia kianda na emerongo kianda na kianda' represents 9999 as 9000 + 900 + 90 + 9."
+    },
+    {
+      "question": "Which of the following best illustrates the structure of “13” in Ekegusii?",
+      "options": [
+        "Ikomi na ibere",
+        "Ikomi na isato",
+        "Isato na ikomi",
+        "Ikomi na inye"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'13' is structured as 'Ikomi na isato' (10 and 3) in Ekegusii."
+    },
+    {
+      "question": "Which term in Ekegusii correctly refers to “200”?",
+      "options": [
+        "Emia ibere",
+        "Amagana ibere",
+        "Chimia ibere",
+        "Rigana ibere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Chimia ibere' translates to 200 (two hundreds) in Ekegusii."
+    },
+    {
+      "question": "What is the correct way to say “How many girls? (9)” in Ekegusii?",
+      "options": [
+        "Abakobwa b’ingine isano na ibere",
+        "Abaiseke kianda kianda",
+        "Abakobwa b’ingine ikomi",
+        "Abakobwa kianda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Abaiseke kianda kianda' is a proper way to ask about 9 girls in Ekegusii."
+    },
+    {
+      "question": "Identify the correct numerical breakdown of “Emerong’etano n’ebere”.",
+      "options": [
+        "50 + 2",
+        "60 + 2",
+        "70",
+        "80"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Emerong’etano n’ebere' translates to 70 (five twenties + two)."
+    },
+    {
+      "question": "Which of the following terms is used to express “1000” in Ekegusii?",
+      "options": [
+        "Chiribu eyemo",
+        "Eribu eyemo",
+        "Amagana eyemo",
+        "Rigana eyemo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Eribu eyemo' means 'one thousand' in Ekegusii."
+    },
+    {
+      "question": "Which is the correct Ekegusii representation for “900 + 90”?",
+      "options": [
+        "Emerongo etano na emerongo etano",
+        "Emerongo kianda na kianda",
+        "Emerongo ebere n’eberere",
+        "Kianda n’emerongo kianda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Emerongo kianda na kianda' correctly expresses 900 + 90 (nine hundreds and ninety)."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.4.3 Ordinal Numbers",
+              "htmlContent": "kisii/beginner/module-one/7.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "How are ordinal numbers in Ekegusii generally formed?",
+      "options": [
+        "By adding the prefix \"omwana\" to cardinal numbers",
+        "By using the suffix \"-oga\" with cardinal numbers",
+        "By adding the prefix \"oyo\" to cardinal numbers",
+        "By using only unique words unrelated to cardinal numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ordinal numbers in Ekegusii are typically formed by prefixing the cardinal number with 'oyo'."
+    },
+    {
+      "question": "What is the Ekegusii word for \"First\"?",
+      "options": [
+        "Oyo gochaka",
+        "Aba ikomi",
+        "Motang’ani",
+        "Abagatato"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Motang’ani\" is the Ekegusii word for 'First' and is an exception, not formed with 'oyo'."
+    },
+    {
+      "question": "Which of the following represents the fifth position in Ekegusii?",
+      "options": [
+        "Oyo kane",
+        "Oyo gatano",
+        "Abatang’ani",
+        "Oyo ikomi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Oyo gatano\" represents the fifth in ordinal sequence."
+    },
+    {
+      "question": "In Ekegusii, which ordinal number is used in the sentence: \"Omonto okianda naigwete amang’ana amayia\"?",
+      "options": [
+        "First",
+        "Seventh",
+        "Ninth",
+        "Tenth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence includes \"okianda\", indicating the ninth position in sequence."
+    },
+    {
+      "question": "Which of the following is NOT a correct characteristic of ordinal numbers in Ekegusii?",
+      "options": [
+        "They are formed by adding \"oyo\" to a cardinal number",
+        "They indicate sequence and ranking",
+        "\"Motang’ani\" is an exception and not derived from a cardinal number",
+        "They are used for counting objects"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ordinal numbers in Ekegusii are used for ordering, not for counting quantities like cardinal numbers."
+    },
+    {
+      "question": "What is the correct Ekegusii translation for \"The second child is sick\"?",
+      "options": [
+        "Omwana okabere aarwarete",
+        "Omwana okabere orwarire",
+        "Omwana okabere nomorwaire",
+        "Omwana ogatato nomorwaire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omwana okabere nomorwaire\" accurately translates to \"The second child is sick\" in Ekegusii."
+    },
+    {
+      "question": "Which of the following represents the eighth in Ekegusii?",
+      "options": [
+        "Oyo gatano na Gatato",
+        "Oyo kianda",
+        "Oyo gatano",
+        "Oyo kane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Oyo gatano na Gatato\" means 'fifth and third' which together indicate eighth in ordinal terms."
+    },
+    {
+      "question": "What is the last ordinal number in Ekegusii?",
+      "options": [
+        "Oyo Ikomi",
+        "Omoerio",
+        "Motang’ani",
+        "Oyo kianda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omoerio\" is a special term used to represent 'the last' in Ekegusii ordinal structure."
+    },
+    {
+      "question": "Which of the following best explains the function of \"oyo\" in Ekegusii ordinal numbers?",
+      "options": [
+        "It emphasizes ownership of objects",
+        "It connects the ordinal number to its cardinal base",
+        "It is a standalone number",
+        "It represents a specific type of number unrelated to counting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'oyo' links ordinal forms to their cardinal roots and helps mark sequence."
+    },
+    {
+      "question": "In Ekegusii, how would you correctly express \"The fourth leader is speaking\"?",
+      "options": [
+        "Omorai Okane ngokwanara",
+        "Omorai okianda ngokwanara",
+        "Omorai ogatano ngokwanara",
+        "Omorai okabere ngokwanara"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Omorai Okane ngokwanara\" correctly translates to 'The fourth leader is speaking' in Ekegusii."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.4.4 Days of the Week and Months ",
+              "htmlContent": "kisii/beginner/module-one/8.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "What is the meaning of the term 'Tichi rimo' in the Abagusii weekly calendar?",
+      "options": [
+        "The day of rest and worship",
+        "The first day of work",
+        "The last day of the week",
+        "The day for visiting the market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Tichi rimo\" translates to 'the first day of work' in the Abagusii weekly calendar system."
+    },
+    {
+      "question": "Why is Saturday called 'Enyongesa' in the Abagusii calendar?",
+      "options": [
+        "It is the day when people start work",
+        "It is the day for communal prayers",
+        "It is named after the Swahili word 'ongeza' due to bargaining at markets",
+        "It is the day when people travel to visit relatives"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Saturday is called 'Enyongesa' because it derives from the Swahili word 'ongeza', reflecting the bargaining activities that take place at markets on this day."
+    },
+    {
+      "question": "What is the Abagusii name for the ninth month of the year?",
+      "options": [
+        "Omotienyi o'ikomi",
+        "Omotienyi o'kianda",
+        "Omotienyi okabere",
+        "Omotienyi o'gatano na rimo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omotienyi o'kianda\" is the Abagusii name for the ninth month of the year, with 'kianda' representing the ordinal number nine."
+    },
+    {
+      "question": "What does 'Tichi gatano' (Friday) signify in the Abagusii calendar?",
+      "options": [
+        "The third day of work",
+        "The fifth day of work",
+        "The day of rest before the weekend",
+        "The day for traditional ceremonies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Tichi gatano\" literally means 'the fifth day of work' in the Abagusii weekly calendar system."
+    },
+    {
+      "question": "Which month in the Abagusii calendar is associated with intense cold?",
+      "options": [
+        "Omotienyi omotakani",
+        "Omotienyi o'ikomi",
+        "Omotienyi ogatano na kabere",
+        "Omotienyi ogatano narimo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omotienyi ogatano na kabere\" (the seventh month) is associated with intense cold weather in the Abagusii calendar."
+    },
+    {
+      "question": "What is the primary cultural significance of 'Omokubio' (Sunday) in the Abagusii calendar?",
+      "options": [
+        "It is a day for farming",
+        "It is a market day",
+        "It is a day of prayer and rest",
+        "It marks the beginning of a new month"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omokubio\" (Sunday) holds primary cultural significance as a day of prayer and rest in the Abagusii calendar system."
+    },
+    {
+      "question": "What does 'Omotienyi o'ikomi na kabere' refer to in the Abagusii calendar?",
+      "options": [
+        "The eleventh month of the year",
+        "The twelfth month of the year",
+        "The tenth month of the year",
+        "The eighth month of the year"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omotienyi o'ikomi na kabere\" refers to the twelfth month of the year, combining 'ten and two' to indicate the twelfth position."
+    },
+    {
+      "question": "Why were men expected to be away from home on 'Tichi gatano' (Friday) in precolonial times?",
+      "options": [
+        "They attended religious ceremonies",
+        "They were engaged in farming activities",
+        "They traveled for trade and exploration",
+        "They prepared for war"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In precolonial times, men were expected to be away from home on 'Tichi gatano' (Friday) because they were engaged in farming activities."
+    },
+    {
+      "question": "In the Abagusii calendar, which month is often associated with students preparing for change?",
+      "options": [
+        "Omotienyi omotang'ani",
+        "Omotienyi ogatano na gatato",
+        "Omotienyi ogatato",
+        "Omotienyi o'ikomi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omotienyi ogatano na gatato\" (the eighth month) is often associated with students preparing for change in the Abagusii calendar."
+    },
+    {
+      "question": "What is the meaning of 'Omotienyi ogatano na rimo' in the Abagusii calendar?",
+      "options": [
+        "The first month of the year",
+        "The second month of the year",
+        "The eleventh month of the year",
+        "The tenth month of the year"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omotienyi ogatano na rimo\" means 'the eleventh month of the year', combining 'five and one' plus 'five' to indicate the eleventh position."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.4.5 Telling Time ",
+              "htmlContent": "kisii/beginner/module-one/9.html",
+              "order": 3,
+              "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii translation for 'right now'?",
+      "options": [
+        "Bono",
+        "Bono bono/ Bono iga",
+        "Kare",
+        "Mambia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Bono bono\" or \"Bono iga\" is the correct Ekegusii translation for 'right now', emphasizing immediate present time."
+    },
+    {
+      "question": "Which term refers to the 'day before yesterday' in Ekegusii?",
+      "options": [
+        "Moisonde",
+        "Igoro",
+        "Mambiy'ende",
+        "Rero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Moisonde\" is the Ekegusii term that refers to 'the day before yesterday'."
+    },
+    {
+      "question": "Which of the following correctly represents the morning in Ekegusii?",
+      "options": [
+        "Omogaka",
+        "Makori",
+        "Maambi",
+        "Mogaso"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Maambi\" is the correct Ekegusii term for 'morning'."
+    },
+    {
+      "question": "How would you correctly say 'Later, we will help with the work' in Ekegusii?",
+      "options": [
+        "Kare, ntoche tokonye emeremo",
+        "Kare nkochagocha tore tokore emeremo",
+        "Bono bono twachire tokore emeremo",
+        "Mambia maambi ngocha tore tokore emeremo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Kare, ntoche tokonye emeremo\" is the correct way to say 'Later, we will help with the work' in Ekegusii."
+    },
+    {
+      "question": "What is the correct meaning of 'Chinsa kianda igoro'?",
+      "options": [
+        "Exactly 12 PM",
+        "Exactly 3 PM",
+        "Midnight",
+        "Late evening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Chinsa kianda igoro\" means 'exactly 3 PM' in Ekegusii time expressions."
+    },
+    {
+      "question": "Which of the following phrases correctly describes 'The day after tomorrow'?",
+      "options": [
+        "Ankio",
+        "Moisonde",
+        "Igoro",
+        "Mambiy'ende"
+      ],
+      "correctAnswer": 3,
+      "explanation": "\"Mambiy'ende\" is the Ekegusii phrase that correctly describes 'the day after tomorrow'."
+    },
+    {
+      "question": "In Ekegusii, what does 'Mobaso gati' refer to?",
+      "options": [
+        "Early in the morning",
+        "Exactly noon",
+        "Midnight",
+        "Late evening"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Mobaso gati\" refers to 'exactly noon' in Ekegusii time expressions."
+    },
+    {
+      "question": "What is the correct sentence structure when expressing time in Ekegusii?",
+      "options": [
+        "Verb + Subject + Time marker",
+        "Time marker + Subject + Verb + Object",
+        "Object + Subject + Verb + Time marker",
+        "Time marker + Object + Subject + Verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct sentence structure when expressing time in Ekegusii follows the pattern: Time marker + Subject + Verb + Object."
+    },
+    {
+      "question": "If someone says 'Imbwate emeremo emenge bono,' what does it mean?",
+      "options": [
+        "I will have work tomorrow.",
+        "I had a lot of work yesterday.",
+        "I have a lot of work now.",
+        "I will work later."
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Imbwate emeremo emenge bono\" translates to 'I have a lot of work now' in English."
+    },
+    {
+      "question": "Which of the following best translates to 'Very early in the morning' in Ekegusii?",
+      "options": [
+        "Omong'ina",
+        "Maambi mambi",
+        "Chinsa kianda",
+        "Mambia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Maambi mambi\" is the correct translation for 'very early in the morning' in Ekegusii."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.5 Review & Practice",
+          "type": "standalone",
+          "order": 5,
+          "htmlContent": "kisii/beginner/module-one/10.html",
+          "passingScore": 50
+        },
+        {
+          "title": "1.6 General Ways of Communication",
+          "type": "container",
+          "order": 6,
+          "subtopics": [
+            {
+              "title": "1.6.1 Introduction & 1.6.2 General Forms of Greetings",
+              "htmlContent": "kisii/beginner/module-one/11.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii greeting for “Good morning” when addressing one person?",
+      "options": [
+        "Obotuko Obuya",
+        "Bwakire",
+        "Mbuyande",
+        "Naye boigo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Bwakire\" is the correct greeting for 'Good morning' in Ekegusii when addressing an individual."
+    },
+    {
+      "question": "In Ekegusii, what does the term “Genda buya” literally mean?",
+      "options": [
+        "Stay well",
+        "Go well",
+        "May He protect you",
+        "See you later"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Genda buya\" literally translates to 'Go well' and is used as a farewell."
+    },
+    {
+      "question": "Which of the following greetings is used exclusively in the morning when the sun is rising?",
+      "options": [
+        "Bwakire",
+        "Bwairire",
+        "Mbuyore",
+        "Obotuko obuya"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Bwakire\" is used exclusively in the early morning when the sun is rising."
+    },
+    {
+      "question": "How do you say “Good evening” to a group of people in Ekegusii?",
+      "options": [
+        "Bwakire buya",
+        "Bwairire buya",
+        "Bwairire",
+        "Obotuo obuya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Bwairire\" is the proper way to say 'Good evening' to a group in Ekegusii."
+    },
+    {
+      "question": "What grammatical feature is evident in Ekegusii plural greetings such as “Oyimoreuru”?",
+      "options": [
+        "The suffix \"-nainwe\" indicates plural",
+        "The prefix \"naye-\" marks plurality",
+        "Ekegusii does not distinguish between singular and plural",
+        "The word order changes in plural greetings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Ekegusii, the suffix \"-nainwe\" is used to indicate plurality in greetings like \"Oyimoreuru.\""
+    },
+    {
+      "question": "Which Ekegusii phrase would be used when someone is going to sleep?",
+      "options": [
+        "Oboke buya",
+        "Orare buya",
+        "Bwakire buya",
+        "Marogoba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Orare buya\" means 'sleep well' and is used when someone is going to sleep."
+    },
+    {
+      "question": "How do the Abagusii people emphasize politeness and respect in their greetings?",
+      "options": [
+        "By bowing while greeting",
+        "By using intensifiers like “Gaki”",
+        "By avoiding greetings during meals",
+        "By repeating the greeting multiple times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abagusii people use intensifiers such as “Gaki” to show respect and politeness in greetings."
+    },
+    {
+      "question": "If someone greets you with “Naki” (informal “What’s up?”), what is the culturally appropriate response?",
+      "options": [
+        "Orare buya",
+        "Ogende buya",
+        "Timbwati mang’ana",
+        "Bwakire buya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Timbwati mang’ana\" is a culturally appropriate and casual response to the greeting \"Naki.\""
+    },
+    {
+      "question": "What does the word \"omogaso omuya\" mean in Ekegusii?",
+      "options": [
+        "Good morning",
+        "General greeting for the day",
+        "Good evening",
+        "Safe journey"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omogaso omuya\" is a general daily greeting, not tied to a specific time like morning or evening."
+    },
+    {
+      "question": "Which Ekegusii farewell expression is most appropriate when wishing someone a safe journey?",
+      "options": [
+        "Bwairire buya",
+        "Obotuko obuya",
+        "Ogende buya",
+        "Bwakire buya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Ogende buya\" is used to wish someone a safe journey and means 'Go well'."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.3 Family Members",
+              "htmlContent": "kisii/beginner/module-one/12.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "In Abagusii culture, which term is used to refer to a mother's brother, who holds an important decision-making role in the family?",
+      "options": [
+        "Semo",
+        "Tata moke",
+        "Tata",
+        "Bamwabo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Tata moke\" is the term used to refer to a mother's brother in Abagusii culture, who holds an important decision-making role in the family."
+    },
+    {
+      "question": "How does Abagusii kinship terminology distinguish between mother and father?",
+      "options": [
+        "Baba/mama (mother) and Tata (father)",
+        "Omoiseke (mother) and omomura (father)",
+        "Bamwabo(male) and Anko (female)",
+        "Semo (male) and Bamwabo (female)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abagusii kinship terminology distinguishes between mother and father using \"Baba/mama\" for mother and \"Tata\" for father."
+    },
+    {
+      "question": "Which of the following statements accurately reflects the Abagusii concept of generational hierarchy?",
+      "options": [
+        "Abagusii kinship does not extend beyond grandparents.",
+        "Abagusii culture assigns unique names to great-grandchildren up to the third generation.",
+        "Abagusii society does not recognize the role of nieces and nephews.",
+        "The first-born son is always called \"Law.\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abagusii culture assigns unique names to great-grandchildren up to the third generation, reflecting their complex generational hierarchy system."
+    },
+    {
+      "question": "What term is used to refer to a daughter-in-law when she returns to her paternal home?",
+      "options": [
+        "Omoiseke",
+        "Bamwabo",
+        "Moka momura",
+        "Omokungu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Moka momura\" is the term used to refer to a daughter-in-law when she returns to her paternal home in Abagusii culture."
+    },
+    {
+      "question": "In Abagusii culture, the term 'Omokungu omotang'ani' refers to:",
+      "options": [
+        "The second wife",
+        "The mother of the family",
+        "The first wife",
+        "A grandmother"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omokungu omotang'ani\" refers to the first wife in Abagusii polygamous family structures."
+    },
+    {
+      "question": "What is the Gusii term for \"grandfather\"?",
+      "options": [
+        "Sokoro",
+        "Magokoro",
+        "Tata moke",
+        "Bamwabo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Sokoro\" is the Gusii term for grandfather in the kinship terminology system."
+    },
+    {
+      "question": "Which of the following best describes the term 'Law' in Abagusii family structure?",
+      "options": [
+        "A term referring to a brother's son",
+        "A shared term for both father-in-law and son-in-law",
+        "The title given to the eldest uncle in the family",
+        "A name given to the second wife in a polygamous marriage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Law\" is a shared term used for both father-in-law and son-in-law in Abagusii family structure, reflecting the reciprocal nature of in-law relationships."
+    },
+    {
+      "question": "What is the correct Abagusii term for an aunt who is the sister of one's father?",
+      "options": [
+        "Anko",
+        "Mako moke",
+        "Omwana omoiseke",
+        "Kamati"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Mako moke\" is the correct Abagusii term for an aunt who is the sister of one's father (paternal aunt)."
+    },
+    {
+      "question": "In a polygamous Abagusii household, what term is used to refer to the second wife?",
+      "options": [
+        "Omokungu o'gatato",
+        "Omokungu o'kabere",
+        "Omokungu o'motang'ani",
+        "Baba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Omokungu o'kabere\" is the term used to refer to the second wife in a polygamous Abagusii household."
+    },
+    {
+      "question": "Which term is correctly matched with its English equivalent?",
+      "options": [
+        "Omoiseke – Son",
+        "Baba ominto– My father",
+        "Omochokoro omomura – Grandson",
+        "Mako moke – Uncle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Omochokoro omomura\" correctly translates to grandson in English, representing the male grandchild relationship in Abagusii kinship terms."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.4 Everyday Objects (Domestic & Household items)",
+              "htmlContent": "kisii/beginner/module-one/13.html",
+              "order": 3,
+              "practiceQuestions": [
+    {
+      "question": "In a traditional Abagusii homestead, what is the significance of the 'Echikoni'?",
+      "options": [
+        "It is a sacred place of worship",
+        "It is used only for food storage",
+        "It serves as a cultural and family gathering hub",
+        "It is where livestock are kept"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'Echikoni' serves as a cultural and family gathering hub in traditional Abagusii homesteads, functioning as the central meeting place for family activities."
+    },
+    {
+      "question": "Which of the following is traditionally used to serve liquids in Abagusii culture?",
+      "options": [
+        "Esani",
+        "Ekerasi",
+        "Enyongo",
+        "Esofa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Enyongo' is traditionally used to serve liquids in Abagusii culture, functioning as a vessel for beverages and other liquid refreshments."
+    },
+    {
+      "question": "What does 'Ekerama' symbolize in a Gusii household?",
+      "options": [
+        "A place for community meetings",
+        "Protection, as it serves as the roof",
+        "A decorative part of the house",
+        "A special seat for elders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ekerama' symbolizes protection in a Gusii household as it serves as the roof, providing shelter and security for the family."
+    },
+    {
+      "question": "Which Abagusii household item is commonly used for sweeping?",
+      "options": [
+        "Endoo",
+        "Ekiabuso",
+        "Enyongo",
+        "Ekabati"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ekiabuso' is the Abagusii household item commonly used for sweeping and maintaining cleanliness in the home."
+    },
+    {
+      "question": "Which of the following best describes the function of 'Egesarate' in a Abagusii home?",
+      "options": [
+        "A kitchen utensil used for serving food",
+        "A storage item for keeping valuables",
+        "A seating area, often used by elders",
+        "A farming tool for tilling land"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Egesarate' functions as a seating area in Abagusii homes, often used by elders for rest and social gatherings."
+    },
+    {
+      "question": "In a traditional Abagusii kitchen, which item is most essential for cooking?",
+      "options": [
+        "Enyongo",
+        "Ekaramu",
+        "Esofa",
+        "Ekerore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Enyongo' is most essential for cooking in a traditional Abagusii kitchen, serving as a primary cooking vessel."
+    },
+    {
+      "question": "What does 'Ecctv' refer to in a modern Gusii household?",
+      "options": [
+        "A traditional cooking method",
+        "A surveillance system (CCTV)",
+        "A traditional storytelling session",
+        "A musical instrument"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ecctv' refers to a surveillance system (CCTV) in modern Gusii households, representing the adoption of modern security technology."
+    },
+    {
+      "question": "How is the evolution of modern dining practices reflected in Gusii homes?",
+      "options": [
+        "The replacement of communal floor dining with a 'Emesa'",
+        "The use of calabashes instead of metal cups",
+        "The removal of chairs in traditional gatherings",
+        "The introduction of multiple cooking stations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The evolution of modern dining practices in Gusii homes is reflected by the replacement of communal floor dining with a 'Emesa' (table), showing adaptation to contemporary dining customs."
+    },
+    {
+      "question": "Which of the following best represents a traditional Gusii farming practice?",
+      "options": [
+        "Omogati",
+        "Omogondo or Egeticha",
+        "Ekabati",
+        "Omoro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omogondo or Egeticha' best represents traditional Gusii farming practices, referring to traditional agricultural tools and methods."
+    },
+    {
+      "question": "In Gusii culture, what is the purpose of 'Ritogonyero'?",
+      "options": [
+        "It is a modern security system",
+        "It is used to store utensils",
+        "It is a radio for news, music, and storytelling",
+        "It is a type of traditional footwear"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ritogonyero' serves as a radio for news, music, and storytelling in Gusii culture, functioning as an important communication and entertainment device."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.5 Titles of the People",
+              "htmlContent": "kisii/beginner/module-one/14.html",
+              "order": 4,
+              "practiceQuestions": [
+    {
+      "question": "In traditional Gusii governance, who held the highest authority in overseeing justice, rituals, and resource allocation?",
+      "options": [
+        "Omorisia",
+        "Omogambi",
+        "Omonda",
+        "Omorendi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'Omogambi' was the title given to the individual with the highest authority in traditional Gusii governance."
+    },
+    {
+      "question": "Which title is used to refer to the leader of the Gusii Council of Elders?",
+      "options": [
+        "Omogaka",
+        "Omotureti",
+        "Kemanyi",
+        "Omoruoti"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omotureti' refers to the leader of the Gusii Council of Elders."
+    },
+    {
+      "question": "What is the Gusii equivalent of 'Miss,' used to respectfully address a young unmarried woman?",
+      "options": [
+        "Omonyaroka",
+        "Omokungu",
+        "Omosacha",
+        "Omotakanwa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omonyaroka' is the respectful title used to address a young unmarried woman in Gusii."
+    },
+    {
+      "question": "Which of the following titles is given to someone who teaches and educates others?",
+      "options": [
+        "Omworokia",
+        "Omworokigwa",
+        "Omorendi",
+        "Omosikari"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omworokia' is a title given to educators or those who impart knowledge in the Gusii community."
+    },
+    {
+      "question": "In Gusii culture, what does the term 'Yaa' signify?",
+      "options": [
+        "A term for youth involved in community activities",
+        "An informal way of addressing a friend or cousin",
+        "A title of respect for an elder",
+        "A person skilled in legal matters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Yaa' is an informal term used to address a friend or cousin in Gusii culture."
+    },
+    {
+      "question": "What title is used to refer to a professional news anchor in Gusii society?",
+      "options": [
+        "Omogaka",
+        "Omorendi",
+        "Omararia",
+        "Omoamate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omararia' is the title used for a professional news anchor in Gusii."
+    },
+    {
+      "question": "Which title represents a medical professional in the Gusii language?",
+      "options": [
+        "Omorwari/ omonyagitari",
+        "Omworokia",
+        "Omosomu",
+        "Omorendi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omorwari' or 'Omonyagitari' is the title used for a doctor or medical professional."
+    },
+    {
+      "question": "What term is commonly used for a person responsible for financial management?",
+      "options": [
+        "Omorogi",
+        "Omwoonchoreria",
+        "Omorai",
+        "Omong’ina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omwoonchoreria' is used to describe a person who manages finances."
+    },
+    {
+      "question": "Which of the following titles best describes someone who practices mystical arts?",
+      "options": [
+        "Omworokia",
+        "Omworokigwa",
+        "Omwagachi",
+        "Omoremi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omwagachi' is the Gusii title for someone who practices mystical arts."
+    },
+    {
+      "question": "In Gusii society, what is the correct term for a soldier?",
+      "options": [
+        "Omosikari",
+        "Omorendi",
+        "Omorai",
+        "Omorisia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omorendi' refers to a soldier in Gusii society."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.6.6 Expressing Politeness",
+              "htmlContent": "kisii/beginner/module-one/15.html",
+              "order": 5,
+              "practiceQuestions": [
+    {
+      "question": "What is the most common way to express gratitude in Ekegusii?",
+      "options": [
+        "Yaya",
+        "Mbuyamono",
+        "Nakanire",
+        "Ngonye"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbuyamono' is the most commonly used expression of gratitude in Ekegusii."
+    },
+    {
+      "question": "If someone thanks you in Ekegusii, how should you politely respond?",
+      "options": [
+        "Ayie",
+        "Konya",
+        "Kwareganigwe",
+        "Okayie"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A polite response to gratitude in Ekegusii is 'Kwareganigwe,' meaning 'you are welcome.'"
+    },
+    {
+      "question": "Which phrase would be used to politely ask for something in Ekegusii?",
+      "options": [
+        "Ngonye",
+        "Timanyeti",
+        "Eebono",
+        "Nakanire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ngonye' means 'please' or 'excuse me' and is used when politely asking for something."
+    },
+    {
+      "question": "How would a Gusii speaker say 'I’m sorry' to express regret?",
+      "options": [
+        "Ngonye gaki",
+        "Ng’abere",
+        "Yaa",
+        "Mbuyamono"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ng’abere' is used in Ekegusii to express sorrow or regret, equivalent to 'I'm sorry.'"
+    },
+    {
+      "question": "In Ekegusii, what phrase is used when politely asking for forgiveness or permission to leave?",
+      "options": [
+        "Gaki ng’abere, nachiire",
+        "Gaki ng’abere, Ng’anchere ngende",
+        "Ngochande",
+        "Omogaka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Gaki ng’abere, Ng’anchere ngende' is used to ask for forgiveness or politely take leave."
+    },
+    {
+      "question": "What does the phrase 'ngonye' mean in a polite conversation?",
+      "options": [
+        "Help me",
+        "Excuse me",
+        "No, I refuse",
+        "Thank you"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ngonye' is a polite way of requesting help in Ekegusii."
+    },
+    {
+      "question": "If someone says 'Nyasaye ngokonyare, noanche?', how would you agree with them?",
+      "options": [
+        "Ng’abere",
+        "Yaya",
+        "Eeh",
+        "Ngonye"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Eeh' is the appropriate affirmative response in agreement with the phrase."
+    },
+    {
+      "question": "Which of the following phrases is used to politely decline a request?",
+      "options": [
+        "Ngonye",
+        "Eebono",
+        "Yaya",
+        "Ng’abere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Yaya' is a polite way to decline something in Ekegusii."
+    },
+    {
+      "question": "What phrase would someone use when requesting directions in Ekegusii?",
+      "options": [
+        "Gaki ing’orokie enchera?",
+        "Nagokanirie tintageti",
+        "Ngong’orokiore enchera?",
+        "Ngonye namache"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Gaki ing’orokie enchera?' means 'Please show me the way?' when requesting directions."
+    },
+    {
+      "question": "In Ekegusii culture, what is emphasized besides words when expressing politeness?",
+      "options": [
+        "Facial expressions and tone",
+        "Loud speaking",
+        "Using only formal titles",
+        "Avoiding eye contact"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Besides words, facial expressions and tone are vital in showing politeness in Ekegusii culture."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.7 Review & Practice",
+          "type": "standalone",
+          "order": 7,
+          "htmlContent": "kisii/beginner/module-one/16.html",
+          "passingScore": 50
+        },
+        {
+          "title": "1.7 Nouns (Part 01)",
+          "type": "container",
+          "order": 8,
+          "subtopics": [
+            {
+              "title": "1.7.1 Introduction to Nouns & 1.7.2 Gusii Equivocal & Synonyms",
+              "htmlContent": "kisii/beginner/module-one/17.html",
+              "order": 1,
+              "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of an Ekegusii abstract noun?",
+      "options": [
+        "Oborabu",
+        "Egetabu",
+        "Egekombe",
+        "Eng’era"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Oborabu' represents an abstract concept, making it an abstract noun in Ekegusii."
+    },
+    {
+      "question": "In Ekegusii, what does the word 'Igoro' mean in the context of Day?",
+      "options": [
+        "Eastward",
+        "Up",
+        "Yesterday",
+        "A place of burial"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Igoro' refers to 'yesterday' in the context of time in Ekegusii."
+    },
+    {
+      "question": "Which of the following words can mean both 'Nose' and 'Machete' in Ekegusii?",
+      "options": [
+        "Emioro",
+        "Igoro",
+        "Erongori",
+        "Amato"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Emioro' is an equivocal word in Ekegusii that can mean either 'nose' or 'machete' depending on context."
+    },
+    {
+      "question": "How does pronunciation affect the meaning of the word 'Emioro' in Ekegusii?",
+      "options": [
+        "It determines if it means 'Respect' or 'cowdung'.",
+        "It distinguishes between 'porridge' and 'condolence money'.",
+        "It differentiates between 'nose' and 'machete'.",
+        "There is no phonetic distinction in meaning."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pronunciation helps differentiate the meanings of 'Emioro' as 'nose' or 'machete'."
+    },
+    {
+      "question": "In what context does 'emeri' mean 'roots' in Ekegusii?",
+      "options": [
+        "When referring to an egg",
+        "When talking about a weapon",
+        "As an imperative form of the verbs",
+        "When describing a boundary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Emeri' means 'roots' when used in the imperative context in Ekegusii."
+    },
+    {
+      "question": "What is the primary linguistic challenge associated with Ekegusii equivocal words?",
+      "options": [
+        "Lack of proper written documentation",
+        "Dependence on pronunciation and context to determine meaning",
+        "The absence of grammatical structure",
+        "Limited vocabulary in the language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Understanding equivocal words in Ekegusii depends heavily on pronunciation and context."
+    },
+    {
+      "question": "Which word can mean both 'to cough' and 'to see' in Ekegusii, depending on pronunciation?",
+      "options": [
+        "Nakororire",
+        "Oboke",
+        "Omogoko",
+        "Rora"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nakororire' can mean either 'to cough' or 'to see' depending on its pronunciation."
+    },
+    {
+      "question": "If someone says 'Okwegena' in a religious discussion, what is the most likely meaning?",
+      "options": [
+        "A boat",
+        "Faith",
+        "To sweep",
+        "A boundary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In religious contexts, 'Okwegena' is interpreted as 'faith'."
+    },
+    {
+      "question": "What strategy is most effective in understanding Ekegusii equivocal words?",
+      "options": [
+        "Memorizing all possible meanings",
+        "Ignoring pronunciation differences",
+        "Practicing in real-life conversations with native speakers",
+        "Avoiding words with multiple meanings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Engaging in real-life conversation with native speakers is the best way to master equivocal word meanings."
+    },
+    {
+      "question": "In Gusii culture, which of the following words refers to both 'Happiness' and 'stingy'?",
+      "options": [
+        "Omogoko",
+        "Yaa",
+        "Rora",
+        "Omokia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omogoko' is an equivocal word in Ekegusii that can mean both 'happiness' and 'stingy'."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.7.3 Ekegusii Synonyms",
+              "htmlContent": "kisii/beginner/module-one/18.html",
+              "order": 2,
+              "practiceQuestions": [
+    {
+      "question": "What is the primary linguistic function of synonyms in Ekegusii?",
+      "options": [
+        "They limit the number of words in the language.",
+        "They simplify oral traditions by reducing vocabulary.",
+        "They enhance expressiveness, cultural relevance, and regional variations.",
+        "They eliminate the need for dialectal differences."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Synonyms in Ekegusii enhance expressiveness, cultural relevance, and reflect regional language diversity."
+    },
+    {
+      "question": "Which of the following Ekegusii words refers to a flower?",
+      "options": [
+        "Emete",
+        "Amache",
+        "Rioga",
+        "Omoreu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Rioga' is the Ekegusii word that refers to a flower."
+    },
+    {
+      "question": "In Ekegusii, what is the difference between 'Atoka' and 'Speak'?",
+      "options": [
+        "Atoka refers to a specific ethnic group, while Kwana refers to a small family.",
+        "Atoka refers to expressing thoughts, opinions or feelings, while speak refers to the act of talking or using one’s voice to communicate.",
+        "Atoka is used only in urban areas, while Kwana is used in rural settings.",
+        "Atoka is a ceremonial title, while Kwana means 'foreigners'."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Atoka' conveys the expression of thoughts or feelings, while 'speak' (kwana) refers to the physical act of talking."
+    },
+    {
+      "question": "Which of the following is a synonym for 'mokane' in Ekegusii?",
+      "options": [
+        "Rimusu",
+        "Omwanchi",
+        "Egesicha",
+        "Baba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omwanchi' is a synonym for 'mokane' (father) in Ekegusii."
+    },
+    {
+      "question": "'Chitaratara' is a term used by people from which region to refer to slippers or sandals?",
+      "options": [
+        "Abagusii of the upper side",
+        "Abagusii of the lower side",
+        "Abagusii from west Mogirango",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Chitaratara' is commonly used by the Abagusii of the upper side to refer to sandals or slippers."
+    },
+    {
+      "question": "Which of the following best describes 'Rimusu' in Ekegusii?",
+      "options": [
+        "A type of footwear",
+        "A small hut",
+        "Smell",
+        "A traditional song"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Rimusu' refers to 'smell' in Ekegusii."
+    },
+    {
+      "question": "Which of these words refers to a farm, particularly used in small-scale farming?",
+      "options": [
+        "Echiro",
+        "Egeticha",
+        "Omogondo",
+        "Egetii"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Egeticha' is used to refer to a small-scale farm in Ekegusii."
+    },
+    {
+      "question": "What is a synonym for 'porridge' in Ekegusii?",
+      "options": [
+        "Erongori",
+        "Amaemba",
+        "Chinsaga",
+        "Chibesa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Erongori' is used as a synonym for 'porridge' in Ekegusii."
+    },
+    {
+      "question": "'Igoro' in Ekegusii can refer to?",
+      "options": [
+        "It can refer to both a yesterday and up.",
+        "It only applies to Eastward regions.",
+        "It has no cultural significance.",
+        "It only refers yesterday and down."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Igoro' is an equivocal term in Ekegusii that can refer to both 'yesterday' and 'up' depending on context."
+    },
+    {
+      "question": "Which of the following statements is true about Ekegusii synonyms?",
+      "options": [
+        "They are entirely fixed and do not vary across regions.",
+        "They reflect cultural contexts and dialectal differences.",
+        "They are only used in ancient oral traditions.",
+        "They do not contribute to the richness of the language."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii synonyms often vary across regions and reflect cultural and dialectal diversity."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "1.7.4 Gender of Nouns",
+              "htmlContent": "kisii/beginner/module-one/19.html",
+              "order": 3,
+              "practiceQuestions": [
+    {
+      "question": "What is the primary basis for noun gender classification in Ekegusii?",
+      "options": [
+        "The length of the word",
+        "Natural gender and grammatical neutrality",
+        "The number of syllables",
+        "The pronunciation of the word"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii classifies nouns based on natural gender and grammatical neutrality rather than word length or syllables."
+    },
+    {
+      "question": "Which of the following nouns is classified as masculine in Ekegusii?",
+      "options": [
+        "Esibeni",
+        "Omoiseke",
+        "Eeri",
+        "Omong’ina"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Eeri' is a masculine noun in Ekegusii, typically referring to something with masculine characteristics or association."
+    },
+    {
+      "question": "Which of the following is a feminine noun in Ekegusii?",
+      "options": [
+        "Tata",
+        "Omogaka",
+        "Omokungu",
+        "Egoree"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omokungu' is a feminine noun in Ekegusii, referring to a woman."
+    },
+    {
+      "question": "What is the meaning of the Ekegusii noun 'Enyange'?",
+      "options": [
+        "A garden",
+        "A bicycle",
+        "A river",
+        "A tree"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Enyange' in Ekegusii refers to a bicycle."
+    },
+    {
+      "question": "Which of the following statements best describes neuter nouns in Ekegusii?",
+      "options": [
+        "They refer to only abstract ideas.",
+        "They refer to inanimate objects, places, and concepts.",
+        "They only refer to natural features like mountains and rivers.",
+        "They must always end with a vowel."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neuter nouns in Ekegusii include objects, places, and abstract concepts, not necessarily tied to natural gender."
+    },
+    {
+      "question": "Which of the following pairs correctly represents masculine and feminine nouns in Ekegusii?",
+      "options": [
+        "Omomura - Omoiseke",
+        "Omorai - Omwana",
+        "Esibeni - Embori",
+        "Omokungu - Omoiseke"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Omomura' (boy) and 'Omoiseke' (girl) represent masculine and feminine noun pairs respectively."
+    },
+    {
+      "question": "Which neuter noun in Ekegusii refers to a place of residence?",
+      "options": [
+        "Enkogoti",
+        "Enka",
+        "Omonene",
+        "Epara"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Enka' is the Ekegusii word for a homestead or place of residence and is a neuter noun."
+    },
+    {
+      "question": "Which of the following is NOT a masculine noun in Ekegusii?",
+      "options": [
+        "Omogaka",
+        "Omosacha",
+        "Omoiseke",
+        "Omomura"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omoiseke' is a feminine noun, referring to a girl."
+    },
+    {
+      "question": "Which masculine noun in Ekegusii refers to a male bird?",
+      "options": [
+        "Richore",
+        "Etuoni",
+        "Omoiseke",
+        "Engoko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Etuoni' is a masculine noun referring to a male bird in Ekegusii."
+    },
+    {
+      "question": "What is the best description of 'rikori' in Ekegusii?",
+      "options": [
+        "A type of tree",
+        "A road or path",
+        "A mountain",
+        "A river"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Rikori' refers to a road or path in Ekegusii."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "1.8 Review & Practice",
+          "type": "standalone",
+          "order": 9,
+          "htmlContent": "kisii/beginner/module-one/20.html",
+          "passingScore": 50
+        }
+      ],
+      "cat": {
+  "title": "Ekegusii Alphabet, Basic Greetings, and Vocabulary CAT",
+  "description": "This Continuous Assessment Test evaluates knowledge of Ekegusii phonology, numerals, time expressions, and cultural communication norms.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following statements about Ekegusii vowels is TRUE?",
+      "options": [
+        "Ekegusii vowels can undergo reduction in unstressed syllables, similar to English.",
+        "Ekegusii vowels always retain their full phonetic value regardless of stress.",
+        "Ekegusii has seven primary vowels, with distinct nasalized variants.",
+        "Ekegusii vowels do not affect meaning when lengthened."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is the significance of vowel length in Ekegusii?",
+      "options": [
+        "It does not affect word meaning and is purely a stylistic feature.",
+        "It determines whether a word is a noun or a verb.",
+        "It is phonemically significant and can change the meaning of a word.",
+        "It only affects the rhythm of speech but not meaning."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following words exemplifies the use of a consonantal digraph in Ekegusii?",
+      "options": [
+        "Omoiseke",
+        "Igoro",
+        "Omwando",
+        "Tata"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is a unique feature of Ekegusii consonants compared to English consonants?",
+      "options": [
+        "They have no plosives.",
+        "They rely on vowel harmony for pronunciation.",
+        "They include nasalized plosives and palatalized clusters.",
+        "They do not form digraphs."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] How does the tonal aspect of Ekegusii influence meaning?",
+      "options": [
+        "It primarily affects sentence structure, not word meaning.",
+        "It dictates word stress but not pronunciation.",
+        "It is crucial in differentiating words that otherwise have identical spelling.",
+        "It has no impact on lexical meaning, only on emphasis."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] What is a defining characteristic of Ekegusii consonants?",
+      "options": [
+        "They change based on stress in a word.",
+        "They include plosives, nasals, and fricatives.",
+        "They are silent when placed before vowels.",
+        "They always appear at the beginning of words."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Speech sounds differ in:",
+      "options": [
+        "Pitch, Loudness and Tempo",
+        "Loudness, Quality and Pitch",
+        "Pitch, Loudness, and Quality",
+        "Loudness, Tempo and Quality"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] In the word \"mogaka,\" how does tonal variation change its meaning?",
+      "options": [
+        "It distinguishes between \"elder\" and \"aloe vera.\"",
+        "It differentiates \"elder\" from \"man.\"",
+        "It changes \"child\" into \"woman.\"",
+        "It alters \"to look\" into \"to spread.\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Pronunciation and Alphabets] Which of the following pronunciation features does NOT contribute to phonological complexity in Ekegusii?",
+      "options": [
+        "Syllable stress",
+        "Vowel length",
+        "Use of voiced fricatives",
+        "Tonality"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronunciation and Alphabets] How can a learner best master Ekegusii pronunciation challenges?",
+      "options": [
+        "By avoiding tonal variations to maintain consistency",
+        "By memorizing written words without focusing on phonetics",
+        "By interacting with native speakers and practicing syllable stress",
+        "By replacing Dholuo consonants with their closest English equivalents"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] How is the number 17 correctly expressed in Ekegusii?",
+      "options": [
+        "Ikomi na inye",
+        "Ikomi na isano isato",
+        "Ikomi na isano ibere",
+        "Ikomi na isano"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] What is the correct term for 800 in Ekegusii?",
+      "options": [
+        "Chimia Inye",
+        "Chimia isano na isato",
+        "Emerongo etano na etato",
+        "Chimia isano nemo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] Which statement about ordinal numbers in Ekegusii is incorrect?",
+      "options": [
+        "\"Oyo\" is prefixed to most ordinal numbers.",
+        "\"Amakwani\" is the only ordinal number that does not use \"oyo.\"",
+        "\"Omokungu o’gatato\" means the last in a sequence.",
+        "Ordinal numbers are only used in ranking people."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"The sixth person arrived late\" in Ekegusii?",
+      "options": [
+        "Omonto o’gatano na rimo aigete ekero ebiro biarire",
+        "Omonto o’gatano achete ekero chingaki chiaerire",
+        "Omonto achete chinsa kianda",
+        "Omonto o’ikomi na rimo ochire"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Numbering] If someone refers to \"Tichi gatato,\" which day are they talking about?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] In which month would you refer to \"Omotienyi o’gatano na rimo\"?",
+      "options": [
+        "October",
+        "November",
+        "December",
+        "February"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] What is the correct meaning of \"Omokubiol\" in Ekegusii?",
+      "options": [
+        "A day for spiritual reflection",
+        "A day when people plant crops",
+        "A day for market trading",
+        "A day to begin work"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following Ekegusii words refers to \"early morning\"?",
+      "options": [
+        "Mambia",
+        "Maambi mambi",
+        "Botuko gati",
+        "Igoro"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"twenty\" in Ekegusii?",
+      "options": [
+        "Chimia ibere",
+        "Emerongo ene",
+        "Emerongo ebere",
+        "Amagana abere"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following phrases is correctly structured in Ekegusii?",
+      "options": [
+        "Nachire bono",
+        "Ngogenda inde kare",
+        "Ninche ngende",
+        "Nachiire"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] Which of the following is NOT part of the four-part day division in Ekegusii?",
+      "options": [
+        "Bwairire",
+        "Bwakire",
+        "Mambi mbuya",
+        "Obotuko obuya"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] If an elder refers to \"Chiribu kianda,\" what number are they talking about?",
+      "options": [
+        "9",
+        "90",
+        "900",
+        "9000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] How would one say \"the ninth child\" in Ekegusii?",
+      "options": [
+        "Omwana o’kane",
+        "Omwana o’kianda",
+        "Omwana biakianda",
+        "Omwana o’ikomi"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Numbers and Numbering] What does \"Risase’\" most closely mean in Ekegusii?",
+      "options": [
+        "Time",
+        "Moon",
+        "Sun",
+        "Season"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Numbers and Numbering] What would be the correct way to say \"the third house\" in Ekegusii?",
+      "options": [
+        "Enka ya kane",
+        "Enka ya gatato",
+        "Enka ya ikomi",
+        "Enka ya kianda"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] Which of the following best describes the primary function of Ekegusii greetings (Amakwani)?",
+      "options": [
+        "To establish religious authority.",
+        "To reflect temporal specificity, kinship, and social cohesion.",
+        "To mark grammatical complexity only.",
+        "To signify political affiliations."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] What is the correct response to \"Bwakire\" in Ekegusii?",
+      "options": [
+        "Emarogoba engiya",
+        "Bwairire buya",
+        "Bwakire buya",
+        "Obotuko obuya"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] In Ekegusii, what does the farewell term “eri” derive from?",
+      "options": [
+        "To move.",
+        "To protect.",
+        "To listen.",
+        "To thank."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] Which of the following phrases means \"May I come in?\"",
+      "options": [
+        "Anyalo donjoNgong’anchera ore nsoe?",
+        "Naki?",
+        "Timbwati mang’ana.",
+        "Gaki ngonye"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] In Ekegusii, what does the term \"sokoro\" mean?",
+      "options": [
+        "Uncle",
+        "Aunt",
+        "Grandfather",
+        "Cousin"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] Which of the following is NOT a recognized function of “yaa” in Ekegusii kinship?",
+      "options": [
+        "Refers to a brother.",
+        "Can refer to a close male cousin.",
+        "Specifically means \"maternal uncle.\"",
+        "Can be used informally to mean \"friend.\""
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] How does Ekegusii differentiate between “Grandson” and “Granddaughter”?",
+      "options": [
+        "Omochokoro omomura (Grandson), omochokoro omoiseke (Granddaughter)",
+        "Omochokoro oye (Grandson), omochokoro obo (Granddaughter)",
+        "Yaa ngogosore (Grandson), enyaroke yane (Granddaughter)",
+        "Sokoro ominto (Grandson), Magokoro ominto (Granddaughter)"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] In Gusii polygamous household structure, which wife holds the highest status?",
+      "options": [
+        "Omokungu O’kabere",
+        "Omokungu omotang’ani",
+        "Omokungu omokogoti",
+        "Omokungu o’gatato"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] What does \"ekibukibuki/ekioroki mang’ana\" refer to in modern Ekegusii households?",
+      "options": [
+        "A traditional drinking gourd",
+        "A ceremonial fire pit",
+        "A television",
+        "A storytelling gathering"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] In Ekegusii, which of the following items is essential for sweeping the house?",
+      "options": [
+        "Ekiabuso",
+        "Nichwo",
+        "ENdoo",
+        "EsanI"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] In Ekegusii professional titles, which term refers to a teacher?",
+      "options": [
+        "Omworokia",
+        "Omworokigwa",
+        "Omosoni",
+        "Omosikari"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[General Communication] What is the correct Ekegusii response to \"Mbuyamono ase ogocha kondora\"?",
+      "options": [
+        "Tocha naende",
+        "Kwareganigwe",
+        "Mbuyamono",
+        "Ogende buya"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] Which of the following is NOT an example of a tonal equivocal word in Ekegusii?",
+      "options": [
+        "Emingichi",
+        "Egoree",
+        "Eng’ombe",
+        "Esibeni"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[General Communication] In Ekegusii, which of these words can mean \"law,\" \"trap,\" or \"plan\" depending on context?",
+      "options": [
+        "Oborabu",
+        "Richiko",
+        "Obotambe",
+        "Omwana"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[General Communication] What is the best way for a non-native speaker to navigate Ekegusii’s tonal complexity?",
+      "options": [
+        "Relying only on written texts.",
+        "Practicing with native speakers and immersing in cultural settings.",
+        "Ignoring tonal distinctions since they are unimportant.",
+        "Using direct English translations."
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
+
+    }
+  ],
+  "isPublished": true
+}

@@ -8,17 +8,19 @@
         "Kare",
         "Mambia"
       ],
-      "answer": "Bono bono/ Bono iga"
+      "correctAnswer": 1,
+      "explanation": "\"Bono bono\" or \"Bono iga\" is the correct Ekegusii translation for 'right now', emphasizing immediate present time."
     },
     {
       "question": "Which term refers to the 'day before yesterday' in Ekegusii?",
       "options": [
         "Moisonde",
         "Igoro",
-        "Mambiy’ende",
+        "Mambiy'ende",
         "Rero"
       ],
-      "answer": "Moisonde"
+      "correctAnswer": 0,
+      "explanation": "\"Moisonde\" is the Ekegusii term that refers to 'the day before yesterday'."
     },
     {
       "question": "Which of the following correctly represents the morning in Ekegusii?",
@@ -28,7 +30,8 @@
         "Maambi",
         "Mogaso"
       ],
-      "answer": "Maambi"
+      "correctAnswer": 2,
+      "explanation": "\"Maambi\" is the correct Ekegusii term for 'morning'."
     },
     {
       "question": "How would you correctly say 'Later, we will help with the work' in Ekegusii?",
@@ -38,7 +41,8 @@
         "Bono bono twachire tokore emeremo",
         "Mambia maambi ngocha tore tokore emeremo"
       ],
-      "answer": "Kare, ntoche tokonye emeremo"
+      "correctAnswer": 0,
+      "explanation": "\"Kare, ntoche tokonye emeremo\" is the correct way to say 'Later, we will help with the work' in Ekegusii."
     },
     {
       "question": "What is the correct meaning of 'Chinsa kianda igoro'?",
@@ -48,7 +52,8 @@
         "Midnight",
         "Late evening"
       ],
-      "answer": "Exactly 3 PM"
+      "correctAnswer": 1,
+      "explanation": "\"Chinsa kianda igoro\" means 'exactly 3 PM' in Ekegusii time expressions."
     },
     {
       "question": "Which of the following phrases correctly describes 'The day after tomorrow'?",
@@ -56,9 +61,10 @@
         "Ankio",
         "Moisonde",
         "Igoro",
-        "Mambiy’ende"
+        "Mambiy'ende"
       ],
-      "answer": "Mambiy’ende"
+      "correctAnswer": 3,
+      "explanation": "\"Mambiy'ende\" is the Ekegusii phrase that correctly describes 'the day after tomorrow'."
     },
     {
       "question": "In Ekegusii, what does 'Mobaso gati' refer to?",
@@ -68,7 +74,8 @@
         "Midnight",
         "Late evening"
       ],
-      "answer": "Exactly noon"
+      "correctAnswer": 1,
+      "explanation": "\"Mobaso gati\" refers to 'exactly noon' in Ekegusii time expressions."
     },
     {
       "question": "What is the correct sentence structure when expressing time in Ekegusii?",
@@ -78,7 +85,8 @@
         "Object + Subject + Verb + Time marker",
         "Time marker + Object + Subject + Verb"
       ],
-      "answer": "Time marker + Subject + Verb + Object"
+      "correctAnswer": 1,
+      "explanation": "The correct sentence structure when expressing time in Ekegusii follows the pattern: Time marker + Subject + Verb + Object."
     },
     {
       "question": "If someone says 'Imbwate emeremo emenge bono,' what does it mean?",
@@ -88,17 +96,19 @@
         "I have a lot of work now.",
         "I will work later."
       ],
-      "answer": "I have a lot of work now."
+      "correctAnswer": 2,
+      "explanation": "\"Imbwate emeremo emenge bono\" translates to 'I have a lot of work now' in English."
     },
     {
       "question": "Which of the following best translates to 'Very early in the morning' in Ekegusii?",
       "options": [
-        "Omong’ina",
+        "Omong'ina",
         "Maambi mambi",
         "Chinsa kianda",
         "Mambia"
       ],
-      "answer": "Maambi mambi"
+      "correctAnswer": 1,
+      "explanation": "\"Maambi mambi\" is the correct translation for 'very early in the morning' in Ekegusii."
     }
   ]
 }
