@@ -1,33 +1,33 @@
-// courseRoutes.js
 const express = require('express');
 const {
+  createCourse,
   getCourses,
   getCourse,
-  createCourse,
   updateCourse,
   deleteCourse,
-  // New methods for student access
   getStudentCourses,
   getStudentCourse,
-  getStudentModule
+  getStudentModule,
+  getStudentTopic,
+  getStudentSubtopic,
+  submitTopicPracticeAnswer,
+  submitSubtopicPracticeAnswer,
+  submitCAT,
+  getStudentProgress
 } = require('../controllers/courseController');
 
 const Course = require('../models/Course');
 
-const router = express.Router();
-
+// Import middleware
 const { protect, authorize } = require('../middleware/authMiddleware');
 const advancedResults = require('../middleware/advancedResultsMiddleware');
+
+const router = express.Router();
 
 // Admin routes
 router
   .route('/')
-  .get(
-    protect,
-    authorize('admin'),
-    advancedResults(Course),
-    getCourses
-  )
+  .get(protect, authorize('admin'), advancedResults(Course), getCourses)
   .post(protect, authorize('admin'), createCourse);
 
 router
@@ -37,8 +37,44 @@ router
   .delete(protect, authorize('admin'), deleteCourse);
 
 // Student routes
-router.get('/student', protect, getStudentCourses);
-router.get('/student/:id', protect, getStudentCourse);
-router.get('/student/:courseId/modules/:moduleId', protect, getStudentModule);
+router
+  .route('/student')
+  .get(protect, authorize('student'), getStudentCourses);
+
+router
+  .route('/student/:id')
+  .get(protect, authorize('student'), getStudentCourse);
+
+router
+  .route('/student/:id/progress')
+  .get(protect, authorize('student'), getStudentProgress);
+
+router
+  .route('/student/:courseId/modules/:moduleId')
+  .get(protect, authorize('student'), getStudentModule);
+
+router
+  .route('/student/:courseId/modules/:moduleId/topics/:topicId')
+  .get(protect, authorize('student'), getStudentTopic);
+
+// New subtopic route
+router
+  .route('/student/:courseId/modules/:moduleId/topics/:topicId/subtopics/:subtopicId')
+  .get(protect, authorize('student'), getStudentSubtopic);
+
+// Practice question routes - topic level
+router
+  .route('/student/:courseId/modules/:moduleId/topics/:topicId/practice/:questionId')
+  .post(protect, authorize('student'), submitTopicPracticeAnswer);
+
+// Practice question routes - subtopic level
+router
+  .route('/student/:courseId/modules/:moduleId/topics/:topicId/subtopics/:subtopicId/practice/:questionId')
+  .post(protect, authorize('student'), submitSubtopicPracticeAnswer);
+
+// CAT routes
+router
+  .route('/student/:courseId/modules/:moduleId/cat')
+  .post(protect, authorize('student'), submitCAT);
 
 module.exports = router;

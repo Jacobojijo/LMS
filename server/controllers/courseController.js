@@ -1,5 +1,5 @@
 const Course = require("../models/Course");
-const Progress = require("../models/Progress"); // Add progress model
+const Progress = require("../models/Progress");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/asyncMiddleware");
 const Enrollment = require("../models/Enrollment");
@@ -111,7 +111,7 @@ exports.deleteCourse = asyncHandler(async (req, res, next) => {
     );
   }
 
-  await course.deleteOne(); // Updated from remove() which is deprecated
+  await course.deleteOne();
 
   res.status(200).json({
     success: true,
@@ -207,30 +207,14 @@ exports.getStudentCourse = asyncHandler(async (req, res, next) => {
 
   // If no progress record exists, create one
   if (!progress) {
-    // Initialize progress with empty modules matching course structure
-    const moduleProgress = course.modules.map((module) => ({
-      moduleId: module._id,
-      topics: module.topics.map((topic) => ({
-        topicId: topic._id,
-        completed: false,
-        viewed: false,
-        practiceAttempts: [],
-      })),
-      catAttempt: {
-        attempts: 0,
-        bestScore: 0,
-        passed: false,
-      },
-      completed: false,
-    }));
-
-    progress = await Progress.create({
+    progress = new Progress({
       user: req.user.id,
       course: course._id,
-      modules: moduleProgress,
-      overallProgress: 0,
-      completed: false,
     });
+    
+    // Initialize progress structure based on course
+    progress.initializeForCourse(course);
+    await progress.save();
   }
 
   // Update last accessed timestamp
@@ -242,12 +226,10 @@ exports.getStudentCourse = asyncHandler(async (req, res, next) => {
   let accessibleModules = [];
 
   if (enrollment.moduleAccess && enrollment.moduleAccess.length > 0) {
-    // Filter modules that the student has access to based on enrollment
     accessibleModules = course.modules.filter((module) =>
       enrollment.moduleAccess.includes(module._id)
     );
   } else {
-    // Student has access to all modules, but progression is sequential
     accessibleModules = course.modules;
   }
 
@@ -263,13 +245,12 @@ exports.getStudentCourse = asyncHandler(async (req, res, next) => {
     const canAccess = progress.canAccessNextModule(prevModule._id, course);
 
     if (!canAccess) {
-      // If module cannot be accessed yet, return a limited version
       return {
         _id: module._id,
         title: module.title,
         description: module.description,
         order: module.order,
-        locked: true, // Add a flag indicating the module is locked
+        locked: true,
       };
     }
 
@@ -359,15 +340,13 @@ exports.getStudentModule = asyncHandler(async (req, res, next) => {
   }
 
   // Check if module is unlocked in sequence
-  // If it's the first module, allow access
   const moduleIndex = course.modules.findIndex(
     (m) => m._id.toString() === req.params.moduleId
   );
 
   if (moduleIndex > 0) {
-    // Check if previous module is completed
     const prevModuleId = course.modules[moduleIndex - 1]._id;
-    const canAccess = progress.isModuleCATCompleted(prevModuleId);
+    const canAccess = progress.canAccessNextModule(prevModuleId, course);
 
     if (!canAccess) {
       return next(
@@ -384,7 +363,6 @@ exports.getStudentModule = asyncHandler(async (req, res, next) => {
     (m) => m.moduleId.toString() === req.params.moduleId
   );
 
-  // Return module with progress information
   res.status(200).json({
     success: true,
     data: {
@@ -409,9 +387,7 @@ exports.getStudentTopic = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Find the requested module
   const module = course.modules.id(req.params.moduleId);
-
   if (!module) {
     return next(
       new ErrorResponse(
@@ -421,16 +397,14 @@ exports.getStudentTopic = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Find the requested topic
   const topic = module.topics.id(req.params.topicId);
-
   if (!topic) {
     return next(
       new ErrorResponse(`Topic not found with id of ${req.params.topicId}`, 404)
     );
   }
 
-  // Check if student has access to this specific module
+  // Check access
   const hasModuleAccess = await course.hasModuleAccess(
     req.user.id,
     req.params.moduleId
@@ -440,7 +414,6 @@ exports.getStudentTopic = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse(`Not authorized to access this module`, 403));
   }
 
-  // Get progress record
   const progress = await Progress.findOne({
     user: req.user.id,
     course: course._id,
@@ -450,13 +423,12 @@ exports.getStudentTopic = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse(`Progress record not found`, 404));
   }
 
-  // Check if student can access this topic (sequential progression)
+  // Check sequential access
   const topicIndex = module.topics.findIndex(
     (t) => t._id.toString() === req.params.topicId
   );
 
   if (topicIndex > 0) {
-    // Check if previous topic is completed
     const prevTopicId = module.topics[topicIndex - 1]._id;
     const canAccess = progress.isTopicCompleted(prevTopicId);
 
@@ -470,12 +442,11 @@ exports.getStudentTopic = asyncHandler(async (req, res, next) => {
     }
   }
 
-  // Get module progress
+  // Get progress data
   const moduleProgress = progress.modules.find(
     (m) => m.moduleId.toString() === req.params.moduleId
   );
 
-  // Get topic progress
   const topicProgress = moduleProgress.topics.find(
     (t) => t.topicId.toString() === req.params.topicId
   );
@@ -486,7 +457,6 @@ exports.getStudentTopic = asyncHandler(async (req, res, next) => {
     await progress.save();
   }
 
-  // Return topic with progress information
   res.status(200).json({
     success: true,
     data: {
@@ -496,16 +466,10 @@ exports.getStudentTopic = asyncHandler(async (req, res, next) => {
   });
 });
 
-// @desc    Submit practice question answer
-// @route   POST /api/courses/student/:courseId/modules/:moduleId/topics/:topicId/practice/:questionId
+// @desc    Get single subtopic for student
+// @route   GET /api/courses/student/:courseId/modules/:moduleId/topics/:topicId/subtopics/:subtopicId
 // @access  Private (Student)
-exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
-  const { answer } = req.body;
-
-  if (answer === undefined) {
-    return next(new ErrorResponse("Please provide an answer", 400));
-  }
-
+exports.getStudentSubtopic = asyncHandler(async (req, res, next) => {
   const course = await Course.findById(req.params.courseId);
 
   if (!course) {
@@ -517,9 +481,7 @@ exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Find the requested module
   const module = course.modules.id(req.params.moduleId);
-
   if (!module) {
     return next(
       new ErrorResponse(
@@ -529,16 +491,114 @@ exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Find the requested topic
   const topic = module.topics.id(req.params.topicId);
-
   if (!topic) {
     return next(
       new ErrorResponse(`Topic not found with id of ${req.params.topicId}`, 404)
     );
   }
 
-  // Find the practice question
+  if (topic.type !== 'container') {
+    return next(
+      new ErrorResponse(`This topic does not contain subtopics`, 400)
+    );
+  }
+
+  const subtopic = topic.subtopics.id(req.params.subtopicId);
+  if (!subtopic) {
+    return next(
+      new ErrorResponse(`Subtopic not found with id of ${req.params.subtopicId}`, 404)
+    );
+  }
+
+  // Check access
+  const hasModuleAccess = await course.hasModuleAccess(
+    req.user.id,
+    req.params.moduleId
+  );
+
+  if (!hasModuleAccess) {
+    return next(new ErrorResponse(`Not authorized to access this module`, 403));
+  }
+
+  const progress = await Progress.findOne({
+    user: req.user.id,
+    course: course._id,
+  });
+
+  if (!progress) {
+    return next(new ErrorResponse(`Progress record not found`, 404));
+  }
+
+  // Check sequential access for subtopics
+  const subtopicIndex = topic.subtopics.findIndex(
+    (s) => s._id.toString() === req.params.subtopicId
+  );
+
+  if (subtopicIndex > 0) {
+    const prevSubtopicId = topic.subtopics[subtopicIndex - 1]._id;
+    const canAccess = progress.isSubtopicCompleted(req.params.topicId, prevSubtopicId);
+
+    if (!canAccess) {
+      return next(
+        new ErrorResponse(
+          `Complete previous subtopic before accessing this one`,
+          403
+        )
+      );
+    }
+  }
+
+  // Get progress data
+  const moduleProgress = progress.modules.find(
+    (m) => m.moduleId.toString() === req.params.moduleId
+  );
+
+  const topicProgress = moduleProgress.topics.find(
+    (t) => t.topicId.toString() === req.params.topicId
+  );
+
+  const subtopicProgress = topicProgress.subtopics.find(
+    (s) => s.subtopicId.toString() === req.params.subtopicId
+  );
+
+  // Mark subtopic as viewed if not already
+  if (!subtopicProgress.viewed) {
+    subtopicProgress.viewed = true;
+    await progress.save();
+  }
+
+  res.status(200).json({
+    success: true,
+    data: {
+      subtopic,
+      progress: subtopicProgress,
+    },
+  });
+});
+
+// @desc    Submit practice question answer for topic
+// @route   POST /api/courses/student/:courseId/modules/:moduleId/topics/:topicId/practice/:questionId
+// @access  Private (Student)
+exports.submitTopicPracticeAnswer = asyncHandler(async (req, res, next) => {
+  const { answer } = req.body;
+
+  if (answer === undefined) {
+    return next(new ErrorResponse("Please provide an answer", 400));
+  }
+
+  const course = await Course.findById(req.params.courseId);
+  if (!course) {
+    return next(
+      new ErrorResponse(
+        `Course not found with id of ${req.params.courseId}`,
+        404
+      )
+    );
+  }
+
+  const module = course.modules.id(req.params.moduleId);
+  const topic = module.topics.id(req.params.topicId);
   const question = topic.practiceQuestions.id(req.params.questionId);
 
   if (!question) {
@@ -550,7 +610,6 @@ exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Get progress record
   let progress = await Progress.findOne({
     user: req.user.id,
     course: course._id,
@@ -560,17 +619,16 @@ exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse(`Progress record not found`, 404));
   }
 
-  // Find module progress
+  // Find progress records
   const moduleProgress = progress.modules.find(
     (m) => m.moduleId.toString() === req.params.moduleId
   );
 
-  // Find topic progress
   const topicProgress = moduleProgress.topics.find(
     (t) => t.topicId.toString() === req.params.topicId
   );
 
-  // Find or create practice attempt
+  // Handle practice attempt
   let practiceAttempt = topicProgress.practiceAttempts.find(
     (a) => a.questionId.toString() === req.params.questionId
   );
@@ -585,10 +643,7 @@ exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
     topicProgress.practiceAttempts.push(practiceAttempt);
   }
 
-  // Check answer
   const isCorrect = parseInt(answer) === question.correctAnswer;
-
-  // Update attempt record
   practiceAttempt.attempts += 1;
   practiceAttempt.lastAttemptedAt = Date.now();
 
@@ -596,47 +651,66 @@ exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
     practiceAttempt.passed = true;
   }
 
-  // Check if all practice questions are now passed
-  const allPassed = topic.practiceQuestions.every((q) => {
-    const attempt = topicProgress.practiceAttempts.find(
-      (a) => a.questionId.toString() === q._id.toString()
-    );
-    return attempt && attempt.passed;
-  });
+  // Check topic completion
+  let topicCompleted = false;
+  
+  if (topic.type === 'standalone') {
+    // For standalone topics, check if all practice questions are passed
+    const allPassed = topic.practiceQuestions.every((q) => {
+      const attempt = topicProgress.practiceAttempts.find(
+        (a) => a.questionId.toString() === q._id.toString()
+      );
+      return attempt && attempt.passed;
+    });
 
-  // If all questions are passed, mark topic as completed
-  if (allPassed) {
-    topicProgress.completed = true;
-    topicProgress.completedAt = Date.now();
+    if (allPassed) {
+      topicProgress.completed = true;
+      topicProgress.completedAt = Date.now();
+      topicCompleted = true;
+    }
+  } else if (topic.type === 'container') {
+    // For container topics, check if all subtopics AND topic-level questions are completed
+    const allSubtopicsCompleted = topicProgress.subtopics.every(s => s.completed);
+    const allTopicQuestionsPassed = topic.practiceQuestions.every((q) => {
+      const attempt = topicProgress.practiceAttempts.find(
+        (a) => a.questionId.toString() === q._id.toString()
+      );
+      return attempt && attempt.passed;
+    });
 
-    // Check if all topics in module are completed
+    if (allSubtopicsCompleted && allTopicQuestionsPassed) {
+      topicProgress.completed = true;
+      topicProgress.completedAt = Date.now();
+      topicCompleted = true;
+    }
+  }
+
+  // Check module completion
+  let moduleCompleted = false;
+  if (topicCompleted) {
     const allTopicsCompleted = module.topics.every((t) => {
       const tProgress = moduleProgress.topics.find(
         (tp) => tp.topicId.toString() === t._id.toString()
       );
-      return tProgress && tProgress.completed;
+      return progress.isTopicCompleted(t._id);
     });
 
-    // If all topics completed and CAT is passed, mark module as completed
-    if (
-      allTopicsCompleted &&
-      (!module.cat || moduleProgress.catAttempt.passed)
-    ) {
+    if (allTopicsCompleted && (!module.cat || moduleProgress.catAttempt.passed)) {
       moduleProgress.completed = true;
       moduleProgress.completedAt = Date.now();
+      moduleCompleted = true;
     }
   }
 
   // Recalculate overall progress
   progress.overallProgress = progress.calculateOverallProgress(course);
 
-  // Check if entire course is now completed
+  // Check course completion
   if (progress.overallProgress === 100 && !progress.completed) {
     progress.completed = true;
     progress.completedAt = Date.now();
   }
 
-  // Save progress
   await progress.save();
 
   res.status(200).json({
@@ -646,6 +720,166 @@ exports.submitPracticeAnswer = asyncHandler(async (req, res, next) => {
       attempts: practiceAttempt.attempts,
       passed: practiceAttempt.passed,
       explanation: question.explanation,
+      topicCompleted: topicProgress.completed,
+      moduleCompleted: moduleProgress.completed,
+      overallProgress: progress.overallProgress,
+      courseCompleted: progress.completed,
+    },
+  });
+});
+
+// @desc    Submit practice question answer for subtopic
+// @route   POST /api/courses/student/:courseId/modules/:moduleId/topics/:topicId/subtopics/:subtopicId/practice/:questionId
+// @access  Private (Student)
+exports.submitSubtopicPracticeAnswer = asyncHandler(async (req, res, next) => {
+  const { answer } = req.body;
+
+  if (answer === undefined) {
+    return next(new ErrorResponse("Please provide an answer", 400));
+  }
+
+  const course = await Course.findById(req.params.courseId);
+  if (!course) {
+    return next(
+      new ErrorResponse(
+        `Course not found with id of ${req.params.courseId}`,
+        404
+      )
+    );
+  }
+
+  const module = course.modules.id(req.params.moduleId);
+  const topic = module.topics.id(req.params.topicId);
+  
+  if (topic.type !== 'container') {
+    return next(
+      new ErrorResponse(`This topic does not contain subtopics`, 400)
+    );
+  }
+
+  const subtopic = topic.subtopics.id(req.params.subtopicId);
+  const question = subtopic.practiceQuestions.id(req.params.questionId);
+
+  if (!question) {
+    return next(
+      new ErrorResponse(
+        `Question not found with id of ${req.params.questionId}`,
+        404
+      )
+    );
+  }
+
+  let progress = await Progress.findOne({
+    user: req.user.id,
+    course: course._id,
+  });
+
+  if (!progress) {
+    return next(new ErrorResponse(`Progress record not found`, 404));
+  }
+
+  // Find progress records
+  const moduleProgress = progress.modules.find(
+    (m) => m.moduleId.toString() === req.params.moduleId
+  );
+
+  const topicProgress = moduleProgress.topics.find(
+    (t) => t.topicId.toString() === req.params.topicId
+  );
+
+  const subtopicProgress = topicProgress.subtopics.find(
+    (s) => s.subtopicId.toString() === req.params.subtopicId
+  );
+
+  // Handle practice attempt
+  let practiceAttempt = subtopicProgress.practiceAttempts.find(
+    (a) => a.questionId.toString() === req.params.questionId
+  );
+
+  if (!practiceAttempt) {
+    practiceAttempt = {
+      questionId: req.params.questionId,
+      attempts: 0,
+      passed: false,
+      lastAttemptedAt: Date.now(),
+    };
+    subtopicProgress.practiceAttempts.push(practiceAttempt);
+  }
+
+  const isCorrect = parseInt(answer) === question.correctAnswer;
+  practiceAttempt.attempts += 1;
+  practiceAttempt.lastAttemptedAt = Date.now();
+
+  if (isCorrect) {
+    practiceAttempt.passed = true;
+  }
+
+  // Check subtopic completion
+  const allPassed = subtopic.practiceQuestions.every((q) => {
+    const attempt = subtopicProgress.practiceAttempts.find(
+      (a) => a.questionId.toString() === q._id.toString()
+    );
+    return attempt && attempt.passed;
+  });
+
+  let subtopicCompleted = false;
+  if (allPassed) {
+    subtopicProgress.completed = true;
+    subtopicProgress.completedAt = Date.now();
+    subtopicCompleted = true;
+  }
+
+  // Check topic completion (all subtopics + topic-level questions)
+  let topicCompleted = false;
+  if (subtopicCompleted) {
+    const allSubtopicsCompleted = topicProgress.subtopics.every(s => s.completed);
+    const allTopicQuestionsPassed = topic.practiceQuestions.every((q) => {
+      const attempt = topicProgress.practiceAttempts.find(
+        (a) => a.questionId.toString() === q._id.toString()
+      );
+      return attempt && attempt.passed;
+    });
+
+    if (allSubtopicsCompleted && allTopicQuestionsPassed) {
+      topicProgress.completed = true;
+      topicProgress.completedAt = Date.now();
+      topicCompleted = true;
+    }
+  }
+
+  // Check module completion
+  let moduleCompleted = false;
+  if (topicCompleted) {
+    const allTopicsCompleted = module.topics.every((t) => {
+      return progress.isTopicCompleted(t._id);
+    });
+
+    if (allTopicsCompleted && (!module.cat || moduleProgress.catAttempt.passed)) {
+      moduleProgress.completed = true;
+      moduleProgress.completedAt = Date.now();
+      moduleCompleted = true;
+    }
+  }
+
+  // Recalculate overall progress
+  progress.overallProgress = progress.calculateOverallProgress(course);
+
+  // Check course completion
+  if (progress.overallProgress === 100 && !progress.completed) {
+    progress.completed = true;
+    progress.completedAt = Date.now();
+  }
+
+  await progress.save();
+
+  res.status(200).json({
+    success: true,
+    data: {
+      isCorrect,
+      attempts: practiceAttempt.attempts,
+      passed: practiceAttempt.passed,
+      explanation: question.explanation,
+      subtopicCompleted: subtopicProgress.completed,
       topicCompleted: topicProgress.completed,
       moduleCompleted: moduleProgress.completed,
       overallProgress: progress.overallProgress,
@@ -665,7 +899,6 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
   }
 
   const course = await Course.findById(req.params.courseId);
-
   if (!course) {
     return next(
       new ErrorResponse(
@@ -675,9 +908,7 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Find the requested module
   const module = course.modules.id(req.params.moduleId);
-
   if (!module) {
     return next(
       new ErrorResponse(
@@ -687,12 +918,10 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Make sure module has a CAT
   if (!module.cat) {
     return next(new ErrorResponse(`This module does not have a CAT`, 404));
   }
 
-  // Get progress record
   let progress = await Progress.findOne({
     user: req.user.id,
     course: course._id,
@@ -702,17 +931,13 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse(`Progress record not found`, 404));
   }
 
-  // Find module progress
   const moduleProgress = progress.modules.find(
     (m) => m.moduleId.toString() === req.params.moduleId
   );
 
   // Check if all topics are completed
   const allTopicsCompleted = module.topics.every((topic) => {
-    const topicProgress = moduleProgress.topics.find(
-      (t) => t.topicId.toString() === topic._id.toString()
-    );
-    return topicProgress && topicProgress.completed;
+    return progress.isTopicCompleted(topic._id);
   });
 
   if (!allTopicsCompleted) {
@@ -721,7 +946,7 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Check if max attempts reached
+  // Check max attempts
   if (moduleProgress.catAttempt.attempts >= module.cat.maxAttempts) {
     return next(
       new ErrorResponse(
@@ -731,13 +956,11 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
     );
   }
 
-  // Increase attempt count
+  // Process CAT submission
   moduleProgress.catAttempt.attempts += 1;
   moduleProgress.catAttempt.lastAttemptedAt = Date.now();
 
-  // Calculate score
   let correctAnswers = 0;
-
   answers.forEach((answer, index) => {
     if (
       index < module.cat.questions.length &&
@@ -749,18 +972,14 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
 
   const score = (correctAnswers / module.cat.questions.length) * 100;
 
-  // Update best score if current score is higher
   if (score > moduleProgress.catAttempt.bestScore) {
     moduleProgress.catAttempt.bestScore = score;
   }
 
-  // Check if passed
   const passed = score >= module.cat.passingScore;
-
   if (passed) {
     moduleProgress.catAttempt.passed = true;
 
-    // If all topics already completed, mark module as completed
     if (allTopicsCompleted) {
       moduleProgress.completed = true;
       moduleProgress.completedAt = Date.now();
@@ -770,13 +989,11 @@ exports.submitCAT = asyncHandler(async (req, res, next) => {
   // Recalculate overall progress
   progress.overallProgress = progress.calculateOverallProgress(course);
 
-  // Check if entire course is now completed
   if (progress.overallProgress === 100 && !progress.completed) {
     progress.completed = true;
     progress.completedAt = Date.now();
   }
 
-  // Save progress
   await progress.save();
 
   res.status(200).json({
