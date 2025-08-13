@@ -1,3 +1,4 @@
+// CourseVisualization.jsx - Updated with fixed progress calculation
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -5,6 +6,7 @@ import axios from "axios";
 import {
   ModuleSidebar,
   TopicContent,
+  SubtopicContent,
   HtmlContent,
   colors,
 } from "./CourseComponents";
@@ -33,6 +35,7 @@ const CourseVisualization = () => {
   // States for navigation and interaction
   const [activeModule, setActiveModule] = useState(0);
   const [activeTopic, setActiveTopic] = useState(0);
+  const [activeSubtopic, setActiveSubtopic] = useState(null); // New state for subtopics
   const [activePage, setActivePage] = useState("topic");
   const [userAnswers, setUserAnswers] = useState({});
 
@@ -90,8 +93,8 @@ const CourseVisualization = () => {
               }
             });
 
-            // Mark completed topics
-            progressData.completedTopics?.forEach(({ moduleId, topicId }) => {
+            // Mark completed topics and subtopics
+            progressData.completedTopics?.forEach(({ moduleId, topicId, subtopicId }) => {
               const moduleIndex = enrolledCourse.modules.findIndex(
                 (m) => m._id === moduleId
               );
@@ -100,7 +103,18 @@ const CourseVisualization = () => {
                   moduleIndex
                 ].topics.findIndex((t) => t._id === topicId);
                 if (topicIndex !== -1) {
-                  newModuleCompletion[`${moduleIndex}-${topicIndex}`] = true;
+                  const topic = enrolledCourse.modules[moduleIndex].topics[topicIndex];
+                  
+                  if (topic.type === 'standalone') {
+                    // Mark standalone topic as complete
+                    newModuleCompletion[`${moduleIndex}-${topicIndex}`] = true;
+                  } else if (topic.type === 'container' && subtopicId) {
+                    // Mark specific subtopic as complete
+                    const subtopicIndex = topic.subtopics?.findIndex((s) => s._id === subtopicId);
+                    if (subtopicIndex !== -1) {
+                      newModuleCompletion[`${moduleIndex}-${topicIndex}-${subtopicIndex}`] = true;
+                    }
+                  }
                 }
               }
             });
@@ -124,6 +138,17 @@ const CourseVisualization = () => {
                   );
                   if (topicIndex !== -1) {
                     setActiveTopic(topicIndex);
+
+                    // Set active subtopic if it exists
+                    if (progressData.currentSubtopic) {
+                      const topic = enrolledCourse.modules[moduleIndex].topics[topicIndex];
+                      const subtopicIndex = topic.subtopics?.findIndex(
+                        (s) => s._id === progressData.currentSubtopic
+                      );
+                      if (subtopicIndex !== -1) {
+                        setActiveSubtopic(subtopicIndex);
+                      }
+                    }
                   }
                 }
               }
@@ -135,6 +160,7 @@ const CourseVisualization = () => {
             // Initialize with first module/topic
             setActiveModule(0);
             setActiveTopic(0);
+            setActiveSubtopic(null);
             setActivePage("topic");
           }
 
@@ -158,10 +184,10 @@ const CourseVisualization = () => {
     fetchCourseProgressAndData();
   }, [user]);
 
-  // Reset answers when changing topics
+  // Reset answers when changing topics or subtopics
   useEffect(() => {
     setUserAnswers({});
-  }, [activeModule, activeTopic, activePage]);
+  }, [activeModule, activeTopic, activeSubtopic, activePage]);
 
   // Update progress on server
   const updateProgress = async () => {
@@ -173,7 +199,7 @@ const CourseVisualization = () => {
       const currentModule = courseInfo.data[0].course.modules[activeModule];
       const currentTopic = currentModule.topics[activeTopic];
 
-      // Prepare completed modules and topics
+      // Prepare completed modules, topics, and subtopics
       const completedModules = [];
       const completedTopics = [];
       const completedAssessments = [];
@@ -188,28 +214,52 @@ const CourseVisualization = () => {
             completedAssessments.push(moduleId);
           }
         } else if (key.includes("-")) {
-          const [moduleIndex, topicIndex] = key.split("-");
-          const moduleId = courseInfo.data[0].course.modules[moduleIndex]?._id;
-          const topicId =
-            courseInfo.data[0].course.modules[moduleIndex]?.topics[topicIndex]
-              ?._id;
-          if (moduleId && topicId) {
-            completedTopics.push({ moduleId, topicId });
+          const parts = key.split("-");
+          if (parts.length === 2) {
+            // Topic completion (standalone topics)
+            const [moduleIndex, topicIndex] = parts;
+            const moduleId = courseInfo.data[0].course.modules[moduleIndex]?._id;
+            const topicId =
+              courseInfo.data[0].course.modules[moduleIndex]?.topics[topicIndex]
+                ?._id;
+            if (moduleId && topicId) {
+              completedTopics.push({ moduleId, topicId });
+            }
+          } else if (parts.length === 3) {
+            // Subtopic completion
+            const [moduleIndex, topicIndex, subtopicIndex] = parts;
+            const moduleId = courseInfo.data[0].course.modules[moduleIndex]?._id;
+            const topicId =
+              courseInfo.data[0].course.modules[moduleIndex]?.topics[topicIndex]
+                ?._id;
+            const subtopicId =
+              courseInfo.data[0].course.modules[moduleIndex]?.topics[topicIndex]
+                ?.subtopics?.[subtopicIndex]?._id;
+            if (moduleId && topicId && subtopicId) {
+              completedTopics.push({ moduleId, topicId, subtopicId });
+            }
           }
         }
       });
 
+      const updateData = {
+        moduleId: currentModule._id,
+        topicId: currentTopic._id,
+        page: activePage,
+        completedModules,
+        completedTopics,
+        completedAssessments,
+        overallProgress: calculateProgress(),
+      };
+
+      // Add subtopic if active
+      if (activeSubtopic !== null && currentTopic.subtopics?.[activeSubtopic]) {
+        updateData.subtopicId = currentTopic.subtopics[activeSubtopic]._id;
+      }
+
       await axios.put(
         `${BASE_API_URL}/api/progress/course/${courseId}`,
-        {
-          moduleId: currentModule._id,
-          topicId: currentTopic._id,
-          page: activePage,
-          completedModules,
-          completedTopics,
-          completedAssessments,
-          overallProgress: calculateProgress(),
-        },
+        updateData,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -222,15 +272,16 @@ const CourseVisualization = () => {
   // Get the course object from the data
   const course = courseInfo?.success && courseInfo.data[0]?.course;
 
-  // Handle navigation
-  const navigateTo = (moduleIndex, topicIndex, page = "topic") => {
+  // Handle navigation - updated to support subtopics
+  const navigateTo = (moduleIndex, topicIndex, subtopicIndex = null, page = "topic") => {
     setActiveModule(moduleIndex);
     setActiveTopic(topicIndex);
+    setActiveSubtopic(subtopicIndex);
     setActivePage(page);
     setUserAnswers({});
   };
 
-  // Mark topic as complete
+  // Mark topic as complete (for standalone topics)
   const markTopicComplete = () => {
     const nextTopicIndex = activeTopic + 1;
     const currentModule = course.modules[activeModule];
@@ -241,18 +292,83 @@ const CourseVisualization = () => {
       [`${activeModule}-${activeTopic}`]: true,
     }));
 
-    // Update progress
-    updateProgress();
-
-    // Check if there's a next topic in this module
+    // Navigate to next topic or assessment
     if (nextTopicIndex < currentModule.topics.length) {
-      navigateTo(activeModule, nextTopicIndex);
+      const nextTopic = currentModule.topics[nextTopicIndex];
+      
+      // If next topic is a container with subtopics, go directly to first subtopic
+      if (nextTopic.type === 'container' && nextTopic.subtopics && nextTopic.subtopics.length > 0) {
+        navigateTo(activeModule, nextTopicIndex, 0, "subtopic");
+      } else {
+        navigateTo(activeModule, nextTopicIndex);
+      }
     } else {
       // If no more topics, go to assessment or next module
       if (currentModule.cat) {
-        navigateTo(activeModule, 0, "assessment");
+        navigateTo(activeModule, 0, null, "assessment");
       } else if (activeModule + 1 < course.modules.length) {
-        navigateTo(activeModule + 1, 0);
+        const nextModule = course.modules[activeModule + 1];
+        const firstTopic = nextModule.topics[0];
+        
+        // If first topic of next module is container, go to first subtopic
+        if (firstTopic.type === 'container' && firstTopic.subtopics && firstTopic.subtopics.length > 0) {
+          navigateTo(activeModule + 1, 0, 0, "subtopic");
+        } else {
+          navigateTo(activeModule + 1, 0);
+        }
+      }
+    }
+  };
+
+  // Mark subtopic as complete
+  const markSubtopicComplete = () => {
+    const currentModule = course.modules[activeModule];
+    const currentTopic = currentModule.topics[activeTopic];
+
+    // Update completion status for current subtopic
+    setModuleCompletion((prev) => ({
+      ...prev,
+      [`${activeModule}-${activeTopic}-${activeSubtopic}`]: true,
+    }));
+
+    // Navigate to next subtopic or next topic
+    const nextSubtopicIndex = activeSubtopic + 1;
+    
+    if (nextSubtopicIndex < currentTopic.subtopics.length) {
+      // Go to next subtopic
+      navigateTo(activeModule, activeTopic, nextSubtopicIndex, "subtopic");
+    } else {
+      // All subtopics completed, check if there are topic-level practice questions
+      if (currentTopic.practiceQuestions && currentTopic.practiceQuestions.length > 0) {
+        navigateTo(activeModule, activeTopic, null, "practice");
+      } else {
+        // Move to next topic
+        const nextTopicIndex = activeTopic + 1;
+        if (nextTopicIndex < currentModule.topics.length) {
+          const nextTopic = currentModule.topics[nextTopicIndex];
+          
+          // If next topic is container, go directly to first subtopic
+          if (nextTopic.type === 'container' && nextTopic.subtopics && nextTopic.subtopics.length > 0) {
+            navigateTo(activeModule, nextTopicIndex, 0, "subtopic");
+          } else {
+            navigateTo(activeModule, nextTopicIndex);
+          }
+        } else {
+          // Go to assessment or next module
+          if (currentModule.cat) {
+            navigateTo(activeModule, 0, null, "assessment");
+          } else if (activeModule + 1 < course.modules.length) {
+            const nextModule = course.modules[activeModule + 1];
+            const firstTopic = nextModule.topics[0];
+            
+            // If first topic of next module is container, go to first subtopic
+            if (firstTopic.type === 'container' && firstTopic.subtopics && firstTopic.subtopics.length > 0) {
+              navigateTo(activeModule + 1, 0, 0, "subtopic");
+            } else {
+              navigateTo(activeModule + 1, 0);
+            }
+          }
+        }
       }
     }
   };
@@ -265,19 +381,24 @@ const CourseVisualization = () => {
       [`module-${activeModule}`]: true,
     }));
 
-    // Update progress
-    updateProgress();
-
     // Go to next module if available
     if (activeModule + 1 < course.modules.length) {
-      navigateTo(activeModule + 1, 0);
+      const nextModule = course.modules[activeModule + 1];
+      const firstTopic = nextModule.topics[0];
+      
+      // If first topic is container, go directly to first subtopic
+      if (firstTopic.type === 'container' && firstTopic.subtopics && firstTopic.subtopics.length > 0) {
+        navigateTo(activeModule + 1, 0, 0, "subtopic");
+      } else {
+        navigateTo(activeModule + 1, 0);
+      }
     } else {
       // Course completed!
-      navigateTo(0, 0, "topic"); // Reset to beginning or show completion screen
+      navigateTo(0, 0, null, "topic"); // Reset to beginning or show completion screen
     }
   };
 
-  // Get current questions
+  // Get current questions - updated to handle subtopics
   const getCurrentQuestions = () => {
     if (!course) return [];
     const currentModule = course.modules[activeModule];
@@ -285,12 +406,19 @@ const CourseVisualization = () => {
     if (activePage === "assessment") {
       return currentModule.cat?.questions || [];
     } else if (activePage === "practice") {
-      return currentModule.topics[activeTopic].practiceQuestions || [];
+      if (activeSubtopic !== null) {
+        // Subtopic practice questions
+        const currentTopic = currentModule.topics[activeTopic];
+        return currentTopic.subtopics?.[activeSubtopic]?.practiceQuestions || [];
+      } else {
+        // Topic practice questions
+        return currentModule.topics[activeTopic].practiceQuestions || [];
+      }
     }
     return [];
   };
 
-  // Calculate overall progress percentage
+  // Fixed progress calculation that updates properly
   const calculateProgress = () => {
     if (!course) return 0;
 
@@ -298,13 +426,20 @@ const CourseVisualization = () => {
     let completedItems = 0;
 
     course.modules.forEach((module, moduleIndex) => {
-      // Count topics
-      totalItems += module.topics.length;
-
-      // Count completed topics
-      module.topics.forEach((_, topicIndex) => {
-        if (moduleCompletion[`${moduleIndex}-${topicIndex}`]) {
-          completedItems++;
+      // Count content items (topics and subtopics)
+      module.topics.forEach((topic, topicIndex) => {
+        if (topic.type === 'standalone') {
+          totalItems++;
+          if (moduleCompletion[`${moduleIndex}-${topicIndex}`]) {
+            completedItems++;
+          }
+        } else if (topic.type === 'container' && topic.subtopics) {
+          totalItems += topic.subtopics.length;
+          topic.subtopics.forEach((_, subtopicIndex) => {
+            if (moduleCompletion[`${moduleIndex}-${topicIndex}-${subtopicIndex}`]) {
+              completedItems++;
+            }
+          });
         }
       });
 
@@ -317,18 +452,25 @@ const CourseVisualization = () => {
       }
     });
 
-    const progress =
-      totalItems > 0 ? Math.round((completedItems / totalItems) * 100) : 0;
-    setOverallProgress(progress);
+    const progress = totalItems > 0 ? Math.round((completedItems / totalItems) * 100) : 0;
     return progress;
   };
+
+  // Update overall progress when moduleCompletion changes
+  useEffect(() => {
+    if (course) {
+      const newProgress = calculateProgress();
+      setOverallProgress(newProgress);
+      updateProgress();
+    }
+  }, [moduleCompletion, course]);
 
   // Handle page reload
   const handleReload = () => {
     window.location.reload();
   };
 
-  // Get current content based on active page
+  // Get current content based on active page - updated for subtopics
   const getCurrentContent = () => {
     if (isLoading) {
       return (
@@ -366,71 +508,78 @@ const CourseVisualization = () => {
 
     const currentModule = course.modules[activeModule];
     const currentTopic = currentModule.topics[activeTopic];
+    const currentSubtopic = activeSubtopic !== null ? currentTopic.subtopics?.[activeSubtopic] : null;
     const questions = getCurrentQuestions();
-    const passingScore =
-      activePage === "practice"
-        ? currentTopic.passingScore
-        : currentModule.cat?.passingScore;
+    
+    // Determine passing score based on context
+    let passingScore;
+    if (activePage === "assessment") {
+      passingScore = currentModule.cat?.passingScore;
+    } else if (activePage === "practice") {
+      if (currentSubtopic) {
+        passingScore = currentSubtopic.passingScore;
+      } else {
+        passingScore = currentTopic.passingScore;
+      }
+    }
 
     switch (activePage) {
       case "topic":
         return (
-          <div className="topic-content p-6 bg-white rounded-lg shadow">
-            <div className="mb-6">
-              <h1 className="text-3xl font-bold mb-2">{course.title}</h1>
-              <p className="text-gray-600 mb-4">{course.description}</p>
-              <h2 className="text-xl font-semibold mb-4 text-gray-600">
-                {currentModule.title}
-              </h2>
-              <h3 className="text-lg font-medium mb-4">{currentTopic.title}</h3>
-              <p className="mb-6">{currentModule.description}</p>
-            </div>
-
-            <div className="navigation-buttons flex space-x-4 mt-8">
-              <button
-                onClick={() => setActivePage("html")}
-                className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
-                style={{ backgroundColor: colors.accent }}
-              >
-                View Topic Content
-              </button>
-
-              {currentTopic.practiceQuestions &&
-                currentTopic.practiceQuestions.length > 0 && (
-                  <button
-                    onClick={() => setActivePage("practice")}
-                    className="px-4 py-2 text-white rounded-md hover:opacity-90 transition"
-                    style={{ backgroundColor: colors.accent }}
-                  >
-                    Practice Questions ({currentTopic.practiceQuestions.length})
-                  </button>
-                )}
-            </div>
-          </div>
-        );
-      case "html":
-        return (
-          <HtmlContent
+          <TopicContent
             module={currentModule}
             topic={currentTopic}
             setActivePage={setActivePage}
             markTopicComplete={markTopicComplete}
           />
         );
+
+      case "subtopic":
+        if (!currentSubtopic) {
+          return (
+            <div className="flex items-center justify-center h-full">
+              Subtopic not found
+            </div>
+          );
+        }
+        return (
+          <SubtopicContent
+            module={currentModule}
+            topic={currentTopic}
+            subtopic={currentSubtopic}
+            setActivePage={setActivePage}
+            markSubtopicComplete={markSubtopicComplete}
+          />
+        );
+
+      case "html":
+        return (
+          <HtmlContent
+            module={currentModule}
+            topic={currentTopic}
+            subtopic={currentSubtopic}
+            setActivePage={setActivePage}
+            markTopicComplete={markTopicComplete}
+            markSubtopicComplete={markSubtopicComplete}
+          />
+        );
+
       case "practice":
         return (
           <EnhancedPracticeQuestions
-            topic={currentTopic}
+            topic={currentSubtopic || currentTopic}
             module={currentModule}
             questions={questions}
             passingScore={passingScore}
             userAnswers={userAnswers}
             setUserAnswers={setUserAnswers}
             setActivePage={setActivePage}
-            markTopicComplete={markTopicComplete}
+            markTopicComplete={currentSubtopic ? markSubtopicComplete : markTopicComplete}
             navigateToNextModule={navigateToNextModule}
+            isSubtopic={!!currentSubtopic}
           />
         );
+
       case "assessment":
         return (
           <EnhancedAssessment
@@ -442,6 +591,7 @@ const CourseVisualization = () => {
             navigateToNextModule={navigateToNextModule}
           />
         );
+
       default:
         return (
           <div className="flex items-center justify-center h-full">
@@ -450,13 +600,6 @@ const CourseVisualization = () => {
         );
     }
   };
-
-  // Update progress when completion status changes
-  useEffect(() => {
-    if (courseInfo && Object.keys(moduleCompletion).length > 0) {
-      updateProgress();
-    }
-  }, [moduleCompletion]);
 
   if (isLoading) {
     return (
@@ -503,6 +646,7 @@ const CourseVisualization = () => {
         }}
         activeModule={activeModule}
         activeTopic={activeTopic}
+        activeSubtopic={activeSubtopic}
         activePage={activePage}
         navigateTo={navigateTo}
         moduleCompletion={moduleCompletion}
