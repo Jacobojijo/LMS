@@ -78,7 +78,7 @@ export const QuestionOption = ({
   );
 };
 
-// Updated Module Sidebar Component with fixed locking logic
+// Updated Module Sidebar Component with improved access tracking
 export const ModuleSidebar = ({
   course,
   activeModule,
@@ -87,6 +87,8 @@ export const ModuleSidebar = ({
   activePage,
   navigateTo,
   moduleCompletion = {},
+  completedTopics = [], // Add this prop - array of completed topics
+  completedSubtopics = [], // Add this prop - array of completed subtopics
 }) => {
   const [expandedTopics, setExpandedTopics] = useState(new Set());
 
@@ -112,9 +114,9 @@ export const ModuleSidebar = ({
     }
   }, [activeModule, activeTopic]);
 
-  // Helper function to check if user has ever accessed a position
+  // Enhanced helper function to check if user has ever accessed a position
   const hasAccessedPosition = (moduleIndex, topicIndex = null, subtopicIndex = null) => {
-    // If current position, it's accessible
+    // Current position is always accessible
     if (moduleIndex === activeModule) {
       if (topicIndex === null || topicIndex === activeTopic) {
         if (subtopicIndex === null || subtopicIndex === activeSubtopic) {
@@ -123,41 +125,246 @@ export const ModuleSidebar = ({
       }
     }
 
-    // Check if user has progressed past this position
+    // Check completion data and arrays for previously accessed items
+    if (subtopicIndex !== null && topicIndex !== null) {
+      // Check if this specific subtopic was accessed
+      const subtopicKey = `${moduleIndex}-${topicIndex}-${subtopicIndex}`;
+      if (moduleCompletion[subtopicKey]) {
+        return true;
+      }
+      
+      // Check if this subtopic is in the completedSubtopics array
+      const isInCompletedSubtopics = completedSubtopics.some(
+        item => item.moduleId === moduleIndex && 
+                item.topicId === topicIndex && 
+                item.subtopicId === subtopicIndex
+      );
+      if (isInCompletedSubtopics) {
+        return true;
+      }
+    }
+
+    if (topicIndex !== null && subtopicIndex === null) {
+      // Check if this specific topic was accessed
+      const topicKey = `${moduleIndex}-${topicIndex}`;
+      if (moduleCompletion[topicKey]) {
+        return true;
+      }
+      
+      // Check if this topic is in the completedTopics array
+      const isInCompletedTopics = completedTopics.some(
+        item => item.moduleId === moduleIndex && item.topicId === topicIndex
+      );
+      if (isInCompletedTopics) {
+        return true;
+      }
+
+      // For container topics, check if any subtopic has been accessed
+      const topic = course.modules[moduleIndex]?.topics[topicIndex];
+      if (topic?.type === 'container' && topic.subtopics) {
+        const hasAccessedSubtopic = topic.subtopics.some((_, sIndex) => {
+          const subtopicKey = `${moduleIndex}-${topicIndex}-${sIndex}`;
+          return moduleCompletion[subtopicKey] || completedSubtopics.some(
+            item => item.moduleId === moduleIndex && 
+                    item.topicId === topicIndex && 
+                    item.subtopicId === sIndex
+          );
+        });
+        if (hasAccessedSubtopic) {
+          return true;
+        }
+      }
+    }
+
+    // Check sequential progression - if user has progressed past this position
+    if (activeModule === null || activeTopic === null) {
+      return false;
+    }
+
+    // If we're in a later module, all previous modules should be accessible
     if (moduleIndex < activeModule) {
-      return true; // All previous modules are accessible
+      return true;
     }
     
+    // If we're in the same module but a later topic, previous topics should be accessible
     if (moduleIndex === activeModule && topicIndex !== null && topicIndex < activeTopic) {
-      return true; // Previous topics in current module are accessible
+      return true;
     }
     
+    // If we're in the same topic but a later subtopic, previous subtopics should be accessible
     if (moduleIndex === activeModule && topicIndex === activeTopic && 
         subtopicIndex !== null && activeSubtopic !== null && subtopicIndex < activeSubtopic) {
-      return true; // Previous subtopics in current topic are accessible
+      return true;
+    }
+
+    // Additional check: if user has accessed any later position, intermediate positions should be unlocked
+    // Check if user has accessed any topic after this one in the same module
+    if (moduleIndex === activeModule && topicIndex !== null) {
+      for (let laterTopicIndex = topicIndex + 1; laterTopicIndex < course.modules[moduleIndex]?.topics.length; laterTopicIndex++) {
+        if (hasTopicBeenDirectlyAccessed(moduleIndex, laterTopicIndex)) {
+          return true; // If a later topic was accessed, this one should be unlocked
+        }
+      }
+    }
+
+    // Check if user has accessed any module after this one
+    if (activeModule > moduleIndex) {
+      return true;
     }
 
     return false;
   };
 
-  // Updated locking functions - only lock items that haven't been accessed yet
+  // Helper function to check if a topic has been directly accessed (not just inferred)
+  const hasTopicBeenDirectlyAccessed = (moduleIndex, topicIndex) => {
+    const topic = course.modules[moduleIndex]?.topics[topicIndex];
+    if (!topic) return false;
+
+    if (topic.type === 'standalone') {
+      const topicKey = `${moduleIndex}-${topicIndex}`;
+      return moduleCompletion[topicKey] || completedTopics.some(
+        item => item.moduleId === moduleIndex && item.topicId === topicIndex
+      );
+    } else if (topic.type === 'container') {
+      // Check if any subtopic has been directly accessed
+      return topic.subtopics?.some((_, subtopicIndex) => {
+        const subtopicKey = `${moduleIndex}-${topicIndex}-${subtopicIndex}`;
+        return moduleCompletion[subtopicKey] || completedSubtopics.some(
+          item => item.moduleId === moduleIndex && 
+                  item.topicId === topicIndex && 
+                  item.subtopicId === subtopicIndex
+        );
+      });
+    }
+
+    return false;
+  };
+
+  // Helper function to check if a topic has been viewed (either completed or currently active)
+  const hasTopicBeenViewed = (moduleIndex, topicIndex) => {
+    // Current topic is always considered viewed
+    if (moduleIndex === activeModule && topicIndex === activeTopic) {
+      return true;
+    }
+
+    return hasTopicBeenDirectlyAccessed(moduleIndex, topicIndex);
+  };
+
+  // Helper function to check if a subtopic has been viewed
+  const hasSubtopicBeenViewed = (moduleIndex, topicIndex, subtopicIndex) => {
+    // Current subtopic is always considered viewed
+    if (moduleIndex === activeModule && 
+        topicIndex === activeTopic && 
+        subtopicIndex === activeSubtopic) {
+      return true;
+    }
+
+    // Check if subtopic has been completed
+    const subtopicKey = `${moduleIndex}-${topicIndex}-${subtopicIndex}`;
+    return moduleCompletion[subtopicKey] || completedSubtopics.some(
+      item => item.moduleId === moduleIndex && 
+              item.topicId === topicIndex && 
+              item.subtopicId === subtopicIndex
+    );
+  };
+
+  // Helper function to check if all previous items are accessible
+  const areAllPreviousItemsAccessible = (moduleIndex, topicIndex, subtopicIndex = null) => {
+    // Check all previous modules
+    for (let mIndex = 0; mIndex < moduleIndex; mIndex++) {
+      if (!hasAccessedPosition(mIndex)) {
+        return false;
+      }
+    }
+
+    // Check all previous topics in current module
+    if (topicIndex !== null) {
+      for (let tIndex = 0; tIndex < topicIndex; tIndex++) {
+        if (!hasAccessedPosition(moduleIndex, tIndex)) {
+          return false;
+        }
+      }
+    }
+
+    // Check all previous subtopics in current topic
+    if (subtopicIndex !== null && topicIndex !== null) {
+      for (let sIndex = 0; sIndex < subtopicIndex; sIndex++) {
+        if (!hasAccessedPosition(moduleIndex, topicIndex, sIndex)) {
+          return false;
+        }
+      }
+    }
+
+    return true;
+  };
+
+  // Updated locking functions with better logic
   const isTopicLocked = (moduleIndex, topicIndex) => {
     // If user has accessed this position before, it should remain unlocked
-    if (hasAccessedPosition(moduleIndex, topicIndex)) {
+    if (hasAccessedPosition(moduleIndex, topicIndex) || hasTopicBeenViewed(moduleIndex, topicIndex)) {
       return false;
     }
 
     // First topic of first module is always unlocked
     if (moduleIndex === 0 && topicIndex === 0) return false;
 
-    // For subsequent modules, check if previous module is completed
-    if (moduleIndex > activeModule) {
-      return true; // Future modules are locked
+    // Check sequential access pattern
+    // If this is the next logical item in sequence, it should be unlocked
+    if (moduleIndex === activeModule && topicIndex === activeTopic + 1) {
+      // Check if current topic is completed (for standalone) or all subtopics completed (for container)
+      const currentTopic = course.modules[activeModule]?.topics[activeTopic];
+      if (currentTopic) {
+        if (currentTopic.type === 'standalone') {
+          const currentTopicKey = `${activeModule}-${activeTopic}`;
+          return !moduleCompletion[currentTopicKey];
+        } else if (currentTopic.type === 'container') {
+          const allSubtopicsCompleted = currentTopic.subtopics?.every((_, sIndex) => {
+            const subtopicKey = `${activeModule}-${activeTopic}-${sIndex}`;
+            return moduleCompletion[subtopicKey];
+          });
+          return !allSubtopicsCompleted;
+        }
+      }
+      return false; // Unlock the next topic
     }
 
-    // For topics in current module beyond current position
-    if (moduleIndex === activeModule && topicIndex > activeTopic) {
-      return true; // Future topics are locked
+    // For modules beyond current, check if we should unlock based on completion
+    if (moduleIndex > activeModule) {
+      // Check if previous module is completed
+      for (let prevModule = 0; prevModule < moduleIndex; prevModule++) {
+        const moduleCompleted = course.modules[prevModule]?.topics.every((topic, tIndex) => {
+          if (topic.type === 'standalone') {
+            const topicKey = `${prevModule}-${tIndex}`;
+            return moduleCompletion[topicKey];
+          } else if (topic.type === 'container') {
+            return topic.subtopics?.every((_, sIndex) => {
+              const subtopicKey = `${prevModule}-${tIndex}-${sIndex}`;
+              return moduleCompletion[subtopicKey];
+            });
+          }
+          return false;
+        });
+
+        if (!moduleCompleted && prevModule === moduleIndex - 1) {
+          return true; // Lock if immediately previous module isn't complete
+        }
+      }
+
+      // If it's the first topic of a module and previous module is complete, unlock it
+      if (topicIndex === 0) {
+        return false;
+      }
+    }
+
+    // For topics in current module beyond current + 1
+    if (moduleIndex === activeModule && topicIndex > activeTopic + 1) {
+      // Check if there's a sequential gap
+      for (let tIndex = activeTopic + 1; tIndex < topicIndex; tIndex++) {
+        if (!hasAccessedPosition(moduleIndex, tIndex)) {
+          return true; // Lock if there's an unaccessed topic before this one
+        }
+      }
+      return false; // Unlock if no gaps
     }
 
     return false;
@@ -165,7 +372,8 @@ export const ModuleSidebar = ({
 
   const isSubtopicLocked = (moduleIndex, topicIndex, subtopicIndex) => {
     // If user has accessed this position before, it should remain unlocked
-    if (hasAccessedPosition(moduleIndex, topicIndex, subtopicIndex)) {
+    if (hasAccessedPosition(moduleIndex, topicIndex, subtopicIndex) || 
+        hasSubtopicBeenViewed(moduleIndex, topicIndex, subtopicIndex)) {
       return false;
     }
 
@@ -175,9 +383,25 @@ export const ModuleSidebar = ({
     // First subtopic is unlocked if topic is unlocked
     if (subtopicIndex === 0) return false;
 
-    // For current topic, only lock subtopics beyond current position
-    if (moduleIndex === activeModule && topicIndex === activeTopic) {
-      return activeSubtopic !== null && subtopicIndex > activeSubtopic;
+    // Check if this is the next subtopic in sequence
+    if (moduleIndex === activeModule && topicIndex === activeTopic && subtopicIndex === (activeSubtopic ?? -1) + 1) {
+      // Check if previous subtopic is completed
+      if (activeSubtopic !== null) {
+        const prevSubtopicKey = `${moduleIndex}-${topicIndex}-${activeSubtopic}`;
+        return !moduleCompletion[prevSubtopicKey];
+      }
+      return false;
+    }
+
+    // For subtopics beyond the next in sequence, check for gaps
+    if (moduleIndex === activeModule && topicIndex === activeTopic && subtopicIndex > (activeSubtopic ?? -1) + 1) {
+      // Check if there are any unaccessed subtopics before this one
+      for (let sIndex = 0; sIndex < subtopicIndex; sIndex++) {
+        if (!hasAccessedPosition(moduleIndex, topicIndex, sIndex)) {
+          return true; // Lock if there's a gap
+        }
+      }
+      return false; // Unlock if no gaps
     }
 
     return false;
@@ -189,8 +413,36 @@ export const ModuleSidebar = ({
       return false;
     }
 
-    // Only lock modules that are beyond current module
-    return moduleIndex > activeModule;
+    // Check if any topic in this module has been accessed
+    const moduleHasBeenAccessed = course.modules[moduleIndex]?.topics.some((topic, topicIndex) => 
+      hasTopicBeenViewed(moduleIndex, topicIndex)
+    );
+
+    if (moduleHasBeenAccessed) {
+      return false;
+    }
+
+    // Check if this is the next module in sequence
+    if (moduleIndex === activeModule + 1) {
+      // Check if current module is completed
+      const currentModuleCompleted = course.modules[activeModule]?.topics.every((topic, tIndex) => {
+        if (topic.type === 'standalone') {
+          const topicKey = `${activeModule}-${tIndex}`;
+          return moduleCompletion[topicKey];
+        } else if (topic.type === 'container') {
+          return topic.subtopics?.every((_, sIndex) => {
+            const subtopicKey = `${activeModule}-${tIndex}-${sIndex}`;
+            return moduleCompletion[subtopicKey];
+          });
+        }
+        return false;
+      });
+
+      return !currentModuleCompleted;
+    }
+
+    // Only lock modules that are beyond the next module and haven't been accessed
+    return moduleIndex > activeModule + 1;
   };
 
   const isAssessmentLocked = (moduleIndex) => {
@@ -204,8 +456,10 @@ export const ModuleSidebar = ({
       return false;
     }
 
-    // Lock assessments for modules beyond current
-    if (moduleIndex > activeModule) return true;
+    // Lock assessments for modules beyond current that haven't been accessed
+    if (moduleIndex > activeModule) {
+      return !hasAccessedPosition(moduleIndex);
+    }
     
     // For current module, check if all topics are completed
     const module = course.modules[moduleIndex];
@@ -234,6 +488,7 @@ export const ModuleSidebar = ({
     return false;
   };
 
+  // Rest of the component remains the same...
   return (
     <div
       className="sidebar w-1/4 overflow-y-auto rounded-lg shadow-lg"
