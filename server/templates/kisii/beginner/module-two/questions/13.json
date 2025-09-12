@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following correctly translates 'They are entering the house' in Ekegusii?",
+      "options": ["Basokire korwa nyomba", "Ngosoa bare nyomba", "Ngosoka bare korwa nyomba", "Basoire nyomba"],
+      "correctAnswer": 1,
+      "explanation": "'Ngosoa bare nyomba' is the correct translation for 'They are entering the house'."
+    },
+    {
+      "question": "In the phrase 'oyo nere,' what is the functional purpose of the demonstrative 'ma'?",
+      "options": ["It refers to a nearby object", "It acts as a possessive suffix", "It emphasizes the speaker as 'this one'", "It replaces the subject pronoun"],
+      "correctAnswer": 2,
+      "explanation": "The demonstrative 'ma' in this context emphasizes the speaker as 'this one'."
+    },
+    {
+      "question": "What is the correct 2nd person singular pronoun in Ekegusii?",
+      "options": ["Abwo", "Ere", "Inche", "Barabwo"],
+      "correctAnswer": 1,
+      "explanation": "'Ere' is the second person singular pronoun (you) in Ekegusii."
+    },
+    {
+      "question": "Identify the sentence that means 'We are sitting here.'",
+      "options": ["Toisaransete igaa", "Twaisaransire igaa", "Baisaransire igaa", "Oisaransire aiga"],
+      "correctAnswer": 0,
+      "explanation": "'Toisaransete igaa' translates to 'We are sitting here.'"
+    },
+    {
+      "question": "Which of the following pronouns can be used for both 'he' and 'she' in Ekegusii?",
+      "options": ["Baria", "Inche", "Ere", "Oria"],
+      "correctAnswer": 2,
+      "explanation": "'Ere' functions as both 'he' and 'she' in Ekegusii, as gender is not marked in the pronoun."
+    },
+    {
+      "question": "Select the sentence that correctly expresses 'You (plural) leave that place.'",
+      "options": ["Aye karwe igabu", "Inwe karwe igabu", "Barabwe karwe igabu", "Karwe igabu"],
+      "correctAnswer": 1,
+      "explanation": "'Inwe karwe igabu' correctly expresses 'You (plural) leave that place.'"
+    },
+    {
+      "question": "Which Ekegusii personal pronoun refers to 'they/them'?",
+      "options": ["Baria", "Barabwo", "Aba", "Intwe"],
+      "correctAnswer": 0,
+      "explanation": "'Baria' is the Ekegusii pronoun used for 'they/them'."
+    },
+    {
+      "question": "What is the appropriate Ekegusii translation for 'You are coming now'?",
+      "options": ["Gwachire bono", "Gwanchire bono", "Ochire bono", "Mbono agocha"],
+      "correctAnswer": 0,
+      "explanation": "'Gwachire bono' means 'You are coming now.'"
+    },
+    {
+      "question": "Which of the following pairs accurately matches Ekegusii pronoun to its English equivalent?",
+      "options": ["Aye → you (plural)", "Intwe → we", "Inwe → you (plural)", "Barabwo → them"],
+      "correctAnswer": 2,
+      "explanation": "'Inwe' is the correct pronoun for 'you (plural)' in Ekegusii."
+    },
+    {
+      "question": "What is the structure used for forming simple sentences with personal pronouns in Ekegusii?",
+      "options": ["Verb + Pronoun + Object", "Demonstrative + Pronoun + Noun", "Subject Pronoun + Verb (+ Object/Location)", "Noun + Verb + Demonstrative"],
+      "correctAnswer": 2,
+      "explanation": "Simple sentences in Ekegusii typically follow the structure: Subject Pronoun + Verb (+ Object/Location)."
+    }
+  ]
+}

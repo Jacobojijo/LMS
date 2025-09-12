@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Ekegusii, which term correctly refers to the \"eye\" in a literal anatomical sense?",
+      "options": [
+        "Omonwa",
+        "Eriso",
+        "Okoboko",
+        "Okogoro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word 'Eriso' is the Ekegusii term for 'eye'."
+    },
+    {
+      "question": "In Ekegusii grammar, how are most external body parts treated in terms of countability?",
+      "options": [
+        "Always uncountable nouns",
+        "Uncountable except in idiomatic use",
+        "Always countable nouns",
+        "Only plural in possessive forms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most external body parts in Ekegusii are treated as countable nouns."
+    },
+    {
+      "question": "Which Ekegusii word would correctly be used to refer to \"lungs\" in a medical context?",
+      "options": [
+        "Amayaa",
+        "Chinyigo",
+        "Amaru",
+        "Amara"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Amayaa' is the correct Ekegusii word for 'lungs'."
+    },
+    {
+      "question": "What is the Ekegusii word for \"blood,\" and how is it generally treated grammatically?",
+      "options": [
+        "Amanyinga; treated as countable",
+        "Amanyinga; treated as uncountable",
+        "Amariga; treated as countable",
+        "Amariga; treated as collective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ekegusii word for blood is 'Remo', and it is treated as uncountable."
+    },
+    {
+      "question": "Identify the correct Ekegusii possessive form for \"my hand.\"",
+      "options": [
+        "Kwaye",
+        "Kwane",
+        "Kwabo",
+        "Kwaino"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The possessive form 'Kwane' means 'my hand'."
+    },
+    {
+      "question": "In Ekegusii sentence structure, why is it incorrect to say \"She broke the arm\" without a possessive marker?",
+      "options": [
+        "Because Ekegusii never uses definite articles.",
+        "Because possessive markers are mandatory to indicate ownership of body parts.",
+        "Because articles are used only for external body parts.",
+        "Because verbs must agree in gender."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Ekegusii, body parts require possessive markers to show ownership."
+    },
+    {
+      "question": "What is the Ekegusii word for \"shoulder,\" a body part often used metaphorically for carrying responsibilities?",
+      "options": [
+        "Amareko",
+        "Ebigoti",
+        "Omogongo",
+        "Omotwe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Amareko' is the term for 'shoulder' in Ekegusii."
+    },
+    {
+      "question": "When expressing \"His head hurt after the accident\" in Ekegusii, which noun acts as the grammatical subject?",
+      "options": [
+        "Aumiete",
+        "Omobasokano",
+        "Omotwe",
+        "Nyuma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omotwe' (head) functions as the subject in this type of sentence."
+    },
+    {
+      "question": "In the sentence \"She injured her knee during the match\", what is the Ekegusii word for \"knee\" that serves as the object?",
+      "options": [
+        "Emechieso",
+        "Abunegete",
+        "Riru",
+        "Okogoro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Riru' is the correct word for 'knee' in Ekegusii."
+    },
+    {
+      "question": "Which internal organ in Ekegusii is metaphorically significant as the emotional or moral center and is called Enkoro?",
+      "options": [
+        "Liver",
+        "Heart",
+        "Brain",
+        "Stomach"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word 'Enkoro' refers to the 'heart', symbolizing the emotional or moral center."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which traditional Luo dish is prepared using silver cyprinid fish, often eaten fried or boiled?",
+      "options": ["Kamongo", "Omena", "Richore", "Ekereti"],
+      "correctAnswer": 1,
+      "explanation": "'Omena' refers to small silver cyprinid fish, a staple Luo dish."
+    },
+    {
+      "question": "What cooking method involves fermenting vegetables such as spider plant (Akeyo) before preparation?",
+      "options": ["Koiyeka", "Koberi", "Koineka", "Koanekera"],
+      "correctAnswer": 1,
+      "explanation": "'Koberi' is the process of fermenting vegetables like spider plant before cooking."
+    },
+    {
+      "question": "Which vegetable, known for its slightly bitter taste, is often cooked with milk or butter in Gusii cuisine?",
+      "options": ["Ecabbage", "Egesare", "Amanagu", "Chinyanya"],
+      "correctAnswer": 2,
+      "explanation": "'Amanagu' is a traditional leafy vegetable with a slightly bitter taste, often cooked with milk or butter."
+    },
+    {
+      "question": "What Gusii traditional food is made from pumpkin leaves often cooked with groundnut paste or milk?",
+      "options": ["Risosa", "Ekerimu", "Amandegere", "Rikuneni"],
+      "correctAnswer": 0,
+      "explanation": "'Risosa' is prepared from pumpkin leaves, commonly enriched with groundnut paste or milk."
+    },
+    {
+      "question": "In Gusii traditional food preservation, what is 'Koinekera' best described as?",
+      "options": ["Fresh fish stew", "Smoked or sun-dried beef", "Fermented porridge", "Grilled mushroom"],
+      "correctAnswer": 1,
+      "explanation": "'Koinekera' refers to smoking or sun-drying beef for preservation."
+    },
+    {
+      "question": "Which of the following is NOT a traditional Gusii fruit according to the provided list?",
+      "options": ["Ripopo", "Rinanasi", "Ritoke", "Richore"],
+      "correctAnswer": 3,
+      "explanation": "'Richore' is not a traditional Gusii fruit; the others are fruits."
+    },
+    {
+      "question": "Which edible vegetable thrives mostly in swampy or wet riverbank areas?",
+      "options": ["Amato y’eripaipai", "Nyasgumba", "Amato y’ebiasi", "Erongori"],
+      "correctAnswer": 1,
+      "explanation": "'Nyasgumba' is a swamp-loving edible vegetable."
+    },
+    {
+      "question": "What is the primary traditional Gusii carbohydrate dish made from maize flour?",
+      "options": ["Amarabuoni", "Obokima", "Omwogo", "Erongori"],
+      "correctAnswer": 1,
+      "explanation": "'Obokima' is the staple Gusii dish made from maize flour, similar to ugali."
+    },
+    {
+      "question": "'Oboba' refers specifically to what kind of traditional Gusii food?",
+      "options": ["Large wild mushrooms", "Stewed lungfish", "Roasted beef ribs", "Sweet fermented porridge"],
+      "correctAnswer": 0,
+      "explanation": "'Oboba' are large wild mushrooms eaten traditionally in Gusii culture."
+    },
+    {
+      "question": "Which vegetable requires very careful preparation due to its potential toxicity from cyanide compounds?",
+      "options": ["Amato y’eyarare", "Amato y’omwogo", "Amato y’echinyanya", "Esasati"],
+      "correctAnswer": 1,
+      "explanation": "'Amato y’omwogo' (cassava leaves) require careful preparation to remove cyanide compounds."
+    }
+  ]
+}

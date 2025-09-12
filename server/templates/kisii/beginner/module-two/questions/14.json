@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which possessive suffix correctly marks the phrase 'your (plural) child' in Ekegusii?",
+      "options": ["-one", "-oye", "-ogo", "-bao"],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-ogo' is used to indicate 'your (plural)' possession in Ekegusii."
+    },
+    {
+      "question": "Which of the following is the correct Ekegusii expression for 'Mogaka’s child'?",
+      "options": ["Mogaka oye", "Omwana o Mogaka", "Mogaka omwana oye", "Omwana oye Mogaka"],
+      "correctAnswer": 1,
+      "explanation": "'Omwana o Mogaka' is the correct possessive structure in Ekegusii for 'Mogaka’s child'."
+    },
+    {
+      "question": "What distinguishes 'biaito' from 'biane' in Ekegusii possessive forms?",
+      "options": ["Biaito is singular, biane is plural", "Biaito means 'ours,' biane means 'mine'", "Biaito is used with names, Biane is used with pronouns", "Biaito is second person, Biane is third person"],
+      "correctAnswer": 1,
+      "explanation": "'Biaito' means 'ours' while 'Biane' means 'mine'."
+    },
+    {
+      "question": "If 'Egeticha nekiaye,' what can be inferred?",
+      "options": ["The garden is theirs", "The garden is ours", "The garden is his/hers", "The garden is mine"],
+      "correctAnswer": 2,
+      "explanation": "'Egeticha nekiaye' means 'The garden is his/hers'."
+    },
+    {
+      "question": "Which of these suffixes is used exclusively for 3rd person plural possession?",
+      "options": ["-one", "-ogo", "-oria", "-Barabwo"],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-oria' is used for 3rd person plural possession."
+    },
+    {
+      "question": "Identify the incorrect possessive match:",
+      "options": ["Omwana one → my child", "Omwana ogo → their child", "Omwana ogo → your child (plural)", "Omwana oye → his/her child"],
+      "correctAnswer": 2,
+      "explanation": "'Omwana ogo' means 'your child (plural)', not 'their child', so option C is the mismatch."
+    },
+    {
+      "question": "What suffix or structure is used in Ekegusii to say 'the garden is yours' when speaking to one person?",
+      "options": ["-kiago", "-kiaino", "-kiabo", "-kiane"],
+      "correctAnswer": 0,
+      "explanation": "The suffix '-kiago' is used to express 'the garden is yours' (singular)."
+    },
+    {
+      "question": "Which suffix may appear in both first person singular and first person plural, requiring context for clarity?",
+      "options": ["-ane", "-ito", "-ago", "-ande"],
+      "correctAnswer": 1,
+      "explanation": "The suffix '-ito' can refer to both 'mine' and 'ours,' so context is needed."
+    },
+    {
+      "question": "Which of the following sentences most accurately means 'The garden is theirs'?",
+      "options": ["Egeticha nekiago", "Egeticha nekiane", "Egeticha nekiabo", "Egeticha negiaito"],
+      "correctAnswer": 2,
+      "explanation": "'Egeticha nekiabo' means 'The garden is theirs'."
+    },
+    {
+      "question": "In Ekegusii, what would 'Omwana ogo' most likely mean in direct address?",
+      "options": ["Her child", "My child", "Your child (singular)", "Your child (plural)"],
+      "correctAnswer": 2,
+      "explanation": "When used in direct address, 'Omwana ogo' most likely means 'your child (singular)'."
+    }
+  ]
+}

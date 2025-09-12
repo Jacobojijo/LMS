@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In which dialect is the vowel in the first syllable of Ekegusii often pronounced as /e/, and in which is pronounced as /i/ respectively?",
+      "options": [
+        "Bonchari and Bobasi",
+        "Bobasi and Bonchari",
+        "Borabu and Bobasi",
+        "Borabu and Nyaribari"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In Borabu dialect, the vowel is pronounced as /e/, while in Nyaribari dialect it is pronounced as /i/."
+    },
+    {
+      "question": "What is the variation in the word “slippers” between the Northern and the Southern dialects of Ekegusii respectively?",
+      "options": [
+        "Chitaratara and chisiripasi",
+        "Chisiripasi and chitarara",
+        "All regions",
+        "Chisiripasi only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Northern dialects use 'Chisiripasi' while Southern dialects use 'Chitarara' to refer to slippers."
+    },
+    {
+      "question": "Which one of the following is not a linguistic and cultural implication in Ekegusii language?",
+      "options": [
+        "Mutual Intelligibility",
+        "Social Perception",
+        "Markers of cultural identity",
+        "Lexical Enrichment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "While Ekegusii dialects reflect mutual intelligibility, cultural identity, and lexical enrichment, social perception is not classified as a direct linguistic implication."
+    },
+    {
+      "question": "Which one of the following is not a feature of the Rogoro Abagusii Dialect?",
+      "options": [
+        "Spoken in the Northern part of Gusiiland",
+        "Uses terms like Chitaratarara",
+        "Considered the standard dialect",
+        "Uses terms like chisiripasi for sandals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Rogoro dialect is standard and Northern, but it does not use terms like 'Chitaratarara,' which belong to other dialects."
+    },
+    {
+      "question": "The term “Omogango” meaning “cooking stick” is commonly used in which region(s)?",
+      "options": [
+        "Both",
+        "Rogoro",
+        "Maate",
+        "Central"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The word 'Omogango' is typically associated with the Maate dialect region."
+    },
+    {
+      "question": "What are the Key factors contributing to Dialectal Variation?",
+      "options": [
+        "Social perception and its vocabulary",
+        "Barriers to understanding",
+        "Geography and social perception",
+        "Geography and standard dialect"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Geography and social perception play key roles in shaping dialectal variation in Ekegusii."
+    },
+    {
+      "question": "What function do vocabulary and pronunciation differences serve across regional Ekegusii varieties?",
+      "options": [
+        "Create barriers to understanding",
+        "Signal cultural and geographical identity",
+        "Indicate formal vs. informal usage",
+        "Limit expressive ability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Variations in vocabulary and pronunciation mainly signal cultural and geographical identity among speakers."
+    },
+    {
+      "question": "Which region shows strong influence from oral tradition and emphasizes rhythm and metaphor in everyday speech?",
+      "options": [
+        "Maate",
+        "Moino",
+        "Rogoro",
+        "Gati"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Rogoro dialect is strongly influenced by oral tradition and emphasizes rhythm and metaphor in communication."
+    },
+    {
+      "question": "How do dialects differ in vocabulary?",
+      "options": [
+        "The only difference is in the pronunciation",
+        "There is no difference",
+        "The dialects have different words for the same objects, with variations occurring in vocabulary",
+        "Articulation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ekegusii dialects often use different words for the same objects, showing clear vocabulary variation."
+    },
+    {
+      "question": "What are the main dialects of Ekegusii?",
+      "options": [
+        "Maate and Moino",
+        "Rogoro and Maate",
+        "Rogoro and Moino",
+        "Rogoro and Gati"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main dialects of Ekegusii are Rogoro and Maate, which are widely recognized and studied."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii form for 'my knife'?",
+      "options": ["Omoyio obo", "Omoyio oye", "Omoyio one", "Omoyio oito"],
+      "correctAnswer": 2,
+      "explanation": "'Omoyio one' correctly translates to 'my knife' in Ekegusii."
+    },
+    {
+      "question": "Which of the following correctly reflects the possessive form 'their chair'?",
+      "options": ["Ekerogo kiabo", "Ekerogo kiaye", "Ekerogo giato", "Ebirogo biri"],
+      "correctAnswer": 0,
+      "explanation": "'Ekerogo kiabo' means 'their chair' in Ekegusii."
+    },
+    {
+      "question": "In Ekegusii, what phonetic change occurs when forming the possessive of 'Eng’ombe' (cow)?",
+      "options": [
+        "ch changes to ch",
+        "e changes to -o",
+        "e changes to ch",
+        "e remains unchanged"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When forming the possessive of 'Eng’ombe', the vowel 'e' shifts to 'ch'."
+    },
+    {
+      "question": "What is the correct singular possessive form for 'our house' in Ekegusii?",
+      "options": ["Enyomba Yabo", "Enyomba yaito", "Enyomba yane", "Enyomba yago"],
+      "correctAnswer": 1,
+      "explanation": "'Enyomba yaito' translates as 'our house' in Ekegusii."
+    },
+    {
+      "question": "Which form correctly translates to 'your (plural) child'?",
+      "options": ["Omwana One", "Omwana oito", "Omwana oino", "Omwana obo"],
+      "correctAnswer": 2,
+      "explanation": "'Omwana oino' is the correct possessive form for 'your (plural) child'."
+    },
+    {
+      "question": "Which of the following shows a correct plural possessive form for 'his lands'?",
+      "options": ["Amaremo aito", "Amaremo aye", "Amaremo ago", "Amaremo ara"],
+      "correctAnswer": 1,
+      "explanation": "'Amaremo aye' is the correct form for 'his lands'."
+    },
+    {
+      "question": "What is the possessive transformation of the noun 'Richiko' (law) for the 1st person singular (my)?",
+      "options": ["Richiko riane", "Richiko riabo", "Richiko riano", "Richiko rito"],
+      "correctAnswer": 0,
+      "explanation": "'Richiko riane' is the correct 1st person singular possessive form meaning 'my law'."
+    },
+    {
+      "question": "What is the correct possessive form of 'stone' (Rigena) for 'her stone'?",
+      "options": [
+        "Kid-e Rigena riane",
+        "Kid-wa Rigena riabo",
+        "Kite Rigena riaye",
+        "Kidi-ne Rigena riaito"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kite Rigena riaye' translates to 'her stone'."
+    },
+    {
+      "question": "Which of the following possessive forms is grammatically incorrect in Ekegusii?",
+      "options": [
+        "Omoyio oye — His knife",
+        "Omogongo ogo — Your garden (sg)",
+        "Enyomba riane — Your (pl) house",
+        "Omwana oito — Our child"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Enyomba riane — Your (pl) house' is incorrect because 'riané' does not mark 2nd person plural possession."
+    },
+    {
+      "question": "Which noun exhibits both root transformation and possessive suffix attachment in Ekegusii?",
+      "options": ["Ekerogo", "Omoyio", "Omwana", "Richiko"],
+      "correctAnswer": 1,
+      "explanation": "'Omoyio' shows both root transformation and possessive suffix attachment."
+    }
+  ]
+}

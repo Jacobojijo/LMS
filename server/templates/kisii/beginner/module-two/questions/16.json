@@ -1,0 +1,94 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which phrase refers to each individual thing being considered separately in Ekegusii?",
+      "options": ["Eyemo ase eyemo", "Onde bwensi", "Bonsi", "Kende gionsi"],
+      "correctAnswer": 0,
+      "explanation": "'Eyemo ase eyemo' means 'each one separately' in Ekegusii."
+    },
+    {
+      "question": "How would you say in Ekegusii, 'Each person will eat'?",
+      "options": [
+        "Kera omonto ngochia koragera are",
+        "Kera omonto orageire",
+        "Bonsi ngoragera bare",
+        "Kera omonto orageire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kera omonto ngochia koragera are' translates to 'Each person will eat.'"
+    },
+    {
+      "question": "Which of the following translates to: 'Anyone can go out'?",
+      "options": [
+        "Onde bwensi nabo akogenda isiko",
+        "Bachire isiko bonsi",
+        "Ngogenda bare bonsi",
+        "Ochire bweka"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Onde bwensi nabo akogenda isiko' means 'Anyone can go out.'"
+    },
+    {
+      "question": "In Ekegusii, which phrase would you use to say: 'Choose any one thing'?",
+      "options": ["Chora bonsi", "Chora kera egento", "Chora bionsi", "Chora kende gionsi"],
+      "correctAnswer": 3,
+      "explanation": "'Chora kende gionsi' translates as 'Choose any one thing.'"
+    },
+    {
+      "question": "What is the meaning of 'Bonsi/bionsi'?",
+      "options": [
+        "All things with no emphasis",
+        "Absolutely all things, emphasized",
+        "Every individual person",
+        "Something unknown"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Bonsi' or 'bionsi' conveys the sense of 'absolutely all things' with emphasis."
+    },
+    {
+      "question": "How do you say in Ekegusii, 'Anything could be found there'?",
+      "options": [
+        "Kende gionsi nabo kegotoka igaa",
+        "kanyo Bionsi biatokire igaa",
+        "kanyo Kera egento giatokire",
+        "Kera ekemo giatokire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kende gionsi nabo kegotoka igaa' translates to 'Anything could be found there.'"
+    },
+    {
+      "question": "Which phrase would be used to express the idea of 'All their relatives will come'?",
+      "options": [
+        "Abaamate bachire",
+        "Abaamate babo bonsi ngocha bare",
+        "Amaamate gete bachire",
+        "Abaamate babere bachire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Abaamate babo bonsi ngocha bare' means 'All their relatives will come.'"
+    },
+    {
+      "question": "If you are referring to any random item in Ekegusii, which phrase would you use?",
+      "options": ["Kende gionsi", "Bonsi", "Bionsi", "Kera egento"],
+      "correctAnswer": 0,
+      "explanation": "'Kende gionsi' is used when referring to 'any random item.'"
+    },
+    {
+      "question": "In Ekegusii, how would you refer to 'each person separately'?",
+      "options": ["Kera egento", "Kera oyomo", "Bonsi", "Oyo"],
+      "correctAnswer": 1,
+      "explanation": "'Kera oyomo' specifically refers to 'each person separately.'"
+    },
+    {
+      "question": "What would you say in Ekegusii for 'Something was found at the door'?",
+      "options": [
+        "Egento gete giatogete ase omorangu",
+        "Egento keria egiatogete ase omorangu",
+        "Bionsi ebiatogete ase omorangu",
+        "Bonsi baatokire ase omorangu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Egento gete giatogete ase omorangu' translates to 'Something was found at the door.'"
+    }
+  ]
+}

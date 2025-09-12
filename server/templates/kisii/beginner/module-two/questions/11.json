@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct singular noun construct of 'Ebiticha' (gardens)?",
+      "options": ["Amatiacha", "Egeticha", "Amaticha", "Egetiticha"],
+      "correctAnswer": 1,
+      "explanation": "The singular of 'Ebiticha' is 'Egeticha', following the -eki/-ebi noun class rule."
+    },
+    {
+      "question": "Which of the following plural noun constructs is an exception to the regular rule?",
+      "options": ["Endagera yaye → Endagera yaye", "Egeticha kiaye → Egeticha kiaye", "Omokungu → Omosacha bw’abakungu abange", "Enchera → Chinchera"],
+      "correctAnswer": 2,
+      "explanation": "'Omokungu → Omosacha bw’abakungu abange' is an exception because it does not follow the predictable pluralization rules."
+    },
+    {
+      "question": "Which demonstrative suffix correctly expresses 'that path (near)'?",
+      "options": ["-baria", "-chiria", "-eria", "-aria"],
+      "correctAnswer": 3,
+      "explanation": "The suffix '-aria' is used to indicate proximity in demonstrative forms."
+    },
+    {
+      "question": "What is the singular noun construct for the word 'chindagera' (foods)?",
+      "options": ["chindagera", "Endagera", "Akandagera", "Amandagera"],
+      "correctAnswer": 1,
+      "explanation": "The singular of 'chindagera' is 'Endagera'."
+    },
+    {
+      "question": "The form 'eye-' in 'echi' (this house) is an example of what?",
+      "options": ["Plural suffixing", "Demonstrative transformation", "Irregular singular noun construct", "Locative particle usage"],
+      "correctAnswer": 2,
+      "explanation": "'Eye-' is an irregular singular noun construct that marks the demonstrative 'this'."
+    },
+    {
+      "question": "What is the plural noun construct of 'chinyomba' (houses)?",
+      "options": ["obo-", "e-", "chi-", "a-"],
+      "correctAnswer": 2,
+      "explanation": "The plural of 'nyomba' is formed with the prefix 'chi-', giving 'chinyomba'."
+    },
+    {
+      "question": "Which suffix combination correctly produces 'those paths (far)' from 'chi'?",
+      "options": ["echi", "chiiria", "echio", "chiria"],
+      "correctAnswer": 3,
+      "explanation": "'Chiria' expresses distance in demonstratives, meaning 'those paths (far)'."
+    },
+    {
+      "question": "According to the formation rule, what are the steps to derive the singular noun construct from a regular plural noun?",
+      "options": ["Add a suffix to the singular noun", "Double the final consonant of the plural noun", "Remove the final vowel from the plural noun", "Reverse the plural form"],
+      "correctAnswer": 2,
+      "explanation": "To form singulars, the final vowel of the plural noun is typically removed."
+    },
+    {
+      "question": "‘Chindagera’ is often seen in compound words. What memory trick supports this?",
+      "options": ["It’s used in royalty names", "It forms idioms involving animals", "It’s the base word for landforms", "It's the food root used in many compound words"],
+      "correctAnswer": 3,
+      "explanation": "'Chindagera' is widely used as the root for compound words relating to food."
+    },
+    {
+      "question": "Why is 'omo-' the noun construct for 'omokungu' (woman)?",
+      "options": ["It's a diminutive transformation", "It’s an example of root borrowing", "It is a shortened possessive prefix", "It is an irregular noun construct"],
+      "correctAnswer": 3,
+      "explanation": "The 'omo-' construct in 'omokungu' is an irregular noun construct in Ekegusii."
+    }
+  ]
+}

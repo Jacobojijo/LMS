@@ -1,0 +1,99 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following correctly explains the behavior of Ekegusii nouns in the accusative case?",
+      "options": [
+        "They always end in vowels",
+        "They require a suffix to show object function",
+        "They remain in their original form",
+        "They adopt genitive suffixes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the accusative case, Ekegusii nouns remain in their original form without suffix changes."
+    },
+    {
+      "question": "What is the most distinguishing grammatical feature of the Ekegusii genitive case?",
+      "options": [
+        "It adds a prefix to every noun",
+        "It changes the form or ending of the noun to a consonant",
+        "It uses tone only, not spelling",
+        "It doubles the last vowel of the noun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the genitive case, nouns typically change their form or ending to a consonant."
+    },
+    {
+      "question": "Identify the pair that shows the correct genitive transformation:",
+      "options": [
+        "Ekerogo → Ebisaka",
+        "Egetabu → Obwoyo",
+        "Rogoro → Mambi",
+        "Inchwo → Genda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Egetabu transforms correctly into 'Obwoyo' in the genitive case."
+    },
+    {
+      "question": "Which noun remains unchanged in spelling but is modified in pronunciation in the genitive case?",
+      "options": ["Egetunwa", "Maate", "Igoro", "Egetabu"],
+      "correctAnswer": 2,
+      "explanation": "'Igoro' remains the same in spelling but shifts in pronunciation in the genitive case."
+    },
+    {
+      "question": "Which of the following is NOT a correct genitive transformation based on Ekegusii rules?",
+      "options": [
+        "Ekenanti → Amaroba",
+        "Embori → Chimbori",
+        "Egetunwa → Ebitunwa",
+        "Obonyansi → Amanyansi"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Obonyansi → Amanyansi' is not a valid genitive transformation."
+    },
+    {
+      "question": "What is the genitive form of the noun 'Rigena' (stone)?",
+      "options": ["Gena", "Ebigena", "Amagena", "Rigena"],
+      "correctAnswer": 2,
+      "explanation": "'Rigena' in the genitive case becomes 'Amagena'."
+    },
+    {
+      "question": "Why is the genitive case particularly important for learners of Ekegusii grammar?",
+      "options": [
+        "It is the only case used in questions",
+        "It involves tonal variations and extensive suffixing",
+        "It is the only case where nouns change form",
+        "It completely replaces noun stems"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The genitive case is important because it is the only case where nouns actually change form."
+    },
+    {
+      "question": "In the genitive case, the Ekegusii noun 'Chinyanya' becomes:",
+      "options": ["Amatunda", "Chigari", "Ebikoroto", "Ebirogo"],
+      "correctAnswer": 0,
+      "explanation": "'Chinyanya' changes to 'Amatunda' in the genitive case."
+    },
+    {
+      "question": "Which of the following statements best reflects a general rule about genitive case endings in Ekegusii?",
+      "options": [
+        "They usually end in a vowel",
+        "They typically include a doubled vowel",
+        "They usually end in a consonant",
+        "They include the suffix '-ni'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Genitive case nouns in Ekegusii usually end in a consonant."
+    },
+    {
+      "question": "How does the noun 'Ekerogo' (chair) behave in the genitive case?",
+      "options": [
+        "It changes completely to Ebirogo",
+        "It remains Ekerogo with a tonal shift",
+        "It takes the suffix -ki",
+        "It becomes Ebirogo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ekerogo' remains the same in spelling but takes a tonal shift in the genitive case."
+    }
+  ]
+}

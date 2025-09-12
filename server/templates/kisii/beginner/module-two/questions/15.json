@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which demonstrative would correctly translate the phrase 'That over there is a herdsman'?",
+      "options": ["Oria n’omorisia", "Oyo n’omorisia", "Ooria n’omorisia", "Ooria gochia aria n’omorisia"],
+      "correctAnswer": 3,
+      "explanation": "'Ooria gochia aria n’omorisia' is the proper way to say 'That over there is a herdsman' in Ekegusii."
+    },
+    {
+      "question": "What is the Ekegusii phrase for 'These are boys'?",
+      "options": ["Oyo nomomura", "Aba nabamura", "Baria nabamura", "Barabwo nabamura"],
+      "correctAnswer": 1,
+      "explanation": "'Aba nabamura' correctly expresses 'These are boys'."
+    },
+    {
+      "question": "Which demonstrative suffix should be added to 'Omonto oyo' to form 'This person'?",
+      "options": ["-oywo", "-oyo", "-ogo", "-oria"],
+      "correctAnswer": 1,
+      "explanation": "Adding '-oyo' to 'Omonto' gives 'Omonto oyo' meaning 'This person'."
+    },
+    {
+      "question": "What is the Ekegusii equivalent of the phrase 'Those are your cows'?",
+      "options": ["Echio n’echiombe chiaino", "Echi n’echiombe chiano", "Eye n’eng’ombe yaino", "Echi n’echiombe chiaito"],
+      "correctAnswer": 0,
+      "explanation": "'Echio n’echiombe chiaino' means 'Those are your cows'."
+    },
+    {
+      "question": "Which of the following pairs correctly shows singular and plural demonstratives far from both speaker and listener?",
+      "options": ["Eke / ebio", "Ere / Barabwo", "Ere / Baria", "Oria / Abwo"],
+      "correctAnswer": 2,
+      "explanation": "'Ere' (singular) and 'Baria' (plural) are demonstratives for things far from both the speaker and listener."
+    },
+    {
+      "question": "Which of these translates as 'This lake' in Ekegusii using the correct demonstrative noun form?",
+      "options": ["Enyancha eyio", "Enyancha eye", "Enyancha eria", "Enyancha eywo"],
+      "correctAnswer": 1,
+      "explanation": "'Enyancha eye' is the correct phrase for 'This lake'."
+    },
+    {
+      "question": "If 'Endani' means 'this pond,' which of the following follows the same demonstrative formation logic?",
+      "options": ["Endoo", "Egesima", "Enyancha", "Oroche"],
+      "correctAnswer": 1,
+      "explanation": "Like 'Endani,' 'Egesima' follows the same demonstrative pattern for 'this well'."
+    },
+    {
+      "question": "Which phrase means 'What are those?' referring to nearby plural objects?",
+      "options": ["Baria mbarabi?", "Keeria ninki?", "Ebio mbiribi?", "Ekio ninki?"],
+      "correctAnswer": 2,
+      "explanation": "'Ebio mbiribi?' means 'What are those?' for nearby plural items."
+    },
+    {
+      "question": "What is the correct translation for the sentence: 'This is her tree'?",
+      "options": ["oywo n’omote oye", "Oyo n’omote oye", "Eye n’emete yaye", "Oria n’omote oye"],
+      "correctAnswer": 1,
+      "explanation": "'Oyo n’omote oye' means 'This is her tree'."
+    },
+    {
+      "question": "Which demonstrative form correctly matches 'Enyomba eye' in both structure and spatial reference?",
+      "options": ["Omonto oria", "Enchera eria", "Eng’ombe eye", "Enka eye"],
+      "correctAnswer": 3,
+      "explanation": "'Enka eye' uses the same '-eye' form for 'this,' referring to something near the speaker."
+    }
+  ]
+}

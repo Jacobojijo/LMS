@@ -1,0 +1,244 @@
+{
+  "title": "Simple Sentence Structures and Basic Grammar CAT",
+  "description": "This Continuous Assessment Test evaluates understanding of Ekegusii simple sentence structures, nouns, pronouns, adjectives, and related grammar concepts.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following regions is associated with older, more conservative Ekegusii vocabulary such as Chitaratara, Ekemoni, and Omoro?",
+      "options": ["Rogoro", "Moino", "Maate", "Gati"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] What is the correct provenance term for a person from Bobasi?",
+      "options": ["Genda Bobasi", "Oyo Bobasi", "Bassi", "Inchwo Bobasi"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Identify the pair in which both Ekegusii nouns are classified as impersonal.",
+      "options": ["Omwana, Omoegereri", "Omworokia, Egari", "Embura, Amache", "Omworokigwa, Emesa"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] In Ekegusii, what does the prefix “oyo” signify when used in a noun like oyo Bogirango?",
+      "options": [
+        "A singular person from Bogirango",
+        "A woman from Bogirango",
+        "A group or people from Bogirango",
+        "An ancestral name"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which set best reflects external, visible parts of the body in Ekegusii?",
+      "options": ["Amara, Obongo, Enkoro", "Omotwe, Amaiso, Ebichara", "Amanyinga, Emeki, Riuga", "Amayaa, Nyarogno, Riini"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] What is the correct Ekegusii translation of “The sun rises from the East”?",
+      "options": [
+        "Omogaso obarire korwa sugusu",
+        "Omogaso obarire korwa moocha",
+        "Omogaso obarire korwa Irianyi",
+        "Omogaso orimire gochia moocha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] In Ekegusii, which of the following terms is associated with abstract concepts rather than physical objects?",
+      "options": ["Okoboko", "Emesa", "Obwanchani", "Egari"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which directional expression correctly shows movement toward the South in Ekegusii?",
+      "options": ["Gochia Sugusu", "Gochia Irianyi", "Gochia Bosongo", "Gochia moocha"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following pairs both represent abstract nouns in Ekegusii?",
+      "options": ["Esese, oboene", "Obwanchani, Chinguru", "Ekerogo, Inse", "Omwana, Okogechigwa"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] What is the plural form of the Egesusu word Egesusu (rabbit), according to its noun class pattern?",
+      "options": ["Chiombe", "Ngwesomi", "Ebisusu", "Ritororo"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following animals is classified as a wild animal and not a domestic or poultry animal in Ekegusii?",
+      "options": ["Engoko", "Egesimba", "Embori", "Etuoni"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] The noun Egioto (frog) belongs to which pluralization class based on suffix patterns?",
+      "options": ["-mbe", "-che", "-eke", "-chi"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following traditional Ekegusii vegetables is noted for having mild toxicity and thus requires caution when cooking?",
+      "options": ["Risosa", "Amato y’echinyanya", "Egesare", "Ngosamora"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which set correctly lists nouns that would follow the Omo → Ama pluralization pattern in Ekegusii?",
+      "options": ["Omworokia, Omonene", "Omonene, Ekerogo, Esese", "Omorogi, Omworokia", "Omworokia, Omosani, Amareko"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] According to Ekegusii noun pluralization, what is the correct plural form of Riuga (bone)?",
+      "options": ["Amariuga", "Amaru", "Amauga", "Mariuga"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which Abagusii traditional dish is made from smoked or sun-dried beef and is known for requiring no refrigeration?",
+      "options": ["Amabuta", "Ekerandi", "Enswe", "Chinsaga"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] Which Ekegusii demonstrative pronoun specifically indicates an object located far from both the speaker and listener?",
+      "options": ["Oyo", "Oria", "OOria", "Aba"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] In the sentence \"Kera omonto ngoragera\", what linguistic feature is emphasized?",
+      "options": ["Inclusive pronoun use", "Random object selection", "Distributive individuality", "Emphatic ownership"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] What is the correct plural demonstrative pronoun for referring to items near the listener?",
+      "options": ["Aba", "Oria", "Baria", "Oria"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which of the following uses a possessive suffix exclusive to second person plural?",
+      "options": ["Omwana oyo", "Omwana oino", "Omwana oito", "Omwana obo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] What is the meaning of the expression \"Amaene endara yarietu\"?",
+      "options": [
+        "He ate some food",
+        "Everyone brought food",
+        "All the food was eaten, absolutely",
+        "Nothing was left on the plate"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which form correctly translates “their garden” in Ekegusii using the ‘Egeticha’ construction?",
+      "options": ["Egeticha keria", "Egeticha kiane", "Egeticha giato", "Egeticha kiaye"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Pronouns Part 01] In which example is the demonstrative combined with a possessive pronoun?",
+      "options": ["Oria n’omorisia", "Eke ninki?", "Ekio n’ekerogo kiane", "Ebi n’ebikombe"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which interrogative pronoun would best fit in the sentence: “_____ Genda inka?” (____ is going home?)",
+      "options": ["Rireri", "Inaki", "Nindi", "Ninki"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] What is the correct translation of “endani” based on the section on specific demonstrative nouns?",
+      "options": ["This fighter", "This pond", "That tree", "That place"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] Which personal pronoun is correctly matched with its plural English equivalent?",
+      "options": ["Aye → They", "Baria → You (plural)", "Intwe → We", "Inwe → They"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] How would one express “Mogaka’s child” using proper possessive grammar?",
+      "options": ["Omwana one", "Omwana O’Mogaka", "Omwana no’yomogaka", "Omwana o’Mogaka oyo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] Which of the following best exemplifies the distributive use for things?",
+      "options": ["Egento", "Gento kende gionsi", "Ekemo ase ekende", "Kera egento"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which example demonstrates an emphatic subject pronoun?",
+      "options": ["Inka ngogenda", "Genda inka", "Ngochande", "Nachire"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following Ekegusii interrogatives would be most appropriate when asking about the cause of an event rather than the manner of it?",
+      "options": ["Bono", "Rireri", "Inaki", "Ning’o"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] In Ekegusii, how would you form a tag question that conveys polite doubt after saying “You’re going”?",
+      "options": ["Naki ogendererete?", "Ngogendore?", "Ngogendore,igo?", "Nindi okogenda?"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following transformations is incorrect when forming the genitive (possessive) form?",
+      "options": [
+        "Embori → chimbori",
+        "Rigena → Amagena",
+        "Egetunwa → Ebitunwa",
+        "Omwana → Omwana oo"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] What is the plural possessive form for “our lands” in Ekegusii?",
+      "options": ["Oboremo bwaito", "Oboremo bwane", "Oberemo bwabo", "Ameremo ane"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which phrase best demonstrates an interrogative used to inquire about time of occurrence?",
+      "options": ["Abanto mbarenga?", "Nindi ogocha?", "Ngai ekerogo kere?", "Inaki ogendererete?"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] In Ekegusii noun declension, which grammatical case is the only one that results in morphological changes to the noun?",
+      "options": ["Nominative", "Dative", "Genitive", "Accusative"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following noun-to-possessive transformations shows both root change and suffix addition?",
+      "options": ["Ekerogo → Ebirogo", "Enyomba → Chinyomba", "Egetabu → Ebitabu", "Omwana → Abana"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which adjective type in Ekegusii would the phrase “whose chair?” fall under?",
+      "options": ["Possessive", "Demonstrative", "Interrogative", "Comparative"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] What is the most likely explanation for the genitive transformation “Chinyanya” → “Amatunda”?",
+      "options": [
+        "Addition of plural suffix",
+        "Simplification of vowel-heavy endings",
+        "Stress accent on first syllable",
+        "Prefix change to show indirect object"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following best represents a consonant-based genitive transformation?",
+      "options": [
+        "Egeticha → Egeticha kiane",
+        "Omoyio → Omoyio one",
+        "Amaroba → Amaroba ane",
+        "Amaino → Amaino"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which sentence demonstrates an advanced interrogative structure that involves possibility or capability?",
+      "options": [
+        "Ning’o bwanchire?",
+        "Onde bwensi nabo akoba omobui?",
+        "Naseki otacherete?",
+        "Nindi ogocha?"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

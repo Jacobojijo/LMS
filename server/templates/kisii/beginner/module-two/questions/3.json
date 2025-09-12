@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following features best distinguishes personal nouns from impersonal nouns in Ekegusii?",
+      "options": [
+        "They can be both abstract and concrete",
+        "They refer to countable objects",
+        "They are associated with agency and consciousness",
+        "They refer to phenomena like rain and wind"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Personal nouns are distinguished from impersonal nouns because they denote entities with agency and consciousness, unlike impersonal nouns which often refer to natural or inanimate phenomena."
+    },
+    {
+      "question": "What type of noun is represented by the Ekegusii word \"Omworokigwa\"?",
+      "options": [
+        "Proper Personal Noun",
+        "Abstract Impersonal Noun",
+        "Relational/Occupational Personal Noun",
+        "Mass Impersonal Noun"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The word 'Omworokigwa' refers to an occupational or relational role, thus it is a Relational/Occupational Personal Noun."
+    },
+    {
+      "question": "Which of the following is an accurate pair of impersonal nouns in Ekegusii based on their type?",
+      "options": [
+        "Omwana – Mass / Mesa – Abstract",
+        "Embura – Natural / Amache – Mass",
+        "Omoegereri – Abstract / Epresident – Concrete",
+        "Omworokia – Concrete / Obwanchani – Kinship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Embura (rain) is a natural impersonal noun, while Amache (water) is a mass noun, making this the correct pair."
+    },
+    {
+      "question": "Which pronouns in Ekegusii are typically used to replace personal nouns?",
+      "options": [
+        "Ere, Naende",
+        "Ere, Inwe",
+        "Ere, Naende",
+        "Naende, Ebi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pronouns 'Ere' and 'Inwe' are typically used to replace personal nouns in Ekegusii."
+    },
+    {
+      "question": "Why would the noun \"Omworokiaj\" be classified as a personal noun in Ekegusii?",
+      "options": [
+        "It represents an abstract idea",
+        "It lacks agency but is countable",
+        "It refers to a professional human role",
+        "It refers to a natural phenomenon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omworokiaj' is classified as a personal noun because it denotes a professional human role, showing agency."
+    },
+    {
+      "question": "Which of the following statements is true regarding impersonal nouns in Ekegusii?",
+      "options": [
+        "They refer only to intangible concepts",
+        "They can represent abstract, natural, concrete, or material elements",
+        "They are always replaced by barabwo",
+        "They indicate social identity and gender"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Impersonal nouns in Ekegusii cover a wide range, including abstract, natural, concrete, or material elements."
+    },
+    {
+      "question": "Identify the mismatch between noun type and category:",
+      "options": [
+        "Egetunwa – Concrete Impersonal",
+        "Obwago – Abstract/Natural Impersonal",
+        "Omworokia – Kinship Personal",
+        "Enchara – Abstract Impersonal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omworokia' is not a kinship personal noun; it refers to another category, making this pairing incorrect."
+    },
+    {
+      "question": "Which set of Ekegusii nouns exclusively consists of mass or material impersonal nouns?",
+      "options": [
+        "Omochere, Amachei, Amabuta",
+        "Omwana, Emesa, Egetunwa",
+        "Obwanchani, Chinguru, Chingaki",
+        "Embura, Egari, Chingoba"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The set 'Omochere, Amachei, Amabuta' includes mass or material impersonal nouns in Ekegusii."
+    },
+    {
+      "question": "In the sentence “Embura eyasaretie agari,” why are both nouns classified as impersonal?",
+      "options": [
+        "They both refer to abstract cultural values",
+        "They both represent titles and social identities",
+        "They do not involve human or personified agents",
+        "They are professional and kinship terms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both 'Embura' (rain) and 'Agari' (vehicle) are impersonal because they do not involve human or personified agents."
+    },
+    {
+      "question": "According to the classification presented, which of the following influences does not directly justify the categorization of nouns in Ekegusii?",
+      "options": [
+        "Gender and agency of referents",
+        "Countability and mass noun behavior",
+        "Presence in metaphorical or poetic expressions",
+        "Nature of phenomena or abstract concepts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Categorization of nouns is based on gender, agency, countability, and phenomena type, but not directly on metaphorical or poetic usage."
+    }
+  ]
+}

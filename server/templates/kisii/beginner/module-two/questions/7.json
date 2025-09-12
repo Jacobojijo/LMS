@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of a concrete noun in Ekegusii?",
+      "options": ["Omogoko", "Egekombe", "Obwanchani", "Obosibore"],
+      "correctAnswer": 1,
+      "explanation": "'Egekombe' (cup) is a tangible object, making it a concrete noun."
+    },
+    {
+      "question": "What does the abstract noun 'okobea' in Ekegusii represent?",
+      "options": ["Peace", "Sadness", "Strength", "Health"],
+      "correctAnswer": 1,
+      "explanation": "'Okobea' represents 'sadness', which is an abstract concept."
+    },
+    {
+      "question": "Which of the following is an abstract noun representing a concept in Ekegusii?",
+      "options": ["Ekerogo", "Obwanchani", "Esese", "Omwana"],
+      "correctAnswer": 1,
+      "explanation": "'Obwanchani' means 'kinship', which is an abstract relationship."
+    },
+    {
+      "question": "In Ekegusii, which of these is an example of a concrete noun related to animals?",
+      "options": ["Ekemoni", "Omogoko", "Obosibore", "Oboitongo"],
+      "correctAnswer": 0,
+      "explanation": "'Ekemoni' (monkey) is a living being, therefore a concrete noun."
+    },
+    {
+      "question": "Which of the following abstract nouns in Ekegusii refers to a positive quality?",
+      "options": ["Okobea", "Chinguru", "Obogima", "Obwoba"],
+      "correctAnswer": 1,
+      "explanation": "'Chinguru' refers to bravery/courage, a positive abstract quality."
+    },
+    {
+      "question": "What is the Ekegusii word for 'field', a concrete noun representing a place?",
+      "options": ["Ekegwanda", "Esukuru", "Egeticha", "Enchogu"],
+      "correctAnswer": 0,
+      "explanation": "'Ekegwanda' means 'field', a physical and concrete place."
+    },
+    {
+      "question": "Which of these is an abstract noun referring to a state of being in Ekegusii?",
+      "options": ["Omorembe", "Esukuru", "Echuma", "Omwana"],
+      "correctAnswer": 0,
+      "explanation": "'Omorembe' means 'peace', which is an abstract state of being."
+    },
+    {
+      "question": "Which of the following is an example of a concrete noun in Ekegusii referring to an object?",
+      "options": ["Egari", "Omogoko", "Oboitongo", "Obosibore"],
+      "correctAnswer": 0,
+      "explanation": "'Egari' means 'car', a tangible object."
+    },
+    {
+      "question": "Which of the following abstract nouns in Ekegusii represents an emotion?",
+      "options": ["Ber", "Mor", "Yien", "Guok"],
+      "correctAnswer": 1,
+      "explanation": "'Mor' refers to love/affection, which is an abstract emotion."
+    },
+    {
+      "question": "In Ekegusii, the word 'Echuma' represents which of the following?",
+      "options": ["Steel", "Freedom", "Honesty", "Child"],
+      "correctAnswer": 0,
+      "explanation": "'Echuma' means 'steel', a concrete material."
+    }
+  ]
+}

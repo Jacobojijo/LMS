@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Ekegusii morphology, which prefix best reflects a territorial origin when referring specifically to a person from Bobasi?",
+      "options": [
+        "Omosubati",
+        "Omoasi",
+        "Omobasi",
+        "OyoBobasi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'Omobasi' is the correct ethnonymic form for a person from Bobasi in Ekegusii."
+    },
+    {
+      "question": "Which of the following pairs correctly demonstrates the singular and plural ethnonymic forms for people from Uganda?",
+      "options": [
+        "Boganda / Oyoboganda",
+        "Boganda / Oganda",
+        "Omoganda / Oyoboganda",
+        "Oyoboganda / Uganda"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The singular form is 'Omoganda' and the plural form is 'Oyoboganda' when referring to people from Uganda."
+    },
+    {
+      "question": "Which region is matched incorrectly with its feminine ethnonymic form?",
+      "options": [
+        "Omomanyi – Oyobomanyi",
+        "Bokione – Oyobokione",
+        "Gusii – Oyogusii",
+        "Zaire – Oyozaire"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The region 'Zaire' with the form 'Oyozaire' is incorrectly matched and not standard in Ekegusii ethnonymic formation."
+    },
+    {
+      "question": "What does the prefix “oyo-” indicate in Ekegusii when attached to a place name?",
+      "options": [
+        "Only female origin",
+        "A plural ethnic group",
+        "A person from that location",
+        "A married woman from another clan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'oyo-' in Ekegusii marks an individual person originating from the given location."
+    },
+    {
+      "question": "Which of the following reflects the plural form of Oyo Bobasi in Ekegusii?",
+      "options": [
+        "Ababasi",
+        "Aba Bobasi",
+        "Omobasi",
+        "Bobasi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The plural ethnonym for Oyo Bobasi is 'Ababasi,' which denotes multiple people from Bobasi."
+    },
+    {
+      "question": "The Ekegusii morphological system for ethnonyms primarily encodes which of the following linguistic features?",
+      "options": [
+        "Tense and aspect",
+        "Location",
+        "Mood and tone",
+        "Voice and valency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii ethnonyms are primarily concerned with marking location or territorial origin rather than tense or tone."
+    },
+    {
+      "question": "A Kenyan woman would most accurately be referred to as:",
+      "options": [
+        "Oyokenya",
+        "Omosacha Okenya",
+        "Omosubati omokenya",
+        "Omokenya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A Kenyan woman is referred to as 'Omosubati omokenya,' combining the gender and territorial markers."
+    },
+    {
+      "question": "Which of the following demonstrates a correct use of “oyo-” for ethnicity, rather than geography?",
+      "options": [
+        "Oyokisumu",
+        "Omoikoyo",
+        "Oyebobasi",
+        "Oyokenya"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omoikoyo' represents a correct ethnonymic form for ethnicity rather than purely geographical reference."
+    },
+    {
+      "question": "Why might “oyo-” also imply a role of lineage representation in traditional Abagusii society?",
+      "options": [
+        "Because it denotes honorific age rank",
+        "Because men were usually community spokespersons",
+        "Because “oyo-” is an older term than “omo-”",
+        "Because it means \"firstborn male\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'oyo-' prefix implied lineage representation since men were often community spokespersons in traditional society."
+    },
+    {
+      "question": "Which of the following sets includes only valid Ekegusii regional ethnonyms for a group of people?",
+      "options": [
+        "Oyo Kisumo, Oyo Bomachoge, Oyo Sudan",
+        "Oyo Kenya, Omorendi, Oyo Zambia",
+        "Oyo Nyaribari, Oyo Meru, Omoganda",
+        "Omozaire, Oyo Nyakach, Oyo Turkana"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The set 'Oyo Kisumo, Oyo Bomachoge, Oyo Sudan' reflects valid Ekegusii ethnonymic forms for groups of people."
+    }
+  ]
+}

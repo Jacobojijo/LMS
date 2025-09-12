@@ -1,0 +1,79 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following Ekegusii interrogative pronouns is used to ask about the quantity of something?",
+      "options": ["Inaki?", "Nindi?", "Irenga?", "Inaki?"],
+      "correctAnswer": 2,
+      "explanation": "'Irenga?' is the interrogative pronoun used to ask about quantity in Ekegusii."
+    },
+    {
+      "question": "What is the correct Ekegusii translation for 'Why did you fail to come?'",
+      "options": [
+        "Naseki gwanchete gochata?",
+        "Naseki?",
+        "Naseki ogokanere?",
+        "Naseki totachierete?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Naseki gwanchete gochata?' translates to 'Why did you fail to come?'"
+    },
+    {
+      "question": "In Ekegusii, which interrogative pronoun is used to inquire about the manner or process of something?",
+      "options": ["Naseki?", "Inaki?", "Ndireri?", "Ning’o?"],
+      "correctAnswer": 1,
+      "explanation": "'Inaki?' is used to ask about the manner or process of something."
+    },
+    {
+      "question": "What is the meaning of the Ekegusii phrase 'Ning’o bwanchete?'",
+      "options": [
+        "Who is willing?",
+        "What is this?",
+        "When will you come?",
+        "Who asked for me?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ning’o bwanchete?' means 'Who is willing?'"
+    },
+    {
+      "question": "Which Ekegusii word is used to emphasize a question, similar to 'Are you sure?' in English?",
+      "options": ["Nabo?", "Igo?", "Ning’o?", "Ndireri?"],
+      "correctAnswer": 1,
+      "explanation": "'Igo?' is used for emphasis, similar to 'Are you sure?'"
+    },
+    {
+      "question": "How would you ask 'When will you come?' in Ekegusii?",
+      "options": ["Nindi ogocha?", "Nindi?", "Igo ngwachiete?", "Naseki ogokana?"],
+      "correctAnswer": 0,
+      "explanation": "'Nindi ogocha?' directly translates to 'When will you come?'"
+    },
+    {
+      "question": "In Ekegusii, which phrase would you use to ask about the location of a chair?",
+      "options": ["Ngai ekerogo kere?", "Ngai omoyio ore?", "Ngai ekerogo kere?", "Omoyio ngai ore"],
+      "correctAnswer": 0,
+      "explanation": "'Ngai ekerogo kere?' means 'Where is the chair?'"
+    },
+    {
+      "question": "What does the Ekegusii phrase 'Igo ngochore?' mean?",
+      "options": [
+        "Are you really going?",
+        "Aren’t you going?",
+        "Are you coming?",
+        "Why did you fail to come?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Igo ngochore?' means 'Are you really going?'"
+    },
+    {
+      "question": "Which Ekegusii word is used to inquire about the identity of a person or people?",
+      "options": ["Ndireri?", "Ning’o?", "Inaki?", "Irenga?"],
+      "correctAnswer": 1,
+      "explanation": "'Ning’o?' is used to ask 'Who?'"
+    },
+    {
+      "question": "How would you ask 'What is this?' in Ekegusii?",
+      "options": ["Eke ninki?", "Ning’o omboririe?", "Ngai omoyio ore?", "Ngogendore?"],
+      "correctAnswer": 0,
+      "explanation": "'Eke ninki?' translates to 'What is this?'"
+    }
+  ]
+}

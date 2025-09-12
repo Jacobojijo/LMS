@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Ekegusii, which term is used to express the direction \"South\"?",
+      "options": [
+        "Sugusu",
+        "Bosongo",
+        "Irianyi",
+        "Mooche"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The term 'Irianyi' is used in Ekegusii to indicate the direction 'South'."
+    },
+    {
+      "question": "Which Ekegusii phrase would you use to say \"the sun sets in the West\"?",
+      "options": [
+        "Omobaso orimeire gochia moocha",
+        "Omobaso orimeire gochia sugusu",
+        "Omobaso obarire gochia Sugusu",
+        "Omobaso obarire gochia irianyi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Omobaso orimeire gochia moocha' translates to 'the sun sets in the West' in Ekegusii."
+    },
+    {
+      "question": "What is the correct translation for the Ekegusii phrase \"Rina igoro\"?",
+      "options": [
+        "Come down",
+        "Climb up",
+        "Sit down",
+        "Stand up"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Rina igoro' in Ekegusii means 'Climb up'."
+    },
+    {
+      "question": "Which of the following Ekegusii terms is associated with \"down\" or \"below\"?",
+      "options": [
+        "Igoro",
+        "Inse",
+        "Bogeka",
+        "Ika"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'Inse' in Ekegusii means 'down' or 'below'."
+    },
+    {
+      "question": "Which term combines a verb and a locative marker to express the action \"Come down\"?",
+      "options": [
+        "Ika igoro",
+        "Ika inse",
+        "Rina igoro",
+        "Tenena igoro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Ika inse' literally means 'Come down'."
+    },
+    {
+      "question": "In Ekegusii, what is the correct phrase for instructing many people to \"sit down\"?",
+      "options": [
+        "Tenena igoro",
+        "Aisaranse inse",
+        "Moisaranse inse",
+        "Motenene igoro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'Moisaranse inse' is the proper form used when addressing many people to sit down."
+    },
+    {
+      "question": "The Ekegusii term \"Sugusu\" primarily refers to which cardinal direction?",
+      "options": [
+        "East",
+        "South",
+        "North / Central",
+        "West"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Ekegusii, 'Sugusu' is associated with the North or Central direction."
+    },
+    {
+      "question": "What does the verb-preposition structure \"Omabaso obarire korwa moocha\" illustrate?",
+      "options": [
+        "Vertical movement only",
+        "Ascending actions",
+        "Subject + verb + directional phrase",
+        "Object + verb + directional phrase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The structure 'Omabaso obarire korwa moocha' follows the pattern Subject + verb + directional phrase."
+    },
+    {
+      "question": "Which movement expression would describe traveling eastwards in Ekegusii?",
+      "options": [
+        "Gochia Irianyi",
+        "Gochia bosongo",
+        "Gochia moocha",
+        "Gochia sugusu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gochia moocha' is the expression for traveling eastwards in Ekegusii."
+    },
+    {
+      "question": "Which cultural observation is associated with the term \"Ogure/orimeire\" in Ekegusii cosmology?",
+      "options": [
+        "Sunrise",
+        "Sunset",
+        "Wind from the south",
+        "Wind from the north"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Ekegusii cosmology, 'Ogure/orimeire' is associated with 'Sunset'."
+    }
+  ]
+}

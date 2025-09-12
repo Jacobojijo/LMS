@@ -1,0 +1,69 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which morphological strategy marks the plural in the -ama class?",
+      "options": ["Prefix Ama- added to the stem", "Prefix Chi- added to the stem", "Prefix Aba- added to the stem", "Prefix Ebi- added to the stem"],
+      "correctAnswer": 0,
+      "explanation": "The -ama class forms plurals by adding the prefix 'Ama-' to the noun stem."
+    },
+    {
+      "question": "What is the correct plural of Riruma (dove)?",
+      "options": ["Ebikondo", "Amaruma", "Chinyoni", "Abasacha"],
+      "correctAnswer": 1,
+      "explanation": "The plural of 'Riruma' is 'Amaruma' following the -ama class pluralization."
+    },
+    {
+      "question": "The plural of Ekiigo (monitor lizard) is:",
+      "options": ["Amariogi", "Ebiigo", "Chinkiigo", "Abakiigo"],
+      "correctAnswer": 1,
+      "explanation": "Nouns in the -eki class like 'Ekiigo' change to -ebi in plural, giving 'Ebiigo'."
+    },
+    {
+      "question": "Which class has nouns that do not change in plural form?",
+      "options": ["-ama Class", "-eki / -ebi Class", "Invariant Class", "Omo → Aba Class"],
+      "correctAnswer": 2,
+      "explanation": "Some nouns belong to the invariant class, meaning their singular and plural forms remain identical."
+    },
+    {
+      "question": "The singular–plural alternation Omogaka → Abagaka belongs to which class?",
+      "options": ["-ama Class", "-eki / -ebi Class", "Omo → Aba Class", "-chi Class"],
+      "correctAnswer": 2,
+      "explanation": "Human nouns often follow the Omo → Aba alternation, as in 'Omogaka → Abagaka'."
+    },
+    {
+      "question": "What is the correct plural of Enkoro (heart)?",
+      "options": ["Amarabuoni", "Ebiarambe", "Chinkoro", "Abateneneri"],
+      "correctAnswer": 2,
+      "explanation": "The plural of 'Enkoro' is 'Chinkoro', which follows the -chi plural class."
+    },
+    {
+      "question": "Which of the following pairs is an example of the Omo → Aba alternation?",
+      "options": ["Omotienyi → Emetienyi", "Omotomi → Abatomwa", "Eng’iti → Ching’iti", "Egekondo → Ebikondo"],
+      "correctAnswer": 1,
+      "explanation": "'Omotomi → Abatomwa' demonstrates the human noun pluralization pattern Omo → Aba."
+    },
+    {
+      "question": "Which plural marker is consistently associated with animate and inanimate nouns like Egari → Chigari and Epaipu → Chipaipu?",
+      "options": ["Ama-", "Chi-", "Aba-", "Ebi-"],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'Chi-' marks plural for many nouns including animate and inanimate forms."
+    },
+    {
+      "question": "Which example belongs to the “general” plural class with heterogeneous strategies?",
+      "options": ["Eriogi → Amariogi", "Ekiarambe → Ebiarambe", "Omwana → Abana", "Enkoro → Chinkoro"],
+      "correctAnswer": 2,
+      "explanation": "'Omwana → Abana' illustrates the general plural class, where human nouns use Omo → Aba."
+    },
+    {
+      "question": "Which statement best describes the distribution of plural?",
+      "options": [
+        "All nouns take the suffix -chi in plural form.",
+        "Human nouns typically use the Omo → Aba alternation, while other nouns use prefixes like Ama-, Chi-, or Ebi-.",
+        "All plurals are invariant across singular and plural.",
+        "The plural system is purely suffixal without prefixation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plural distribution varies: human nouns usually follow Omo → Aba, while others use Ama-, Chi-, or Ebi- prefixes."
+    }
+  ]
+}

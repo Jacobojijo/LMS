@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of a wild animal in Ekegusii?",
+      "options": ["Engoko", "Egesimba", "Eng’ombe", "Riruma"],
+      "correctAnswer": 1,
+      "explanation": "'Egesimba' refers to a wild cat, making it a wild animal."
+    },
+    {
+      "question": "What is the Ekegusii word for 'cow'?",
+      "options": ["Embori", "Eng’ombe", "Eeri", "Eng’ondi"],
+      "correctAnswer": 1,
+      "explanation": "'Eng’ombe' means 'cow' in Ekegusii."
+    },
+    {
+      "question": "Which of the following animals is a type of fish in Ekegusii?",
+      "options": ["Kamongo", "Enyakweumi", "Embata", "Emori"],
+      "correctAnswer": 0,
+      "explanation": "'Kamongo' is a type of fish."
+    },
+    {
+      "question": "Which of the following is a type of bird in Ekegusii?",
+      "options": ["Embuni", "Enyakweumi", "Eng’uko", "Ekebaki"],
+      "correctAnswer": 1,
+      "explanation": "'Enyakweumi' is a type of bird."
+    },
+    {
+      "question": "What is the Ekegusii word for 'goat'?",
+      "options": ["Etigere", "Embori", "Esese", "Ekebusi"],
+      "correctAnswer": 1,
+      "explanation": "'Embori' means 'goat'."
+    },
+    {
+      "question": "Which of the following animals is a wild cat in Ekegusii?",
+      "options": ["Edubu", "Egesimba", "Eng’era", "Embuni"],
+      "correctAnswer": 1,
+      "explanation": "'Egesimba' is used to describe a wild cat."
+    },
+    {
+      "question": "What is the Ekegusii word for 'rabbit'?",
+      "options": ["Egesusu", "Egechure", "Embeba", "Engo"],
+      "correctAnswer": 0,
+      "explanation": "'Egesusu' refers to a rabbit."
+    },
+    {
+      "question": "Which of the following animals is a type of fish in Ekegusii?",
+      "options": ["Engonye", "Eng’ombe", "Eeri", "Richore"],
+      "correctAnswer": 0,
+      "explanation": "'Engonye' is a type of fish."
+    },
+    {
+      "question": "Which of these is the correct plural form of 'Esese' (dog) in Ekegusii?",
+      "options": ["Chisese", "Chimbeba", "Chiombe", "Chieri"],
+      "correctAnswer": 0,
+      "explanation": "The plural of 'Esese' (dog) is 'Chisese'."
+    },
+    {
+      "question": "Which of the following is a domestic animal in Ekegusii?",
+      "options": ["Eng’ondi", "Eng’ombe", "Egechure", "Etuoni"],
+      "correctAnswer": 1,
+      "explanation": "'Eng’ombe' (cow) is a domestic animal."
+    }
+  ]
+}
