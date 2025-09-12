@@ -1,4 +1,4 @@
-import { Courses, Features, Hero } from "@/components";
+import { Courses, Features, Hero, MaintenancePage } from "@/components";
 import BgImage from "@/public/assets/bg.png";
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
   };
 
   return (
+
     <>
       <div style={bgStyle}>
         <Hero />

@@ -5,6 +5,7 @@ import Hero from './Hero/Hero'
 import Navbar from './Navbar/Navbar'
 import HeritageBanner from './AnotherHero/AnotherHero'
 import CourseBanner from './Courses/CourseBanner'
+import MaintenancePage from './Maintenance/Maintenance'
 
 export {
     Courses,
@@ -14,4 +15,5 @@ export {
     Navbar,
     HeritageBanner,
     CourseBanner,
+    MaintenancePage
 }
