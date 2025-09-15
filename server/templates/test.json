@@ -1,1084 +1,1915 @@
 {
-  "title": "Advanced Dholuo Language Course",
-  "structure": "structure.html",
-  "modules": [
-    {
-      "title": "MODULE 04",
-      "description": " Advanced Communication Skills, Cultural Proficiency, Mastery and Application ",
-      "order": 3,
+      "_id": {
+      "$oid": "67d0495484f59d7cef6bfbf4"
+    },
+      "title": "MODULE 02",
+      "description": "Simple Sentence Structures and Basic Grammar",
+      "order": 2,
       "topics": [
         {
-          "title": "Some Other Constituents",
-          "htmlContent": "module-four/1.html",
+          "title": "2.1 Nouns (Part 02)",
+          "type": "container",
           "order": 1,
-          "practiceQuestions": [
-      {
-        "question": "What morpheme signals the conditional clause in Dholuo?",
-        "options": [
-          "[mondo]",
-          "[ka]",
-          "[to]",
-          "[pogae]"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The morpheme [ka] is used to signal conditional clauses in Dholuo."
-      },
-      {
-        "question": "Which of the following sentences illustrates the variation in the positioning of the conditional clause in Dholuo?",
-        "options": [
-          "Ka ng'ato dwaro chiemo to (mondo) otedi.",
-          "Ka in gi pesa to wadhi e duka ka meru ok nyal dhaw.",
-          "Guok ka onego paka to wan gi chandruok.",
-          "All of the above."
-        ],
-        "correctAnswer": 3,
-        "explanation": "All three sentences demonstrate different ways a conditional clause can be positioned within a sentence in Dholuo."
-      },
-      {
-        "question": "In the sentence 'Ka oriemb japuonj to an bende aa,' what does [ka] signify?",
-        "options": [
-          "A subject marker",
-          "A past tense marker",
-          "A conditional clause marker",
-          "A plural marker"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The marker [ka] signals a conditional clause in Dholuo grammar."
-      },
-      {
-        "question": "What restriction applies when there are multiple conditional clauses in one sentence?",
-        "options": [
-          "They must always appear at the beginning of the sentence.",
-          "There is no restriction; conditional clauses can be placed freely.",
-          "The second conditional clause cannot begin the sentence.",
-          "Each conditional clause must contain the word [mondo]."
-        ],
-        "correctAnswer": 2,
-        "explanation": "When there are multiple conditional clauses, the second one cannot begin the sentence."
-      },
-      {
-        "question": "What determines the placement of [ka] within a conditional clause?",
-        "options": [
-          "The presence of an adverbial phrase",
-          "The left-most preverbal nominal constituent",
-          "The use of [mondo] in the sentence",
-          "Whether the sentence contains a verb"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The position of [ka] is determined by the left-most preverbal nominal constituent in the clause."
-      },
-      {
-        "question": "Which sentence demonstrates the unacceptable pattern of conditional clause positioning?",
-        "options": [
-          "Ka in gi kuon to pognae ka meru ok nyal dhaw.",
-          "Ka meru ok nyal dhaw to pognae kuon ka in go.",
-          "Ka in go to pognae kuon ka meru ok nyal dhaw.",
-          "Ka meru ok nyal dhaw to ka in gi kuon to pognae."
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sentence (c) demonstrates an unacceptable structure due to improper ordering of conditional clauses."
-      },
-      {
-        "question": "In the sentence 'Ka paka guok onego to wan gi chandruok,' what syntactic function does [ka] serve?",
-        "options": [
-          "Object marker",
-          "Topicalization marker",
-          "Conditional clause marker",
-          "Possessive marker"
-        ],
-        "correctAnswer": 2,
-        "explanation": "In this sentence, [ka] functions as a marker introducing the conditional clause."
-      },
-      {
-        "question": "Which of the following correctly generalizes the derivational structure of a conditional clause in Dholuo?",
-        "options": [
-          "[Ka] S to [mondo] Q or Q [ka] S",
-          "Q to [ka] S [mondo]",
-          "S [mondo] Q [ka]",
-          "Q S to [ka] [mondo]"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The correct generalization for the structure is '[Ka] S to [mondo] Q' or 'Q [ka] S'."
-      },
-      {
-        "question": "What is the role of a conditional clause in Dholuo syntax?",
-        "options": [
-          "It acts as an adverbial satellite modifying the whole independent clause.",
-          "It always introduces a subject noun phrase.",
-          "It is used to mark tense and aspect.",
-          "It functions only in imperative sentences."
-        ],
-        "correctAnswer": 0,
-        "explanation": "Conditional clauses in Dholuo act as adverbial satellites modifying the entire independent clause."
-      },
-      {
-        "question": "Why is the phrase 'Ka waonge' in the sentence 'Ka in gi pesa to wadhi e duka ka meru ok nyal dhaw kaobiro oyudo ka waonge' not considered a conditional clause?",
-        "options": [
-          "Because it lacks a verb.",
-          "Because it is a temporal rather than a conditional clause.",
-          "Because it contains the word [mondo].",
-          "Because [ka] cannot appear before a noun."
-        ],
-        "correctAnswer": 1,
-        "explanation": "'Ka waonge' is interpreted as a temporal clause, not a conditional clause, even though it contains [ka]."
-      }
-    ]
-        },
-        {
-          "title": "Locative Constituents",
-          "htmlContent": "module-four/2.html",
-          "order": 2,
-          "practiceQuestions": [
-      {
-        "question": "Which of the following best defines a deictic locative (DL) in Dholuo?",
-        "options": [
-          "A locative phrase that requires a prepositional marker.",
-          "A locative element that functions without a prepositional marker.",
-          "A locative phrase that must always appear at the end of a sentence.",
-          "A locative phrase that does not indicate spatial reference."
-        ],
-        "correctAnswer": 1,
-        "explanation": "Deictic locatives (DL) in Dholuo function independently without the need for a prepositional marker."
-      },
-      {
-        "question": "What is the fundamental difference between deictic locative (DL) and non-deictic locative (NDL) elements in Dholuo?",
-        "options": [
-          "DL elements require a prepositional marker, whereas NDL elements do not.",
-          "DL elements function without a prepositional marker, whereas NDL elements usually require one.",
-          "DL elements are only used in questions, while NDL elements are used in statements.",
-          "DL elements are always positioned at the beginning of a sentence."
-        ],
-        "correctAnswer": 1,
-        "explanation": "DL elements do not need prepositional markers, unlike NDL elements which usually require them."
-      },
-      {
-        "question": "Which of the following is NOT a deictic locative (DL) in Dholuo?",
-        "options": [
-          "ka",
-          "kanyo",
-          "kacha",
-          "e dho nam"
-        ],
-        "correctAnswer": 3,
-        "explanation": "'e dho nam' includes a prepositional marker, making it a non-deictic locative."
-      },
-      {
-        "question": "In the sentence 'Japuonj ndiko baruwa ne nyathine gi kalam sani e sikul,' what type of locative is 'e sikul'?",
-        "options": [
-          "Deictic locative (DL)",
-          "Non-deictic locative (NDL)",
-          "Temporal marker",
-          "Subject pronoun"
-        ],
-        "correctAnswer": 1,
-        "explanation": "'e sikul' is a non-deictic locative because it contains the prepositional marker 'e'."
-      },
-      {
-        "question": "Which of the following sentences correctly places both a DL and NDL element?",
-        "options": [
-          "Japuonj ndiko baruwa ne nyathine gi kalam sani e sikul ka",
-          "Japuonj ndiko e sikul ka baruwa ne nyathine gi kalam sani",
-          "Japuonj ndiko baruwa ne nyathine ka e sikul gi kalam sani",
-          "Japuonj e sikul ka ndiko baruwa ne nyathine gi kalam sani"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The sentence correctly positions both the DL 'ka' and NDL 'e sikul'."
-      },
-      {
-        "question": "Which of the following statements about Dholuo locative constituents is TRUE?",
-        "options": [
-          "NDL elements never require a prepositional marker.",
-          "DL elements can function without a prepositional marker.",
-          "DL elements always appear at the end of a sentence.",
-          "NDL elements and DL elements are interchangeable in all sentence structures."
-        ],
-        "correctAnswer": 1,
-        "explanation": "DL elements do not need prepositional markers to function, making them flexible in structure."
-      },
-      {
-        "question": "What happens when 'ka' (a DL) is positioned immediately after 'ndiko' (write) in a sentence?",
-        "options": [
-          "The sentence remains grammatically correct.",
-          "The sentence becomes ungrammatical.",
-          "The sentence becomes a question.",
-          "The meaning of the sentence changes significantly."
-        ],
-        "correctAnswer": 1,
-        "explanation": "Placing 'ka' directly after the verb disrupts the syntax, making the sentence ungrammatical."
-      },
-      {
-        "question": "In which of the following sentences is the locative placement INCORRECT?",
-        "options": [
-          "Japuonj ndiko baruwa e sikul ne nyathine gi kalam sani",
-          "Japuonj ndiko baruwa ne nyathine e sikul gi kalam sani",
-          "Japuonj e sikul ndiko baruwa ne nyathine gi kalam sani",
-          "Japuonj ndiko baruwa ne nyathine gi kalam sani e sikul"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Locating 'e sikul' before the verb 'ndiko' in this context violates the acceptable locative structure in Dholuo."
-      },
-      {
-        "question": "Why is 'ka' not acceptable in the sentence 'Japuonj ndiko e sikul ka baruwa ne nyathine gi kalam sani'?",
-        "options": [
-          "Because DL elements cannot follow NDL elements in this structure.",
-          "Because 'ka' must always appear before the verb.",
-          "Because 'ka' must be placed after 'gi kalam.'",
-          "Because 'ka' does not function as a locative in this context."
-        ],
-        "correctAnswer": 0,
-        "explanation": "In Dholuo, DL elements like 'ka' should not follow NDL elements like 'e sikul' in this syntactic structure."
-      },
-      {
-        "question": "What is the preferred locative arrangement in Dholuo for long sentences?",
-        "options": [
-          "Top-TA-Alpha",
-          "TA-Top-Alpha",
-          "Alpha-Top-TA",
-          "TA-Alpha-Top"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Top-TA-Alpha is the preferred arrangement for locative constituents in complex or long Dholuo sentences."
-      }
-    ]
-        },
-        {
-          "title": "Words Donge, Bende and Nang'o",
-          "htmlContent": "module-four/3.html",
-          "order": 3,
-          "practiceQuestions": [
-      {
-        "question": "What is the primary semantic role of the Dholuo Q-words donge, bende, and nang’o?",
-        "options": [
-          "They function as auxiliary verbs",
-          "They serve as interrogative pronouns",
-          "They act as Q-elements with a questioning function",
-          "They replace subject nouns in a sentence"
-        ],
-        "correctAnswer": 2,
-        "explanation": "These Q-words serve a questioning function, making them Q-elements in Dholuo syntax."
-      },
-      {
-        "question": "Which of the following statements about [donge] is true based on its surface positioning?",
-        "options": [
-          "It can only appear before the verb in a sentence.",
-          "It is strictly a sentence-final element.",
-          "It is generally free in its positioning but restricted in post-verbal placement.",
-          "It is only used in sentences with negation."
-        ],
-        "correctAnswer": 2,
-        "explanation": "[Donge] is flexible in placement but cannot freely appear immediately after verbs."
-      },
-      {
-        "question": "Why are some sentence constructions with [donge] marked as ungrammatical?",
-        "options": [
-          "Because [donge] can only appear at the start of a sentence.",
-          "Because it cannot occur in the middle of the sentence disrupting syntactic flow.",
-          "Because it can only modify verb phrases directly.",
-          "Because it does not function as an independent constituent."
-        ],
-        "correctAnswer": 1,
-        "explanation": "Positioning [donge] mid-sentence inappropriately can disrupt syntactic flow, leading to ungrammaticality."
-      },
-      {
-        "question": "What is a key distinction between the positioning of [donge] and [bende]?",
-        "options": [
-          "[Donge] can appear sentence-finally as a question tag, while [bende] cannot.",
-          "[Bende] must always precede the verb, while [donge] follows it.",
-          "[Bende] is completely unrestricted in positioning, unlike [donge].",
-          "[Donge] occurs mainly in informal speech, while [bende] is formal."
-        ],
-        "correctAnswer": 0,
-        "explanation": "[Donge] can function as a sentence-final tag, which [bende] typically does not."
-      },
-      {
-        "question": "Which of the following is an acceptable sentence structure for [bende] in preverbal positioning?",
-        "options": [
-          "Ruoth kelo pesa bende ne joticbne kawuono?",
-          "Pesa ruoth kelo ne joticbne bende kawuono?",
-          "Bende ruoth kelo pesa ne joticbne kawuono?",
-          "Ruoth kelo pesa ne joticbne kawuono bende?"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Preverbal positioning of [bende] as in Option C is grammatically acceptable."
-      },
-      {
-        "question": "What key feature differentiates the syntactic flexibility of [nang’o] from that of [donge] and [bende]?",
-        "options": [
-          "[Nang’o] can freely occur at the beginning, middle, or end of a sentence.",
-          "[Nang’o] must always be in the sentence-final position.",
-          "[Nang’o] functions only in embedded clauses.",
-          "[Nang’o] cannot co-occur with temporal elements like \"kawuono.\""
-        ],
-        "correctAnswer": 0,
-        "explanation": "[Nang’o] shows greater flexibility in sentence position compared to [donge] and [bende]."
-      },
-      {
-        "question": "What is the preferred positioning for [nang’o] in a Dholuo sentence?",
-        "options": [
-          "Before the subject",
-          "After the verb",
-          "At the end of the sentence",
-          "Before the prepositional phrase"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The natural and preferred placement for [nang’o] is at the sentence-final position."
-      },
-      {
-        "question": "Which of the following correctly illustrates an acceptable sentence structure involving [nang’o]?",
-        "options": [
-          "Maria chamo nang’o rech e jikon kawuono?",
-          "Maria chamo rech e jikon kawuono nang’o?",
-          "Maria chamo rech nang’o e jikon kawuono?",
-          "Nang’o rech Maria chamo e jikon kawuono?"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Sentence-final placement of [nang’o] in Option B follows common usage patterns."
-      },
-      {
-        "question": "Why is the sentence \"Maria chamo rech e jikon nang’o kawuono?\" more acceptable to some speakers?",
-        "options": [
-          "Because the placement of [kawuono] before the verb increases acceptability.",
-          "Because [nang’o] functions better when it directly modifies a noun.",
-          "Because it follows the rule of [bende] and [donge] positioning.",
-          "Because it eliminates the need for a subject in the sentence."
-        ],
-        "correctAnswer": 0,
-        "explanation": "The repositioning of temporal elements like [kawuono] improves the sentence’s flow and acceptability."
-      },
-      {
-        "question": "What can be concluded about the general syntactic behavior of Q-words in Dholuo?",
-        "options": [
-          "They are strictly bound to a fixed sentence position.",
-          "They follow a completely random distribution in sentence structures.",
-          "They exhibit some flexibility but follow distinct positional constraints.",
-          "They do not affect sentence structure and can be omitted without altering meaning."
-        ],
-        "correctAnswer": 2,
-        "explanation": "Q-words in Dholuo show positional variation, but within structured syntactic limits."
-      }
-    ]
-        },
-        {
-          "title": "Idiomatic Expressions",
-          "htmlContent": "module-four/4.html",
-          "order": 4,
-          "practiceQuestions": [
-      {
-        "question": "What does the Dholuo idiom \"goyo oriti\" mean?",
-        "options": [
-          "To make noise",
-          "To say good-bye",
-          "To paint",
-          "To play soccer"
-        ],
-        "correctAnswer": 1,
-        "explanation": "\"Goyo oriti\" is a polite or affectionate way of bidding farewell in Dholuo."
-      },
-      {
-        "question": "Which of the following idioms expresses perseverance in Dholuo?",
-        "options": [
-          "Bul Ng’or",
-          "Twee Okanda",
-          "Cham Nyanji",
-          "Achiedh Nade"
-        ],
-        "correctAnswer": 1,
-        "explanation": "\"Twee Okanda\" literally means 'iron rod bends,' metaphorically representing endurance or perseverance."
-      },
-      {
-        "question": "The expression \"wiye owil\" in Dholuo figuratively means:",
-        "options": [
-          "He is sad",
-          "He is intelligent",
-          "He has forgotten",
-          "He is angry"
-        ],
-        "correctAnswer": 1,
-        "explanation": "\"Wiye owil\" implies sharpness of mind or intelligence — 'his brain is fast'."
-      },
-      {
-        "question": "If someone tells you \"Piny Obaya Gi Bad Ogwal\", what does it mean?",
-        "options": [
-          "They are warning of a coming disaster",
-          "They are describing failure",
-          "They are encouraging someone",
-          "They are referring to a tough situation"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The idiom literally translates to 'the world has ended like a frog’s back' and denotes failure or a bad outcome."
-      },
-      {
-        "question": "Which idiom means \"Relax\" in Dholuo?",
-        "options": [
-          "Ng’ado Guok",
-          "Ol Pii e Agogi",
-          "Bul Ng’or",
-          "Kaa Laki"
-        ],
-        "correctAnswer": 2,
-        "explanation": "\"Bul Ng’or\" is a calming idiomatic expression meaning 'take it easy' or 'relax.'"
-      },
-      {
-        "question": "The literal translation of \"mako ich\" is \"to hold stomach.\" What does it actually mean?",
-        "options": [
-          "To be full",
-          "To have stomach pain",
-          "To conceive",
-          "To be scared"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Figuratively, \"mako ich\" is a euphemism for pregnancy or conceiving."
-      },
-      {
-        "question": "In Dholuo, what does \"Cham Nyanji\" figuratively mean?",
-        "options": [
-          "To be patient",
-          "To compromise",
-          "To be greedy",
-          "To humble oneself"
-        ],
-        "correctAnswer": 3,
-        "explanation": "\"Cham Nyanji\" (eating leftovers) implies humility or being modest."
-      },
-      {
-        "question": "If a Dholuo speaker says \"chieth opong’o odheru\", what are they referring to?",
-        "options": [
-          "A funny situation",
-          "A difficult time",
-          "A misunderstanding",
-          "A happy event"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Literally 'ashes have filled the fireplace,' referring to hardship or tough times."
-      },
-      {
-        "question": "What does the idiom \"Olwar e Pii gi Lepe\" convey?",
-        "options": [
-          "Things turned against someone",
-          "Someone is stubborn",
-          "A person is exhausted",
-          "Someone is being encouraged"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The phrase implies a person is caught in an unfavorable situation, like being swept in turbulent waters with luggage."
-      },
-      {
-        "question": "Which of the following idioms means “Ignore” in Dholuo?",
-        "options": [
-          "Go gi Chung’",
-          "Kaa Laki",
-          "Din Iti",
-          "Dee Nyuok"
-        ],
-        "correctAnswer": 0,
-        "explanation": "\"Go gi Chung’\" is used to indicate brushing something off or ignoring someone/something."
-      }
-    ]
-        },
-        {
-          "title": "Dholuo Oral Literature and Poetry",
-          "htmlContent": "module-four/5.html",
-          "order": 5,
-          "practiceQuestions": [
-      {
-        "question": "What was the primary purpose of music in the Luo community?",
-        "options": [
-          "For entertainment only",
-          "To express personal emotions",
-          "It was functional, serving ceremonial, religious, and political purposes",
-          "To replace written records"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Music in the Luo community was functional, used in ceremonies, religious events, and political settings."
-      },
-      {
-        "question": "Which of the following is NOT a genre of Luo oral literature?",
-        "options": [
-          "Sigana (narratives)",
-          "Pakruok (self-praise)",
-          "Tugo (drama/play)",
-          "Mitunguu (legends)"
-        ],
-        "correctAnswer": 3,
-        "explanation": "‘Mitunguu’ is not a recognized genre in Luo oral literature, unlike Sigana, Pakruok, and Tugo."
-      },
-      {
-        "question": "Which Luo proverb emphasizes the importance of intelligence?",
-        "options": [
-          "Chieng’ Ber nenore okinyi",
-          "Obwongo en mwandu",
-          "Ng’ama paro ni ochung’, ong’i kik ogore piny",
-          "Piyopiyo onge gi gweth"
-        ],
-        "correctAnswer": 1,
-        "explanation": "‘Obwongo en mwandu’ means 'intelligence is wealth', emphasizing the value of intellect."
-      },
-      {
-        "question": "What is the primary function of proverbs in Luo society?",
-        "options": [
-          "To confuse listeners",
-          "To entertain people at gatherings",
-          "To provide moral instruction and wisdom",
-          "To create complex poetry"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Luo proverbs are rich in moral teaching and often convey traditional wisdom."
-      },
-      {
-        "question": "How do Luo proverbs relate to idioms?",
-        "options": [
-          "They both have literal meanings only",
-          "Proverbs are statements of wisdom, while idioms are figurative expressions",
-          "Idioms are only found in English, while proverbs exist in Luo",
-          "Proverbs are used for humor, while idioms teach moral lessons"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Proverbs are wise sayings; idioms are culturally specific expressions not always literal."
-      },
-      {
-        "question": "What does the proverb \"A cowardly hyena lives for many years\" mean?",
-        "options": [
-          "A hyena is stronger than other animals",
-          "Being cautious and patient leads to survival",
-          "Cowards do not face their fears",
-          "Hyenas are scared animals"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The proverb praises caution and patience as traits that help ensure survival."
-      },
-      {
-        "question": "Which Luo proverb warns against acting too hastily?",
-        "options": [
-          "Chieng’ Ber nenore okinyi",
-          "Piyopiyo onge gi gweth",
-          "Obwongo en mwandu",
-          "A hare is small but gives birth to twins"
-        ],
-        "correctAnswer": 1,
-        "explanation": "‘Piyopiyo onge gi gweth’ means 'haste has no blessings', warning against rushing into actions."
-      },
-      {
-        "question": "What is the literal meaning of the proverb \"Chieng’ Ber nenore okinyi\"?",
-        "options": [
-          "A bad day starts in the morning",
-          "The sun is always bright in the morning",
-          "A good day is visible in the morning",
-          "Rain comes before the sun rises"
-        ],
-        "correctAnswer": 2,
-        "explanation": "This proverb suggests that the success or failure of a day is often evident early on."
-      },
-      {
-        "question": "What is the role of oral literature in the Luo community?",
-        "options": [
-          "It is used only for amusement",
-          "It helps preserve cultural identity and history",
-          "It is written down in historical books",
-          "It is only performed during ceremonies"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Oral literature is central to the preservation of Luo culture and history."
-      },
-      {
-        "question": "Which of the following best describes how Luo proverbs are transmitted?",
-        "options": [
-          "Through written records and textbooks",
-          "Through oral storytelling and conversation",
-          "Only through formal education in schools",
-          "By translating them into multiple languages"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Luo proverbs are passed down orally through storytelling and informal communication."
-      }
-    ]
-        },
-        {
-          "title": "Translating and interpreting Dholuo poetry",
-          "htmlContent": "module-four/6.html",
-          "order": 6,
-          "practiceQuestions": [
-      {
-        "question": "What is the primary purpose of a tongue twister in Luo culture?",
-        "options": [
-          "To confuse listeners deliberately",
-          "To make fun of people who mispronounce words",
-          "To provide a spoken word game for entertainment and articulation practice",
-          "To replace proverbs in cultural teachings"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Tongue twisters serve as spoken word games used for entertainment and articulation practice in Luo culture."
-      },
-      {
-        "question": "Why are some tongue twisters humorous when spoken aloud?",
-        "options": [
-          "Because they always contain funny words",
-          "Because they involve mispronunciations and speaker mistakes",
-          "Because they use only nonsense words",
-          "Because they are always told as jokes"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Tongue twisters often cause mispronunciations and mistakes, leading to humorous effects when spoken aloud."
-      },
-      {
-        "question": "What is a common characteristic of Luo riddles (ngeche)?",
-        "options": [
-          "They always involve storytelling",
-          "They present statements or questions with hidden meanings",
-          "They are only used to test intelligence",
-          "They do not require critical thinking"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Luo riddles typically present questions or statements with hidden meanings that require thoughtful interpretation."
-      },
-      {
-        "question": "What is an example of an enigma riddle in Luo culture?",
-        "options": [
-          "\"My house has no door\" referring to an egg",
-          "\"The more you take, the more you leave behind\" referring to footsteps",
-          "\"A hare is small but gives birth to twins\" referring to unexpected potential",
-          "\"A cowardly hyena lives for many years\" referring to careful survival"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The riddle \"My house has no door\" is an enigma in Luo culture, metaphorically referring to an egg."
-      },
-      {
-        "question": "How do riddles contribute to community bonding in Luo culture?",
-        "options": [
-          "By making people laugh at each other",
-          "By encouraging arguments and debates",
-          "By creating social engagement through competitive exchanges",
-          "By ensuring only the smartest people can participate"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Riddles foster social interaction and engagement through fun, competitive exchanges that bring people together."
-      },
-      {
-        "question": "How are riddles and proverbs connected in Luo tradition?",
-        "options": [
-          "Riddles and proverbs are always used separately",
-          "Proverbs are used to explain riddles and offer moral reflections",
-          "Riddles are considered more important than proverbs",
-          "Proverbs are only used by elders, while riddles are for children"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Proverbs often follow riddles in Luo culture to offer moral insight or wisdom, reinforcing their educational value."
-      },
-      {
-        "question": "Which Luo proverb warns against ingratitude?",
-        "options": [
-          "\"A cowardly hyena lives for many years\"",
-          "\"A hare is small but gives birth to twins\"",
-          "\"The eye you have treated will look at you contemptuously\"",
-          "\"My house has no door\""
-        ],
-        "correctAnswer": 2,
-        "explanation": "The proverb \"The eye you have treated will look at you contemptuously\" cautions against ingratitude."
-      },
-      {
-        "question": "What lesson does the proverb \"A cowardly hyena lives for many years\" teach?",
-        "options": [
-          "That bravery is the best survival tactic",
-          "That those who take risks will always win",
-          "That caution and patience can help one survive",
-          "That hyenas are the smartest animals"
-        ],
-        "correctAnswer": 2,
-        "explanation": "This proverb teaches that cautious and patient behavior can lead to long-term survival."
-      },
-      {
-        "question": "What is one moral or philosophical question addressed by Luo riddles and proverbs?",
-        "options": [
-          "Why do people die?",
-          "How do birds fly?",
-          "Why do the Luo live near lakes?",
-          "What is the fastest way to run?"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Luo riddles and proverbs often address deep moral and philosophical questions such as the nature of life and death."
-      },
-      {
-        "question": "Why do riddles serve as important teaching tools in Luo culture?",
-        "options": [
-          "Because they test how well someone can memorize stories",
-          "Because they pass down traditional wisdom and encourage ethical reflection",
-          "Because they replace formal education in schools",
-          "Because they are only used for entertainment"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Riddles in Luo culture help transmit traditional knowledge and stimulate moral reasoning across generations."
-      }
-    ]
-        },
-        {
-          "title": "Review & Practice",
-          "htmlContent": "module-four/7.html",
-          "order": 7
-        },
-        {
-          "title": "Public Speaking and Debate",
-          "htmlContent": "module-four/8.html",
-          "order": 8,
-          "practiceQuestions": [
-      {
-        "question": "What was the primary role of elders (jodongo) in Luo public speaking?",
-        "options": [
-          "Telling fictional stories for entertainment",
-          "Addressing the community on important matters",
-          "Teaching children how to dance",
-          "Writing speeches for the younger generation"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Elders (jodongo) were respected figures who addressed the community on important social, political, and cultural matters."
-      },
-      {
-        "question": "Which of the following was a key cultural foundation of Luo public speaking?",
-        "options": [
-          "Written speeches",
-          "Storytelling tradition (sigana)",
-          "Use of technology in presentations",
-          "Reciting speeches from books"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The storytelling tradition (sigana) was central to Luo public speaking, serving both instructional and rhetorical purposes."
-      },
-      {
-        "question": "What is the purpose of the introduction in a Luo speech?",
-        "options": [
-          "To immediately present the conclusion",
-          "To summarize all points at once",
-          "To capture the audience’s attention and establish rapport",
-          "To provide unrelated information before the main topic"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The introduction sets the tone for the speech, engages the audience, and establishes a connection with listeners."
-      },
-      {
-        "question": "How was storytelling (sigana) used in Luo public speaking?",
-        "options": [
-          "To structure speeches using metaphors and anecdotes",
-          "To replace formal speeches in important meetings",
-          "To entertain children during ceremonies",
-          "To confuse the audience with unnecessary details"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Storytelling was used to illustrate points and engage listeners using cultural metaphors and narratives."
-      },
-      {
-        "question": "Which of the following is a technique for organizing a speech in Luo culture?",
-        "options": [
-          "Starting with the conclusion",
-          "Using a narrative structure with a problem, solution, and call to action",
-          "Avoiding cultural references",
-          "Speaking without any logical flow"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Luo speeches often followed a narrative format, presenting a problem, offering solutions, and ending with a call to action."
-      },
-      {
-        "question": "What technique did Luo speakers use to guide the audience through their speech?",
-        "options": [
-          "Ignoring transitional phrases",
-          "Using transitional phrases for logical flow",
-          "Speaking in one continuous sentence",
-          "Pausing frequently to let the audience guess the next point"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Transitional phrases were used to maintain flow and clarity in the structure of the speech."
-      },
-      {
-        "question": "Why was eye contact important in Luo public speaking?",
-        "options": [
-          "It helped memorize the speech",
-          "It created a connection and built trust with the audience",
-          "It was used only when addressing elders",
-          "It helped the speaker avoid nervousness"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Maintaining eye contact helped speakers build trust and demonstrate sincerity to their audience."
-      },
-      {
-        "question": "What was the function of proverbs (ngero) in Luo speech conclusions?",
-        "options": [
-          "To introduce a new topic",
-          "To summarize key points and leave a lasting impression",
-          "To confuse the audience with difficult words",
-          "To distract listeners from the main message"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Proverbs were commonly used at the end of speeches to emphasize core messages and provide cultural wisdom."
-      },
-      {
-        "question": "Which of the following was NOT a delivery technique used in Luo public speaking?",
-        "options": [
-          "Vocal modulation",
-          "Avoiding eye contact",
-          "Body language",
-          "Pacing and pauses"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Avoiding eye contact was not encouraged; effective speakers used voice, gestures, and eye contact to enhance delivery."
-      },
-      {
-        "question": "What was a key function of public speaking in traditional Luo society?",
-        "options": [
-          "Strengthening social cohesion and decision-making",
-          "Encouraging personal wealth accumulation",
-          "Promoting individual competition over communal unity",
-          "Preventing storytelling from being used in communication"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Public speaking in traditional Luo society was vital for promoting unity, sharing knowledge, and guiding communal decisions."
-      }
-    ]
-        },
-        {
-          "title": "Debating strategies and structuring arguments",
-          "htmlContent": "module-four/9.html",
-          "order": 9,
-          "practiceQuestions": [
-      {
-        "question": "What was the primary function of debate in traditional Luo society?",
-        "options": [
-          "To promote individual dominance in the community",
-          "To foster critical thinking and collaborative decision-making",
-          "To replace storytelling as the main form of communication",
-          "To entertain elders with complex arguments"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Debates were used to engage in critical thinking and facilitate collaborative decision-making for the good of the community."
-      },
-      {
-        "question": "How were debates used in conflict resolution among the Luo?",
-        "options": [
-          "They allowed the most powerful individual to dictate the outcome",
-          "They were used to avoid resolving disputes and prolong conflicts",
-          "They involved participants presenting arguments to elders or community leaders for judgment",
-          "They focused only on personal grievances rather than communal issues"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Debates provided a structured platform for presenting arguments, allowing elders or leaders to assess and resolve conflicts."
-      },
-      {
-        "question": "What was a key feature of communal governance debates in Luo society?",
-        "options": [
-          "Emphasizing collective decision-making over individual dominance",
-          "Encouraging aggressive competition among leaders",
-          "Promoting secrecy in decision-making processes",
-          "Avoiding discussions on important communal issues"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Luo debates focused on unity and consensus-building rather than individual control."
-      },
-      {
-        "question": "What was the first step in structuring arguments in a Luo debate?",
-        "options": [
-          "Presenting counterarguments immediately",
-          "Clearly defining the issue and stating one’s position",
-          "Avoiding any cultural references",
-          "Starting with the rebuttal"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Debaters began by clearly stating the issue and their stance to lay a solid foundation for discussion."
-      },
-      {
-        "question": "How did Luo debaters strengthen their arguments?",
-        "options": [
-          "By using cultural values, historical examples, or personal anecdotes",
-          "By making random statements without logical connections",
-          "By speaking louder than their opponents",
-          "By ignoring opposing arguments"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Debaters used culturally resonant examples and values to make their points more convincing and relatable."
-      },
-      {
-        "question": "What was the purpose of the rebuttal in a Luo debate?",
-        "options": [
-          "To ignore opposing arguments",
-          "To directly address and refute opposing arguments with logical reasoning",
-          "To repeat the opening statement",
-          "To change the topic of the debate"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Rebuttals allowed speakers to counter opposing points thoughtfully and logically."
-      },
-      {
-        "question": "Why was cultural relevance important in Luo debates?",
-        "options": [
-          "It made arguments more relatable and persuasive to the audience",
-          "It allowed debaters to avoid answering difficult questions",
-          "It made debates longer and more complicated",
-          "It helped speakers avoid logical consistency"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Tying arguments to cultural context made them more meaningful and effective for the audience."
-      },
-      {
-        "question": "How did debates contribute to leadership and governance in Luo society?",
-        "options": [
-          "They ensured that communal decisions were democratic and inclusive",
-          "They allowed leaders to impose their decisions without opposition",
-          "They discouraged open discussions among community members",
-          "They were used only for entertainment purposes"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Debates helped foster inclusive and participatory decision-making in governance."
-      },
-      {
-        "question": "What role did speeches and debates play in cultural education among the Luo?",
-        "options": [
-          "They transmitted knowledge and cultural values to younger generations",
-          "They were only used for entertainment at ceremonies",
-          "They focused only on political leadership and ignored other aspects of life",
-          "They prevented the use of oral traditions in communication"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Debating and public speaking were tools for teaching values, history, and knowledge to the youth."
-      },
-      {
-        "question": "How did Luo debaters maintain respect and civility in debates?",
-        "options": [
-          "By avoiding personal attacks and upholding community harmony",
-          "By interrupting opponents frequently to gain an advantage",
-          "By refusing to acknowledge opposing viewpoints",
-          "By using aggressive language to dominate discussions"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Respect and community harmony were crucial, so debaters avoided personal attacks and maintained civility."
-      }
-    ]
-        },
-        {
-          "title": "Advanced Listening, Interpretation and Writing",
-          "htmlContent": "module-four/10.html",
-          "order": 10,
-          "practiceQuestions": [
-      {
-        "question": "What was the primary purpose of music in Luo culture?",
-        "options": [
-          "To serve specific functional purposes within the community",
-          "To entertain without any deeper meaning",
-          "To replace storytelling as the main form of communication",
-          "To imitate Western musical styles"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Music in Luo culture served specific functional purposes such as for ceremonies, communal work, and spiritual significance."
-      },
-      {
-        "question": "In which ceremony was music used to praise the departed and console the bereaved?",
-        "options": [
-          "Dudu",
-          "Tero Buru",
-          "Ohangla",
-          "Ramogi"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Tero Buru ceremony involved music to honor and console those mourning the loss of loved ones."
-      },
-      {
-        "question": "How did Luo music contribute to communal work activities?",
-        "options": [
-          "By helping workers maintain a rhythmic pace and foster teamwork",
-          "By distracting workers from their tasks",
-          "By replacing verbal communication during labor",
-          "By being performed only in private settings"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Luo music helped to synchronize the rhythm of work and promote cooperation among community members."
-      },
-      {
-        "question": "Which of the following was a spiritual use of music in Luo culture?",
-        "options": [
-          "Organizing wrestling matches",
-          "Composing war songs for returning warriors",
-          "Chasing away evil spirits, such as in Nyawawa songs",
-          "Enhancing beer parties (Dudu)"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Music was used spiritually, including the Nyawawa songs that were intended to drive away evil spirits."
-      },
-      {
-        "question": "Which of the following was a key characteristic of Luo music's rhythmic structure?",
-        "options": [
-          "Simple and monotonous beats",
-          "Complex syncopation with anacrusic beginnings",
-          "Complete absence of rhythm in songs",
-          "Strict use of Western-style time signatures"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Luo music was characterized by complex rhythms, with syncopation and anacrusic (off-beat) beginnings."
-      },
-      {
-        "question": "What was the purpose of the call-and-response style in Luo music?",
-        "options": [
-          "To create audience participation and interaction with the lead singer",
-          "To limit the number of people involved in performances",
-          "To avoid repetition in songs",
-          "To discourage communal involvement in music"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Call-and-response allowed the audience to actively participate and engage with the music."
-      },
-      {
-        "question": "What was the role of Pakruok in Luo musical performances?",
-        "options": [
-          "It involved a performer pausing to chant self-praise",
-          "It was a type of slow, mournful singing style",
-          "It was a traditional musical instrument",
-          "It was used to teach young children how to sing"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Pakruok referred to a style of self-praise chanting used by performers during certain musical rituals."
-      },
-      {
-        "question": "Which instrument was central to traditional Luo music and later replaced by the guitar in Benga music?",
-        "options": [
-          "Tung' (Horn)",
-          "Nyatiti (Eight-stringed lyre)",
-          "Abul (Trumpet)",
-          "Sigalagala (Ululation)"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Nyatiti, a traditional eight-stringed lyre, was a central instrument in traditional Luo music before being replaced by the guitar in Benga music."
-      },
-      {
-        "question": "How did Benga music modify traditional Luo musical styles?",
-        "options": [
-          "By fusing traditional rhythms with Western instruments, particularly the guitar",
-          "By completely replacing traditional Luo instruments with electronic sounds",
-          "By adopting only Western melodies while ignoring Luo musical elements",
-          "By using no lyrics and focusing solely on instrumentals"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Benga music combined traditional Luo rhythms with Western instruments like the guitar, creating a modern fusion."
-      },
-      {
-        "question": "What did traditional Luo performers wear during musical performances?",
-        "options": [
-          "Skins, beads, and clay-based ornaments reflecting cultural identity",
-          "Only modern Western-style outfits",
-          "Expensive jewelry made of imported materials",
-          "Plain, undecorated clothing without symbolic meaning"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Traditional Luo performers wore attire such as skins, beads, and ornaments that reflected their cultural identity."
-      }
-    ]
-        },
-        {
-          "title": "Writing essays on complex topics",
-          "htmlContent": "module-four/11.html",
-          "order": 11
-        },
-        {
-          "title": "Review & Practice",
-          "htmlContent": "module-four/12.html",
-          "order": 12
-        }
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfbf5"
+          },
+          "subtopics": [
+            {
+              "title": "2.1.1 Accent Groups",
+              "htmlContent": "kisii/beginner/module-two/1.html",
+              "order": 1,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbf6"
+          },
+              "practiceQuestions": [
+    {
+      "question": "In which dialect is the vowel in the first syllable of Ekegusii often pronounced as /e/, and in which is pronounced as /i/ respectively?",
+      "options": [
+        "Bonchari and Bobasi",
+        "Bobasi and Bonchari",
+        "Borabu and Bobasi",
+        "Borabu and Nyaribari"
       ],
-      "cat": ""
+      "correctAnswer": 3,
+      "explanation": "In Borabu dialect, the vowel is pronounced as /e/, while in Nyaribari dialect it is pronounced as /i/."
+    },
+    {
+      "question": "What is the variation in the word “slippers” between the Northern and the Southern dialects of Ekegusii respectively?",
+      "options": [
+        "Chitaratara and chisiripasi",
+        "Chisiripasi and chitarara",
+        "All regions",
+        "Chisiripasi only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Northern dialects use 'Chisiripasi' while Southern dialects use 'Chitarara' to refer to slippers."
+    },
+    {
+      "question": "Which one of the following is not a linguistic and cultural implication in Ekegusii language?",
+      "options": [
+        "Mutual Intelligibility",
+        "Social Perception",
+        "Markers of cultural identity",
+        "Lexical Enrichment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "While Ekegusii dialects reflect mutual intelligibility, cultural identity, and lexical enrichment, social perception is not classified as a direct linguistic implication."
+    },
+    {
+      "question": "Which one of the following is not a feature of the Rogoro Abagusii Dialect?",
+      "options": [
+        "Spoken in the Northern part of Gusiiland",
+        "Uses terms like Chitaratarara",
+        "Considered the standard dialect",
+        "Uses terms like chisiripasi for sandals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Rogoro dialect is standard and Northern, but it does not use terms like 'Chitaratarara,' which belong to other dialects."
+    },
+    {
+      "question": "The term “Omogango” meaning “cooking stick” is commonly used in which region(s)?",
+      "options": [
+        "Both",
+        "Rogoro",
+        "Maate",
+        "Central"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The word 'Omogango' is typically associated with the Maate dialect region."
+    },
+    {
+      "question": "What are the Key factors contributing to Dialectal Variation?",
+      "options": [
+        "Social perception and its vocabulary",
+        "Barriers to understanding",
+        "Geography and social perception",
+        "Geography and standard dialect"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Geography and social perception play key roles in shaping dialectal variation in Ekegusii."
+    },
+    {
+      "question": "What function do vocabulary and pronunciation differences serve across regional Ekegusii varieties?",
+      "options": [
+        "Create barriers to understanding",
+        "Signal cultural and geographical identity",
+        "Indicate formal vs. informal usage",
+        "Limit expressive ability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Variations in vocabulary and pronunciation mainly signal cultural and geographical identity among speakers."
+    },
+    {
+      "question": "Which region shows strong influence from oral tradition and emphasizes rhythm and metaphor in everyday speech?",
+      "options": [
+        "Maate",
+        "Moino",
+        "Rogoro",
+        "Gati"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Rogoro dialect is strongly influenced by oral tradition and emphasizes rhythm and metaphor in communication."
+    },
+    {
+      "question": "How do dialects differ in vocabulary?",
+      "options": [
+        "The only difference is in the pronunciation",
+        "There is no difference",
+        "The dialects have different words for the same objects, with variations occurring in vocabulary",
+        "Articulation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ekegusii dialects often use different words for the same objects, showing clear vocabulary variation."
+    },
+    {
+      "question": "What are the main dialects of Ekegusii?",
+      "options": [
+        "Maate and Moino",
+        "Rogoro and Maate",
+        "Rogoro and Moino",
+        "Rogoro and Gati"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main dialects of Ekegusii are Rogoro and Maate, which are widely recognized and studied."
     }
   ],
-  "user": "64f8a8b47e89f752f9ef2c2a",
-  "isPublished": false
+              "passingScore": 50
+            },
+            {
+              "title": "2.1.2 Provenance of the Abagusii",
+              "htmlContent": "kisii/beginner/module-two/2.html",
+              "order": 2,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbf7"
+          },
+              "practiceQuestions": [
+    {
+      "question": "In Ekegusii morphology, which prefix best reflects a territorial origin when referring specifically to a person from Bobasi?",
+      "options": [
+        "Omosubati",
+        "Omoasi",
+        "Omobasi",
+        "OyoBobasi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'Omobasi' is the correct ethnonymic form for a person from Bobasi in Ekegusii."
+    },
+    {
+      "question": "Which of the following pairs correctly demonstrates the singular and plural ethnonymic forms for people from Uganda?",
+      "options": [
+        "Boganda / Oyoboganda",
+        "Boganda / Oganda",
+        "Omoganda / Oyoboganda",
+        "Oyoboganda / Uganda"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The singular form is 'Omoganda' and the plural form is 'Oyoboganda' when referring to people from Uganda."
+    },
+    {
+      "question": "Which region is matched incorrectly with its feminine ethnonymic form?",
+      "options": [
+        "Omomanyi – Oyobomanyi",
+        "Bokione – Oyobokione",
+        "Gusii – Oyogusii",
+        "Zaire – Oyozaire"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The region 'Zaire' with the form 'Oyozaire' is incorrectly matched and not standard in Ekegusii ethnonymic formation."
+    },
+    {
+      "question": "What does the prefix “oyo-” indicate in Ekegusii when attached to a place name?",
+      "options": [
+        "Only female origin",
+        "A plural ethnic group",
+        "A person from that location",
+        "A married woman from another clan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'oyo-' in Ekegusii marks an individual person originating from the given location."
+    },
+    {
+      "question": "Which of the following reflects the plural form of Oyo Bobasi in Ekegusii?",
+      "options": [
+        "Ababasi",
+        "Aba Bobasi",
+        "Omobasi",
+        "Bobasi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The plural ethnonym for Oyo Bobasi is 'Ababasi,' which denotes multiple people from Bobasi."
+    },
+    {
+      "question": "The Ekegusii morphological system for ethnonyms primarily encodes which of the following linguistic features?",
+      "options": [
+        "Tense and aspect",
+        "Location",
+        "Mood and tone",
+        "Voice and valency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii ethnonyms are primarily concerned with marking location or territorial origin rather than tense or tone."
+    },
+    {
+      "question": "A Kenyan woman would most accurately be referred to as:",
+      "options": [
+        "Oyokenya",
+        "Omosacha Okenya",
+        "Omosubati omokenya",
+        "Omokenya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A Kenyan woman is referred to as 'Omosubati omokenya,' combining the gender and territorial markers."
+    },
+    {
+      "question": "Which of the following demonstrates a correct use of “oyo-” for ethnicity, rather than geography?",
+      "options": [
+        "Oyokisumu",
+        "Omoikoyo",
+        "Oyebobasi",
+        "Oyokenya"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omoikoyo' represents a correct ethnonymic form for ethnicity rather than purely geographical reference."
+    },
+    {
+      "question": "Why might “oyo-” also imply a role of lineage representation in traditional Abagusii society?",
+      "options": [
+        "Because it denotes honorific age rank",
+        "Because men were usually community spokespersons",
+        "Because “oyo-” is an older term than “omo-”",
+        "Because it means \"firstborn male\""
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'oyo-' prefix implied lineage representation since men were often community spokespersons in traditional society."
+    },
+    {
+      "question": "Which of the following sets includes only valid Ekegusii regional ethnonyms for a group of people?",
+      "options": [
+        "Oyo Kisumo, Oyo Bomachoge, Oyo Sudan",
+        "Oyo Kenya, Omorendi, Oyo Zambia",
+        "Oyo Nyaribari, Oyo Meru, Omoganda",
+        "Omozaire, Oyo Nyakach, Oyo Turkana"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The set 'Oyo Kisumo, Oyo Bomachoge, Oyo Sudan' reflects valid Ekegusii ethnonymic forms for groups of people."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.1.3 Personal & Impersonal Nouns",
+              "htmlContent": "kisii/beginner/module-two/3.html",
+              "order": 3,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbf8"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which of the following features best distinguishes personal nouns from impersonal nouns in Ekegusii?",
+      "options": [
+        "They can be both abstract and concrete",
+        "They refer to countable objects",
+        "They are associated with agency and consciousness",
+        "They refer to phenomena like rain and wind"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Personal nouns are distinguished from impersonal nouns because they denote entities with agency and consciousness, unlike impersonal nouns which often refer to natural or inanimate phenomena."
+    },
+    {
+      "question": "What type of noun is represented by the Ekegusii word \"Omworokigwa\"?",
+      "options": [
+        "Proper Personal Noun",
+        "Abstract Impersonal Noun",
+        "Relational/Occupational Personal Noun",
+        "Mass Impersonal Noun"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The word 'Omworokigwa' refers to an occupational or relational role, thus it is a Relational/Occupational Personal Noun."
+    },
+    {
+      "question": "Which of the following is an accurate pair of impersonal nouns in Ekegusii based on their type?",
+      "options": [
+        "Omwana – Mass / Mesa – Abstract",
+        "Embura – Natural / Amache – Mass",
+        "Omoegereri – Abstract / Epresident – Concrete",
+        "Omworokia – Concrete / Obwanchani – Kinship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Embura (rain) is a natural impersonal noun, while Amache (water) is a mass noun, making this the correct pair."
+    },
+    {
+      "question": "Which pronouns in Ekegusii are typically used to replace personal nouns?",
+      "options": [
+        "Ere, Naende",
+        "Ere, Inwe",
+        "Ere, Naende",
+        "Naende, Ebi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pronouns 'Ere' and 'Inwe' are typically used to replace personal nouns in Ekegusii."
+    },
+    {
+      "question": "Why would the noun \"Omworokiaj\" be classified as a personal noun in Ekegusii?",
+      "options": [
+        "It represents an abstract idea",
+        "It lacks agency but is countable",
+        "It refers to a professional human role",
+        "It refers to a natural phenomenon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omworokiaj' is classified as a personal noun because it denotes a professional human role, showing agency."
+    },
+    {
+      "question": "Which of the following statements is true regarding impersonal nouns in Ekegusii?",
+      "options": [
+        "They refer only to intangible concepts",
+        "They can represent abstract, natural, concrete, or material elements",
+        "They are always replaced by barabwo",
+        "They indicate social identity and gender"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Impersonal nouns in Ekegusii cover a wide range, including abstract, natural, concrete, or material elements."
+    },
+    {
+      "question": "Identify the mismatch between noun type and category:",
+      "options": [
+        "Egetunwa – Concrete Impersonal",
+        "Obwago – Abstract/Natural Impersonal",
+        "Omworokia – Kinship Personal",
+        "Enchara – Abstract Impersonal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omworokia' is not a kinship personal noun; it refers to another category, making this pairing incorrect."
+    },
+    {
+      "question": "Which set of Ekegusii nouns exclusively consists of mass or material impersonal nouns?",
+      "options": [
+        "Omochere, Amachei, Amabuta",
+        "Omwana, Emesa, Egetunwa",
+        "Obwanchani, Chinguru, Chingaki",
+        "Embura, Egari, Chingoba"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The set 'Omochere, Amachei, Amabuta' includes mass or material impersonal nouns in Ekegusii."
+    },
+    {
+      "question": "In the sentence “Embura eyasaretie agari,” why are both nouns classified as impersonal?",
+      "options": [
+        "They both refer to abstract cultural values",
+        "They both represent titles and social identities",
+        "They do not involve human or personified agents",
+        "They are professional and kinship terms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both 'Embura' (rain) and 'Agari' (vehicle) are impersonal because they do not involve human or personified agents."
+    },
+    {
+      "question": "According to the classification presented, which of the following influences does not directly justify the categorization of nouns in Ekegusii?",
+      "options": [
+        "Gender and agency of referents",
+        "Countability and mass noun behavior",
+        "Presence in metaphorical or poetic expressions",
+        "Nature of phenomena or abstract concepts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Categorization of nouns is based on gender, agency, countability, and phenomena type, but not directly on metaphorical or poetic usage."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.1.4 Directions",
+              "htmlContent": "kisii/beginner/module-two/4.html",
+              "order": 4,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbf9"
+          },
+              "practiceQuestions": [
+    {
+      "question": "In Ekegusii, which term is used to express the direction \"South\"?",
+      "options": [
+        "Sugusu",
+        "Bosongo",
+        "Irianyi",
+        "Mooche"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The term 'Irianyi' is used in Ekegusii to indicate the direction 'South'."
+    },
+    {
+      "question": "Which Ekegusii phrase would you use to say \"the sun sets in the West\"?",
+      "options": [
+        "Omobaso orimeire gochia moocha",
+        "Omobaso orimeire gochia sugusu",
+        "Omobaso obarire gochia Sugusu",
+        "Omobaso obarire gochia irianyi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Omobaso orimeire gochia moocha' translates to 'the sun sets in the West' in Ekegusii."
+    },
+    {
+      "question": "What is the correct translation for the Ekegusii phrase \"Rina igoro\"?",
+      "options": [
+        "Come down",
+        "Climb up",
+        "Sit down",
+        "Stand up"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Rina igoro' in Ekegusii means 'Climb up'."
+    },
+    {
+      "question": "Which of the following Ekegusii terms is associated with \"down\" or \"below\"?",
+      "options": [
+        "Igoro",
+        "Inse",
+        "Bogeka",
+        "Ika"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'Inse' in Ekegusii means 'down' or 'below'."
+    },
+    {
+      "question": "Which term combines a verb and a locative marker to express the action \"Come down\"?",
+      "options": [
+        "Ika igoro",
+        "Ika inse",
+        "Rina igoro",
+        "Tenena igoro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Ika inse' literally means 'Come down'."
+    },
+    {
+      "question": "In Ekegusii, what is the correct phrase for instructing many people to \"sit down\"?",
+      "options": [
+        "Tenena igoro",
+        "Aisaranse inse",
+        "Moisaranse inse",
+        "Motenene igoro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'Moisaranse inse' is the proper form used when addressing many people to sit down."
+    },
+    {
+      "question": "The Ekegusii term \"Sugusu\" primarily refers to which cardinal direction?",
+      "options": [
+        "East",
+        "South",
+        "North / Central",
+        "West"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Ekegusii, 'Sugusu' is associated with the North or Central direction."
+    },
+    {
+      "question": "What does the verb-preposition structure \"Omabaso obarire korwa moocha\" illustrate?",
+      "options": [
+        "Vertical movement only",
+        "Ascending actions",
+        "Subject + verb + directional phrase",
+        "Object + verb + directional phrase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The structure 'Omabaso obarire korwa moocha' follows the pattern Subject + verb + directional phrase."
+    },
+    {
+      "question": "Which movement expression would describe traveling eastwards in Ekegusii?",
+      "options": [
+        "Gochia Irianyi",
+        "Gochia bosongo",
+        "Gochia moocha",
+        "Gochia sugusu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gochia moocha' is the expression for traveling eastwards in Ekegusii."
+    },
+    {
+      "question": "Which cultural observation is associated with the term \"Ogure/orimeire\" in Ekegusii cosmology?",
+      "options": [
+        "Sunrise",
+        "Sunset",
+        "Wind from the south",
+        "Wind from the north"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Ekegusii cosmology, 'Ogure/orimeire' is associated with 'Sunset'."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.1.5 Parts of the Body",
+              "htmlContent": "kisii/beginner/module-two/5.html",
+              "order": 5,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbfa"
+          },
+              "practiceQuestions": [
+    {
+      "question": "In Ekegusii, which term correctly refers to the \"eye\" in a literal anatomical sense?",
+      "options": [
+        "Omonwa",
+        "Eriso",
+        "Okoboko",
+        "Okogoro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word 'Eriso' is the Ekegusii term for 'eye'."
+    },
+    {
+      "question": "In Ekegusii grammar, how are most external body parts treated in terms of countability?",
+      "options": [
+        "Always uncountable nouns",
+        "Uncountable except in idiomatic use",
+        "Always countable nouns",
+        "Only plural in possessive forms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most external body parts in Ekegusii are treated as countable nouns."
+    },
+    {
+      "question": "Which Ekegusii word would correctly be used to refer to \"lungs\" in a medical context?",
+      "options": [
+        "Amayaa",
+        "Chinyigo",
+        "Amaru",
+        "Amara"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Amayaa' is the correct Ekegusii word for 'lungs'."
+    },
+    {
+      "question": "What is the Ekegusii word for \"blood,\" and how is it generally treated grammatically?",
+      "options": [
+        "Amanyinga; treated as countable",
+        "Amanyinga; treated as uncountable",
+        "Amariga; treated as countable",
+        "Amariga; treated as collective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Ekegusii word for blood is 'Remo', and it is treated as uncountable."
+    },
+    {
+      "question": "Identify the correct Ekegusii possessive form for \"my hand.\"",
+      "options": [
+        "Kwaye",
+        "Kwane",
+        "Kwabo",
+        "Kwaino"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The possessive form 'Kwane' means 'my hand'."
+    },
+    {
+      "question": "In Ekegusii sentence structure, why is it incorrect to say \"She broke the arm\" without a possessive marker?",
+      "options": [
+        "Because Ekegusii never uses definite articles.",
+        "Because possessive markers are mandatory to indicate ownership of body parts.",
+        "Because articles are used only for external body parts.",
+        "Because verbs must agree in gender."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Ekegusii, body parts require possessive markers to show ownership."
+    },
+    {
+      "question": "What is the Ekegusii word for \"shoulder,\" a body part often used metaphorically for carrying responsibilities?",
+      "options": [
+        "Amareko",
+        "Ebigoti",
+        "Omogongo",
+        "Omotwe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Amareko' is the term for 'shoulder' in Ekegusii."
+    },
+    {
+      "question": "When expressing \"His head hurt after the accident\" in Ekegusii, which noun acts as the grammatical subject?",
+      "options": [
+        "Aumiete",
+        "Omobasokano",
+        "Omotwe",
+        "Nyuma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Omotwe' (head) functions as the subject in this type of sentence."
+    },
+    {
+      "question": "In the sentence \"She injured her knee during the match\", what is the Ekegusii word for \"knee\" that serves as the object?",
+      "options": [
+        "Emechieso",
+        "Abunegete",
+        "Riru",
+        "Okogoro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Riru' is the correct word for 'knee' in Ekegusii."
+    },
+    {
+      "question": "Which internal organ in Ekegusii is metaphorically significant as the emotional or moral center and is called Enkoro?",
+      "options": [
+        "Liver",
+        "Heart",
+        "Brain",
+        "Stomach"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word 'Enkoro' refers to the 'heart', symbolizing the emotional or moral center."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "2.2 Review & Practice ",
+          "type": "standalone",
+          "order": 2,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfbfb"
+          },
+          "htmlContent": "kisii/beginner/module-two/6.html",
+          "passingScore": 50
+        },
+        {
+          "title": "2.3 Nouns (Part 03)",
+          "type": "container",
+          "order": 3,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfbfc"
+          },
+          "subtopics": [
+            {
+              "title": "2.3.1 Abstract & Concrete Nouns",
+              "htmlContent": "kisii/beginner/module-two/7.html",
+              "order": 1,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbfd"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of a concrete noun in Ekegusii?",
+      "options": ["Omogoko", "Egekombe", "Obwanchani", "Obosibore"],
+      "correctAnswer": 1,
+      "explanation": "'Egekombe' (cup) is a tangible object, making it a concrete noun."
+    },
+    {
+      "question": "What does the abstract noun 'okobea' in Ekegusii represent?",
+      "options": ["Peace", "Sadness", "Strength", "Health"],
+      "correctAnswer": 1,
+      "explanation": "'Okobea' represents 'sadness', which is an abstract concept."
+    },
+    {
+      "question": "Which of the following is an abstract noun representing a concept in Ekegusii?",
+      "options": ["Ekerogo", "Obwanchani", "Esese", "Omwana"],
+      "correctAnswer": 1,
+      "explanation": "'Obwanchani' means 'kinship', which is an abstract relationship."
+    },
+    {
+      "question": "In Ekegusii, which of these is an example of a concrete noun related to animals?",
+      "options": ["Ekemoni", "Omogoko", "Obosibore", "Oboitongo"],
+      "correctAnswer": 0,
+      "explanation": "'Ekemoni' (monkey) is a living being, therefore a concrete noun."
+    },
+    {
+      "question": "Which of the following abstract nouns in Ekegusii refers to a positive quality?",
+      "options": ["Okobea", "Chinguru", "Obogima", "Obwoba"],
+      "correctAnswer": 1,
+      "explanation": "'Chinguru' refers to bravery/courage, a positive abstract quality."
+    },
+    {
+      "question": "What is the Ekegusii word for 'field', a concrete noun representing a place?",
+      "options": ["Ekegwanda", "Esukuru", "Egeticha", "Enchogu"],
+      "correctAnswer": 0,
+      "explanation": "'Ekegwanda' means 'field', a physical and concrete place."
+    },
+    {
+      "question": "Which of these is an abstract noun referring to a state of being in Ekegusii?",
+      "options": ["Omorembe", "Esukuru", "Echuma", "Omwana"],
+      "correctAnswer": 0,
+      "explanation": "'Omorembe' means 'peace', which is an abstract state of being."
+    },
+    {
+      "question": "Which of the following is an example of a concrete noun in Ekegusii referring to an object?",
+      "options": ["Egari", "Omogoko", "Oboitongo", "Obosibore"],
+      "correctAnswer": 0,
+      "explanation": "'Egari' means 'car', a tangible object."
+    },
+    {
+      "question": "Which of the following abstract nouns in Ekegusii represents an emotion?",
+      "options": ["Ber", "Mor", "Yien", "Guok"],
+      "correctAnswer": 1,
+      "explanation": "'Mor' refers to love/affection, which is an abstract emotion."
+    },
+    {
+      "question": "In Ekegusii, the word 'Echuma' represents which of the following?",
+      "options": ["Steel", "Freedom", "Honesty", "Child"],
+      "correctAnswer": 0,
+      "explanation": "'Echuma' means 'steel', a concrete material."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.3.2 Animals",
+              "htmlContent": "kisii/beginner/module-two/8.html",
+              "order": 2,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbfe"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which of the following is an example of a wild animal in Ekegusii?",
+      "options": ["Engoko", "Egesimba", "Eng’ombe", "Riruma"],
+      "correctAnswer": 1,
+      "explanation": "'Egesimba' refers to a wild cat, making it a wild animal."
+    },
+    {
+      "question": "What is the Ekegusii word for 'cow'?",
+      "options": ["Embori", "Eng’ombe", "Eeri", "Eng’ondi"],
+      "correctAnswer": 1,
+      "explanation": "'Eng’ombe' means 'cow' in Ekegusii."
+    },
+    {
+      "question": "Which of the following animals is a type of fish in Ekegusii?",
+      "options": ["Kamongo", "Enyakweumi", "Embata", "Emori"],
+      "correctAnswer": 0,
+      "explanation": "'Kamongo' is a type of fish."
+    },
+    {
+      "question": "Which of the following is a type of bird in Ekegusii?",
+      "options": ["Embuni", "Enyakweumi", "Eng’uko", "Ekebaki"],
+      "correctAnswer": 1,
+      "explanation": "'Enyakweumi' is a type of bird."
+    },
+    {
+      "question": "What is the Ekegusii word for 'goat'?",
+      "options": ["Etigere", "Embori", "Esese", "Ekebusi"],
+      "correctAnswer": 1,
+      "explanation": "'Embori' means 'goat'."
+    },
+    {
+      "question": "Which of the following animals is a wild cat in Ekegusii?",
+      "options": ["Edubu", "Egesimba", "Eng’era", "Embuni"],
+      "correctAnswer": 1,
+      "explanation": "'Egesimba' is used to describe a wild cat."
+    },
+    {
+      "question": "What is the Ekegusii word for 'rabbit'?",
+      "options": ["Egesusu", "Egechure", "Embeba", "Engo"],
+      "correctAnswer": 0,
+      "explanation": "'Egesusu' refers to a rabbit."
+    },
+    {
+      "question": "Which of the following animals is a type of fish in Ekegusii?",
+      "options": ["Engonye", "Eng’ombe", "Eeri", "Richore"],
+      "correctAnswer": 0,
+      "explanation": "'Engonye' is a type of fish."
+    },
+    {
+      "question": "Which of these is the correct plural form of 'Esese' (dog) in Ekegusii?",
+      "options": ["Chisese", "Chimbeba", "Chiombe", "Chieri"],
+      "correctAnswer": 0,
+      "explanation": "The plural of 'Esese' (dog) is 'Chisese'."
+    },
+    {
+      "question": "Which of the following is a domestic animal in Ekegusii?",
+      "options": ["Eng’ondi", "Eng’ombe", "Egechure", "Etuoni"],
+      "correctAnswer": 1,
+      "explanation": "'Eng’ombe' (cow) is a domestic animal."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.3.3 Gusii Traditional Foods and Vegetables",
+              "htmlContent": "kisii/beginner/module-two/9.html",
+              "order": 3,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfbff"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which traditional Luo dish is prepared using silver cyprinid fish, often eaten fried or boiled?",
+      "options": ["Kamongo", "Omena", "Richore", "Ekereti"],
+      "correctAnswer": 1,
+      "explanation": "'Omena' refers to small silver cyprinid fish, a staple Luo dish."
+    },
+    {
+      "question": "What cooking method involves fermenting vegetables such as spider plant (Akeyo) before preparation?",
+      "options": ["Koiyeka", "Koberi", "Koineka", "Koanekera"],
+      "correctAnswer": 1,
+      "explanation": "'Koberi' is the process of fermenting vegetables like spider plant before cooking."
+    },
+    {
+      "question": "Which vegetable, known for its slightly bitter taste, is often cooked with milk or butter in Gusii cuisine?",
+      "options": ["Ecabbage", "Egesare", "Amanagu", "Chinyanya"],
+      "correctAnswer": 2,
+      "explanation": "'Amanagu' is a traditional leafy vegetable with a slightly bitter taste, often cooked with milk or butter."
+    },
+    {
+      "question": "What Gusii traditional food is made from pumpkin leaves often cooked with groundnut paste or milk?",
+      "options": ["Risosa", "Ekerimu", "Amandegere", "Rikuneni"],
+      "correctAnswer": 0,
+      "explanation": "'Risosa' is prepared from pumpkin leaves, commonly enriched with groundnut paste or milk."
+    },
+    {
+      "question": "In Gusii traditional food preservation, what is 'Koinekera' best described as?",
+      "options": ["Fresh fish stew", "Smoked or sun-dried beef", "Fermented porridge", "Grilled mushroom"],
+      "correctAnswer": 1,
+      "explanation": "'Koinekera' refers to smoking or sun-drying beef for preservation."
+    },
+    {
+      "question": "Which of the following is NOT a traditional Gusii fruit according to the provided list?",
+      "options": ["Ripopo", "Rinanasi", "Ritoke", "Richore"],
+      "correctAnswer": 3,
+      "explanation": "'Richore' is not a traditional Gusii fruit; the others are fruits."
+    },
+    {
+      "question": "Which edible vegetable thrives mostly in swampy or wet riverbank areas?",
+      "options": ["Amato y’eripaipai", "Nyasgumba", "Amato y’ebiasi", "Erongori"],
+      "correctAnswer": 1,
+      "explanation": "'Nyasgumba' is a swamp-loving edible vegetable."
+    },
+    {
+      "question": "What is the primary traditional Gusii carbohydrate dish made from maize flour?",
+      "options": ["Amarabuoni", "Obokima", "Omwogo", "Erongori"],
+      "correctAnswer": 1,
+      "explanation": "'Obokima' is the staple Gusii dish made from maize flour, similar to ugali."
+    },
+    {
+      "question": "'Oboba' refers specifically to what kind of traditional Gusii food?",
+      "options": ["Large wild mushrooms", "Stewed lungfish", "Roasted beef ribs", "Sweet fermented porridge"],
+      "correctAnswer": 0,
+      "explanation": "'Oboba' are large wild mushrooms eaten traditionally in Gusii culture."
+    },
+    {
+      "question": "Which vegetable requires very careful preparation due to its potential toxicity from cyanide compounds?",
+      "options": ["Amato y’eyarare", "Amato y’omwogo", "Amato y’echinyanya", "Esasati"],
+      "correctAnswer": 1,
+      "explanation": "'Amato y’omwogo' (cassava leaves) require careful preparation to remove cyanide compounds."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.3.4 Noun Plurals",
+              "htmlContent": "kisii/beginner/module-two/10.html",
+              "order": 4,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc00"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which morphological strategy marks the plural in the -ama class?",
+      "options": ["Prefix Ama- added to the stem", "Prefix Chi- added to the stem", "Prefix Aba- added to the stem", "Prefix Ebi- added to the stem"],
+      "correctAnswer": 0,
+      "explanation": "The -ama class forms plurals by adding the prefix 'Ama-' to the noun stem."
+    },
+    {
+      "question": "What is the correct plural of Riruma (dove)?",
+      "options": ["Ebikondo", "Amaruma", "Chinyoni", "Abasacha"],
+      "correctAnswer": 1,
+      "explanation": "The plural of 'Riruma' is 'Amaruma' following the -ama class pluralization."
+    },
+    {
+      "question": "The plural of Ekiigo (monitor lizard) is:",
+      "options": ["Amariogi", "Ebiigo", "Chinkiigo", "Abakiigo"],
+      "correctAnswer": 1,
+      "explanation": "Nouns in the -eki class like 'Ekiigo' change to -ebi in plural, giving 'Ebiigo'."
+    },
+    {
+      "question": "Which class has nouns that do not change in plural form?",
+      "options": ["-ama Class", "-eki / -ebi Class", "Invariant Class", "Omo → Aba Class"],
+      "correctAnswer": 2,
+      "explanation": "Some nouns belong to the invariant class, meaning their singular and plural forms remain identical."
+    },
+    {
+      "question": "The singular–plural alternation Omogaka → Abagaka belongs to which class?",
+      "options": ["-ama Class", "-eki / -ebi Class", "Omo → Aba Class", "-chi Class"],
+      "correctAnswer": 2,
+      "explanation": "Human nouns often follow the Omo → Aba alternation, as in 'Omogaka → Abagaka'."
+    },
+    {
+      "question": "What is the correct plural of Enkoro (heart)?",
+      "options": ["Amarabuoni", "Ebiarambe", "Chinkoro", "Abateneneri"],
+      "correctAnswer": 2,
+      "explanation": "The plural of 'Enkoro' is 'Chinkoro', which follows the -chi plural class."
+    },
+    {
+      "question": "Which of the following pairs is an example of the Omo → Aba alternation?",
+      "options": ["Omotienyi → Emetienyi", "Omotomi → Abatomwa", "Eng’iti → Ching’iti", "Egekondo → Ebikondo"],
+      "correctAnswer": 1,
+      "explanation": "'Omotomi → Abatomwa' demonstrates the human noun pluralization pattern Omo → Aba."
+    },
+    {
+      "question": "Which plural marker is consistently associated with animate and inanimate nouns like Egari → Chigari and Epaipu → Chipaipu?",
+      "options": ["Ama-", "Chi-", "Aba-", "Ebi-"],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'Chi-' marks plural for many nouns including animate and inanimate forms."
+    },
+    {
+      "question": "Which example belongs to the “general” plural class with heterogeneous strategies?",
+      "options": ["Eriogi → Amariogi", "Ekiarambe → Ebiarambe", "Omwana → Abana", "Enkoro → Chinkoro"],
+      "correctAnswer": 2,
+      "explanation": "'Omwana → Abana' illustrates the general plural class, where human nouns use Omo → Aba."
+    },
+    {
+      "question": "Which statement best describes the distribution of plural?",
+      "options": [
+        "All nouns take the suffix -chi in plural form.",
+        "Human nouns typically use the Omo → Aba alternation, while other nouns use prefixes like Ama-, Chi-, or Ebi-.",
+        "All plurals are invariant across singular and plural.",
+        "The plural system is purely suffixal without prefixation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plural distribution varies: human nouns usually follow Omo → Aba, while others use Ama-, Chi-, or Ebi- prefixes."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.3.5 Noun Construct",
+              "htmlContent": "kisii/beginner/module-two/11.html",
+              "order": 5,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc01"
+          },
+              "practiceQuestions": [
+    {
+      "question": "What is the correct singular noun construct of 'Ebiticha' (gardens)?",
+      "options": ["Amatiacha", "Egeticha", "Amaticha", "Egetiticha"],
+      "correctAnswer": 1,
+      "explanation": "The singular of 'Ebiticha' is 'Egeticha', following the -eki/-ebi noun class rule."
+    },
+    {
+      "question": "Which of the following plural noun constructs is an exception to the regular rule?",
+      "options": ["Endagera yaye → Endagera yaye", "Egeticha kiaye → Egeticha kiaye", "Omokungu → Omosacha bw’abakungu abange", "Enchera → Chinchera"],
+      "correctAnswer": 2,
+      "explanation": "'Omokungu → Omosacha bw’abakungu abange' is an exception because it does not follow the predictable pluralization rules."
+    },
+    {
+      "question": "Which demonstrative suffix correctly expresses 'that path (near)'?",
+      "options": ["-baria", "-chiria", "-eria", "-aria"],
+      "correctAnswer": 3,
+      "explanation": "The suffix '-aria' is used to indicate proximity in demonstrative forms."
+    },
+    {
+      "question": "What is the singular noun construct for the word 'chindagera' (foods)?",
+      "options": ["chindagera", "Endagera", "Akandagera", "Amandagera"],
+      "correctAnswer": 1,
+      "explanation": "The singular of 'chindagera' is 'Endagera'."
+    },
+    {
+      "question": "The form 'eye-' in 'echi' (this house) is an example of what?",
+      "options": ["Plural suffixing", "Demonstrative transformation", "Irregular singular noun construct", "Locative particle usage"],
+      "correctAnswer": 2,
+      "explanation": "'Eye-' is an irregular singular noun construct that marks the demonstrative 'this'."
+    },
+    {
+      "question": "What is the plural noun construct of 'chinyomba' (houses)?",
+      "options": ["obo-", "e-", "chi-", "a-"],
+      "correctAnswer": 2,
+      "explanation": "The plural of 'nyomba' is formed with the prefix 'chi-', giving 'chinyomba'."
+    },
+    {
+      "question": "Which suffix combination correctly produces 'those paths (far)' from 'chi'?",
+      "options": ["echi", "chiiria", "echio", "chiria"],
+      "correctAnswer": 3,
+      "explanation": "'Chiria' expresses distance in demonstratives, meaning 'those paths (far)'."
+    },
+    {
+      "question": "According to the formation rule, what are the steps to derive the singular noun construct from a regular plural noun?",
+      "options": ["Add a suffix to the singular noun", "Double the final consonant of the plural noun", "Remove the final vowel from the plural noun", "Reverse the plural form"],
+      "correctAnswer": 2,
+      "explanation": "To form singulars, the final vowel of the plural noun is typically removed."
+    },
+    {
+      "question": "‘Chindagera’ is often seen in compound words. What memory trick supports this?",
+      "options": ["It’s used in royalty names", "It forms idioms involving animals", "It’s the base word for landforms", "It's the food root used in many compound words"],
+      "correctAnswer": 3,
+      "explanation": "'Chindagera' is widely used as the root for compound words relating to food."
+    },
+    {
+      "question": "Why is 'omo-' the noun construct for 'omokungu' (woman)?",
+      "options": ["It's a diminutive transformation", "It’s an example of root borrowing", "It is a shortened possessive prefix", "It is an irregular noun construct"],
+      "correctAnswer": 3,
+      "explanation": "The 'omo-' construct in 'omokungu' is an irregular noun construct in Ekegusii."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "2.4 Review & Practice ",
+          "type": "standalone",
+          "order": 4,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfc02"
+          },
+          "htmlContent": "kisii/beginner/module-two/12.html",
+          "passingScore": 50
+        },
+        {
+          "title": "2.5 Pronouns (Part 01)",
+          "type": "container",
+          "order": 5,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfc03"
+          },
+          "subtopics": [
+            {
+              "title": "2.5.1 Introduction && 2.5.2 Personal pronouns",
+              "htmlContent": "kisii/beginner/module-two/13.html",
+              "order": 1,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc04"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which of the following correctly translates 'They are entering the house' in Ekegusii?",
+      "options": ["Basokire korwa nyomba", "Ngosoa bare nyomba", "Ngosoka bare korwa nyomba", "Basoire nyomba"],
+      "correctAnswer": 1,
+      "explanation": "'Ngosoa bare nyomba' is the correct translation for 'They are entering the house'."
+    },
+    {
+      "question": "In the phrase 'oyo nere,' what is the functional purpose of the demonstrative 'ma'?",
+      "options": ["It refers to a nearby object", "It acts as a possessive suffix", "It emphasizes the speaker as 'this one'", "It replaces the subject pronoun"],
+      "correctAnswer": 2,
+      "explanation": "The demonstrative 'ma' in this context emphasizes the speaker as 'this one'."
+    },
+    {
+      "question": "What is the correct 2nd person singular pronoun in Ekegusii?",
+      "options": ["Abwo", "Ere", "Inche", "Barabwo"],
+      "correctAnswer": 1,
+      "explanation": "'Ere' is the second person singular pronoun (you) in Ekegusii."
+    },
+    {
+      "question": "Identify the sentence that means 'We are sitting here.'",
+      "options": ["Toisaransete igaa", "Twaisaransire igaa", "Baisaransire igaa", "Oisaransire aiga"],
+      "correctAnswer": 0,
+      "explanation": "'Toisaransete igaa' translates to 'We are sitting here.'"
+    },
+    {
+      "question": "Which of the following pronouns can be used for both 'he' and 'she' in Ekegusii?",
+      "options": ["Baria", "Inche", "Ere", "Oria"],
+      "correctAnswer": 2,
+      "explanation": "'Ere' functions as both 'he' and 'she' in Ekegusii, as gender is not marked in the pronoun."
+    },
+    {
+      "question": "Select the sentence that correctly expresses 'You (plural) leave that place.'",
+      "options": ["Aye karwe igabu", "Inwe karwe igabu", "Barabwe karwe igabu", "Karwe igabu"],
+      "correctAnswer": 1,
+      "explanation": "'Inwe karwe igabu' correctly expresses 'You (plural) leave that place.'"
+    },
+    {
+      "question": "Which Ekegusii personal pronoun refers to 'they/them'?",
+      "options": ["Baria", "Barabwo", "Aba", "Intwe"],
+      "correctAnswer": 0,
+      "explanation": "'Baria' is the Ekegusii pronoun used for 'they/them'."
+    },
+    {
+      "question": "What is the appropriate Ekegusii translation for 'You are coming now'?",
+      "options": ["Gwachire bono", "Gwanchire bono", "Ochire bono", "Mbono agocha"],
+      "correctAnswer": 0,
+      "explanation": "'Gwachire bono' means 'You are coming now.'"
+    },
+    {
+      "question": "Which of the following pairs accurately matches Ekegusii pronoun to its English equivalent?",
+      "options": ["Aye → you (plural)", "Intwe → we", "Inwe → you (plural)", "Barabwo → them"],
+      "correctAnswer": 2,
+      "explanation": "'Inwe' is the correct pronoun for 'you (plural)' in Ekegusii."
+    },
+    {
+      "question": "What is the structure used for forming simple sentences with personal pronouns in Ekegusii?",
+      "options": ["Verb + Pronoun + Object", "Demonstrative + Pronoun + Noun", "Subject Pronoun + Verb (+ Object/Location)", "Noun + Verb + Demonstrative"],
+      "correctAnswer": 2,
+      "explanation": "Simple sentences in Ekegusii typically follow the structure: Subject Pronoun + Verb (+ Object/Location)."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.5.3 Possessive Pronouns and Cases",
+              "htmlContent": "kisii/beginner/module-two/14.html",
+              "order": 2,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc05"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which possessive suffix correctly marks the phrase 'your (plural) child' in Ekegusii?",
+      "options": ["-one", "-oye", "-ogo", "-bao"],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-ogo' is used to indicate 'your (plural)' possession in Ekegusii."
+    },
+    {
+      "question": "Which of the following is the correct Ekegusii expression for 'Mogaka’s child'?",
+      "options": ["Mogaka oye", "Omwana o Mogaka", "Mogaka omwana oye", "Omwana oye Mogaka"],
+      "correctAnswer": 1,
+      "explanation": "'Omwana o Mogaka' is the correct possessive structure in Ekegusii for 'Mogaka’s child'."
+    },
+    {
+      "question": "What distinguishes 'biaito' from 'biane' in Ekegusii possessive forms?",
+      "options": ["Biaito is singular, biane is plural", "Biaito means 'ours,' biane means 'mine'", "Biaito is used with names, Biane is used with pronouns", "Biaito is second person, Biane is third person"],
+      "correctAnswer": 1,
+      "explanation": "'Biaito' means 'ours' while 'Biane' means 'mine'."
+    },
+    {
+      "question": "If 'Egeticha nekiaye,' what can be inferred?",
+      "options": ["The garden is theirs", "The garden is ours", "The garden is his/hers", "The garden is mine"],
+      "correctAnswer": 2,
+      "explanation": "'Egeticha nekiaye' means 'The garden is his/hers'."
+    },
+    {
+      "question": "Which of these suffixes is used exclusively for 3rd person plural possession?",
+      "options": ["-one", "-ogo", "-oria", "-Barabwo"],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-oria' is used for 3rd person plural possession."
+    },
+    {
+      "question": "Identify the incorrect possessive match:",
+      "options": ["Omwana one → my child", "Omwana ogo → their child", "Omwana ogo → your child (plural)", "Omwana oye → his/her child"],
+      "correctAnswer": 2,
+      "explanation": "'Omwana ogo' means 'your child (plural)', not 'their child', so option C is the mismatch."
+    },
+    {
+      "question": "What suffix or structure is used in Ekegusii to say 'the garden is yours' when speaking to one person?",
+      "options": ["-kiago", "-kiaino", "-kiabo", "-kiane"],
+      "correctAnswer": 0,
+      "explanation": "The suffix '-kiago' is used to express 'the garden is yours' (singular)."
+    },
+    {
+      "question": "Which suffix may appear in both first person singular and first person plural, requiring context for clarity?",
+      "options": ["-ane", "-ito", "-ago", "-ande"],
+      "correctAnswer": 1,
+      "explanation": "The suffix '-ito' can refer to both 'mine' and 'ours,' so context is needed."
+    },
+    {
+      "question": "Which of the following sentences most accurately means 'The garden is theirs'?",
+      "options": ["Egeticha nekiago", "Egeticha nekiane", "Egeticha nekiabo", "Egeticha negiaito"],
+      "correctAnswer": 2,
+      "explanation": "'Egeticha nekiabo' means 'The garden is theirs'."
+    },
+    {
+      "question": "In Ekegusii, what would 'Omwana ogo' most likely mean in direct address?",
+      "options": ["Her child", "My child", "Your child (singular)", "Your child (plural)"],
+      "correctAnswer": 2,
+      "explanation": "When used in direct address, 'Omwana ogo' most likely means 'your child (singular)'."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.5.4 Demonstrative pronouns",
+              "htmlContent": "kisii/beginner/module-two/15.html",
+              "order": 3,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc06"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which demonstrative would correctly translate the phrase 'That over there is a herdsman'?",
+      "options": ["Oria n’omorisia", "Oyo n’omorisia", "Ooria n’omorisia", "Ooria gochia aria n’omorisia"],
+      "correctAnswer": 3,
+      "explanation": "'Ooria gochia aria n’omorisia' is the proper way to say 'That over there is a herdsman' in Ekegusii."
+    },
+    {
+      "question": "What is the Ekegusii phrase for 'These are boys'?",
+      "options": ["Oyo nomomura", "Aba nabamura", "Baria nabamura", "Barabwo nabamura"],
+      "correctAnswer": 1,
+      "explanation": "'Aba nabamura' correctly expresses 'These are boys'."
+    },
+    {
+      "question": "Which demonstrative suffix should be added to 'Omonto oyo' to form 'This person'?",
+      "options": ["-oywo", "-oyo", "-ogo", "-oria"],
+      "correctAnswer": 1,
+      "explanation": "Adding '-oyo' to 'Omonto' gives 'Omonto oyo' meaning 'This person'."
+    },
+    {
+      "question": "What is the Ekegusii equivalent of the phrase 'Those are your cows'?",
+      "options": ["Echio n’echiombe chiaino", "Echi n’echiombe chiano", "Eye n’eng’ombe yaino", "Echi n’echiombe chiaito"],
+      "correctAnswer": 0,
+      "explanation": "'Echio n’echiombe chiaino' means 'Those are your cows'."
+    },
+    {
+      "question": "Which of the following pairs correctly shows singular and plural demonstratives far from both speaker and listener?",
+      "options": ["Eke / ebio", "Ere / Barabwo", "Ere / Baria", "Oria / Abwo"],
+      "correctAnswer": 2,
+      "explanation": "'Ere' (singular) and 'Baria' (plural) are demonstratives for things far from both the speaker and listener."
+    },
+    {
+      "question": "Which of these translates as 'This lake' in Ekegusii using the correct demonstrative noun form?",
+      "options": ["Enyancha eyio", "Enyancha eye", "Enyancha eria", "Enyancha eywo"],
+      "correctAnswer": 1,
+      "explanation": "'Enyancha eye' is the correct phrase for 'This lake'."
+    },
+    {
+      "question": "If 'Endani' means 'this pond,' which of the following follows the same demonstrative formation logic?",
+      "options": ["Endoo", "Egesima", "Enyancha", "Oroche"],
+      "correctAnswer": 1,
+      "explanation": "Like 'Endani,' 'Egesima' follows the same demonstrative pattern for 'this well'."
+    },
+    {
+      "question": "Which phrase means 'What are those?' referring to nearby plural objects?",
+      "options": ["Baria mbarabi?", "Keeria ninki?", "Ebio mbiribi?", "Ekio ninki?"],
+      "correctAnswer": 2,
+      "explanation": "'Ebio mbiribi?' means 'What are those?' for nearby plural items."
+    },
+    {
+      "question": "What is the correct translation for the sentence: 'This is her tree'?",
+      "options": ["oywo n’omote oye", "Oyo n’omote oye", "Eye n’emete yaye", "Oria n’omote oye"],
+      "correctAnswer": 1,
+      "explanation": "'Oyo n’omote oye' means 'This is her tree'."
+    },
+    {
+      "question": "Which demonstrative form correctly matches 'Enyomba eye' in both structure and spatial reference?",
+      "options": ["Omonto oria", "Enchera eria", "Eng’ombe eye", "Enka eye"],
+      "correctAnswer": 3,
+      "explanation": "'Enka eye' uses the same '-eye' form for 'this,' referring to something near the speaker."
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.5.5 Distributive Pronouns",
+              "htmlContent": "kisii/beginner/module-two/16.html",
+              "order": 4,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc07"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which phrase refers to each individual thing being considered separately in Ekegusii?",
+      "options": ["Eyemo ase eyemo", "Onde bwensi", "Bonsi", "Kende gionsi"],
+      "correctAnswer": 0,
+      "explanation": "'Eyemo ase eyemo' means 'each one separately' in Ekegusii."
+    },
+    {
+      "question": "How would you say in Ekegusii, 'Each person will eat'?",
+      "options": [
+        "Kera omonto ngochia koragera are",
+        "Kera omonto orageire",
+        "Bonsi ngoragera bare",
+        "Kera omonto orageire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kera omonto ngochia koragera are' translates to 'Each person will eat.'"
+    },
+    {
+      "question": "Which of the following translates to: 'Anyone can go out'?",
+      "options": [
+        "Onde bwensi nabo akogenda isiko",
+        "Bachire isiko bonsi",
+        "Ngogenda bare bonsi",
+        "Ochire bweka"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Onde bwensi nabo akogenda isiko' means 'Anyone can go out.'"
+    },
+    {
+      "question": "In Ekegusii, which phrase would you use to say: 'Choose any one thing'?",
+      "options": ["Chora bonsi", "Chora kera egento", "Chora bionsi", "Chora kende gionsi"],
+      "correctAnswer": 3,
+      "explanation": "'Chora kende gionsi' translates as 'Choose any one thing.'"
+    },
+    {
+      "question": "What is the meaning of 'Bonsi/bionsi'?",
+      "options": [
+        "All things with no emphasis",
+        "Absolutely all things, emphasized",
+        "Every individual person",
+        "Something unknown"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Bonsi' or 'bionsi' conveys the sense of 'absolutely all things' with emphasis."
+    },
+    {
+      "question": "How do you say in Ekegusii, 'Anything could be found there'?",
+      "options": [
+        "Kende gionsi nabo kegotoka igaa",
+        "kanyo Bionsi biatokire igaa",
+        "kanyo Kera egento giatokire",
+        "Kera ekemo giatokire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kende gionsi nabo kegotoka igaa' translates to 'Anything could be found there.'"
+    },
+    {
+      "question": "Which phrase would be used to express the idea of 'All their relatives will come'?",
+      "options": [
+        "Abaamate bachire",
+        "Abaamate babo bonsi ngocha bare",
+        "Amaamate gete bachire",
+        "Abaamate babere bachire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Abaamate babo bonsi ngocha bare' means 'All their relatives will come.'"
+    },
+    {
+      "question": "If you are referring to any random item in Ekegusii, which phrase would you use?",
+      "options": ["Kende gionsi", "Bonsi", "Bionsi", "Kera egento"],
+      "correctAnswer": 0,
+      "explanation": "'Kende gionsi' is used when referring to 'any random item.'"
+    },
+    {
+      "question": "In Ekegusii, how would you refer to 'each person separately'?",
+      "options": ["Kera egento", "Kera oyomo", "Bonsi", "Oyo"],
+      "correctAnswer": 1,
+      "explanation": "'Kera oyomo' specifically refers to 'each person separately.'"
+    },
+    {
+      "question": "What would you say in Ekegusii for 'Something was found at the door'?",
+      "options": [
+        "Egento gete giatogete ase omorangu",
+        "Egento keria egiatogete ase omorangu",
+        "Bionsi ebiatogete ase omorangu",
+        "Bonsi baatokire ase omorangu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Egento gete giatogete ase omorangu' translates to 'Something was found at the door.'"
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "2.6 Review & Practice",
+          "type": "standalone",
+          "order": 6,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfc08"
+          },
+          "htmlContent": "kisii/beginner/module-two/review.html",
+          "passingScore": 50
+        },
+        {
+          "title": "2.7 Pronouns & Noun Declension",
+          "type": "container",
+          "order": 7,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfc09"
+          },
+          "subtopics": [
+            {
+              "title": "2.7.1 Interrogative Pronoun",
+              "htmlContent": "kisii/beginner/module-two/17.html",
+              "order": 1,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc0a"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which of the following Ekegusii interrogative pronouns is used to ask about the quantity of something?",
+      "options": ["Inaki?", "Nindi?", "Irenga?", "Inaki?"],
+      "correctAnswer": 2,
+      "explanation": "'Irenga?' is the interrogative pronoun used to ask about quantity in Ekegusii."
+    },
+    {
+      "question": "What is the correct Ekegusii translation for 'Why did you fail to come?'",
+      "options": [
+        "Naseki gwanchete gochata?",
+        "Naseki?",
+        "Naseki ogokanere?",
+        "Naseki totachierete?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Naseki gwanchete gochata?' translates to 'Why did you fail to come?'"
+    },
+    {
+      "question": "In Ekegusii, which interrogative pronoun is used to inquire about the manner or process of something?",
+      "options": ["Naseki?", "Inaki?", "Ndireri?", "Ning’o?"],
+      "correctAnswer": 1,
+      "explanation": "'Inaki?' is used to ask about the manner or process of something."
+    },
+    {
+      "question": "What is the meaning of the Ekegusii phrase 'Ning’o bwanchete?'",
+      "options": [
+        "Who is willing?",
+        "What is this?",
+        "When will you come?",
+        "Who asked for me?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ning’o bwanchete?' means 'Who is willing?'"
+    },
+    {
+      "question": "Which Ekegusii word is used to emphasize a question, similar to 'Are you sure?' in English?",
+      "options": ["Nabo?", "Igo?", "Ning’o?", "Ndireri?"],
+      "correctAnswer": 1,
+      "explanation": "'Igo?' is used for emphasis, similar to 'Are you sure?'"
+    },
+    {
+      "question": "How would you ask 'When will you come?' in Ekegusii?",
+      "options": ["Nindi ogocha?", "Nindi?", "Igo ngwachiete?", "Naseki ogokana?"],
+      "correctAnswer": 0,
+      "explanation": "'Nindi ogocha?' directly translates to 'When will you come?'"
+    },
+    {
+      "question": "In Ekegusii, which phrase would you use to ask about the location of a chair?",
+      "options": ["Ngai ekerogo kere?", "Ngai omoyio ore?", "Ngai ekerogo kere?", "Omoyio ngai ore"],
+      "correctAnswer": 0,
+      "explanation": "'Ngai ekerogo kere?' means 'Where is the chair?'"
+    },
+    {
+      "question": "What does the Ekegusii phrase 'Igo ngochore?' mean?",
+      "options": [
+        "Are you really going?",
+        "Aren’t you going?",
+        "Are you coming?",
+        "Why did you fail to come?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Igo ngochore?' means 'Are you really going?'"
+    },
+    {
+      "question": "Which Ekegusii word is used to inquire about the identity of a person or people?",
+      "options": ["Ndireri?", "Ning’o?", "Inaki?", "Irenga?"],
+      "correctAnswer": 1,
+      "explanation": "'Ning’o?' is used to ask 'Who?'"
+    },
+    {
+      "question": "How would you ask 'What is this?' in Ekegusii?",
+      "options": ["Eke ninki?", "Ning’o omboririe?", "Ngai omoyio ore?", "Ngogendore?"],
+      "correctAnswer": 0,
+      "explanation": "'Eke ninki?' translates to 'What is this?'"
+    }
+  ],
+              "passingScore": 50
+            },
+            {
+              "title": "2.7.2 Noun Declension in Ekegusii",
+              "htmlContent": "kisii/beginner/module-two/18.html",
+              "order": 2,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc0b"
+          },
+              "practiceQuestions": [
+    {
+      "question": "Which of the following correctly explains the behavior of Ekegusii nouns in the accusative case?",
+      "options": [
+        "They always end in vowels",
+        "They require a suffix to show object function",
+        "They remain in their original form",
+        "They adopt genitive suffixes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the accusative case, Ekegusii nouns remain in their original form without suffix changes."
+    },
+    {
+      "question": "What is the most distinguishing grammatical feature of the Ekegusii genitive case?",
+      "options": [
+        "It adds a prefix to every noun",
+        "It changes the form or ending of the noun to a consonant",
+        "It uses tone only, not spelling",
+        "It doubles the last vowel of the noun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the genitive case, nouns typically change their form or ending to a consonant."
+    },
+    {
+      "question": "Identify the pair that shows the correct genitive transformation:",
+      "options": [
+        "Ekerogo → Ebisaka",
+        "Egetabu → Obwoyo",
+        "Rogoro → Mambi",
+        "Inchwo → Genda"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Egetabu transforms correctly into 'Obwoyo' in the genitive case."
+    },
+    {
+      "question": "Which noun remains unchanged in spelling but is modified in pronunciation in the genitive case?",
+      "options": ["Egetunwa", "Maate", "Igoro", "Egetabu"],
+      "correctAnswer": 2,
+      "explanation": "'Igoro' remains the same in spelling but shifts in pronunciation in the genitive case."
+    },
+    {
+      "question": "Which of the following is NOT a correct genitive transformation based on Ekegusii rules?",
+      "options": [
+        "Ekenanti → Amaroba",
+        "Embori → Chimbori",
+        "Egetunwa → Ebitunwa",
+        "Obonyansi → Amanyansi"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Obonyansi → Amanyansi' is not a valid genitive transformation."
+    },
+    {
+      "question": "What is the genitive form of the noun 'Rigena' (stone)?",
+      "options": ["Gena", "Ebigena", "Amagena", "Rigena"],
+      "correctAnswer": 2,
+      "explanation": "'Rigena' in the genitive case becomes 'Amagena'."
+    },
+    {
+      "question": "Why is the genitive case particularly important for learners of Ekegusii grammar?",
+      "options": [
+        "It is the only case used in questions",
+        "It involves tonal variations and extensive suffixing",
+        "It is the only case where nouns change form",
+        "It completely replaces noun stems"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The genitive case is important because it is the only case where nouns actually change form."
+    },
+    {
+      "question": "In the genitive case, the Ekegusii noun 'Chinyanya' becomes:",
+      "options": ["Amatunda", "Chigari", "Ebikoroto", "Ebirogo"],
+      "correctAnswer": 0,
+      "explanation": "'Chinyanya' changes to 'Amatunda' in the genitive case."
+    },
+    {
+      "question": "Which of the following statements best reflects a general rule about genitive case endings in Ekegusii?",
+      "options": [
+        "They usually end in a vowel",
+        "They typically include a doubled vowel",
+        "They usually end in a consonant",
+        "They include the suffix '-ni'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Genitive case nouns in Ekegusii usually end in a consonant."
+    },
+    {
+      "question": "How does the noun 'Ekerogo' (chair) behave in the genitive case?",
+      "options": [
+        "It changes completely to Ebirogo",
+        "It remains Ekerogo with a tonal shift",
+        "It takes the suffix -ki",
+        "It becomes Ebirogo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ekerogo' remains the same in spelling but takes a tonal shift in the genitive case."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "2.8 Introduction to Adjectives",
+          "type": "container",
+          "order": 8,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfc0c"
+          },
+          "subtopics": [
+            {
+              "title": "2.8.1 Introduction",
+              "htmlContent": "kisii/beginner/module-two/19.html",
+              "order": 1,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc0d"
+          },
+              "practiceQuestions": "",
+              "passingScore": 50
+            },
+            {
+              "title": "2.8.2 Possessive Adjectives",
+              "htmlContent": "kisii/beginner/module-two/20.html",
+              "order": 2,
+              "_id": {
+            "$oid": "67d0495484f59d7cef6bfc0e"
+          },
+              "practiceQuestions": [
+    {
+      "question": "What is the correct Ekegusii form for 'my knife'?",
+      "options": ["Omoyio obo", "Omoyio oye", "Omoyio one", "Omoyio oito"],
+      "correctAnswer": 2,
+      "explanation": "'Omoyio one' correctly translates to 'my knife' in Ekegusii."
+    },
+    {
+      "question": "Which of the following correctly reflects the possessive form 'their chair'?",
+      "options": ["Ekerogo kiabo", "Ekerogo kiaye", "Ekerogo giato", "Ebirogo biri"],
+      "correctAnswer": 0,
+      "explanation": "'Ekerogo kiabo' means 'their chair' in Ekegusii."
+    },
+    {
+      "question": "In Ekegusii, what phonetic change occurs when forming the possessive of 'Eng’ombe' (cow)?",
+      "options": [
+        "ch changes to ch",
+        "e changes to -o",
+        "e changes to ch",
+        "e remains unchanged"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When forming the possessive of 'Eng’ombe', the vowel 'e' shifts to 'ch'."
+    },
+    {
+      "question": "What is the correct singular possessive form for 'our house' in Ekegusii?",
+      "options": ["Enyomba Yabo", "Enyomba yaito", "Enyomba yane", "Enyomba yago"],
+      "correctAnswer": 1,
+      "explanation": "'Enyomba yaito' translates as 'our house' in Ekegusii."
+    },
+    {
+      "question": "Which form correctly translates to 'your (plural) child'?",
+      "options": ["Omwana One", "Omwana oito", "Omwana oino", "Omwana obo"],
+      "correctAnswer": 2,
+      "explanation": "'Omwana oino' is the correct possessive form for 'your (plural) child'."
+    },
+    {
+      "question": "Which of the following shows a correct plural possessive form for 'his lands'?",
+      "options": ["Amaremo aito", "Amaremo aye", "Amaremo ago", "Amaremo ara"],
+      "correctAnswer": 1,
+      "explanation": "'Amaremo aye' is the correct form for 'his lands'."
+    },
+    {
+      "question": "What is the possessive transformation of the noun 'Richiko' (law) for the 1st person singular (my)?",
+      "options": ["Richiko riane", "Richiko riabo", "Richiko riano", "Richiko rito"],
+      "correctAnswer": 0,
+      "explanation": "'Richiko riane' is the correct 1st person singular possessive form meaning 'my law'."
+    },
+    {
+      "question": "What is the correct possessive form of 'stone' (Rigena) for 'her stone'?",
+      "options": [
+        "Kid-e Rigena riane",
+        "Kid-wa Rigena riabo",
+        "Kite Rigena riaye",
+        "Kidi-ne Rigena riaito"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kite Rigena riaye' translates to 'her stone'."
+    },
+    {
+      "question": "Which of the following possessive forms is grammatically incorrect in Ekegusii?",
+      "options": [
+        "Omoyio oye — His knife",
+        "Omogongo ogo — Your garden (sg)",
+        "Enyomba riane — Your (pl) house",
+        "Omwana oito — Our child"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Enyomba riane — Your (pl) house' is incorrect because 'riané' does not mark 2nd person plural possession."
+    },
+    {
+      "question": "Which noun exhibits both root transformation and possessive suffix attachment in Ekegusii?",
+      "options": ["Ekerogo", "Omoyio", "Omwana", "Richiko"],
+      "correctAnswer": 1,
+      "explanation": "'Omoyio' shows both root transformation and possessive suffix attachment."
+    }
+  ],
+              "passingScore": 50
+            }
+          ]
+        },
+        {
+          "title": "2.9 Review & Practice",
+          "type": "standalone",
+          "order": 9,
+          "_id": {
+            "$oid": "67d0495484f59d7cef6bfc0f"
+          },
+          "htmlContent": "kisii/beginner/module-two/21.html",
+          "passingScore": 50
+        }
+      ],
+
+      "cat": {
+  "title": "Simple Sentence Structures and Basic Grammar CAT",
+  "description": "This Continuous Assessment Test evaluates understanding of Ekegusii simple sentence structures, nouns, pronouns, adjectives, and related grammar concepts.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "_id": {
+        "$oid": "67d0495484f59d7cef6bfc10"
+    },
+  "questions": [
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following regions is associated with older, more conservative Ekegusii vocabulary such as Chitaratara, Ekemoni, and Omoro?",
+      "options": ["Rogoro", "Moino", "Maate", "Gati"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] What is the correct provenance term for a person from Bobasi?",
+      "options": ["Genda Bobasi", "Oyo Bobasi", "Bassi", "Inchwo Bobasi"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Identify the pair in which both Ekegusii nouns are classified as impersonal.",
+      "options": ["Omwana, Omoegereri", "Omworokia, Egari", "Embura, Amache", "Omworokigwa, Emesa"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] In Ekegusii, what does the prefix “oyo” signify when used in a noun like oyo Bogirango?",
+      "options": [
+        "A singular person from Bogirango",
+        "A woman from Bogirango",
+        "A group or people from Bogirango",
+        "An ancestral name"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which set best reflects external, visible parts of the body in Ekegusii?",
+      "options": ["Amara, Obongo, Enkoro", "Omotwe, Amaiso, Ebichara", "Amanyinga, Emeki, Riuga", "Amayaa, Nyarogno, Riini"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] What is the correct Ekegusii translation of “The sun rises from the East”?",
+      "options": [
+        "Omogaso obarire korwa sugusu",
+        "Omogaso obarire korwa moocha",
+        "Omogaso obarire korwa Irianyi",
+        "Omogaso orimire gochia moocha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] In Ekegusii, which of the following terms is associated with abstract concepts rather than physical objects?",
+      "options": ["Okoboko", "Emesa", "Obwanchani", "Egari"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which directional expression correctly shows movement toward the South in Ekegusii?",
+      "options": ["Gochia Sugusu", "Gochia Irianyi", "Gochia Bosongo", "Gochia moocha"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following pairs both represent abstract nouns in Ekegusii?",
+      "options": ["Esese, oboene", "Obwanchani, Chinguru", "Ekerogo, Inse", "Omwana, Okogechigwa"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] What is the plural form of the Egesusu word Egesusu (rabbit), according to its noun class pattern?",
+      "options": ["Chiombe", "Ngwesomi", "Ebisusu", "Ritororo"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following animals is classified as a wild animal and not a domestic or poultry animal in Ekegusii?",
+      "options": ["Engoko", "Egesimba", "Embori", "Etuoni"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] The noun Egioto (frog) belongs to which pluralization class based on suffix patterns?",
+      "options": ["-mbe", "-che", "-eke", "-chi"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which of the following traditional Ekegusii vegetables is noted for having mild toxicity and thus requires caution when cooking?",
+      "options": ["Risosa", "Amato y’echinyanya", "Egesare", "Ngosamora"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which set correctly lists nouns that would follow the Omo → Ama pluralization pattern in Ekegusii?",
+      "options": ["Omworokia, Omonene", "Omonene, Ekerogo, Esese", "Omorogi, Omworokia", "Omworokia, Omosani, Amareko"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] According to Ekegusii noun pluralization, what is the correct plural form of Riuga (bone)?",
+      "options": ["Amariuga", "Amaru", "Amauga", "Mariuga"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns Part 01 & 02] Which Abagusii traditional dish is made from smoked or sun-dried beef and is known for requiring no refrigeration?",
+      "options": ["Amabuta", "Ekerandi", "Enswe", "Chinsaga"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] Which Ekegusii demonstrative pronoun specifically indicates an object located far from both the speaker and listener?",
+      "options": ["Oyo", "Oria", "OOria", "Aba"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] In the sentence \"Kera omonto ngoragera\", what linguistic feature is emphasized?",
+      "options": ["Inclusive pronoun use", "Random object selection", "Distributive individuality", "Emphatic ownership"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] What is the correct plural demonstrative pronoun for referring to items near the listener?",
+      "options": ["Aba", "Oria", "Baria", "Oria"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which of the following uses a possessive suffix exclusive to second person plural?",
+      "options": ["Omwana oyo", "Omwana oino", "Omwana oito", "Omwana obo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] What is the meaning of the expression \"Amaene endara yarietu\"?",
+      "options": [
+        "He ate some food",
+        "Everyone brought food",
+        "All the food was eaten, absolutely",
+        "Nothing was left on the plate"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which form correctly translates “their garden” in Ekegusii using the ‘Egeticha’ construction?",
+      "options": ["Egeticha keria", "Egeticha kiane", "Egeticha giato", "Egeticha kiaye"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Pronouns Part 01] In which example is the demonstrative combined with a possessive pronoun?",
+      "options": ["Oria n’omorisia", "Eke ninki?", "Ekio n’ekerogo kiane", "Ebi n’ebikombe"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which interrogative pronoun would best fit in the sentence: “_____ Genda inka?” (____ is going home?)",
+      "options": ["Rireri", "Inaki", "Nindi", "Ninki"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] What is the correct translation of “endani” based on the section on specific demonstrative nouns?",
+      "options": ["This fighter", "This pond", "That tree", "That place"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] Which personal pronoun is correctly matched with its plural English equivalent?",
+      "options": ["Aye → They", "Baria → You (plural)", "Intwe → We", "Inwe → They"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] How would one express “Mogaka’s child” using proper possessive grammar?",
+      "options": ["Omwana one", "Omwana O’Mogaka", "Omwana no’yomogaka", "Omwana o’Mogaka oyo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 01] Which of the following best exemplifies the distributive use for things?",
+      "options": ["Egento", "Gento kende gionsi", "Ekemo ase ekende", "Kera egento"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 01] Which example demonstrates an emphatic subject pronoun?",
+      "options": ["Inka ngogenda", "Genda inka", "Ngochande", "Nachire"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following Ekegusii interrogatives would be most appropriate when asking about the cause of an event rather than the manner of it?",
+      "options": ["Bono", "Rireri", "Inaki", "Ning’o"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] In Ekegusii, how would you form a tag question that conveys polite doubt after saying “You’re going”?",
+      "options": ["Naki ogendererete?", "Ngogendore?", "Ngogendore,igo?", "Nindi okogenda?"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following transformations is incorrect when forming the genitive (possessive) form?",
+      "options": [
+        "Embori → chimbori",
+        "Rigena → Amagena",
+        "Egetunwa → Ebitunwa",
+        "Omwana → Omwana oo"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] What is the plural possessive form for “our lands” in Ekegusii?",
+      "options": ["Oboremo bwaito", "Oboremo bwane", "Oberemo bwabo", "Ameremo ane"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which phrase best demonstrates an interrogative used to inquire about time of occurrence?",
+      "options": ["Abanto mbarenga?", "Nindi ogocha?", "Ngai ekerogo kere?", "Inaki ogendererete?"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] In Ekegusii noun declension, which grammatical case is the only one that results in morphological changes to the noun?",
+      "options": ["Nominative", "Dative", "Genitive", "Accusative"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following noun-to-possessive transformations shows both root change and suffix addition?",
+      "options": ["Ekerogo → Ebirogo", "Enyomba → Chinyomba", "Egetabu → Ebitabu", "Omwana → Abana"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which adjective type in Ekegusii would the phrase “whose chair?” fall under?",
+      "options": ["Possessive", "Demonstrative", "Interrogative", "Comparative"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] What is the most likely explanation for the genitive transformation “Chinyanya” → “Amatunda”?",
+      "options": [
+        "Addition of plural suffix",
+        "Simplification of vowel-heavy endings",
+        "Stress accent on first syllable",
+        "Prefix change to show indirect object"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which of the following best represents a consonant-based genitive transformation?",
+      "options": [
+        "Egeticha → Egeticha kiane",
+        "Omoyio → Omoyio one",
+        "Amaroba → Amaroba ane",
+        "Amaino → Amaino"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns Part 02 & Adjectives] Which sentence demonstrates an advanced interrogative structure that involves possibility or capability?",
+      "options": [
+        "Ning’o bwanchire?",
+        "Onde bwensi nabo akoba omobui?",
+        "Naseki otacherete?",
+        "Nindi ogocha?"
+      ],
+      "correctAnswer": 1
+    }
+  ]
 }
+    }
