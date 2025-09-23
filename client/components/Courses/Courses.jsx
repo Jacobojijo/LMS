@@ -113,10 +113,10 @@ const Courses = () => {
   const renderCTA = (language) => {
     // September intake links
     const intakeLinks = {
-      "Dholuo": "https://forms.gle/372UuExdkQJkGgTa9",
-      "Ekegusii": "https://forms.gle/a8hHzTYAZXs7dRjL7",
-      "Kalenjin": "https://forms.gle/y5ZEiuAfSM5rMdku8",
-      "Kikuyu": "https://forms.gle/h1Ck5D1ZSU3JjNG59"
+      "Dholuo": "https://forms.gle/fbeT3KZfbZcGUXkT8",
+      "Ekegusii": "https://forms.gle/s1MocBdbP5CRMDWv6",
+      "Kalenjin": "https://forms.gle/mFSo9UNvtfmJSQDk8",
+      "Kikuyu": "https://forms.gle/9SPzsCM7a29BUBN69"
     };
 
     // Check if language has September intake
@@ -131,7 +131,7 @@ const Courses = () => {
           <span className="mr-1 relative">
             <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
           </span>
-          {windowWidth < 640 ? "REGISTER" : "AUGUST INTAKE: REGISTER"}
+          {windowWidth < 640 ? "REGISTER" : "JANUARY INTAKE: REGISTER"}
         </a>
       );
     } else {
