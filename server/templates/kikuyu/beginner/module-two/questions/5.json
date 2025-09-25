@@ -1,0 +1,84 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the Kikuyu word for 'eye'?",
+      "options": ["Gũtũ", "Riitho", "Kanua", "Iniuru"],
+      "correctAnswer": 1,
+      "explanation": "The Kikuyu word for 'eye' is 'Riitho'."
+    },
+    {
+      "question": "Which of the following is an internal body part in Kikuyu?",
+      "options": ["Tũnwe twa moko", "Kĩero", "Ngoro", "Gĩthũri"],
+      "correctAnswer": 2,
+      "explanation": "'Ngoro' (heart) is an internal body part in Kikuyu."
+    },
+    {
+      "question": "How do you say 'my hand' in Kikuyu?",
+      "options": ["Gũoko gwake", "Gũoko gwaku", "Gũoko gwakwa", "Gũok"],
+      "correctAnswer": 2,
+      "explanation": "'Gũoko gwakwa' means 'my hand' in Kikuyu."
+    },
+    {
+      "question": "‘Gũoko gwake nĩ kunĩku’ means:",
+      "options": [
+        "He/she washed his/her hand",
+        "He/she lifted the hand",
+        "His/her hand is strong",
+        "He/she broke his/her hand"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The phrase means 'He/she broke his/her hand'."
+    },
+    {
+      "question": "What is the correct Kikuyu sentence for 'Blood flows in the body'?",
+      "options": [
+        "Thakame itengeraga mwĩrĩ-inĩ",
+        "Mũtwe wĩ thakame",
+        "Thakame nĩ ya gũtũ",
+        "Mũciĩ gwĩkĩra thakame"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Thakame itengeraga mwĩrĩ-inĩ' is the correct Kikuyu sentence for 'Blood flows in the body'."
+    },
+    {
+      "question": "Which body part is correctly matched with its Kikuyu translation?",
+      "options": ["Knee – Kĩande", "Ear – Gũtũ", "Ankle – Gĩthũri", "Tooth – Rũgongo"],
+      "correctAnswer": 1,
+      "explanation": "'Ear – Gũtũ' is the correct match."
+    },
+    {
+      "question": "Which of these is a countable body part in Kikuyu?",
+      "options": ["Thakame", "Ngoro", "Tũnwe twa moko", "Mahũha"],
+      "correctAnswer": 2,
+      "explanation": "'Tũnwe twa moko' (fingers) are countable body parts."
+    },
+    {
+      "question": "What is 'stomach' called in Kikuyu, especially in medical context?",
+      "options": ["Ndia", "Mũgongo", "Gĩthũri", "Hingo"],
+      "correctAnswer": 0,
+      "explanation": "The Kikuyu word for 'stomach' is 'Ndia'."
+    },
+    {
+      "question": "Which sentence is grammatically correct in Kikuyu?",
+      "options": [
+        "Gũoko nĩ kunĩku",
+        "Kunĩku gũoko ya",
+        "Gũoko gwake nĩ kunĩku",
+        "Gũoko nĩ yake kunĩku"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gũoko gwake nĩ kunĩku' is the correct grammatical sentence."
+    },
+    {
+      "question": "How would you say 'She hurt her knee' in Kikuyu?",
+      "options": [
+        "Ahinyĩte rwero rwe",
+        "Ahinyĩte rwero wake",
+        "Rwero nĩ ahinyĩte",
+        "Ahinyĩte rwero gwake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct Kikuyu expression is 'Ahinyĩte rwero rwe'."
+    }
+  ]
+}

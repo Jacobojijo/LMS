@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the Kikuyu modern term for East?",
+      "options": [
+        "Kũraya",
+        "Kũngú",
+        "Kũgĩkũyũ",
+        "Iganjo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The modern Kikuyu term for East is 'Kũngú'."
+    },
+    {
+      "question": "The phrase 'Tũgũthie Kũruguru' means:",
+      "options": [
+        "We are heading West",
+        "We are going North",
+        "We are climbing up",
+        "We are going South"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Tũgũthie Kũruguru' means 'We are going North'."
+    },
+    {
+      "question": "Which direction is traditionally associated with Mt. Kirinyaga and spiritual alignment?",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "correctAnswer": 2,
+      "explanation": "East is traditionally associated with Mt. Kirinyaga and spiritual alignment in Kikuyu culture."
+    },
+    {
+      "question": "What is the traditional Kikuyu term for South?",
+      "options": [
+        "Itherero",
+        "Irathiũ",
+        "Iganjo",
+        "Irathero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The traditional Kikuyu term for South is 'Itherero'."
+    },
+    {
+      "question": "What Kikuyu verb expresses 'to descend' or 'go down'?",
+      "options": [
+        "Kũinũka",
+        "Gũcoka",
+        "Gũikũrũka",
+        "Kũambata"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The verb 'Gũikũrũka' expresses 'to descend' or 'go down' in Kikuyu."
+    },
+    {
+      "question": "Which sentence correctly uses a directional phrase?",
+      "options": [
+        "Rũciinĩ rwa nyamũrata rwaathĩ Kũraya",
+        "Tũgũthiĩ Kũruguru",
+        "Mũrũthi ũgĩa Irathero",
+        "Gũikara Kũngú"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Tũgũthiĩ Kũruguru' correctly uses a directional phrase, meaning 'We are going North'."
+    },
+    {
+      "question": "In Kikuyu, which direction symbolizes endings or sunset?",
+      "options": [
+        "Irathero",
+        "Kũruguru",
+        "Ithũĩro",
+        "Kũngú"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ithũĩro' symbolizes endings or sunset in Kikuyu tradition."
+    },
+    {
+      "question": "What does 'Ina hĩndĩ ya kũinũka' mean?",
+      "options": [
+        "Go down now",
+        "It is time to wake up",
+        "Sit down now",
+        "The smoke rises"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ina hĩndĩ ya kũinũka' means 'It is time to wake up'."
+    },
+    {
+      "question": "How is vertical direction 'to climb' expressed in Kikuyu?",
+      "options": [
+        "Kũinũka",
+        "Kũũra",
+        "Kũambata",
+        "Kũgũra"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vertical direction 'to climb' is expressed as 'Kũambata' in Kikuyu."
+    },
+    {
+      "question": "Which of the following is both a directional and cultural term used in rituals and farming?",
+      "options": [
+        "Kũgĩkũyũ",
+        "Kũngú",
+        "Kũũra",
+        "Gũikara"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kũngú' serves both as a directional term (East) and a cultural term used in rituals and farming."
+    }
+  ]
+}

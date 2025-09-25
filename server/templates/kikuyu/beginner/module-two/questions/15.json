@@ -1,0 +1,114 @@
+{ 
+  "practiceQuestions": [ 
+    { 
+      "question": "What is the correct Kikuyu translation for “my garden”?", 
+      "options": [ 
+        "Gĩthaka gĩaku", 
+        "Gĩthaka gĩakwa", 
+        "Gĩthaka gĩake", 
+        "Gĩthaka gĩanyu" 
+      ], 
+      "correctAnswer": 1, 
+      "explanation": "The correct form is 'Gĩthaka gĩakwa', which means 'my garden' in Kikuyu." 
+    }, 
+    { 
+      "question": "Which of the following means “their child”?", 
+      "options": [ 
+        "Mwana wanyu", 
+        "Mwana wakwa", 
+        "Mwana wao", 
+        "Mwana wetu" 
+      ], 
+      "correctAnswer": 2, 
+      "explanation": "'Mwana wao' is the correct form for 'their child' in Kikuyu." 
+    }, 
+    { 
+      "question": "What is the correct Kikuyu form for “your (singular) house”?", 
+      "options": [ 
+        "Nyumba yake", 
+        "Nyumba yanyu", 
+        "Nyumba ya niĩ", 
+        "Nyumba yaku" 
+      ], 
+      "correctAnswer": 3, 
+      "explanation": "The correct form is 'Nyumba yaku', which means 'your house' (singular)." 
+    }, 
+    { 
+      "question": "In Kikuyu, the short form for “our” is:", 
+      "options": [ 
+        "-anyu", 
+        "-akwa", 
+        "-itu", 
+        "-aku" 
+      ], 
+      "correctAnswer": 2, 
+      "explanation": "The short form for 'our' is '-itu' in Kikuyu." 
+    }, 
+    { 
+      "question": "Choose the correct possessive form for “the garden is ours”.", 
+      "options": [ 
+        "Gĩthaka gĩake", 
+        "Gĩthaka gĩaku", 
+        "Gĩthaka gitu", 
+        "Gĩthaka gĩanyu" 
+      ], 
+      "correctAnswer": 2, 
+      "explanation": "The correct form is 'Gĩthaka gĩetu', meaning 'the garden is ours'." 
+    }, 
+    { 
+      "question": "The phrase “mwana wanyu” means:", 
+      "options": [ 
+        "Your child (singular)", 
+        "Your child (plural)", 
+        "Their child", 
+        "Our child" 
+      ], 
+      "correctAnswer": 1, 
+      "explanation": "'Mwana wanyu' means 'your child' in the plural sense." 
+    }, 
+    { 
+      "question": "Which possessive ending would you use for “his/her”?", 
+      "options": [ 
+        "-ake", 
+        "-ao", 
+        "-aku", 
+        "-etu" 
+      ], 
+      "correctAnswer": 0, 
+      "explanation": "The possessive ending for 'his/her' is '-ake'." 
+    }, 
+    { 
+      "question": "Which of the following means “the farm is mine”?", 
+      "options": [ 
+        "Gĩthaka gĩao", 
+        "Gĩthaka gĩake", 
+        "Gĩthaka gĩakwa", 
+        "Gĩthaka gĩanyu" 
+      ], 
+      "correctAnswer": 2, 
+      "explanation": "The correct form is 'Gĩthaka gĩakwa', meaning 'the farm is mine'." 
+    }, 
+    { 
+      "question": "In Kikuyu, “wa” is used to:", 
+      "options": [ 
+        "Show tense in a sentence", 
+        "Join two verbs", 
+        "Show belonging or possession", 
+        "Indicate plural nouns" 
+      ], 
+      "correctAnswer": 2, 
+      "explanation": "The particle 'wa' in Kikuyu is used to show belonging or possession." 
+    }, 
+    { 
+      "question": "What is the correct Kikuyu translation for “our house”?", 
+      "options": [ 
+        "Nyumba itu", 
+        "Nyumba yanyu", 
+        "Nyumba yao", 
+        "Nyumba yakwa" 
+      ], 
+      "correctAnswer": 0, 
+      "explanation": "The correct form is 'Nyumba itu', which means 'our house' in Kikuyu." 
+    } 
+  ] 
+}

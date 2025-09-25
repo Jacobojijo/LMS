@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Kikuyu dialect is known for conservative vocabulary and influence from Embu and Meru languages?",
+      "options": [
+        "Kiambu",
+        "Murang’a South",
+        "Southern and Central Nyeri",
+        "Eastern Nyeri"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Southern and Central Nyeri dialect is known for its conservative vocabulary and shows influence from Embu and Meru languages."
+    },
+    {
+      "question": "What is the Kikuyu word for 'today' in Gĩtigĩ 1 (Nyeri dialect)?",
+      "options": [
+        "Rũciũ",
+        "Kĩgũrũkia",
+        "Gũthingu",
+        "Mũthenya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Gĩtigĩ 1 (Nyeri dialect), 'Gũthingu' is the word used for 'today'."
+    },
+    {
+      "question": "Which region’s Kikuyu dialect is most influenced by Nairobi’s urban language blend?",
+      "options": [
+        "Karatina",
+        "Limuru",
+        "Mathira",
+        "Mwea"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Limuru dialect is heavily influenced by Nairobi’s urban language blend due to its geographical and cultural proximity."
+    },
+    {
+      "question": "The word 'Kĩanda' meaning 'garden' is commonly used in which Kikuyu dialect group?",
+      "options": [
+        "Gĩtigĩ 1",
+        "Gĩtigĩ 2, 3, 4",
+        "Gĩtigĩ 4 only",
+        "Gĩtigĩ 3 only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kĩanda' meaning 'garden' is commonly used in the Gĩtigĩ 2, 3, and 4 dialect groups."
+    },
+    {
+      "question": "Which Kikuyu dialect retains poetic expression and strong folkloric references?",
+      "options": [
+        "Central Nyeri",
+        "Kiambu",
+        "Murang’a South and Southern Kirinyaga",
+        "Eastern Nyeri"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Murang’a South and Southern Kirinyaga dialects are notable for retaining poetic expression and strong folkloric traditions."
+    },
+    {
+      "question": "Which word is a more modern Kikuyu synonym for 'cooking stick'?",
+      "options": [
+        "Kĩraũ",
+        "Mũgatĩ wa ng’ombe",
+        "Gũthingu",
+        "Kĩgũrũkia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũgatĩ wa ng’ombe' is considered a more modern Kikuyu synonym for 'cooking stick'."
+    },
+    {
+      "question": "Which Kikuyu dialect uses the term 'Rũciũ' for 'today'?",
+      "options": [
+        "Gĩtigĩ 1",
+        "Gĩtigĩ 2, 3, 4",
+        "Gĩtigĩ 4 only",
+        "All dialects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'Rũciũ' for 'today' is used in the Gĩtigĩ 2, 3, and 4 dialects."
+    },
+    {
+      "question": "The dialect spoken in Karatina is considered a transition between which types of speech?",
+      "options": [
+        "Rural and urban",
+        "Conservative and modern",
+        "Nyeri and Kiambu",
+        "Eastern and Western"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Karatina dialect is viewed as a transitional form between conservative and modern speech styles."
+    },
+    {
+      "question": "Which dialect is characterized by syllabic stress and poetic oral tradition?",
+      "options": [
+        "Gĩtigĩ 1",
+        "Gĩtigĩ 3",
+        "Gĩtigĩ 4",
+        "Gĩtigĩ 2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gĩtigĩ 4 is distinguished by syllabic stress and a strong poetic oral tradition."
+    },
+    {
+      "question": "The word 'Kĩndũ' is a less common and possibly archaic Kikuyu term for which of the following?",
+      "options": [
+        "Cooking stick",
+        "Morning",
+        "Child",
+        "Garden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kĩndũ' is an archaic Kikuyu term that refers to a child, though it is less commonly used today."
+    }
+  ]
+}

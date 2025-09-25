@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "How is possession indicated in Kikuyu?",
+      "options": [
+        "By changing the noun's ending.",
+        "By adding a suffix to the noun.",
+        "By using a possessive adjective that agrees in class with the noun.",
+        "By placing the possessor's name before the noun."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Possession in Kikuyu is indicated by using a possessive adjective that agrees with the noun's class."
+    },
+    {
+      "question": "The Kikuyu word for 'house' is nyũmba (Class 9). How would you say 'my house'?",
+      "options": [
+        "Nyũmba yakwa",
+        "Nyũmba wakwa",
+        "Nyũmba gĩakwa",
+        "Nyũmba kĩakwa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is 'Nyũmba yakwa', where 'ya-' agrees with class 9 nouns."
+    },
+    {
+      "question": "The word for 'teacher' is mũrutani (Class 1). What is the correct way to say 'his/her teacher'?",
+      "options": [
+        "Mũrutani wake",
+        "Mũrutani wao",
+        "Mũrutani wanyu",
+        "Mũrutani wetu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct form is 'Mũrutani wake', where 'wa-' agrees with the class 1 noun 'mũrutani'."
+    },
+    {
+      "question": "Which prefix would you use for the possessive adjective of a noun in Class 7, such as gĩthaka (farm)?",
+      "options": [
+        "wa-",
+        "ya-",
+        "gĩ-",
+        "rĩ-"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For class 7 nouns like 'gĩthaka', the possessive prefix is 'gĩ-'."
+    },
+    {
+      "question": "The Kikuyu word for 'tree' is mũtĩ (Class 3). How would you say 'our tree'?",
+      "options": [
+        "Mũtĩ wao",
+        "Mũtĩ wetu",
+        "Mũtĩ wanyu",
+        "Mũtĩ wakwa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct phrase is 'Mũtĩ wetu', where 'we-' agrees with class 3 nouns."
+    },
+    {
+      "question": "In Kikuyu, what is the possessive adjective for 'your' (plural)?",
+      "options": [
+        "-aku",
+        "-ake",
+        "-itũ",
+        "-anyu"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The possessive adjective for 'your' (plural) in Kikuyu is '-anyu'."
+    },
+    {
+      "question": "The word for 'child' is mũndũũkĩ (Class 1). How would you say 'their child'?",
+      "options": [
+        "Mũndũũkĩ wao",
+        "Mũndũũkĩ wetu",
+        "Mũndũũkĩ wanyu",
+        "Mũndũũkĩ wake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct phrase is 'Mũndũũkĩ wao', which means 'their child'."
+    },
+    {
+      "question": "The noun mĩgũnda (farms) is the plural of mũgũnda (Class 3/4). How would you say 'my farms'?",
+      "options": [
+        "Mĩgũnda wakwa",
+        "Mĩgũnda yakwa",
+        "Mĩgũnda gĩakwa",
+        "Mĩgũnda kĩakwa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct phrase is 'Mĩgũnda yakwa', with 'ya-' agreeing with plural class 4 nouns."
+    },
+    {
+      "question": "Which of the following phrases is correct for 'your (singular) chair' given that 'chair' is gĩtĩ (Class 7)?",
+      "options": [
+        "Gĩtĩ waku",
+        "Gĩtĩ yaku",
+        "Gĩtĩ gĩaku",
+        "Gĩtĩ rĩaku"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct phrase is 'Gĩtĩ gĩaku', with 'gĩ-' agreeing with class 7 nouns."
+    },
+    {
+      "question": "What is the key grammatical rule that determines the prefix of a possessive adjective in Kikuyu?",
+      "options": [
+        "Gender agreement",
+        "The number of syllables in the noun",
+        "The noun's class",
+        "The verb tense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix of a possessive adjective in Kikuyu is determined by the noun's class."
+    }
+  ]
+}

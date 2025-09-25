@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is a wild animal in Kikuyu?",
+      "options": ["Ng’ombe", "Mũrũthi", "Ngũkũ", "Bata"],
+      "correctAnswer": 1,
+      "explanation": "'Mũrũthi' is a wild animal in Kikuyu."
+    },
+    {
+      "question": "What is the Kikuyu name for 'Giraffe'?",
+      "options": ["Ndũiga", "Mbaria", "Njogu", "Nũgũ"],
+      "correctAnswer": 0,
+      "explanation": "'Ndũiga' is the Kikuyu word for 'Giraffe'."
+    },
+    {
+      "question": "Which animal is called 'Ngũi' in Kikuyu?",
+      "options": ["Pig", "Dog", "Sheep", "Cat"],
+      "correctAnswer": 1,
+      "explanation": "'Ngũi' is the Kikuyu word for 'Dog'."
+    },
+    {
+      "question": "Which of these is a bird (Nyoni) in Kikuyu?",
+      "options": ["Kĩrumbĩ", "Ndutura", "Kamongo", "Mũmi"],
+      "correctAnswer": 1,
+      "explanation": "'Ndutura' is a bird (partridge) in Kikuyu."
+    },
+    {
+      "question": "The Kikuyu name 'Ngũrũwe' refers to which animal?",
+      "options": ["Pig", "Goat", "Leopard", "Buffalo"],
+      "correctAnswer": 0,
+      "explanation": "'Ngũrũwe' is the Kikuyu word for 'Pig'."
+    },
+    {
+      "question": "Which of the following is a fish in Kikuyu?",
+      "options": ["Ngege", "Ngiri", "Mbũri", "Ndororo"],
+      "correctAnswer": 0,
+      "explanation": "'Ngege' is a type of fish (Tilapia) in Kikuyu."
+    },
+    {
+      "question": "What is the Kikuyu plural for 'Ngũkũ' (hen)?",
+      "options": ["Cingũkũ", "Ngũkũ", "Ngũkũo", "Ngũkũi"],
+      "correctAnswer": 1,
+      "explanation": "The plural of 'Ngũkũ' (hen) is the same form 'Ngũkũ'."
+    },
+    {
+      "question": "Which of these is a domestic animal (Nyamũ cia mũciĩ) in Kikuyu?",
+      "options": ["Kĩrĩna", "Ng’ombe", "Njoka", "Ngero"],
+      "correctAnswer": 1,
+      "explanation": "'Ng’ombe' (cow) is a domestic animal in Kikuyu."
+    },
+    {
+      "question": "Which of these is a poultry bird in Kikuyu?",
+      "options": ["Jogoo", "Nũgũ", "Kĩnyoni kĩa ũki", "Rũnyũ"],
+      "correctAnswer": 0,
+      "explanation": "'Jogoo' (rooster) is a poultry bird in Kikuyu."
+    },
+    {
+      "question": "The Kikuyu word 'Ngũkũ ya rũgũrũ' means:",
+      "options": ["Young hen (pullette)", "Quail", "Weaver bird", "Sunbird"],
+      "correctAnswer": 1,
+      "explanation": "'Ngũkũ ya rũgũrũ' means 'Quail' in Kikuyu."
+    }
+  ]
+}

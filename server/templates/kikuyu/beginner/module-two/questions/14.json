@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Kikuyu pronoun means 'I'?",
+      "options": [
+        "Wĩ",
+        "Niĩ",
+        "Ithue",
+        "Acio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kikuyu pronoun for 'I' is 'Niĩ'."
+    },
+    {
+      "question": "Translate 'They are at work' into Kikuyu.",
+      "options": [
+        "Inyũe marĩ wĩra",
+        "Niĩ ndĩ wĩra",
+        "Acio marĩ wĩra",
+        "Ithue marĩ wĩra"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'They are at work' translates to 'Acio marĩ wĩra' in Kikuyu."
+    },
+    {
+      "question": "Which pronoun is 2nd person singular?",
+      "options": [
+        "Niĩ",
+        "Acio",
+        "Wĩ",
+        "E"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 2nd person singular pronoun in Kikuyu is 'Wĩ'."
+    },
+    {
+      "question": "In the sentence 'Ithue nĩ tũhikanĩtie', the pronoun Ithue means:",
+      "options": [
+        "They",
+        "We",
+        "You (singular)",
+        "He"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kikuyu, 'Ithue' means 'We'."
+    },
+    {
+      "question": "The Kikuyu pronoun 'E' is:",
+      "options": [
+        "Gender-specific",
+        "Gender-neutral",
+        "Only for females",
+        "Only for males"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pronoun 'E' is gender-neutral in Kikuyu."
+    },
+    {
+      "question": "Choose the correct translation for 'You (plural) are at home'.",
+      "options": [
+        "Wĩ mũciĩ",
+        "Ithue twĩ mũciĩ",
+        "Inyũe mwĩ mũciĩ",
+        "Acio me mũciĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'You (plural) are at home' is translated as 'Inyũe mwĩ mũciĩ' in Kikuyu."
+    },
+    {
+      "question": "The interrogative pronoun 'Kũũ' means:",
+      "options": [
+        "Who",
+        "Where",
+        "What",
+        "Why"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kikuyu interrogative pronoun 'Kũũ' means 'Where'."
+    },
+    {
+      "question": "Which pronoun fits this sentence? _____ nĩgũcooka rũciinĩ → 'He will return in the morning.'",
+      "options": [
+        "Niĩ",
+        "E",
+        "Acio",
+        "Ithue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct pronoun is 'E', making the sentence 'E nĩgũcooka rũciinĩ'."
+    },
+    {
+      "question": "In Kikuyu, the phrase 'Nĩwe ũrĩa' means:",
+      "options": [
+        "You are this one",
+        "I am that one",
+        "He/She is that one",
+        "They are those ones"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩwe ũrĩa' means 'He/She is that one' in Kikuyu."
+    },
+    {
+      "question": "Which pronoun completes this sentence: _____ marĩ mũciĩ → 'They are at home.'",
+      "options": [
+        "Acio",
+        "Niĩ",
+        "Wĩ",
+        "Ithue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct pronoun is 'Acio', making the sentence 'Acio marĩ mũciĩ'."
+    }
+  ]
+}

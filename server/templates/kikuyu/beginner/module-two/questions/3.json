@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is a personal noun in Kikuyu?",
+      "options": [
+        "Maĩ",
+        "Mũrutani",
+        "Mbura",
+        "Gari"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The noun 'Mũrutani' (teacher) is a personal noun in Kikuyu as it refers to a person."
+    },
+    {
+      "question": "What pronoun would most likely replace a personal noun like 'Mũtumia' in Kikuyu?",
+      "options": [
+        "Kĩrĩa",
+        "Gĩkĩ",
+        "Niwe",
+        "Igĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pronoun 'Niwe' (she/her) would replace a personal noun like 'Mũtumia' (woman)."
+    },
+    {
+      "question": "Which noun below refers to a mass impersonal noun in Kikuyu?",
+      "options": [
+        "Mũthuri",
+        "Meza",
+        "Maĩ",
+        "Wairimu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Maĩ' (water) is a mass impersonal noun in Kikuyu."
+    },
+    {
+      "question": "What Kikuyu noun represents a natural phenomenon?",
+      "options": [
+        "Ngũgĩ",
+        "Mbura",
+        "Mũndũ",
+        "Gari"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbura' (rain) is a natural phenomenon and is classified as an impersonal noun in Kikuyu."
+    },
+    {
+      "question": "The noun 'Wairimu' is classified as which type of noun?",
+      "options": [
+        "Abstract",
+        "Proper Personal",
+        "Impersonal",
+        "Social"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wairimu' is a Kikuyu proper personal noun, as it is a specific personal name."
+    },
+    {
+      "question": "Which of these is an example of an abstract impersonal noun?",
+      "options": [
+        "Mũthomi",
+        "Mbembe",
+        "Ngũgĩ",
+        "Gari"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ngũgĩ' can be used as an abstract impersonal noun, referring to strength or force in certain contexts."
+    },
+    {
+      "question": "How is gender expressed in Kikuyu personal nouns?",
+      "options": [
+        "Through prefixes only",
+        "Not expressed at all",
+        "Through terms like mũtumia and mũthuri",
+        "Using suffixes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gender in Kikuyu personal nouns is expressed through terms like 'mũtumia' (woman) and 'mũthuri' (man)."
+    },
+    {
+      "question": "Which of the following is an occupational personal noun?",
+      "options": [
+        "Mũrutani",
+        "Kĩrĩma",
+        "Mbura",
+        "Maguta"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Mũrutani' (teacher) is an occupational personal noun in Kikuyu."
+    },
+    {
+      "question": "Which noun below would best be replaced with the pronoun 'gĩkĩ'?",
+      "options": [
+        "Mũrũ wa ithe",
+        "Mũndũ wa mbia",
+        "Gĩrĩ",
+        "Mũtongoria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Gĩrĩ' (a thing) is impersonal and would be replaced with the pronoun 'gĩkĩ' (this thing)."
+    },
+    {
+      "question": "Which of the following best distinguishes personal nouns from impersonal nouns in Kikuyu?",
+      "options": [
+        "Personal nouns refer to emotions",
+        "Impersonal nouns have agency",
+        "Personal nouns imply awareness and volition",
+        "Impersonal nouns are always abstract"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Personal nouns in Kikuyu imply awareness and volition, unlike impersonal nouns."
+    }
+  ]
+}

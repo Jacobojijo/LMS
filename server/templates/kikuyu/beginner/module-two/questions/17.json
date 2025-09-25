@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What does Mũndũ kwa mũndũ mean in Kikuyu?",
+      "options": [
+        "Mũndũ mũrĩa waku",
+        "Mũndũ kwa mũndũ",
+        "Andũ othe hamwe",
+        "Ũhoro wothe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũndũ kwa mũndũ' directly translates to 'person by person' or 'each person individually'."
+    },
+    {
+      "question": "How do you say 'each thing' or 'every single item' in Kikuyu?",
+      "options": [
+        "Kĩndũ kĩmwe na kĩmwe",
+        "Kĩndũ o kĩothe",
+        "Mũndũ o wothe",
+        "Mũndũ ũmwe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kĩndũ kĩmwe na kĩmwe' means 'each thing' or 'every single item'."
+    },
+    {
+      "question": "Which phrase means 'anyone' (a random or unspecified person) in Kikuyu?",
+      "options": [
+        "Mũndũ kwa mũndũ",
+        "Mũndũ o wothe",
+        "Kĩndũ kĩmwe",
+        "Kĩndũ kĩothe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũndũ o wothe' means 'anyone' or 'any person'."
+    },
+    {
+      "question": "What is the correct Kikuyu phrase for 'any one thing' or 'anything'?",
+      "options": [
+        "Mũndũ ũmwe",
+        "Kĩndũ o gĩothe",
+        "Mũndũ o wothe",
+        "Kĩndũ kĩmwe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kĩndũ o gĩothe' translates to 'any one thing' or 'anything'."
+    },
+    {
+      "question": "In Kikuyu, how do you say 'all the trees are beautiful'?",
+      "options": [
+        "Mĩtĩ yothe nĩ mĩthaka",
+        "Mũndũ o wothe ni mũthoni",
+        "Kĩndũ kĩmwe nĩ kĩhũthagĩra",
+        "Mĩtĩ yothe ni yaku"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Mĩtĩ yothe nĩ mĩthaka' means 'all the trees are beautiful'."
+    },
+    {
+      "question": "Which suffix or word indicates the meaning 'all' or 'absolutely all' in Kikuyu?",
+      "options": [
+        "-mwe",
+        "-othe",
+        "-na",
+        "-aku"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix '-othe' is used to indicate 'all' or 'absolutely all'."
+    },
+    {
+      "question": "What does kĩndũ mean in Kikuyu?",
+      "options": [
+        "Ũhoro wothe (something unknown or unspecific)",
+        "Mũndũ mũrĩa waku",
+        "Mũndũ kwa mũndũ",
+        "Kĩndũ kĩmwe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Kĩndũ' in Kikuyu means 'something' or 'an item', often used for an unspecified thing."
+    },
+    {
+      "question": "Which sentence means 'Each person spoke'?",
+      "options": [
+        "Mũndũ o wothe no aũke",
+        "Mũndũ ũmwe na ũmwe nĩ aĩrĩĩĩre",
+        "Kĩndũ kĩmwe na kĩmwe gĩtĩkĩĩtie",
+        "Mĩtĩ yothe nĩ mĩthaka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mũndũ ũmwe na ũmwe nĩ aĩrĩĩĩre' means 'Each person spoke'."
+    },
+    {
+      "question": "How would you express 'We own anything' in Kikuyu?",
+      "options": [
+        "Tũhikanire kĩndũ kĩothe",
+        "Mũndũ o wothe no athikĩrĩrie",
+        "Mũndũ kwa mũndũ atũhikanire",
+        "Kĩndũ kĩmwe na kĩmwe gĩtĩkĩĩtie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Tũhikanire kĩndũ kĩothe' means 'We own anything'."
+    },
+    {
+      "question": "Which is the correct Kikuyu phrase for 'Tell us any one thing that is bad'?",
+      "options": [
+        "Thiĩ ũcore kĩndũ kĩmwe o gĩothe",
+        "Twĩre kĩndũ gĩothe kĩna ũru",
+        "Hoya kĩndũ o kĩothe",
+        "Mũndũ o wothe no arie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Twĩre kĩndũ gĩothe kĩna ũru' means 'Tell us any one thing that is bad'."
+    }
+  ]
+}

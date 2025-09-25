@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is a concrete noun?",
+      "options": ["Wendo (love)", "Gui (dog)", "Gĩkeno (happiness)", "Wĩyathi (freedom)"],
+      "correctAnswer": 1,
+      "explanation": "'Gui' (dog) is a concrete noun because it is a physical object that can be seen and touched."
+    },
+    {
+      "question": "Which of the following is an abstract noun?",
+      "options": ["Mũciĩ (home)", "Njogu (elephant)", "Thayu (peace)", "Gĩtĩ (chair)"],
+      "correctAnswer": 2,
+      "explanation": "'Thayu' (peace) is an abstract noun because it represents a concept or state rather than a physical object."
+    },
+    {
+      "question": "“Mũgũnda” (farm) belongs to which group of nouns?",
+      "options": ["Abstract", "Concrete", "Emotions", "Conditions"],
+      "correctAnswer": 1,
+      "explanation": "'Mũgũnda' (farm) is a concrete noun because it refers to a tangible place."
+    },
+    {
+      "question": "Which of these is NOT a concrete noun?",
+      "options": ["Chuma (metal)", "Ũthingu (honesty)", "Mũtĩ (wood)", "Mũthoni (friend)"],
+      "correctAnswer": 1,
+      "explanation": "'Ũthingu' (honesty) is not concrete because it is a quality or idea, making it abstract."
+    },
+    {
+      "question": "“Gĩkeno” is an example of…",
+      "options": ["A material noun", "An abstract noun", "A place", "An animal"],
+      "correctAnswer": 1,
+      "explanation": "'Gĩkeno' (happiness) is an abstract noun because it represents an emotion, not a tangible object."
+    },
+    {
+      "question": "Which of these is an idea, not a physical thing?",
+      "options": ["Wĩtĩkio", "Bũkũ", "Mwana", "Kanitha"],
+      "correctAnswer": 0,
+      "explanation": "'Wĩtĩkio' (faith) is an abstract noun representing belief, which cannot be physically touched."
+    },
+    {
+      "question": "“Mũciĩ” can be…",
+      "options": ["Seen and visited", "Only felt in the heart", "Touched in the mind", "Heard in a song"],
+      "correctAnswer": 0,
+      "explanation": "'Mũciĩ' (home) is a concrete noun since it refers to a physical place that can be seen and visited."
+    },
+    {
+      "question": "Which belongs to the 'qualities' group of abstract nouns?",
+      "options": ["Njogu", "Uũgĩ", "Gui", "Gĩtĩ"],
+      "correctAnswer": 1,
+      "explanation": "'Uũgĩ' (wisdom) is an abstract noun that represents a quality or attribute."
+    },
+    {
+      "question": "Which of these is a material you can touch?",
+      "options": ["Wĩyathi (freedom)", "Chuma (metal)", "Thayu (peace)", "Wendo (love)"],
+      "correctAnswer": 1,
+      "explanation": "'Chuma' (metal) is a concrete noun because it refers to a tangible material."
+    },
+    {
+      "question": "“Wĩyathi” is best described as…",
+      "options": ["A concrete noun", "A condition or idea", "A place", "A material"],
+      "correctAnswer": 1,
+      "explanation": "'Wĩyathi' (freedom) is an abstract noun best described as a condition or idea."
+    }
+  ]
+}

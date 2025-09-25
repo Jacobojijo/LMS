@@ -1,0 +1,209 @@
+{
+  "title": "Continuous Assessment Test 01 (End of Week 08)",
+  "description": "This Continuous Assessment Test evaluates knowledge of Kikuyu simple sentence structures, basic grammar, nouns, pronouns, and adjectives.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Nouns] Which Kikuyu dialect is known for its conservative vocabulary and use of terms like Gũthingu and Kĩraũ?",
+      "options": ["Kiambu", "Murang'a South and Kirinyaga", "Southern and Central Nyeri", "Eastern Nyeri"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] What is the correct Kikuyu phrase for \"a person from Murang'a\"?",
+      "options": ["Mũndũ wa Nyeri", "Mũndũ wa Kiambu", "Mũndũ wa Murang’a", "Mũgikuyu"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] Identify the pair in which both Kikuyu nouns are classified as impersonal.",
+      "options": ["Mwana, Mũrutani", "Mũndũ, Mũtumia", "Maĩ, Mbura", "Wanjiku, Kamau"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] In Kikuyu, what does the prefix \"Aba-\" or \"A-\" signify in a noun like Agikuyu?",
+      "options": ["A singular person", "A specific lineage", "A group or people from a place", "A title of respect"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] Which set best reflects personal nouns in Kikuyu?",
+      "options": ["Wendo, Ngũgĩ, Ũrimu", "Maĩ, Mbura, Gari", "Mũthuri, Mũrutani, Mwana", "Metha, Kĩrĩma, Njĩra"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] What is the correct Kikuyu translation of \"The sun rises from the East\"?",
+      "options": ["Mũthenya waambata Kũraya", "Mũthenya wothe uthitaga Kũgĩkũyũ", "Rũciinĩ rwa nyamũrata rwaathĩ Kũngú", "Rũciinĩ rũu rũkĩnũkĩra Kũruguru"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] In Kikuyu, which of the following terms is associated with abstract concepts rather than physical objects?",
+      "options": ["Gari", "Metha", "Ngũgĩ", "Kĩrĩma"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] Which directional expression correctly shows movement toward the North in Kikuyu?",
+      "options": ["Kũraya", "Kũruguru", "Kũgĩkũyũ", "Kũngú"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns] Which of the following pairs both represent abstract nouns in Kikuyu?",
+      "options": ["Mũrutani, Mũndũ", "Wendo, Ũrimu", "Gari, Kĩrĩma", "Maĩ, Mbembe"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns] The word \"Kĩanda\" (garden) is a modern synonym for which older Kikuyu term?",
+      "options": ["Mũthenya", "Kĩraũ", "Mwaki", "Gũthingu"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] Which region’s Kikuyu dialect is most influenced by urban speech patterns from Nairobi?",
+      "options": ["Karatina", "Limuru", "Murang'a", "Nyeri"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns] The noun Mbura (rain) is classified as which type of noun?",
+      "options": ["Proper Personal", "Mass", "Natural Phenomenon", "Abstract"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Nouns] Which of the following traditional Kikuyu terms is a synonym for Mũgatĩ wa ng’ombe (cooking stick)?",
+      "options": ["Gũthingu", "Kĩraũ", "Mwaki", "Kĩanda"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns] Which set correctly lists nouns that are considered personal nouns?",
+      "options": ["Mũndũ, Mũtumia, Mũrutani", "Mwana, Maĩ, Metha", "Mũndũ, Kĩrĩma, Mbura", "Mũrutani, Kũnyũa, Ngũgĩ"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Nouns] According to Kikuyu linguistic traditions, what is the meaning of the directional term Ithũĩro?",
+      "options": ["East", "West", "North", "South"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Nouns] Which Kikuyu term would a speaker from Southern Kirinyaga most likely use to refer to \"today\"?",
+      "options": ["Gũthingu", "Rũciũ", "Mũthenya", "Kĩgũrũkia"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns] Which Kikuyu possessive adjective would correctly express possession for a noun from Class 7 (e.g., gĩtĩ - chair)?",
+      "options": ["ya-", "wa-", "gĩ-", "rĩ-"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns] In the sentence \"Mũrutani wakwa nĩ mũthaka\", what linguistic feature is highlighted?",
+      "options": ["Distributive individuality", "A tag question", "Possessive agreement with noun class", "A locational phrase"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns] What is the correct Kikuyu tag question to confirm a statement like \"You are tall\"?",
+      "options": ["Ũkũre, kũ?", "Ũkũre, kana ti?", "Nĩkĩ ũkũre?", "Atĩa ũkũre?"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns] Which form correctly translates “my farms” in Kikuyu using possessive agreement (given mĩgũnda is plural, Class 4)?",
+      "options": ["Mĩgũnda wakwa", "Mĩgũnda yakwa", "Mĩgũnda gĩakwa", "Mĩgũnda rĩakwa"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns] What is the meaning of the expression \"Ina hĩndĩ ya kũinũka\"?",
+      "options": ["It is time to go down", "The sun is rising", "It is time to wake up", "We are heading East"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns] Which form correctly translates “his/her child” in Kikuyu?",
+      "options": ["Mwana wao", "Mwana wanyu", "Mwana wake", "Mwana wetu"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns] In which example is a preposition used to express an indirect object?",
+      "options": ["Mũrutani nĩ mũthaka", "Mũndũ waku", "Ndehee mĩtĩ kũrĩ mwana", "Gĩkĩ nĩ kĩ?"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns] Which interrogative pronoun would best fit in the sentence: \"______ nĩ mũrutani?\"",
+      "options": ["Kĩ?", "Rĩ?", "Ũũ?", "Atĩa?"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns] What is the correct translation of \"Aba Kenya\"?",
+      "options": ["The Kenyan person", "Kenyan people", "The Kenyan language", "The Kenyan flag"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns] Which of the following is a correct possessive adjective for a Class 9 noun like nyũmba (house)?",
+      "options": ["nyũmba wakwa", "nyũmba gĩakwa", "nyũmba yakwa", "nyũmba rĩakwa"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns] How would one express \"a man from Kiambu\" in Kikuyu?",
+      "options": ["Mũtumia wa Kiambu", "Mũthuri wa Kiambu", "Mũndũ wa Kiambu", "Mũndũ wa Nyeri"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns] Which of the following best exemplifies a noun in the ablative case in Kikuyu?",
+      "options": ["Mũndũ wa Kiambu", "Nĩwe nĩ mũrutani", "Ndehee mĩtĩ kũrĩ mwana", "Aũkĩte na barabara"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Pronouns] Which example demonstrates a pronoun used to replace a human subject?",
+      "options": ["Kĩrĩa nĩ gĩkĩ?", "Niwe nĩ mũrutani", "Gĩkĩ nĩ gĩtĩ.", "Mũndũ nĩ mũthaka."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns] Which of the following Kikuyu interrogatives would be most appropriate when asking about the cause of an event?",
+      "options": ["Atĩa?", "Rĩ?", "Nĩkĩ?", "Ũũ?"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns & Adjectives] In Kikuyu, how would you form a tag question that conveys a statement for agreement after saying \"You will go\"?",
+      "options": ["Nĩwĩĩthiĩ, nĩkĩ?", "Nĩwĩĩthiĩ, kana ti?", "Ũgũthiĩ atĩa?", "Ũgũthiĩ rĩ?"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns & Adjectives] Which of the following is the correct possessive form for \"my farm\" given that \"farm\" is gĩthaka (class 7) and \"my\" is -akwa?",
+      "options": ["Gĩthaka wakwa", "Gĩthaka gĩakwa", "Gĩthaka yakwa", "Gĩthaka kĩakwa"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns & Adjectives] What is the Kikuyu plural possessive form for “our homes” given that “homes” is mĩciĩ (class 4) and “our” is -itũ?",
+      "options": ["Mĩciĩ witũ", "Mĩciĩ yitũ", "Mĩciĩ gĩitũ", "Mĩciĩ rĩitũ"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns & Adjectives] Which phrase best demonstrates an interrogative used to inquire about the manner of an action?",
+      "options": ["Ũũ nĩ mũthamaki?", "Ũgũthiĩ atĩa?", "Nĩ andũ aigana?", "Nĩkĩ ũrĩũgama?"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns & Adjectives] In Kikuyu grammar, which grammatical case is the only one that uses a change in a separate pronoun (not the noun) to show function?",
+      "options": ["Nominative", "Dative", "Genitive", "Accusative"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns & Adjectives] Which of the following noun-to-possessive transformations is correct, showing class agreement?",
+      "options": ["mũtĩ → mũtĩ yakwa", "nyũmba → nyũmba wakwa", "kĩndũ → kĩndũ gĩakwa", "iriũ → iriũ gĩakwa"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns & Adjectives] Which adjective type in Kikuyu would the phrase “a beautiful woman” fall under?",
+      "options": ["Possessive", "Demonstrative", "Descriptive", "Interrogative"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Pronouns & Adjectives] What is the most likely explanation for the possessive transformation of mũtĩ (tree, class 3) to mũtĩ wakwa (my tree)?",
+      "options": ["Addition of a plural prefix", "Noun class agreement of the possessive adjective", "Subject-verb agreement", "Tense change"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns & Adjectives] Which of the following best represents a possessive form showing agreement with a singular noun in Class 9?",
+      "options": ["Mũndũ wakwa", "Nyũmba yakwa", "Itũũra rĩakwa", "Kĩndũ gĩakwa"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Pronouns & Adjectives] Which sentence demonstrates an advanced interrogative structure that uses an uncommon word like kĩndũ to refer to a person?",
+      "options": ["Ũũ nĩ mũthamaki?", "Nĩkĩ ũrĩũgama?", "Atĩa ũgũthiĩ?", "Kĩndũ kĩu nĩũrĩĩ thĩ?"],
+      "correctAnswer": 3
+    }
+  ]
+}

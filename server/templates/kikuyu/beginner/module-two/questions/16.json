@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What does the Kikuyu demonstrative ũyũ mean?",
+      "options": [
+        "That (far away)",
+        "This (near speaker)",
+        "Those (near listener)",
+        "These (far away)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The demonstrative 'ũyũ' in Kikuyu means 'this (near speaker)'."
+    },
+    {
+      "question": "How would you say 'That child near you' in Kikuyu?",
+      "options": [
+        "Mwana ũyũ",
+        "Mwana ũcio",
+        "Mwana ũrĩa",
+        "Mwana aya"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct form is 'Mwana ũcio', which means 'that child near you'."
+    },
+    {
+      "question": "Which demonstrative would you use to say 'those people far from both speaker and listener'?",
+      "options": [
+        "aya",
+        "acio",
+        "arĩa",
+        "ũyũ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The demonstrative 'arĩa' is used for 'those people far from both speaker and listener'."
+    },
+    {
+      "question": "What does 'aya me nyũmba' mean?",
+      "options": [
+        "Those are houses",
+        "This is a house",
+        "These are in the house",
+        "That is my house"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Aya me nyũmba' means 'These are in the house'."
+    },
+    {
+      "question": "Which of these is the correct question for 'Who is this?' in Kikuyu?",
+      "options": [
+        "ũyũ no?",
+        "Nĩkĩ kĩ?",
+        "Kĩu nĩ kĩ?",
+        "ũcio no?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct way to ask 'Who is this?' is 'ũyũ no?'."
+    },
+    {
+      "question": "How would you say 'this person (emphasized)' using demonstratives with nouns?",
+      "options": [
+        "mũndũ ũyũ",
+        "ũyũ mũndũ",
+        "mũndũ ũcio",
+        "mũndũ arĩa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct form is 'mũndũ ũyũ' for 'this person (emphasized)'."
+    },
+    {
+      "question": "Translate 'that garden of yours' into Kikuyu using demonstrative + possessive pronouns.",
+      "options": [
+        "gĩthaka iria gĩaku",
+        "gĩthaka kĩu gĩaku",
+        "gĩthaka ũrĩa gĩaku",
+        "gĩthaka arĩa gĩaku"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct translation is 'gĩthaka kĩu gĩaku' meaning 'that garden of yours'."
+    },
+    {
+      "question": "What does 'haria' mean in Kikuyu?",
+      "options": [
+        "Here (near speaker)",
+        "There (near listener)",
+        "Over there (far away)",
+        "Now"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Haria' in Kikuyu means 'there (near listener)'."
+    },
+    {
+      "question": "Which Kikuyu demonstrative means 'today'?",
+      "options": [
+        "ũmũthĩ",
+        "rũciũ",
+        "ira",
+        "igũrũ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Kikuyu demonstrative 'ũmũthĩ' means 'today'."
+    },
+    {
+      "question": "What does the sentence 'gĩthaka kĩu gĩakwa' mean?",
+      "options": [
+        "That garden is mine",
+        "This garden is yours",
+        "That garden is theirs",
+        "This garden is ours"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Gĩthaka kĩu gĩakwa' translates to 'That garden is mine'."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is the correct Kikuyu phrase for 'a person from Nyeri'?",
+      "options": [
+        "Mũndũ wa Murang’a",
+        "Mũkenya",
+        "Mũndũ wa Nyeri",
+        "Mũgikuyu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct Kikuyu phrase for 'a person from Nyeri' is 'Mũndũ wa Nyeri'."
+    },
+    {
+      "question": "What Kikuyu term refers to a woman from Murang’a?",
+      "options": [
+        "Mũthuri wa Murang’a",
+        "Mũtumia wa Murang’a",
+        "Mũndũ wa Murang’a",
+        "Mũtumia wa Nyeri"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kikuyu term 'Mũtumia wa Murang’a' specifically refers to a woman from Murang’a."
+    },
+    {
+      "question": "How is pluralization typically expressed in Kikuyu provenance references?",
+      "options": [
+        "By adding 'Nya-'",
+        "By using 'Ja-' and 'Jo-'",
+        "Using Aba- or A- before place or group names",
+        "Through suffix changes on the place name"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pluralization in Kikuyu provenance is commonly expressed using 'Aba-' or 'A-' before place or group names."
+    },
+    {
+      "question": "Which of the following correctly represents 'Kikuyu people' in Kikuyu?",
+      "options": [
+        "Mũndũ wa Kikuyu",
+        "Mũgikuyu",
+        "Aba Kikuyu or Agikuyu",
+        "Aba Kenya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The term 'Aba Kikuyu' or 'Agikuyu' correctly represents 'Kikuyu people' in Kikuyu."
+    },
+    {
+      "question": "What is the Kikuyu way to say 'a man from Kiambu'?",
+      "options": [
+        "Mũthuri wa Kiambu",
+        "Mũtumia wa Kiambu",
+        "Mũgikuyu",
+        "Mũkenya"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Kikuyu way to say 'a man from Kiambu' is 'Mũthuri wa Kiambu'."
+    },
+    {
+      "question": "Which form best reflects clan identity in Kikuyu?",
+      "options": [
+        "Mũkenya",
+        "Wa Mũhĩrĩga wa Agacikũ",
+        "Mũndũ wa Tetu",
+        "Aba Murang’a"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Clan identity in Kikuyu is best reflected by expressions such as 'Wa Mũhĩrĩga wa Agacikũ'."
+    },
+    {
+      "question": "What is the singular form for 'a Ugandan' in Kikuyu?",
+      "options": [
+        "Aba Uganda",
+        "Mũuganda",
+        "Mũganda",
+        "Mũndũ wa Somalia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The singular Kikuyu form for 'a Ugandan' is 'Mũuganda'."
+    },
+    {
+      "question": "Which of the following refers to people from Gichugu?",
+      "options": [
+        "Aba Kikuyu",
+        "Aba Kenya",
+        "Aba Gichugu",
+        "Aba Murang’a"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'Aba Gichugu' refers to people from Gichugu."
+    },
+    {
+      "question": "In Kikuyu, how would you refer to someone from Limuru?",
+      "options": [
+        "Mũndũ wa Limuru",
+        "Mũndũ wa Kiambu",
+        "Mũgikuyu",
+        "Mũkenya"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct way to refer to someone from Limuru is 'Mũndũ wa Limuru'."
+    },
+    {
+      "question": "Which Kikuyu expression accurately describes a woman from Kirinyaga?",
+      "options": [
+        "Mũtumia wa Kirinyaga",
+        "Mũthuri wa Kirinyaga",
+        "Mũndũ wa Kirinyaga",
+        "Mũgikuyu wa Kirinyaga"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The accurate Kikuyu expression for a woman from Kirinyaga is 'Mũtumia wa Kirinyaga'."
+    }
+  ]
+}

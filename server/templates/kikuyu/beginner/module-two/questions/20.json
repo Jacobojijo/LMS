@@ -1,0 +1,114 @@
+{ 
+  "practiceQuestions": [ 
+    { 
+      "question": "In Kikuyu, how is possession indicated?", 
+      "options": [ 
+        "By changing the noun's ending.", 
+        "By using a possessive pronoun with a prefix that agrees with the noun's class.", 
+        "By placing the possessor's name before the noun.", 
+        "By adding a suffix to the noun." 
+      ], 
+      "correctAnswer": 1, 
+      "explanation": "Possession in Kikuyu is indicated by using a possessive pronoun with a prefix that agrees with the noun's class." 
+    }, 
+    { 
+      "question": "What is the correct way to say 'my farm' in Kikuyu, given that 'farm' is gĩthaka (class 7)?", 
+      "options": [ 
+        "Gĩthaka wakwa", 
+        "Gĩthaka yakwa", 
+        "Gĩthaka rĩakwa", 
+        "Gĩthaka gĩakwa" 
+      ], 
+      "correctAnswer": 3, 
+      "explanation": "The correct phrase is 'Gĩthaka gĩakwa', with 'gĩ-' agreeing with the class 7 noun prefix." 
+    }, 
+    { 
+      "question": "The noun for 'house' is nyũmba (class 9). How would you say 'our house'?", 
+      "options": [ 
+        "Nyũmba itu", 
+        "Nyũmba witu", 
+        "Nyũmba ritu", 
+        "Nyũmba kĩtu" 
+      ], 
+      "correctAnswer": 0, 
+      "explanation": "The correct phrase is 'Nyũmba itu', with 'itu' indicating 'our' for class 9 nouns." 
+    }, 
+    { 
+      "question": "Which of the following is the correct translation for 'their child'?", 
+      "options": [ 
+        "Mwana wao", 
+        "Mwana wanyu", 
+        "Mwana wake", 
+        "Mwana wetu" 
+      ], 
+      "correctAnswer": 0, 
+      "explanation": "The correct translation is 'Mwana wao', meaning 'their child'." 
+    }, 
+    { 
+      "question": "The Kikuyu word mũndũ (person) belongs to class 1. The word for 'your' (singular) is -aku. How do you say 'your person'?", 
+      "options": [ 
+        "Mũndũ rĩaku", 
+        "Mũndũ waku", 
+        "Mũndũ kĩaku", 
+        "Mũndũ gĩaku" 
+      ], 
+      "correctAnswer": 1, 
+      "explanation": "The correct phrase is 'Mũndũ waku', where 'wa-' agrees with class 1 nouns." 
+    }, 
+    { 
+      "question": "In the phrase nyũmba ya Kamau, what does the word 'ya' signify?", 
+      "options": [ 
+        "A preposition of place.", 
+        "A plural marker.", 
+        "A demonstrative pronoun.", 
+        "A possessive connector meaning 'of.'" 
+      ], 
+      "correctAnswer": 3, 
+      "explanation": "The word 'ya' is a possessive connector meaning 'of', linking 'nyũmba' (house) to Kamau." 
+    }, 
+    { 
+      "question": "How is the dative case (indirect object) typically expressed in Kikuyu?", 
+      "options": [ 
+        "By changing the noun's ending.", 
+        "By adding a suffix to the noun.", 
+        "By using a preposition like kũrĩ.", 
+        "By placing the noun at the end of the sentence." 
+      ], 
+      "correctAnswer": 2, 
+      "explanation": "The dative case is typically expressed using prepositions such as 'kũrĩ', meaning 'to/for' someone." 
+    }, 
+    { 
+      "question": "The possessive form for 'his/her' is -ake. Given that 'teacher' is mũgĩthiĩ (class 1), which sentence is correct?", 
+      "options": [ 
+        "Mũgĩthiĩ wake.", 
+        "Mũgĩthiĩ rĩake.", 
+        "Mũgĩthiĩ yake.", 
+        "Mũgĩthiĩ gĩake." 
+      ], 
+      "correctAnswer": 0, 
+      "explanation": "The correct sentence is 'Mũgĩthiĩ wake.', where 'wa-' agrees with the class 1 noun 'mũgĩthiĩ'." 
+    }, 
+    { 
+      "question": "In Kikuyu, do nouns change their form when used in the nominative or accusative cases?", 
+      "options": [ 
+        "Yes, they change their endings.", 
+        "No, their form remains unchanged.", 
+        "Only in the accusative case.", 
+        "Only in the nominative case." 
+      ], 
+      "correctAnswer": 1, 
+      "explanation": "Nouns in Kikuyu remain unchanged in nominative and accusative cases; meaning is derived from word order and agreement." 
+    }, 
+    { 
+      "question": "What is the key grammatical concept that governs how possessive pronouns agree with nouns in Kikuyu?", 
+      "options": [ 
+        "Gender agreement.", 
+        "Tense agreement.", 
+        "Noun class agreement.", 
+        "Case declension." 
+      ], 
+      "correctAnswer": 2, 
+      "explanation": "Possessive pronouns in Kikuyu agree with nouns based on their class, not gender or case." 
+    } 
+  ] 
+}

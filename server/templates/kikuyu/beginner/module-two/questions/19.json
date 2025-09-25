@@ -1,0 +1,64 @@
+{ 
+  "practiceQuestions": [ 
+    { 
+      "question": "Which Kikuyu pronoun means 'How?'", 
+      "options": [ "Nĩkĩ?", "Atĩa?", "Ũũ?", "Rĩ?" ], 
+      "correctAnswer": 1, 
+      "explanation": "The Kikuyu pronoun 'Atĩa?' means 'How?' and is used when asking about manner or method." 
+    }, 
+    { 
+      "question": "How would you ask 'How many people are there?' in Kikuyu?", 
+      "options": [ "Nĩkĩ nĩ andũ?", "Nĩ andũ aigana?", "Aigana nĩ andũ?", "Andũ nĩkĩ?" ], 
+      "correctAnswer": 1, 
+      "explanation": "The correct Kikuyu form is 'Nĩ andũ aigana?' which directly translates to 'How many people are there?'" 
+    }, 
+    { 
+      "question": "Translate 'When will you come?' into Kikuyu.", 
+      "options": [ "ũgũũka atĩa?", "ũgũũka rĩ?", "ĩũgũũka kũ?", "ũgũũka nĩkĩ?" ], 
+      "correctAnswer": 1, 
+      "explanation": "The correct Kikuyu translation is 'ũgũũka rĩ?' which means 'When will you come?'" 
+    }, 
+    { 
+      "question": "Which pronoun asks 'Why?'", 
+      "options": [ "Rĩ?", "Kĩ?", "Nĩkĩ?", "Atĩa?" ], 
+      "correctAnswer": 2, 
+      "explanation": "The pronoun 'Nĩkĩ?' is used in Kikuyu to ask 'Why?'" 
+    }, 
+    { 
+      "question": "What is the correct Kikuyu question for 'Who is the chief?'", 
+      "options": [ "Rĩ nĩ mũthamaki?", "Kĩ nĩ mũthamaki?", "Ūū nĩ mũthamaki?", "Atĩa nĩ mũthamaki?" ], 
+      "correctAnswer": 2, 
+      "explanation": "The correct Kikuyu form is 'Ūū nĩ mũthamaki?' which means 'Who is the chief?'" 
+    }, 
+    { 
+      "question": "How would you ask 'What is this?' in Kikuyu?", 
+      "options": [ "Ūū nĩ kĩ?", "Gĩkĩ nĩ kĩ?", "Atĩa nĩ kĩ?", "Nĩkĩ nĩ gĩkĩ?" ], 
+      "correctAnswer": 1, 
+      "explanation": "The correct form is 'Gĩkĩ nĩ kĩ?' which translates to 'What is this?'" 
+    }, 
+    { 
+      "question": "Which Kikuyu word means 'Where?'", 
+      "options": [ "Kĩ?", "Ūū?", "Kũ?", "Rĩ?" ], 
+      "correctAnswer": 2, 
+      "explanation": "The Kikuyu word 'Kũ?' is used to ask 'Where?'" 
+    }, 
+    { 
+      "question": "Translate the question 'Where is your home?' into Kikuyu.", 
+      "options": [ "Mũciĩ waku nĩkĩ?", "Mũciĩ waku nĩ rĩ?", "Mũciĩ waku nĩ kũ?", "Mũciĩ waku nĩ atĩa?" ], 
+      "correctAnswer": 2, 
+      "explanation": "The correct Kikuyu question is 'Mũciĩ waku nĩ kũ?' which means 'Where is your home?'" 
+    }, 
+    { 
+      "question": "What does the phrase 'kana ti?' at the end of a sentence indicate?", 
+      "options": [ "A statement of fact.", "A command.", "A tag question.", "An emphatic declaration." ], 
+      "correctAnswer": 2, 
+      "explanation": "The phrase 'kana ti?' is used in Kikuyu to indicate a tag question, similar to 'isn't it?' in English." 
+    }, 
+    { 
+      "question": "Which pronoun would you use to ask for the reason behind an action?", 
+      "options": [ "Atĩa?", "Rĩ?", "Nĩkĩ?", "Aigana?" ], 
+      "correctAnswer": 2, 
+      "explanation": "The Kikuyu pronoun 'Nĩkĩ?' is used to ask 'Why?' or the reason behind an action." 
+    } 
+  ] 
+}

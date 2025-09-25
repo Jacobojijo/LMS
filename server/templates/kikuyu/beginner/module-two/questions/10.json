@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which is the correct plural of mũndũ (person)?",
+      "options": ["mĩndũ", "andũ", "midũ", "andũri"],
+      "correctAnswer": 1,
+      "explanation": "The correct plural of mũndũ (person) is andũ (people)."
+    },
+    {
+      "question": "What is the plural of kĩnde (rope)?",
+      "options": ["inde", "kĩnde", "mĩnde", "akĩnde"],
+      "correctAnswer": 0,
+      "explanation": "The plural of kĩnde (rope) is inde."
+    },
+    {
+      "question": "Which class changes the prefix mũ- to a- in plural?",
+      "options": ["Class I", "Class II", "Class III", "Class VI"],
+      "correctAnswer": 0,
+      "explanation": "Class I nouns change the singular prefix mũ- to a- in plural."
+    },
+    {
+      "question": "Which of the following keeps the same form in singular and plural?",
+      "options": ["mũrogi", "mbũri", "mũciĩ", "mũtĩ"],
+      "correctAnswer": 1,
+      "explanation": "Mbũri (goat) has the same form in both singular and plural."
+    },
+    {
+      "question": "What is the plural of mũrogi (witch)?",
+      "options": ["mĩrogi", "arogi", "marogi", "mirĩrogi"],
+      "correctAnswer": 1,
+      "explanation": "The plural of mũrogi (witch) is arogi."
+    },
+    {
+      "question": "mũtĩ (tree) belongs to which pluralization class?",
+      "options": ["Class I", "Class II", "Class VI", "Class V"],
+      "correctAnswer": 2,
+      "explanation": "Mũtĩ (tree) belongs to Class VI, which changes mũ- to mi-."
+    },
+    {
+      "question": "Which is the correct plural of kũgũrũ (leg)?",
+      "options": ["mĩgũrũ", "magũrũ", "agũrũ", "igũrũ"],
+      "correctAnswer": 1,
+      "explanation": "The plural of kũgũrũ (leg) is magũrũ."
+    },
+    {
+      "question": "In Class II, the prefix kĩ- changes to which prefix in plural?",
+      "options": ["a-", "i-", "mi-", "ma-"],
+      "correctAnswer": 1,
+      "explanation": "In Class II, the singular prefix kĩ- changes to i- in plural."
+    },
+    {
+      "question": "What is the plural of mũciĩ (homestead)?",
+      "options": ["mĩciĩ", "mũciĩ", "mĩci", "mĩthuri"],
+      "correctAnswer": 0,
+      "explanation": "The plural of mũciĩ (homestead) is mĩciĩ."
+    },
+    {
+      "question": "Which of these is an example of an irregular plural?",
+      "options": ["mũtumia → atumia", "mũtĩ → miti", "gũtũ → matũ", "mbura → mbura"],
+      "correctAnswer": 0,
+      "explanation": "Mũtumia (woman) has the irregular plural atumia."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Kikuyu dish is made from mashed green maize, potatoes, and vegetables such as pumpkin leaves or spinach?",
+      "options": ["Gĩtheri", "Irio", "Mukimo", "Thufu"],
+      "correctAnswer": 2,
+      "explanation": "Mukimo is a Kikuyu dish made from mashed green maize, potatoes, and vegetables such as pumpkin leaves or spinach."
+    },
+    {
+      "question": "What is the Kikuyu name for cowpeas (seeds)?",
+      "options": ["Thoroko", "Njahi", "Mũgũcũ", "Mbembe"],
+      "correctAnswer": 0,
+      "explanation": "Thoroko is the Kikuyu name for cowpeas (seeds)."
+    },
+    {
+      "question": "Which fruit is known as Maũyũ in Kikuyu?",
+      "options": ["Mango", "Pawpaw (Papaya)", "Guava", "Avocado"],
+      "correctAnswer": 1,
+      "explanation": "Maũyũ in Kikuyu refers to Pawpaw (Papaya)."
+    },
+    {
+      "question": "Which vegetable has a slightly slimy texture when cooked and is eaten with ugali?",
+      "options": ["Mũgũcũ", "Terere", "Mũrenga", "Thabai"],
+      "correctAnswer": 2,
+      "explanation": "Mũrenga (okra) has a slightly slimy texture when cooked and is eaten with ugali."
+    },
+    {
+      "question": "Which Kikuyu food staple is root-based?",
+      "options": ["Mbembe", "Ngwaci", "Njohi", "Mũgũmbi"],
+      "correctAnswer": 1,
+      "explanation": "Ngwaci (sweet potatoes) are a root-based Kikuyu food staple."
+    },
+    {
+      "question": "How is thabai (spider plant) usually prepared in Kikuyu cooking?",
+      "options": ["Roasted on open fire", "Stir-fried or boiled", "Fermented for porridge", "Sun-dried before cooking"],
+      "correctAnswer": 1,
+      "explanation": "Thabai (spider plant) is usually stir-fried or boiled in Kikuyu cooking."
+    },
+    {
+      "question": "Which dish is made from a boiled mixture of maize and beans, sometimes fried with onions?",
+      "options": ["Irio", "Gĩtheri", "Mukimo", "Kĩenũ"],
+      "correctAnswer": 1,
+      "explanation": "Gĩtheri is a dish made from a boiled mixture of maize and beans, sometimes fried with onions."
+    },
+    {
+      "question": "Which cooking method in Kikuyu involves stir-frying vegetables with milk, cream, or groundnut paste?",
+      "options": ["Kũruta", "Kũcokia", "Kũruta na mũtũndũ", "Kũruta gĩtheri"],
+      "correctAnswer": 2,
+      "explanation": "Kũruta na mũtũndũ is the Kikuyu cooking method of stir-frying vegetables with milk, cream, or groundnut paste."
+    },
+    {
+      "question": "What is the Kikuyu name for pumpkin leaves?",
+      "options": ["Mũrenga", "Matũma", "Mũthũnga", "Nderema"],
+      "correctAnswer": 1,
+      "explanation": "Matũma is the Kikuyu name for pumpkin leaves."
+    },
+    {
+      "question": "Which of these is NOT a Kikuyu traditional fruit?",
+      "options": ["Kahũrũra", "Mubera", "Machungwa", "Omena"],
+      "correctAnswer": 3,
+      "explanation": "Omena is a small fish, not a Kikuyu traditional fruit."
+    }
+  ]
+}

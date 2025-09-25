@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the main purpose of a noun construct in Kikuyu?",
+      "options": [
+        "To change verbs into nouns",
+        "To attach suffixes for demonstratives or possessives",
+        "To make a word plural",
+        "To show tense in a sentence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A noun construct in Kikuyu is used to attach suffixes for demonstratives or possessives."
+    },
+    {
+      "question": "How do you form the singular noun construct for mĩgũnda (farms)?",
+      "options": [
+        "mĩgũnda-",
+        "mĩgũnd-",
+        "gũnda-",
+        "mũgũnda-"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The singular noun construct for mĩgũnda (farms) is mĩgũnd-."
+    },
+    {
+      "question": "Which of the following is an irregular singular noun construct?",
+      "options": [
+        "marig-",
+        "mĩgũnd-",
+        "nyũmb-",
+        "mit-"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nyũmb- (from nyũmba, house) is an irregular singular noun construct."
+    },
+    {
+      "question": "What is the plural noun construct for marigu (bananas)?",
+      "options": [
+        "marigu-",
+        "marig-",
+        "rig-",
+        "mariga-"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The plural noun construct for marigu (bananas) is marigu-."
+    },
+    {
+      "question": "Which suffix would you add to a noun construct to mean “those (far)” in Kikuyu?",
+      "options": [
+        "-ĩno",
+        "-ĩyo",
+        "-ĩrĩa",
+        "-ĩcĩĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix -ĩrĩa is used for 'those (far)' in Kikuyu."
+    },
+    {
+      "question": "What is the correct translation of 'mũtĩũrĩa'?",
+      "options": [
+        "This tree",
+        "That tree (near)",
+        "That tree (far)",
+        "These trees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mũtĩũrĩa means 'that tree (far)'."
+    },
+    {
+      "question": "If the plural noun is atumia (women), what is its plural noun construct?",
+      "options": [
+        "atumi-",
+        "atumia-",
+        "tumi-",
+        "atumia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The plural noun construct of atumia (women) is atumia-."
+    },
+    {
+      "question": "Choose the correct noun construct for mbũri (goat) in singular form.",
+      "options": [
+        "mbũr-",
+        "mbũri-",
+        "bũr-",
+        "mbũria-"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct singular noun construct of mbũri (goat) is mbũr-."
+    },
+    {
+      "question": "Which set correctly shows singular → plural → singular noun construct?",
+      "options": [
+        "mũtĩ → miti → mit-",
+        "irigu → marigu → marigu-",
+        "nyũmba → nyũmba → nyũmba-",
+        "mũndũ → andũ → andũ-"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mũtĩ → miti → mit- is the correct singular → plural → noun construct pattern."
+    },
+    {
+      "question": "The suffix -ĩyo is used for:",
+      "options": [
+        "This (singular)",
+        "That (near) – plural",
+        "That (near) – singular",
+        "These (plural)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix -ĩyo is used for 'that (near) – singular' in Kikuyu."
+    }
+  ]
+}
