@@ -1,4 +1,4 @@
-// coursecomponents.jsx - Fixed locking logic and progress calculation
+// coursecomponents.jsx - Fixed with persistent unlocking logic
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -8,34 +8,26 @@ import { ChevronDown, ChevronRight } from "lucide-react";
 
 // Theme colors - used throughout the components
 export const colors = {
-  lightBeige: "#F0D6B9", // Beige/gold tone
-  lightTeal: "#C8E6E4", // Teal tone
-  lightRose: "#ECC6C6", // Rose/pink tone
+  lightBeige: "#F0D6B9",
+  lightTeal: "#C8E6E4",
+  lightRose: "#ECC6C6",
   darkText: "#333333",
   lightText: "#666666",
   white: "#FFFFFF",
-  accent: "#4A90E2", // Blue accent for active elements
+  accent: "#4A90E2",
   borderColor: "#e0e0e0",
   softShadow: "rgba(0,0,0,0.1)",
 };
 
 const getModuleNumberText = (num) => {
   const numbers = [
-    "one",
-    "two",
-    "three",
-    "four",
-    "five",
-    "six",
-    "seven",
-    "eight",
-    "nine",
-    "ten",
+    "one", "two", "three", "four", "five", 
+    "six", "seven", "eight", "nine", "ten",
   ];
   return numbers[num - 1] || num;
 };
 
-// QuestionOption Component - Used in both Practice and Assessment components
+// QuestionOption Component
 export const QuestionOption = ({
   option,
   optionIndex,
@@ -44,14 +36,11 @@ export const QuestionOption = ({
   showExplanation,
   onClick,
 }) => {
-  // Determine background color based on selection state and correctness
   const getBackgroundColor = () => {
     if (!isSelected) return colors.white;
-
     if (showExplanation) {
       return isCorrect ? "#d1ffd1" : "#ffe6e6";
     }
-
     return colors.lightRose;
   };
 
@@ -78,7 +67,7 @@ export const QuestionOption = ({
   );
 };
 
-// Updated Module Sidebar Component with improved access tracking
+// Updated Module Sidebar with persistent unlocking tracking
 export const ModuleSidebar = ({
   course,
   activeModule,
@@ -87,12 +76,93 @@ export const ModuleSidebar = ({
   activePage,
   navigateTo,
   moduleCompletion = {},
-  completedTopics = [], // Add this prop - array of completed topics
-  completedSubtopics = [], // Add this prop - array of completed subtopics
 }) => {
-  const [expandedTopics, setExpandedTopics] = useState(new Set());
+  // Track all expanded topics - default all to expanded
+  const [expandedTopics, setExpandedTopics] = useState(() => {
+    const initialExpanded = new Set();
+    course.modules.forEach((module, moduleIndex) => {
+      module.topics.forEach((topic, topicIndex) => {
+        if (topic.type === 'container') {
+          initialExpanded.add(`${moduleIndex}-${topicIndex}`);
+        }
+      });
+    });
+    return initialExpanded;
+  });
 
-  // Toggle topic expansion for container topics
+  // Track which items have been unlocked (persistent across navigation)
+  const [unlockedItems, setUnlockedItems] = useState(() => {
+    // Initialize with first module, first topic, and first subtopic unlocked
+    const initial = new Set();
+    initial.add('module-0'); // First module
+    initial.add('topic-0-0'); // First topic of first module
+    
+    // Check if first topic is a container, unlock first subtopic
+    if (course.modules[0]?.topics[0]?.type === 'container') {
+      initial.add('subtopic-0-0-0');
+    }
+    
+    return initial;
+  });
+
+  // Update unlocked items whenever active position changes
+  useEffect(() => {
+    setUnlockedItems(prev => {
+      const updated = new Set(prev);
+      
+      // Unlock current and all previous modules
+      for (let i = 0; i <= activeModule; i++) {
+        updated.add(`module-${i}`);
+        
+        // For previous modules, unlock all their topics and subtopics
+        if (i < activeModule) {
+          const prevModule = course.modules[i];
+          prevModule.topics.forEach((topic, topicIndex) => {
+            updated.add(`topic-${i}-${topicIndex}`);
+            
+            // If it's a container topic, unlock all its subtopics
+            if (topic.type === 'container' && topic.subtopics) {
+              topic.subtopics.forEach((_, subtopicIndex) => {
+                updated.add(`subtopic-${i}-${topicIndex}-${subtopicIndex}`);
+              });
+            }
+          });
+        }
+      }
+      
+      // For current module, unlock all topics up to and including current topic
+      if (activeTopic !== null) {
+        for (let i = 0; i <= activeTopic; i++) {
+          updated.add(`topic-${activeModule}-${i}`);
+          
+          const topic = course.modules[activeModule].topics[i];
+          
+          // For previous topics in current module, unlock all subtopics
+          if (i < activeTopic && topic.type === 'container' && topic.subtopics) {
+            topic.subtopics.forEach((_, subtopicIndex) => {
+              updated.add(`subtopic-${activeModule}-${i}-${subtopicIndex}`);
+            });
+          }
+          
+          // For current topic, unlock subtopics up to current subtopic
+          if (i === activeTopic && activeSubtopic !== null && topic.type === 'container') {
+            for (let j = 0; j <= activeSubtopic; j++) {
+              updated.add(`subtopic-${activeModule}-${activeTopic}-${j}`);
+            }
+          }
+        }
+      }
+      
+      // If on assessment page, unlock the assessment
+      if (activePage === "assessment") {
+        updated.add(`assessment-${activeModule}`);
+      }
+      
+      return updated;
+    });
+  }, [activeModule, activeTopic, activeSubtopic, activePage, course.modules]);
+
+  // Toggle topic expansion
   const toggleTopicExpansion = (moduleIndex, topicIndex) => {
     const key = `${moduleIndex}-${topicIndex}`;
     setExpandedTopics(prev => {
@@ -106,368 +176,43 @@ export const ModuleSidebar = ({
     });
   };
 
-  // Auto-expand active topic
-  useEffect(() => {
-    if (activeModule !== null && activeTopic !== null) {
-      const key = `${activeModule}-${activeTopic}`;
-      setExpandedTopics(prev => new Set([...prev, key]));
-    }
-  }, [activeModule, activeTopic]);
-
-  // Enhanced helper function to check if user has ever accessed a position
-  const hasAccessedPosition = (moduleIndex, topicIndex = null, subtopicIndex = null) => {
-    // Current position is always accessible
-    if (moduleIndex === activeModule) {
-      if (topicIndex === null || topicIndex === activeTopic) {
-        if (subtopicIndex === null || subtopicIndex === activeSubtopic) {
-          return true;
-        }
-      }
-    }
-
-    // Check completion data and arrays for previously accessed items
-    if (subtopicIndex !== null && topicIndex !== null) {
-      // Check if this specific subtopic was accessed
-      const subtopicKey = `${moduleIndex}-${topicIndex}-${subtopicIndex}`;
-      if (moduleCompletion[subtopicKey]) {
-        return true;
-      }
-      
-      // Check if this subtopic is in the completedSubtopics array
-      const isInCompletedSubtopics = completedSubtopics.some(
-        item => item.moduleId === moduleIndex && 
-                item.topicId === topicIndex && 
-                item.subtopicId === subtopicIndex
-      );
-      if (isInCompletedSubtopics) {
-        return true;
-      }
-    }
-
-    if (topicIndex !== null && subtopicIndex === null) {
-      // Check if this specific topic was accessed
-      const topicKey = `${moduleIndex}-${topicIndex}`;
-      if (moduleCompletion[topicKey]) {
-        return true;
-      }
-      
-      // Check if this topic is in the completedTopics array
-      const isInCompletedTopics = completedTopics.some(
-        item => item.moduleId === moduleIndex && item.topicId === topicIndex
-      );
-      if (isInCompletedTopics) {
-        return true;
-      }
-
-      // For container topics, check if any subtopic has been accessed
-      const topic = course.modules[moduleIndex]?.topics[topicIndex];
-      if (topic?.type === 'container' && topic.subtopics) {
-        const hasAccessedSubtopic = topic.subtopics.some((_, sIndex) => {
-          const subtopicKey = `${moduleIndex}-${topicIndex}-${sIndex}`;
-          return moduleCompletion[subtopicKey] || completedSubtopics.some(
-            item => item.moduleId === moduleIndex && 
-                    item.topicId === topicIndex && 
-                    item.subtopicId === sIndex
-          );
-        });
-        if (hasAccessedSubtopic) {
-          return true;
-        }
-      }
-    }
-
-    // Check sequential progression - if user has progressed past this position
-    if (activeModule === null || activeTopic === null) {
-      return false;
-    }
-
-    // If we're in a later module, all previous modules should be accessible
-    if (moduleIndex < activeModule) {
-      return true;
-    }
-    
-    // If we're in the same module but a later topic, previous topics should be accessible
-    if (moduleIndex === activeModule && topicIndex !== null && topicIndex < activeTopic) {
-      return true;
-    }
-    
-    // If we're in the same topic but a later subtopic, previous subtopics should be accessible
-    if (moduleIndex === activeModule && topicIndex === activeTopic && 
-        subtopicIndex !== null && activeSubtopic !== null && subtopicIndex < activeSubtopic) {
-      return true;
-    }
-
-    // Additional check: if user has accessed any later position, intermediate positions should be unlocked
-    // Check if user has accessed any topic after this one in the same module
-    if (moduleIndex === activeModule && topicIndex !== null) {
-      for (let laterTopicIndex = topicIndex + 1; laterTopicIndex < course.modules[moduleIndex]?.topics.length; laterTopicIndex++) {
-        if (hasTopicBeenDirectlyAccessed(moduleIndex, laterTopicIndex)) {
-          return true; // If a later topic was accessed, this one should be unlocked
-        }
-      }
-    }
-
-    // Check if user has accessed any module after this one
-    if (activeModule > moduleIndex) {
-      return true;
-    }
-
-    return false;
+  // Simplified locking logic using unlockedItems
+  const isModuleLocked = (moduleIndex) => {
+    return !unlockedItems.has(`module-${moduleIndex}`);
   };
 
-  // Helper function to check if a topic has been directly accessed (not just inferred)
-  const hasTopicBeenDirectlyAccessed = (moduleIndex, topicIndex) => {
-    const topic = course.modules[moduleIndex]?.topics[topicIndex];
-    if (!topic) return false;
-
-    if (topic.type === 'standalone') {
-      const topicKey = `${moduleIndex}-${topicIndex}`;
-      return moduleCompletion[topicKey] || completedTopics.some(
-        item => item.moduleId === moduleIndex && item.topicId === topicIndex
-      );
-    } else if (topic.type === 'container') {
-      // Check if any subtopic has been directly accessed
-      return topic.subtopics?.some((_, subtopicIndex) => {
-        const subtopicKey = `${moduleIndex}-${topicIndex}-${subtopicIndex}`;
-        return moduleCompletion[subtopicKey] || completedSubtopics.some(
-          item => item.moduleId === moduleIndex && 
-                  item.topicId === topicIndex && 
-                  item.subtopicId === subtopicIndex
-        );
-      });
-    }
-
-    return false;
-  };
-
-  // Helper function to check if a topic has been viewed (either completed or currently active)
-  const hasTopicBeenViewed = (moduleIndex, topicIndex) => {
-    // Current topic is always considered viewed
-    if (moduleIndex === activeModule && topicIndex === activeTopic) {
-      return true;
-    }
-
-    return hasTopicBeenDirectlyAccessed(moduleIndex, topicIndex);
-  };
-
-  // Helper function to check if a subtopic has been viewed
-  const hasSubtopicBeenViewed = (moduleIndex, topicIndex, subtopicIndex) => {
-    // Current subtopic is always considered viewed
-    if (moduleIndex === activeModule && 
-        topicIndex === activeTopic && 
-        subtopicIndex === activeSubtopic) {
-      return true;
-    }
-
-    // Check if subtopic has been completed
-    const subtopicKey = `${moduleIndex}-${topicIndex}-${subtopicIndex}`;
-    return moduleCompletion[subtopicKey] || completedSubtopics.some(
-      item => item.moduleId === moduleIndex && 
-              item.topicId === topicIndex && 
-              item.subtopicId === subtopicIndex
-    );
-  };
-
-  // Helper function to check if all previous items are accessible
-  const areAllPreviousItemsAccessible = (moduleIndex, topicIndex, subtopicIndex = null) => {
-    // Check all previous modules
-    for (let mIndex = 0; mIndex < moduleIndex; mIndex++) {
-      if (!hasAccessedPosition(mIndex)) {
-        return false;
-      }
-    }
-
-    // Check all previous topics in current module
-    if (topicIndex !== null) {
-      for (let tIndex = 0; tIndex < topicIndex; tIndex++) {
-        if (!hasAccessedPosition(moduleIndex, tIndex)) {
-          return false;
-        }
-      }
-    }
-
-    // Check all previous subtopics in current topic
-    if (subtopicIndex !== null && topicIndex !== null) {
-      for (let sIndex = 0; sIndex < subtopicIndex; sIndex++) {
-        if (!hasAccessedPosition(moduleIndex, topicIndex, sIndex)) {
-          return false;
-        }
-      }
-    }
-
-    return true;
-  };
-
-  // Updated locking functions with better logic
   const isTopicLocked = (moduleIndex, topicIndex) => {
-    // If user has accessed this position before, it should remain unlocked
-    if (hasAccessedPosition(moduleIndex, topicIndex) || hasTopicBeenViewed(moduleIndex, topicIndex)) {
-      return false;
-    }
-
-    // First topic of first module is always unlocked
-    if (moduleIndex === 0 && topicIndex === 0) return false;
-
-    // Check sequential access pattern
-    // If this is the next logical item in sequence, it should be unlocked
-    if (moduleIndex === activeModule && topicIndex === activeTopic + 1) {
-      // Check if current topic is completed (for standalone) or all subtopics completed (for container)
-      const currentTopic = course.modules[activeModule]?.topics[activeTopic];
-      if (currentTopic) {
-        if (currentTopic.type === 'standalone') {
-          const currentTopicKey = `${activeModule}-${activeTopic}`;
-          return !moduleCompletion[currentTopicKey];
-        } else if (currentTopic.type === 'container') {
-          const allSubtopicsCompleted = currentTopic.subtopics?.every((_, sIndex) => {
-            const subtopicKey = `${activeModule}-${activeTopic}-${sIndex}`;
-            return moduleCompletion[subtopicKey];
-          });
-          return !allSubtopicsCompleted;
-        }
-      }
-      return false; // Unlock the next topic
-    }
-
-    // For modules beyond current, check if we should unlock based on completion
-    if (moduleIndex > activeModule) {
-      // Check if previous module is completed
-      for (let prevModule = 0; prevModule < moduleIndex; prevModule++) {
-        const moduleCompleted = course.modules[prevModule]?.topics.every((topic, tIndex) => {
-          if (topic.type === 'standalone') {
-            const topicKey = `${prevModule}-${tIndex}`;
-            return moduleCompletion[topicKey];
-          } else if (topic.type === 'container') {
-            return topic.subtopics?.every((_, sIndex) => {
-              const subtopicKey = `${prevModule}-${tIndex}-${sIndex}`;
-              return moduleCompletion[subtopicKey];
-            });
-          }
-          return false;
-        });
-
-        if (!moduleCompleted && prevModule === moduleIndex - 1) {
-          return true; // Lock if immediately previous module isn't complete
-        }
-      }
-
-      // If it's the first topic of a module and previous module is complete, unlock it
-      if (topicIndex === 0) {
-        return false;
-      }
-    }
-
-    // For topics in current module beyond current + 1
-    if (moduleIndex === activeModule && topicIndex > activeTopic + 1) {
-      // Check if there's a sequential gap
-      for (let tIndex = activeTopic + 1; tIndex < topicIndex; tIndex++) {
-        if (!hasAccessedPosition(moduleIndex, tIndex)) {
-          return true; // Lock if there's an unaccessed topic before this one
-        }
-      }
-      return false; // Unlock if no gaps
-    }
-
-    return false;
+    // Module must be unlocked first
+    if (isModuleLocked(moduleIndex)) return true;
+    return !unlockedItems.has(`topic-${moduleIndex}-${topicIndex}`);
   };
 
   const isSubtopicLocked = (moduleIndex, topicIndex, subtopicIndex) => {
-    // If user has accessed this position before, it should remain unlocked
-    if (hasAccessedPosition(moduleIndex, topicIndex, subtopicIndex) || 
-        hasSubtopicBeenViewed(moduleIndex, topicIndex, subtopicIndex)) {
-      return false;
-    }
-
-    // If topic is locked, all subtopics are locked
+    // Topic must be unlocked first
     if (isTopicLocked(moduleIndex, topicIndex)) return true;
-
-    // First subtopic is unlocked if topic is unlocked
-    if (subtopicIndex === 0) return false;
-
-    // Check if this is the next subtopic in sequence
-    if (moduleIndex === activeModule && topicIndex === activeTopic && subtopicIndex === (activeSubtopic ?? -1) + 1) {
-      // Check if previous subtopic is completed
-      if (activeSubtopic !== null) {
-        const prevSubtopicKey = `${moduleIndex}-${topicIndex}-${activeSubtopic}`;
-        return !moduleCompletion[prevSubtopicKey];
-      }
-      return false;
-    }
-
-    // For subtopics beyond the next in sequence, check for gaps
-    if (moduleIndex === activeModule && topicIndex === activeTopic && subtopicIndex > (activeSubtopic ?? -1) + 1) {
-      // Check if there are any unaccessed subtopics before this one
-      for (let sIndex = 0; sIndex < subtopicIndex; sIndex++) {
-        if (!hasAccessedPosition(moduleIndex, topicIndex, sIndex)) {
-          return true; // Lock if there's a gap
-        }
-      }
-      return false; // Unlock if no gaps
-    }
-
-    return false;
-  };
-
-  const isModuleLocked = (moduleIndex) => {
-    // If user has accessed this module before, it should remain unlocked
-    if (hasAccessedPosition(moduleIndex)) {
-      return false;
-    }
-
-    // Check if any topic in this module has been accessed
-    const moduleHasBeenAccessed = course.modules[moduleIndex]?.topics.some((topic, topicIndex) => 
-      hasTopicBeenViewed(moduleIndex, topicIndex)
-    );
-
-    if (moduleHasBeenAccessed) {
-      return false;
-    }
-
-    // Check if this is the next module in sequence
-    if (moduleIndex === activeModule + 1) {
-      // Check if current module is completed
-      const currentModuleCompleted = course.modules[activeModule]?.topics.every((topic, tIndex) => {
-        if (topic.type === 'standalone') {
-          const topicKey = `${activeModule}-${tIndex}`;
-          return moduleCompletion[topicKey];
-        } else if (topic.type === 'container') {
-          return topic.subtopics?.every((_, sIndex) => {
-            const subtopicKey = `${activeModule}-${tIndex}-${sIndex}`;
-            return moduleCompletion[subtopicKey];
-          });
-        }
-        return false;
-      });
-
-      return !currentModuleCompleted;
-    }
-
-    // Only lock modules that are beyond the next module and haven't been accessed
-    return moduleIndex > activeModule + 1;
+    return !unlockedItems.has(`subtopic-${moduleIndex}-${topicIndex}-${subtopicIndex}`);
   };
 
   const isAssessmentLocked = (moduleIndex) => {
-    // Current module assessment should never be locked if we're on assessment page
+    // Check if on assessment page for current module
     if (moduleIndex === activeModule && activePage === "assessment") {
       return false;
     }
 
-    // If user has accessed this module, assessment should be unlocked
-    if (hasAccessedPosition(moduleIndex)) {
+    // Check if assessment has been unlocked before
+    if (unlockedItems.has(`assessment-${moduleIndex}`)) {
       return false;
     }
 
-    // Lock assessments for modules beyond current that haven't been accessed
-    if (moduleIndex > activeModule) {
-      return !hasAccessedPosition(moduleIndex);
-    }
+    // Module must be unlocked
+    if (isModuleLocked(moduleIndex)) return true;
     
-    // For current module, check if all topics are completed
+    // Check if all topics are completed
     const module = course.modules[moduleIndex];
     return module.topics.some((topic, topicIndex) => {
       if (topic.type === 'standalone') {
         return !moduleCompletion[`${moduleIndex}-${topicIndex}`];
       } else if (topic.type === 'container') {
-        // Check if all subtopics are completed
         return topic.subtopics.some((_, subtopicIndex) => 
           !moduleCompletion[`${moduleIndex}-${topicIndex}-${subtopicIndex}`]
         );
@@ -480,7 +225,6 @@ export const ModuleSidebar = ({
     if (topic.type === 'standalone') {
       return moduleCompletion[`${moduleIndex}-${topicIndex}`];
     } else if (topic.type === 'container') {
-      // Container topic is complete if all subtopics are complete
       return topic.subtopics?.every((_, subtopicIndex) => 
         moduleCompletion[`${moduleIndex}-${topicIndex}-${subtopicIndex}`]
       );
@@ -488,7 +232,6 @@ export const ModuleSidebar = ({
     return false;
   };
 
-  // Rest of the component remains the same...
   return (
     <div
       className="sidebar w-1/4 overflow-y-auto rounded-lg shadow-lg"
@@ -597,8 +340,8 @@ export const ModuleSidebar = ({
               </div>
             </div>
 
-            {/* Module Topics */}
-            {moduleIndex === activeModule && (
+            {/* Module Topics - Show for unlocked modules */}
+            {!isModuleLocked(moduleIndex) && (
               <div className="module-topics pl-14 mt-2 space-y-2">
                 {module.topics.map((topic, topicIndex) => {
                   const isTopicActive = moduleIndex === activeModule && topicIndex === activeTopic;
@@ -624,7 +367,6 @@ export const ModuleSidebar = ({
                         onClick={() => {
                           if (!topicLocked) {
                             if (topic.type === 'container') {
-                              // Navigate directly to first subtopic
                               if (topic.subtopics && topic.subtopics.length > 0) {
                                 navigateTo(moduleIndex, topicIndex, 0, "subtopic");
                               }
@@ -636,7 +378,13 @@ export const ModuleSidebar = ({
                       >
                         {/* Expansion Icon for Container Topics */}
                         {topic.type === 'container' && (
-                          <div className="mr-2">
+                          <div 
+                            className="mr-2 cursor-pointer"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              toggleTopicExpansion(moduleIndex, topicIndex);
+                            }}
+                          >
                             {isExpanded ? (
                               <ChevronDown size={16} />
                             ) : (
@@ -803,10 +551,8 @@ export const ModuleSidebar = ({
   );
 };
 
-// Updated Topic Content Component to handle container topics with Next button
+// Topic Content Component
 export const TopicContent = ({ module, topic, setActivePage, markTopicComplete }) => {
-  // Container topics should not reach here anymore since we navigate directly to subtopics
-  // But keep this as fallback
   if (topic.type === 'container') {
     return (
       <div className="topic-content p-6 bg-white rounded-lg shadow">
@@ -824,7 +570,6 @@ export const TopicContent = ({ module, topic, setActivePage, markTopicComplete }
     );
   }
 
-  // Standalone topic content (original behavior)
   const hasPracticeQuestions = topic.practiceQuestions && topic.practiceQuestions.length > 0;
 
   return (
@@ -869,7 +614,7 @@ export const TopicContent = ({ module, topic, setActivePage, markTopicComplete }
   );
 };
 
-// New Subtopic Content Component
+// Subtopic Content Component
 export const SubtopicContent = ({ module, topic, subtopic, setActivePage, markSubtopicComplete }) => {
   const hasPracticeQuestions = subtopic.practiceQuestions && subtopic.practiceQuestions.length > 0;
 
@@ -915,7 +660,7 @@ export const SubtopicContent = ({ module, topic, subtopic, setActivePage, markSu
   );
 };
 
-// Updated HTML Content Component to handle both topics and subtopics
+// HTML Content Component
 export const HtmlContent = ({ 
   module, 
   topic, 
@@ -929,7 +674,6 @@ export const HtmlContent = ({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Determine which content to load - subtopic takes precedence
   const contentItem = subtopic || topic;
   const isSubtopic = !!subtopic;
 
@@ -942,10 +686,8 @@ export const HtmlContent = ({
       }
 
       try {
-        // Get the token from localStorage
         let token = localStorage.getItem("token");
 
-        // If no token, attempt to refresh
         if (!token && refreshToken) {
           try {
             token = await refreshToken();
@@ -963,10 +705,8 @@ export const HtmlContent = ({
           return;
         }
 
-        // Construct the full URL for the HTML file
         const fullPath = `https://lms-ci8t.onrender.com/templates/${contentItem.htmlContent}`;
 
-        // Fetch the HTML content with token
         const response = await axios
           .get(fullPath, {
             headers: {
@@ -974,13 +714,10 @@ export const HtmlContent = ({
             },
           })
           .catch(async (err) => {
-            // Handle 403 error specifically
             if (err.response && err.response.status === 403) {
-              // Attempt to refresh token
               if (refreshToken) {
                 try {
                   const newToken = await refreshToken();
-                  // Retry the request with the new token
                   return axios.get(fullPath, {
                     headers: {
                       Authorization: `Bearer ${newToken}`,
@@ -988,7 +725,7 @@ export const HtmlContent = ({
                   });
                 } catch (refreshError) {
                   console.error("Token refresh failed:", refreshError);
-                  throw err; // Re-throw original error if refresh fails
+                  throw err;
                 }
               }
               throw err;
@@ -1001,7 +738,6 @@ export const HtmlContent = ({
       } catch (err) {
         console.error("Error fetching HTML content:", err);
 
-        // More descriptive error handling
         if (err.response) {
           switch (err.response.status) {
             case 403:
@@ -1024,7 +760,6 @@ export const HtmlContent = ({
     fetchHtmlContent();
   }, [contentItem.htmlContent, user, refreshToken]);
 
-  // Render method for loading states and errors
   const renderContent = () => {
     if (loading) {
       return (
@@ -1040,7 +775,6 @@ export const HtmlContent = ({
       );
     }
 
-    // Render the fetched HTML content using dangerouslySetInnerHTML
     return (
       <div
         className="html-file-content p-4 rounded-md bg-gray-100 overflow-x-auto"
