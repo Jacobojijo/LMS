@@ -77,17 +77,9 @@ export const ModuleSidebar = ({
   navigateTo,
   moduleCompletion = {},
 }) => {
-  // Track all expanded topics - default all to expanded
+  // Track all expanded topics - default all to collapsed
   const [expandedTopics, setExpandedTopics] = useState(() => {
-    const initialExpanded = new Set();
-    course.modules.forEach((module, moduleIndex) => {
-      module.topics.forEach((topic, topicIndex) => {
-        if (topic.type === 'container') {
-          initialExpanded.add(`${moduleIndex}-${topicIndex}`);
-        }
-      });
-    });
-    return initialExpanded;
+    return new Set(); // Start with empty set - all topics collapsed
   });
 
   // Track which items have been unlocked (persistent across navigation)
