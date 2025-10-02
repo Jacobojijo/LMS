@@ -82,6 +82,18 @@ export const ModuleSidebar = ({
     return new Set(); // Start with empty set - all topics collapsed
   });
 
+  // Helper function to check topic completion
+  const getTopicCompletionStatus = (moduleIndex, topicIndex, topic) => {
+    if (topic.type === 'standalone') {
+      return moduleCompletion[`${moduleIndex}-${topicIndex}`];
+    } else if (topic.type === 'container') {
+      return topic.subtopics?.every((_, subtopicIndex) => 
+        moduleCompletion[`${moduleIndex}-${topicIndex}-${subtopicIndex}`]
+      );
+    }
+    return false;
+  };
+
   // Track which items have been unlocked (persistent across navigation)
   const [unlockedItems, setUnlockedItems] = useState(() => {
     // Initialize with first module, first topic, and first subtopic unlocked
@@ -97,7 +109,7 @@ export const ModuleSidebar = ({
     return initial;
   });
 
-  // Update unlocked items whenever active position changes
+  // Update unlocked items whenever active position or completion changes
   useEffect(() => {
     setUnlockedItems(prev => {
       const updated = new Set(prev);
@@ -145,6 +157,47 @@ export const ModuleSidebar = ({
         }
       }
       
+      // Check completed topics and unlock next topic or assessment
+      course.modules.forEach((module, moduleIndex) => {
+        module.topics.forEach((topic, topicIndex) => {
+          const isTopicCompleted = getTopicCompletionStatus(moduleIndex, topicIndex, topic);
+          
+          if (isTopicCompleted) {
+            // Unlock the next topic if it exists
+            if (topicIndex + 1 < module.topics.length) {
+              updated.add(`topic-${moduleIndex}-${topicIndex + 1}`);
+              
+              // If next topic is a container, unlock its first subtopic
+              const nextTopic = module.topics[topicIndex + 1];
+              if (nextTopic.type === 'container' && nextTopic.subtopics && nextTopic.subtopics.length > 0) {
+                updated.add(`subtopic-${moduleIndex}-${topicIndex + 1}-0`);
+              }
+            } else {
+              // If it's the last topic, unlock the assessment (but not the next module yet)
+              if (module.cat) {
+                updated.add(`assessment-${moduleIndex}`);
+              }
+            }
+          }
+        });
+        
+        // Check if assessment is completed to unlock next module
+        // Only unlock next module if the current module's assessment is completed
+        if (module.cat && moduleCompletion[`assessment-${moduleIndex}`]) {
+          // Unlock the next module if it exists
+          if (moduleIndex + 1 < course.modules.length) {
+            updated.add(`module-${moduleIndex + 1}`);
+            updated.add(`topic-${moduleIndex + 1}-0`);
+            
+            // If first topic of next module is a container, unlock its first subtopic
+            const nextModule = course.modules[moduleIndex + 1];
+            if (nextModule.topics[0].type === 'container' && nextModule.topics[0].subtopics && nextModule.topics[0].subtopics.length > 0) {
+              updated.add(`subtopic-${moduleIndex + 1}-0-0`);
+            }
+          }
+        }
+      });
+      
       // If on assessment page, unlock the assessment
       if (activePage === "assessment") {
         updated.add(`assessment-${activeModule}`);
@@ -152,7 +205,7 @@ export const ModuleSidebar = ({
       
       return updated;
     });
-  }, [activeModule, activeTopic, activeSubtopic, activePage, course.modules]);
+  }, [activeModule, activeTopic, activeSubtopic, activePage, course.modules, moduleCompletion]);
 
   // Toggle topic expansion
   const toggleTopicExpansion = (moduleIndex, topicIndex) => {
@@ -211,17 +264,6 @@ export const ModuleSidebar = ({
       }
       return false;
     });
-  };
-
-  const getTopicCompletionStatus = (moduleIndex, topicIndex, topic) => {
-    if (topic.type === 'standalone') {
-      return moduleCompletion[`${moduleIndex}-${topicIndex}`];
-    } else if (topic.type === 'container') {
-      return topic.subtopics?.every((_, subtopicIndex) => 
-        moduleCompletion[`${moduleIndex}-${topicIndex}-${subtopicIndex}`]
-      );
-    }
-    return false;
   };
 
   return (
