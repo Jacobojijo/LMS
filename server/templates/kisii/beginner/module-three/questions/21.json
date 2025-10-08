@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following Ekegusii forms correctly expresses “We should write” in its contracted form?",
+      "options": [
+        "Nabo bakorika",
+        "Nabo’bakorika",
+        "Nabo’tokorika",
+        "Nabo barikire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nabo’tokorika” is the correct contracted form expressing ‘We should write’."
+    },
+    {
+      "question": "What distinguishes the “may” construction from the “should” construction in Ekegusii, based on verb morphology?",
+      "options": [
+        "The “may” construction always removes the final -o in the verb.",
+        "The “should” construction keeps the full verb form.",
+        "The “may” construction uses full verb form, retaining -o.",
+        "The “should” construction uses “Nabo” to mark the mood."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The “may” construction in Ekegusii uses the full verb form, retaining the final -o."
+    },
+    {
+      "question": "Which of the following forms represents a contracted hypothetical (would) expression for 'I would write'?",
+      "options": [
+        "Nabo narika",
+        "Nango’narika",
+        "Nabo mokorika",
+        "Nabo bakorika"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Nango’narika” correctly expresses the hypothetical form ‘I would write’."
+    },
+    {
+      "question": "Which structural feature signals subjunctive mood in most relevant Ekegusii verb forms?",
+      "options": [
+        "Prefixing with “nenyarekane”",
+        "Use of “nabo”",
+        "Insertion of “nango”",
+        "Dropping the final -o from the verb"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dropping the final -o from the verb root signals the subjunctive mood in Ekegusii."
+    },
+    {
+      "question": "Identify the correct sequence for expressing a past obligation in Ekegusii, such as “We should have written.”",
+      "options": [
+        "Nabo nanga mwarigete",
+        "Nabo nanga twarigete",
+        "Nabo’mwarigete",
+        "Bari barikire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Nabo nanga twarigete” correctly expresses a past obligation—‘We should have written’."
+    },
+    {
+      "question": "In the Ekegusii phrase Inche inarigete, what grammatical information is embedded?",
+      "options": [
+        "Future habitual action",
+        "A polite request",
+        "Past perfect: I had written",
+        "Conditional future"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Inche inarigete” expresses the past perfect meaning ‘I had written’."
+    },
+    {
+      "question": "In causative constructions like Namokorire arike, what is the role of “namo”?",
+      "options": [
+        "Future marker",
+        "Negative auxiliary",
+        "Modal particle",
+        "Subject + causative verb: ‘we make’"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Namo’ combines subject and causative meaning, functioning as ‘we make’ in the sentence."
+    },
+    {
+      "question": "Which of the following best explains the contrast between Nenyarekane’indike and Nabo’narike?",
+      "options": [
+        "One is imperative, the other is hypothetical.",
+        "One expresses obligation, the other expresses ability.",
+        "One expresses permission/possibility, the other expresses hypothetical intent.",
+        "Both are past perfect constructions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nenyarekane’indike’ expresses permission or possibility, while ‘Nabo’narike’ expresses hypothetical intent."
+    },
+    {
+      "question": "What is the function of the particle nabo in constructions like Nabo nanga narigete and Nabo narigete?",
+      "options": [
+        "Marks subjunctive intent",
+        "Indicates future aspect",
+        "Indicates politeness",
+        "Marks past tense or perfect aspect"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Nabo’ marks tense or perfect aspect in modal constructions."
+    },
+    {
+      "question": "Which of the following best illustrates the imperative/subjunctive command structure in Ekegusii?",
+      "options": [
+        "Namokorire arike",
+        "Twabakorire barike",
+        "Tiga torike!",
+        "Nabo bakorika"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Tiga torike!’ is a clear example of an imperative/subjunctive command structure."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is the correct infinitive form in Ekegusii?",
+      "options": ["Omworokia", "Ikaransa", "beire", "Inche"],
+      "correctAnswer": 2,
+      "explanation": "The verb 'beire' is the correct infinitive form in Ekegusii, typically ending in '-e' or '-ire' to indicate the infinitive state."
+    },
+    {
+      "question": "Which sentence below correctly demonstrates the present indicative structure using a plural subject?",
+      "options": ["Inwe nabamwabo", "Ere ngogenda are", "Barabwo nabanairobi", "Aye noyonairobi"],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Barabwo nabanairobi' uses the plural subject 'Barabwo' correctly with the copula 'na', forming a valid present indicative structure."
+    },
+    {
+      "question": "What distinguishes the verb 'to be' in Ekegusii from regular infinitive verbs?",
+      "options": [
+        "It has a prefix only.",
+        "It ends in '-yo' like all other verbs.",
+        "It takes no subject.",
+        "It does not end in '-a' or '-bi' and is marked by 'N'."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The verb 'to be' in Ekegusii is irregular because it does not follow the '-a' or '-bi' infinitive pattern and is represented by 'N', which links subjects and complements."
+    },
+    {
+      "question": "What role does the particle 'e' play in the sentence 'Inche n’epresidenti'?",
+      "options": [
+        "It marks the object.",
+        "It is the subject of the sentence.",
+        "It functions as the copula (linking verb).",
+        "It is a pronoun modifier."
+      ],
+      "correctAnswer": 2,
+      "explanation": "In 'Inche n’epresidenti', the particle 'e' functions as the copula, linking the subject 'Inche' to the complement 'presidenti'."
+    },
+    {
+      "question": "Which of the following best represents the correct subject-pronoun pair for 'You (plural)' in Ekegusii?",
+      "options": ["Inche", "Inwe", "Barabwo", "Ere"],
+      "correctAnswer": 1,
+      "explanation": "The pronoun 'Inwe' is the correct form for 'You (plural)' in Ekegusii, used when addressing more than one person."
+    },
+    {
+      "question": "Why is 'Intwe n’abagusii' grammatically accurate in Ekegusii?",
+      "options": [
+        "'N’abagusii' is a verb phrase.",
+        "'Intwe' takes the plural copula 'n'.",
+        "'Intwe' always uses 'e' as the verb.",
+        "It uses an infinitive ending in '-o'."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sentence 'Intwe n’abagusii' is correct because the plural subject 'Intwe' pairs with the plural copula 'n', showing agreement in number."
+    },
+    {
+      "question": "Which of the following is not a correct feature of the Ekegusii verb 'to be'?",
+      "options": [
+        "It varies by subject pronoun.",
+        "It always ends in 'n' in the present tense.",
+        "It conforms to the '-a' infinitive ending.",
+        "It expresses identity and profession."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Ekegusii 'to be' verb does not follow the regular '-a' infinitive ending, making option C the incorrect feature."
+    },
+    {
+      "question": "Identify the sentence that correctly demonstrates the use of the third person singular subject with the verb 'to be'.",
+      "options": [
+        "Ere nomworokia",
+        "Inche n’omokenya",
+        "Barabwo Naborokia",
+        "Aye nomwworokia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sentence 'Ere nomworokia' correctly uses 'Ere' (he/she) as the third person singular subject with the copula 'no'."
+    },
+    {
+      "question": "Which of the following pairings is correctly matched with its grammatical role?",
+      "options": ["Oria – 2nd person singular", "Barabwoi – 3rd person plural", "Baria – 3rd person singular", "Aba – 1st person singular"],
+      "correctAnswer": 1,
+      "explanation": "The form 'Barabwoi' corresponds to the third person plural, meaning 'they', and is correctly paired with its grammatical role."
+    },
+    {
+      "question": "Based on Ekegusii grammar, which option best explains the use of 'N' in identity statements?",
+      "options": [
+        "It is an adjective",
+        "It indicates a future event",
+        "It acts as the copula for linking subject to identity",
+        "It marks plural objects"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Ekegusii, 'N' serves as a copula that links the subject and predicate noun or adjective, expressing identity or state."
+    }
+  ]
+}

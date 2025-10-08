@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct contracted future form of “you (plural) will eat” in Ekegusii?",
+      "options": [
+        "Ngochare koragera",
+        "Ngochimore’koragera",
+        "Ngochibare’koragera",
+        "Ngochande koragera"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Ngochimore’koragera” correctly represents the contracted future form for 'you (plural) will eat'."
+    },
+    {
+      "question": "Which of the following best represents the future continuous form of “they will be eating well”?",
+      "options": [
+        "Baria ngoragera bare buya",
+        "Barabwo bachire koragera buya",
+        "Barabwo ngochi koragera bare buya",
+        "Bachire koragera buya"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Barabwo ngochi koragera bare buya” accurately expresses a future continuous meaning."
+    },
+    {
+      "question": "In the sentence “Ngochi bare koragera,” which part of the construction indicates the future tense?",
+      "options": [
+        "Bare",
+        "Ngochi",
+        "Koragera",
+        "ch-"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Ngochi” is the auxiliary element that marks future tense in Ekegusii."
+    },
+    {
+      "question": "Which of the following is the correct literal interpretation of the sentence “Nachire koba n’abana babere”?",
+      "options": [
+        "I will come eat with two children.",
+        "I will be with two children.",
+        "I come to be with children two.",
+        "I go to be with two children."
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Nachire koba n’abana babere” literally translates to 'I come to be with children two'."
+    },
+    {
+      "question": "What does the sentence “Goika tomorore ere” imply in terms of grammatical obligation?",
+      "options": [
+        "He may see us",
+        "We should try to see him",
+        "We must see him",
+        "Let’s go see him"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence expresses a strong obligation—'We must see him'."
+    },
+    {
+      "question": "Which of the following phrases demonstrates a misuse of the auxiliary “ngochande”?",
+      "options": [
+        "Bachire aria",
+        "Ngochi koragera",
+        "Ochire ngochi",
+        "Ngochande koragera"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Ngochande koragera” is incorrect because 'ngochande' already encodes tense and subject agreement."
+    },
+    {
+      "question": "What is the source of the auxiliary “Ngochande” used in Ekegusii future constructions?",
+      "options": [
+        "From the root “Koragera” (to eat)",
+        "From the prefix “Ngochande”",
+        "From the verb “ngochi” (to be)",
+        "From the verb “Gocha” (to come)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The auxiliary “Ngochande” originates from the verb “Gocha” (to come)."
+    },
+    {
+      "question": "Which of the following correctly illustrates a future event happening tomorrow?",
+      "options": [
+        "Koiranande nande",
+        "Ninche ing’irane",
+        "Mambia ngoiranande",
+        "Nachairane"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Mambia ngoiranande” expresses a near-future event expected tomorrow."
+    },
+    {
+      "question": "What syntactic property is unique to the use of the auxiliary “Ngochande” in Ekegusii?",
+      "options": [
+        "It always follows the main verb",
+        "It carries subject and tense agreement",
+        "It requires the main verb to be conjugated",
+        "It appears only in plural forms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Ngochande” is unique because it carries both subject and tense agreement."
+    },
+    {
+      "question": "Why is “Ngochi’koragera” considered grammatically valid in Ekegusii?",
+      "options": [
+        "It is a present tense verb",
+        "It replaces both subject and verb",
+        "It’s a contraction of “Ngochi koragera” and includes subject agreement",
+        "It’s a compound word for future continuous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Ngochi’koragera” is a contracted form of 'Ngochi koragera' and maintains subject agreement."
+    }
+  ]
+}

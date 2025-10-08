@@ -1,0 +1,104 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following correctly uses the superlative form of the adjective enyansu (sweet)?",
+      "options": ["Enyansu kegima", "Enyansu kobua", "Enyansu naende", "Enyansu bobe"],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Enyansu kobua' expresses the superlative degree, meaning 'the sweetest of all.'"
+    },
+    {
+      "question": "In the phrase 'buna keria', what grammatical structure is being expressed?",
+      "options": [
+        "A superlative comparison",
+        "A moral judgment",
+        "A comparison of equality",
+        "An intensifier"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Buna keria' indicates a comparison of equality, equivalent to 'as...as' in English."
+    },
+    {
+      "question": "Which of the following sentences uses a morphological comparative form where the adjective root is shortened?",
+      "options": [
+        "Eke negiansu kobua bionsi",
+        "Eke negiansu buna keria",
+        "Eke nekiya kobua keria",
+        "Ere nomong’aini komobua"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In 'Eke nekiya kobua keria', the adjective root 'ekiya' is shortened to 'nekiya', forming a comparative."
+    },
+    {
+      "question": "What is the meaning of 'Omogondo one nomonene kobua oyogo'?",
+      "options": [
+        "My farm is the largest of all.",
+        "My farm is bigger than yours.",
+        "My land is the most fertile.",
+        "My house is newer than his."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sentence 'Omogondo one nomonene kobua oyogo' translates as 'My farm is bigger than yours,' showing a comparative structure."
+    },
+    {
+      "question": "Identify the correct Ekegusii sentence for: 'This is as tall as that one.'",
+      "options": [
+        "Oyo nomonene kobua oria",
+        "Oyo nomotambe buna oria",
+        "Oyo nomotambe buna oria",
+        "Oyo nomonene kobua oria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Oyo nomotambe buna oria' correctly expresses equality using 'buna' to mean 'as tall as.'"
+    },
+    {
+      "question": "Which adjective does not change form when expressing comparative degree?",
+      "options": ["Negiansu", "Ekebe", "Obuya", "Ekiya"],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'Obuya' remains the same in both positive and comparative forms, showing no morphological change."
+    },
+    {
+      "question": "What does the structure 'kobua onsi' convey in Ekegusii grammar?",
+      "options": [
+        "A literal comparison",
+        "A neutral comparison",
+        "The highest degree of quality",
+        "An equality of two qualities"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'kobua onsi' marks the superlative degree, expressing 'the highest degree' or 'the best of all.'"
+    },
+    {
+      "question": "Choose the correct translation of 'Enchera eye nentambe kobua eria.'",
+      "options": [
+        "This road is the longest of all.",
+        "That road is better than this one.",
+        "This way is longer than that one.",
+        "This path is equally long."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Enchera eye nentambe kobua eria' translates to 'This way is longer than that one,' showing a comparative structure."
+    },
+    {
+      "question": "Which of the following sentences best demonstrates the use of an intensifier in Ekegusii?",
+      "options": [
+        "Ere nomuya buna ere",
+        "Ere nomong’aini kobua bonsi",
+        "Ere nomong’aini komobua",
+        "Nomong’aini kobua"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Ere nomong’aini kobua bonsi' includes 'bonsi' (all), which acts as an intensifier emphasizing the comparison."
+    },
+    {
+      "question": "Which comparative structure is used to express 'His wife is better than theirs' in Ekegusii?",
+      "options": [
+        "Omorugi nomong’aini kobua babo",
+        "Omorugi oye nomobe kobua babo",
+        "Omorugi oye nomuya kobua babo",
+        "Omorigi oye nomoriri kobua babo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Omorugi oye nomuya kobua babo' correctly expresses 'His wife is better than theirs' using the comparative 'nomuya kobua.'"
+    }
+  ]
+}

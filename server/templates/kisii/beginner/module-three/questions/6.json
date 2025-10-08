@@ -1,0 +1,99 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Gusii adjective correctly transforms into the comparative form ekiya?",
+      "options": ["egiansu", "ekiya mono", "ekiya’ke", "ekieng’e"],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'ekiya’ke' is the correct comparative form derived from 'ekiya', showing a comparative relationship."
+    },
+    {
+      "question": "Which of the following sentences correctly illustrates the use of 'buna eke' to compare equality?",
+      "options": [
+        "Eke negiansu kobua eke",
+        "Oyo nomonyakieni buna oyo",
+        "Eke negetambe buna eke",
+        "Eke negetambe kobua eke"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Eke negetambe buna eke' correctly uses 'buna eke' to show equality in comparison."
+    },
+    {
+      "question": "What is the most accurate English translation of 'Oyo nomong’aini buna oria' based on the provided context?",
+      "options": [
+        "This is cleverer than that one",
+        "This is as wise as that one",
+        "This is the wisest one",
+        "This is as tall as that one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Oyo nomong’aini buna oria' translates to 'This is as wise as that one,' showing equality rather than superiority."
+    },
+    {
+      "question": "Which option shows a correct pairing of a positive adjective and its comparative form?",
+      "options": ["ekebe → ebibe", "egiansu → ebiansu", "ekiya → ekiya ake", "omong’aini → abang’aini"],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'ekiya' becomes 'ekiya ake' in its comparative form, maintaining the root while adding the comparative marker."
+    },
+    {
+      "question": "Which structure would be most appropriate for comparing two things as equal in sweetness?",
+      "options": [
+        "Eke negiansu kobua eke",
+        "Eke negiansu buna eke",
+        "Eke nekiya buna eke",
+        "Eke nekiya kobua eke"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sentence 'Eke negiansu buna eke' uses 'buna' to express equality, meaning 'as sweet as.'"
+    },
+    {
+      "question": "What is the primary morphological pattern observed in forming comparatives from adjectives in Ekegusii?",
+      "options": [
+        "Addition of 'eke' as a prefix",
+        "Reduction of the syllable",
+        "Doubling the last consonant",
+        "Inversion of the vowel sequence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Ekegusii, comparatives often show morphological reduction or simplification, typically through syllable reduction rather than addition."
+    },
+    {
+      "question": "Which of the following is not a valid comparative form based on the material?",
+      "options": ["egetambe", "egiansu", "omonyakieni", "ekiya"],
+      "correctAnswer": 2,
+      "explanation": "'Omonyakieni' is not a comparative form but a noun meaning 'a wise person'; the others are valid adjective forms."
+    },
+    {
+      "question": "Which Ekegusii comparative sentence best translates to 'This is worse than that one'?",
+      "options": [
+        "Eke nekebe kobua keria",
+        "Eke nekebe mono kobua keria",
+        "Eke nekiya kobua keria",
+        "Eke nekebe buna keria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Eke nekebe mono kobua keria' means 'This is worse than that one,' where 'mono' intensifies the comparison."
+    },
+    {
+      "question": "Why is 'buna' significant in Abagusii comparative grammar?",
+      "options": [
+        "It forms the superlative of adjectives",
+        "It is used to express equality between two entities",
+        "It marks possession in comparative structures",
+        "It turns adjectives into verbs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Buna' is a key comparative marker used in Ekegusii to indicate equality, similar to 'as...as' in English."
+    },
+    {
+      "question": "Which of the following statements best reflects the cultural-linguistic insight drawn from Gusii comparative usage?",
+      "options": [
+        "Ekegusii language limits comparisons to physical traits",
+        "Comparisons in Gusii mostly emphasize animals and nature",
+        "Gusii comparisons often reflect moral and personality traits",
+        "Abagusii comparatives are only used in poetic or ceremonial speech"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comparative expressions in Ekegusii frequently highlight moral and personal qualities, reflecting the community’s cultural values."
+    }
+  ]
+}

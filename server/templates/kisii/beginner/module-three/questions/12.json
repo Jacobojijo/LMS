@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the Ekegusii sentence 'Ningwanchete aye', what does the object pronoun '-aye' represent?",
+      "options": [
+        "Me",
+        "Them",
+        "You (plural)",
+        "Him/Her"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-aye' in 'Ningwanchete aye' represents 'you (plural)', showing that the action is directed toward multiple people."
+    },
+    {
+      "question": "Which of the following illustrates the correct structure for the verb 'to teach him/her' in Ekegusii?",
+      "options": [
+        "Basomi barabwo",
+        "Mosomi ere",
+        "Mosomi aye",
+        "Mosomi inwe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ere' functions as the correct form when referring to 'teach him/her', combining the appropriate subject prefix and object suffix."
+    },
+    {
+      "question": "What is the function of the object pronoun '-re' in the conjugated verb 'Ere ong’itire'?",
+      "options": [
+        "It shows plural action",
+        "It marks the speaker as the object",
+        "It marks him/her as the object",
+        "It indicates future tense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The object pronoun '-re' identifies the third person singular object 'him/her' in the verb structure."
+    },
+    {
+      "question": "Which verb below demonstrates correct full agglutinative structure with a subject and object?",
+      "options": [
+        "Ancha",
+        "Twabanchire",
+        "Babanchire",
+        "Nyouma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Twabanchire' fuses the subject prefix 'Twa-' (we), the verb root 'bancha' (love), and the object suffix '-re' (him/her), showing full agglutination."
+    },
+    {
+      "question": "Identify the object pronoun in the Ekegusii verb 'Inwe mwabaitire'.",
+      "options": [
+        "U-",
+        "-a",
+        "-re",
+        "-bi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-re' marks the object in 'mwabaitire', showing who receives the action."
+    },
+    {
+      "question": "What does the conjugated form 'Nabanchire' mean in Ekegusii?",
+      "options": [
+        "I love him",
+        "He loves you",
+        "I love you (plural)",
+        "They love you (plural)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nabanchire' combines 'Na-' (I), 'bancha' (love), and '-re' (you plural), meaning 'I love you (plural)'."
+    },
+    {
+      "question": "What structural role does the suffix play in Ekegusii transitive verbs like 'Ere obaitire'?",
+      "options": [
+        "It changes the tense",
+        "It identifies the object of the action",
+        "It converts verb to noun",
+        "It replaces the verb root"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In transitive verbs, the suffix identifies the object of the action, linking the action to its receiver."
+    },
+    {
+      "question": "From the verb 'Ere ngonyuoma are', what can be inferred about the subject and object?",
+      "options": [
+        "She is marrying you",
+        "He is marrying me",
+        "I am marrying her",
+        "They are marrying us"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'Ere' indicates 'he', and the suffix '-re' marks 'me', so the sentence means 'He is marrying me'."
+    },
+    {
+      "question": "In the sentence 'Inche nabaitire', what does the subject–verb–object alignment reveal?",
+      "options": [
+        "I am loved by you (plural)",
+        "I have killed you (plural)",
+        "You have killed me",
+        "He has killed you (plural)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'Na-' marks 'I' and '-re' marks 'you plural', so 'Inche nabaitire' means 'I have killed you (plural)'."
+    },
+    {
+      "question": "Why is Ekegusii described as agglutinative based on its verb structure?",
+      "options": [
+        "Because it repeats root words for emphasis",
+        "Because all words must end in vowels",
+        "Because a single word fuses subject, verb, and object",
+        "Because object pronouns are separate from verbs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ekegusii verbs are agglutinative since they merge subject, verb root, tense, and object pronouns into one word unit."
+    }
+  ]
+}

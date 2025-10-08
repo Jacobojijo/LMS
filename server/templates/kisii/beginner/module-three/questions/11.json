@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why 'ngoaka' is considered a transitive verb in Ekegusii?",
+      "options": [
+        "It contains an auxiliary",
+        "It carries tonal alternation",
+        "It takes a direct object",
+        "It ends with a subject suffix"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ngoaka' is transitive because it requires a direct object to complete its meaning, such as 'Ngoaka ekoni' (He/she builds a house)."
+    },
+    {
+      "question": "In the sentence 'Omoakire', what grammatical elements are fused together?",
+      "options": [
+        "Auxiliary, verb, adverb",
+        "Subject pronoun, verb stem, object pronoun",
+        "Object noun, verb stem, subject noun",
+        "Verb prefix, plural suffix, tense marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Omoakire' combines a subject pronoun prefix, a verb stem, and an object pronoun, typical of Ekegusii’s agglutinative structure."
+    },
+    {
+      "question": "What is the primary syntactic function of the suffix '-nde' in the verb 'ngomoakande'?",
+      "options": [
+        "Marks tense",
+        "Indicates plurality",
+        "Shows the object",
+        "Functions as an auxiliary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-nde' marks the object in the verb 'ngomoakande', showing who or what is affected by the action."
+    },
+    {
+      "question": "In Ekegusii, what change allows an originally intransitive verb to function transitively?",
+      "options": [
+        "Tone modification",
+        "Auxiliary insertion",
+        "Verbal extension (e.g. applicative)",
+        "Prefix repetition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Verbal extensions such as applicatives or causatives make an intransitive verb take an object, increasing its valency."
+    },
+    {
+      "question": "Which of the following is the correct gloss for 'Olum agoaka ekonu'?",
+      "options": [
+        "Subject + object + verb",
+        "Verb + object + subject",
+        "Subject noun + transitive verb + direct object",
+        "Auxiliary + verb stem + applicative extension"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Olum agoaka ekonu' consists of a subject noun ('Olum'), a transitive verb ('agoaka'), and a direct object ('ekonu')."
+    },
+    {
+      "question": "What best defines the term 'agglutinative' in the context of Ekegusii verb morphology?",
+      "options": [
+        "A verb structure that involves repeating syllables",
+        "A language pattern where affixes are fused to show tone",
+        "A morphological system where distinct morphemes are combined into a single unit",
+        "A verb formation that only uses pronouns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ekegusii is agglutinative because verbs consist of multiple affixes—each carrying distinct grammatical meaning—attached to a root."
+    },
+    {
+      "question": "How does Ekegusii signal a shift from transitivity to intransitivity in certain verbs?",
+      "options": [
+        "Through the use of auxiliary verbs",
+        "By inserting an object suffix",
+        "By applying antipassivity",
+        "Through object repetition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Antipassive constructions reduce transitivity by removing or demoting the direct object, making the verb intransitive."
+    },
+    {
+      "question": "Which structure accurately represents a typical Ekegusii sentence with a transitive verb and subject pronoun?",
+      "options": [
+        "Object + Auxiliary + Verb + Subject",
+        "Subject Pronoun + Verb Root + Object Suffix",
+        "Auxiliary + Subject + Object + Verb",
+        "Verb + Object + Subject Pronoun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Ekegusii, the canonical order for such verbs is Subject Pronoun + Verb Root + Object Suffix, reflecting the language’s SVO structure."
+    },
+    {
+      "question": "Based on the examples, which question reveals the direct object in an Ekegusii transitive sentence?",
+      "options": [
+        "Ngosomare?",
+        "Endagera neroo?",
+        "Twagorete kereki?",
+        "Ere omoakire?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Twagorete kereki?’ (‘Whom did we build?’) reveals the direct object, highlighting the verb’s transitivity."
+    },
+    {
+      "question": "Which of the following is not true about subjective pronouns in Ekegusii as described?",
+      "options": [
+        "They typically appear after the verb",
+        "They indicate the doer of the action",
+        "They function as agents of the verb",
+        "They are central to verb conjugation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subjective pronouns in Ekegusii appear before the verb as prefixes; they never follow the verb."
+    }
+  ]
+}

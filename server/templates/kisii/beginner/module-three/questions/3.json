@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct adjectival form of the Ekegusii root 'Embariri' (red) when modifying a noun?",
+      "options": [
+        "Emba",
+        "Tonto",
+        "Riri",
+        "Embariri"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct adjectival form derived from 'Embariri' (red) is 'Riri', which attaches directly to a noun when describing color."
+    },
+    {
+      "question": "Which Ekegusii color adjective would best describe 'a white fish'?",
+      "options": [
+        "Endabuse",
+        "Endabu",
+        "Emwabu",
+        "Gesicha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Endabu’ means ‘white’ and correctly describes ‘a white fish’ in Ekegusii."
+    },
+    {
+      "question": "The Ekegusii adjective 'motobu' is culturally derived from which of the following sources?",
+      "options": [
+        "Brown soil",
+        "Indigo dye",
+        "Egg yolk",
+        "Palm fruit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Motobu’ refers to a yellowish hue and is derived from the natural color of an egg yolk in Ekegusii culture."
+    },
+    {
+      "question": "If you were describing clothing that is both black and white in Ekegusii, which adjective would you most accurately use?",
+      "options": [
+        "Endabu",
+        "monyinga",
+        "matonto",
+        "Emwamu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Matonto’ describes a mixed or spotted black-and-white appearance, suitable for clothing or animal coats."
+    },
+    {
+      "question": "What is the semantic significance of the Ekegusii adjective 'endabu' beyond its literal meaning?",
+      "options": [
+        "Associated with royalty",
+        "Symbol of darkness and mystery",
+        "Reflects abundance and richness",
+        "Linked with purity and cleanliness"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Endabu’ (white) symbolizes purity and cleanliness in Ekegusii cultural interpretation, beyond its literal color meaning."
+    },
+    {
+      "question": "Which of the following is NOT a valid root form of Ekegusii color adjective?",
+      "options": [
+        "Obonyansi",
+        "Emwamu",
+        "Rira",
+        "Mwama"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Mwama’ is not a valid root for color adjectives in Ekegusii, while the others are recognized roots or derived forms."
+    },
+    {
+      "question": "Choose the correct example of a noun modified by the color adjective for brown.",
+      "options": [
+        "Omochanga maraba — “Brown sand soil”",
+        "Ekerogo Ekerabu — “Brown chair”",
+        "Enswe embariri — “Brown fish”",
+        "Embori emwamu — “Brown goat”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Omochanga maraba’ correctly combines the noun ‘Omochanga’ (sand soil) with ‘maraba’ (brown), forming a valid color description."
+    },
+    {
+      "question": "What is the likely meaning of the phrase 'Chianga chinchembera' based on the morphological rules described?",
+      "options": [
+        "Blue paper",
+        "Blue dress",
+        "Blue chair",
+        "Blue clothes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Chianga chinchembera’ means ‘blue clothes,’ derived from ‘chinchembera’ (blue), following proper agreement rules."
+    },
+    {
+      "question": "The color adjective 'monyinga' is most closely associated with which cultural concept?",
+      "options": [
+        "Modesty",
+        "Royalty and rich tones",
+        "Hard work",
+        "Mourning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Monyinga’ symbolizes richness and royalty, representing deep and vibrant tones in Ekegusii color symbolism."
+    },
+    {
+      "question": "Which Ekegusii adjective would appropriately describe vegetables with a natural green hue?",
+      "options": [
+        "motobu",
+        "machani",
+        "Chimwamu",
+        "Chindabu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Machani’ means ‘green’ and is the correct adjective for describing naturally green vegetables in Ekegusii."
+    }
+  ]
+}

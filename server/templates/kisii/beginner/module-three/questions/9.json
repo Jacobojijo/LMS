@@ -1,0 +1,84 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why the sentence 'Endagera enyansu!' does not include a verb in Ekegusii?",
+      "options": [
+        "Ekegusii uses auxiliary verbs for taste descriptors.",
+        "Present-tense declaratives do not require the verb 'to be'.",
+        "The word 'enyansu' already contains the verb.",
+        "The verb 'noo-re' is implied by the noun."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Ekegusii, present-tense declarative sentences like 'Endagera enyansu!' omit the copula 'to be'; the state is implied."
+    },
+    {
+      "question": "Which of the following correctly demonstrates the use of the verb 'noo-' with a personal pronoun?",
+      "options": ["Endagera neroo", "Noonde", "Nabeo", "Intwe nootore"],
+      "correctAnswer": 1,
+      "explanation": "'Noonde' correctly combines the copula root 'noo-' with the first-person singular pronoun, meaning 'I am'."
+    },
+    {
+      "question": "What is the correct Ekegusii phrase for 'They are present'?",
+      "options": ["Noo bare", "Mbaiyo", "Bachire", "Ngochabare"],
+      "correctAnswer": 0,
+      "explanation": "'Noo bare' directly translates to 'They are present,' using the plural copula form."
+    },
+    {
+      "question": "Which structure is correctly used when the subject is explicit (e.g., Paul)?",
+      "options": ["Mbaiyo Paul", "Paul mbaiyo", "Paul nooare", "Paul Ngochare"],
+      "correctAnswer": 2,
+      "explanation": "When the subject is named, as in 'Paul nooare', the copula 'noo-' follows the noun for correct syntax."
+    },
+    {
+      "question": "Which Ekegusii construction best expresses the sentence 'My co-wife has children'?",
+      "options": [
+        "Omokungu togokonyana komo abwate abana batato",
+        "Omorugi oyo tabwati ‘bana",
+        "Omorugi togokonyana emeremo nere nabwate abana",
+        "Omokungu tokokonyana komo tabwati ‘bana"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Omorugi togokonyana emeremo nere nabwate abana’ uses the possessive copula 'nere' correctly for 'has children.'"
+    },
+    {
+      "question": "In which case must the copula 'ere' be inserted before 'ba' when expressing possession?",
+      "options": [
+        "When the subject is in third person plural.",
+        "When using abstract nouns.",
+        "When the object is a location.",
+        "When the subject is overt/named."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The copula 'ere' appears before 'ba' when the subject is explicitly stated or named for clarity."
+    },
+    {
+      "question": "Which of the following Ekegusii forms properly expresses 'We are here' using the location verb form?",
+      "options": ["Barabwo noobare igaa", "Nootore igaa", "Inwe noomore", "Ntoiyo igaa"],
+      "correctAnswer": 1,
+      "explanation": "'Nootore igaa' correctly expresses location, combining 'noo-' (copula) with 'tore' (we) and 'igaa' (here)."
+    },
+    {
+      "question": "What is the correct negation form of the sentence 'He is present'?",
+      "options": ["Ochiire", "Taiyo", "Nooare", "Ochire"],
+      "correctAnswer": 1,
+      "explanation": "'Taiyo' is the negative form meaning 'He is not present,' showing negation of the copula."
+    },
+    {
+      "question": "If 'Nimbwate endagera' means 'I have food,' what does 'Barabwo mbabwate abana' most accurately translate to?",
+      "options": [
+        "We have children.",
+        "They are children.",
+        "They have children.",
+        "Children have them."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'ba-' marks third person plural; 'mbabwate' thus means 'they have,' giving 'They have children.'"
+    },
+    {
+      "question": "Which prefix pair accurately indicates the difference between singular and plural subject pronouns in Ekegusii verb conjugation?",
+      "options": ["A- / E-", "Int- / Ba-", "Ere- / Aye-", "E- / U-"],
+      "correctAnswer": 1,
+      "explanation": "The prefixes 'Int-' (we) and 'Ba-' (they) show the singular/plural distinction in subject marking."
+    }
+  ]
+}

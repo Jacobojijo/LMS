@@ -1,0 +1,284 @@
+{
+  "title": "Everyday Conversations & Cultural Context CAT",
+  "description": "This Continuous Assessment Test evaluates knowledge of Ekegusii everyday speech, adjectives, verbs, and tense structures within conversational and cultural contexts.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "questions": [
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following is the correct comparative form of ekebe (bad)?",
+      "options": ["ekebe mono", "ekebe ake", "ekiya", "ekiya ake"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the sentence 'Eke negiansu buna eke', what grammatical function does the word 'buna' serve?",
+      "options": ["Marker of possession", "Superlative indicator", "Equality comparison", "Verb intensifier"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which verb form in Ekegusii would best express “to study” in the infinitive?",
+      "options": ["Gosoma", "Gosomi", "Gosomiwa", "soma"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What prefix is used in Ekegusii to conjugate a verb for the subject pronoun Intwe (we)?",
+      "options": ["a-", "Na-", "in-", "Ba-"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the meaning of the Ekegusii sentence 'Paul nooare'?",
+      "options": ["Paul is absent", "Paul is here", "Paul is present", "Paul is doing something"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following correctly expresses 'There is no food' in Ekegusii?",
+      "options": ["Endagera neroo", "Endagera teiyo", "Endagera yerire", "Endagera yatigaire"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What construction would correctly express 'The most intelligent' in Ekegusii using the standard superlative form?",
+      "options": ["Oyo nomong’aini kobua bonsi", "Omongaini", "Omong’ini buna oyo", "Oyo nomoriri sana"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What does the phrase 'Ekemwamu mono' mean in Ekegusii as used in intensification?",
+      "options": ["Completely dark", "The darkest of all", "Very black/dark", "As black as"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which Ekegusii construction correctly conveys 'I am here' using the verb noo-?",
+      "options": ["Inche noonde", "Noonde’aiga", "Inche nachire aiga", "Inche ting’iyo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the morphosyntactic structure of Ekegusii adjectives, what is the primary function of the “eke-” prefix?",
+      "options": [
+        "It turns adjectives into nouns to enhance formality",
+        "It intensifies the semantic value of the adjective",
+        "It acts as a linking particle, converting descriptors into relative clauses",
+        "It marks future tense in attributive clauses"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following Ekegusii adjectives does not follow the eke- prefix pattern?",
+      "options": ["Ekiya", "Obuya", "eke", "ekenene"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What semantic distinction is drawn between 'ngokwa agochi' and 'okure' in Ekegusii adjective clauses?",
+      "options": [
+        "Gender specificity of the subject",
+        "Past vs. future participle forms",
+        "Positive vs. negative polarity",
+        "Ongoing process vs. completed state"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which adjective is irregular in both form and developmental reference, bypassing the standard prefix system?",
+      "options": ["Egeke", "Ekemwamu", "Manumu", "Bisaine"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following Ekegusii adjective pairs exemplifies pluralization through suffixation?",
+      "options": ["Ekiya → Amaya", "Ekenene → Ebinene", "Ekenge → Amange", "Ekien’ge → Ebieng’e"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which adjective conveys moral and aesthetic approval in Ekegusii and may intensify with 'omobe'?",
+      "options": ["ekebe", "omuya", "omorimo", "omoene"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In Ekegusii, which adjective denotes sufficiency, and may commonly lose the “eke-” prefix in speech?",
+      "options": ["Bietanetie", "Ebieng’e", "Ebitambe", "Bisaine"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following color adjectives derives from an environmental referent?",
+      "options": ["Endabu – white", "Maraba – brown", "Gesicha – yellow", "Indigo – indigo"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the plural form of the adjective 'ekebe' (bad)?",
+      "options": ["Ebiya", "Ebibe", "Ebitambe", "Ebinene"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following adjectives is classified as invariant, resisting inflection even in plural contexts?",
+      "options": ["Ebiya", "Ebinene", "Ebike", "Ebinge"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which of the following best illustrates the use of an applicative extension in Ekegusii?",
+      "options": ["Inche nimwate ekerogo", "Oisaransire ase ekerogo", "Mosomi", "Ere ngotera are"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] In Ekegusii, which of the following reflects the correct verb structure for a transitive construction?",
+      "options": [
+        "Verb Root + Object + Subject",
+        "Subject Prefix + Object Suffix + Verb Root",
+        "Subject Prefix + Verb Root + Object Suffix",
+        "Object Suffix + Subject Prefix + Verb Root"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] What enables a verb like “goaka” to function independently in a clause?",
+      "options": [
+        "Verbal extensions",
+        "Verb-initial syntax",
+        "Morphological fusion of subject and object",
+        "Reflexive suffix -re"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which of the following forms shows reflexive morphology?",
+      "options": ["Batoitire", "Kwerugera", "Namwakire", "Nyuoma"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] What is the grammatical issue with the phrase “Inche nimwate esese” when expressing possession?",
+      "options": [
+        "Misuse of object pronoun",
+        "Redundant subject prefix",
+        "Incorrect reflexive verb form",
+        "Semantic error in possession"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Verbs Part 02] Which example best illustrates antipassive usage in Ekegusii?",
+      "options": ["Abuya ngomoaka are ere", "Gotera", "Ngosomare", "Ere okure"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] Identify the correct Ekegusii translation of “They have killed us.”",
+      "options": ["Babaitire", "Bamoitire", "Batoitire", "Twabaitire"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which form demonstrates a fully fused verbal clause in Ekegusii?",
+      "options": [
+        "Barabwo mbabwate omogondo",
+        "Inche ngosomande",
+        "Tari gwesibia omonyene",
+        "Inche nimwate esese"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] Which is true about the verb 'nyuoma' in Ekegusii?",
+      "options": [
+        "It can be used by any gender",
+        "It only applies to legal ceremonies",
+        "It is culturally male-exclusive",
+        "It is always reflexive"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] What grammatical process forms the noun 'gwasibia omonyene'?",
+      "options": [
+        "Antipassive shift",
+        "Nominalization via -omonyene",
+        "Agglutination of pronouns",
+        "Use of possessive 'ba'"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] Why does 'Banyuomete' mean 'They are married'?",
+      "options": [
+        "Auxiliary makes it passive",
+        "Nyuoma is polysemous",
+        "Subject-object reversal",
+        "Reflexive intransitive form"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] In the construction 'Yabeire kegotwa,' which grammatical element is primarily responsible for placing the action prior to another past event?",
+      "options": [
+        "The static verb 'beire'",
+        "The subject prefix 'o-'",
+        "The auxiliary 'ete' combined with the perfective infix '-r-'",
+        "The clause marker 'ko'"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] Which of the following Ekegusii sentences best exemplifies a contracted form of the recent past perfective?",
+      "options": ["Nabo ngoragera", "Nabeire ngoragera", "Narageire", "Inche ngoragera inde"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] What is the function of the '-ko' suffix in the verb phrase 'Nabeire ‘ngoragera'?",
+      "options": [
+        "To express politeness or deference in past narration",
+        "To emphasize completed action in the past",
+        "To mark obligation tied to habitual action",
+        "To denote a repeated or ongoing past action (past habitual/continuous)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Tenses] In which of the following constructions is the infinitive verb form maintained despite temporal marking?",
+      "options": ["Narigete", "Mbache barike", "Ngochi koragerande", "Inche narageire"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] Which of the following demonstrates incorrect application of the overt subject rule?",
+      "options": [
+        "Syliviah ngotara are",
+        "Syliviah otarire",
+        "Syliviah Ngooni are",
+        "Baba ngogend’are nyagitari"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] Which sentence properly expresses the future continuous tense in Ekegusii?",
+      "options": [
+        "Babeire ang’e gochia koragera",
+        "Ngochi koragera",
+        "Ngochi koragera bare buya",
+        "Ngochi koragera buya"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] What does the prefix “narenge-” convey in a sentence like “Narende omwarwaire igoro”?",
+      "options": [
+        "Past habitual illness",
+        "Ongoing sickness",
+        "General recent past",
+        "Specific reference to an event that occurred yesterday"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Tenses] Which structure correctly conveys the modal 'should have' in Ekegusii?",
+      "options": ["Nab’akorika", "Inche nabo ingorika", "Nacharike", "Ngocho korika are"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] What is the primary pedagogical challenge in interpreting present continuous actions in Ekegusii?",
+      "options": [
+        "The need to memorize subject-object order",
+        "The absence of explicit progressive morphology, requiring contextual inference",
+        "The lack of plural forms in present verbs",
+        "The instability of the “eke-” prefix"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] Which of the following morphosyntactic combinations indicates 'They had been…' in Ekegusii past perfect tense?",
+      "options": ["Mbache babe", "Babeire", "Barabwo babeire", "Nabo barabwo babeire"],
+      "correctAnswer": 2
+    }
+  ]
+}

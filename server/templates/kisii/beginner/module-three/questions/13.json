@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following Ekegusii sentences correctly uses an intransitive verb?",
+      "options": [
+        "Nimbwate esese – I have a dog",
+        "Inche nachiire Kisumu – I have gone to Kisumu",
+        "Naisaransire ase ekerogo – I sit on the chair",
+        "Ngosomande – I am learning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Naisaransire ase ekerogo’ uses the intransitive verb ‘gosaransa’ (to sit), which does not take a direct object."
+    },
+    {
+      "question": "In Ekegusii, how is the concept of 'having' best expressed when describing possession?",
+      "options": [
+        "By placing the noun before the subject",
+        "Using the auxiliary verb 're'",
+        "By combining a pronoun with the word '-bwate'",
+        "Using the suffix '-re'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Possession in Ekegusii is expressed by combining a pronoun with the verb '-bwate' (to have), as in 'Inche nimbwate esese' (I have a dog)."
+    },
+    {
+      "question": "What is the correct reflexive form of the Ekegusii verb 'gosoma' (to teach)?",
+      "options": [
+        "Ngosomande",
+        "Basomire",
+        "Ngosoma bare",
+        "Ngosomare"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Ngosomande’ means ‘I am teaching myself,’ showing reflexivity through the reflexive suffix."
+    },
+    {
+      "question": "What is the correct Ekegusii construction for 'They have land'?",
+      "options": [
+        "Barabwo mbaremete",
+        "Barabwo mbabwate omogondo",
+        "Barabwo nabwate omogondo",
+        "Barabwo omogondo oye"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Barabwo mbabwate omogondo’ combines the pronoun 'barabwo' (they) and the verb 'bwate' (have) with the noun 'omogondo' (land)."
+    },
+    {
+      "question": "Which morphological marker is added to a verb in Ekegusii to indicate reflexivity?",
+      "options": [
+        "-bwate",
+        "-esebi",
+        "-re",
+        "-bi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-re' often appears in reflexive verb forms, marking actions performed on oneself."
+    },
+    {
+      "question": "Choose the correct Ekegusii sentence that expresses 'She is married.'",
+      "options": [
+        "Osomire",
+        "Ochire Kisumu",
+        "Ere nanyuomire",
+        "Ngonyuomare"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ere nanyuomire’ literally means 'She is married,' derived from the reflexive structure of the verb 'enyuoma' (to marry)."
+    },
+    {
+      "question": "What grammatical role does the suffix '-esibi' play in Ekegusii reflexive constructions?",
+      "options": [
+        "Converts verbs into negative form",
+        "Indicates plural subject action",
+        "Forms noun equivalents of reflexive verbs",
+        "Denotes auxiliary past tense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-esibi' derives nouns from reflexive verbs, e.g., ‘enyenyeta’ (to wash oneself) → ‘enyenyetesibi’ (act of washing oneself)."
+    },
+    {
+      "question": "Which of the following verb pairs accurately shows the intransitive–reflexive relationship in Ekegusii?",
+      "options": [
+        "Gokora emeremo – gwakorera emeremo",
+        "Gacha – Gachera",
+        "koroga – kwerugera",
+        "Soma – Somire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Koroga’ (to stir something) becomes reflexive as ‘kwerugera’ (to stir oneself), showing the morphological shift from transitive to reflexive."
+    },
+    {
+      "question": "In the sentence 'Barageire', what grammatical aspect is being used?",
+      "options": [
+        "Simple future",
+        "Past imperfect",
+        "Reflexive mood",
+        "Perfect aspect using 're'"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The form ‘Barageire’ shows the perfect aspect, with the suffix ‘-re’ marking the completed action."
+    },
+    {
+      "question": "Why is 'Inche nimbwate esese' not preferred over 'Inche n’esese' for expressing possession in Ekegusii?",
+      "options": [
+        "It incorrectly uses plural agreement",
+        "It translates more literally as 'I and the dog'",
+        "It lacks subject–verb concord",
+        "It uses the auxiliary verb instead of the main"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Inche nimbwate esese’ can sound like 'I and the dog' because 'ni' also means 'and'; 'Inche n’esese' is more idiomatic for possession."
+    }
+  ]
+}

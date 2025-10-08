@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which adjective in Ekegusii denotes moral uprightness, physical beauty, or social approval, and uses an intensifier to express extremity?",
+      "options": [
+        "Omobe mono",
+        "Omuya mono",
+        "Omorai",
+        "Omorwaire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Omuya mono’ means ‘very good’ or ‘morally upright,’ where ‘mono’ serves as an intensifier expressing extremity or emphasis."
+    },
+    {
+      "question": "Identify the Ekegusii adjective that intensifies the idea of abundance beyond ‘many,’ and implies excess or overflowing.",
+      "options": [
+        "Ebike",
+        "Bisaine",
+        "Ebinge mono",
+        "Ebinene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ebinge mono’ amplifies the concept of abundance, signifying an excessive or overflowing quantity beyond just ‘many.’"
+    },
+    {
+      "question": "What is the correct morphological structure of the Ekegusii adjective ‘ekenene’?",
+      "options": [
+        "eke- + rito",
+        "eke- + nene",
+        "eke- + gusu",
+        "eke- + nenene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ekenene’ is formed morphologically from the prefix ‘eke-’ (adjective marker) and the root ‘nene’ meaning ‘big’ or ‘large.’"
+    },
+    {
+      "question": "Which Ekegusii adjective of quality is irregular in morphological formation and not prefixed by ‘eke-’?",
+      "options": [
+        "Ekiya",
+        "Chimbese",
+        "Omuya",
+        "Omonene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Chimbese’ is irregular and not formed with the standard ‘eke-’ prefix, distinguishing it morphologically from regular adjectives."
+    },
+    {
+      "question": "If you want to ask someone about the number of objects in Ekegusii, which interrogative quantifier should you use?",
+      "options": [
+        "Ara karenga?",
+        "Mbirenga?",
+        "Araria?",
+        "Mobori?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mbirenga?’ is the correct interrogative quantifier in Ekegusii used to ask ‘how many?’ or inquire about quantity."
+    },
+    {
+      "question": "Choose the correct pair where one adjective loses its ‘E-’ prefix in spoken Ekegusii.",
+      "options": [
+        "Asobonge → ‘Sobonge",
+        "Ebike → Bike",
+        "Ebiya → Biya",
+        "Ekebe → Kebe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In spoken Ekegusii, ‘Asobonge’ often loses its prefix ‘A-’, becoming ‘’Sobonge,’ reflecting natural phonetic reduction in speech."
+    },
+    {
+      "question": "Which adjective conveys sufficiency and often appears without its morphological prefix in casual speech?",
+      "options": [
+        "Ekenene",
+        "Ebinge",
+        "Esaine",
+        "Ebike"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Esaine’ means ‘enough’ or ‘sufficient’ and is frequently used without the prefix ‘E-’ in informal contexts."
+    },
+    {
+      "question": "Which of the following pairs contrasts adjectives of quality with adjectives of quantity?",
+      "options": [
+        "Ebinge and Ebike",
+        "Aisaine and Ebokong’u",
+        "Ebinge and As’obonge",
+        "Ekenene and Ebinge mono"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Aisaine’ (sufficient) reflects quality, while ‘Ebokong’u’ (a lot/much) reflects quantity—illustrating a contrast between adjective types."
+    },
+    {
+      "question": "What is the semantic difference between ‘Ebinge’ and ‘Bisaine’ in Ekegusii?",
+      "options": [
+        "Ebinge refers to quantity while Bisaine refers to size",
+        "Both mean ‘few’ but used differently",
+        "Ebinge is a stronger, more excessive form of Bisaine",
+        "Ebinge is used only with mass nouns; Bisaine is not"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Ebinge’ conveys a higher or excessive degree of abundance, while ‘Bisaine’ suggests moderate plurality."
+    },
+    {
+      "question": "What kind of descriptive value does ‘Ekebe’ convey in Ekegusii?",
+      "options": [
+        "Neutral observation",
+        "Intensely negative moral or aesthetic judgment",
+        "High quantity but low value",
+        "A blend of beauty and importance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ekebe’ expresses a strong negative moral or aesthetic evaluation, often implying ugliness or disapproval."
+    }
+  ]
+}

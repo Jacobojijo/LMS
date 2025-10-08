@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains why “Dwallow ngorager’are” can mean both “Dwallow eats” and “Dwallow is eating”?",
+      "options": [
+        "The verb is reflexive in form",
+        "The context includes a future time indicator",
+        "Ekegusii does not morphologically distinguish simple and continuous present tenses",
+        "The subject is omitted in the sentence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ekegusii verbs do not morphologically differentiate between the simple and continuous present tenses, so context determines the intended meaning."
+    },
+    {
+      "question": "In Ekegusii, which morphological feature marks a verb as habitual in aspect?",
+      "options": [
+        "Prefixation of subject pronouns",
+        "Addition of the suffix -ko to the verb root",
+        "Use of a temporal adverb",
+        "Use of object focus markers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix -ko is added to the verb root in Ekegusii to mark habitual aspect, showing repeated or regular actions."
+    },
+    {
+      "question": "What role does context play in understanding the present continuous tense in Ekegusii?",
+      "options": [
+        "It shows where to insert the prefix -ko",
+        "It helps determine whether an action is ongoing or habitual",
+        "It marks the verb with an auxiliary",
+        "It eliminates the need for the verb root"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since Ekegusii does not mark continuous aspect morphologically, context helps determine whether an action is ongoing or habitual."
+    },
+    {
+      "question": "Which of the following sentences illustrates a habitual action in Ekegusii?",
+      "options": [
+        "Dwallow ngorager’are naende",
+        "Eng’uko inarete as’engoro",
+        "Paul aanarete koragera mambia",
+        "Omwana orarire nyuma y’okoragera"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Paul aanarete koragera mambia’ expresses habitual action due to the use of -ko, showing that the action happens regularly."
+    },
+    {
+      "question": "Why is “Eng’uko enarete komenya ase’ngoro” classified as habitual action in Ekegusii grammar?",
+      "options": [
+        "It uses the infinitive without prefixation",
+        "The verb is marked with the prefix -ko indicating repetition",
+        "The subject is not a human agent",
+        "It includes an overt temporal noun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presence of the prefix -ko in ‘komenya’ marks the verb as habitual, indicating repetitive or regular action."
+    },
+    {
+      "question": "What distinguishes “Dwallow ngorager’are” from “Dwallow anarete koragera” in function?",
+      "options": [
+        "“Anarete koragera” indicates a passive construction",
+        "“Anarete koragera” expresses habitual action with the prefix -ko",
+        "“Koragera” is a negative form",
+        "“Koragera” refers to a future plan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Anarete koragera’ uses the prefix -ko, indicating habitual action, unlike ‘Dwallow ngorager’are’ which expresses general or ongoing action."
+    },
+    {
+      "question": "Which of the following statements is TRUE about present continuous tense in Ekegusii?",
+      "options": [
+        "It always uses the suffix -ko",
+        "It requires an auxiliary verb",
+        "It is inferred from context, not morphology",
+        "It uses a future time adverb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ekegusii does not have a distinct morphological marker for the continuous tense; it is inferred from contextual cues."
+    },
+    {
+      "question": "Which sentence best demonstrates the dual interpretation of present tense in Ekegusii?",
+      "options": [
+        "Inche nigo ng’anchete esuguma",
+        "Omworokia ngosomia’re",
+        "Paul aanarete koragera mambia",
+        "Eng’uko enarete komenya ase’ngoro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Omworokia ngosomia’re’ can mean both ‘the teacher reads’ and ‘the teacher is reading’, illustrating dual interpretation of the present tense."
+    },
+    {
+      "question": "What is the function of the prefix -ko in Ekegusii verbal morphology?",
+      "options": [
+        "To express politeness",
+        "To mark the past perfect",
+        "To show regular, habitual actions",
+        "To indicate question formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix -ko in Ekegusii verbs signals habitual aspect, marking actions that occur regularly or repeatedly."
+    },
+    {
+      "question": "According to the morphological structure in Ekegusii, how is a habitual sentence typically formed?",
+      "options": [
+        "By adding the prefix “ba-” to the verb",
+        "By placing the verb in future tense",
+        "By attaching -ko to the verb stem",
+        "By using reduplication of the verb root"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Habitual sentences in Ekegusii are formed by attaching -ko to the verb stem, indicating repeated or regular action."
+    }
+  ]
+}

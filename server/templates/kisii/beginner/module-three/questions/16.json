@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following correctly reflects the Present Tense conjugation for “we eat” in Ekegusii?",
+      "options": [
+        "Ngoragera tore",
+        "Ngoragera more",
+        "Ngoragera inde",
+        "Ngoragera ore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Ngoragera tore” is the correct conjugation for 'we eat' in the Ekegusii present tense."
+    },
+    {
+      "question": "What happens to the verb when it follows an overt subject in the present tense?",
+      "options": [
+        "It changes to a past form.",
+        "It uses a subject prefix.",
+        "It drops the prefix and retains the infinitive form.",
+        "It adds both subject and object markers."
+      ],
+      "correctAnswer": 2,
+      "explanation": "With overt subjects like names or nouns, the subject prefix is dropped and the verb keeps its infinitive form."
+    },
+    {
+      "question": "In the sentence “Kwamboka ngooni are”, what grammatical rule is illustrated?",
+      "options": [
+        "Reflexive object pronoun",
+        "Subject agreement by suffix",
+        "Overt subject rule",
+        "Progressive aspect insertion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 'Kwamboka' is an overt subject, the verb is used without the prefix, showing the overt subject rule."
+    },
+    {
+      "question": "Which of the following sentences demonstrates incorrect use of the present tense prefix system in Ekegusii?",
+      "options": [
+        "Inche ngoragerande",
+        "Emeremo bakorire",
+        "Barabwo ngoragera bare kare",
+        "Ngoragera tore"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“Ngoragera tore” incorrectly applies the prefix system for the present tense in this context."
+    },
+    {
+      "question": "Choose the correct present tense conjugation of the verb saba (to pray) for 'they':",
+      "options": [
+        "Barabwo ngosaba bare",
+        "Basabire",
+        "Ngosaba bagochi",
+        "Barure gosaba"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Barabwo ngosaba bare” correctly represents the present tense conjugation of 'saba' (to pray) for 'they'."
+    },
+    {
+      "question": "Which of the following is true about the verb form emeremo in the sentence “Abuya n’emeremo agokora”?",
+      "options": [
+        "It is incorrectly conjugated; it should be 'emeremo.'",
+        "It retains the infinitive form due to an overt subject.",
+        "It includes the subject prefix for 'he.'",
+        "It has lost its infinitive meaning."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verb 'emeremo' retains its infinitive form because 'Abuya' is an overt subject."
+    },
+    {
+      "question": "What is the correct translation of “Inwe ragera” based on Ekegusii present tense rules?",
+      "options": [
+        "I eat",
+        "You (pl.) eat",
+        "They are eating",
+        "He eats"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Inwe ragera” translates to 'You (plural) eat' following Ekegusii present tense conjugation."
+    },
+    {
+      "question": "Which of the following statements is FALSE according to Ekegusii present tense structure?",
+      "options": [
+        "“Ere ngoragera are” means “he is eating”",
+        "Verbs change their ending depending on subject gender",
+        "Verbs retain the -a/-i infinitive endings",
+        "There is no difference between 'he eats' and 'he is eating'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii verbs do not change their ending based on subject gender, making this statement false."
+    },
+    {
+      "question": "In the sentence “Wayne ne’chiombe akorisia”, why is no prefix used before the verb kwayo?",
+      "options": [
+        "The object is already clear",
+        "The verb has a reflexive pronoun",
+        "The subject is overt, so prefix is omitted",
+        "The verb root starts with a consonant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since 'Wayne' is an overt subject, the prefix is omitted and the verb uses its infinitive form."
+    },
+    {
+      "question": "Which of the following best describes the morphological structure of Ekegusii present tense verbs?",
+      "options": [
+        "Prefixation of tense markers at the end of verb roots",
+        "Agglutinative prefixing of subject pronouns to infinitives",
+        "Reduplication of verb stems for emphasis",
+        "Use of auxiliary verbs to denote time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ekegusii present tense verbs are formed through agglutinative prefixing of subject pronouns to infinitives."
+    }
+  ]
+}

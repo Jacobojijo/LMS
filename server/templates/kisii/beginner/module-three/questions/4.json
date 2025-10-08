@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is the correct plural phrase for “a short chair” in Ekegusii?",
+      "options": [
+        "Ekerogo egetambe",
+        "Ekerogo ekieng’e",
+        "Ekerogo ebieng’e",
+        "Ekerogo ekenene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct plural phrase is 'Ekerogo ekieng’e', where 'ekieng’e' properly agrees with the plural noun form."
+    },
+    {
+      "question": "In Ekegusii, which of the following adjectives does not inflect for plurality?",
+      "options": [
+        "Abaya",
+        "Abake",
+        "Obuya",
+        "Ebinene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Obuya’ does not inflect for plurality, meaning it stays the same in both singular and plural forms."
+    },
+    {
+      "question": "What is the correct plural form of the adjective “ekerabu” (white)?",
+      "options": [
+        "Ebimwamu",
+        "Ebirabu",
+        "Ebibariri",
+        "Ebiya"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The plural of 'ekerabu' is 'ebirabu', following the regular pluralization pattern for adjectives."
+    },
+    {
+      "question": "Choose the correct transformation from singular to plural: “Omoiseke omonyakieni” (a beautiful girl).",
+      "options": [
+        "Abaiseke babere",
+        "Abaiseke abaya",
+        "Abaiseke abanyakieni",
+        "Abaiseke abanene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct plural is 'Abaiseke abanyakieni', showing proper agreement between noun and adjective."
+    },
+    {
+      "question": "Which of the following noun–adjective pairs is mismatched in plural agreement?",
+      "options": [
+        "Ekerandi egeke → Ebirandi ebike",
+        "Omoiseke omonyakieni → Abaiseke abanyakieni",
+        "Ekerogo ekieng’e → Ebirogo ebieng’e",
+        "Enyange enke → Chinyange chinene"
+      ],
+      "correctAnswer": 3,
+      "explanation": "‘Enyange enke → Chinyange chinene’ is mismatched because the adjective does not properly align with the plural form of the noun."
+    },
+    {
+      "question": "In Ekegusii morphosyntax, what feature primarily triggers adjective inflection?",
+      "options": [
+        "Verb tense",
+        "Gender",
+        "Number",
+        "Mood"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adjective inflection in Ekegusii is primarily triggered by number agreement with the noun."
+    },
+    {
+      "question": "Which of the following adjectives remains invariant in both singular and plural noun phrases?",
+      "options": [
+        "Ekebe",
+        "Obuya",
+        "Ekenene",
+        "Ekemwamu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Obuya’ is invariant, meaning it does not change regardless of the noun’s number."
+    },
+    {
+      "question": "Identify the correct plural adjective form for “Egetambe” (tall/long).",
+      "options": [
+        "Abange",
+        "Abake",
+        "Ebitambe",
+        "Ebinene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The plural form of 'Egetambe' is 'Ebitambe', following the pattern for pluralizing adjectives describing size or length."
+    },
+    {
+      "question": "Based on the semantic classification provided, which adjective is linked to taste or emotion rather than size or color?",
+      "options": [
+        "Ekemwamu",
+        "Enyansu",
+        "Ebike",
+        "Ebirabu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Enyansu’ refers to qualities associated with taste or emotion, distinguishing it from adjectives of size or color."
+    },
+    {
+      "question": "What linguistic implication can be drawn from the existence of invariant adjectives in Ekegusii?",
+      "options": [
+        "Adjective forms are arbitrary in Ekegusii.",
+        "Ekegusii adjectives have no grammatical agreement rules.",
+        "Cultural or sensory descriptors resist inflection in some cases.",
+        "Invariant adjectives only apply to animate nouns."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Invariant adjectives suggest that certain cultural or sensory descriptors in Ekegusii resist inflection, reflecting semantic rather than grammatical constraints."
+    }
+  ]
+}

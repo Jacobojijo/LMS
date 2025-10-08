@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best explains the syntactic function of the prefix 'eke-' in Ekegusii adjectives?",
+      "options": [
+        "It marks plurality in the noun phrase.",
+        "It transforms a noun into a verb phrase.",
+        "It links a noun to its descriptive root, forming a reduced relative clause.",
+        "It functions as a tense marker for verbal predicates."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'eke-' in Ekegusii adjectives functions syntactically to link a noun to its descriptive root, forming a reduced relative clause that characterizes the noun."
+    },
+    {
+      "question": "What is the most accurate Ekegusii translation of the phrase 'the light-skin woman'?",
+      "options": [
+        "Omokungu maroba",
+        "Omokungu obobariri",
+        "Omokungu omorabu",
+        "Omokungu omomwamu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct translation is 'Omokungu omorabu', where 'omorabu' denotes 'light-skinned'."
+    },
+    {
+      "question": "How would you correctly describe a 'hot porridge' in Ekegusii, adhering to the adjective clause structure?",
+      "options": [
+        "Erongori enkendu",
+        "Erongori egosamba",
+        "Erongori ensambe",
+        "Erongori engiya"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Erongori egosamba' correctly follows the adjective clause structure, meaning 'hot porridge'."
+    },
+    {
+      "question": "Based on the morphosyntactic structure, which of the following constructions is grammatically incorrect in Ekegusii?",
+      "options": [
+        "Ekerogo ekeroro – “Bitter chair”",
+        "Abanto abange – “Many people”",
+        "Eng’ondi enke – “Big sheep”",
+        "Ritororo rike – “Small calf”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Eng’ondi enke’ is grammatically incorrect because the adjective class agreement marker does not match the noun class."
+    },
+    {
+      "question": "Which of the following derived adjectives correctly expresses a completed state from a verb root in Ekegusii?",
+      "options": [
+        "Ogochi gotera – singing",
+        "Okure – has died",
+        "Akwete – is dying",
+        "Kiarosetigwe – is being made"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Okure’ expresses a completed state derived from the verb 'kure' (to die), meaning 'has died'."
+    },
+    {
+      "question": "If 'Omokungu omorabu' means ‘light-skin (female)’, what is the most likely Ekegusii adjective for a 'light-skin (male) goat'?",
+      "options": [
+        "Embori endabu",
+        "Embori emwamu",
+        "Eng’ondi embariri",
+        "Eng’ondi endabu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Embori endabu’ follows the appropriate class agreement pattern for a 'light-skin male goat'."
+    },
+    {
+      "question": "Which of the following examples illustrates a verb-derived adjective functioning as an ongoing action?",
+      "options": [
+        "Kegochi korosigwa – which has already been made",
+        "Kegochi gokwa – which has died",
+        "Gekorosigwa – which is being made",
+        "Omoriri – intelligent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gekorosigwa’ expresses an ongoing action, meaning 'which is being made', showing a verb-derived adjective form."
+    },
+    {
+      "question": "In the semantic category of 'Quality and Character,' which adjective carries both physical and moral weight in its cultural interpretation?",
+      "options": [
+        "Ekieng’e – short",
+        "Ekiya – good",
+        "Enyansu – sweet",
+        "Kwarosire – tired"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Ekiya’ means 'good', and in Ekegusii it carries both moral and physical connotations of quality and character."
+    },
+    {
+      "question": "What does the adjective clause 'Giakure' semantically contribute to a noun in Ekegusii?",
+      "options": [
+        "It indicates habitual action.",
+        "It denotes an object that is dying.",
+        "It describes an object that has died.",
+        "It forms a passive construction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Giakure’ describes an object that has died, contributing a perfective or completed meaning to the noun."
+    },
+    {
+      "question": "Which of the following pairs both belong to the 'Temperature and Taste' semantic category in Ekegusii?",
+      "options": [
+        "Agosamba and Iberera",
+        "Amache agosamba and Erongori enyansu",
+        "Enkendu and Enyerere",
+        "Enyerere and Iberera"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Amache agosamba’ (hot water) and ‘Erongori enyansu’ (sweet porridge) both describe attributes related to temperature and taste."
+    }
+  ]
+}

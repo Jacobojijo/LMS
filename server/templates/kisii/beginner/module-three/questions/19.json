@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the function of “-ete” in the construction nene osebedo?",
+      "options": [
+        "To mark habitual aspect",
+        "To indicate subjunctive mood",
+        "To anchor the construction in the past",
+        "To mark future irrealis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“-Ete” unequivocally anchors the construction in the past."
+    },
+    {
+      "question": "Which of the following is the correct past perfect form for “we had been”?",
+      "options": [
+        "Twabeire",
+        "Babeire",
+        "Twabaebire",
+        "beire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Tw-” is the correct subject prefix for “we” combined with -r- and “-beire”."
+    },
+    {
+      "question": "In the sentence Yabeire egotwa, what grammatical role does “Ekero yatwete” play?",
+      "options": [
+        "Future conditional clause",
+        "Nominal subject complement",
+        "Temporal adverbial clause",
+        "Progressive verb phrase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Ekero yatwete” functions as a temporal adverbial clause, indicating when the main action occurred."
+    },
+    {
+      "question": "What distinguishes Obeire ogo from Oberire?",
+      "options": [
+        "The first is passive voice, the second is active",
+        "The first implies a future action, the second a past one",
+        "The first is past perfect, the second is present perfect",
+        "They are identical in tense and usage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Obeire” expresses past perfect, while “Oberire” expresses present perfect."
+    },
+    {
+      "question": "Which of the following is NOT a correct component of the past perfect construction?",
+      "options": [
+        "“-ete”",
+        "subject prefix",
+        "“-ko-”",
+        "“beire”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The element “-ko-” does not occur in the past perfect construction."
+    },
+    {
+      "question": "Why must learners avoid conjugating the verb “-beire” directly?",
+      "options": [
+        "It is an irregular verb with unpredictable forms",
+        "It only appears in negative constructions",
+        "It is a participle and does not change form",
+        "It is no longer used in modern Dholuo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Beire” is a non-finite participle and remains grammatically fixed."
+    },
+    {
+      "question": "Which of the following conveys the idea: “They had been visiting one another”?",
+      "options": [
+        "Babeire bagotarerana barabwo ase barabwo",
+        "Babeire bagotarerana inwe ase inwe",
+        "Mwabeire mogotarerana inwe ase inwe",
+        "Mwabeire mogotarerana barabwo ase barabwo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Babeire bagotarerana barabwo ase barabwo” correctly expresses reciprocal past perfect meaning."
+    },
+    {
+      "question": "What aspectual meaning does the auxiliary “-r-” introduce into the construction?",
+      "options": [
+        "Habitual repetition",
+        "Progressive continuity",
+        "Imperative urgency",
+        "Perfective completion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "“-r-” functions similarly to “have” and denotes perfective (completed) aspect."
+    },
+    {
+      "question": "Which element of the construction is responsible for subject agreement?",
+      "options": [
+        "“-beire”",
+        "“-r-”",
+        "Subject prefix",
+        "“a”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Subject agreement is realized through the concord prefix (e.g., i-, a-, ba-)."
+    },
+    {
+      "question": "Which of the following would be the most pedagogically sound classroom exercise for teaching this tense?",
+      "options": [
+        "Asking students to inflect “-beire” in all subject forms",
+        "Having students replace “-ete” with “ose” in examples",
+        "Practicing with subordinate clauses using “-o + verb”",
+        "Comparing “-beire” with irregular English past participles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Practicing with subordinate clauses enhances understanding of temporal backgrounding and aspect."
+    }
+  ]
+}

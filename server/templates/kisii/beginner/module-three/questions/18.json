@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following sentences correctly demonstrates the contracted form of the plain past tense in Ekegusii?",
+      "options": [
+        "Inche narageire",
+        "Kwarwarire",
+        "Ngwarigete",
+        "Inaarigete"
+      ],
+      "correctAnswer": 2,
+      "explanation": "“Ngwarigete” is the contracted form of the plain past tense in Ekegusii, showing that the action was completed in the past."
+    },
+    {
+      "question": "What is the role of the particle “-ete” in Ekegusii past tense construction?",
+      "options": [
+        "It negates the verb in the past tense.",
+        "It marks habitual future actions.",
+        "It replaces the subject prefix in all past constructions.",
+        "It serves as an auxiliary to mark completed past actions."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The particle “-ete” functions as an auxiliary to mark completed past actions in Ekegusii verbs."
+    },
+    {
+      "question": "Choose the Ekegusii equivalent of the sentence: “They met them.”",
+      "options": [
+        "Barabwo bamonyorire",
+        "Barabwo mbabanyorete",
+        "Babarikire",
+        "Barikirwe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Barabwo mbabanyorete” translates as “They met them” in Ekegusii, using the correct verb morphology for past perfective."
+    },
+    {
+      "question": "Which of the following statements about Ekegusii past continuous tense is FALSE?",
+      "options": [
+        "It uses the particle “-ete.”",
+        "It includes a habitual suffix “-o.”",
+        "It can express repeated past actions.",
+        "It uses the -a- infix to show continuity."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ekegusii past continuous tense does not use an -a- infix to show continuity; continuity is instead shown by context or other markers."
+    },
+    {
+      "question": "Which past tense marker would best express that something happened yesterday?",
+      "options": [
+        "a-",
+        "o-",
+        "na-",
+        "n"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix “na-” in Ekegusii denotes the immediate or recent past, typically referring to actions that happened yesterday or very recently."
+    },
+    {
+      "question": "What is the correct Ekegusii translation of the sentence: “I have just dug (but now stopped)”?",
+      "options": [
+        "Ngorema ngochi",
+        "Gese ngoremande",
+        "Ngorema bare",
+        "Bachire korema"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Gese ngoremande” expresses a completed action that has just ended, meaning ‘I have just dug (but now stopped)’."
+    },
+    {
+      "question": "Which of the following sentences most accurately reflects a habitual past action in Ekegusii?",
+      "options": [
+        "Kwarwarire",
+        "Inanarete gokwana Ekegusii buya",
+        "Inche narageire",
+        "Nanyorire emeremo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Inanarete gokwana Ekegusii buya” expresses habitual past action, meaning ‘I used to speak Ekegusii well.’"
+    },
+    {
+      "question": "Identify the morphologically correct way to say “We have eaten” using the recent past perfective form.",
+      "options": [
+        "Inwe mwarageire",
+        "Intwe twarageire",
+        "Intwe ntwarigete",
+        "Aye kwarageire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Intwe twarageire” correctly conveys ‘We have eaten’ using the recent past perfective construction in Ekegusii."
+    },
+    {
+      "question": "What morphological structure is common to Ere orageire, Aye kwarageire, and Ere orageire?",
+      "options": [
+        "Prefix a- marking yesterday",
+        "Infix -r- marking completed recent action",
+        "Suffix -ko marking habitual past",
+        "Prefix for distant past"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The infix -r- in these forms indicates completed or recent past actions in Ekegusii verb morphology."
+    },
+    {
+      "question": "Which of the following best explains why “Aye ngwatonyorete” differs in meaning from “Ere namonyorete”?",
+      "options": [
+        "Different verb tense usage",
+        "Subject and object positions determine the meaning",
+        "–Ete cannot be used with second-person subjects",
+        "One uses recent perfective, the other does not"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The difference in meaning between “Aye ngwatonyorete” and “Ere namonyorete” arises from the subject–object arrangement, which changes who performed and received the action."
+    }
+  ]
+}
