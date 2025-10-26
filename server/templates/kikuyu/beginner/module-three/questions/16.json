@@ -1,0 +1,69 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which marker is used in Kikuyu to show the present progressive tense?",
+      "options": ["-aga", "-rĩ-", "-ũ-", "-ka-"],
+      "correctAnswer": 1,
+      "explanation": "The infix '-rĩ-' in Kikuyu is used to indicate the present progressive tense, showing that an action is currently ongoing."
+    },
+    {
+      "question": "How do you say “I am reading” in Kikuyu?",
+      "options": ["Nĩndũthoma", "Nĩndũthomaga", "Nĩndĩrathoma", "Nĩthomaga"],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩndĩrathoma’ combines the affirmative marker 'Nĩ-', subject prefix 'ndĩ-' (I), tense marker '-rĩ-', and verb 'thoma' (read), meaning 'I am reading'."
+    },
+    {
+      "question": "Which of the following expresses a habitual action?",
+      "options": ["Nĩndĩrĩnua maaĩ", "Nĩthiiaga soko", "Nĩmarĩina nyĩmbo", "Nĩũrahiũka"],
+      "correctAnswer": 1,
+      "explanation": "The suffix '-aga' in 'Nĩthiiaga soko' marks habitual or repetitive actions, meaning 'I usually go to the market'."
+    },
+    {
+      "question": "What does the affirmative marker “Nĩ-” indicate in Kikuyu present tense verbs?",
+      "options": ["Habitual action", "Negative meaning", "That the statement is true", "Past tense action"],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'Nĩ-' is an affirmative marker that asserts the truth or factuality of a statement in Kikuyu."
+    },
+    {
+      "question": "Translate: “They are farming the garden.”",
+      "options": ["Nĩmethimaga mũgũnda", "Nĩmarĩrĩmĩra mũgũnda", "Nĩmarĩina nyĩmbo", "Nĩmarathoma"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩmarĩrĩmĩra mũgũnda’ means 'They are farming the garden', using the progressive tense infix '-rĩ-'."
+    },
+    {
+      "question": "What is the correct Kikuyu translation for: “Grandmother is eating food”?",
+      "options": ["Cũcũ nĩararĩa irio", "Cũcũ nĩarĩruta ciana", "Cũcũ nĩmarĩina nyĩmbo", "Cũcũ nĩndĩrĩnua maaĩ"],
+      "correctAnswer": 0,
+      "explanation": "‘Cũcũ nĩararĩa irio’ translates to 'Grandmother is eating food', showing present progressive with the marker '-rĩ-'."
+    },
+    {
+      "question": "Which verb structure shows the correct formation of present tense?",
+      "options": [
+        "Subject Prefix + Verb Stem + -aga",
+        "Subject Prefix + Object Infix + Verb Stem",
+        "Subject Prefix + Tense Infix + Verb Stem",
+        "Subject Prefix + Past Tense Suffix"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The present tense in Kikuyu is typically formed using the structure: Subject Prefix + Tense Infix + Verb Stem."
+    },
+    {
+      "question": "How do you say “You (pl.) are hitting” in Kikuyu?",
+      "options": ["Nĩũrahiũka", "Nĩmũrahũra", "Nĩmaraina", "Nĩũrathoma"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩmũrahũra’ means 'You (plural) are hitting', with 'mũ-' as the subject prefix for 'you (pl.)' and '-rĩ-' marking the present progressive."
+    },
+    {
+      "question": "Which sentence shows the use of an overt subject?",
+      "options": ["Nĩndĩrathoma", "Nĩũrathoma", "Mũndũ mũkũrũ nĩarathoma", "Nĩmaraina"],
+      "correctAnswer": 2,
+      "explanation": "‘Mũndũ mũkũrũ nĩarathoma’ includes an explicit noun subject ('Mũndũ mũkũrũ' – old man), showing overt subject use."
+    },
+    {
+      "question": "Which suffix is commonly used to mark habitual or repetitive actions?",
+      "options": ["-ĩra", "-aga", "-ana", "-ĩka"],
+      "correctAnswer": 1,
+      "explanation": "The suffix '-aga' is used in Kikuyu verbs to indicate habitual or repetitive actions."
+    }
+  ]
+}

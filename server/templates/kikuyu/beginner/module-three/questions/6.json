@@ -1,0 +1,94 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Kikuyu particle signals a relative comparison (e.g., taller, bigger)?",
+      "options": ["ta", "kūrĩ ✅", "na", "rĩa"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which sentence correctly expresses equality in Kikuyu?",
+      "options": [
+        "Mũndũ ũyũ nĩ mũnene kūrĩ ũcio.",
+        "Mũndũ ũyũ nĩ mũnene ta ũcio. ✅",
+        "Mũndũ ũyũ nĩ mũnene na ũcio.",
+        "Mũndũ ũyũ nĩ mũnene rĩa."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "The comparative of mũega (“good”) is:",
+      "options": ["njega kūrĩ", "wega kūrĩ ✅", "mũega ta", "njega na"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which construction matches the syntactic template of a relative comparison?",
+      "options": [
+        "NP₁ nĩ [Adj] ta NP₂",
+        "NP₁ nĩ [Adj] kūrĩ NP₂ ✅",
+        "NP₁ nĩ NP₂ Adj",
+        "Adj + NP₂ + kūrĩ"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How is intensification expressed in Kikuyu comparative adjectives?",
+      "options": [
+        "By suffixing -ini",
+        "By reduplication of the adjective ✅",
+        "By repeating the particle kūrĩ",
+        "By prefix alternation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the correct Kikuyu form of “This banana is sweeter than that one”?",
+      "options": [
+        "Njaũ ĩno nĩ thaka kūrĩ ĩrĩa. ✅",
+        "Njaũ ĩno nĩ thaka ta ĩrĩa.",
+        "Njaũ ĩno nĩ thakarĩ ĩrĩa.",
+        "Njaũ ĩno nĩ mũthaka na ĩrĩa."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which adjective pair shows the correct positive → comparative relation?",
+      "options": [
+        "mũũru → ũũru kūrĩ ✅",
+        "thaka → mũthaka kūrĩ",
+        "mũnene → mũnene rĩa",
+        "mũrĩki → mũrĩki ta"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What distinguishes Kikuyu comparative formation from internal morphological systems (like in Luo)?",
+      "options": [
+        "Kikuyu uses suffix alternation",
+        "Kikuyu employs tonal change",
+        "Kikuyu relies on analytic strategy with particles ✅",
+        "Kikuyu uses reduplication exclusively"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of the following carries strong cultural and moral evaluation when used in Kikuyu comparisons?",
+      "options": [
+        "thaka (sweet)",
+        "mũraihu (tall)",
+        "mũega / mũũru ✅",
+        "mũrũgũ (foolish)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which diagnostic test best identifies a relative comparative in Kikuyu?",
+      "options": [
+        "Presence of reduplication",
+        "Presence of ta before NP₂",
+        "Presence of kūrĩ after the adjective ✅",
+        "Presence of prefix alternation in the adjective"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

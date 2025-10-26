@@ -1,0 +1,99 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best distinguishes the two Kikuyu verbs for “to be”?",
+      "options": [
+        "nĩ expresses existence, while kũrĩ expresses identity.",
+        "kũrĩ expresses existence/location, while nĩ expresses identity/role.",
+        "Both nĩ and kũrĩ are interchangeable in all contexts.",
+        "nĩ is used only for negation, while kũrĩ is affirmative."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kikuyu, kũrĩ expresses existence or location, while nĩ expresses identity or role."
+    },
+    {
+      "question": "In the sentence Ithũe twĩ haha (“We are here”), which form marks personal presence distinct from general existence?",
+      "options": ["kũrĩ", "ndĩ", "twĩ", "nĩ"],
+      "correctAnswer": 2,
+      "explanation": "The form 'twĩ' indicates personal or specific presence, not general existence."
+    },
+    {
+      "question": "Which Kikuyu verb form specifically negates general existence (“there is none”)?",
+      "options": ["ndũrĩ", "gutirĩ", "ndĩrĩ", "nĩ na"],
+      "correctAnswer": 1,
+      "explanation": "'Gutirĩ' is used in Kikuyu to express the nonexistence of something ('there is none')."
+    },
+    {
+      "question": "In Kikuyu, the construction nĩ na literally means:",
+      "options": ["to belong", "is with", "to own", "to be near"],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'nĩ na' literally means 'is with' and is used to express possession."
+    },
+    {
+      "question": "Which of the following is the correct expression of possession in Kikuyu?",
+      "options": [
+        "[Subject] + kũrĩ + [Object]",
+        "[Subject] + nĩ na + [Object]",
+        "[Subject] + gutirĩ + [Object]",
+        "[Subject] + ndĩ + [Object]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Possession in Kikuyu is expressed with the structure '[Subject] + nĩ na + [Object]'."
+    },
+    {
+      "question": "Why is ndĩ described as irregular in the identity paradigm?",
+      "options": [
+        "It is the only form that changes with plural subjects.",
+        "It appears only in 3rd person contexts.",
+        "It replaces nĩ in the 1st person singular identity statement.",
+        "It is used only for negation."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The verb 'ndĩ' is irregular because it uniquely replaces 'nĩ' in 1st person singular identity statements."
+    },
+    {
+      "question": "Which cultural nuance is highlighted by the use of nĩ na for possession?",
+      "options": [
+        "It encodes superiority of the possessor.",
+        "It marks possession as shared belonging rather than individual ownership.",
+        "It indicates temporary ownership.",
+        "It distinguishes animate from inanimate possession."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The use of 'nĩ na' reflects a Kikuyu worldview where possession implies shared belonging, not individual dominance."
+    },
+    {
+      "question": "Which of the following sentences correctly illustrates negation of personal presence?",
+      "options": [
+        "Ndũrĩ haha.",
+        "Gutirĩ mũndũ haha.",
+        "Ŭyũ ena ciana.",
+        "We nĩ mwarimũ."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ndũrĩ haha' means 'I am not here,' negating personal presence."
+    },
+    {
+      "question": "Which form would be used to assert ethnic belonging in Kikuyu?",
+      "options": [
+        "Ŭyũ ena ciana ithatũ.",
+        "Kũrĩ nyũmba igĩrĩ.",
+        "Nĩĩ nĩ Mũgĩkũyũ.",
+        "Ithũe twĩ haha."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Nĩĩ nĩ Mũgĩkũyũ' ('I am Kikuyu') uses 'nĩ' to assert identity or ethnic belonging."
+    },
+    {
+      "question": "If a Kikuyu speaker says Ŭyũ ena ciana ithatũ (“He/She has three children”), what does this imply culturally?",
+      "options": [
+        "That family continuity is valued.",
+        "That the speaker is emphasizing absence.",
+        "That wealth is measured only in land.",
+        "That possession is temporary."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mentioning the number of children reflects Kikuyu cultural values around family continuity and social legacy."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best describes the agreement system of Kikuyu adjectives?",
+      "options": [
+        "Adjectives always take the prefix mũ- regardless of noun class.",
+        "Adjectives show agreement by adopting the noun class prefix of the head noun.",
+        "Adjectives occur without prefixes and remain in root form only.",
+        "Adjectives always follow a verb-derived participial marker."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kikuyu, adjectives agree with the head noun by adopting its noun class prefix, ensuring grammatical consistency within noun phrases."
+    },
+    {
+      "question": "Identify the correct Kikuyu example where a colour adjective agrees with its noun class.",
+      "options": [
+        "Nyũmba nini = 'small house'",
+        "Gĩti kĩeru = 'white chair'",
+        "Njĩra njega = 'good road'",
+        "Ciana nyingi = 'many children'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 'Gĩti kĩeru', the adjective 'kĩeru' agrees with the class 7 noun 'Gĩti' by sharing the prefix kĩ-, showing correct noun–adjective agreement."
+    },
+    {
+      "question": "In Kikuyu, the form mũrugi ('cooked') is derived from which verbal root?",
+      "options": [
+        "kũhota = to be able",
+        "kũhoya = to pray",
+        "kũruga = to cook",
+        "gũkua = to die"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'mũrugi' derives from the verbal root 'kũruga' (to cook), indicating a completed state ('cooked')."
+    },
+    {
+      "question": "Which semantic category is best represented by the adjective nini?",
+      "options": [
+        "Colour",
+        "Quantity",
+        "Physical size/dimension",
+        "Temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'nini' denotes smallness or dimension, thus belonging to the semantic category of physical size."
+    },
+    {
+      "question": "In the expression 'Mũndũ mũũru' ('a bad person'), the adjective root -ũru denotes:",
+      "options": [
+        "Colour (dark)",
+        "Morality / quality",
+        "Quantity",
+        "Temperature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The adjective '-ũru' in 'Mũndũ mũũru' expresses moral or qualitative judgment, meaning 'bad' or 'immoral'."
+    },
+    {
+      "question": "Which of the following adjectives demonstrates variation between a bare root and a prefixed form in surface usage?",
+      "options": [
+        "-eru (white)",
+        "-ega (good)",
+        "thaka / mũthaka (sweet)",
+        "-nini (small)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'thaka / mũthaka' shows variation between the bare root and the prefixed form, depending on syntactic and phonological context."
+    },
+    {
+      "question": "If a researcher elicits the phrase 'Ciana nyingi' ('many children'), what linguistic feature is primarily observed?",
+      "options": [
+        "Verb–adjective participial derivation",
+        "Adjective–noun class agreement",
+        "Independent clause-level adjective use",
+        "Noun construct reduction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Ciana nyingi' illustrates agreement between the noun 'Ciana' and the adjective 'nyingi', showing proper noun class concord."
+    },
+    {
+      "question": "Which example best illustrates a verb-derived adjectival form denoting state/condition?",
+      "options": [
+        "Mũtĩ mũkuo = 'dead tree'",
+        "Njĩra nene = 'big road'",
+        "Nyũmba nini = 'small house'",
+        "Gĩti kĩeru = 'white chair'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'mũkuo' ('dead') derives from a verb meaning 'to die', making 'Mũtĩ mũkuo' an example of a verb-derived adjective expressing condition."
+    },
+    {
+      "question": "In Kikuyu, adjectives like 'mũega' ('good') are culturally loaded because they:",
+      "options": [
+        "Only describe physical beauty.",
+        "Are restricted to quantity references.",
+        "Index moral and aesthetic values simultaneously.",
+        "Cannot occur with class agreement markers."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'mũega' carries both moral and aesthetic connotations, reflecting Kikuyu cultural perspectives on goodness and beauty."
+    },
+    {
+      "question": "Which syntactic rule correctly captures canonical adjective placement in Kikuyu?",
+      "options": [
+        "Adjective precedes the noun without agreement.",
+        "Noun + Adjective (with class prefix agreement).",
+        "Adjective occurs only in independent clauses.",
+        "Adjective follows verbs as secondary predicates."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kikuyu, adjectives follow the noun and exhibit class agreement through prefixation, forming structures like 'Noun + Adjective'."
+    }
+  ]
+}

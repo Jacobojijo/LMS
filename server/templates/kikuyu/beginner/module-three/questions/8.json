@@ -1,0 +1,74 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which prefix marks the infinitive in Kikuyu verbs?",
+      "options": ["-o", "kũ- ✅", "nĩ-", "mũ-"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which form is the applicative extension meaning “to write for (someone)”?",
+      "options": ["kũnyuithia", "kũhũtha", "kũandĩkĩra ✅", "kũrĩwo"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which verbal extension indicates a reflexive action (doing something to oneself)?",
+      "options": ["kũhoyanĩra", "kũhũtha ✅", "kũnyuithia", "kũhandĩkĩra"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which sentence expresses the existential sense “There is a person here”?",
+      "options": [
+        "Nĩĩ nĩ mũrutwo.",
+        "Nĩ mũratai wakwa.",
+        "Kũrĩ mũndũ haha. ✅",
+        "Kũrĩa mũndũ haha."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the irregular infinitive form meaning “to be” in Kikuyu?",
+      "options": ["kũrĩ ✅", "kũrĩa", "nĩ", "kũra"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which item functions as the present-tense copula (the form of “to be” used with subjects)?",
+      "options": ["kũ-", "nĩ ✅", "kũrĩ", "mũno"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which example from the data means “We are Kikuyus”?",
+      "options": [
+        "We nĩ mwarimũ.",
+        "Inyuĩ nĩ arutani.",
+        "Ithũe nĩ Agĩkũyũ. ✅",
+        "Nĩĩ nĩ mũrutwo."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which verbal extension indicates a reciprocal (mutual) action?",
+      "options": ["kũrĩwo", "kũhoyanĩra ✅", "kũhũtha", "kũhandĩkĩra"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the canonical structure of a simple indicative sentence in Kikuyu (present tense)?",
+      "options": [
+        "[Verb infinitive] + [Object]",
+        "[Subject] + kũ- + [Verb]",
+        "[Subject] + nĩ + [Predicate/Object] ✅",
+        "[Predicate] + nĩ + [Subject]"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which statement correctly captures the contrast between Kikuyu and Dholuo verb forms given in the data?",
+      "options": [
+        "Kikuyu infinitives end in -o; Dholuo verbs begin with kũ-.",
+        "Both Kikuyu and Dholuo use kũ- for infinitives.",
+        "Kikuyu infinitives begin with kũ- while Dholuo verbs often end in -o. ✅",
+        "Dholuo verbs are identical to Kikuyu verbs in prefixing."
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

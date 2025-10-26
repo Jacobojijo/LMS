@@ -1,0 +1,79 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which prefix marks the past tense in Kikuyu?",
+      "options": ["ka-", "nĩ-", "ma-", "ta-"],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'nĩ-' marks the past tense in Kikuyu, often used with the immediate past form '-ire'."
+    },
+    {
+      "question": "Which is the correct Kikuyu translation of “I ate the bread”?",
+      "options": ["Nĩũrĩĩre mũgate", "Nĩndarĩire mũgate", "Nĩmarĩĩte mũgate", "Nĩtũrĩĩte mũgate"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩndarĩire mũgate’ correctly means 'I ate the bread', with 'Nĩ-' marking past tense and '-ire' marking completed action."
+    },
+    {
+      "question": "Which past tense form expresses an action that was recently completed?",
+      "options": ["Habitual Past (-aga)", "Extended Past (-ete)", "Immediate Past (-ire with nĩ)", "Past Continuous"],
+      "correctAnswer": 2,
+      "explanation": "The immediate past tense uses '-ire' with the prefix 'nĩ-' to express an action just completed, e.g., ‘Nĩndarĩire’ (I have eaten)."
+    },
+    {
+      "question": "What is the correct Kikuyu sentence for “They ate meat”?",
+      "options": ["Nĩũrĩĩre nyama", "Nĩndarĩire nyama", "Nĩmarĩĩre nyama", "Nĩtũrĩĩte nyama"],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩmarĩĩre nyama’ means 'They ate meat', with 'Nĩ-' marking past tense and '-ĩĩre' showing a completed action."
+    },
+    {
+      "question": "Which verb ending is most common for verbs ending in -a in past tense?",
+      "options": ["-ĩre", "-aga", "-ire", "-ete"],
+      "correctAnswer": 2,
+      "explanation": "For Kikuyu verbs ending in -a, the past tense typically replaces -a with '-ire' to indicate completion."
+    },
+    {
+      "question": "What does the sentence Nĩndathiaga soko hĩndĩ yaarĩ mean?",
+      "options": [
+        "I have gone to the market.",
+        "I used to go to the market in the past.",
+        "I am going to the market now.",
+        "I will go to the market."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩndathiaga soko hĩndĩ yaarĩ’ means 'I used to go to the market in the past', using '-aga' for habitual past action."
+    },
+    {
+      "question": "Which tense is used in the sentence Nĩndarugaga irio hĩndĩ yaarĩ?",
+      "options": ["Simple Past", "Past Continuous", "Extended Past", "Habitual Past"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩndarugaga irio hĩndĩ yaarĩ’ uses the marker '-aga' to indicate Past Continuous, describing an ongoing past action."
+    },
+    {
+      "question": "How do you form the habitual past tense in Kikuyu?",
+      "options": [
+        "nĩ- + subject prefix + verb stem + -ete",
+        "nĩ- + subject prefix + verb stem + -ire",
+        "nĩ- + subject prefix + verb stem + -aga",
+        "nĩ- + subject prefix + -rĩ- + verb stem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The habitual past tense in Kikuyu is formed using 'nĩ-' + subject prefix + verb stem + '-aga'."
+    },
+    {
+      "question": "Which Kikuyu sentence means “He/She has crossed the river”?",
+      "options": ["Nĩahĩrĩte ndũrĩrĩ", "Nĩarutire ndũrĩrĩ", "Nĩarĩĩte ndũrĩrĩ", "Nĩndarĩĩte ndũrĩrĩ"],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩahĩrĩte ndũrĩrĩ’ means 'He/She has crossed the river', using '-ĩte' to indicate a recently completed action."
+    },
+    {
+      "question": "The sentence Mũgĩka nĩarĩaga mũgate best translates to:",
+      "options": [
+        "My brother was eating bread (continuous)",
+        "My brother used to eat bread",
+        "My brother has eaten bread",
+        "My brother is eating bread"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Mũgĩka nĩarĩaga mũgate’ translates to 'My brother used to eat bread', with '-aga' marking habitual past."
+    }
+  ]
+}

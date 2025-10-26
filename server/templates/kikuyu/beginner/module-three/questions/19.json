@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which auxiliary verb marks the future tense in Kikuyu?",
+      "options": [
+        "mũhaka",
+        "kũ-",
+        "gũ",
+        "nĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The auxiliary verb 'gũ' marks the future tense in Kikuyu, indicating an action that will occur."
+    },
+    {
+      "question": "What is the correct full form of “I will eat” in Kikuyu?",
+      "options": [
+        "Nĩkũrĩa",
+        "Nĩngũrĩa",
+        "Nĩndĩkũrĩa",
+        "Nĩtũkũrĩa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩngũrĩa’ correctly expresses ‘I will eat,’ with the future auxiliary ‘gũ’ realized as ‘ngũ’ for the first person singular."
+    },
+    {
+      "question": "Which of the following is the contracted form of Nĩmũkũkũrĩa (“You (pl.) will eat”)?",
+      "options": [
+        "Nĩũkũrĩa",
+        "Nĩtwarĩa",
+        "Nĩmũkũrĩa",
+        "Nĩmarĩa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩmũkũrĩa’ retains the subject prefix mũ- for ‘you (plural)’ and the future auxiliary ‘gũ’ before the verb ‘rĩa.’"
+    },
+    {
+      "question": "In the sentence Nĩmagũka kũrĩa irio (“They will be eating food”), which element signals future continuous?",
+      "options": [
+        "-aga",
+        "-rĩ-",
+        "gũ + ga",
+        "nĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The combination ‘gũ + ga’ indicates a future continuous aspect, showing an ongoing action that will happen."
+    },
+    {
+      "question": "Which example expresses future possession?",
+      "options": [
+        "Nĩngũgũcokia ana arĩa igĩrĩ",
+        "Nĩngũrĩa",
+        "Nĩmagũka thii",
+        "Nũmũhaka ũrĩe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩngũgũcokia ana arĩa igĩrĩ’ means ‘I will have (return with) those two children,’ expressing future possession."
+    },
+    {
+      "question": "How is obligation expressed in Kikuyu?",
+      "options": [
+        "Using auxiliary gũ",
+        "With suffix -aga",
+        "By infix -rĩ-",
+        "With the construction mũhaka"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The construction ‘mũhaka’ expresses obligation, equivalent to ‘must’ or ‘should’ in English."
+    },
+    {
+      "question": "Which of the following indicates an imminent future?",
+      "options": [
+        "Nĩngũcooka rĩu",
+        "Nĩngacooka rũciũ",
+        "Nĩtũgũcooka hĩndĩ ĩngĩ",
+        "Nĩmagũka kũrĩa irio"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩngũcooka rĩu’ means ‘I am about to return (now),’ showing an imminent or near future action."
+    },
+    {
+      "question": "What is the common learner error when forming future tense?",
+      "options": [
+        "Forgetting subject prefixes",
+        "Conjugating the main verb instead of the auxiliary gũ",
+        "Adding suffix -aga in future tense",
+        "Using ndĩrĩ for negation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A common error is conjugating the main verb instead of the auxiliary ‘gũ,’ which actually carries the future marking."
+    },
+    {
+      "question": "Which sentence correctly shows a near future (later today) event?",
+      "options": [
+        "Nĩngũcooka rĩu",
+        "Nĩngũcooka mũthenya",
+        "Nĩngacooka rũciũ",
+        "Nĩngũcooka hĩndĩ ĩngĩ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩngũcooka mũthenya’ means ‘I will return today,’ referring to a near future event later the same day."
+    },
+    {
+      "question": "The expression Nĩngũthii gũcooka is best glossed as:",
+      "options": [
+        "I must return",
+        "I am returning",
+        "I will go back",
+        "I usually return"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩngũthii gũcooka’ translates to ‘I will go back,’ where ‘ngũ’ marks the future auxiliary and ‘thii’ means ‘go.’"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Kikuyu, what is the core mechanism for pluralizing adjectives?",
+      "options": [
+        "Changing the vowel at the end of the root",
+        "Prefix alternation matching the noun class",
+        "Adding the suffix -ini to the adjective",
+        "Replacing the root with a plural stem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adjectives in Kikuyu pluralize through prefix alternation that agrees with the noun class of the head noun."
+    },
+    {
+      "question": "Which pair correctly illustrates singular–plural adjective agreement?",
+      "options": [
+        "Mũndũ mũnene → Andũ anene",
+        "Mũndũ mũnene → Mĩndũ minene",
+        "Gĩti gĩkũrũ → Gĩti gĩkũrũ",
+        "Mũtĩ mũgũthi → Awarĩ agũthi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Mũndũ mũnene → Andũ anene' shows proper agreement: both noun and adjective prefixes change to reflect plural noun class."
+    },
+    {
+      "question": "Which of the following adjectives remains unchanged in the plural?",
+      "options": [
+        "mũnene (big)",
+        "gĩkũrũ (old)",
+        "ngirini (green)",
+        "mũũru (bad)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Colour adjectives like 'ngirini' (green) are invariable in Kikuyu and do not change form in the plural."
+    },
+    {
+      "question": "What is the plural of 'Mũtĩ mũkuhĩ' ('a short tree')?",
+      "options": [
+        "Mĩti mĩkũhĩ",
+        "Mĩtĩ mũgũthi",
+        "Miti agũthi",
+        "Mĩti mĩũru"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The plural form 'Mĩti mĩkũhĩ' matches the class 4 plural prefix 'mĩ-' for both noun and adjective."
+    },
+    {
+      "question": "The adjective 'mũũru' ('bad') pluralizes to:",
+      "options": [
+        "anene",
+        "oru",
+        "maũru",
+        "mĩũru"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kikuyu, 'mũũru' changes to 'oru' in the plural, following the prefix alternation rule for its noun class."
+    },
+    {
+      "question": "Which of the following demonstrates invariable colour terms?",
+      "options": [
+        "mũtĩ mwerũ→ Mĩti mierũ",
+        "Thani ya ngirini → Mathani ma ngirini",
+        "Mũndũ mũtune → Andũ atune",
+        "Mũgima → Agima"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Colour terms like 'ngirini' (green) do not change in plural forms, as seen in 'Thani ya ngirini → Mathani ma ngirini'."
+    },
+    {
+      "question": "Which semantic category of adjectives is most likely to remain non-inflecting in Kikuyu?",
+      "options": [
+        "Size",
+        "Taste/Colour",
+        "Quality/Morality",
+        "Quantity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adjectives expressing taste and colour, such as 'ngirini' (green) or 'thaka' (sweet), typically remain invariable in Kikuyu."
+    },
+    {
+      "question": "Identify the correct plural for 'Mũndũ mũthĩĩni' ('a poor person').",
+      "options": [
+        "Andũ athĩĩni",
+        "Andũ anene",
+        "Mĩndũ mithĩĩni",
+        "Andũ mĩthĩĩni"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct plural form 'Andũ athĩĩni' shows concordial agreement, with both noun and adjective adopting class 2 plural prefixes."
+    },
+    {
+      "question": "Which example best represents an inflecting adjective?",
+      "options": [
+        "thaka (sweet)",
+        "mũgathĩ (sour)",
+        "mũnene (big)",
+        "ngirini (green)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'mũnene' (big) inflects for number, becoming 'anene' in plural contexts."
+    },
+    {
+      "question": "What linguistic principle is illustrated by 'Mwarĩ mũũru → Awarĩ oru'?",
+      "options": [
+        "Optional agreement between noun and adjective",
+        "Independent pluralization of the noun",
+        "Obligatory concordial agreement between noun and adjective",
+        "Adjectives used as nouns in plural"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The change from 'Mwarĩ mũũru' to 'Awarĩ oru' demonstrates obligatory concordial agreement between noun and adjective in Kikuyu grammar."
+    }
+  ]
+}

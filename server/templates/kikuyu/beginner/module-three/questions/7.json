@@ -1,0 +1,94 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which marker in Kikuyu is used specifically to introduce the second entity in a comparative construction?",
+      "options": ["ta", "mũno", "kūrĩ ✅", "othe"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the correct Kikuyu structure for the sentence “This tree is taller than that one”?",
+      "options": [
+        "Mũtĩ ũyũ nĩ mũraihu ta ũcio.",
+        "Mũtĩ ũyũ nĩ mũraihu kūrĩ ũcio. ✅",
+        "Mũtĩ ũyũ nĩ mũraihu kūrĩ othe.",
+        "Mũtĩ ũyũ nĩ mũraihu mũno."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "In Kikuyu, the phrase kūrĩ othe expresses which grammatical function?",
+      "options": [
+        "Equality comparison",
+        "High-degree intensification",
+        "Relative comparison",
+        "Superlative degree ✅"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which of the following is the superlative form of mũega (good) in Kikuyu?",
+      "options": [
+        "mũega ta ũrĩa",
+        "njega kūrĩ othe ✅",
+        "njega mũno",
+        "njega kūrĩ"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How would you correctly translate “This banana is sweeter than that one” into Kikuyu?",
+      "options": [
+        "Irigũ rĩrĩ nĩ rĩthaka ta rĩrĩa.",
+        "Irigũ rĩrĩ nĩ rĩthaka kūrĩ rĩrĩa. ✅",
+        "Irigũ rĩrĩ nĩ rĩthaka mũno.",
+        "Irigũ rĩrĩ nĩ rĩthaka kūrĩ othe."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following Kikuyu sentences demonstrates an equality comparison?",
+      "options": [
+        "Mũndũ ũyũ nĩ mũnene kūrĩ ũcio.",
+        "Mũndũ ũyũ nĩ mũnene ta ũcio. ✅",
+        "Mũndũ ũyũ nĩ mũnene kūrĩ othe.",
+        "Mũndũ ũyũ nĩ mũnene mũno."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What Kikuyu expression would best render “the newest”?",
+      "options": [
+        "njerũ mũno",
+        "njerũ ta rĩrĩa",
+        "njerũ kūrĩ othe ✅",
+        "njerũ kūrĩ"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which intensifier is most commonly used in Kikuyu to mean “very”?",
+      "options": ["kūrĩ", "othe", "ta", "mũno ✅"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "If a Kikuyu elder is described as mũnene kūrĩ othe, what is the implied cultural interpretation?",
+      "options": [
+        "He is slightly bigger than another elder.",
+        "He is the most influential or prominent elder. ✅",
+        "He is as big as all the other elders.",
+        "He is foolish and rude."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which sentence correctly shows the use of intensification rather than comparison?",
+      "options": [
+        "Njĩra ĩno nĩ njega kūrĩ ĩrĩa.",
+        "Njĩra ĩno nĩ njega ta ĩrĩa.",
+        "Riũa nĩ rĩhiũ mũno! ✅",
+        "Njĩra ĩno nĩ njega kūrĩ othe."
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What do objective pronouns in Kikuyu represent?",
+      "options": [
+        "The doer of the action",
+        "The receiver of the action",
+        "The tense of the verb",
+        "The auxiliary verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Objective pronouns in Kikuyu indicate the receiver of the action performed by the subject."
+    },
+    {
+      "question": "Where do objective pronouns typically appear in Kikuyu verb structure?",
+      "options": [
+        "At the beginning of the sentence",
+        "As a suffix at the end of the verb root",
+        "As infixes inside the verb form",
+        "As a separate word before the verb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu, objective pronouns appear as infixes within the verb form, between the subject prefix and the verb root."
+    },
+    {
+      "question": "What is the correct format for Kikuyu verb structure with an object?",
+      "options": [
+        "Verb Stem + Object Infix + Subject Prefix",
+        "Subject Prefix + Object Infix + Verb Stem",
+        "Object Infix + Verb Stem + Subject Prefix",
+        "Subject Prefix + Verb Stem + Object Infix"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard structure is Subject Prefix + Object Infix + Verb Stem in Kikuyu verbs."
+    },
+    {
+      "question": "In the example Ngũhe, what does -gũ- represent?",
+      "options": ["I (subject)", "Give (verb root)", "You (object)", "We (subject)"],
+      "correctAnswer": 2,
+      "explanation": "The infix '-gũ-' represents the object pronoun 'you' in the word 'Ngũhe' ('I give you')."
+    },
+    {
+      "question": "Which of the following means “He gives us”?",
+      "options": ["Ngũhe", "Ũmũhe", "Atũhe", "Matũhe"],
+      "correctAnswer": 2,
+      "explanation": "‘Atũhe’ means 'He gives us', where 'A-' is the subject ('he') and '-tũ-' marks the object ('us')."
+    },
+    {
+      "question": "What is the Kikuyu equivalent of “You (pl.) give them”?",
+      "options": ["Mũmahe", "Tũmũhe", "Matũhe", "Ngũhe"],
+      "correctAnswer": 0,
+      "explanation": "‘Mũmahe’ translates as 'You (plural) give them,' with 'Mũ-' marking the plural subject and '-ma-' as the object infix for 'them'."
+    },
+    {
+      "question": "In the conjugated form Tũmũhe, what does tũ- mark?",
+      "options": [
+        "Object: us",
+        "Subject: we",
+        "Object: him/her",
+        "Verb root"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 'Tũmũhe', the prefix 'tũ-' indicates the subject 'we'."
+    },
+    {
+      "question": "Which of the following correctly matches the structure of Ngũhoya?",
+      "options": [
+        "N-ũ-hoya → I pray for him/her",
+        "N-gũ-hoya → I ask you",
+        "N-mũ-hoya → I ask him/her",
+        "N-tũ-hoya → I ask us"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘N-gũ-hoya’ breaks down as N- (I), -gũ- (you, object), and hoya (ask), meaning 'I ask you'."
+    },
+    {
+      "question": "What is the Kikuyu translation for “They ask us”?",
+      "options": ["Amũhoye", "Tũmahoye", "Matũhoye", "Ũmũhoye"],
+      "correctAnswer": 2,
+      "explanation": "‘Matũhoye’ means 'They ask us', with 'Ma-' as the subject ('they') and '-tũ-' as the object ('us')."
+    },
+    {
+      "question": "Which of the following best describes Kikuyu verb structure?",
+      "options": [
+        "Analytic, with subject and object always separate",
+        "Agglutinative, combining subject, object, and action into one word",
+        "Isolating, with no inflections",
+        "Reduplicative, repeating the verb root for clarity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu is an agglutinative language where subject, object, and verb elements combine into a single complex word form."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "How do you say 'A beautiful/good girl' in Kikuyu?",
+      "options": [
+        "Mũndũ mũega",
+        "Mwarĩ mũega",
+        "Ciana nyingi",
+        "Njĩra mũũru"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct phrase is 'Mwarĩ mũega', where 'Mwarĩ' means 'girl' and 'mũega' means 'good' or 'beautiful'."
+    },
+    {
+      "question": "Which Kikuyu phrase means 'A very bad love / relationship'?",
+      "options": [
+        "Wendo mũũru muno",
+        "Wendo mũega muno",
+        "Wendo nene",
+        "Wendo hanini"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Wendo mũũru muno' translates to 'a very bad love' or 'relationship', where 'mũũru' means 'bad' and 'muno' means 'very'."
+    },
+    {
+      "question": "The Kikuyu phrase 'Mũtũnda mũrũrũ' means…",
+      "options": [
+        "A dead fruit",
+        "A beautiful fruit",
+        "A bitter fruit",
+        "A big fruit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'mũrũrũ' means 'bitter', so 'Mũtũnda mũrũrũ' translates to 'a bitter fruit'."
+    },
+    {
+      "question": "Which adjective would you use to describe 'A dead tree'?",
+      "options": [
+        "Mũkuo",
+        "Mũrũrũ",
+        "Mũega",
+        "Nditũ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'Mũkuo' comes from the root meaning 'dead', so it correctly describes 'a dead tree'."
+    },
+    {
+      "question": "Translate 'A big house' into Kikuyu.",
+      "options": [
+        "Nyũmba nene",
+        "Nyũmba nyingi",
+        "Nyũmba hanini",
+        "Nyũmba mũhuthu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct translation is 'Nyũmba nene', where 'nene' means 'big' and 'Nyũmba' means 'house'."
+    },
+    {
+      "question": "'Ciana nyingi' means…",
+      "options": [
+        "Few children",
+        "Many children",
+        "Good children",
+        "Small children"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word 'nyingi' means 'many', so 'Ciana nyingi' translates as 'many children'."
+    },
+    {
+      "question": "Which Kikuyu phrase means 'A small tree'?",
+      "options": [
+        "Mũtĩ nditũ",
+        "Mũtĩ mũhuthu",
+        "Mũtĩ mũnini",
+        "Mũtĩ mũnene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'mũnini' means 'small', making 'Mũtĩ mũnini' the correct translation for 'a small tree'."
+    },
+    {
+      "question": "Translate 'A heavy work' into Kikuyu.",
+      "options": [
+        "Wĩra mũritũ",
+        "Kĩgũnda mũnini",
+        "Kĩgũnda mũhuthu",
+        "Kĩgũnda mũũru"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Wĩra mũritũ' means 'a heavy work', where 'mũritũ' denotes heaviness or difficulty."
+    },
+    {
+      "question": "Which phrase shows abundance in Kikuyu?",
+      "options": [
+        "Mbembe hanini",
+        "Mbembe nyingi muno",
+        "Mbembe nditũ",
+        "Mbembe mũhũũru"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbembe nyingi muno' means 'very many maize (corn)', showing abundance through 'nyingi' (many) and 'muno' (very)."
+    },
+    {
+      "question": "Which is the correct Kikuyu translation for 'Easy work'?",
+      "options": [
+        "Wira mũhuthu",
+        "Wira mũnene",
+        "Wira mũũru",
+        "Wira mũega"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'mũhuthu' means 'light' or 'easy', so 'Wira mũhuthu' correctly translates to 'easy work'."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following is an intransitive verb in Kikuyu?",
+      "options": [
+        "Kũruta (to teach)",
+        "Gũcooka (to return)",
+        "Kũhitha (to hide)",
+        "Kũthambia (to wash oneself)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Gũcooka’ (to return) is intransitive because it does not take a direct object."
+    },
+    {
+      "question": "How do you say “He has a hand” in Kikuyu?",
+      "options": [
+        "Nĩarĩ na guoko",
+        "Nĩarĩ na nyũmba",
+        "Nĩndĩ na guoko",
+        "Nĩmũrĩ na guoko"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩarĩ na guoko’ means ‘He has a hand,’ where ‘na’ expresses possession."
+    },
+    {
+      "question": "What does the verb “Gũthimaga” mean in English?",
+      "options": ["To live / dwell", "To return", "To run", "To wash"],
+      "correctAnswer": 2,
+      "explanation": "‘Gũthimaga’ translates as ‘to run’ in English."
+    },
+    {
+      "question": "Which of the following sentences shows correct usage of an intransitive verb?",
+      "options": [
+        "Nĩndĩ na gitanda – I have a bed.",
+        "Nĩndethambia – I am washing myself.",
+        "Nĩndakoma gitanda – I have slept on the bed.",
+        "Nĩmethambia – They are washing themselves."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩndakoma gitanda’ uses the intransitive verb ‘koma’ (to sleep), which does not require a direct object."
+    },
+    {
+      "question": "How do you say “We have joy” in Kikuyu?",
+      "options": [
+        "Nĩtũthimaga mbere",
+        "Tũrĩ na gĩkeno",
+        "Tũrĩ na gitanda",
+        "Nĩtũethambia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Tũrĩ na gĩkeno’ means ‘We have joy,’ using ‘na’ to show possession."
+    },
+    {
+      "question": "Which is the correct reflexive form of Kũhitha (to hide)?",
+      "options": ["Kũhitha-ana", "Kũhitha-ĩka", "Kũhitha-na", "Kũhitha-ĩra"],
+      "correctAnswer": 1,
+      "explanation": "‘Kũhitha-ĩka’ means ‘to hide oneself,’ the reflexive form of ‘Kũhitha.’"
+    },
+    {
+      "question": "Translate: “They are washing themselves.”",
+      "options": [
+        "Nĩmethambia",
+        "Nĩarĩ na thahu",
+        "Nĩmũethambia",
+        "Nĩmethaka"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩmethambia’ means ‘They are washing themselves,’ showing a reflexive action."
+    },
+    {
+      "question": "Which reflexive verb means “to see each other”?",
+      "options": [
+        "Kũhitha-ĩka",
+        "Kũonana",
+        "Kũruta-ĩra",
+        "Gũthambia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Kũonana’ means ‘to see each other,’ derived from the reciprocal verb form."
+    },
+    {
+      "question": "How is the idea of possession expressed in Kikuyu?",
+      "options": [
+        "By using the suffix -ĩra",
+        "By using the prefix Gũ-",
+        "By using “gũkorũo na”",
+        "By using “kũonana”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Possession in Kikuyu can be expressed using the phrase ‘gũkorũo na,’ meaning ‘to have.’"
+    },
+    {
+      "question": "Which of the following Kikuyu sentences means “Learning is wisdom”?",
+      "options": [
+        "Gũthambia nĩwega",
+        "Gũthakara nĩ mbi",
+        "Gũthoma nĩ ũũgĩ",
+        "Gũcooka nĩ mwega"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gũthoma nĩ ũũgĩ’ translates as ‘Learning is wisdom,’ showing a nominalized verb used as a subject."
+    }
+  ]
+}

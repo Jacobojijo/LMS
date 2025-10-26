@@ -1,0 +1,94 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What morphological element signals the Present Continuous Tense in Kikuyu?",
+      "options": ["Prefix nĩ-", "Suffix -aga", "Infix -rĩ- / -ra-", "Root vowel change"],
+      "correctAnswer": 2,
+      "explanation": "The infix '-rĩ-' or '-ra-' in Kikuyu marks the Present Continuous Tense, showing that an action is ongoing."
+    },
+    {
+      "question": "Which example correctly illustrates a habitual action?",
+      "options": ["Nĩũrathiĩ soko.", "Nĩndĩrĩrĩa irio.", "Nĩthiiaga soko.", "Nĩmarĩina nyĩmbo."],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩthiiaga soko’ expresses habitual action, with the suffix '-aga' marking repeated or regular occurrences."
+    },
+    {
+      "question": "In the sentence Nĩmarĩina nyĩmbo (“They are singing songs”), where is the progressive marker located?",
+      "options": [
+        "After the verb root",
+        "Before the subject prefix",
+        "Inside the verb stem, after subject prefix, before root",
+        "As a separate word"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The progressive marker '-rĩ-' appears between the subject prefix and the verb root, signaling an ongoing action."
+    },
+    {
+      "question": "Which form best contrasts “He is eating” vs. “He usually eats”?",
+      "options": ["Nĩarĩrĩa vs. Nĩarĩaga", "Nĩũrathiĩ vs. Nĩũthiĩaga", "Nĩmarĩina vs. Nĩmarĩaga", "Nĩndĩrĩrĩa vs. Nĩndũgamaga"],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩarĩrĩa’ uses the progressive infix '-rĩ-' for present continuous, while ‘Nĩarĩaga’ uses '-aga' for habitual aspect."
+    },
+    {
+      "question": "Which structural property distinguishes habitual aspect in Kikuyu?",
+      "options": ["Use of infix -rĩ-", "Use of suffix -aga", "Lack of subject prefixes", "Tone shift on the root"],
+      "correctAnswer": 1,
+      "explanation": "The habitual aspect in Kikuyu is marked by the suffix '-aga', indicating repeated or regular actions."
+    },
+    {
+      "question": "Why is Kikuyu said to show low context dependency in marking aspect?",
+      "options": [
+        "Because it has no aspectual distinctions",
+        "Because the markers -rĩ- and -aga are overt and unambiguous",
+        "Because context is always required to interpret verbs",
+        "Because tone alone signals aspect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu aspect markers '-rĩ-' and '-aga' are overt and clearly indicate tense/aspect, reducing reliance on context."
+    },
+    {
+      "question": "Which of the following is the correct morphological breakdown of Nĩndũgamaga (“I usually stand”)?",
+      "options": [
+        "Nĩnd- (I) + ũgam- (stand) + -aga",
+        "Nĩndĩ- (I) + -ra- (progressive) + gam- (stand)",
+        "Nĩ- (affirmation) + gam- (stand) + -rĩ-",
+        "Nĩnd- (I) + gam- (stand) + -rĩ-"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩndũgamaga’ breaks down as: Nĩnd- (I) + ũgam- (stand) + -aga (habitual marker), meaning 'I usually stand'."
+    },
+    {
+      "question": "Which feature is common to both present continuous and habitual forms?",
+      "options": [
+        "Both use the suffix -aga",
+        "Both rely on tone for aspectual contrast",
+        "Both attach markers directly to the verb stem",
+        "Both omit subject prefixes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both the progressive (-rĩ-) and habitual (-aga) markers attach directly to the verb stem in Kikuyu morphology."
+    },
+    {
+      "question": "What is the pedagogical implication of mastering -rĩ- and -aga?",
+      "options": [
+        "Learners can freely substitute them in any verb.",
+        "Learners must know they mark separate grammatical categories.",
+        "Learners only need context, not morphology.",
+        "Learners can avoid aspect marking in fluent speech."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Understanding that '-rĩ-' marks ongoing actions and '-aga' marks habitual actions helps learners distinguish aspectual meanings accurately."
+    },
+    {
+      "question": "Compared to Dholuo, what makes Kikuyu aspect marking distinctive?",
+      "options": [
+        "Kikuyu relies solely on context.",
+        "Kikuyu uses overt morphology, while Dholuo often relies on context.",
+        "Kikuyu aspect is tonal only.",
+        "Dholuo has no aspect at all."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Unlike Dholuo, which can rely on contextual cues, Kikuyu uses overt morphological markers like '-rĩ-' and '-aga' to express aspect."
+    }
+  ]
+}

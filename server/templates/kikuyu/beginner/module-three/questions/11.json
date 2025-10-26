@@ -1,0 +1,99 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the main function of a subjective pronoun in Kikuyu?",
+      "options": [
+        "To show the receiver of the action",
+        "To describe the action itself",
+        "To mark the doer of the action",
+        "To indicate tense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Subjective pronouns in Kikuyu indicate the doer or performer of the action."
+    },
+    {
+      "question": "In Kikuyu, where do subjective pronouns typically appear in relation to the verb?",
+      "options": [
+        "At the end of the sentence",
+        "As prefixes attached to the verb stem",
+        "After the object",
+        "Between two verbs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Subjective pronouns appear as prefixes attached to the verb stem in Kikuyu."
+    },
+    {
+      "question": "Which of the following is the correct 1st person singular pronoun in Kikuyu?",
+      "options": ["Ũ", "Tũ", "Ndĩ", "Mũ"],
+      "correctAnswer": 2,
+      "explanation": "‘Ndĩ’ is the 1st person singular pronoun meaning ‘I’ in Kikuyu."
+    },
+    {
+      "question": "In the example Tũ-rũgame (“We stand”), what does Tũ- indicate?",
+      "options": [
+        "The action of standing",
+        "The object of the sentence",
+        "The subject prefix “We”",
+        "The tense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prefix ‘Tũ-’ indicates the subject ‘We’ in the verb ‘Tũrũgame’."
+    },
+    {
+      "question": "Which of the following matches the Kikuyu pronoun with its correct prefix?",
+      "options": ["Ũ → Ma-", "Tũ → Tũ-", "Ndĩ → Mũ-", "Nĩ → Ũ-"],
+      "correctAnswer": 1,
+      "explanation": "‘Tũ → Tũ-’ is the correct match for the pronoun ‘We’ and its prefix."
+    },
+    {
+      "question": "In the sentence Wanjiku nĩarĩa irio, what does nĩarĩa mean?",
+      "options": [
+        "Wanjiku ate",
+        "Wanjiku has eaten",
+        "Wanjiku will eat",
+        "Wanjiku is eating"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩarĩa’ translates as ‘has eaten’, showing a completed action."
+    },
+    {
+      "question": "Which of the following is the correct conjugation for “I give you” in Kikuyu?",
+      "options": ["Atũhe", "Ngũhe", "Ũmũhe", "Matũhe"],
+      "correctAnswer": 1,
+      "explanation": "‘Ngũhe’ means ‘I give you,’ combining the subject ‘I’ and object ‘you’ in one form."
+    },
+    {
+      "question": "In the word Ũmũhe, what does mũ- represent?",
+      "options": [
+        "The subject “You”",
+        "The object “Him/Her”",
+        "The action “to give”",
+        "The tense marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In ‘Ũmũhe,’ the infix ‘mũ-’ marks the object ‘him/her’."
+    },
+    {
+      "question": "Which of the following is the correct translation for Matũhe?",
+      "options": [
+        "They give us",
+        "We give them",
+        "You give them",
+        "I give them"
+      ],
+      "correctAnswer": 0,
+      "explanation": "‘Matũhe’ translates as ‘They give us,’ with ‘Ma-’ as the subject and ‘tũ’ as the object."
+    },
+    {
+      "question": "According to Kikuyu verb structure, which of the following is true?",
+      "options": [
+        "Subject markers always come after the verb",
+        "Object markers are always separate words",
+        "Subject, object, and action can combine into one word",
+        "The verb root changes for each subject"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu, verbs can combine subject, object, and action elements into a single word form."
+    }
+  ]
+}

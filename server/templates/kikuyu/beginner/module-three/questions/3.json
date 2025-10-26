@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "How do you say 'A red chair' in Kikuyu?",
+      "options": [
+        "Gĩtĩ kĩeru",
+        "Gĩtĩ gĩtune",
+        "Gĩtĩ njirũ",
+        "Gĩtĩ ngirini"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct phrase is 'Gĩtĩ gĩtune', where 'gĩtune' means 'red' and 'Gĩtĩ' means 'chair'."
+    },
+    {
+      "question": "Which Kikuyu adjective means black?",
+      "options": [
+        "-ĩeru",
+        "-iru",
+        "-tune",
+        "ngirini"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The adjective '-iru' means 'black' in Kikuyu, used to describe objects or people with dark coloration."
+    },
+    {
+      "question": "What is the correct Kikuyu phrase for 'White goat'?",
+      "options": [
+        "Mbũri kĩeru",
+        "Mbũri njeru",
+        "Mbũri mutune",
+        "Mbũri ndigo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbũri njeru' means 'white goat', where 'njeru' is the color adjective for 'white'."
+    },
+    {
+      "question": "If you want to describe 'Blue clothes', which phrase is correct?",
+      "options": [
+        "Ngũo buluu",
+        "Ngũo thamba",
+        "Ngũo gĩtĩiri",
+        "Ngũo gĩtune"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The borrowed adjective 'buluu' from English means 'blue', so 'Ngũo buluu' translates as 'blue clothes'."
+    },
+    {
+      "question": "In Kikuyu, the adjective 'gakarakara' comes from which cultural reference?",
+      "options": [
+        "Banana leaf",
+        "Egg yolk",
+        "Tree bark",
+        "Soil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The adjective 'gakarakara' (orange) comes from the color of an egg yolk, a common Kikuyu cultural reference."
+    },
+    {
+      "question": "Which one correctly translates 'Green farm/vegetation'?",
+      "options": [
+        "Mũgũnda njirũ",
+        "Mũgũnda ngirini",
+        "Mũgũnda gĩtune",
+        "Mũgũnda ndigo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The word 'ngirini' means 'green', making 'Mũgũnda ngirini' the correct phrase for 'green farm' or 'green vegetation'."
+    },
+    {
+      "question": "If someone wears indigo clothing, how would you say it in Kikuyu?",
+      "options": [
+        "Ngũo ndigo",
+        "Ngũo mutune",
+        "Ngũo gakarakara",
+        "Ngũo mweru"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'ndigo' means 'indigo', so 'Ngũo ndigo' translates as 'indigo clothes'."
+    },
+    {
+      "question": "Which Kikuyu adjective of color is associated with royalty and elegance?",
+      "options": [
+        "thamba (purple)",
+        "buluu (blue)",
+        "ndigo (indigo)",
+        "gĩtĩiri (brown)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'thamba' means 'purple', a color traditionally associated with royalty and elegance in Kikuyu culture."
+    },
+    {
+      "question": "How would you say 'Black and white chair' in Kikuyu?",
+      "options": [
+        "Gĩtĩ kĩeru na kĩtũ",
+        "Gĩtĩ buluu",
+        "Gĩtĩ gĩtĩiri",
+        "Gĩtĩ thamba"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Gĩtĩ kĩeru na kĩtũ' combines 'kĩeru' (white) and 'kĩtũ' (black) to mean 'black and white chair'."
+    },
+    {
+      "question": "Which Kikuyu term traditionally refers to brown, often linked to the color of soil?",
+      "options": [
+        "gĩtĩiri",
+        "ndigo",
+        "mutune",
+        "ngirini"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The term 'gĩtĩiri' refers to the color brown, often associated with earth or soil in Kikuyu descriptions."
+    }
+  ]
+}
