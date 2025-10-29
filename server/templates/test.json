@@ -1883,5 +1883,207 @@
           "passingScore": 50
         }
       ],
-      "cat": ""
+      "cat": {
+  "title": "Continuous Assessment Test 03 (End of Week 12)",
+  "description": "This Continuous Assessment Test evaluates understanding of Kikuyu adjectives, verbs, and tenses in everyday conversations and cultural contexts.",
+  "duration": 60,
+  "passingScore": 50,
+  "maxAttempts": 3,
+  "_id": {
+      "$oid": "6891d48461021d79403e5e52"
+    },
+  "questions": [
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following is the correct adjective form for 'a big person' in Kikuyu?",
+      "options": ["Mũndũ mũnene", "Mũndũ mũũru", "Mũndũ mũraihu", "Mũndũ nini"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the phrase Gĩti kĩeru, what does kĩeru mean?",
+      "options": ["Red", "Black", "White", "Tall"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which adjective best describes Ciana (children) if they are 'many'?",
+      "options": ["Mũũru", "Nini", "Nyingi", "Nditũ"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] The phrase Mũndũ mũũru translates to:",
+      "options": ["A good person", "A strong person", "A bad person", "A new person"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] How do you say 'A dead tree' in Kikuyu?",
+      "options": ["Mũtĩ mũgeni", "Mũtĩ mũhũũru", "Mũtĩ mũtune", "Mũtĩ mũhothu"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which adjective is derived from the verb kũhũũga (to die)?",
+      "options": ["Mũhoi", "Mũhotu", "Mũrugi", "Mũhũũru"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which phrase shows correct noun-adjective agreement?",
+      "options": ["Nyũmba mũeru", "Mũndũ kĩega", "Mũndũ mũega", "Ciana mũnene"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which Kikuyu adjective for 'color' is traditionally derived from a cultural reference?",
+      "options": ["Mũtune (red)", "Gakarakara (yellow)", "Ndigo (indigo)", "Buluu (blue)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the correct plural form of the adjective mũnene (big)?",
+      "options": ["manene", "anene", "minene", "banene"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following adjectives does NOT change its form in the plural?",
+      "options": ["mũnene", "mũũru", "ngirini (green)", "mũgũthi"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the infinitive marker for most Kikuyu verbs?",
+      "options": ["-a", "nĩ-", "kũ-", "-o"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the sentence Wanjiku nĩarĩa irio, what is the function of the prefix nĩ-?",
+      "options": ["It shows a past action.", "It marks a future action.", "It is an affirmative marker.", "It marks the subject."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following sentences correctly uses an intransitive verb?",
+      "options": ["Nĩndakoma gitanda (I slept on the bed)", "Nĩndĩire irio (I ate food)", "Nĩndathambia (I am washing)", "Nĩndahũrire (I hit)"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What does the na in the phrase Nĩndĩ na nguo express?",
+      "options": ["Location", "Action", "Possession", "Negation"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the primary function of a subjective pronoun in Kikuyu?",
+      "options": ["To show the receiver of the action.", "To indicate the time of the action.", "To mark the doer of the action.", "To express a state of being."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] Which of the following is the correct 1st person singular pronoun prefix in Kikuyu?",
+      "options": ["Ũ-", "Tũ-", "N-/Nd-", "Mũ-"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the example Tũ-rũgame ('We stand'), what does Tũ- indicate?",
+      "options": ["The action of standing", "The object of the sentence", "The subject prefix 'We'", "The tense"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] What is the correct translation of Matũhe?",
+      "options": ["They give us", "We give them", "You give them", "I give them"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Adjectives & Verbs Part 01] In the word Ũmũhe, what does mũ- represent?",
+      "options": ["The subject 'You'", "The object 'Him/Her'", "The action 'to give'", "The tense marker"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] What is the primary function of an objective pronoun in Kikuyu verb structure?",
+      "options": ["To mark the doer of the action.", "To indicate the time of the action.", "To show the receiver of the action.", "To express the state of being."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] In the verb structure Subject Prefix + Object Infix + Verb Stem, what does the Object Infix show?",
+      "options": ["The doer of the action", "The receiver of the action", "The tense of the verb", "The mood of the sentence"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] How do you say 'They give us' in Kikuyu?",
+      "options": ["Nĩmatũhe", "Nĩmũtũhe", "Nĩndũhe", "Nĩũtũhe"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "[Verbs Part 02] What is the correct translation of the Kikuyu phrase Gũthoma nĩ ũũgĩ?",
+      "options": ["Washing is good.", "Fighting is bad.", "Learning is wisdom.", "Returning is good."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which phrase means 'There is a person here'?",
+      "options": ["Nĩĩ nĩ mũndũ haha", "Kũrĩ mũndũ haha", "Acio nĩ andũ haha", "Ũyũ nĩ mũndũ mwega"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Verbs Part 02] What is the correct plural form of Ũyũ nĩ mũrutwo (He/She is a student)?",
+      "options": ["Ũyũ nĩ arutwo", "Inyuĩ nĩ arutani", "Acio nĩ arutani", "Acio nĩ arutwo"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "[Verbs Part 02] Which of the following sentences best illustrates a reflexive verb in Kikuyu?",
+      "options": ["Nĩmarĩina nyĩmbo.", "Nĩndĩrĩthoma.", "Nĩndethambia.", "Nĩarĩrĩa irio."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] What is the primary function of the suffix -ithia in a verb?",
+      "options": ["It turns the verb into a noun.", "It makes the verb reflexive.", "It makes the verb causative ('to make someone do something').", "It marks the verb as habitual."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Verbs Part 02] Which of the following is an example of a causative verb?",
+      "options": ["Nĩndĩrĩthoma", "Nĩarũgamithirie ciana", "Nĩtũrĩruga", "Nĩmarĩĩte nyama"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] What is the primary function of the Past Perfect tense in Kikuyu?",
+      "options": ["To show an action that is currently happening.", "To show an action that will be completed in the future.", "To express an action that had been completed before another past event.", "To describe a habitual action."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] Which verb ending is used to distinguish the Past Perfect from the Simple Past?",
+      "options": ["-aga", "-ire", "-ĩte/-ete", "-ithia"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] How do you say 'I had eaten before going to the market'?",
+      "options": ["Nĩndarĩire mbere ya kũthii soko.", "Nĩndarĩirĩte mbere ya kũthii soko.", "Nĩndarĩirĩte kũthii soko.", "Nĩndarĩĩte mbere ya kũthii soko."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] Which prefix is used to form the Present Progressive tense in Kikuyu?",
+      "options": ["-aga", "-rĩ-", "-ũ-", "-ka-"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] What is the correct way to say 'I am reading' in Kikuyu?",
+      "options": ["Nĩndũthoma", "Nĩndũthomaga", "Nĩndĩrĩthoma", "Nĩthomaga"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] The suffix -aga in Nĩthiiaga soko indicates what kind of action?",
+      "options": ["A completed action.", "An action in progress.", "A habitual or repeated action.", "A future action."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] In the sentence Nĩngũcooka rũciũ (I'll return tomorrow), which word functions as a temporal adverbial?",
+      "options": ["Nĩngũ", "-cooka", "rũciũ", "rĩa"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] Which of the following correctly expresses the future continuous tense?",
+      "options": ["Nĩngũka thii gũkũrora.", "Nĩmagũka kũrĩa irio.", "Nĩngũka ga thii gũkũrora.", "Nĩgũthii gũkũrora."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "[Tenses] Which of the following uses the nĩmũhaka construction to express obligation?",
+      "options": ["Kwahoteka ndigothii", "Nĩmũhaka ũrĩa", "Nĩagũĩrĩire gũthiĩ", "Reke tũthiĩ"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "[Tenses] How would you translate 'He should have gone' into Kikuyu?",
+      "options": ["Nĩmũhaka ũthiĩ", "Kwahoteka ndigothii", "Nĩagũĩrĩire gũthiĩ", "Reke tũthiĩ"],
+      "correctAnswer": 2
+    }
+  ]
+}
+
     }
