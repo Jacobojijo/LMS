@@ -3,7 +3,7 @@
       "description": "Everyday Conversations and Cultural Context",
       "order": 3,
       "_id": {
-      "$oid": "6891d48461021d79403e5e16"
+      "$oid": "6891d48461021d79403e5e35"
     },
       "topics": [
         {
@@ -11,489 +11,489 @@
           "type": "container",
           "order": 1,
           "_id": {
-      "$oid": "6891d48461021d79403e5e17"
+      "$oid": "6891d48461021d79403e5e36"
     },
           "subtopics": [
             {
               "title": "3.1.1 Adjectives & Adjective Clauses",
-              "htmlContent": "kisii/beginner/module-three/1.html",
+              "htmlContent": "kikuyu/beginner/module-three/1.html",
               "order": 1,
               "_id": {
-      "$oid": "6891d48461021d79403e5e18"
+      "$oid": "6891d48461021d79403e5e37"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following best explains the syntactic function of the prefix 'eke-' in Ekegusii adjectives?",
+      "question": "Which of the following best describes the agreement system of Kikuyu adjectives?",
       "options": [
-        "It marks plurality in the noun phrase.",
-        "It transforms a noun into a verb phrase.",
-        "It links a noun to its descriptive root, forming a reduced relative clause.",
-        "It functions as a tense marker for verbal predicates."
-      ],
-      "correctAnswer": 2,
-      "explanation": "The prefix 'eke-' in Ekegusii adjectives functions syntactically to link a noun to its descriptive root, forming a reduced relative clause that characterizes the noun."
-    },
-    {
-      "question": "What is the most accurate Ekegusii translation of the phrase 'the light-skin woman'?",
-      "options": [
-        "Omokungu maroba",
-        "Omokungu obobariri",
-        "Omokungu omorabu",
-        "Omokungu omomwamu"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The correct translation is 'Omokungu omorabu', where 'omorabu' denotes 'light-skinned'."
-    },
-    {
-      "question": "How would you correctly describe a 'hot porridge' in Ekegusii, adhering to the adjective clause structure?",
-      "options": [
-        "Erongori enkendu",
-        "Erongori egosamba",
-        "Erongori ensambe",
-        "Erongori engiya"
+        "Adjectives always take the prefix mũ- regardless of noun class.",
+        "Adjectives show agreement by adopting the noun class prefix of the head noun.",
+        "Adjectives occur without prefixes and remain in root form only.",
+        "Adjectives always follow a verb-derived participial marker."
       ],
       "correctAnswer": 1,
-      "explanation": "The phrase 'Erongori egosamba' correctly follows the adjective clause structure, meaning 'hot porridge'."
+      "explanation": "In Kikuyu, adjectives agree with the head noun by adopting its noun class prefix, ensuring grammatical consistency within noun phrases."
     },
     {
-      "question": "Based on the morphosyntactic structure, which of the following constructions is grammatically incorrect in Ekegusii?",
+      "question": "Identify the correct Kikuyu example where a colour adjective agrees with its noun class.",
       "options": [
-        "Ekerogo ekeroro – “Bitter chair”",
-        "Abanto abange – “Many people”",
-        "Eng’ondi enke – “Big sheep”",
-        "Ritororo rike – “Small calf”"
-      ],
-      "correctAnswer": 2,
-      "explanation": "‘Eng’ondi enke’ is grammatically incorrect because the adjective class agreement marker does not match the noun class."
-    },
-    {
-      "question": "Which of the following derived adjectives correctly expresses a completed state from a verb root in Ekegusii?",
-      "options": [
-        "Ogochi gotera – singing",
-        "Okure – has died",
-        "Akwete – is dying",
-        "Kiarosetigwe – is being made"
+        "Nyũmba nini = 'small house'",
+        "Gĩti kĩeru = 'white chair'",
+        "Njĩra njega = 'good road'",
+        "Ciana nyingi = 'many children'"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Okure’ expresses a completed state derived from the verb 'kure' (to die), meaning 'has died'."
+      "explanation": "In 'Gĩti kĩeru', the adjective 'kĩeru' agrees with the class 7 noun 'Gĩti' by sharing the prefix kĩ-, showing correct noun–adjective agreement."
     },
     {
-      "question": "If 'Omokungu omorabu' means ‘light-skin (female)’, what is the most likely Ekegusii adjective for a 'light-skin (male) goat'?",
+      "question": "In Kikuyu, the form mũrugi ('cooked') is derived from which verbal root?",
       "options": [
-        "Embori endabu",
-        "Embori emwamu",
-        "Eng’ondi embariri",
-        "Eng’ondi endabu"
+        "kũhota = to be able",
+        "kũhoya = to pray",
+        "kũruga = to cook",
+        "gũkua = to die"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'mũrugi' derives from the verbal root 'kũruga' (to cook), indicating a completed state ('cooked')."
+    },
+    {
+      "question": "Which semantic category is best represented by the adjective nini?",
+      "options": [
+        "Colour",
+        "Quantity",
+        "Physical size/dimension",
+        "Temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'nini' denotes smallness or dimension, thus belonging to the semantic category of physical size."
+    },
+    {
+      "question": "In the expression 'Mũndũ mũũru' ('a bad person'), the adjective root -ũru denotes:",
+      "options": [
+        "Colour (dark)",
+        "Morality / quality",
+        "Quantity",
+        "Temperature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The adjective '-ũru' in 'Mũndũ mũũru' expresses moral or qualitative judgment, meaning 'bad' or 'immoral'."
+    },
+    {
+      "question": "Which of the following adjectives demonstrates variation between a bare root and a prefixed form in surface usage?",
+      "options": [
+        "-eru (white)",
+        "-ega (good)",
+        "thaka / mũthaka (sweet)",
+        "-nini (small)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The adjective 'thaka / mũthaka' shows variation between the bare root and the prefixed form, depending on syntactic and phonological context."
+    },
+    {
+      "question": "If a researcher elicits the phrase 'Ciana nyingi' ('many children'), what linguistic feature is primarily observed?",
+      "options": [
+        "Verb–adjective participial derivation",
+        "Adjective–noun class agreement",
+        "Independent clause-level adjective use",
+        "Noun construct reduction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Ciana nyingi' illustrates agreement between the noun 'Ciana' and the adjective 'nyingi', showing proper noun class concord."
+    },
+    {
+      "question": "Which example best illustrates a verb-derived adjectival form denoting state/condition?",
+      "options": [
+        "Mũtĩ mũkuo = 'dead tree'",
+        "Njĩra nene = 'big road'",
+        "Nyũmba nini = 'small house'",
+        "Gĩti kĩeru = 'white chair'"
       ],
       "correctAnswer": 0,
-      "explanation": "‘Embori endabu’ follows the appropriate class agreement pattern for a 'light-skin male goat'."
+      "explanation": "The adjective 'mũkuo' ('dead') derives from a verb meaning 'to die', making 'Mũtĩ mũkuo' an example of a verb-derived adjective expressing condition."
     },
     {
-      "question": "Which of the following examples illustrates a verb-derived adjective functioning as an ongoing action?",
+      "question": "In Kikuyu, adjectives like 'mũega' ('good') are culturally loaded because they:",
       "options": [
-        "Kegochi korosigwa – which has already been made",
-        "Kegochi gokwa – which has died",
-        "Gekorosigwa – which is being made",
-        "Omoriri – intelligent"
+        "Only describe physical beauty.",
+        "Are restricted to quantity references.",
+        "Index moral and aesthetic values simultaneously.",
+        "Cannot occur with class agreement markers."
       ],
       "correctAnswer": 2,
-      "explanation": "‘Gekorosigwa’ expresses an ongoing action, meaning 'which is being made', showing a verb-derived adjective form."
+      "explanation": "The adjective 'mũega' carries both moral and aesthetic connotations, reflecting Kikuyu cultural perspectives on goodness and beauty."
     },
     {
-      "question": "In the semantic category of 'Quality and Character,' which adjective carries both physical and moral weight in its cultural interpretation?",
+      "question": "Which syntactic rule correctly captures canonical adjective placement in Kikuyu?",
       "options": [
-        "Ekieng’e – short",
-        "Ekiya – good",
-        "Enyansu – sweet",
-        "Kwarosire – tired"
+        "Adjective precedes the noun without agreement.",
+        "Noun + Adjective (with class prefix agreement).",
+        "Adjective occurs only in independent clauses.",
+        "Adjective follows verbs as secondary predicates."
       ],
       "correctAnswer": 1,
-      "explanation": "‘Ekiya’ means 'good', and in Ekegusii it carries both moral and physical connotations of quality and character."
-    },
-    {
-      "question": "What does the adjective clause 'Giakure' semantically contribute to a noun in Ekegusii?",
-      "options": [
-        "It indicates habitual action.",
-        "It denotes an object that is dying.",
-        "It describes an object that has died.",
-        "It forms a passive construction."
-      ],
-      "correctAnswer": 2,
-      "explanation": "‘Giakure’ describes an object that has died, contributing a perfective or completed meaning to the noun."
-    },
-    {
-      "question": "Which of the following pairs both belong to the 'Temperature and Taste' semantic category in Ekegusii?",
-      "options": [
-        "Agosamba and Iberera",
-        "Amache agosamba and Erongori enyansu",
-        "Enkendu and Enyerere",
-        "Enyerere and Iberera"
-      ],
-      "correctAnswer": 1,
-      "explanation": "‘Amache agosamba’ (hot water) and ‘Erongori enyansu’ (sweet porridge) both describe attributes related to temperature and taste."
+      "explanation": "In Kikuyu, adjectives follow the noun and exhibit class agreement through prefixation, forming structures like 'Noun + Adjective'."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.1.2 Adjective of Quality and Quantity",
-              "htmlContent": "kisii/beginner/module-three/2.html",
+              "htmlContent": "kikuyu/beginner/module-three/2.html",
               "order": 2,
               "_id": {
-      "$oid": "6891d48461021d79403e5e19"
+      "$oid": "6891d48461021d79403e5e38"
     },
               "practiceQuestions": [
     {
-      "question": "Which adjective in Ekegusii denotes moral uprightness, physical beauty, or social approval, and uses an intensifier to express extremity?",
+      "question": "How do you say 'A beautiful/good girl' in Kikuyu?",
       "options": [
-        "Omobe mono",
-        "Omuya mono",
-        "Omorai",
-        "Omorwaire"
+        "Mũndũ mũega",
+        "Mwarĩ mũega",
+        "Ciana nyingi",
+        "Njĩra mũũru"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Omuya mono’ means ‘very good’ or ‘morally upright,’ where ‘mono’ serves as an intensifier expressing extremity or emphasis."
+      "explanation": "The correct phrase is 'Mwarĩ mũega', where 'Mwarĩ' means 'girl' and 'mũega' means 'good' or 'beautiful'."
     },
     {
-      "question": "Identify the Ekegusii adjective that intensifies the idea of abundance beyond ‘many,’ and implies excess or overflowing.",
+      "question": "Which Kikuyu phrase means 'A very bad love / relationship'?",
       "options": [
-        "Ebike",
-        "Bisaine",
-        "Ebinge mono",
-        "Ebinene"
-      ],
-      "correctAnswer": 2,
-      "explanation": "‘Ebinge mono’ amplifies the concept of abundance, signifying an excessive or overflowing quantity beyond just ‘many.’"
-    },
-    {
-      "question": "What is the correct morphological structure of the Ekegusii adjective ‘ekenene’?",
-      "options": [
-        "eke- + rito",
-        "eke- + nene",
-        "eke- + gusu",
-        "eke- + nenene"
-      ],
-      "correctAnswer": 1,
-      "explanation": "‘Ekenene’ is formed morphologically from the prefix ‘eke-’ (adjective marker) and the root ‘nene’ meaning ‘big’ or ‘large.’"
-    },
-    {
-      "question": "Which Ekegusii adjective of quality is irregular in morphological formation and not prefixed by ‘eke-’?",
-      "options": [
-        "Ekiya",
-        "Chimbese",
-        "Omuya",
-        "Omonene"
-      ],
-      "correctAnswer": 1,
-      "explanation": "‘Chimbese’ is irregular and not formed with the standard ‘eke-’ prefix, distinguishing it morphologically from regular adjectives."
-    },
-    {
-      "question": "If you want to ask someone about the number of objects in Ekegusii, which interrogative quantifier should you use?",
-      "options": [
-        "Ara karenga?",
-        "Mbirenga?",
-        "Araria?",
-        "Mobori?"
-      ],
-      "correctAnswer": 1,
-      "explanation": "‘Mbirenga?’ is the correct interrogative quantifier in Ekegusii used to ask ‘how many?’ or inquire about quantity."
-    },
-    {
-      "question": "Choose the correct pair where one adjective loses its ‘E-’ prefix in spoken Ekegusii.",
-      "options": [
-        "Asobonge → ‘Sobonge",
-        "Ebike → Bike",
-        "Ebiya → Biya",
-        "Ekebe → Kebe"
+        "Wendo mũũru muno",
+        "Wendo mũega muno",
+        "Wendo nene",
+        "Wendo hanini"
       ],
       "correctAnswer": 0,
-      "explanation": "In spoken Ekegusii, ‘Asobonge’ often loses its prefix ‘A-’, becoming ‘’Sobonge,’ reflecting natural phonetic reduction in speech."
+      "explanation": "The phrase 'Wendo mũũru muno' translates to 'a very bad love' or 'relationship', where 'mũũru' means 'bad' and 'muno' means 'very'."
     },
     {
-      "question": "Which adjective conveys sufficiency and often appears without its morphological prefix in casual speech?",
+      "question": "The Kikuyu phrase 'Mũtũnda mũrũrũ' means…",
       "options": [
-        "Ekenene",
-        "Ebinge",
-        "Esaine",
-        "Ebike"
+        "A dead fruit",
+        "A beautiful fruit",
+        "A bitter fruit",
+        "A big fruit"
       ],
       "correctAnswer": 2,
-      "explanation": "‘Esaine’ means ‘enough’ or ‘sufficient’ and is frequently used without the prefix ‘E-’ in informal contexts."
+      "explanation": "The adjective 'mũrũrũ' means 'bitter', so 'Mũtũnda mũrũrũ' translates to 'a bitter fruit'."
     },
     {
-      "question": "Which of the following pairs contrasts adjectives of quality with adjectives of quantity?",
+      "question": "Which adjective would you use to describe 'A dead tree'?",
       "options": [
-        "Ebinge and Ebike",
-        "Aisaine and Ebokong’u",
-        "Ebinge and As’obonge",
-        "Ekenene and Ebinge mono"
+        "Mũkuo",
+        "Mũrũrũ",
+        "Mũega",
+        "Nditũ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'Mũkuo' comes from the root meaning 'dead', so it correctly describes 'a dead tree'."
+    },
+    {
+      "question": "Translate 'A big house' into Kikuyu.",
+      "options": [
+        "Nyũmba nene",
+        "Nyũmba nyingi",
+        "Nyũmba hanini",
+        "Nyũmba mũhuthu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct translation is 'Nyũmba nene', where 'nene' means 'big' and 'Nyũmba' means 'house'."
+    },
+    {
+      "question": "'Ciana nyingi' means…",
+      "options": [
+        "Few children",
+        "Many children",
+        "Good children",
+        "Small children"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Aisaine’ (sufficient) reflects quality, while ‘Ebokong’u’ (a lot/much) reflects quantity—illustrating a contrast between adjective types."
+      "explanation": "The word 'nyingi' means 'many', so 'Ciana nyingi' translates as 'many children'."
     },
     {
-      "question": "What is the semantic difference between ‘Ebinge’ and ‘Bisaine’ in Ekegusii?",
+      "question": "Which Kikuyu phrase means 'A small tree'?",
       "options": [
-        "Ebinge refers to quantity while Bisaine refers to size",
-        "Both mean ‘few’ but used differently",
-        "Ebinge is a stronger, more excessive form of Bisaine",
-        "Ebinge is used only with mass nouns; Bisaine is not"
+        "Mũtĩ nditũ",
+        "Mũtĩ mũhuthu",
+        "Mũtĩ mũnini",
+        "Mũtĩ mũnene"
       ],
       "correctAnswer": 2,
-      "explanation": "‘Ebinge’ conveys a higher or excessive degree of abundance, while ‘Bisaine’ suggests moderate plurality."
+      "explanation": "The adjective 'mũnini' means 'small', making 'Mũtĩ mũnini' the correct translation for 'a small tree'."
     },
     {
-      "question": "What kind of descriptive value does ‘Ekebe’ convey in Ekegusii?",
+      "question": "Translate 'A heavy work' into Kikuyu.",
       "options": [
-        "Neutral observation",
-        "Intensely negative moral or aesthetic judgment",
-        "High quantity but low value",
-        "A blend of beauty and importance"
+        "Wĩra mũritũ",
+        "Kĩgũnda mũnini",
+        "Kĩgũnda mũhuthu",
+        "Kĩgũnda mũũru"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Wĩra mũritũ' means 'a heavy work', where 'mũritũ' denotes heaviness or difficulty."
+    },
+    {
+      "question": "Which phrase shows abundance in Kikuyu?",
+      "options": [
+        "Mbembe hanini",
+        "Mbembe nyingi muno",
+        "Mbembe nditũ",
+        "Mbembe mũhũũru"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Ekebe’ expresses a strong negative moral or aesthetic evaluation, often implying ugliness or disapproval."
+      "explanation": "'Mbembe nyingi muno' means 'very many maize (corn)', showing abundance through 'nyingi' (many) and 'muno' (very)."
+    },
+    {
+      "question": "Which is the correct Kikuyu translation for 'Easy work'?",
+      "options": [
+        "Wira mũhuthu",
+        "Wira mũnene",
+        "Wira mũũru",
+        "Wira mũega"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'mũhuthu' means 'light' or 'easy', so 'Wira mũhuthu' correctly translates to 'easy work'."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.1.3 Adjective of Color",
-              "htmlContent": "kisii/beginner/module-three/3.html",
+              "htmlContent": "kikuyu/beginner/module-three/3.html",
               "order": 3,
               "_id": {
-      "$oid": "6891d48461021d79403e5e1a"
+      "$oid": "6891d48461021d79403e5e39"
     },
               "practiceQuestions": [
     {
-      "question": "What is the correct adjectival form of the Ekegusii root 'Embariri' (red) when modifying a noun?",
+      "question": "How do you say 'A red chair' in Kikuyu?",
       "options": [
-        "Emba",
-        "Tonto",
-        "Riri",
-        "Embariri"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The correct adjectival form derived from 'Embariri' (red) is 'Riri', which attaches directly to a noun when describing color."
-    },
-    {
-      "question": "Which Ekegusii color adjective would best describe 'a white fish'?",
-      "options": [
-        "Endabuse",
-        "Endabu",
-        "Emwabu",
-        "Gesicha"
+        "Gĩtĩ kĩeru",
+        "Gĩtĩ gĩtune",
+        "Gĩtĩ njirũ",
+        "Gĩtĩ ngirini"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Endabu’ means ‘white’ and correctly describes ‘a white fish’ in Ekegusii."
+      "explanation": "The correct phrase is 'Gĩtĩ gĩtune', where 'gĩtune' means 'red' and 'Gĩtĩ' means 'chair'."
     },
     {
-      "question": "The Ekegusii adjective 'motobu' is culturally derived from which of the following sources?",
+      "question": "Which Kikuyu adjective means black?",
       "options": [
-        "Brown soil",
-        "Indigo dye",
-        "Egg yolk",
-        "Palm fruit"
+        "-ĩeru",
+        "-iru",
+        "-tune",
+        "ngirini"
       ],
-      "correctAnswer": 2,
-      "explanation": "‘Motobu’ refers to a yellowish hue and is derived from the natural color of an egg yolk in Ekegusii culture."
+      "correctAnswer": 1,
+      "explanation": "The adjective '-iru' means 'black' in Kikuyu, used to describe objects or people with dark coloration."
     },
     {
-      "question": "If you were describing clothing that is both black and white in Ekegusii, which adjective would you most accurately use?",
+      "question": "What is the correct Kikuyu phrase for 'White goat'?",
       "options": [
-        "Endabu",
-        "monyinga",
-        "matonto",
-        "Emwamu"
+        "Mbũri kĩeru",
+        "Mbũri njeru",
+        "Mbũri mutune",
+        "Mbũri ndigo"
       ],
-      "correctAnswer": 2,
-      "explanation": "‘Matonto’ describes a mixed or spotted black-and-white appearance, suitable for clothing or animal coats."
+      "correctAnswer": 1,
+      "explanation": "'Mbũri njeru' means 'white goat', where 'njeru' is the color adjective for 'white'."
     },
     {
-      "question": "What is the semantic significance of the Ekegusii adjective 'endabu' beyond its literal meaning?",
+      "question": "If you want to describe 'Blue clothes', which phrase is correct?",
       "options": [
-        "Associated with royalty",
-        "Symbol of darkness and mystery",
-        "Reflects abundance and richness",
-        "Linked with purity and cleanliness"
-      ],
-      "correctAnswer": 3,
-      "explanation": "‘Endabu’ (white) symbolizes purity and cleanliness in Ekegusii cultural interpretation, beyond its literal color meaning."
-    },
-    {
-      "question": "Which of the following is NOT a valid root form of Ekegusii color adjective?",
-      "options": [
-        "Obonyansi",
-        "Emwamu",
-        "Rira",
-        "Mwama"
-      ],
-      "correctAnswer": 3,
-      "explanation": "‘Mwama’ is not a valid root for color adjectives in Ekegusii, while the others are recognized roots or derived forms."
-    },
-    {
-      "question": "Choose the correct example of a noun modified by the color adjective for brown.",
-      "options": [
-        "Omochanga maraba — “Brown sand soil”",
-        "Ekerogo Ekerabu — “Brown chair”",
-        "Enswe embariri — “Brown fish”",
-        "Embori emwamu — “Brown goat”"
+        "Ngũo buluu",
+        "Ngũo thamba",
+        "Ngũo gĩtĩiri",
+        "Ngũo gĩtune"
       ],
       "correctAnswer": 0,
-      "explanation": "‘Omochanga maraba’ correctly combines the noun ‘Omochanga’ (sand soil) with ‘maraba’ (brown), forming a valid color description."
+      "explanation": "The borrowed adjective 'buluu' from English means 'blue', so 'Ngũo buluu' translates as 'blue clothes'."
     },
     {
-      "question": "What is the likely meaning of the phrase 'Chianga chinchembera' based on the morphological rules described?",
+      "question": "In Kikuyu, the adjective 'gakarakara' comes from which cultural reference?",
       "options": [
-        "Blue paper",
-        "Blue dress",
-        "Blue chair",
-        "Blue clothes"
-      ],
-      "correctAnswer": 3,
-      "explanation": "‘Chianga chinchembera’ means ‘blue clothes,’ derived from ‘chinchembera’ (blue), following proper agreement rules."
-    },
-    {
-      "question": "The color adjective 'monyinga' is most closely associated with which cultural concept?",
-      "options": [
-        "Modesty",
-        "Royalty and rich tones",
-        "Hard work",
-        "Mourning"
+        "Banana leaf",
+        "Egg yolk",
+        "Tree bark",
+        "Soil"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Monyinga’ symbolizes richness and royalty, representing deep and vibrant tones in Ekegusii color symbolism."
+      "explanation": "The adjective 'gakarakara' (orange) comes from the color of an egg yolk, a common Kikuyu cultural reference."
     },
     {
-      "question": "Which Ekegusii adjective would appropriately describe vegetables with a natural green hue?",
+      "question": "Which one correctly translates 'Green farm/vegetation'?",
       "options": [
-        "motobu",
-        "machani",
-        "Chimwamu",
-        "Chindabu"
+        "Mũgũnda njirũ",
+        "Mũgũnda ngirini",
+        "Mũgũnda gĩtune",
+        "Mũgũnda ndigo"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Machani’ means ‘green’ and is the correct adjective for describing naturally green vegetables in Ekegusii."
+      "explanation": "The word 'ngirini' means 'green', making 'Mũgũnda ngirini' the correct phrase for 'green farm' or 'green vegetation'."
+    },
+    {
+      "question": "If someone wears indigo clothing, how would you say it in Kikuyu?",
+      "options": [
+        "Ngũo ndigo",
+        "Ngũo mutune",
+        "Ngũo gakarakara",
+        "Ngũo mweru"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'ndigo' means 'indigo', so 'Ngũo ndigo' translates as 'indigo clothes'."
+    },
+    {
+      "question": "Which Kikuyu adjective of color is associated with royalty and elegance?",
+      "options": [
+        "thamba (purple)",
+        "buluu (blue)",
+        "ndigo (indigo)",
+        "gĩtĩiri (brown)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'thamba' means 'purple', a color traditionally associated with royalty and elegance in Kikuyu culture."
+    },
+    {
+      "question": "How would you say 'Black and white chair' in Kikuyu?",
+      "options": [
+        "Gĩtĩ kĩeru na kĩtũ",
+        "Gĩtĩ buluu",
+        "Gĩtĩ gĩtĩiri",
+        "Gĩtĩ thamba"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Gĩtĩ kĩeru na kĩtũ' combines 'kĩeru' (white) and 'kĩtũ' (black) to mean 'black and white chair'."
+    },
+    {
+      "question": "Which Kikuyu term traditionally refers to brown, often linked to the color of soil?",
+      "options": [
+        "gĩtĩiri",
+        "ndigo",
+        "mutune",
+        "ngirini"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The term 'gĩtĩiri' refers to the color brown, often associated with earth or soil in Kikuyu descriptions."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.1.4 Adjectives & their Plural",
-              "htmlContent": "kisii/beginner/module-three/4.html",
+              "htmlContent": "kikuyu/beginner/module-three/4.html",
               "order": 4,
               "_id": {
-      "$oid": "6891d48461021d79403e5e1b"
+      "$oid": "6891d48461021d79403e5e3a"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following is the correct plural phrase for “a short chair” in Ekegusii?",
+      "question": "In Kikuyu, what is the core mechanism for pluralizing adjectives?",
       "options": [
-        "Ekerogo egetambe",
-        "Ekerogo ekieng’e",
-        "Ekerogo ebieng’e",
-        "Ekerogo ekenene"
+        "Changing the vowel at the end of the root",
+        "Prefix alternation matching the noun class",
+        "Adding the suffix -ini to the adjective",
+        "Replacing the root with a plural stem"
       ],
       "correctAnswer": 1,
-      "explanation": "The correct plural phrase is 'Ekerogo ekieng’e', where 'ekieng’e' properly agrees with the plural noun form."
+      "explanation": "Adjectives in Kikuyu pluralize through prefix alternation that agrees with the noun class of the head noun."
     },
     {
-      "question": "In Ekegusii, which of the following adjectives does not inflect for plurality?",
+      "question": "Which pair correctly illustrates singular–plural adjective agreement?",
       "options": [
-        "Abaya",
-        "Abake",
-        "Obuya",
-        "Ebinene"
+        "Mũndũ mũnene → Andũ anene",
+        "Mũndũ mũnene → Mĩndũ minene",
+        "Gĩti gĩkũrũ → Gĩti gĩkũrũ",
+        "Mũtĩ mũgũthi → Awarĩ agũthi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'Mũndũ mũnene → Andũ anene' shows proper agreement: both noun and adjective prefixes change to reflect plural noun class."
+    },
+    {
+      "question": "Which of the following adjectives remains unchanged in the plural?",
+      "options": [
+        "mũnene (big)",
+        "gĩkũrũ (old)",
+        "ngirini (green)",
+        "mũũru (bad)"
       ],
       "correctAnswer": 2,
-      "explanation": "‘Obuya’ does not inflect for plurality, meaning it stays the same in both singular and plural forms."
+      "explanation": "Colour adjectives like 'ngirini' (green) are invariable in Kikuyu and do not change form in the plural."
     },
     {
-      "question": "What is the correct plural form of the adjective “ekerabu” (white)?",
+      "question": "What is the plural of 'Mũtĩ mũkuhĩ' ('a short tree')?",
       "options": [
-        "Ebimwamu",
-        "Ebirabu",
-        "Ebibariri",
-        "Ebiya"
+        "Mĩti mĩkũhĩ",
+        "Mĩtĩ mũgũthi",
+        "Miti agũthi",
+        "Mĩti mĩũru"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The plural form 'Mĩti mĩkũhĩ' matches the class 4 plural prefix 'mĩ-' for both noun and adjective."
+    },
+    {
+      "question": "The adjective 'mũũru' ('bad') pluralizes to:",
+      "options": [
+        "anene",
+        "oru",
+        "maũru",
+        "mĩũru"
       ],
       "correctAnswer": 1,
-      "explanation": "The plural of 'ekerabu' is 'ebirabu', following the regular pluralization pattern for adjectives."
+      "explanation": "In Kikuyu, 'mũũru' changes to 'oru' in the plural, following the prefix alternation rule for its noun class."
     },
     {
-      "question": "Choose the correct transformation from singular to plural: “Omoiseke omonyakieni” (a beautiful girl).",
+      "question": "Which of the following demonstrates invariable colour terms?",
       "options": [
-        "Abaiseke babere",
-        "Abaiseke abaya",
-        "Abaiseke abanyakieni",
-        "Abaiseke abanene"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The correct plural is 'Abaiseke abanyakieni', showing proper agreement between noun and adjective."
-    },
-    {
-      "question": "Which of the following noun–adjective pairs is mismatched in plural agreement?",
-      "options": [
-        "Ekerandi egeke → Ebirandi ebike",
-        "Omoiseke omonyakieni → Abaiseke abanyakieni",
-        "Ekerogo ekieng’e → Ebirogo ebieng’e",
-        "Enyange enke → Chinyange chinene"
-      ],
-      "correctAnswer": 3,
-      "explanation": "‘Enyange enke → Chinyange chinene’ is mismatched because the adjective does not properly align with the plural form of the noun."
-    },
-    {
-      "question": "In Ekegusii morphosyntax, what feature primarily triggers adjective inflection?",
-      "options": [
-        "Verb tense",
-        "Gender",
-        "Number",
-        "Mood"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Adjective inflection in Ekegusii is primarily triggered by number agreement with the noun."
-    },
-    {
-      "question": "Which of the following adjectives remains invariant in both singular and plural noun phrases?",
-      "options": [
-        "Ekebe",
-        "Obuya",
-        "Ekenene",
-        "Ekemwamu"
+        "mũtĩ mwerũ→ Mĩti mierũ",
+        "Thani ya ngirini → Mathani ma ngirini",
+        "Mũndũ mũtune → Andũ atune",
+        "Mũgima → Agima"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Obuya’ is invariant, meaning it does not change regardless of the noun’s number."
+      "explanation": "Colour terms like 'ngirini' (green) do not change in plural forms, as seen in 'Thani ya ngirini → Mathani ma ngirini'."
     },
     {
-      "question": "Identify the correct plural adjective form for “Egetambe” (tall/long).",
+      "question": "Which semantic category of adjectives is most likely to remain non-inflecting in Kikuyu?",
       "options": [
-        "Abange",
-        "Abake",
-        "Ebitambe",
-        "Ebinene"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The plural form of 'Egetambe' is 'Ebitambe', following the pattern for pluralizing adjectives describing size or length."
-    },
-    {
-      "question": "Based on the semantic classification provided, which adjective is linked to taste or emotion rather than size or color?",
-      "options": [
-        "Ekemwamu",
-        "Enyansu",
-        "Ebike",
-        "Ebirabu"
+        "Size",
+        "Taste/Colour",
+        "Quality/Morality",
+        "Quantity"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Enyansu’ refers to qualities associated with taste or emotion, distinguishing it from adjectives of size or color."
+      "explanation": "Adjectives expressing taste and colour, such as 'ngirini' (green) or 'thaka' (sweet), typically remain invariable in Kikuyu."
     },
     {
-      "question": "What linguistic implication can be drawn from the existence of invariant adjectives in Ekegusii?",
+      "question": "Identify the correct plural for 'Mũndũ mũthĩĩni' ('a poor person').",
       "options": [
-        "Adjective forms are arbitrary in Ekegusii.",
-        "Ekegusii adjectives have no grammatical agreement rules.",
-        "Cultural or sensory descriptors resist inflection in some cases.",
-        "Invariant adjectives only apply to animate nouns."
+        "Andũ athĩĩni",
+        "Andũ anene",
+        "Mĩndũ mithĩĩni",
+        "Andũ mĩthĩĩni"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct plural form 'Andũ athĩĩni' shows concordial agreement, with both noun and adjective adopting class 2 plural prefixes."
+    },
+    {
+      "question": "Which example best represents an inflecting adjective?",
+      "options": [
+        "thaka (sweet)",
+        "mũgathĩ (sour)",
+        "mũnene (big)",
+        "ngirini (green)"
       ],
       "correctAnswer": 2,
-      "explanation": "Invariant adjectives suggest that certain cultural or sensory descriptors in Ekegusii resist inflection, reflecting semantic rather than grammatical constraints."
+      "explanation": "The adjective 'mũnene' (big) inflects for number, becoming 'anene' in plural contexts."
+    },
+    {
+      "question": "What linguistic principle is illustrated by 'Mwarĩ mũũru → Awarĩ oru'?",
+      "options": [
+        "Optional agreement between noun and adjective",
+        "Independent pluralization of the noun",
+        "Obligatory concordial agreement between noun and adjective",
+        "Adjectives used as nouns in plural"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The change from 'Mwarĩ mũũru' to 'Awarĩ oru' demonstrates obligatory concordial agreement between noun and adjective in Kikuyu grammar."
     }
   ],
               "passingScore": 50
@@ -505,9 +505,9 @@
           "type": "standalone",
           "order": 2,
           "_id": {
-      "$oid": "6891d48461021d79403e5e1c"
+      "$oid": "6891d48461021d79403e5e3b"
     },
-          "htmlContent": "kisii/beginner/module-three/5.html",
+          "htmlContent": "kikuyu/beginner/module-three/5.html",
           "passingScore": 50
         },
         {
@@ -515,222 +515,207 @@
           "type": "container",
           "order": 3,
           "_id": {
-      "$oid": "6891d48461021d79403e5e1d"
+      "$oid": "6891d48461021d79403e5e3c"
     },
           "subtopics": [
             {
               "title": "3.3.1 Introduction to Comparatives",
-              "htmlContent": "kisii/beginner/module-three/6.html",
+              "htmlContent": "kikuyu/beginner/module-three/6.html",
               "order": 1,
               "_id": {
-      "$oid": "6891d48461021d79403e5e1e"
+      "$oid": "6891d48461021d79403e5e3d"
     },
               "practiceQuestions": [
     {
-      "question": "Which Gusii adjective correctly transforms into the comparative form ekiya?",
-      "options": ["egiansu", "ekiya mono", "ekiya’ke", "ekieng’e"],
-      "correctAnswer": 2,
-      "explanation": "The adjective 'ekiya’ke' is the correct comparative form derived from 'ekiya', showing a comparative relationship."
+      "question": "Which Kikuyu particle signals a relative comparison (e.g., taller, bigger)?",
+      "options": ["ta", "kūrĩ ✅", "na", "rĩa"],
+      "correctAnswer": 1
     },
     {
-      "question": "Which of the following sentences correctly illustrates the use of 'buna eke' to compare equality?",
+      "question": "Which sentence correctly expresses equality in Kikuyu?",
       "options": [
-        "Eke negiansu kobua eke",
-        "Oyo nomonyakieni buna oyo",
-        "Eke negetambe buna eke",
-        "Eke negetambe kobua eke"
+        "Mũndũ ũyũ nĩ mũnene kūrĩ ũcio.",
+        "Mũndũ ũyũ nĩ mũnene ta ũcio. ✅",
+        "Mũndũ ũyũ nĩ mũnene na ũcio.",
+        "Mũndũ ũyũ nĩ mũnene rĩa."
       ],
-      "correctAnswer": 2,
-      "explanation": "The sentence 'Eke negetambe buna eke' correctly uses 'buna eke' to show equality in comparison."
+      "correctAnswer": 1
     },
     {
-      "question": "What is the most accurate English translation of 'Oyo nomong’aini buna oria' based on the provided context?",
+      "question": "The comparative of mũega (“good”) is:",
+      "options": ["njega kūrĩ", "wega kūrĩ ✅", "mũega ta", "njega na"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which construction matches the syntactic template of a relative comparison?",
       "options": [
-        "This is cleverer than that one",
-        "This is as wise as that one",
-        "This is the wisest one",
-        "This is as tall as that one"
+        "NP₁ nĩ [Adj] ta NP₂",
+        "NP₁ nĩ [Adj] kūrĩ NP₂ ✅",
+        "NP₁ nĩ NP₂ Adj",
+        "Adj + NP₂ + kūrĩ"
       ],
-      "correctAnswer": 1,
-      "explanation": "The phrase 'Oyo nomong’aini buna oria' translates to 'This is as wise as that one,' showing equality rather than superiority."
+      "correctAnswer": 1
     },
     {
-      "question": "Which option shows a correct pairing of a positive adjective and its comparative form?",
-      "options": ["ekebe → ebibe", "egiansu → ebiansu", "ekiya → ekiya ake", "omong’aini → abang’aini"],
-      "correctAnswer": 2,
-      "explanation": "The adjective 'ekiya' becomes 'ekiya ake' in its comparative form, maintaining the root while adding the comparative marker."
-    },
-    {
-      "question": "Which structure would be most appropriate for comparing two things as equal in sweetness?",
+      "question": "How is intensification expressed in Kikuyu comparative adjectives?",
       "options": [
-        "Eke negiansu kobua eke",
-        "Eke negiansu buna eke",
-        "Eke nekiya buna eke",
-        "Eke nekiya kobua eke"
+        "By suffixing -ini",
+        "By reduplication of the adjective ✅",
+        "By repeating the particle kūrĩ",
+        "By prefix alternation"
       ],
-      "correctAnswer": 1,
-      "explanation": "The sentence 'Eke negiansu buna eke' uses 'buna' to express equality, meaning 'as sweet as.'"
+      "correctAnswer": 1
     },
     {
-      "question": "What is the primary morphological pattern observed in forming comparatives from adjectives in Ekegusii?",
+      "question": "What is the correct Kikuyu form of “This banana is sweeter than that one”?",
       "options": [
-        "Addition of 'eke' as a prefix",
-        "Reduction of the syllable",
-        "Doubling the last consonant",
-        "Inversion of the vowel sequence"
+        "Njaũ ĩno nĩ thaka kūrĩ ĩrĩa. ✅",
+        "Njaũ ĩno nĩ thaka ta ĩrĩa.",
+        "Njaũ ĩno nĩ thakarĩ ĩrĩa.",
+        "Njaũ ĩno nĩ mũthaka na ĩrĩa."
       ],
-      "correctAnswer": 1,
-      "explanation": "In Ekegusii, comparatives often show morphological reduction or simplification, typically through syllable reduction rather than addition."
+      "correctAnswer": 0
     },
     {
-      "question": "Which of the following is not a valid comparative form based on the material?",
-      "options": ["egetambe", "egiansu", "omonyakieni", "ekiya"],
-      "correctAnswer": 2,
-      "explanation": "'Omonyakieni' is not a comparative form but a noun meaning 'a wise person'; the others are valid adjective forms."
-    },
-    {
-      "question": "Which Ekegusii comparative sentence best translates to 'This is worse than that one'?",
+      "question": "Which adjective pair shows the correct positive → comparative relation?",
       "options": [
-        "Eke nekebe kobua keria",
-        "Eke nekebe mono kobua keria",
-        "Eke nekiya kobua keria",
-        "Eke nekebe buna keria"
+        "mũũru → ũũru kūrĩ ✅",
+        "thaka → mũthaka kūrĩ",
+        "mũnene → mũnene rĩa",
+        "mũrĩki → mũrĩki ta"
       ],
-      "correctAnswer": 1,
-      "explanation": "The phrase 'Eke nekebe mono kobua keria' means 'This is worse than that one,' where 'mono' intensifies the comparison."
+      "correctAnswer": 0
     },
     {
-      "question": "Why is 'buna' significant in Abagusii comparative grammar?",
+      "question": "What distinguishes Kikuyu comparative formation from internal morphological systems (like in Luo)?",
       "options": [
-        "It forms the superlative of adjectives",
-        "It is used to express equality between two entities",
-        "It marks possession in comparative structures",
-        "It turns adjectives into verbs"
+        "Kikuyu uses suffix alternation",
+        "Kikuyu employs tonal change",
+        "Kikuyu relies on analytic strategy with particles ✅",
+        "Kikuyu uses reduplication exclusively"
       ],
-      "correctAnswer": 1,
-      "explanation": "'Buna' is a key comparative marker used in Ekegusii to indicate equality, similar to 'as...as' in English."
+      "correctAnswer": 2
     },
     {
-      "question": "Which of the following statements best reflects the cultural-linguistic insight drawn from Gusii comparative usage?",
+      "question": "Which of the following carries strong cultural and moral evaluation when used in Kikuyu comparisons?",
       "options": [
-        "Ekegusii language limits comparisons to physical traits",
-        "Comparisons in Gusii mostly emphasize animals and nature",
-        "Gusii comparisons often reflect moral and personality traits",
-        "Abagusii comparatives are only used in poetic or ceremonial speech"
+        "thaka (sweet)",
+        "mũraihu (tall)",
+        "mũega / mũũru ✅",
+        "mũrũgũ (foolish)"
       ],
-      "correctAnswer": 2,
-      "explanation": "Comparative expressions in Ekegusii frequently highlight moral and personal qualities, reflecting the community’s cultural values."
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which diagnostic test best identifies a relative comparative in Kikuyu?",
+      "options": [
+        "Presence of reduplication",
+        "Presence of ta before NP₂",
+        "Presence of kūrĩ after the adjective ✅",
+        "Presence of prefix alternation in the adjective"
+      ],
+      "correctAnswer": 2
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.3.2 Comparison of two things & Superlatives",
-              "htmlContent": "kisii/beginner/module-three/7.html",
+              "htmlContent": "kikuyu/beginner/module-three/7.html",
               "order": 2,
               "_id": {
-      "$oid": "6891d48461021d79403e5e1f"
+      "$oid": "6891d48461021d79403e5e3e"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following correctly uses the superlative form of the adjective enyansu (sweet)?",
-      "options": ["Enyansu kegima", "Enyansu kobua", "Enyansu naende", "Enyansu bobe"],
-      "correctAnswer": 1,
-      "explanation": "The phrase 'Enyansu kobua' expresses the superlative degree, meaning 'the sweetest of all.'"
+      "question": "Which marker in Kikuyu is used specifically to introduce the second entity in a comparative construction?",
+      "options": ["ta", "mũno", "kūrĩ ✅", "othe"],
+      "correctAnswer": 2
     },
     {
-      "question": "In the phrase 'buna keria', what grammatical structure is being expressed?",
+      "question": "What is the correct Kikuyu structure for the sentence “This tree is taller than that one”?",
       "options": [
-        "A superlative comparison",
-        "A moral judgment",
-        "A comparison of equality",
-        "An intensifier"
+        "Mũtĩ ũyũ nĩ mũraihu ta ũcio.",
+        "Mũtĩ ũyũ nĩ mũraihu kūrĩ ũcio. ✅",
+        "Mũtĩ ũyũ nĩ mũraihu kūrĩ othe.",
+        "Mũtĩ ũyũ nĩ mũraihu mũno."
       ],
-      "correctAnswer": 2,
-      "explanation": "'Buna keria' indicates a comparison of equality, equivalent to 'as...as' in English."
+      "correctAnswer": 1
     },
     {
-      "question": "Which of the following sentences uses a morphological comparative form where the adjective root is shortened?",
+      "question": "In Kikuyu, the phrase kūrĩ othe expresses which grammatical function?",
       "options": [
-        "Eke negiansu kobua bionsi",
-        "Eke negiansu buna keria",
-        "Eke nekiya kobua keria",
-        "Ere nomong’aini komobua"
+        "Equality comparison",
+        "High-degree intensification",
+        "Relative comparison",
+        "Superlative degree ✅"
       ],
-      "correctAnswer": 2,
-      "explanation": "In 'Eke nekiya kobua keria', the adjective root 'ekiya' is shortened to 'nekiya', forming a comparative."
+      "correctAnswer": 3
     },
     {
-      "question": "What is the meaning of 'Omogondo one nomonene kobua oyogo'?",
+      "question": "Which of the following is the superlative form of mũega (good) in Kikuyu?",
       "options": [
-        "My farm is the largest of all.",
-        "My farm is bigger than yours.",
-        "My land is the most fertile.",
-        "My house is newer than his."
+        "mũega ta ũrĩa",
+        "njega kūrĩ othe ✅",
+        "njega mũno",
+        "njega kūrĩ"
       ],
-      "correctAnswer": 1,
-      "explanation": "The sentence 'Omogondo one nomonene kobua oyogo' translates as 'My farm is bigger than yours,' showing a comparative structure."
+      "correctAnswer": 1
     },
     {
-      "question": "Identify the correct Ekegusii sentence for: 'This is as tall as that one.'",
+      "question": "How would you correctly translate “This banana is sweeter than that one” into Kikuyu?",
       "options": [
-        "Oyo nomonene kobua oria",
-        "Oyo nomotambe buna oria",
-        "Oyo nomotambe buna oria",
-        "Oyo nomonene kobua oria"
+        "Irigũ rĩrĩ nĩ rĩthaka ta rĩrĩa.",
+        "Irigũ rĩrĩ nĩ rĩthaka kūrĩ rĩrĩa. ✅",
+        "Irigũ rĩrĩ nĩ rĩthaka mũno.",
+        "Irigũ rĩrĩ nĩ rĩthaka kūrĩ othe."
       ],
-      "correctAnswer": 2,
-      "explanation": "The sentence 'Oyo nomotambe buna oria' correctly expresses equality using 'buna' to mean 'as tall as.'"
+      "correctAnswer": 1
     },
     {
-      "question": "Which adjective does not change form when expressing comparative degree?",
-      "options": ["Negiansu", "Ekebe", "Obuya", "Ekiya"],
-      "correctAnswer": 2,
-      "explanation": "The adjective 'Obuya' remains the same in both positive and comparative forms, showing no morphological change."
-    },
-    {
-      "question": "What does the structure 'kobua onsi' convey in Ekegusii grammar?",
+      "question": "Which of the following Kikuyu sentences demonstrates an equality comparison?",
       "options": [
-        "A literal comparison",
-        "A neutral comparison",
-        "The highest degree of quality",
-        "An equality of two qualities"
+        "Mũndũ ũyũ nĩ mũnene kūrĩ ũcio.",
+        "Mũndũ ũyũ nĩ mũnene ta ũcio. ✅",
+        "Mũndũ ũyũ nĩ mũnene kūrĩ othe.",
+        "Mũndũ ũyũ nĩ mũnene mũno."
       ],
-      "correctAnswer": 2,
-      "explanation": "The phrase 'kobua onsi' marks the superlative degree, expressing 'the highest degree' or 'the best of all.'"
+      "correctAnswer": 1
     },
     {
-      "question": "Choose the correct translation of 'Enchera eye nentambe kobua eria.'",
+      "question": "What Kikuyu expression would best render “the newest”?",
       "options": [
-        "This road is the longest of all.",
-        "That road is better than this one.",
-        "This way is longer than that one.",
-        "This path is equally long."
+        "njerũ mũno",
+        "njerũ ta rĩrĩa",
+        "njerũ kūrĩ othe ✅",
+        "njerũ kūrĩ"
       ],
-      "correctAnswer": 2,
-      "explanation": "The sentence 'Enchera eye nentambe kobua eria' translates to 'This way is longer than that one,' showing a comparative structure."
+      "correctAnswer": 2
     },
     {
-      "question": "Which of the following sentences best demonstrates the use of an intensifier in Ekegusii?",
-      "options": [
-        "Ere nomuya buna ere",
-        "Ere nomong’aini kobua bonsi",
-        "Ere nomong’aini komobua",
-        "Nomong’aini kobua"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The phrase 'Ere nomong’aini kobua bonsi' includes 'bonsi' (all), which acts as an intensifier emphasizing the comparison."
+      "question": "Which intensifier is most commonly used in Kikuyu to mean “very”?",
+      "options": ["kūrĩ", "othe", "ta", "mũno ✅"],
+      "correctAnswer": 3
     },
     {
-      "question": "Which comparative structure is used to express 'His wife is better than theirs' in Ekegusii?",
+      "question": "If a Kikuyu elder is described as mũnene kūrĩ othe, what is the implied cultural interpretation?",
       "options": [
-        "Omorugi nomong’aini kobua babo",
-        "Omorugi oye nomobe kobua babo",
-        "Omorugi oye nomuya kobua babo",
-        "Omorigi oye nomoriri kobua babo"
+        "He is slightly bigger than another elder.",
+        "He is the most influential or prominent elder. ✅",
+        "He is as big as all the other elders.",
+        "He is foolish and rude."
       ],
-      "correctAnswer": 2,
-      "explanation": "The sentence 'Omorugi oye nomuya kobua babo' correctly expresses 'His wife is better than theirs' using the comparative 'nomuya kobua.'"
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which sentence correctly shows the use of intensification rather than comparison?",
+      "options": [
+        "Njĩra ĩno nĩ njega kūrĩ ĩrĩa.",
+        "Njĩra ĩno nĩ njega ta ĩrĩa.",
+        "Riũa nĩ rĩhiũ mũno! ✅",
+        "Njĩra ĩno nĩ njega kūrĩ othe."
+      ],
+      "correctAnswer": 2
     }
   ],
               "passingScore": 50
@@ -742,197 +727,201 @@
           "type": "container",
           "order": 4,
           "_id": {
-      "$oid": "6891d48461021d79403e5e20"
+      "$oid": "6891d48461021d79403e5e3f"
     },
           "subtopics": [
             {
-              "title": "3.4.1 Introduction && 3.4.2 Infinitive verbs",
-              "htmlContent": "kisii/beginner/module-three/8.html",
+              "title": "3.4.1 Introduction to Verbs in Kikuyu",
+              "htmlContent": "kikuyu/beginner/module-three/intro.html",
               "order": 1,
               "_id": {
-      "$oid": "6891d48461021d79403e5e21"
+      "$oid": "6891d48461021d79403e5e40"
+    },
+              "passingScore": 50
+            },
+            {
+              "title": "3.4.2 Infinitive verbs",
+              "htmlContent": "kikuyu/beginner/module-three/8.html",
+              "order": 2,
+              "_id": {
+      "$oid": "6891d48461021d79403e5e41"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following is the correct infinitive form in Ekegusii?",
-      "options": ["Omworokia", "Ikaransa", "beire", "Inche"],
-      "correctAnswer": 2,
-      "explanation": "The verb 'beire' is the correct infinitive form in Ekegusii, typically ending in '-e' or '-ire' to indicate the infinitive state."
+      "question": "Which prefix marks the infinitive in Kikuyu verbs?",
+      "options": ["-o", "kũ- ✅", "nĩ-", "mũ-"],
+      "correctAnswer": 1
     },
     {
-      "question": "Which sentence below correctly demonstrates the present indicative structure using a plural subject?",
-      "options": ["Inwe nabamwabo", "Ere ngogenda are", "Barabwo nabanairobi", "Aye noyonairobi"],
-      "correctAnswer": 2,
-      "explanation": "The sentence 'Barabwo nabanairobi' uses the plural subject 'Barabwo' correctly with the copula 'na', forming a valid present indicative structure."
+      "question": "Which form is the applicative extension meaning “to write for (someone)”?",
+      "options": ["kũnyuithia", "kũhũtha", "kũandĩkĩra ✅", "kũrĩwo"],
+      "correctAnswer": 2
     },
     {
-      "question": "What distinguishes the verb 'to be' in Ekegusii from regular infinitive verbs?",
+      "question": "Which verbal extension indicates a reflexive action (doing something to oneself)?",
+      "options": ["kũhoyanĩra", "kũhũtha ✅", "kũnyuithia", "kũhandĩkĩra"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which sentence expresses the existential sense “There is a person here”?",
       "options": [
-        "It has a prefix only.",
-        "It ends in '-yo' like all other verbs.",
-        "It takes no subject.",
-        "It does not end in '-a' or '-bi' and is marked by 'N'."
+        "Nĩĩ nĩ mũrutwo.",
+        "Nĩ mũratai wakwa.",
+        "Kũrĩ mũndũ haha. ✅",
+        "Kũrĩa mũndũ haha."
       ],
-      "correctAnswer": 3,
-      "explanation": "The verb 'to be' in Ekegusii is irregular because it does not follow the '-a' or '-bi' infinitive pattern and is represented by 'N', which links subjects and complements."
+      "correctAnswer": 2
     },
     {
-      "question": "What role does the particle 'e' play in the sentence 'Inche n’epresidenti'?",
+      "question": "What is the irregular infinitive form meaning “to be” in Kikuyu?",
+      "options": ["kũrĩ ✅", "kũrĩa", "nĩ", "kũra"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which item functions as the present-tense copula (the form of “to be” used with subjects)?",
+      "options": ["kũ-", "nĩ ✅", "kũrĩ", "mũno"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which example from the data means “We are Kikuyus”?",
       "options": [
-        "It marks the object.",
-        "It is the subject of the sentence.",
-        "It functions as the copula (linking verb).",
-        "It is a pronoun modifier."
+        "We nĩ mwarimũ.",
+        "Inyuĩ nĩ arutani.",
+        "Ithũe nĩ Agĩkũyũ. ✅",
+        "Nĩĩ nĩ mũrutwo."
       ],
-      "correctAnswer": 2,
-      "explanation": "In 'Inche n’epresidenti', the particle 'e' functions as the copula, linking the subject 'Inche' to the complement 'presidenti'."
+      "correctAnswer": 2
     },
     {
-      "question": "Which of the following best represents the correct subject-pronoun pair for 'You (plural)' in Ekegusii?",
-      "options": ["Inche", "Inwe", "Barabwo", "Ere"],
-      "correctAnswer": 1,
-      "explanation": "The pronoun 'Inwe' is the correct form for 'You (plural)' in Ekegusii, used when addressing more than one person."
+      "question": "Which verbal extension indicates a reciprocal (mutual) action?",
+      "options": ["kũrĩwo", "kũhoyanĩra ✅", "kũhũtha", "kũhandĩkĩra"],
+      "correctAnswer": 1
     },
     {
-      "question": "Why is 'Intwe n’abagusii' grammatically accurate in Ekegusii?",
+      "question": "What is the canonical structure of a simple indicative sentence in Kikuyu (present tense)?",
       "options": [
-        "'N’abagusii' is a verb phrase.",
-        "'Intwe' takes the plural copula 'n'.",
-        "'Intwe' always uses 'e' as the verb.",
-        "It uses an infinitive ending in '-o'."
+        "[Verb infinitive] + [Object]",
+        "[Subject] + kũ- + [Verb]",
+        "[Subject] + nĩ + [Predicate/Object] ✅",
+        "[Predicate] + nĩ + [Subject]"
       ],
-      "correctAnswer": 1,
-      "explanation": "The sentence 'Intwe n’abagusii' is correct because the plural subject 'Intwe' pairs with the plural copula 'n', showing agreement in number."
+      "correctAnswer": 2
     },
     {
-      "question": "Which of the following is not a correct feature of the Ekegusii verb 'to be'?",
+      "question": "Which statement correctly captures the contrast between Kikuyu and Dholuo verb forms given in the data?",
       "options": [
-        "It varies by subject pronoun.",
-        "It always ends in 'n' in the present tense.",
-        "It conforms to the '-a' infinitive ending.",
-        "It expresses identity and profession."
+        "Kikuyu infinitives end in -o; Dholuo verbs begin with kũ-.",
+        "Both Kikuyu and Dholuo use kũ- for infinitives.",
+        "Kikuyu infinitives begin with kũ- while Dholuo verbs often end in -o. ✅",
+        "Dholuo verbs are identical to Kikuyu verbs in prefixing."
       ],
-      "correctAnswer": 2,
-      "explanation": "The Ekegusii 'to be' verb does not follow the regular '-a' infinitive ending, making option C the incorrect feature."
-    },
-    {
-      "question": "Identify the sentence that correctly demonstrates the use of the third person singular subject with the verb 'to be'.",
-      "options": [
-        "Ere nomworokia",
-        "Inche n’omokenya",
-        "Barabwo Naborokia",
-        "Aye nomwworokia"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The sentence 'Ere nomworokia' correctly uses 'Ere' (he/she) as the third person singular subject with the copula 'no'."
-    },
-    {
-      "question": "Which of the following pairings is correctly matched with its grammatical role?",
-      "options": ["Oria – 2nd person singular", "Barabwoi – 3rd person plural", "Baria – 3rd person singular", "Aba – 1st person singular"],
-      "correctAnswer": 1,
-      "explanation": "The form 'Barabwoi' corresponds to the third person plural, meaning 'they', and is correctly paired with its grammatical role."
-    },
-    {
-      "question": "Based on Ekegusii grammar, which option best explains the use of 'N' in identity statements?",
-      "options": [
-        "It is an adjective",
-        "It indicates a future event",
-        "It acts as the copula for linking subject to identity",
-        "It marks plural objects"
-      ],
-      "correctAnswer": 2,
-      "explanation": "In Ekegusii, 'N' serves as a copula that links the subject and predicate noun or adjective, expressing identity or state."
+      "correctAnswer": 2
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.4.3 Verb Conjugation (Verb to be) & (to have)",
-              "htmlContent": "kisii/beginner/module-three/9.html",
-              "order": 2,
+              "htmlContent": "kikuyu/beginner/module-three/9.html",
+              "order": 3,
               "_id": {
-      "$oid": "6891d48461021d79403e5e22"
+      "$oid": "6891d48461021d79403e5e42"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following best explains why the sentence 'Endagera enyansu!' does not include a verb in Ekegusii?",
+      "question": "Which of the following best distinguishes the two Kikuyu verbs for “to be”?",
       "options": [
-        "Ekegusii uses auxiliary verbs for taste descriptors.",
-        "Present-tense declaratives do not require the verb 'to be'.",
-        "The word 'enyansu' already contains the verb.",
-        "The verb 'noo-re' is implied by the noun."
+        "nĩ expresses existence, while kũrĩ expresses identity.",
+        "kũrĩ expresses existence/location, while nĩ expresses identity/role.",
+        "Both nĩ and kũrĩ are interchangeable in all contexts.",
+        "nĩ is used only for negation, while kũrĩ is affirmative."
       ],
       "correctAnswer": 1,
-      "explanation": "In Ekegusii, present-tense declarative sentences like 'Endagera enyansu!' omit the copula 'to be'; the state is implied."
+      "explanation": "In Kikuyu, kũrĩ expresses existence or location, while nĩ expresses identity or role."
     },
     {
-      "question": "Which of the following correctly demonstrates the use of the verb 'noo-' with a personal pronoun?",
-      "options": ["Endagera neroo", "Noonde", "Nabeo", "Intwe nootore"],
+      "question": "In the sentence Ithũe twĩ haha (“We are here”), which form marks personal presence distinct from general existence?",
+      "options": ["kũrĩ", "ndĩ", "twĩ", "nĩ"],
+      "correctAnswer": 2,
+      "explanation": "The form 'twĩ' indicates personal or specific presence, not general existence."
+    },
+    {
+      "question": "Which Kikuyu verb form specifically negates general existence (“there is none”)?",
+      "options": ["ndũrĩ", "gutirĩ", "ndĩrĩ", "nĩ na"],
       "correctAnswer": 1,
-      "explanation": "'Noonde' correctly combines the copula root 'noo-' with the first-person singular pronoun, meaning 'I am'."
+      "explanation": "'Gutirĩ' is used in Kikuyu to express the nonexistence of something ('there is none')."
     },
     {
-      "question": "What is the correct Ekegusii phrase for 'They are present'?",
-      "options": ["Noo bare", "Mbaiyo", "Bachire", "Ngochabare"],
+      "question": "In Kikuyu, the construction nĩ na literally means:",
+      "options": ["to belong", "is with", "to own", "to be near"],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'nĩ na' literally means 'is with' and is used to express possession."
+    },
+    {
+      "question": "Which of the following is the correct expression of possession in Kikuyu?",
+      "options": [
+        "[Subject] + kũrĩ + [Object]",
+        "[Subject] + nĩ na + [Object]",
+        "[Subject] + gutirĩ + [Object]",
+        "[Subject] + ndĩ + [Object]"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Possession in Kikuyu is expressed with the structure '[Subject] + nĩ na + [Object]'."
+    },
+    {
+      "question": "Why is ndĩ described as irregular in the identity paradigm?",
+      "options": [
+        "It is the only form that changes with plural subjects.",
+        "It appears only in 3rd person contexts.",
+        "It replaces nĩ in the 1st person singular identity statement.",
+        "It is used only for negation."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The verb 'ndĩ' is irregular because it uniquely replaces 'nĩ' in 1st person singular identity statements."
+    },
+    {
+      "question": "Which cultural nuance is highlighted by the use of nĩ na for possession?",
+      "options": [
+        "It encodes superiority of the possessor.",
+        "It marks possession as shared belonging rather than individual ownership.",
+        "It indicates temporary ownership.",
+        "It distinguishes animate from inanimate possession."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The use of 'nĩ na' reflects a Kikuyu worldview where possession implies shared belonging, not individual dominance."
+    },
+    {
+      "question": "Which of the following sentences correctly illustrates negation of personal presence?",
+      "options": [
+        "Ndũrĩ haha.",
+        "Gutirĩ mũndũ haha.",
+        "Ŭyũ ena ciana.",
+        "We nĩ mwarimũ."
+      ],
       "correctAnswer": 0,
-      "explanation": "'Noo bare' directly translates to 'They are present,' using the plural copula form."
+      "explanation": "'Ndũrĩ haha' means 'I am not here,' negating personal presence."
     },
     {
-      "question": "Which structure is correctly used when the subject is explicit (e.g., Paul)?",
-      "options": ["Mbaiyo Paul", "Paul mbaiyo", "Paul nooare", "Paul Ngochare"],
-      "correctAnswer": 2,
-      "explanation": "When the subject is named, as in 'Paul nooare', the copula 'noo-' follows the noun for correct syntax."
-    },
-    {
-      "question": "Which Ekegusii construction best expresses the sentence 'My co-wife has children'?",
+      "question": "Which form would be used to assert ethnic belonging in Kikuyu?",
       "options": [
-        "Omokungu togokonyana komo abwate abana batato",
-        "Omorugi oyo tabwati ‘bana",
-        "Omorugi togokonyana emeremo nere nabwate abana",
-        "Omokungu tokokonyana komo tabwati ‘bana"
+        "Ŭyũ ena ciana ithatũ.",
+        "Kũrĩ nyũmba igĩrĩ.",
+        "Nĩĩ nĩ Mũgĩkũyũ.",
+        "Ithũe twĩ haha."
       ],
       "correctAnswer": 2,
-      "explanation": "‘Omorugi togokonyana emeremo nere nabwate abana’ uses the possessive copula 'nere' correctly for 'has children.'"
+      "explanation": "The sentence 'Nĩĩ nĩ Mũgĩkũyũ' ('I am Kikuyu') uses 'nĩ' to assert identity or ethnic belonging."
     },
     {
-      "question": "In which case must the copula 'ere' be inserted before 'ba' when expressing possession?",
+      "question": "If a Kikuyu speaker says Ŭyũ ena ciana ithatũ (“He/She has three children”), what does this imply culturally?",
       "options": [
-        "When the subject is in third person plural.",
-        "When using abstract nouns.",
-        "When the object is a location.",
-        "When the subject is overt/named."
+        "That family continuity is valued.",
+        "That the speaker is emphasizing absence.",
+        "That wealth is measured only in land.",
+        "That possession is temporary."
       ],
-      "correctAnswer": 3,
-      "explanation": "The copula 'ere' appears before 'ba' when the subject is explicitly stated or named for clarity."
-    },
-    {
-      "question": "Which of the following Ekegusii forms properly expresses 'We are here' using the location verb form?",
-      "options": ["Barabwo noobare igaa", "Nootore igaa", "Inwe noomore", "Ntoiyo igaa"],
-      "correctAnswer": 1,
-      "explanation": "'Nootore igaa' correctly expresses location, combining 'noo-' (copula) with 'tore' (we) and 'igaa' (here)."
-    },
-    {
-      "question": "What is the correct negation form of the sentence 'He is present'?",
-      "options": ["Ochiire", "Taiyo", "Nooare", "Ochire"],
-      "correctAnswer": 1,
-      "explanation": "'Taiyo' is the negative form meaning 'He is not present,' showing negation of the copula."
-    },
-    {
-      "question": "If 'Nimbwate endagera' means 'I have food,' what does 'Barabwo mbabwate abana' most accurately translate to?",
-      "options": [
-        "We have children.",
-        "They are children.",
-        "They have children.",
-        "Children have them."
-      ],
-      "correctAnswer": 2,
-      "explanation": "The prefix 'ba-' marks third person plural; 'mbabwate' thus means 'they have,' giving 'They have children.'"
-    },
-    {
-      "question": "Which prefix pair accurately indicates the difference between singular and plural subject pronouns in Ekegusii verb conjugation?",
-      "options": ["A- / E-", "Int- / Ba-", "Ere- / Aye-", "E- / U-"],
-      "correctAnswer": 1,
-      "explanation": "The prefixes 'Int-' (we) and 'Ba-' (they) show the singular/plural distinction in subject marking."
+      "correctAnswer": 0,
+      "explanation": "Mentioning the number of children reflects Kikuyu cultural values around family continuity and social legacy."
     }
   ],
               "passingScore": 50
@@ -944,9 +933,9 @@
           "type": "standalone",
           "order": 5,
           "_id": {
-      "$oid": "6891d48461021d79403e5e23"
+      "$oid": "6891d48461021d79403e5e43"
     },
-          "htmlContent": "kisii/beginner/module-three/10.html",
+          "htmlContent": "kikuyu/beginner/module-three/10.html",
           "passingScore": 50
         },
         {
@@ -954,368 +943,323 @@
           "type": "container",
           "order": 6,
           "_id": {
-      "$oid": "6891d48461021d79403e5e24"
+      "$oid": "6891d48461021d79403e5e44"
     },
           "subtopics": [
             {
               "title": "3.6.1 Transitive Verbs",
-              "htmlContent": "kisii/beginner/module-three/11.html",
+              "htmlContent": "kikuyu/beginner/module-three/11.html",
               "order": 1,
               "_id": {
-      "$oid": "6891d48461021d79403e5e25"
+      "$oid": "6891d48461021d79403e5e45"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following best explains why 'ngoaka' is considered a transitive verb in Ekegusii?",
+      "question": "What is the main function of a subjective pronoun in Kikuyu?",
       "options": [
-        "It contains an auxiliary",
-        "It carries tonal alternation",
-        "It takes a direct object",
-        "It ends with a subject suffix"
+        "To show the receiver of the action",
+        "To describe the action itself",
+        "To mark the doer of the action",
+        "To indicate tense"
       ],
       "correctAnswer": 2,
-      "explanation": "'Ngoaka' is transitive because it requires a direct object to complete its meaning, such as 'Ngoaka ekoni' (He/she builds a house)."
+      "explanation": "Subjective pronouns in Kikuyu indicate the doer or performer of the action."
     },
     {
-      "question": "In the sentence 'Omoakire', what grammatical elements are fused together?",
+      "question": "In Kikuyu, where do subjective pronouns typically appear in relation to the verb?",
       "options": [
-        "Auxiliary, verb, adverb",
-        "Subject pronoun, verb stem, object pronoun",
-        "Object noun, verb stem, subject noun",
-        "Verb prefix, plural suffix, tense marker"
+        "At the end of the sentence",
+        "As prefixes attached to the verb stem",
+        "After the object",
+        "Between two verbs"
       ],
       "correctAnswer": 1,
-      "explanation": "'Omoakire' combines a subject pronoun prefix, a verb stem, and an object pronoun, typical of Ekegusii’s agglutinative structure."
+      "explanation": "Subjective pronouns appear as prefixes attached to the verb stem in Kikuyu."
     },
     {
-      "question": "What is the primary syntactic function of the suffix '-nde' in the verb 'ngomoakande'?",
+      "question": "Which of the following is the correct 1st person singular pronoun in Kikuyu?",
+      "options": ["Ũ", "Tũ", "Ndĩ", "Mũ"],
+      "correctAnswer": 2,
+      "explanation": "‘Ndĩ’ is the 1st person singular pronoun meaning ‘I’ in Kikuyu."
+    },
+    {
+      "question": "In the example Tũ-rũgame (“We stand”), what does Tũ- indicate?",
       "options": [
-        "Marks tense",
-        "Indicates plurality",
-        "Shows the object",
-        "Functions as an auxiliary"
+        "The action of standing",
+        "The object of the sentence",
+        "The subject prefix “We”",
+        "The tense"
       ],
       "correctAnswer": 2,
-      "explanation": "The suffix '-nde' marks the object in the verb 'ngomoakande', showing who or what is affected by the action."
+      "explanation": "The prefix ‘Tũ-’ indicates the subject ‘We’ in the verb ‘Tũrũgame’."
     },
     {
-      "question": "In Ekegusii, what change allows an originally intransitive verb to function transitively?",
-      "options": [
-        "Tone modification",
-        "Auxiliary insertion",
-        "Verbal extension (e.g. applicative)",
-        "Prefix repetition"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Verbal extensions such as applicatives or causatives make an intransitive verb take an object, increasing its valency."
+      "question": "Which of the following matches the Kikuyu pronoun with its correct prefix?",
+      "options": ["Ũ → Ma-", "Tũ → Tũ-", "Ndĩ → Mũ-", "Nĩ → Ũ-"],
+      "correctAnswer": 1,
+      "explanation": "‘Tũ → Tũ-’ is the correct match for the pronoun ‘We’ and its prefix."
     },
     {
-      "question": "Which of the following is the correct gloss for 'Olum agoaka ekonu'?",
+      "question": "In the sentence Wanjiku nĩarĩa irio, what does nĩarĩa mean?",
       "options": [
-        "Subject + object + verb",
-        "Verb + object + subject",
-        "Subject noun + transitive verb + direct object",
-        "Auxiliary + verb stem + applicative extension"
-      ],
-      "correctAnswer": 2,
-      "explanation": "'Olum agoaka ekonu' consists of a subject noun ('Olum'), a transitive verb ('agoaka'), and a direct object ('ekonu')."
-    },
-    {
-      "question": "What best defines the term 'agglutinative' in the context of Ekegusii verb morphology?",
-      "options": [
-        "A verb structure that involves repeating syllables",
-        "A language pattern where affixes are fused to show tone",
-        "A morphological system where distinct morphemes are combined into a single unit",
-        "A verb formation that only uses pronouns"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Ekegusii is agglutinative because verbs consist of multiple affixes—each carrying distinct grammatical meaning—attached to a root."
-    },
-    {
-      "question": "How does Ekegusii signal a shift from transitivity to intransitivity in certain verbs?",
-      "options": [
-        "Through the use of auxiliary verbs",
-        "By inserting an object suffix",
-        "By applying antipassivity",
-        "Through object repetition"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Antipassive constructions reduce transitivity by removing or demoting the direct object, making the verb intransitive."
-    },
-    {
-      "question": "Which structure accurately represents a typical Ekegusii sentence with a transitive verb and subject pronoun?",
-      "options": [
-        "Object + Auxiliary + Verb + Subject",
-        "Subject Pronoun + Verb Root + Object Suffix",
-        "Auxiliary + Subject + Object + Verb",
-        "Verb + Object + Subject Pronoun"
+        "Wanjiku ate",
+        "Wanjiku has eaten",
+        "Wanjiku will eat",
+        "Wanjiku is eating"
       ],
       "correctAnswer": 1,
-      "explanation": "In Ekegusii, the canonical order for such verbs is Subject Pronoun + Verb Root + Object Suffix, reflecting the language’s SVO structure."
+      "explanation": "‘Nĩarĩa’ translates as ‘has eaten’, showing a completed action."
     },
     {
-      "question": "Based on the examples, which question reveals the direct object in an Ekegusii transitive sentence?",
+      "question": "Which of the following is the correct conjugation for “I give you” in Kikuyu?",
+      "options": ["Atũhe", "Ngũhe", "Ũmũhe", "Matũhe"],
+      "correctAnswer": 1,
+      "explanation": "‘Ngũhe’ means ‘I give you,’ combining the subject ‘I’ and object ‘you’ in one form."
+    },
+    {
+      "question": "In the word Ũmũhe, what does mũ- represent?",
       "options": [
-        "Ngosomare?",
-        "Endagera neroo?",
-        "Twagorete kereki?",
-        "Ere omoakire?"
+        "The subject “You”",
+        "The object “Him/Her”",
+        "The action “to give”",
+        "The tense marker"
       ],
-      "correctAnswer": 2,
-      "explanation": "‘Twagorete kereki?’ (‘Whom did we build?’) reveals the direct object, highlighting the verb’s transitivity."
+      "correctAnswer": 1,
+      "explanation": "In ‘Ũmũhe,’ the infix ‘mũ-’ marks the object ‘him/her’."
     },
     {
-      "question": "Which of the following is not true about subjective pronouns in Ekegusii as described?",
+      "question": "Which of the following is the correct translation for Matũhe?",
       "options": [
-        "They typically appear after the verb",
-        "They indicate the doer of the action",
-        "They function as agents of the verb",
-        "They are central to verb conjugation"
+        "They give us",
+        "We give them",
+        "You give them",
+        "I give them"
       ],
       "correctAnswer": 0,
-      "explanation": "Subjective pronouns in Ekegusii appear before the verb as prefixes; they never follow the verb."
+      "explanation": "‘Matũhe’ translates as ‘They give us,’ with ‘Ma-’ as the subject and ‘tũ’ as the object."
+    },
+    {
+      "question": "According to Kikuyu verb structure, which of the following is true?",
+      "options": [
+        "Subject markers always come after the verb",
+        "Object markers are always separate words",
+        "Subject, object, and action can combine into one word",
+        "The verb root changes for each subject"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu, verbs can combine subject, object, and action elements into a single word form."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.6.1.2 The Objective Pronoun",
-              "htmlContent": "kisii/beginner/module-three/12.html",
+              "htmlContent": "kikuyu/beginner/module-three/12.html",
               "order": 2,
               "_id": {
-      "$oid": "6891d48461021d79403e5e26"
+      "$oid": "6891d48461021d79403e5e46"
     },
               "practiceQuestions": [
     {
-      "question": "In the Ekegusii sentence 'Ningwanchete aye', what does the object pronoun '-aye' represent?",
+      "question": "What do objective pronouns in Kikuyu represent?",
       "options": [
-        "Me",
-        "Them",
-        "You (plural)",
-        "Him/Her"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The suffix '-aye' in 'Ningwanchete aye' represents 'you (plural)', showing that the action is directed toward multiple people."
-    },
-    {
-      "question": "Which of the following illustrates the correct structure for the verb 'to teach him/her' in Ekegusii?",
-      "options": [
-        "Basomi barabwo",
-        "Mosomi ere",
-        "Mosomi aye",
-        "Mosomi inwe"
+        "The doer of the action",
+        "The receiver of the action",
+        "The tense of the verb",
+        "The auxiliary verb"
       ],
       "correctAnswer": 1,
-      "explanation": "'Ere' functions as the correct form when referring to 'teach him/her', combining the appropriate subject prefix and object suffix."
+      "explanation": "Objective pronouns in Kikuyu indicate the receiver of the action performed by the subject."
     },
     {
-      "question": "What is the function of the object pronoun '-re' in the conjugated verb 'Ere ong’itire'?",
+      "question": "Where do objective pronouns typically appear in Kikuyu verb structure?",
       "options": [
-        "It shows plural action",
-        "It marks the speaker as the object",
-        "It marks him/her as the object",
-        "It indicates future tense"
+        "At the beginning of the sentence",
+        "As a suffix at the end of the verb root",
+        "As infixes inside the verb form",
+        "As a separate word before the verb"
       ],
       "correctAnswer": 2,
-      "explanation": "The object pronoun '-re' identifies the third person singular object 'him/her' in the verb structure."
+      "explanation": "In Kikuyu, objective pronouns appear as infixes within the verb form, between the subject prefix and the verb root."
     },
     {
-      "question": "Which verb below demonstrates correct full agglutinative structure with a subject and object?",
+      "question": "What is the correct format for Kikuyu verb structure with an object?",
       "options": [
-        "Ancha",
-        "Twabanchire",
-        "Babanchire",
-        "Nyouma"
+        "Verb Stem + Object Infix + Subject Prefix",
+        "Subject Prefix + Object Infix + Verb Stem",
+        "Object Infix + Verb Stem + Subject Prefix",
+        "Subject Prefix + Verb Stem + Object Infix"
       ],
       "correctAnswer": 1,
-      "explanation": "'Twabanchire' fuses the subject prefix 'Twa-' (we), the verb root 'bancha' (love), and the object suffix '-re' (him/her), showing full agglutination."
+      "explanation": "The standard structure is Subject Prefix + Object Infix + Verb Stem in Kikuyu verbs."
     },
     {
-      "question": "Identify the object pronoun in the Ekegusii verb 'Inwe mwabaitire'.",
-      "options": [
-        "U-",
-        "-a",
-        "-re",
-        "-bi"
-      ],
+      "question": "In the example Ngũhe, what does -gũ- represent?",
+      "options": ["I (subject)", "Give (verb root)", "You (object)", "We (subject)"],
       "correctAnswer": 2,
-      "explanation": "The suffix '-re' marks the object in 'mwabaitire', showing who receives the action."
+      "explanation": "The infix '-gũ-' represents the object pronoun 'you' in the word 'Ngũhe' ('I give you')."
     },
     {
-      "question": "What does the conjugated form 'Nabanchire' mean in Ekegusii?",
-      "options": [
-        "I love him",
-        "He loves you",
-        "I love you (plural)",
-        "They love you (plural)"
-      ],
+      "question": "Which of the following means “He gives us”?",
+      "options": ["Ngũhe", "Ũmũhe", "Atũhe", "Matũhe"],
       "correctAnswer": 2,
-      "explanation": "'Nabanchire' combines 'Na-' (I), 'bancha' (love), and '-re' (you plural), meaning 'I love you (plural)'."
+      "explanation": "‘Atũhe’ means 'He gives us', where 'A-' is the subject ('he') and '-tũ-' marks the object ('us')."
     },
     {
-      "question": "What structural role does the suffix play in Ekegusii transitive verbs like 'Ere obaitire'?",
+      "question": "What is the Kikuyu equivalent of “You (pl.) give them”?",
+      "options": ["Mũmahe", "Tũmũhe", "Matũhe", "Ngũhe"],
+      "correctAnswer": 0,
+      "explanation": "‘Mũmahe’ translates as 'You (plural) give them,' with 'Mũ-' marking the plural subject and '-ma-' as the object infix for 'them'."
+    },
+    {
+      "question": "In the conjugated form Tũmũhe, what does tũ- mark?",
       "options": [
-        "It changes the tense",
-        "It identifies the object of the action",
-        "It converts verb to noun",
-        "It replaces the verb root"
+        "Object: us",
+        "Subject: we",
+        "Object: him/her",
+        "Verb root"
       ],
       "correctAnswer": 1,
-      "explanation": "In transitive verbs, the suffix identifies the object of the action, linking the action to its receiver."
+      "explanation": "In 'Tũmũhe', the prefix 'tũ-' indicates the subject 'we'."
     },
     {
-      "question": "From the verb 'Ere ngonyuoma are', what can be inferred about the subject and object?",
+      "question": "Which of the following correctly matches the structure of Ngũhoya?",
       "options": [
-        "She is marrying you",
-        "He is marrying me",
-        "I am marrying her",
-        "They are marrying us"
+        "N-ũ-hoya → I pray for him/her",
+        "N-gũ-hoya → I ask you",
+        "N-mũ-hoya → I ask him/her",
+        "N-tũ-hoya → I ask us"
       ],
       "correctAnswer": 1,
-      "explanation": "The prefix 'Ere' indicates 'he', and the suffix '-re' marks 'me', so the sentence means 'He is marrying me'."
+      "explanation": "‘N-gũ-hoya’ breaks down as N- (I), -gũ- (you, object), and hoya (ask), meaning 'I ask you'."
     },
     {
-      "question": "In the sentence 'Inche nabaitire', what does the subject–verb–object alignment reveal?",
-      "options": [
-        "I am loved by you (plural)",
-        "I have killed you (plural)",
-        "You have killed me",
-        "He has killed you (plural)"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The prefix 'Na-' marks 'I' and '-re' marks 'you plural', so 'Inche nabaitire' means 'I have killed you (plural)'."
-    },
-    {
-      "question": "Why is Ekegusii described as agglutinative based on its verb structure?",
-      "options": [
-        "Because it repeats root words for emphasis",
-        "Because all words must end in vowels",
-        "Because a single word fuses subject, verb, and object",
-        "Because object pronouns are separate from verbs"
-      ],
+      "question": "What is the Kikuyu translation for “They ask us”?",
+      "options": ["Amũhoye", "Tũmahoye", "Matũhoye", "Ũmũhoye"],
       "correctAnswer": 2,
-      "explanation": "Ekegusii verbs are agglutinative since they merge subject, verb root, tense, and object pronouns into one word unit."
+      "explanation": "‘Matũhoye’ means 'They ask us', with 'Ma-' as the subject ('they') and '-tũ-' as the object ('us')."
+    },
+    {
+      "question": "Which of the following best describes Kikuyu verb structure?",
+      "options": [
+        "Analytic, with subject and object always separate",
+        "Agglutinative, combining subject, object, and action into one word",
+        "Isolating, with no inflections",
+        "Reduplicative, repeating the verb root for clarity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu is an agglutinative language where subject, object, and verb elements combine into a single complex word form."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.6.2 Intransitive & Reflexive Verbs",
-              "htmlContent": "kisii/beginner/module-three/13.html",
+              "htmlContent": "kikuyu/beginner/module-three/13.html",
               "order": 3,
               "_id": {
-      "$oid": "6891d48461021d79403e5e27"
+      "$oid": "6891d48461021d79403e5e47"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following Ekegusii sentences correctly uses an intransitive verb?",
+      "question": "Which of the following is an intransitive verb in Kikuyu?",
       "options": [
-        "Nimbwate esese – I have a dog",
-        "Inche nachiire Kisumu – I have gone to Kisumu",
-        "Naisaransire ase ekerogo – I sit on the chair",
-        "Ngosomande – I am learning"
+        "Kũruta (to teach)",
+        "Gũcooka (to return)",
+        "Kũhitha (to hide)",
+        "Kũthambia (to wash oneself)"
       ],
-      "correctAnswer": 2,
-      "explanation": "‘Naisaransire ase ekerogo’ uses the intransitive verb ‘gosaransa’ (to sit), which does not take a direct object."
+      "correctAnswer": 1,
+      "explanation": "‘Gũcooka’ (to return) is intransitive because it does not take a direct object."
     },
     {
-      "question": "In Ekegusii, how is the concept of 'having' best expressed when describing possession?",
+      "question": "How do you say “He has a hand” in Kikuyu?",
       "options": [
-        "By placing the noun before the subject",
-        "Using the auxiliary verb 're'",
-        "By combining a pronoun with the word '-bwate'",
-        "Using the suffix '-re'"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Possession in Ekegusii is expressed by combining a pronoun with the verb '-bwate' (to have), as in 'Inche nimbwate esese' (I have a dog)."
-    },
-    {
-      "question": "What is the correct reflexive form of the Ekegusii verb 'gosoma' (to teach)?",
-      "options": [
-        "Ngosomande",
-        "Basomire",
-        "Ngosoma bare",
-        "Ngosomare"
+        "Nĩarĩ na guoko",
+        "Nĩarĩ na nyũmba",
+        "Nĩndĩ na guoko",
+        "Nĩmũrĩ na guoko"
       ],
       "correctAnswer": 0,
-      "explanation": "‘Ngosomande’ means ‘I am teaching myself,’ showing reflexivity through the reflexive suffix."
+      "explanation": "‘Nĩarĩ na guoko’ means ‘He has a hand,’ where ‘na’ expresses possession."
     },
     {
-      "question": "What is the correct Ekegusii construction for 'They have land'?",
+      "question": "What does the verb “Gũthimaga” mean in English?",
+      "options": ["To live / dwell", "To return", "To run", "To wash"],
+      "correctAnswer": 2,
+      "explanation": "‘Gũthimaga’ translates as ‘to run’ in English."
+    },
+    {
+      "question": "Which of the following sentences shows correct usage of an intransitive verb?",
       "options": [
-        "Barabwo mbaremete",
-        "Barabwo mbabwate omogondo",
-        "Barabwo nabwate omogondo",
-        "Barabwo omogondo oye"
+        "Nĩndĩ na gitanda – I have a bed.",
+        "Nĩndethambia – I am washing myself.",
+        "Nĩndakoma gitanda – I have slept on the bed.",
+        "Nĩmethambia – They are washing themselves."
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩndakoma gitanda’ uses the intransitive verb ‘koma’ (to sleep), which does not require a direct object."
+    },
+    {
+      "question": "How do you say “We have joy” in Kikuyu?",
+      "options": [
+        "Nĩtũthimaga mbere",
+        "Tũrĩ na gĩkeno",
+        "Tũrĩ na gitanda",
+        "Nĩtũethambia"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Barabwo mbabwate omogondo’ combines the pronoun 'barabwo' (they) and the verb 'bwate' (have) with the noun 'omogondo' (land)."
+      "explanation": "‘Tũrĩ na gĩkeno’ means ‘We have joy,’ using ‘na’ to show possession."
     },
     {
-      "question": "Which morphological marker is added to a verb in Ekegusii to indicate reflexivity?",
+      "question": "Which is the correct reflexive form of Kũhitha (to hide)?",
+      "options": ["Kũhitha-ana", "Kũhitha-ĩka", "Kũhitha-na", "Kũhitha-ĩra"],
+      "correctAnswer": 1,
+      "explanation": "‘Kũhitha-ĩka’ means ‘to hide oneself,’ the reflexive form of ‘Kũhitha.’"
+    },
+    {
+      "question": "Translate: “They are washing themselves.”",
       "options": [
-        "-bwate",
-        "-esebi",
-        "-re",
-        "-bi"
+        "Nĩmethambia",
+        "Nĩarĩ na thahu",
+        "Nĩmũethambia",
+        "Nĩmethaka"
       ],
-      "correctAnswer": 2,
-      "explanation": "The suffix '-re' often appears in reflexive verb forms, marking actions performed on oneself."
+      "correctAnswer": 0,
+      "explanation": "‘Nĩmethambia’ means ‘They are washing themselves,’ showing a reflexive action."
     },
     {
-      "question": "Choose the correct Ekegusii sentence that expresses 'She is married.'",
+      "question": "Which reflexive verb means “to see each other”?",
       "options": [
-        "Osomire",
-        "Ochire Kisumu",
-        "Ere nanyuomire",
-        "Ngonyuomare"
-      ],
-      "correctAnswer": 2,
-      "explanation": "‘Ere nanyuomire’ literally means 'She is married,' derived from the reflexive structure of the verb 'enyuoma' (to marry)."
-    },
-    {
-      "question": "What grammatical role does the suffix '-esibi' play in Ekegusii reflexive constructions?",
-      "options": [
-        "Converts verbs into negative form",
-        "Indicates plural subject action",
-        "Forms noun equivalents of reflexive verbs",
-        "Denotes auxiliary past tense"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The suffix '-esibi' derives nouns from reflexive verbs, e.g., ‘enyenyeta’ (to wash oneself) → ‘enyenyetesibi’ (act of washing oneself)."
-    },
-    {
-      "question": "Which of the following verb pairs accurately shows the intransitive–reflexive relationship in Ekegusii?",
-      "options": [
-        "Gokora emeremo – gwakorera emeremo",
-        "Gacha – Gachera",
-        "koroga – kwerugera",
-        "Soma – Somire"
-      ],
-      "correctAnswer": 2,
-      "explanation": "‘Koroga’ (to stir something) becomes reflexive as ‘kwerugera’ (to stir oneself), showing the morphological shift from transitive to reflexive."
-    },
-    {
-      "question": "In the sentence 'Barageire', what grammatical aspect is being used?",
-      "options": [
-        "Simple future",
-        "Past imperfect",
-        "Reflexive mood",
-        "Perfect aspect using 're'"
-      ],
-      "correctAnswer": 3,
-      "explanation": "The form ‘Barageire’ shows the perfect aspect, with the suffix ‘-re’ marking the completed action."
-    },
-    {
-      "question": "Why is 'Inche nimbwate esese' not preferred over 'Inche n’esese' for expressing possession in Ekegusii?",
-      "options": [
-        "It incorrectly uses plural agreement",
-        "It translates more literally as 'I and the dog'",
-        "It lacks subject–verb concord",
-        "It uses the auxiliary verb instead of the main"
+        "Kũhitha-ĩka",
+        "Kũonana",
+        "Kũruta-ĩra",
+        "Gũthambia"
       ],
       "correctAnswer": 1,
-      "explanation": "‘Inche nimbwate esese’ can sound like 'I and the dog' because 'ni' also means 'and'; 'Inche n’esese' is more idiomatic for possession."
+      "explanation": "‘Kũonana’ means ‘to see each other,’ derived from the reciprocal verb form."
+    },
+    {
+      "question": "How is the idea of possession expressed in Kikuyu?",
+      "options": [
+        "By using the suffix -ĩra",
+        "By using the prefix Gũ-",
+        "By using “gũkorũo na”",
+        "By using “kũonana”"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Possession in Kikuyu can be expressed using the phrase ‘gũkorũo na,’ meaning ‘to have.’"
+    },
+    {
+      "question": "Which of the following Kikuyu sentences means “Learning is wisdom”?",
+      "options": [
+        "Gũthambia nĩwega",
+        "Gũthakara nĩ mbi",
+        "Gũthoma nĩ ũũgĩ",
+        "Gũcooka nĩ mwega"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Gũthoma nĩ ũũgĩ’ translates as ‘Learning is wisdom,’ showing a nominalized verb used as a subject."
     }
   ],
               "passingScore": 50
@@ -1323,13 +1267,13 @@
           ]
         },
         {
-          "title": "3.7 Review & Practice ",
+          "title": "3.7 Review & Practice",
           "type": "standalone",
           "order": 7,
           "_id": {
-      "$oid": "6891d48461021d79403e5e28"
+      "$oid": "6891d48461021d79403e5e48"
     },
-          "htmlContent": "kisii/beginner/module-three/14.html",
+          "htmlContent": "kikuyu/beginner/module-three/14.html",
           "passingScore": 50
         },
         {
@@ -1337,740 +1281,591 @@
           "type": "container",
           "order": 8,
           "_id": {
-      "$oid": "6891d48461021d79403e5e29"
+      "$oid": "6891d48461021d79403e5e49"
     },
           "subtopics": [
             {
-              "title": "3.8.1 Introduction",
-              "htmlContent": "kisii/beginner/module-three/15.html",
+              "title": "3.8.1 Introduction to Kikuyu Tenses",
+              "htmlContent": "kikuyu/beginner/module-three/15.html",
               "order": 1,
               "_id": {
-      "$oid": "6891d48461021d79403e5e2a"
+      "$oid": "6891d48461021d79403e5e4a"
     },
+              "practiceQuestions": "",
               "passingScore": 50
             },
             {
               "title": "3.8.2 Present Tense",
-              "htmlContent": "kisii/beginner/module-three/16.html",
+              "htmlContent": "kikuyu/beginner/module-three/16.html",
               "order": 2,
               "_id": {
-      "$oid": "6891d48461021d79403e5e2b"
+      "$oid": "6891d48461021d79403e5e4b"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following correctly reflects the Present Tense conjugation for “we eat” in Ekegusii?",
-      "options": [
-        "Ngoragera tore",
-        "Ngoragera more",
-        "Ngoragera inde",
-        "Ngoragera ore"
-      ],
+      "question": "Which marker is used in Kikuyu to show the present progressive tense?",
+      "options": ["-aga", "-rĩ-", "-ũ-", "-ka-"],
+      "correctAnswer": 1,
+      "explanation": "The infix '-rĩ-' in Kikuyu is used to indicate the present progressive tense, showing that an action is currently ongoing."
+    },
+    {
+      "question": "How do you say “I am reading” in Kikuyu?",
+      "options": ["Nĩndũthoma", "Nĩndũthomaga", "Nĩndĩrathoma", "Nĩthomaga"],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩndĩrathoma’ combines the affirmative marker 'Nĩ-', subject prefix 'ndĩ-' (I), tense marker '-rĩ-', and verb 'thoma' (read), meaning 'I am reading'."
+    },
+    {
+      "question": "Which of the following expresses a habitual action?",
+      "options": ["Nĩndĩrĩnua maaĩ", "Nĩthiiaga soko", "Nĩmarĩina nyĩmbo", "Nĩũrahiũka"],
+      "correctAnswer": 1,
+      "explanation": "The suffix '-aga' in 'Nĩthiiaga soko' marks habitual or repetitive actions, meaning 'I usually go to the market'."
+    },
+    {
+      "question": "What does the affirmative marker “Nĩ-” indicate in Kikuyu present tense verbs?",
+      "options": ["Habitual action", "Negative meaning", "That the statement is true", "Past tense action"],
+      "correctAnswer": 2,
+      "explanation": "The prefix 'Nĩ-' is an affirmative marker that asserts the truth or factuality of a statement in Kikuyu."
+    },
+    {
+      "question": "Translate: “They are farming the garden.”",
+      "options": ["Nĩmethimaga mũgũnda", "Nĩmarĩrĩmĩra mũgũnda", "Nĩmarĩina nyĩmbo", "Nĩmarathoma"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩmarĩrĩmĩra mũgũnda’ means 'They are farming the garden', using the progressive tense infix '-rĩ-'."
+    },
+    {
+      "question": "What is the correct Kikuyu translation for: “Grandmother is eating food”?",
+      "options": ["Cũcũ nĩararĩa irio", "Cũcũ nĩarĩruta ciana", "Cũcũ nĩmarĩina nyĩmbo", "Cũcũ nĩndĩrĩnua maaĩ"],
       "correctAnswer": 0,
-      "explanation": "“Ngoragera tore” is the correct conjugation for 'we eat' in the Ekegusii present tense."
+      "explanation": "‘Cũcũ nĩararĩa irio’ translates to 'Grandmother is eating food', showing present progressive with the marker '-rĩ-'."
     },
     {
-      "question": "What happens to the verb when it follows an overt subject in the present tense?",
+      "question": "Which verb structure shows the correct formation of present tense?",
       "options": [
-        "It changes to a past form.",
-        "It uses a subject prefix.",
-        "It drops the prefix and retains the infinitive form.",
-        "It adds both subject and object markers."
+        "Subject Prefix + Verb Stem + -aga",
+        "Subject Prefix + Object Infix + Verb Stem",
+        "Subject Prefix + Tense Infix + Verb Stem",
+        "Subject Prefix + Past Tense Suffix"
       ],
       "correctAnswer": 2,
-      "explanation": "With overt subjects like names or nouns, the subject prefix is dropped and the verb keeps its infinitive form."
+      "explanation": "The present tense in Kikuyu is typically formed using the structure: Subject Prefix + Tense Infix + Verb Stem."
     },
     {
-      "question": "In the sentence “Kwamboka ngooni are”, what grammatical rule is illustrated?",
-      "options": [
-        "Reflexive object pronoun",
-        "Subject agreement by suffix",
-        "Overt subject rule",
-        "Progressive aspect insertion"
-      ],
+      "question": "How do you say “You (pl.) are hitting” in Kikuyu?",
+      "options": ["Nĩũrahiũka", "Nĩmũrahũra", "Nĩmaraina", "Nĩũrathoma"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩmũrahũra’ means 'You (plural) are hitting', with 'mũ-' as the subject prefix for 'you (pl.)' and '-rĩ-' marking the present progressive."
+    },
+    {
+      "question": "Which sentence shows the use of an overt subject?",
+      "options": ["Nĩndĩrathoma", "Nĩũrathoma", "Mũndũ mũkũrũ nĩarathoma", "Nĩmaraina"],
       "correctAnswer": 2,
-      "explanation": "Since 'Kwamboka' is an overt subject, the verb is used without the prefix, showing the overt subject rule."
+      "explanation": "‘Mũndũ mũkũrũ nĩarathoma’ includes an explicit noun subject ('Mũndũ mũkũrũ' – old man), showing overt subject use."
     },
     {
-      "question": "Which of the following sentences demonstrates incorrect use of the present tense prefix system in Ekegusii?",
-      "options": [
-        "Inche ngoragerande",
-        "Emeremo bakorire",
-        "Barabwo ngoragera bare kare",
-        "Ngoragera tore"
-      ],
-      "correctAnswer": 3,
-      "explanation": "“Ngoragera tore” incorrectly applies the prefix system for the present tense in this context."
-    },
-    {
-      "question": "Choose the correct present tense conjugation of the verb saba (to pray) for 'they':",
-      "options": [
-        "Barabwo ngosaba bare",
-        "Basabire",
-        "Ngosaba bagochi",
-        "Barure gosaba"
-      ],
-      "correctAnswer": 0,
-      "explanation": "“Barabwo ngosaba bare” correctly represents the present tense conjugation of 'saba' (to pray) for 'they'."
-    },
-    {
-      "question": "Which of the following is true about the verb form emeremo in the sentence “Abuya n’emeremo agokora”?",
-      "options": [
-        "It is incorrectly conjugated; it should be 'emeremo.'",
-        "It retains the infinitive form due to an overt subject.",
-        "It includes the subject prefix for 'he.'",
-        "It has lost its infinitive meaning."
-      ],
+      "question": "Which suffix is commonly used to mark habitual or repetitive actions?",
+      "options": ["-ĩra", "-aga", "-ana", "-ĩka"],
       "correctAnswer": 1,
-      "explanation": "The verb 'emeremo' retains its infinitive form because 'Abuya' is an overt subject."
-    },
-    {
-      "question": "What is the correct translation of “Inwe ragera” based on Ekegusii present tense rules?",
-      "options": [
-        "I eat",
-        "You (pl.) eat",
-        "They are eating",
-        "He eats"
-      ],
-      "correctAnswer": 1,
-      "explanation": "“Inwe ragera” translates to 'You (plural) eat' following Ekegusii present tense conjugation."
-    },
-    {
-      "question": "Which of the following statements is FALSE according to Ekegusii present tense structure?",
-      "options": [
-        "“Ere ngoragera are” means “he is eating”",
-        "Verbs change their ending depending on subject gender",
-        "Verbs retain the -a/-i infinitive endings",
-        "There is no difference between 'he eats' and 'he is eating'"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Ekegusii verbs do not change their ending based on subject gender, making this statement false."
-    },
-    {
-      "question": "In the sentence “Wayne ne’chiombe akorisia”, why is no prefix used before the verb kwayo?",
-      "options": [
-        "The object is already clear",
-        "The verb has a reflexive pronoun",
-        "The subject is overt, so prefix is omitted",
-        "The verb root starts with a consonant"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Since 'Wayne' is an overt subject, the prefix is omitted and the verb uses its infinitive form."
-    },
-    {
-      "question": "Which of the following best describes the morphological structure of Ekegusii present tense verbs?",
-      "options": [
-        "Prefixation of tense markers at the end of verb roots",
-        "Agglutinative prefixing of subject pronouns to infinitives",
-        "Reduplication of verb stems for emphasis",
-        "Use of auxiliary verbs to denote time"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Ekegusii present tense verbs are formed through agglutinative prefixing of subject pronouns to infinitives."
+      "explanation": "The suffix '-aga' is used in Kikuyu verbs to indicate habitual or repetitive actions."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.8.3 Present Continuous Tense & Habitual Action",
-              "htmlContent": "kisii/beginner/module-three/17.html",
+              "htmlContent": "kikuyu/beginner/module-three/17.html",
               "order": 3,
               "_id": {
-      "$oid": "6891d48461021d79403e5e2c"
+      "$oid": "6891d48461021d79403e5e4c"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following best explains why “Dwallow ngorager’are” can mean both “Dwallow eats” and “Dwallow is eating”?",
+      "question": "What morphological element signals the Present Continuous Tense in Kikuyu?",
+      "options": ["Prefix nĩ-", "Suffix -aga", "Infix -rĩ- / -ra-", "Root vowel change"],
+      "correctAnswer": 2,
+      "explanation": "The infix '-rĩ-' or '-ra-' in Kikuyu marks the Present Continuous Tense, showing that an action is ongoing."
+    },
+    {
+      "question": "Which example correctly illustrates a habitual action?",
+      "options": ["Nĩũrathiĩ soko.", "Nĩndĩrĩrĩa irio.", "Nĩthiiaga soko.", "Nĩmarĩina nyĩmbo."],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩthiiaga soko’ expresses habitual action, with the suffix '-aga' marking repeated or regular occurrences."
+    },
+    {
+      "question": "In the sentence Nĩmarĩina nyĩmbo (“They are singing songs”), where is the progressive marker located?",
       "options": [
-        "The verb is reflexive in form",
-        "The context includes a future time indicator",
-        "Ekegusii does not morphologically distinguish simple and continuous present tenses",
-        "The subject is omitted in the sentence"
+        "After the verb root",
+        "Before the subject prefix",
+        "Inside the verb stem, after subject prefix, before root",
+        "As a separate word"
       ],
       "correctAnswer": 2,
-      "explanation": "Ekegusii verbs do not morphologically differentiate between the simple and continuous present tenses, so context determines the intended meaning."
+      "explanation": "The progressive marker '-rĩ-' appears between the subject prefix and the verb root, signaling an ongoing action."
     },
     {
-      "question": "In Ekegusii, which morphological feature marks a verb as habitual in aspect?",
+      "question": "Which form best contrasts “He is eating” vs. “He usually eats”?",
+      "options": ["Nĩarĩrĩa vs. Nĩarĩaga", "Nĩũrathiĩ vs. Nĩũthiĩaga", "Nĩmarĩina vs. Nĩmarĩaga", "Nĩndĩrĩrĩa vs. Nĩndũgamaga"],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩarĩrĩa’ uses the progressive infix '-rĩ-' for present continuous, while ‘Nĩarĩaga’ uses '-aga' for habitual aspect."
+    },
+    {
+      "question": "Which structural property distinguishes habitual aspect in Kikuyu?",
+      "options": ["Use of infix -rĩ-", "Use of suffix -aga", "Lack of subject prefixes", "Tone shift on the root"],
+      "correctAnswer": 1,
+      "explanation": "The habitual aspect in Kikuyu is marked by the suffix '-aga', indicating repeated or regular actions."
+    },
+    {
+      "question": "Why is Kikuyu said to show low context dependency in marking aspect?",
       "options": [
-        "Prefixation of subject pronouns",
-        "Addition of the suffix -ko to the verb root",
-        "Use of a temporal adverb",
-        "Use of object focus markers"
+        "Because it has no aspectual distinctions",
+        "Because the markers -rĩ- and -aga are overt and unambiguous",
+        "Because context is always required to interpret verbs",
+        "Because tone alone signals aspect"
       ],
       "correctAnswer": 1,
-      "explanation": "The suffix -ko is added to the verb root in Ekegusii to mark habitual aspect, showing repeated or regular actions."
+      "explanation": "Kikuyu aspect markers '-rĩ-' and '-aga' are overt and clearly indicate tense/aspect, reducing reliance on context."
     },
     {
-      "question": "What role does context play in understanding the present continuous tense in Ekegusii?",
+      "question": "Which of the following is the correct morphological breakdown of Nĩndũgamaga (“I usually stand”)?",
       "options": [
-        "It shows where to insert the prefix -ko",
-        "It helps determine whether an action is ongoing or habitual",
-        "It marks the verb with an auxiliary",
-        "It eliminates the need for the verb root"
+        "Nĩnd- (I) + ũgam- (stand) + -aga",
+        "Nĩndĩ- (I) + -ra- (progressive) + gam- (stand)",
+        "Nĩ- (affirmation) + gam- (stand) + -rĩ-",
+        "Nĩnd- (I) + gam- (stand) + -rĩ-"
       ],
-      "correctAnswer": 1,
-      "explanation": "Since Ekegusii does not mark continuous aspect morphologically, context helps determine whether an action is ongoing or habitual."
+      "correctAnswer": 0,
+      "explanation": "‘Nĩndũgamaga’ breaks down as: Nĩnd- (I) + ũgam- (stand) + -aga (habitual marker), meaning 'I usually stand'."
     },
     {
-      "question": "Which of the following sentences illustrates a habitual action in Ekegusii?",
+      "question": "Which feature is common to both present continuous and habitual forms?",
       "options": [
-        "Dwallow ngorager’are naende",
-        "Eng’uko inarete as’engoro",
-        "Paul aanarete koragera mambia",
-        "Omwana orarire nyuma y’okoragera"
+        "Both use the suffix -aga",
+        "Both rely on tone for aspectual contrast",
+        "Both attach markers directly to the verb stem",
+        "Both omit subject prefixes"
       ],
       "correctAnswer": 2,
-      "explanation": "‘Paul aanarete koragera mambia’ expresses habitual action due to the use of -ko, showing that the action happens regularly."
+      "explanation": "Both the progressive (-rĩ-) and habitual (-aga) markers attach directly to the verb stem in Kikuyu morphology."
     },
     {
-      "question": "Why is “Eng’uko enarete komenya ase’ngoro” classified as habitual action in Ekegusii grammar?",
+      "question": "What is the pedagogical implication of mastering -rĩ- and -aga?",
       "options": [
-        "It uses the infinitive without prefixation",
-        "The verb is marked with the prefix -ko indicating repetition",
-        "The subject is not a human agent",
-        "It includes an overt temporal noun"
+        "Learners can freely substitute them in any verb.",
+        "Learners must know they mark separate grammatical categories.",
+        "Learners only need context, not morphology.",
+        "Learners can avoid aspect marking in fluent speech."
       ],
       "correctAnswer": 1,
-      "explanation": "The presence of the prefix -ko in ‘komenya’ marks the verb as habitual, indicating repetitive or regular action."
+      "explanation": "Understanding that '-rĩ-' marks ongoing actions and '-aga' marks habitual actions helps learners distinguish aspectual meanings accurately."
     },
     {
-      "question": "What distinguishes “Dwallow ngorager’are” from “Dwallow anarete koragera” in function?",
+      "question": "Compared to Dholuo, what makes Kikuyu aspect marking distinctive?",
       "options": [
-        "“Anarete koragera” indicates a passive construction",
-        "“Anarete koragera” expresses habitual action with the prefix -ko",
-        "“Koragera” is a negative form",
-        "“Koragera” refers to a future plan"
+        "Kikuyu relies solely on context.",
+        "Kikuyu uses overt morphology, while Dholuo often relies on context.",
+        "Kikuyu aspect is tonal only.",
+        "Dholuo has no aspect at all."
       ],
       "correctAnswer": 1,
-      "explanation": "‘Anarete koragera’ uses the prefix -ko, indicating habitual action, unlike ‘Dwallow ngorager’are’ which expresses general or ongoing action."
-    },
-    {
-      "question": "Which of the following statements is TRUE about present continuous tense in Ekegusii?",
-      "options": [
-        "It always uses the suffix -ko",
-        "It requires an auxiliary verb",
-        "It is inferred from context, not morphology",
-        "It uses a future time adverb"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Ekegusii does not have a distinct morphological marker for the continuous tense; it is inferred from contextual cues."
-    },
-    {
-      "question": "Which sentence best demonstrates the dual interpretation of present tense in Ekegusii?",
-      "options": [
-        "Inche nigo ng’anchete esuguma",
-        "Omworokia ngosomia’re",
-        "Paul aanarete koragera mambia",
-        "Eng’uko enarete komenya ase’ngoro"
-      ],
-      "correctAnswer": 1,
-      "explanation": "‘Omworokia ngosomia’re’ can mean both ‘the teacher reads’ and ‘the teacher is reading’, illustrating dual interpretation of the present tense."
-    },
-    {
-      "question": "What is the function of the prefix -ko in Ekegusii verbal morphology?",
-      "options": [
-        "To express politeness",
-        "To mark the past perfect",
-        "To show regular, habitual actions",
-        "To indicate question formation"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The prefix -ko in Ekegusii verbs signals habitual aspect, marking actions that occur regularly or repeatedly."
-    },
-    {
-      "question": "According to the morphological structure in Ekegusii, how is a habitual sentence typically formed?",
-      "options": [
-        "By adding the prefix “ba-” to the verb",
-        "By placing the verb in future tense",
-        "By attaching -ko to the verb stem",
-        "By using reduplication of the verb root"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Habitual sentences in Ekegusii are formed by attaching -ko to the verb stem, indicating repeated or regular action."
+      "explanation": "Unlike Dholuo, which can rely on contextual cues, Kikuyu uses overt morphological markers like '-rĩ-' and '-aga' to express aspect."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.8.4 Past Tense",
-              "htmlContent": "kisii/beginner/module-three/18.html",
+              "htmlContent": "kikuyu/beginner/module-three/18.html",
               "order": 4,
               "_id": {
-      "$oid": "6891d48461021d79403e5e2d"
+      "$oid": "6891d48461021d79403e5e4d"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following sentences correctly demonstrates the contracted form of the plain past tense in Ekegusii?",
+      "question": "Which prefix marks the past tense in Kikuyu?",
+      "options": ["ka-", "nĩ-", "ma-", "ta-"],
+      "correctAnswer": 1,
+      "explanation": "The prefix 'nĩ-' marks the past tense in Kikuyu, often used with the immediate past form '-ire'."
+    },
+    {
+      "question": "Which is the correct Kikuyu translation of “I ate the bread”?",
+      "options": ["Nĩũrĩĩre mũgate", "Nĩndarĩire mũgate", "Nĩmarĩĩte mũgate", "Nĩtũrĩĩte mũgate"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩndarĩire mũgate’ correctly means 'I ate the bread', with 'Nĩ-' marking past tense and '-ire' marking completed action."
+    },
+    {
+      "question": "Which past tense form expresses an action that was recently completed?",
+      "options": ["Habitual Past (-aga)", "Extended Past (-ete)", "Immediate Past (-ire with nĩ)", "Past Continuous"],
+      "correctAnswer": 2,
+      "explanation": "The immediate past tense uses '-ire' with the prefix 'nĩ-' to express an action just completed, e.g., ‘Nĩndarĩire’ (I have eaten)."
+    },
+    {
+      "question": "What is the correct Kikuyu sentence for “They ate meat”?",
+      "options": ["Nĩũrĩĩre nyama", "Nĩndarĩire nyama", "Nĩmarĩĩre nyama", "Nĩtũrĩĩte nyama"],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩmarĩĩre nyama’ means 'They ate meat', with 'Nĩ-' marking past tense and '-ĩĩre' showing a completed action."
+    },
+    {
+      "question": "Which verb ending is most common for verbs ending in -a in past tense?",
+      "options": ["-ĩre", "-aga", "-ire", "-ete"],
+      "correctAnswer": 2,
+      "explanation": "For Kikuyu verbs ending in -a, the past tense typically replaces -a with '-ire' to indicate completion."
+    },
+    {
+      "question": "What does the sentence Nĩndathiaga soko hĩndĩ yaarĩ mean?",
       "options": [
-        "Inche narageire",
-        "Kwarwarire",
-        "Ngwarigete",
-        "Inaarigete"
+        "I have gone to the market.",
+        "I used to go to the market in the past.",
+        "I am going to the market now.",
+        "I will go to the market."
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩndathiaga soko hĩndĩ yaarĩ’ means 'I used to go to the market in the past', using '-aga' for habitual past action."
+    },
+    {
+      "question": "Which tense is used in the sentence Nĩndarugaga irio hĩndĩ yaarĩ?",
+      "options": ["Simple Past", "Past Continuous", "Extended Past", "Habitual Past"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩndarugaga irio hĩndĩ yaarĩ’ uses the marker '-aga' to indicate Past Continuous, describing an ongoing past action."
+    },
+    {
+      "question": "How do you form the habitual past tense in Kikuyu?",
+      "options": [
+        "nĩ- + subject prefix + verb stem + -ete",
+        "nĩ- + subject prefix + verb stem + -ire",
+        "nĩ- + subject prefix + verb stem + -aga",
+        "nĩ- + subject prefix + -rĩ- + verb stem"
       ],
       "correctAnswer": 2,
-      "explanation": "“Ngwarigete” is the contracted form of the plain past tense in Ekegusii, showing that the action was completed in the past."
+      "explanation": "The habitual past tense in Kikuyu is formed using 'nĩ-' + subject prefix + verb stem + '-aga'."
     },
     {
-      "question": "What is the role of the particle “-ete” in Ekegusii past tense construction?",
-      "options": [
-        "It negates the verb in the past tense.",
-        "It marks habitual future actions.",
-        "It replaces the subject prefix in all past constructions.",
-        "It serves as an auxiliary to mark completed past actions."
-      ],
-      "correctAnswer": 3,
-      "explanation": "The particle “-ete” functions as an auxiliary to mark completed past actions in Ekegusii verbs."
+      "question": "Which Kikuyu sentence means “He/She has crossed the river”?",
+      "options": ["Nĩahĩrĩte ndũrĩrĩ", "Nĩarutire ndũrĩrĩ", "Nĩarĩĩte ndũrĩrĩ", "Nĩndarĩĩte ndũrĩrĩ"],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩahĩrĩte ndũrĩrĩ’ means 'He/She has crossed the river', using '-ĩte' to indicate a recently completed action."
     },
     {
-      "question": "Choose the Ekegusii equivalent of the sentence: “They met them.”",
+      "question": "The sentence Mũgĩka nĩarĩaga mũgate best translates to:",
       "options": [
-        "Barabwo bamonyorire",
-        "Barabwo mbabanyorete",
-        "Babarikire",
-        "Barikirwe"
+        "My brother was eating bread (continuous)",
+        "My brother used to eat bread",
+        "My brother has eaten bread",
+        "My brother is eating bread"
       ],
       "correctAnswer": 1,
-      "explanation": "“Barabwo mbabanyorete” translates as “They met them” in Ekegusii, using the correct verb morphology for past perfective."
-    },
-    {
-      "question": "Which of the following statements about Ekegusii past continuous tense is FALSE?",
-      "options": [
-        "It uses the particle “-ete.”",
-        "It includes a habitual suffix “-o.”",
-        "It can express repeated past actions.",
-        "It uses the -a- infix to show continuity."
-      ],
-      "correctAnswer": 3,
-      "explanation": "Ekegusii past continuous tense does not use an -a- infix to show continuity; continuity is instead shown by context or other markers."
-    },
-    {
-      "question": "Which past tense marker would best express that something happened yesterday?",
-      "options": [
-        "a-",
-        "o-",
-        "na-",
-        "n"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The prefix “na-” in Ekegusii denotes the immediate or recent past, typically referring to actions that happened yesterday or very recently."
-    },
-    {
-      "question": "What is the correct Ekegusii translation of the sentence: “I have just dug (but now stopped)”?",
-      "options": [
-        "Ngorema ngochi",
-        "Gese ngoremande",
-        "Ngorema bare",
-        "Bachire korema"
-      ],
-      "correctAnswer": 1,
-      "explanation": "“Gese ngoremande” expresses a completed action that has just ended, meaning ‘I have just dug (but now stopped)’."
-    },
-    {
-      "question": "Which of the following sentences most accurately reflects a habitual past action in Ekegusii?",
-      "options": [
-        "Kwarwarire",
-        "Inanarete gokwana Ekegusii buya",
-        "Inche narageire",
-        "Nanyorire emeremo"
-      ],
-      "correctAnswer": 1,
-      "explanation": "“Inanarete gokwana Ekegusii buya” expresses habitual past action, meaning ‘I used to speak Ekegusii well.’"
-    },
-    {
-      "question": "Identify the morphologically correct way to say “We have eaten” using the recent past perfective form.",
-      "options": [
-        "Inwe mwarageire",
-        "Intwe twarageire",
-        "Intwe ntwarigete",
-        "Aye kwarageire"
-      ],
-      "correctAnswer": 1,
-      "explanation": "“Intwe twarageire” correctly conveys ‘We have eaten’ using the recent past perfective construction in Ekegusii."
-    },
-    {
-      "question": "What morphological structure is common to Ere orageire, Aye kwarageire, and Ere orageire?",
-      "options": [
-        "Prefix a- marking yesterday",
-        "Infix -r- marking completed recent action",
-        "Suffix -ko marking habitual past",
-        "Prefix for distant past"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The infix -r- in these forms indicates completed or recent past actions in Ekegusii verb morphology."
-    },
-    {
-      "question": "Which of the following best explains why “Aye ngwatonyorete” differs in meaning from “Ere namonyorete”?",
-      "options": [
-        "Different verb tense usage",
-        "Subject and object positions determine the meaning",
-        "–Ete cannot be used with second-person subjects",
-        "One uses recent perfective, the other does not"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The difference in meaning between “Aye ngwatonyorete” and “Ere namonyorete” arises from the subject–object arrangement, which changes who performed and received the action."
+      "explanation": "‘Mũgĩka nĩarĩaga mũgate’ translates to 'My brother used to eat bread', with '-aga' marking habitual past."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.8.5 Past Perfect Tense",
-              "htmlContent": "kisii/beginner/module-three/19.html",
+              "htmlContent": "kikuyu/beginner/module-three/19.html",
               "order": 5,
               "_id": {
-      "$oid": "6891d48461021d79403e5e2e"
+      "$oid": "6891d48461021d79403e5e4e"
     },
               "practiceQuestions": [
     {
-      "question": "What is the function of “-ete” in the construction nene osebedo?",
+      "question": "Which auxiliary verb marks the future tense in Kikuyu?",
       "options": [
-        "To mark habitual aspect",
-        "To indicate subjunctive mood",
-        "To anchor the construction in the past",
-        "To mark future irrealis"
+        "mũhaka",
+        "kũ-",
+        "gũ",
+        "nĩ"
       ],
       "correctAnswer": 2,
-      "explanation": "“-Ete” unequivocally anchors the construction in the past."
+      "explanation": "The auxiliary verb 'gũ' marks the future tense in Kikuyu, indicating an action that will occur."
     },
     {
-      "question": "Which of the following is the correct past perfect form for “we had been”?",
+      "question": "What is the correct full form of “I will eat” in Kikuyu?",
       "options": [
-        "Twabeire",
-        "Babeire",
-        "Twabaebire",
-        "beire"
+        "Nĩkũrĩa",
+        "Nĩngũrĩa",
+        "Nĩndĩkũrĩa",
+        "Nĩtũkũrĩa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩngũrĩa’ correctly expresses ‘I will eat,’ with the future auxiliary ‘gũ’ realized as ‘ngũ’ for the first person singular."
+    },
+    {
+      "question": "Which of the following is the contracted form of Nĩmũkũkũrĩa (“You (pl.) will eat”)?",
+      "options": [
+        "Nĩũkũrĩa",
+        "Nĩtwarĩa",
+        "Nĩmũkũrĩa",
+        "Nĩmarĩa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "‘Nĩmũkũrĩa’ retains the subject prefix mũ- for ‘you (plural)’ and the future auxiliary ‘gũ’ before the verb ‘rĩa.’"
+    },
+    {
+      "question": "In the sentence Nĩmagũka kũrĩa irio (“They will be eating food”), which element signals future continuous?",
+      "options": [
+        "-aga",
+        "-rĩ-",
+        "gũ + ga",
+        "nĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The combination ‘gũ + ga’ indicates a future continuous aspect, showing an ongoing action that will happen."
+    },
+    {
+      "question": "Which example expresses future possession?",
+      "options": [
+        "Nĩngũgũcokia ana arĩa igĩrĩ",
+        "Nĩngũrĩa",
+        "Nĩmagũka thii",
+        "Nũmũhaka ũrĩe"
       ],
       "correctAnswer": 0,
-      "explanation": "“Tw-” is the correct subject prefix for “we” combined with -r- and “-beire”."
+      "explanation": "‘Nĩngũgũcokia ana arĩa igĩrĩ’ means ‘I will have (return with) those two children,’ expressing future possession."
     },
     {
-      "question": "In the sentence Yabeire egotwa, what grammatical role does “Ekero yatwete” play?",
+      "question": "How is obligation expressed in Kikuyu?",
       "options": [
-        "Future conditional clause",
-        "Nominal subject complement",
-        "Temporal adverbial clause",
-        "Progressive verb phrase"
-      ],
-      "correctAnswer": 2,
-      "explanation": "“Ekero yatwete” functions as a temporal adverbial clause, indicating when the main action occurred."
-    },
-    {
-      "question": "What distinguishes Obeire ogo from Oberire?",
-      "options": [
-        "The first is passive voice, the second is active",
-        "The first implies a future action, the second a past one",
-        "The first is past perfect, the second is present perfect",
-        "They are identical in tense and usage"
-      ],
-      "correctAnswer": 2,
-      "explanation": "“Obeire” expresses past perfect, while “Oberire” expresses present perfect."
-    },
-    {
-      "question": "Which of the following is NOT a correct component of the past perfect construction?",
-      "options": [
-        "“-ete”",
-        "subject prefix",
-        "“-ko-”",
-        "“beire”"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The element “-ko-” does not occur in the past perfect construction."
-    },
-    {
-      "question": "Why must learners avoid conjugating the verb “-beire” directly?",
-      "options": [
-        "It is an irregular verb with unpredictable forms",
-        "It only appears in negative constructions",
-        "It is a participle and does not change form",
-        "It is no longer used in modern Dholuo"
-      ],
-      "correctAnswer": 2,
-      "explanation": "“Beire” is a non-finite participle and remains grammatically fixed."
-    },
-    {
-      "question": "Which of the following conveys the idea: “They had been visiting one another”?",
-      "options": [
-        "Babeire bagotarerana barabwo ase barabwo",
-        "Babeire bagotarerana inwe ase inwe",
-        "Mwabeire mogotarerana inwe ase inwe",
-        "Mwabeire mogotarerana barabwo ase barabwo"
-      ],
-      "correctAnswer": 0,
-      "explanation": "“Babeire bagotarerana barabwo ase barabwo” correctly expresses reciprocal past perfect meaning."
-    },
-    {
-      "question": "What aspectual meaning does the auxiliary “-r-” introduce into the construction?",
-      "options": [
-        "Habitual repetition",
-        "Progressive continuity",
-        "Imperative urgency",
-        "Perfective completion"
+        "Using auxiliary gũ",
+        "With suffix -aga",
+        "By infix -rĩ-",
+        "With the construction mũhaka"
       ],
       "correctAnswer": 3,
-      "explanation": "“-r-” functions similarly to “have” and denotes perfective (completed) aspect."
+      "explanation": "The construction ‘mũhaka’ expresses obligation, equivalent to ‘must’ or ‘should’ in English."
     },
     {
-      "question": "Which element of the construction is responsible for subject agreement?",
+      "question": "Which of the following indicates an imminent future?",
       "options": [
-        "“-beire”",
-        "“-r-”",
-        "Subject prefix",
-        "“a”"
+        "Nĩngũcooka rĩu",
+        "Nĩngacooka rũciũ",
+        "Nĩtũgũcooka hĩndĩ ĩngĩ",
+        "Nĩmagũka kũrĩa irio"
       ],
-      "correctAnswer": 2,
-      "explanation": "Subject agreement is realized through the concord prefix (e.g., i-, a-, ba-)."
+      "correctAnswer": 0,
+      "explanation": "‘Nĩngũcooka rĩu’ means ‘I am about to return (now),’ showing an imminent or near future action."
     },
     {
-      "question": "Which of the following would be the most pedagogically sound classroom exercise for teaching this tense?",
+      "question": "What is the common learner error when forming future tense?",
       "options": [
-        "Asking students to inflect “-beire” in all subject forms",
-        "Having students replace “-ete” with “ose” in examples",
-        "Practicing with subordinate clauses using “-o + verb”",
-        "Comparing “-beire” with irregular English past participles"
+        "Forgetting subject prefixes",
+        "Conjugating the main verb instead of the auxiliary gũ",
+        "Adding suffix -aga in future tense",
+        "Using ndĩrĩ for negation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A common error is conjugating the main verb instead of the auxiliary ‘gũ,’ which actually carries the future marking."
+    },
+    {
+      "question": "Which sentence correctly shows a near future (later today) event?",
+      "options": [
+        "Nĩngũcooka rĩu",
+        "Nĩngũcooka mũthenya",
+        "Nĩngacooka rũciũ",
+        "Nĩngũcooka hĩndĩ ĩngĩ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩngũcooka mũthenya’ means ‘I will return today,’ referring to a near future event later the same day."
+    },
+    {
+      "question": "The expression Nĩngũthii gũcooka is best glossed as:",
+      "options": [
+        "I must return",
+        "I am returning",
+        "I will go back",
+        "I usually return"
       ],
       "correctAnswer": 2,
-      "explanation": "Practicing with subordinate clauses enhances understanding of temporal backgrounding and aspect."
+      "explanation": "‘Nĩngũthii gũcooka’ translates to ‘I will go back,’ where ‘ngũ’ marks the future auxiliary and ‘thii’ means ‘go.’"
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.8.6 Future Tense & Future Continuous Tense",
-              "htmlContent": "kisii/beginner/module-three/20.html",
+              "htmlContent": "kikuyu/beginner/module-three/20.html",
               "order": 6,
               "_id": {
-      "$oid": "6891d48461021d79403e5e2f"
+      "$oid": "6891d48461021d79403e5e4f"
     },
               "practiceQuestions": [
     {
-      "question": "What is the correct contracted future form of “you (plural) will eat” in Ekegusii?",
-      "options": [
-        "Ngochare koragera",
-        "Ngochimore’koragera",
-        "Ngochibare’koragera",
-        "Ngochande koragera"
-      ],
+      "question": "Which auxiliary verb marks the future tense in Kikuyu?",
+      "options": ["mũhaka", "kũ-", "gũ", "nĩ"],
+      "correctAnswer": 2,
+      "explanation": "The auxiliary verb 'gũ' is used to mark the future tense in Kikuyu."
+    },
+    {
+      "question": "What is the correct full form of “I will eat” in Kikuyu?",
+      "options": ["Nĩkũrĩa", "Nĩngũrĩa", "Nĩndĩkũrĩa", "Nĩtũkũrĩa"],
       "correctAnswer": 1,
-      "explanation": "“Ngochimore’koragera” correctly represents the contracted future form for 'you (plural) will eat'."
+      "explanation": "‘Nĩngũrĩa’ means ‘I will eat’ in Kikuyu, combining nĩ (affirmative marker), subject prefix n- (I), auxiliary gũ (will), and verb root rĩa (eat)."
     },
     {
-      "question": "Which of the following best represents the future continuous form of “they will be eating well”?",
-      "options": [
-        "Baria ngoragera bare buya",
-        "Barabwo bachire koragera buya",
-        "Barabwo ngochi koragera bare buya",
-        "Bachire koragera buya"
-      ],
+      "question": "Which of the following is the contracted form of Nĩmũkũkũrĩa (“You (pl.) will eat”)?",
+      "options": ["Nĩũkũrĩa", "Nĩtwarĩa", "Nĩmũkũrĩa", "Nĩmarĩa"],
       "correctAnswer": 2,
-      "explanation": "“Barabwo ngochi koragera bare buya” accurately expresses a future continuous meaning."
+      "explanation": "‘Nĩmũkũrĩa’ is the correct contracted form of ‘Nĩmũkũkũrĩa,’ expressing ‘You (pl.) will eat.’"
     },
     {
-      "question": "In the sentence “Ngochi bare koragera,” which part of the construction indicates the future tense?",
-      "options": [
-        "Bare",
-        "Ngochi",
-        "Koragera",
-        "ch-"
-      ],
-      "correctAnswer": 1,
-      "explanation": "“Ngochi” is the auxiliary element that marks future tense in Ekegusii."
-    },
-    {
-      "question": "Which of the following is the correct literal interpretation of the sentence “Nachire koba n’abana babere”?",
-      "options": [
-        "I will come eat with two children.",
-        "I will be with two children.",
-        "I come to be with children two.",
-        "I go to be with two children."
-      ],
+      "question": "In the sentence Nĩmagũka kũrĩa irio (“They will be eating food”), which element signals future continuous?",
+      "options": ["-aga", "-rĩ-", "gũ + ga", "nĩ"],
       "correctAnswer": 2,
-      "explanation": "“Nachire koba n’abana babere” literally translates to 'I come to be with children two'."
+      "explanation": "The combination ‘gũ + ga’ in ‘Nĩmagũka’ marks the future continuous aspect in Kikuyu."
     },
     {
-      "question": "What does the sentence “Goika tomorore ere” imply in terms of grammatical obligation?",
-      "options": [
-        "He may see us",
-        "We should try to see him",
-        "We must see him",
-        "Let’s go see him"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The sentence expresses a strong obligation—'We must see him'."
+      "question": "Which example expresses future possession?",
+      "options": ["Nĩngũgũcokia ana arĩa igĩrĩ", "Nĩngũrĩa", "Nĩmagũka thii", "Nũmũhaka ũrĩe"],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩngũgũcokia ana arĩa igĩrĩ’ translates as ‘I will have two children,’ showing possession in the future."
     },
     {
-      "question": "Which of the following phrases demonstrates a misuse of the auxiliary “ngochande”?",
-      "options": [
-        "Bachire aria",
-        "Ngochi koragera",
-        "Ochire ngochi",
-        "Ngochande koragera"
-      ],
+      "question": "How is obligation expressed in Kikuyu?",
+      "options": ["Using auxiliary gũ", "With suffix -aga", "By infix -rĩ-", "With the construction mũhaka"],
       "correctAnswer": 3,
-      "explanation": "“Ngochande koragera” is incorrect because 'ngochande' already encodes tense and subject agreement."
+      "explanation": "The construction ‘mũhaka’ expresses obligation or necessity in Kikuyu (e.g., Nũmũhaka ũrĩe — You must eat)."
     },
     {
-      "question": "What is the source of the auxiliary “Ngochande” used in Ekegusii future constructions?",
-      "options": [
-        "From the root “Koragera” (to eat)",
-        "From the prefix “Ngochande”",
-        "From the verb “ngochi” (to be)",
-        "From the verb “Gocha” (to come)"
-      ],
-      "correctAnswer": 3,
-      "explanation": "The auxiliary “Ngochande” originates from the verb “Gocha” (to come)."
+      "question": "Which of the following indicates an imminent future?",
+      "options": ["Nĩngũcooka rĩu", "Nĩngacooka rũciũ", "Nĩtũgũcooka hĩndĩ ĩngĩ", "Nĩmagũka kũrĩa irio"],
+      "correctAnswer": 0,
+      "explanation": "‘Nĩngũcooka rĩu’ means ‘I will return now,’ signaling an imminent future event."
     },
     {
-      "question": "Which of the following correctly illustrates a future event happening tomorrow?",
-      "options": [
-        "Koiranande nande",
-        "Ninche ing’irane",
-        "Mambia ngoiranande",
-        "Nachairane"
-      ],
-      "correctAnswer": 2,
-      "explanation": "“Mambia ngoiranande” expresses a near-future event expected tomorrow."
-    },
-    {
-      "question": "What syntactic property is unique to the use of the auxiliary “Ngochande” in Ekegusii?",
-      "options": [
-        "It always follows the main verb",
-        "It carries subject and tense agreement",
-        "It requires the main verb to be conjugated",
-        "It appears only in plural forms"
-      ],
+      "question": "What is the common learner error when forming future tense?",
+      "options": ["Forgetting subject prefixes", "Conjugating the main verb instead of the auxiliary gũ", "Adding suffix -aga in future tense", "Using ndĩrĩ for negation"],
       "correctAnswer": 1,
-      "explanation": "“Ngochande” is unique because it carries both subject and tense agreement."
+      "explanation": "Learners often mistakenly conjugate the main verb instead of the auxiliary ‘gũ,’ which carries the tense marking."
     },
     {
-      "question": "Why is “Ngochi’koragera” considered grammatically valid in Ekegusii?",
-      "options": [
-        "It is a present tense verb",
-        "It replaces both subject and verb",
-        "It’s a contraction of “Ngochi koragera” and includes subject agreement",
-        "It’s a compound word for future continuous"
-      ],
+      "question": "Which sentence correctly shows a near future (later today) event?",
+      "options": ["Nĩngũcooka rĩu", "Nĩngũcooka mũthenya", "Nĩngacooka rũciũ", "Nĩngũcooka hĩndĩ ĩngĩ"],
+      "correctAnswer": 1,
+      "explanation": "‘Nĩngũcooka mũthenya’ means ‘I will return today,’ showing a near future event."
+    },
+    {
+      "question": "The expression Nĩngũthii gũcooka is best glossed as:",
+      "options": ["I must return", "I am returning", "I will go back", "I usually return"],
       "correctAnswer": 2,
-      "explanation": "“Ngochi’koragera” is a contracted form of 'Ngochi koragera' and maintains subject agreement."
+      "explanation": "‘Nĩngũthii gũcooka’ translates as ‘I will go back,’ expressing a definite future action."
     }
   ],
               "passingScore": 50
             },
             {
               "title": "3.8.7 Other Tenses",
-              "htmlContent": "kisii/beginner/module-three/21.html",
+              "htmlContent": "kikuyu/beginner/module-three/21.html",
               "order": 7,
               "_id": {
-      "$oid": "6891d48461021d79403e5e30"
+      "$oid": "6891d48461021d79403e5e50"
     },
               "practiceQuestions": [
     {
-      "question": "Which of the following Ekegusii forms correctly expresses “We should write” in its contracted form?",
+      "question": "Which Kikuyu construction expresses present or near future obligation?",
       "options": [
-        "Nabo bakorika",
-        "Nabo’bakorika",
-        "Nabo’tokorika",
-        "Nabo barikire"
+        "kũhoteka",
+        "kũgũĩrĩra",
+        "nomũhaka",
+        "-aga"
       ],
       "correctAnswer": 2,
-      "explanation": "“Nabo’tokorika” is the correct contracted form expressing ‘We should write’."
+      "explanation": "The construction 'nomũhaka' expresses present or near future obligation, equivalent to 'must' or 'should' in English."
     },
     {
-      "question": "What distinguishes the “may” construction from the “should” construction in Ekegusii, based on verb morphology?",
+      "question": "In the sentence 'Nomũhaka tũrute wĩra', which element carries subject concord?",
       "options": [
-        "The “may” construction always removes the final -o in the verb.",
-        "The “should” construction keeps the full verb form.",
-        "The “may” construction uses full verb form, retaining -o.",
-        "The “should” construction uses “Nabo” to mark the mood."
+        "nomũhaka",
+        "wĩra",
+        "tũrute",
+        "-haka"
       ],
       "correctAnswer": 2,
-      "explanation": "The “may” construction in Ekegusii uses the full verb form, retaining the final -o."
+      "explanation": "The subject concord is carried by 'tũrute', where 'tũ-' agrees with the first person plural subject 'we'."
     },
     {
-      "question": "Which of the following forms represents a contracted hypothetical (would) expression for 'I would write'?",
+      "question": "Which construction signals possibility or permission?",
       "options": [
-        "Nabo narika",
-        "Nango’narika",
-        "Nabo mokorika",
-        "Nabo bakorika"
+        "nomũhaka",
+        "kũhoteka",
+        "kũgũĩrĩra",
+        "-ithia"
       ],
       "correctAnswer": 1,
-      "explanation": "“Nango’narika” correctly expresses the hypothetical form ‘I would write’."
+      "explanation": "The verb 'kũhoteka' expresses possibility or permission, meaning 'it is possible' or 'may'."
     },
     {
-      "question": "Which structural feature signals subjunctive mood in most relevant Ekegusii verb forms?",
+      "question": "What morphological marker expresses the “would” (conditional/past habitual) meaning in Kikuyu?",
       "options": [
-        "Prefixing with “nenyarekane”",
-        "Use of “nabo”",
-        "Insertion of “nango”",
-        "Dropping the final -o from the verb"
+        "-ĩte",
+        "-ithia",
+        "-aga",
+        "-haka"
       ],
-      "correctAnswer": 3,
-      "explanation": "Dropping the final -o from the verb root signals the subjunctive mood in Ekegusii."
+      "correctAnswer": 2,
+      "explanation": "The suffix '-aga' marks the conditional or past habitual aspect, equivalent to 'would' or 'used to' in English."
     },
     {
-      "question": "Identify the correct sequence for expressing a past obligation in Ekegusii, such as “We should have written.”",
+      "question": "Which of the following correctly expresses a polite imperative?",
       "options": [
-        "Nabo nanga mwarigete",
-        "Nabo nanga twarigete",
-        "Nabo’mwarigete",
-        "Bari barikire"
+        "Nĩngũthiiaga kũu",
+        "Nĩangũĩrĩire gũthiĩ",
+        "Reeke thiĩ!",
+        "Nĩndarugithirie Wanjikũ irio"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Reeke thiĩ!' means 'Please go!' — it’s a polite imperative form using 'reeke' for softening the command."
+    },
+    {
+      "question": "The phrase 'Nĩmũgũĩrĩire gũtũcokerera' means:",
+      "options": [
+        "You (pl.) may return to us",
+        "You (pl.) had returned to us",
+        "You (pl.) should have returned to us",
+        "You (pl.) would return to us"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'Nĩmũgũĩrĩire gũtũcokerera' conveys retrospective obligation — 'You should have returned to us.'"
+    },
+    {
+      "question": "Which morphological marker is used for the past perfect (“had done”)?",
+      "options": [
+        "-ĩte / -ete",
+        "-aga",
+        "-haka",
+        "-ithia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The suffixes '-ĩte' or '-ete' mark the past perfect in Kikuyu, indicating a completed action before another past event."
+    },
+    {
+      "question": "Which Kikuyu suffix converts a base verb into a causative form?",
+      "options": [
+        "-ĩte",
+        "-ithia / -ithĩrĩria",
+        "-haka",
+        "-aga"
       ],
       "correctAnswer": 1,
-      "explanation": "“Nabo nanga twarigete” correctly expresses a past obligation—‘We should have written’."
+      "explanation": "The suffix '-ithia' or '-ithĩrĩria' converts a verb into its causative form, meaning 'to cause someone to do something.'"
     },
     {
-      "question": "In the Ekegusii phrase Inche inarigete, what grammatical information is embedded?",
+      "question": "Which construction encodes retrospective obligation (something required but not done)?",
       "options": [
-        "Future habitual action",
-        "A polite request",
-        "Past perfect: I had written",
-        "Conditional future"
+        "nomũhaka",
+        "nĩ + kũgũĩrĩra",
+        "kũhoteka",
+        "-aga"
       ],
-      "correctAnswer": 2,
-      "explanation": "“Inche inarigete” expresses the past perfect meaning ‘I had written’."
+      "correctAnswer": 1,
+      "explanation": "The construction 'nĩ + kũgũĩrĩra' expresses retrospective obligation, indicating something that should have been done."
     },
     {
-      "question": "In causative constructions like Namokorire arike, what is the role of “namo”?",
+      "question": "In the causative example 'Nĩndarugithirie Wanjikũ irio', who performs the base action of cooking?",
       "options": [
-        "Future marker",
-        "Negative auxiliary",
-        "Modal particle",
-        "Subject + causative verb: ‘we make’"
+        "The subject (speaker)",
+        "Wanjikũ",
+        "Irio",
+        "The auxiliary"
       ],
-      "correctAnswer": 3,
-      "explanation": "‘Namo’ combines subject and causative meaning, functioning as ‘we make’ in the sentence."
-    },
-    {
-      "question": "Which of the following best explains the contrast between Nenyarekane’indike and Nabo’narike?",
-      "options": [
-        "One is imperative, the other is hypothetical.",
-        "One expresses obligation, the other expresses ability.",
-        "One expresses permission/possibility, the other expresses hypothetical intent.",
-        "Both are past perfect constructions."
-      ],
-      "correctAnswer": 2,
-      "explanation": "‘Nenyarekane’indike’ expresses permission or possibility, while ‘Nabo’narike’ expresses hypothetical intent."
-    },
-    {
-      "question": "What is the function of the particle nabo in constructions like Nabo nanga narigete and Nabo narigete?",
-      "options": [
-        "Marks subjunctive intent",
-        "Indicates future aspect",
-        "Indicates politeness",
-        "Marks past tense or perfect aspect"
-      ],
-      "correctAnswer": 3,
-      "explanation": "‘Nabo’ marks tense or perfect aspect in modal constructions."
-    },
-    {
-      "question": "Which of the following best illustrates the imperative/subjunctive command structure in Ekegusii?",
-      "options": [
-        "Namokorire arike",
-        "Twabakorire barike",
-        "Tiga torike!",
-        "Nabo bakorika"
-      ],
-      "correctAnswer": 2,
-      "explanation": "‘Tiga torike!’ is a clear example of an imperative/subjunctive command structure."
+      "correctAnswer": 1,
+      "explanation": "In 'Nĩndarugithirie Wanjikũ irio', the causative form means 'I made Wanjikũ cook food'; Wanjikũ performs the base action."
     }
   ],
               "passingScore": 50
@@ -2078,302 +1873,15 @@
           ]
         },
         {
-          "title": "3.9 Review & Practice ",
+          "title": "3.9 Review & Practice",
           "type": "standalone",
-          "order": 8,
+          "order": 9,
           "_id": {
-      "$oid": "6891d48461021d79403e5e31"
+      "$oid": "6891d48461021d79403e5e51"
     },
-          "htmlContent": "kisii/beginner/module-three/22.html",
+          "htmlContent": "kikuyu/beginner/module-three/22.html",
           "passingScore": 50
         }
       ],
-      "cat": {
-  "title": "Everyday Conversations & Cultural Context CAT",
-  "description": "This Continuous Assessment Test evaluates knowledge of Ekegusii everyday speech, adjectives, verbs, and tense structures within conversational and cultural contexts.",
-  "duration": 60,
-  "passingScore": 50,
-  "maxAttempts": 3,
-   "_id": {
-      "$oid": "6891d48461021d79403e5e32"
-    },
-  "questions": [
-    {
-      "question": "[Adjectives & Verbs Part 01] Which of the following is the correct comparative form of ekebe (bad)?",
-      "options": ["ekebe mono", "ekebe ake", "ekiya", "ekiya ake"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] In the sentence 'Eke negiansu buna eke', what grammatical function does the word 'buna' serve?",
-      "options": ["Marker of possession", "Superlative indicator", "Equality comparison", "Verb intensifier"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which verb form in Ekegusii would best express “to study” in the infinitive?",
-      "options": ["Gosoma", "Gosomi", "Gosomiwa", "soma"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] What prefix is used in Ekegusii to conjugate a verb for the subject pronoun Intwe (we)?",
-      "options": ["a-", "Na-", "in-", "Ba-"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] What is the meaning of the Ekegusii sentence 'Paul nooare'?",
-      "options": ["Paul is absent", "Paul is here", "Paul is present", "Paul is doing something"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which of the following correctly expresses 'There is no food' in Ekegusii?",
-      "options": ["Endagera neroo", "Endagera teiyo", "Endagera yerire", "Endagera yatigaire"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] What construction would correctly express 'The most intelligent' in Ekegusii using the standard superlative form?",
-      "options": ["Oyo nomong’aini kobua bonsi", "Omongaini", "Omong’ini buna oyo", "Oyo nomoriri sana"],
-      "correctAnswer": 0
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] What does the phrase 'Ekemwamu mono' mean in Ekegusii as used in intensification?",
-      "options": ["Completely dark", "The darkest of all", "Very black/dark", "As black as"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which Ekegusii construction correctly conveys 'I am here' using the verb noo-?",
-      "options": ["Inche noonde", "Noonde’aiga", "Inche nachire aiga", "Inche ting’iyo"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] In the morphosyntactic structure of Ekegusii adjectives, what is the primary function of the “eke-” prefix?",
-      "options": [
-        "It turns adjectives into nouns to enhance formality",
-        "It intensifies the semantic value of the adjective",
-        "It acts as a linking particle, converting descriptors into relative clauses",
-        "It marks future tense in attributive clauses"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which of the following Ekegusii adjectives does not follow the eke- prefix pattern?",
-      "options": ["Ekiya", "Obuya", "eke", "ekenene"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] What semantic distinction is drawn between 'ngokwa agochi' and 'okure' in Ekegusii adjective clauses?",
-      "options": [
-        "Gender specificity of the subject",
-        "Past vs. future participle forms",
-        "Positive vs. negative polarity",
-        "Ongoing process vs. completed state"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which adjective is irregular in both form and developmental reference, bypassing the standard prefix system?",
-      "options": ["Egeke", "Ekemwamu", "Manumu", "Bisaine"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which of the following Ekegusii adjective pairs exemplifies pluralization through suffixation?",
-      "options": ["Ekiya → Amaya", "Ekenene → Ebinene", "Ekenge → Amange", "Ekien’ge → Ebieng’e"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which adjective conveys moral and aesthetic approval in Ekegusii and may intensify with 'omobe'?",
-      "options": ["ekebe", "omuya", "omorimo", "omoene"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] In Ekegusii, which adjective denotes sufficiency, and may commonly lose the “eke-” prefix in speech?",
-      "options": ["Bietanetie", "Ebieng’e", "Ebitambe", "Bisaine"],
-      "correctAnswer": 3
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which of the following color adjectives derives from an environmental referent?",
-      "options": ["Endabu – white", "Maraba – brown", "Gesicha – yellow", "Indigo – indigo"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] What is the plural form of the adjective 'ekebe' (bad)?",
-      "options": ["Ebiya", "Ebibe", "Ebitambe", "Ebinene"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Adjectives & Verbs Part 01] Which of the following adjectives is classified as invariant, resisting inflection even in plural contexts?",
-      "options": ["Ebiya", "Ebinene", "Ebike", "Ebinge"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Verbs Part 02] Which of the following best illustrates the use of an applicative extension in Ekegusii?",
-      "options": ["Inche nimwate ekerogo", "Oisaransire ase ekerogo", "Mosomi", "Ere ngotera are"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Verbs Part 02] In Ekegusii, which of the following reflects the correct verb structure for a transitive construction?",
-      "options": [
-        "Verb Root + Object + Subject",
-        "Subject Prefix + Object Suffix + Verb Root",
-        "Subject Prefix + Verb Root + Object Suffix",
-        "Object Suffix + Subject Prefix + Verb Root"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Verbs Part 02] What enables a verb like “goaka” to function independently in a clause?",
-      "options": [
-        "Verbal extensions",
-        "Verb-initial syntax",
-        "Morphological fusion of subject and object",
-        "Reflexive suffix -re"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Verbs Part 02] Which of the following forms shows reflexive morphology?",
-      "options": ["Batoitire", "Kwerugera", "Namwakire", "Nyuoma"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Verbs Part 02] What is the grammatical issue with the phrase “Inche nimwate esese” when expressing possession?",
-      "options": [
-        "Misuse of object pronoun",
-        "Redundant subject prefix",
-        "Incorrect reflexive verb form",
-        "Semantic error in possession"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "question": "[Verbs Part 02] Which example best illustrates antipassive usage in Ekegusii?",
-      "options": ["Abuya ngomoaka are ere", "Gotera", "Ngosomare", "Ere okure"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Verbs Part 02] Identify the correct Ekegusii translation of “They have killed us.”",
-      "options": ["Babaitire", "Bamoitire", "Batoitire", "Twabaitire"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Verbs Part 02] Which form demonstrates a fully fused verbal clause in Ekegusii?",
-      "options": [
-        "Barabwo mbabwate omogondo",
-        "Inche ngosomande",
-        "Tari gwesibia omonyene",
-        "Inche nimwate esese"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Verbs Part 02] Which is true about the verb 'nyuoma' in Ekegusii?",
-      "options": [
-        "It can be used by any gender",
-        "It only applies to legal ceremonies",
-        "It is culturally male-exclusive",
-        "It is always reflexive"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Verbs Part 02] What grammatical process forms the noun 'gwasibia omonyene'?",
-      "options": [
-        "Antipassive shift",
-        "Nominalization via -omonyene",
-        "Agglutination of pronouns",
-        "Use of possessive 'ba'"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Verbs Part 02] Why does 'Banyuomete' mean 'They are married'?",
-      "options": [
-        "Auxiliary makes it passive",
-        "Nyuoma is polysemous",
-        "Subject-object reversal",
-        "Reflexive intransitive form"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Tenses] In the construction 'Yabeire kegotwa,' which grammatical element is primarily responsible for placing the action prior to another past event?",
-      "options": [
-        "The static verb 'beire'",
-        "The subject prefix 'o-'",
-        "The auxiliary 'ete' combined with the perfective infix '-r-'",
-        "The clause marker 'ko'"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Tenses] Which of the following Ekegusii sentences best exemplifies a contracted form of the recent past perfective?",
-      "options": ["Nabo ngoragera", "Nabeire ngoragera", "Narageire", "Inche ngoragera inde"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Tenses] What is the function of the '-ko' suffix in the verb phrase 'Nabeire ‘ngoragera'?",
-      "options": [
-        "To express politeness or deference in past narration",
-        "To emphasize completed action in the past",
-        "To mark obligation tied to habitual action",
-        "To denote a repeated or ongoing past action (past habitual/continuous)"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "question": "[Tenses] In which of the following constructions is the infinitive verb form maintained despite temporal marking?",
-      "options": ["Narigete", "Mbache barike", "Ngochi koragerande", "Inche narageire"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Tenses] Which of the following demonstrates incorrect application of the overt subject rule?",
-      "options": [
-        "Syliviah ngotara are",
-        "Syliviah otarire",
-        "Syliviah Ngooni are",
-        "Baba ngogend’are nyagitari"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Tenses] Which sentence properly expresses the future continuous tense in Ekegusii?",
-      "options": [
-        "Babeire ang’e gochia koragera",
-        "Ngochi koragera",
-        "Ngochi koragera bare buya",
-        "Ngochi koragera buya"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "[Tenses] What does the prefix “narenge-” convey in a sentence like “Narende omwarwaire igoro”?",
-      "options": [
-        "Past habitual illness",
-        "Ongoing sickness",
-        "General recent past",
-        "Specific reference to an event that occurred yesterday"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "question": "[Tenses] Which structure correctly conveys the modal 'should have' in Ekegusii?",
-      "options": ["Nab’akorika", "Inche nabo ingorika", "Nacharike", "Ngocho korika are"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Tenses] What is the primary pedagogical challenge in interpreting present continuous actions in Ekegusii?",
-      "options": [
-        "The need to memorize subject-object order",
-        "The absence of explicit progressive morphology, requiring contextual inference",
-        "The lack of plural forms in present verbs",
-        "The instability of the “eke-” prefix"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "[Tenses] Which of the following morphosyntactic combinations indicates 'They had been…' in Ekegusii past perfect tense?",
-      "options": ["Mbache babe", "Babeire", "Barabwo babeire", "Nabo barabwo babeire"],
-      "correctAnswer": 2
-    }
-  ]
-}
-
+      "cat": ""
     }

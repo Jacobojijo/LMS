@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Kikuyu construction expresses present or near future obligation?",
+      "options": [
+        "kũhoteka",
+        "kũgũĩrĩra",
+        "nomũhaka",
+        "-aga"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The construction 'nomũhaka' expresses present or near future obligation, equivalent to 'must' or 'should' in English."
+    },
+    {
+      "question": "In the sentence 'Nomũhaka tũrute wĩra', which element carries subject concord?",
+      "options": [
+        "nomũhaka",
+        "wĩra",
+        "tũrute",
+        "-haka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The subject concord is carried by 'tũrute', where 'tũ-' agrees with the first person plural subject 'we'."
+    },
+    {
+      "question": "Which construction signals possibility or permission?",
+      "options": [
+        "nomũhaka",
+        "kũhoteka",
+        "kũgũĩrĩra",
+        "-ithia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verb 'kũhoteka' expresses possibility or permission, meaning 'it is possible' or 'may'."
+    },
+    {
+      "question": "What morphological marker expresses the “would” (conditional/past habitual) meaning in Kikuyu?",
+      "options": [
+        "-ĩte",
+        "-ithia",
+        "-aga",
+        "-haka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The suffix '-aga' marks the conditional or past habitual aspect, equivalent to 'would' or 'used to' in English."
+    },
+    {
+      "question": "Which of the following correctly expresses a polite imperative?",
+      "options": [
+        "Nĩngũthiiaga kũu",
+        "Nĩangũĩrĩire gũthiĩ",
+        "Reeke thiĩ!",
+        "Nĩndarugithirie Wanjikũ irio"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Reeke thiĩ!' means 'Please go!' — it’s a polite imperative form using 'reeke' for softening the command."
+    },
+    {
+      "question": "The phrase 'Nĩmũgũĩrĩire gũtũcokerera' means:",
+      "options": [
+        "You (pl.) may return to us",
+        "You (pl.) had returned to us",
+        "You (pl.) should have returned to us",
+        "You (pl.) would return to us"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'Nĩmũgũĩrĩire gũtũcokerera' conveys retrospective obligation — 'You should have returned to us.'"
+    },
+    {
+      "question": "Which morphological marker is used for the past perfect (“had done”)?",
+      "options": [
+        "-ĩte / -ete",
+        "-aga",
+        "-haka",
+        "-ithia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The suffixes '-ĩte' or '-ete' mark the past perfect in Kikuyu, indicating a completed action before another past event."
+    },
+    {
+      "question": "Which Kikuyu suffix converts a base verb into a causative form?",
+      "options": [
+        "-ĩte",
+        "-ithia / -ithĩrĩria",
+        "-haka",
+        "-aga"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The suffix '-ithia' or '-ithĩrĩria' converts a verb into its causative form, meaning 'to cause someone to do something.'"
+    },
+    {
+      "question": "Which construction encodes retrospective obligation (something required but not done)?",
+      "options": [
+        "nomũhaka",
+        "nĩ + kũgũĩrĩra",
+        "kũhoteka",
+        "-aga"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The construction 'nĩ + kũgũĩrĩra' expresses retrospective obligation, indicating something that should have been done."
+    },
+    {
+      "question": "In the causative example 'Nĩndarugithirie Wanjikũ irio', who performs the base action of cooking?",
+      "options": [
+        "The subject (speaker)",
+        "Wanjikũ",
+        "Irio",
+        "The auxiliary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 'Nĩndarugithirie Wanjikũ irio', the causative form means 'I made Wanjikũ cook food'; Wanjikũ performs the base action."
+    }
+  ]
+}
