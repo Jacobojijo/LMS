@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Makori amoete Kemunto ekeegwa”, which component serves as the compound object?",
+      "options": [
+        "Makori",
+        "Ekeegwa",
+        "Amoete",
+        "Kemunto"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Makori\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best exemplifies tense and aspect integration within the SVO structure?",
+      "options": [
+        "Ere nasomete egetabu Kemunto.",
+        "Ngochare Kemunto egetabu",
+        "Barabwo basomire egetabu.",
+        "Ngochare are nekeegwa Makori."
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Ngochare Kemunto egetabu\" best demonstrates the grammatical concept being tested in this question."
+    },
+    {
+      "question": "According to the provided syntactic model, what is the primary grammatical function of the word “giasarensete” in “Ekebusi egiasarensete ase ekerogo”?",
+      "options": [
+        "Adverb modifying the subject",
+        "Subject referencing habitual aspect",
+        "Verb representing past action",
+        "Object indicating place"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Subject referencing habitual aspect\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+    },
+    {
+      "question": "What makes the structure “Ere nasomete egetabu?” syntactically significant in Ekegusii?",
+      "options": [
+        "It demonstrates reduplication in the object",
+        "It features subject-auxiliary inversion for interrogative clarity",
+        "It omits the verb to show progressive aspect",
+        "It eliminates the need for objects in yes/no questions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"It demonstrates reduplication in the object\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "Which of the following violates the canonical Ekegusii SVO word order?",
+      "options": [
+        "Ere osomire egetabu.",
+        "Makori omoire Kemunto ekeegwa.",
+        "Egetabu osomire ere.",
+        "Ekebusi giasarensire ase ekerogo."
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Makori omoire Kemunto ekeegwa.\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "In Ekegusii syntax, which auxiliary would most likely be used to form the perfect aspect in the sentence “They have read a book”?",
+      "options": [
+        "Ngocha",
+        "Ne",
+        "Ba",
+        "Ni"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Ne\" is the correct auxiliary or aspectual marker used in this tense/aspect construction."
+    },
+    {
+      "question": "Which pedagogical activity best helps learners understand sentence expansion while maintaining SVO order?",
+      "options": [
+        "Verb root isolation",
+        "Clause expansion with adverbs and time phrases",
+        "Tone pattern memorization",
+        "Object deletion drills"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Verb root isolation\" is the most effective pedagogical approach for teaching this grammatical concept."
+    },
+    {
+      "question": "In the example “Ere ngocha arenge”, what function does “ngocha” serve?",
+      "options": [
+        "Main verb showing movement",
+        "Auxiliary verb showing progressive aspect",
+        "Object indicating direction",
+        "Interrogative marker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Main verb showing movement\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What makes the Ekegusii SVO structure both rigid and adaptable, according to linguistic observations?",
+      "options": [
+        "It varies based on word class",
+        "It allows optional modifiers without altering core order",
+        "It can invert subject and object freely",
+        "It permits verbs to occur at sentence-final position"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"It varies based on word class\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best captures the benefit of SVO consistency in Ekegusii as stated in the linguistic implications?",
+      "options": [
+        "It promotes idiomatic expressiveness",
+        "It enhances thematic clarity and translation accuracy",
+        "It replaces the need for auxiliary verbs",
+        "It reduces the importance of verb tense markers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"It promotes idiomatic expressiveness\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

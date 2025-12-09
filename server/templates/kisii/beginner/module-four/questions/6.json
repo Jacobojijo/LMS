@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the grammatical function of the preposition “na” in passive constructions?",
+      "options": [
+        "Marks the subject of the sentence",
+        "Introduces the direct object",
+        "Introduces the agent performing the action",
+        "Indicates past tense"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Introduces the direct object\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+    },
+    {
+      "question": "In the sentence “Omogondo oyo goika ooremwe na eeri’”, what role does “eeri’” play?",
+      "options": [
+        "Subject",
+        "Passive verb",
+        "Agent performing the action",
+        "Terminal complement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Passive verb\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best represents the structural formula for expressing an agent in a passive voice Dholuo sentence?",
+      "options": [
+        "Subject + Active Verb + na + Agent",
+        "Subject + Passive Verb + na + Agent",
+        "Subject (Passive) + Passive Verb + na + Agent",
+        "Agent + na + Passive Verb + Subject"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Subject + Passive Verb + na + Agent\" properly represents the agent in passive voice constructions according to Ekegusii grammar."
+    },
+    {
+      "question": "Why is the phrase “Endani eye eyaremetwe na ekeragita” an example of agent complement usage?",
+      "options": [
+        "It shows a location-based identity",
+        "It introduces an object of transfer",
+        "It identifies the doer (tractor) of the passive action (dug)",
+        "It marks plural possession"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"It introduces an object of transfer\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "In the context of expressing origin, what is the role of the prefix “omo”?",
+      "options": [
+        "It is a plural possessive marker",
+        "It introduces an agent in passive constructions",
+        "It marks singular prefix and origin of a place/ person.",
+        "It is a verb prefix for passive voice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It introduces an agent in passive constructions\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "How does the sentence “Nyakocha en nyar Kendu Bay” semantically encode identity?",
+      "options": [
+        "It indicates a passive action performed by Nyakocha",
+        "It shows possession of Kendu Bay by Nyakocha",
+        "It asserts Nyakocha’s female origin from Kendu Bay",
+        "It marks Kendu Bay as an object of transfer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It shows possession of Kendu Bay by Nyakocha\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which copula would most likely be used in a sentence expressing origin in the plural form?",
+      "options": [
+        "Inche",
+        "Aye",
+        "Ere",
+        "Barabwo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is \"Ere\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Consider the phrase “Abarisia korwa Ogembo”. What is the function of “Aba”?",
+      "options": [
+        "Marks the verb tense",
+        "Signals passive voice",
+        "Denotes plural prefix and generic origin",
+        "Introduces a terminal complement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Signals passive voice\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the primary difference between the complements introduced by “na” and “omo”?",
+      "options": [
+        "“na” marks possession; “omo/Aba” marks passive action",
+        "“na” introduces objects; “omo/Aba” introduces subjects",
+        "“na” introduces the agent in passive sentences; “omo/Aba” expresses origin or belonging",
+        "“na” is used for plural nouns; “omo/Aba” for singular nouns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"“na” introduces objects; “omo/Aba” introduces subjects\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "Which sentence correctly demonstrates the complement of origin for a female subject?",
+      "options": [
+        "Omorisia bw’ekanisa",
+        "Sokoro yaye",
+        "Omokungu bw’ogembo",
+        "Omomura omomanyi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Sokoro yaye\" correctly explains the complement structure and its role in the sentence."
+    }
+  ]
+}

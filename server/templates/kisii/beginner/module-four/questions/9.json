@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Inche na Nyanchoka nechiro togochia”, what is the function of \"na Nyanchoka\"?",
+      "options": [
+        "Coordinating subject with Nyanchoka",
+        "Stating Nyanchoka’s destination",
+        "Indicating Nyanchoka’s companionship in the action",
+        "Denoting Nyanchoka’s possession of the market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Stating Nyanchoka’s destination\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which preposition in Ekegusii introduces a topic of discourse?",
+      "options": [
+        "na",
+        "ninche",
+        "ere",
+        "igoro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"ere\" is the correct grammatical marker that introduces this type of complement or clause."
+    },
+    {
+      "question": "What distinguishes the complement of company from simple coordination in Ekegusii?",
+      "options": [
+        "It uses \"na\" instead of \"ne\"",
+        "It marks participation in action, not equal grammatical subjecthood",
+        "It always comes after a speech verb",
+        "It implies opposition between individuals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"It uses \"na\" instead of \"ne\"\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "Choose the sentence that exemplifies the complement of argument:",
+      "options": [
+        "Nyabuto na Makori negasi bagochi",
+        "Makori na Onyancha nesukuru bagochia.",
+        "Intwe etwakwanerete igoro yamaegerio.",
+        "Inche na Nyanchoka nechiro togochia."
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Makori na Onyancha nesukuru bagochia.\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "The preposition “igoro” can be semantically interpreted as all of the following except:",
+      "options": [
+        "About",
+        "With",
+        "Concerning",
+        "On"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"About\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "Which of the following would be grammatically correct to express companionship in an action?",
+      "options": [
+        "Inche na Nyanchoka nechiro togochia.",
+        "Intwe na Nyanchoka nechiro ogochia.",
+        "Nyabuto na Makori negasi bagochia.",
+        "Intwe etwakwanerete igoro yamaegerio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Intwe na Nyanchoka nechiro ogochia.\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the syntactic role of \"igoro yamagenderero\" in “Intwe etwakwanerete igoro yamagenderero”?",
+      "options": [
+        "Locative adjunct",
+        "Direct object",
+        "Complement of argument",
+        "Complement of company"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Direct object\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "In Ekegusii, the complement of company is most frequently used in contexts involving:",
+      "options": [
+        "Thought or memory",
+        "Ownership and possession",
+        "Movement or action",
+        "Formal or legal argumentation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Ownership and possession\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "Which option best captures the functional contrast between “na” and “igoro”?",
+      "options": [
+        "na = “of”; igoro = “with”",
+        "na = locative; igoro = temporal",
+        "na = companion in action; igoro = topic of discourse",
+        "na = causal; igoro = coordinating"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"na = locative; igoro = temporal\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "How would one best describe the linguistic function of “na” in “Makori na Onyancha nesukuru bagochia.”?",
+      "options": [
+        "It equates Makori and Onyancha as subjects",
+        "It marks Onyancha as Makori’s companion in action",
+        "It introduces a secondary argument topic",
+        "It indicates spatial proximity only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"It equates Makori and Onyancha as subjects\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

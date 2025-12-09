@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What grammatical role does “gochia” perform in the sentence “Nyabuto koerera are ekeene gochia ase abanachi ebina.”?",
+      "options": [
+        "It indicates subject-verb agreement",
+        "It introduces the terminal complement (receiver of the action)",
+        "It marks tense and aspect",
+        "It connects two independent clauses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"It indicates subject-verb agreement\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "In the sentence “Makori oenanire riuko gochia ase omonyene”, which element represents the terminal complement, and why?",
+      "options": [
+        "Riuko — because it's an indirect object",
+        "Makori — because he initiates the offering",
+        "Gochia ase omonyene — because it receives the offered item via “gochia”",
+        "Oenanire — because it’s a verb that doesn't require “ni”"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Makori — because he initiates the offering\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "Which of the following verbs does NOT require “gochia” to introduce a recipient?",
+      "options": [
+        "Oenanire",
+        "Koerera",
+        "Ngomoande",
+        "Riuko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Koerera\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What distinguishes “koenana” from “ngomoande” in terms of terminality encoding?",
+      "options": [
+        "Ngomoande lacks semantic transfer; koenana  implies dual action",
+        "Both always require “gochia” before any object",
+        "Koenana needs “gochia” to show destination; ngomoande encodes terminality inherently",
+        "Koenana implies reception; ngomoande only expresses giving to objects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Both always require “gochia” before any object\" correctly identifies the terminal complement or receiver in this grammatical structure."
+    },
+    {
+      "question": "Which of the following is a correct structural formula for a sentence involving a terminal complement introduced by \"ni\"?",
+      "options": [
+        "Subject + Verb + Indirect Object + Preposition",
+        "Subject + Verb + Object + “gochia” + Terminal Complement",
+        "Subject + “gochia” + Verb + Terminal Complement",
+        "Verb + Subject + Terminal Complement + Object"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Subject + Verb + Indirect Object + Preposition\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "In the phrase “Oborabu bw’omobaso’”, what semantic relationship does “bwe” establish?",
+      "options": [
+        "It denotes the grammatical subject",
+        "It marks possession or source attribution",
+        "It introduces a prepositional phrase",
+        "It modifies the verb tense"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"It denotes the grammatical subject\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following Ekegusii phrases uses “bwe” to express a natural origin?",
+      "options": [
+        "Inche ngomoande omoiseke ominto chinchugu.",
+        "Emerindo y’enyancha.",
+        "Nyabuto oenanire riuko gochia ase omonyene.",
+        "Omwana ochiire gochia ase enyancha."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Inche ngomoande omoiseke ominto chinchugu.\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Why is the phrase “Amatuko y’emegati” different from “Chinguru ch’ienchogu” in terms of structure?",
+      "options": [
+        "The first uses a verb instead of a noun",
+        "The first uses “ye” (plural), while the second uses “chie” (singular)",
+        "The second includes a preposition",
+        "The first omits a necessary terminal marker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"The first uses a verb instead of a noun\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the grammatical function of “rwe” in the phrase “Orotacho rwe etigere”?",
+      "options": [
+        "To mark the object of a verb",
+        "To express possession or inherent trait",
+        "To connect two clauses",
+        "To show temporal placement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"To mark the object of a verb\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+    },
+    {
+      "question": "Which of the following most accurately explains the difference between “bwe” and “ye”?",
+      "options": [
+        "“Bwe” marks tense; “ye” marks plural pronouns",
+        "“Bwe” is singular possessive; “ye” is plural possessive",
+        "“Bwe” introduces terminal complements; “ye” introduces adverbial clauses",
+        "“Ye” is optional, while “bwe” is obligatory in all cases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"“Bwe” marks tense; “ye” marks plural pronouns\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

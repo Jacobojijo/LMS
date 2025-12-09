@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Togokora emeremo asengencho yechibesa”, what is the grammatical function of “yechibesa”?",
+      "options": [
+        "Complement of locality",
+        "Complement of aim",
+        "Complement of cause",
+        "Adverbial phrase"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Complement of locality\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+    },
+    {
+      "question": "Which sentence expresses a cause using a correct Ekegusii causal marker?",
+      "options": [
+        "Tomenyete Kenya",
+        "Ase ekeene",
+        "Nyabuto nigo akominyoka asengencho anyorire.",
+        "Ere amenyete Kisumu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Ase ekeene\" is the correct grammatical marker that introduces this type of complement or clause."
+    },
+    {
+      "question": "Identify the marker that introduces purpose in a Ekegusii sentence:",
+      "options": [
+        "Ngai",
+        "Asengencho",
+        "ekeene",
+        "-ete"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Ngai\" is the correct grammatical marker that introduces this type of complement or clause."
+    },
+    {
+      "question": "What distinguishes “Asengencho” in “Enyancha ere Kisumu” from its use in “Togokora emeremo asengencho yechibesa”?",
+      "options": [
+        "It marks aim in both cases",
+        "It is optional in both",
+        "One marks locality, the other marks aim",
+        "It only functions with abstract nouns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It is optional in both\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following sentences correctly shows a complement of locality?",
+      "options": [
+        "Inche ngogenda komorora omonyagitari asengencho inde omorwaire.",
+        "Nyabuto nigo akominyoka asengencho anyorire.",
+        "Amenyete Kemera.",
+        "Ebaitetwe asengencho yekeene."
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Nyabuto nigo akominyoka asengencho anyorire.\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "Choose the sentence that reflects an ideological aim:",
+      "options": [
+        "Amenyete Kemera",
+        "Ebaitetwe asengencho yekeene",
+        "Inche ngogenda komorora omonyagitari asengencho inde omorwaire",
+        "Nyabuto nigo akominyoka asengencho anyorire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Amenyete Kemera\" best reflects or combines the grammatical features being tested."
+    },
+    {
+      "question": "Which complement answers the question \"Why did it happen?\" in Ekegusii grammar?",
+      "options": [
+        "Complement of aim",
+        "Complement of cause",
+        "Complement of locality",
+        "Complement of tense"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Complement of aim\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "Which of the following best characterizes Ekegusii complement of locality?",
+      "options": [
+        "Always preceded by “Asengencho”",
+        "Places follow verb directly without preposition",
+        "Introduced by \"Asengencho\"",
+        "Can only refer to abstract space"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Always preceded by “Asengencho”\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "What is the correct interrogative form for asking where someone lives in Ekegusii?",
+      "options": [
+        "Amenyete Kisumu?",
+        "Ingai omonyete?",
+        "Momenyete ngai?",
+        "Nyabuto ngai amenyete?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Amenyete Kisumu?\" correctly forms or answers the interrogative structure in Ekegusii."
+    },
+    {
+      "question": "Which of the following would be a valid response to the question \n“ Nairobi\n ore?”",
+      "options": [
+        "Ooyo, ok tore",
+        "Ee, Nairobi inde",
+        "Yaya Nairobi",
+        "Asengencho tomenyete Nairobi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Ooyo, ok tore\" correctly forms or answers the interrogative structure in Ekegusii."
+    }
+  ]
+}

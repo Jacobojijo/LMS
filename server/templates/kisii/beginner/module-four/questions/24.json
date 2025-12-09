@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What key morphological change transforms “bagosomi” (they teach) into its correct subjunctive form?",
+      "options": [
+        "Dropping the “go”",
+        "Doubling the “ba”",
+        "Replacing “-mi” with “-ma”",
+        "Adding the prefix “nabo-”"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Doubling the “ba”\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best expresses a purpose clause using the subjunctive?",
+      "options": [
+        "Kaa eng’ombe amache",
+        "Nabo eratwe **",
+        "Ng’a amache erinde inywe — Give me water that I may drink",
+        "Nimbakonye koruga"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Nabo eratwe **\" correctly represents a complement or marker of purpose in Ekegusii."
+    },
+    {
+      "question": "Which verb transformation follows the regular subjunctive rule of dropping “-a”?",
+      "options": [
+        "Okoragera → Ragera",
+        "Ogosibia → Sibi",
+        "Okoruga → Ruga",
+        "Ogosaba → Saba"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Okoragera → Ragera\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the subjunctive of “Ere akoragera” (He eats)?",
+      "options": [
+        "Okoragera",
+        "koragera",
+        "Barageire",
+        "Nabo akoragera"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Okoragera\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which Ekegusii sentence correctly illustrates the “A-n-A” imperative future pattern?",
+      "options": [
+        "Ngochigocha bare",
+        "Inche ninchengende! — I shall go!",
+        "Intwe ntwachiete",
+        "Buna baria’"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Ngochigocha bare\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following is the most appropriate subjunctive usage for exhortation or urging?",
+      "options": [
+        "Tindigochi koragera mambia",
+        "Nabo okorara",
+        "Nabo mogosoa",
+        "Toragere! — Let’s eat!"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is \"Nabo mogosoa\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Identify the sentence that contains a polite supposition using the potential prefix “Ni-”.",
+      "options": [
+        "Ningokonyee",
+        "Igo Ningokonye korema? — Could I possibly help you dig?",
+        "Tocha",
+        "Ngonye Amache inywe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Ningokonyee\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which subjunctive transformation is used when the verb ends in -bi?",
+      "options": [
+        "Drop “bi” entirely and add “i”",
+        "Add “aba”",
+        "Drop “b” and add the pronoun suffix",
+        "Keep unchanged; tone distinguishes mood"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Add “aba”\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the subjunctive of the irregular verb “ere ngochare” (he/she comes)?",
+      "options": [
+        "Are",
+        "Ngocha",
+        "Ere",
+        "Chare"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Ngocha\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "In the sentence “Omonene, koranche renta embura”, which mood is being expressed and why?",
+      "options": [
+        "Indicative, because it reports a fact",
+        "Subjunctive, as it expresses divine pleading",
+        "Imperative, as it gives a command",
+        "Negative subjunctive, due to uncertainty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Indicative, because it reports a fact\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

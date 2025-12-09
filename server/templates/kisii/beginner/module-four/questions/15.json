@@ -1,0 +1,103 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "A child named Omambia was most likely born:",
+      "options": [
+        "At noon",
+        "After midnight",
+        "In the early morning",
+        "During a rainstorm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"After midnight\" reflects the Gusii naming tradition and principle for this circumstance."
+    },
+    {
+      "question": "What naming principle is illustrated when a child is called Kemuma?",
+      "options": [
+        "Named after a historical ancestor",
+        "Named based on physical birth posture",
+        "Named to preserve twin order",
+        "Named due to famine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Named after a historical ancestor\" reflects the Gusii naming tradition and principle for this circumstance."
+    },
+    {
+      "question": "Which pair of names correctly reflects twin birth order in the Gusii tradition?",
+      "options": [
+        "Barongo (first), Chacha (second)",
+        "Chacha (first), Barongo (second)",
+        "Motangi (first), Mogaka (second)",
+        "Mogaka (first), Barongo (second)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Barongo (first), Chacha (second)\" best reflects or combines the grammatical features being tested."
+    },
+    {
+      "question": "If a male child is named Barongo, what cultural principle is at work?",
+      "options": [
+        "Place-based naming",
+        "Phenomenon-linked naming",
+        "Time-based naming for females",
+        "Inheritance-based naming defying gender conventions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Time-based naming for females\" captures the cultural and social connotations embedded in this linguistic expression."
+    },
+    {
+      "question": "Which of the following names would NOT be used to indicate geographic location of birth?",
+      "options": [
+        "Nyabara",
+        "Makori",
+        "Nyanchera",
+        "Mogaka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Nyanchera\" properly identifies or expresses locality/location in the sentence."
+    },
+    {
+      "question": "Which naming pair best represents event-based identity formation?",
+      "options": [
+        "Nyamwamu / Omwamu",
+        "Obiero / Abiero",
+        "Okeyo / Nyakeyo",
+        "Ogoti / Agoti"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Obiero / Abiero\" reflects the Gusii naming tradition and principle for this circumstance."
+    },
+    {
+      "question": "A child born under bright sunlight would traditionally be named:",
+      "options": [
+        "Nyang’au or Kemunto",
+        "Nyakundi or Kemuma",
+        "Onsase or Nyasase",
+        "Barongo or Chacha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Nyakundi or Kemuma\" reflects the Gusii naming tradition and principle for this circumstance."
+    },
+    {
+      "question": "The Gusii naming system treats names as lived stories because:",
+      "options": [
+        "Names are reused cyclically without meaning",
+        "Children are named after foreign leaders",
+        "They are assigned numerically at birth",
+        "They encode time, place, events, ancestry, and symbolism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"They are assigned numerically at birth\" correctly uses the causal marker to express cause in Ekegusii."
+    },
+    {
+      "question": "What does the name Nyamori most accurately imply?",
+      "options": [
+        "Child born at sunset",
+        "Child born during rainfall",
+        "Child born after a retained placenta",
+        "Child born on a mountain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Child born during rainfall\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

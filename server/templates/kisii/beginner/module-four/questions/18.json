@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary syntactic function of the Ekegusii word “erio” (with a sharp tone)?",
+      "options": [
+        "To indicate arrival time",
+        "To denote past cause",
+        "To introduce a dependent clause expressing purpose or condition",
+        "To mark possession"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"To denote past cause\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "How does the tonal difference between “erio” and “asengencho” affect meaning?",
+      "options": [
+        "Both mean the same: “that”",
+        "“Erio” means “that/so that,” while “Asengencho” means “Reason for something”",
+        "“Erio” means “cause,” “Asengencho” means “so that”",
+        "Tonal difference does not affect meaning in this context"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Both mean the same: “that”\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "In the phrase “Ahombi (ni) mondo ayud cham”, what does “ni” contribute?",
+      "options": [
+        "Negation",
+        "Past tense marker",
+        "A directive element meaning “so” to form “so that”",
+        "Plural marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Past tense marker\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best expresses a future-oriented purpose in Ekegusii?",
+      "options": [
+        "“Ngoragera asengencho inde inchara” (I eat because I am hungry)",
+        "“Ngosika omote erinde inyore ekeiriri” (I plant a tree so that I may find shade)",
+        "“Ngominyoka asengencho inyorire” (I run because I’m late)",
+        "“Aangete gokwana nainche asengencho twomanete” (He refused to talk to me because we quarreled)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"“Ngoragera asengencho inde inchara” (I eat because I am hungry)\" correctly represents a complement or marker of purpose in Ekegusii."
+    },
+    {
+      "question": "Which connector would you use to express a cause related to a past or existing reason?",
+      "options": [
+        "Erio",
+        "Erinde",
+        "Asengencho",
+        "Ekiagera"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Erinde\" correctly uses the causal marker to express cause in Ekegusii."
+    },
+    {
+      "question": "Consider the sentence: “Togochenga erio tobe n’omogoko.” What is the meaning of “erio” here?",
+      "options": [
+        "Because we are happy",
+        "When we are happy",
+        "So that we may be happy",
+        "Since we were happy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"When we are happy\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What does the example “Inche inkoboria erinde imente chinguru” illustrate about the use of “erinde”?",
+      "options": [
+        "It expresses refusal",
+        "It denotes past cause",
+        "It shows intention or purpose (“I ask so that I may gain strength”)",
+        "It marks an imperative command"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It denotes past cause\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following is true about “Asengencho” in Ekegusii?",
+      "options": [
+        "It is a relative pronoun for future events",
+        "It functions as a preposition",
+        "It functions as a causal connector meaning “because”",
+        "It means “arrive early”"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It functions as a preposition\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the correct explanation for the phrase “Ore igaa erio okore emeremo!”?",
+      "options": [
+        "It is a question asking “Are you here?”",
+        "It expresses a request for help",
+        "It is an imperative meaning “You are here to work!”",
+        "It denotes past action"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It expresses a request for help\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best summarizes the distinction between “erio” and “Asengencho”?",
+      "options": [
+        "Erio indicates past cause; Asengencho indicates future intent",
+        "Both are interchangeable causal connectors",
+        "Erio expresses future-oriented intent or consequence; Asengencho expresses immediate or observed cause",
+        "Erio is used only in questions; Asengencho only in statements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Both are interchangeable causal connectors\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

@@ -1,0 +1,2486 @@
+{
+  "title": "MODULE 04",
+  "description": "Advanced Grammar and Communication",
+  "order": 4,
+  "_id": {
+    "$oid": "6891d48461021d79403e5e54"
+  },
+  "topics": [
+    {
+      "title": "4.1 Adverbs",
+      "type": "container",
+      "order": 1,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e55"
+      },
+      "subtopics": [
+        {
+          "title": "4.1.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/1.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e56"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In the sentence \"Nyanchoka nigo akominyoka bwango mono.\n\", what grammatical phenomenon is represented by the structure of “bwango mono”?",
+              "options": [
+                "Elliptical ellipsis",
+                "Nominal embedding",
+                "Layered adverbial modification",
+                "Object-initial topicalization"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Nominal embedding\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best illustrates the semantic function of an adverb of frequency?",
+              "options": [
+                "Omwaga ogusire bwango mono",
+                "Nyaboke airanete bwango",
+                "Egesiri egekorema buya",
+                "Babeire bagocha botambe"
+              ],
+              "correctAnswer": 2,
+              "explanation": "\"Egesiri egekorema buya\" accurately represents the semantic function or domain of the element being discussed."
+            },
+            {
+              "question": "What syntactic flexibility allows Ekegusii adverbs like “bwango” to be placed after or before the verb?",
+              "options": [
+                "Subject-predicate inversion",
+                "The nominalization of verb roots",
+                "Emphatic or stylistic fronting",
+                "Verb compounding with prepositions"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"The nominalization of verb roots\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "Which of the following sentences demonstrates reduplication as a strategy for intensification?",
+              "options": [
+                "Omwaga ogusire bwango",
+                "Nyanchoka ominyokire bwango bwango",
+                "Baba ominto n’omuya",
+                "Ochire bwango"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Omwaga ogusire bwango\" shows reduplication as a morphological strategy for intensification in Ekegusii."
+            },
+            {
+              "question": "Which adverbial element carries socio-cultural connotation beyond mere syntactic function in the following: “As’omorembe”?",
+              "options": [
+                "It simply means “calmly”",
+                "It implies social peace or communal harmony",
+                "It is a metaphor for invisibility",
+                "It marks habitual silence in religious discourse"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"It simply means “calmly”\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "The phrase “Omotambe mono” exemplifies what type of adverbial construction?",
+              "options": [
+                "Degree + noun + modal",
+                "Adjective modified by degree adverb",
+                "Reduplicated noun intensifier",
+                "Mood-influenced adjective quantifier"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Degree + noun + modal\" correctly identifies the grammatical or morphological category of the construction."
+            },
+            {
+              "question": "In the phrase “Eriogi rinene” what semantic domain does the adverb belong to?",
+              "options": [
+                "Degree",
+                "Manner",
+                "Frequency",
+                "Place"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Degree\" accurately represents the semantic function or domain of the element being discussed."
+            },
+            {
+              "question": "The placement of “kare” in a sentence such as “Barabwo koranta bare chichabati kare” serves which function?",
+              "options": [
+                "Locational anchoring of the action",
+                "Intensification of mood",
+                "Temporal prediction or imminence",
+                "Modifier of agency"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Intensification of mood\" accurately describes the function of this element within the sentence."
+            },
+            {
+              "question": "What makes “Bwango bwango” and “Ng’ora ng’ora” structurally similar?",
+              "options": [
+                "Both are inflected verbs in subjunctive mood",
+                "Both are reduplicated adverbs of manner for emphasis",
+                "Both are contracted noun phrases",
+                "Both are honorific expressions"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Both are inflected verbs in subjunctive mood\" identifies the shared structural property that makes these forms similar."
+            },
+            {
+              "question": "Which example best reflects the combination of adverbial categories within a single clause?",
+              "options": [
+                "Rora gochia aria.",
+                "Nyanchoka akominyoka bwango mono.",
+                "Botambe nkoria tore chichabati.",
+                "Omwaga ogusire bwango"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Rora gochia aria.\" best reflects or combines the grammatical features being tested."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.2 Order of Speech",
+      "type": "container",
+      "order": 2,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e57"
+      },
+      "subtopics": [
+        {
+          "title": "4.2.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/2.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e58"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In the sentence “Makori amoete Kemunto ekeegwa”, which component serves as the compound object?",
+              "options": [
+                "Makori",
+                "Ekeegwa",
+                "Amoete",
+                "Kemunto"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Makori\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best exemplifies tense and aspect integration within the SVO structure?",
+              "options": [
+                "Ere nasomete egetabu Kemunto.",
+                "Ngochare Kemunto egetabu",
+                "Barabwo basomire egetabu.",
+                "Ngochare are nekeegwa Makori."
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Ngochare Kemunto egetabu\" best demonstrates the grammatical concept being tested in this question."
+            },
+            {
+              "question": "According to the provided syntactic model, what is the primary grammatical function of the word “giasarensete” in “Ekebusi egiasarensete ase ekerogo”?",
+              "options": [
+                "Adverb modifying the subject",
+                "Subject referencing habitual aspect",
+                "Verb representing past action",
+                "Object indicating place"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Subject referencing habitual aspect\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+            },
+            {
+              "question": "What makes the structure “Ere nasomete egetabu?” syntactically significant in Ekegusii?",
+              "options": [
+                "It demonstrates reduplication in the object",
+                "It features subject-auxiliary inversion for interrogative clarity",
+                "It omits the verb to show progressive aspect",
+                "It eliminates the need for objects in yes/no questions"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"It demonstrates reduplication in the object\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "Which of the following violates the canonical Ekegusii SVO word order?",
+              "options": [
+                "Ere osomire egetabu.",
+                "Makori omoire Kemunto ekeegwa.",
+                "Egetabu osomire ere.",
+                "Ekebusi giasarensire ase ekerogo."
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Makori omoire Kemunto ekeegwa.\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "In Ekegusii syntax, which auxiliary would most likely be used to form the perfect aspect in the sentence “They have read a book”?",
+              "options": [
+                "Ngocha",
+                "Ne",
+                "Ba",
+                "Ni"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Ne\" is the correct auxiliary or aspectual marker used in this tense/aspect construction."
+            },
+            {
+              "question": "Which pedagogical activity best helps learners understand sentence expansion while maintaining SVO order?",
+              "options": [
+                "Verb root isolation",
+                "Clause expansion with adverbs and time phrases",
+                "Tone pattern memorization",
+                "Object deletion drills"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Verb root isolation\" is the most effective pedagogical approach for teaching this grammatical concept."
+            },
+            {
+              "question": "In the example “Ere ngocha arenge”, what function does “ngocha” serve?",
+              "options": [
+                "Main verb showing movement",
+                "Auxiliary verb showing progressive aspect",
+                "Object indicating direction",
+                "Interrogative marker"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Main verb showing movement\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What makes the Ekegusii SVO structure both rigid and adaptable, according to linguistic observations?",
+              "options": [
+                "It varies based on word class",
+                "It allows optional modifiers without altering core order",
+                "It can invert subject and object freely",
+                "It permits verbs to occur at sentence-final position"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"It varies based on word class\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best captures the benefit of SVO consistency in Ekegusii as stated in the linguistic implications?",
+              "options": [
+                "It promotes idiomatic expressiveness",
+                "It enhances thematic clarity and translation accuracy",
+                "It replaces the need for auxiliary verbs",
+                "It reduces the importance of verb tense markers"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"It promotes idiomatic expressiveness\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.3 Compliment (Part 01)",
+      "type": "container",
+      "order": 3,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e59"
+      },
+      "subtopics": [
+        {
+          "title": "4.3.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/3.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e5a"
+          },
+          "passingScore": 50,
+          "practiceQuestions": ""
+        },
+        {
+          "title": "4.3.2 Indirect Compliment",
+          "htmlContent": "kisii/beginner/module-four/4.html",
+          "order": 2,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e5b"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In the sentence \" Nyabuto abogoretie obonyansi\", what makes obonyansi function as a complement?",
+              "options": [
+                "It is a subject modified by a verb",
+                "It appears before the verb in SVO order",
+                "It directly receives the action of the verb obonyansi",
+                "It acts as an indirect beneficiary"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"It appears before the verb in SVO order\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Which of the following most accurately represents the complete syntactic structure of the sentence \"Nyabuto omoire Makori enyimbo\"?",
+              "options": [
+                "Subject + Object + Verb + Recipient",
+                "Verb + Subject + Direct Object + Indirect Complement",
+                "Subject + Verb + Indirect Complement + Direct Object",
+                "Subject + Verb + Adverbial + Object"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Verb + Subject + Direct Object + Indirect Complement\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "In the clause \"Makori obwatire enyimbo korwa ase Nyabuto\", the phrase \"korwa ase Nyabuto\" semantically expresses:",
+              "options": [
+                "The affected object",
+                "The source of transfer",
+                "The recipient of the action",
+                "An optional adverbial of time"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"The affected object\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "In which of the following constructions is the complement essential for maintaining syntactic and semantic completeness?",
+              "options": [
+                "Nyabuto ominyokire",
+                "Makori obutoire",
+                "Nyabuto n’omote akobutora",
+                "Omwana one"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Makori obutoire\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "Which best describes the dual-object relationship in the sentence “Omwana omoire ng’ina egekabu”?",
+              "options": [
+                "One object acts as both recipient and theme",
+                "One is a recipient (mother), the other a transferred item (basket)",
+                "There is only a single compound object",
+                "The direct object precedes the indirect"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"One object acts as both recipient and theme\" accurately describes the relationship between the two objects in this construction."
+            },
+            {
+              "question": "Why is the word “obokima” in “Nyabuto amo na Makori n’obokima bakori” classified as a complement?",
+              "options": [
+                "It introduces a prepositional phrase",
+                "It modifies the verb in tense",
+                "It is the direct object receiving the verb action",
+                "It acts as the subject of the sentence"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"It modifies the verb in tense\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Which sentence correctly demonstrates the use of a prepositional indirect complement?",
+              "options": [
+                "Omwana n’obokima akori.",
+                "Makori obwatire enyimbo korwa ase Nyabuto.",
+                "Nyabuto amo na Makori enyimbo.",
+                "Oire riuko Makori."
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Omwana n’obokima akori.\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "What syntactic rule is demonstrated by the phrase “Namoete Makori riuko.”?",
+              "options": [
+                "The indirect complement must be postverbal but final",
+                "Direct objects cannot precede indirect complements",
+                "The indirect complement precedes the direct object in a transfer verb",
+                "Verbs in Ekegusii require only one object at a time"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Direct objects cannot precede indirect complements\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "Why is “Omorangu” in both “Nyabuto n’omorangu akoigora” and \n“ Nyabuto\n n’omorangu agosieka.” an example of a direct complement?",
+              "options": [
+                "It is always accompanied by an adverb",
+                "It serves as the recipient in a passive construction",
+                "It is the direct receiver of two different transitive actions",
+                "It modifies the subject rather than the verb"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"It serves as the recipient in a passive construction\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "According to Ekegusii morphosyntactic rules, what happens when an indirect complement is introduced by \"korwa\"?",
+              "options": [
+                "The subject and verb must be reversed",
+                "It marks a prepositional recipient in receptive constructions",
+                "The direct object is eliminated",
+                "The action becomes reflexive"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"The subject and verb must be reversed\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            }
+          ]
+        },
+        {
+          "title": "4.3.3 The Compliment of Terminal & Specification",
+          "htmlContent": "kisii/beginner/module-four/5.html",
+          "order": 3,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e5c"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "What grammatical role does “gochia” perform in the sentence “Nyabuto koerera are ekeene gochia ase abanachi ebina.”?",
+              "options": [
+                "It indicates subject-verb agreement",
+                "It introduces the terminal complement (receiver of the action)",
+                "It marks tense and aspect",
+                "It connects two independent clauses"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"It indicates subject-verb agreement\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "In the sentence “Makori oenanire riuko gochia ase omonyene”, which element represents the terminal complement, and why?",
+              "options": [
+                "Riuko — because it's an indirect object",
+                "Makori — because he initiates the offering",
+                "Gochia ase omonyene — because it receives the offered item via “gochia”",
+                "Oenanire — because it’s a verb that doesn't require “ni”"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Makori — because he initiates the offering\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Which of the following verbs does NOT require “gochia” to introduce a recipient?",
+              "options": [
+                "Oenanire",
+                "Koerera",
+                "Ngomoande",
+                "Riuko"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Koerera\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What distinguishes “koenana” from “ngomoande” in terms of terminality encoding?",
+              "options": [
+                "Ngomoande lacks semantic transfer; koenana  implies dual action",
+                "Both always require “gochia” before any object",
+                "Koenana needs “gochia” to show destination; ngomoande encodes terminality inherently",
+                "Koenana implies reception; ngomoande only expresses giving to objects"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Both always require “gochia” before any object\" correctly identifies the terminal complement or receiver in this grammatical structure."
+            },
+            {
+              "question": "Which of the following is a correct structural formula for a sentence involving a terminal complement introduced by \"ni\"?",
+              "options": [
+                "Subject + Verb + Indirect Object + Preposition",
+                "Subject + Verb + Object + “gochia” + Terminal Complement",
+                "Subject + “gochia” + Verb + Terminal Complement",
+                "Verb + Subject + Terminal Complement + Object"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Subject + Verb + Indirect Object + Preposition\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "In the phrase “Oborabu bw’omobaso’”, what semantic relationship does “bwe” establish?",
+              "options": [
+                "It denotes the grammatical subject",
+                "It marks possession or source attribution",
+                "It introduces a prepositional phrase",
+                "It modifies the verb tense"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"It denotes the grammatical subject\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following Ekegusii phrases uses “bwe” to express a natural origin?",
+              "options": [
+                "Inche ngomoande omoiseke ominto chinchugu.",
+                "Emerindo y’enyancha.",
+                "Nyabuto oenanire riuko gochia ase omonyene.",
+                "Omwana ochiire gochia ase enyancha."
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Inche ngomoande omoiseke ominto chinchugu.\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Why is the phrase “Amatuko y’emegati” different from “Chinguru ch’ienchogu” in terms of structure?",
+              "options": [
+                "The first uses a verb instead of a noun",
+                "The first uses “ye” (plural), while the second uses “chie” (singular)",
+                "The second includes a preposition",
+                "The first omits a necessary terminal marker"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"The first uses a verb instead of a noun\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the grammatical function of “rwe” in the phrase “Orotacho rwe etigere”?",
+              "options": [
+                "To mark the object of a verb",
+                "To express possession or inherent trait",
+                "To connect two clauses",
+                "To show temporal placement"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"To mark the object of a verb\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+            },
+            {
+              "question": "Which of the following most accurately explains the difference between “bwe” and “ye”?",
+              "options": [
+                "“Bwe” marks tense; “ye” marks plural pronouns",
+                "“Bwe” is singular possessive; “ye” is plural possessive",
+                "“Bwe” introduces terminal complements; “ye” introduces adverbial clauses",
+                "“Ye” is optional, while “bwe” is obligatory in all cases"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"“Bwe” marks tense; “ye” marks plural pronouns\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        },
+        {
+          "title": "4.3.4 The Compliment of Agent & Origin",
+          "htmlContent": "kisii/beginner/module-four/6.html",
+          "order": 4,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e5d"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "What is the grammatical function of the preposition “na” in passive constructions?",
+              "options": [
+                "Marks the subject of the sentence",
+                "Introduces the direct object",
+                "Introduces the agent performing the action",
+                "Indicates past tense"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Introduces the direct object\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+            },
+            {
+              "question": "In the sentence “Omogondo oyo goika ooremwe na eeri’”, what role does “eeri’” play?",
+              "options": [
+                "Subject",
+                "Passive verb",
+                "Agent performing the action",
+                "Terminal complement"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Passive verb\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best represents the structural formula for expressing an agent in a passive voice Dholuo sentence?",
+              "options": [
+                "Subject + Active Verb + na + Agent",
+                "Subject + Passive Verb + na + Agent",
+                "Subject (Passive) + Passive Verb + na + Agent",
+                "Agent + na + Passive Verb + Subject"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Subject + Passive Verb + na + Agent\" properly represents the agent in passive voice constructions according to Ekegusii grammar."
+            },
+            {
+              "question": "Why is the phrase “Endani eye eyaremetwe na ekeragita” an example of agent complement usage?",
+              "options": [
+                "It shows a location-based identity",
+                "It introduces an object of transfer",
+                "It identifies the doer (tractor) of the passive action (dug)",
+                "It marks plural possession"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"It introduces an object of transfer\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "In the context of expressing origin, what is the role of the prefix “omo”?",
+              "options": [
+                "It is a plural possessive marker",
+                "It introduces an agent in passive constructions",
+                "It marks singular prefix and origin of a place/ person.",
+                "It is a verb prefix for passive voice"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It introduces an agent in passive constructions\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "How does the sentence “Nyakocha en nyar Kendu Bay” semantically encode identity?",
+              "options": [
+                "It indicates a passive action performed by Nyakocha",
+                "It shows possession of Kendu Bay by Nyakocha",
+                "It asserts Nyakocha’s female origin from Kendu Bay",
+                "It marks Kendu Bay as an object of transfer"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It shows possession of Kendu Bay by Nyakocha\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which copula would most likely be used in a sentence expressing origin in the plural form?",
+              "options": [
+                "Inche",
+                "Aye",
+                "Ere",
+                "Barabwo"
+              ],
+              "correctAnswer": 2,
+              "explanation": "The correct answer is \"Ere\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Consider the phrase “Abarisia korwa Ogembo”. What is the function of “Aba”?",
+              "options": [
+                "Marks the verb tense",
+                "Signals passive voice",
+                "Denotes plural prefix and generic origin",
+                "Introduces a terminal complement"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Signals passive voice\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the primary difference between the complements introduced by “na” and “omo”?",
+              "options": [
+                "“na” marks possession; “omo/Aba” marks passive action",
+                "“na” introduces objects; “omo/Aba” introduces subjects",
+                "“na” introduces the agent in passive sentences; “omo/Aba” expresses origin or belonging",
+                "“na” is used for plural nouns; “omo/Aba” for singular nouns"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"“na” introduces objects; “omo/Aba” introduces subjects\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Which sentence correctly demonstrates the complement of origin for a female subject?",
+              "options": [
+                "Omorisia bw’ekanisa",
+                "Sokoro yaye",
+                "Omokungu bw’ogembo",
+                "Omomura omomanyi"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Sokoro yaye\" correctly explains the complement structure and its role in the sentence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.4 Review & Practice",
+      "type": "standalone",
+      "order": 4,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e5e"
+      },
+      "htmlContent": "kisii/beginner/module-four/7.html",
+      "passingScore": 50
+    },
+    {
+      "title": "4.5 Compliment (Part 02)",
+      "type": "container",
+      "order": 5,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e5f"
+      },
+      "subtopics": [
+        {
+          "title": "4.5.1 The Compliment of Material & Purpose",
+          "htmlContent": "kisii/beginner/module-four/8.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e60"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In the phrase “Egetanda giechibao”, what semantic role does \"gi\" fulfill?",
+              "options": [
+                "Denotes temporal relation",
+                "Marks the purpose of the bed",
+                "Links the bed to its material composition",
+                "Indicates ownership"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Marks the purpose of the bed\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following correctly represents a complement of purpose?",
+              "options": [
+                "Enyororo yetaai",
+                "Ensa yetahabu",
+                "Chibesa chiendagera",
+                "Egetanda giechibao"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Ensa yetahabu\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "The construction “Chianga chiegasi” is best interpreted as:",
+              "options": [
+                "Clothes made from tich",
+                "Clothes owned by tich",
+                "Clothes intended for work",
+                "Clothes sold by tich"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Clothes owned by tich\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "The word “ye” in both material and purpose complements functions primarily as:",
+              "options": [
+                "A verb indicating action",
+                "A temporal marker",
+                "A genitive linker expressing composition or function",
+                "An interrogative particle"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"A temporal marker\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "If a “enyongo” is described as “Enyongo yamaroba”, what cultural implication is conveyed?",
+              "options": [
+                "The pot is expensive and ornamental",
+                "The pot is broken or unusable",
+                "The pot reflects traditional craftsmanship and material heritage",
+                "The pot is used exclusively for ceremonial purposes"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"The pot is broken or unusable\" captures the cultural and social connotations embedded in this linguistic expression."
+            },
+            {
+              "question": "Which phrase best exemplifies the use of “ye” as a complement of material?",
+              "options": [
+                "Amache yokonywa",
+                "Ensa yetahabu",
+                "Chibesa chiendagera",
+                "Chianga chiegasi"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Amache yokonywa\" best demonstrates the grammatical concept being tested in this question."
+            },
+            {
+              "question": "The phrase “Egesiri giokoburuga” links “egesiri” with “-koburuga” to indicate:",
+              "options": [
+                "The tool’s ownership by pur",
+                "The location where the hoe was found",
+                "The hoe’s intended agricultural purpose",
+                "The hoe’s material composition"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"The location where the hoe was found\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "How does the complement of purpose differ semantically from the complement of material?",
+              "options": [
+                "Material indicates possession; purpose indicates size",
+                "Material indicates composition; purpose indicates intended use",
+                "Material indicates ownership; purpose indicates temporal sequence",
+                "Material indicates location; purpose indicates quality"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Material indicates possession; purpose indicates size\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "The phrase “Enyongo yamaroba” carries what implied meaning beyond literal composition?",
+              "options": [
+                "The chain is fragile and easily broken",
+                "The chain is made of cheap material",
+                "The chain suggests elegance or value through precious metal",
+                "The chain is used for cooking"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"The chain is made of cheap material\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "If you wanted to describe a water container used for drinking, which phrase would be grammatically and semantically correct in Ekegusii?",
+              "options": [
+                "Amache y’okoburuga",
+                "Amache yetahabu",
+                "Amache yokonywa",
+                "Amache yechibao"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Amache yetahabu\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        },
+        {
+          "title": "4.5.2 The Compliment of Company & Argument",
+          "htmlContent": "kisii/beginner/module-four/9.html",
+          "order": 2,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e61"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In the sentence “Inche na Nyanchoka nechiro togochia”, what is the function of \"na Nyanchoka\"?",
+              "options": [
+                "Coordinating subject with Nyanchoka",
+                "Stating Nyanchoka’s destination",
+                "Indicating Nyanchoka’s companionship in the action",
+                "Denoting Nyanchoka’s possession of the market"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Stating Nyanchoka’s destination\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which preposition in Ekegusii introduces a topic of discourse?",
+              "options": [
+                "na",
+                "ninche",
+                "ere",
+                "igoro"
+              ],
+              "correctAnswer": 2,
+              "explanation": "\"ere\" is the correct grammatical marker that introduces this type of complement or clause."
+            },
+            {
+              "question": "What distinguishes the complement of company from simple coordination in Ekegusii?",
+              "options": [
+                "It uses \"na\" instead of \"ne\"",
+                "It marks participation in action, not equal grammatical subjecthood",
+                "It always comes after a speech verb",
+                "It implies opposition between individuals"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"It uses \"na\" instead of \"ne\"\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Choose the sentence that exemplifies the complement of argument:",
+              "options": [
+                "Nyabuto na Makori negasi bagochi",
+                "Makori na Onyancha nesukuru bagochia.",
+                "Intwe etwakwanerete igoro yamaegerio.",
+                "Inche na Nyanchoka nechiro togochia."
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Makori na Onyancha nesukuru bagochia.\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "The preposition “igoro” can be semantically interpreted as all of the following except:",
+              "options": [
+                "About",
+                "With",
+                "Concerning",
+                "On"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"About\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "Which of the following would be grammatically correct to express companionship in an action?",
+              "options": [
+                "Inche na Nyanchoka nechiro togochia.",
+                "Intwe na Nyanchoka nechiro ogochia.",
+                "Nyabuto na Makori negasi bagochia.",
+                "Intwe etwakwanerete igoro yamaegerio"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Intwe na Nyanchoka nechiro ogochia.\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the syntactic role of \"igoro yamagenderero\" in “Intwe etwakwanerete igoro yamagenderero”?",
+              "options": [
+                "Locative adjunct",
+                "Direct object",
+                "Complement of argument",
+                "Complement of company"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Direct object\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "In Ekegusii, the complement of company is most frequently used in contexts involving:",
+              "options": [
+                "Thought or memory",
+                "Ownership and possession",
+                "Movement or action",
+                "Formal or legal argumentation"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Ownership and possession\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Which option best captures the functional contrast between “na” and “igoro”?",
+              "options": [
+                "na = “of”; igoro = “with”",
+                "na = locative; igoro = temporal",
+                "na = companion in action; igoro = topic of discourse",
+                "na = causal; igoro = coordinating"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"na = locative; igoro = temporal\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "How would one best describe the linguistic function of “na” in “Makori na Onyancha nesukuru bagochia.”?",
+              "options": [
+                "It equates Makori and Onyancha as subjects",
+                "It marks Onyancha as Makori’s companion in action",
+                "It introduces a secondary argument topic",
+                "It indicates spatial proximity only"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"It equates Makori and Onyancha as subjects\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        },
+        {
+          "title": "4.5.3 The Compliment of Aim, Cause & Locality",
+          "htmlContent": "kisii/beginner/module-four/10.html",
+          "order": 3,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e62"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In the sentence “Togokora emeremo asengencho yechibesa”, what is the grammatical function of “yechibesa”?",
+              "options": [
+                "Complement of locality",
+                "Complement of aim",
+                "Complement of cause",
+                "Adverbial phrase"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Complement of locality\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+            },
+            {
+              "question": "Which sentence expresses a cause using a correct Ekegusii causal marker?",
+              "options": [
+                "Tomenyete Kenya",
+                "Ase ekeene",
+                "Nyabuto nigo akominyoka asengencho anyorire.",
+                "Ere amenyete Kisumu"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Ase ekeene\" is the correct grammatical marker that introduces this type of complement or clause."
+            },
+            {
+              "question": "Identify the marker that introduces purpose in a Ekegusii sentence:",
+              "options": [
+                "Ngai",
+                "Asengencho",
+                "ekeene",
+                "-ete"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Ngai\" is the correct grammatical marker that introduces this type of complement or clause."
+            },
+            {
+              "question": "What distinguishes “Asengencho” in “Enyancha ere Kisumu” from its use in “Togokora emeremo asengencho yechibesa”?",
+              "options": [
+                "It marks aim in both cases",
+                "It is optional in both",
+                "One marks locality, the other marks aim",
+                "It only functions with abstract nouns"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It is optional in both\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following sentences correctly shows a complement of locality?",
+              "options": [
+                "Inche ngogenda komorora omonyagitari asengencho inde omorwaire.",
+                "Nyabuto nigo akominyoka asengencho anyorire.",
+                "Amenyete Kemera.",
+                "Ebaitetwe asengencho yekeene."
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Nyabuto nigo akominyoka asengencho anyorire.\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Choose the sentence that reflects an ideological aim:",
+              "options": [
+                "Amenyete Kemera",
+                "Ebaitetwe asengencho yekeene",
+                "Inche ngogenda komorora omonyagitari asengencho inde omorwaire",
+                "Nyabuto nigo akominyoka asengencho anyorire"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Amenyete Kemera\" best reflects or combines the grammatical features being tested."
+            },
+            {
+              "question": "Which complement answers the question \"Why did it happen?\" in Ekegusii grammar?",
+              "options": [
+                "Complement of aim",
+                "Complement of cause",
+                "Complement of locality",
+                "Complement of tense"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Complement of aim\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "Which of the following best characterizes Ekegusii complement of locality?",
+              "options": [
+                "Always preceded by “Asengencho”",
+                "Places follow verb directly without preposition",
+                "Introduced by \"Asengencho\"",
+                "Can only refer to abstract space"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Always preceded by “Asengencho”\" correctly explains the complement structure and its role in the sentence."
+            },
+            {
+              "question": "What is the correct interrogative form for asking where someone lives in Ekegusii?",
+              "options": [
+                "Amenyete Kisumu?",
+                "Ingai omonyete?",
+                "Momenyete ngai?",
+                "Nyabuto ngai amenyete?"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Amenyete Kisumu?\" correctly forms or answers the interrogative structure in Ekegusii."
+            },
+            {
+              "question": "Which of the following would be a valid response to the question \n“ Nairobi\n ore?”",
+              "options": [
+                "Ooyo, ok tore",
+                "Ee, Nairobi inde",
+                "Yaya Nairobi",
+                "Asengencho tomenyete Nairobi"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Ooyo, ok tore\" correctly forms or answers the interrogative structure in Ekegusii."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.6 Negation & Affirmation",
+      "type": "container",
+      "order": 6,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e63"
+      },
+      "subtopics": [
+        {
+          "title": "4.6.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/11.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e64"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "What is the correct negative response to the question “Ngochore?” (Will you come)?",
+              "options": [
+                "Eeh, ngochande",
+                "Yaya, ngochande",
+                "Tocha",
+                "Yaya, tindigocha"
+              ],
+              "correctAnswer": 2,
+              "explanation": "\"Tocha\" properly demonstrates negation formation in Ekegusii grammar."
+            },
+            {
+              "question": "Which sentence best exemplifies past perfect negation?",
+              "options": [
+                "Tindacha",
+                "Inche Konya tindaragera",
+                "Tocha",
+                "Narageire"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Tindacha\" best demonstrates the grammatical concept being tested in this question."
+            },
+            {
+              "question": "In Ekegusii, how is negation typically formed in affirmative commands?",
+              "options": [
+                "By using “ti-” before the verb",
+                "By replacing “ti” with “tocha”",
+                "By adding “konya” after the subject",
+                "By using “Ee” after the verb"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"By using “ti-” before the verb\" properly demonstrates negation formation in Ekegusii grammar."
+            },
+            {
+              "question": "What is the function of “konya” in Ekegusii grammar?",
+              "options": [
+                "Future negation marker",
+                "Subjunctive mood particle",
+                "Past perfect negation particle meaning “not yet”",
+                "Command intensifier"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Subjunctive mood particle\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which phrase is a correct negative contraction in the past tense?",
+              "options": [
+                "Inche tindigocha koragera",
+                "Yaya, inche tingonyara",
+                "Tindagereti",
+                "Konya tindigocha"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Yaya, inche tingonyara\" properly demonstrates negation formation in Ekegusii grammar."
+            },
+            {
+              "question": "Identify the grammatically correct subjunctive negative form in the present/future tense:",
+              "options": [
+                "Konya tindigocha",
+                "Tindigochi koragera",
+                "Tindieti",
+                "Yaya, ngocha ngoragerande"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Konya tindigocha\" properly demonstrates negation formation in Ekegusii grammar."
+            },
+            {
+              "question": "Which of the following correctly illustrates pronoun-negation fusion?",
+              "options": [
+                "Konya tindigocha",
+                "Yaya, tingonyara",
+                "Yaya, intwe titokonyara",
+                "Tocha koragera"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Yaya, tingonyara\" properly demonstrates negation formation in Ekegusii grammar."
+            },
+            {
+              "question": "How would you politely say “No, you (plural) will not manage” in Ekegusii?",
+              "options": [
+                "Yaya, tingonyara",
+                "Yaya, barabwo tibakonyara",
+                "Yaya, inwe timokonyara",
+                "Yaya, titokonyara"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Yaya, barabwo tibakonyara\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best represents a correct affirmative response?",
+              "options": [
+                "Inche tingonyara",
+                "Ee",
+                "Inche konya tindaragera",
+                "Tocha"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Inche tingonyara\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What does the sentence “Ere tari bobe” mean?",
+              "options": [
+                "He will not go",
+                "He/She/It is not bad",
+                "Don’t be bad",
+                "I didn’t go"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"He will not go\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.7 Question & Question Tags",
+      "type": "container",
+      "order": 7,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e65"
+      },
+      "subtopics": [
+        {
+          "title": "4.7.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/12.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e66"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In Ekegusii, which interrogative structure would best inquire about the quantity of items?",
+              "options": [
+                "Ngai",
+                "Inaki",
+                "Mbirenga",
+                "Ngereki"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Inaki\" correctly forms or answers the interrogative structure in Ekegusii."
+            },
+            {
+              "question": "Which question illustrates a proper use of subjunctive mood in expressing preference?",
+              "options": [
+                "Erieta riago ndireri?",
+                "Endagera ereri oranche?",
+                "Ngai ekaramu ere?",
+                "Aye igo ngogenda ore gose torikogenda?"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Erieta riago ndireri?\" correctly forms or answers the interrogative structure in Ekegusii."
+            },
+            {
+              "question": "What is the function of the preposition \"gochia\" in questions like “Ekaramu ere gochiabwe?”?",
+              "options": [
+                "Denotes agency of the action",
+                "Indicates spatial placement or attribution",
+                "Marks gender in origin statements",
+                "Acts as a plural marker"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Denotes agency of the action\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "Which sentence properly uses the negation particle in the subjunctive form?",
+              "options": [
+                "Tindikogenda",
+                "Yaya, inche tindigocha",
+                "Tindigocha?",
+                "Ee, nkochande"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Tindikogenda\" properly demonstrates negation formation in Ekegusii grammar."
+            },
+            {
+              "question": "How does the interrogative particle “igo” function in Ekegusii questions?",
+              "options": [
+                "Indicates an agent in passive voice",
+                "Frames yes/no or emphatic questions",
+                "Marks plural possessives",
+                "Negates present actions"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Indicates an agent in passive voice\" correctly forms or answers the interrogative structure in Ekegusii."
+            },
+            {
+              "question": "What is the correct question tag in the sentence: _“Igo timanyeti, __?”",
+              "options": [
+                "Ti-?",
+                "Tocha?",
+                "Nabo?",
+                "Ee?"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Tocha?\" correctly forms or answers the interrogative structure in Ekegusii."
+            },
+            {
+              "question": "Which interrogative term in Ekegusii is specifically used for plural object location?",
+              "options": [
+                "Ngai bire",
+                "Ngai are",
+                "Ndireri",
+                "Mbirebi"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Ngai bire\" properly identifies or expresses locality/location in the sentence."
+            },
+            {
+              "question": "In the question “Mbirogo ki oanchete?”, what is the grammatical function of “ki”?",
+              "options": [
+                "Object marker for singular",
+                "Interrogative for plural selection (“which”)",
+                "Temporal inquiry marker",
+                "Possessive form of “mar”"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Object marker for singular\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+            },
+            {
+              "question": "Which response correctly affirms a tag question in Ekegusii?",
+              "options": [
+                "Ti",
+                "Yaya",
+                "Ee",
+                "Tocha"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Yaya\" correctly forms or answers the interrogative structure in Ekegusii."
+            },
+            {
+              "question": "Identify the sentence that best illustrates a confirmatory tag in Ekegusii grammar.",
+              "options": [
+                "Aye ning’o?",
+                "Erieta riago ndireri?",
+                "Aye nomomanyete omworokia, nabo?",
+                "Endagera oranche nereri?"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Erieta riago ndireri?\" best demonstrates the grammatical concept being tested in this question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.8 Review & Practice",
+      "type": "standalone",
+      "order": 8,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e67"
+      },
+      "htmlContent": "kisii/beginner/module-four/13.html",
+      "passingScore": 50
+    },
+    {
+      "title": "4.9 Expressions and Proverbs",
+      "type": "container",
+      "order": 9,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e68"
+      },
+      "subtopics": [
+        {
+          "title": "4.9.1 Gusii Expressions and Proverbs",
+          "htmlContent": "kisii/beginner/module-four/14.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e69"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "What core message is conveyed by the Gusii proverb “Binto mbiang'ora, nsagasaga bikwanga”?",
+              "options": [
+                "One should always ask for guidance",
+                "Patience is more fruitful than haste",
+                "Cooperation is better than working alone",
+                "Do not sleep while others are working"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"One should always ask for guidance\" accurately interprets the meaning and cultural message of this Gusii proverb."
+            },
+            {
+              "question": "The proverb “Bwanchani mbwamaiso n’emioyo etamanyaini” serves as a cultural reminder to:",
+              "options": [
+                "Never leave a place once you begin",
+                "Focus more on initiating tasks",
+                "Beware of two-faced friends",
+                "Ask for help during transitions"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Focus more on initiating tasks\" captures the cultural and social connotations embedded in this linguistic expression."
+            },
+            {
+              "question": "The idiom “Gotwera amate” metaphorically means to:",
+              "options": [
+                "Embrace public speaking",
+                "bless someone or something",
+                "Compete with dignity",
+                "Apologize in public"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Embrace public speaking\" correctly interprets the metaphorical or idiomatic meaning of the expression."
+            },
+            {
+              "question": "According to Gusii proverbial thought, “Mominchorimi tang’ana mosera’ibu” most directly conveys the idea that:",
+              "options": [
+                "A healer must heal themselves first",
+                "One must rely on mystical powers",
+                "We should all strive to excel and avoid laziness.",
+                "Sorcery is ineffective without belief"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"One must rely on mystical powers\" accurately interprets the meaning and cultural message of this Gusii proverb."
+            },
+            {
+              "question": "What cultural caution does “Enda n'esese” imply?",
+              "options": [
+                "Laughter can kill",
+                "Overindulgence can have deadly outcomes",
+                "Anger harms relationships",
+                "Illness follows pride"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Laughter can kill\" captures the cultural and social connotations embedded in this linguistic expression."
+            },
+            {
+              "question": "In “Koragera buna omosamaro”, symbolizes:",
+              "options": [
+                "An actual cooking pot",
+                "Family unity",
+                "To eat a lot",
+                "Generational inheritance"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Family unity\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "The idiom “Obwate omwabo, obwatwa koboko ocha ka, otabwati omwabo obwata 'moraa mwomo” figuratively means:",
+              "options": [
+                "Chase the dog",
+                "Accompany someone as a show of support",
+                "Accuse someone publicly",
+                "Act without permission"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Chase the dog\" correctly interprets the metaphorical or idiomatic meaning of the expression."
+            },
+            {
+              "question": "Which proverb best means that one first and foremost attends to issues affecting him as a person before he can think of neighbor",
+              "options": [
+                "Getutu kere maiso",
+                "'Mwana obande, 'mamiria makendu",
+                "Marina marina maya, maika matamerana",
+                "Egetakoria ngetakonyora"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Getutu kere maiso\" accurately interprets the meaning and cultural message of this Gusii proverb."
+            },
+            {
+              "question": "What does “Nyama nke yakora bokima kee” communicate about empathy and human relationships?",
+              "options": [
+                "Do not help sick people",
+                "a small issue can cause untold damage",
+                "Only doctors know what’s best",
+                "Pain is universal, help yourself first"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Do not help sick people\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.10 Gusii Nomenclature",
+      "type": "container",
+      "order": 10,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e6a"
+      },
+      "subtopics": [
+        {
+          "title": "4.10.1 Naming System",
+          "htmlContent": "kisii/beginner/module-four/15.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e6b"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "A child named Omambia was most likely born:",
+              "options": [
+                "At noon",
+                "After midnight",
+                "In the early morning",
+                "During a rainstorm"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"After midnight\" reflects the Gusii naming tradition and principle for this circumstance."
+            },
+            {
+              "question": "What naming principle is illustrated when a child is called Kemuma?",
+              "options": [
+                "Named after a historical ancestor",
+                "Named based on physical birth posture",
+                "Named to preserve twin order",
+                "Named due to famine"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Named after a historical ancestor\" reflects the Gusii naming tradition and principle for this circumstance."
+            },
+            {
+              "question": "Which pair of names correctly reflects twin birth order in the Gusii tradition?",
+              "options": [
+                "Barongo (first), Chacha (second)",
+                "Chacha (first), Barongo (second)",
+                "Motangi (first), Mogaka (second)",
+                "Mogaka (first), Barongo (second)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Barongo (first), Chacha (second)\" best reflects or combines the grammatical features being tested."
+            },
+            {
+              "question": "If a male child is named Barongo, what cultural principle is at work?",
+              "options": [
+                "Place-based naming",
+                "Phenomenon-linked naming",
+                "Time-based naming for females",
+                "Inheritance-based naming defying gender conventions"
+              ],
+              "correctAnswer": 2,
+              "explanation": "\"Time-based naming for females\" captures the cultural and social connotations embedded in this linguistic expression."
+            },
+            {
+              "question": "Which of the following names would NOT be used to indicate geographic location of birth?",
+              "options": [
+                "Nyabara",
+                "Makori",
+                "Nyanchera",
+                "Mogaka"
+              ],
+              "correctAnswer": 2,
+              "explanation": "\"Nyanchera\" properly identifies or expresses locality/location in the sentence."
+            },
+            {
+              "question": "Which naming pair best represents event-based identity formation?",
+              "options": [
+                "Nyamwamu / Omwamu",
+                "Obiero / Abiero",
+                "Okeyo / Nyakeyo",
+                "Ogoti / Agoti"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Obiero / Abiero\" reflects the Gusii naming tradition and principle for this circumstance."
+            },
+            {
+              "question": "A child born under bright sunlight would traditionally be named:",
+              "options": [
+                "Nyang’au or Kemunto",
+                "Nyakundi or Kemuma",
+                "Onsase or Nyasase",
+                "Barongo or Chacha"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Nyakundi or Kemuma\" reflects the Gusii naming tradition and principle for this circumstance."
+            },
+            {
+              "question": "The Gusii naming system treats names as lived stories because:",
+              "options": [
+                "Names are reused cyclically without meaning",
+                "Children are named after foreign leaders",
+                "They are assigned numerically at birth",
+                "They encode time, place, events, ancestry, and symbolism"
+              ],
+              "correctAnswer": 2,
+              "explanation": "\"They are assigned numerically at birth\" correctly uses the causal marker to express cause in Ekegusii."
+            },
+            {
+              "question": "What does the name Nyamori most accurately imply?",
+              "options": [
+                "Child born at sunset",
+                "Child born during rainfall",
+                "Child born after a retained placenta",
+                "Child born on a mountain"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Child born during rainfall\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.11 Price Asking",
+      "type": "container",
+      "order": 11,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e6c"
+      },
+      "subtopics": [
+        {
+          "title": "4.11.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/16.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e6d"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "What is the most formally structured expression to ask the price of a specific item in Ekegusii?",
+              "options": [
+                "Riomosi rigori nirenga?",
+                "Irenga chibesa?",
+                "Rigori riomosi ndireri?",
+                "Omosi nirenga?"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Irenga chibesa?\" is the appropriate way to ask or express this in Ekegusii."
+            },
+            {
+              "question": "Which phrase best emphasizes monetary value over the item itself?",
+              "options": [
+                "Omosi nirenga?",
+                "Rigori riomosi nirenga?",
+                "Chibesa nirenga?",
+                "Inaki okooni?"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Omosi nirenga?\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "The term \"Rigori nirenga\" is best understood as:",
+              "options": [
+                "Asking for price only",
+                "Culturally embedded price negotiation",
+                "Giving a price discount",
+                "Writing prices on items"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Asking for price only\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "In the phrase “Rigori rie ritoke nirenga?”, what is the role of the word “chibesa”?",
+              "options": [
+                "It qualifies the banana's color",
+                "It refers to location of sale",
+                "It highlights monetary cost",
+                "It names the item being sold"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It refers to location of sale\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Why is rigori nirenga not considered impolite in Gusii culture?",
+              "options": [
+                "It’s rare and reserved for elders",
+                "It is done silently",
+                "It reflects social intelligence and mutual respect",
+                "It is an obligation enforced by vendors"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It is done silently\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What makes the question structure \"Rigori nirenga?\" linguistically and culturally significant?",
+              "options": [
+                "It hides the object’s identity",
+                "It omits the use of nouns deliberately",
+                "It prioritizes object identification before price inquiry",
+                "It translates literally to “Buy me now!”"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"It omits the use of nouns deliberately\" captures the cultural and social connotations embedded in this linguistic expression."
+            },
+            {
+              "question": "Which of the following best illustrates functional flexibility in Ekegusii price inquiry?",
+              "options": [
+                "Saying “chibesa nirenga”",
+                "Alternating between item-led and currency-led syntax",
+                "Whispering the price at the market",
+                "Never stating “nirenga” out loud"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Saying “chibesa nirenga”\" best demonstrates the grammatical concept being tested in this question."
+            },
+            {
+              "question": "Which statement best explains how rigori nirenga is embedded in social behavior?",
+              "options": [
+                "It’s only taught in schools",
+                "It intertwines politeness, economic intent, and communal norms",
+                "It avoids direct conversation",
+                "It is restricted to large markets only"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"It’s only taught in schools\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What broader cultural skill is enhanced through mastery of rigori nirenga?",
+              "options": [
+                "Reading and writing Ekegusii",
+                "Economic fluency and interpersonal negotiation",
+                "Singing traditional songs",
+                "Cooking local cuisine"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Reading and writing Ekegusii\" captures the cultural and social connotations embedded in this linguistic expression."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.12 Preposition",
+      "type": "container",
+      "order": 12,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e6e"
+      },
+      "subtopics": [
+        {
+          "title": "4.12.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/17.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e6f"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "Which Ekegusii preposition would you use to express that something is inside a house?",
+              "options": [
+                "Igoro ya",
+                "Nyaro",
+                "Ime",
+                "Magega"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Nyaro\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "The preposition “ye” primarily functions to express:",
+              "options": [
+                "Direction or movement",
+                "Possession or association",
+                "Cause or reason",
+                "Companionship"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Direction or movement\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "What is the best English equivalent of the Ekegusii preposition “igoro ya” and its anatomical metaphorical origin?",
+              "options": [
+                "Under; from foot",
+                "On top; from head",
+                "On top; derived from “ase obosio bwa” meaning “at the head of”",
+                "Behind; from back"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"On top; from head\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "In the phrase “Inche nachire na Kerubo’”, the preposition “na” is used because:",
+              "options": [
+                "It denotes possession",
+                "It implies location",
+                "It expresses accompaniment with a person",
+                "It indicates cause or reason"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"It implies location\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "Which of the following pairs correctly reflects the semantic distinction between “asengencho” and “ase”?",
+              "options": [
+                "Asengencho — gratitude; Ase — direction",
+                "Asengencho — possession; Ase — companionship",
+                "Asengencho — purpose or motive; Ase — gratitude or causal attribution",
+                "Asengencho — spatial position; Ase — temporal marker"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Asengencho — possession; Ase — companionship\" best reflects or combines the grammatical features being tested."
+            },
+            {
+              "question": "If someone says “Intwe etbwate abana babere ase enyomba yaito”, what does “Ase” indicate?",
+              "options": [
+                "The children are going to the market",
+                "The children are behind the house",
+                "The children are located at the house",
+                "The children are under the table"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"The children are behind the house\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which preposition would you use to say “under the table” and what does it reflect about Ekegusii spatial conceptualization?",
+              "options": [
+                "Igoro; it reflects elevation",
+                "Nyaro, Inse ya; it reflects spatial orientation based on body parts",
+                "Magega; it indicates possession",
+                "Inse; it means “on the ground”"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Igoro; it reflects elevation\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "Which of these sentences best illustrates the flexibility of “na” with pronoun suffixes?",
+              "options": [
+                "Ngochande n’enyongo",
+                "Inche ngochande na Kerubo",
+                "Ngai amabere y’omwana are?",
+                "Ekebusi ekere nyaro y’emesa"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Ngochande n’enyongo\" best demonstrates the grammatical concept being tested in this question."
+            },
+            {
+              "question": "The Ekegusii preposition “Inse” most accurately translates to:",
+              "options": [
+                "Behind",
+                "Above",
+                "Down/on the ground",
+                "With"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Above\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            },
+            {
+              "question": "What is the primary linguistic reason the Ekegusii prepositions “Igoro ya,” “ime,” and “nyaro” have such anatomical roots?",
+              "options": [
+                "To simplify vocabulary acquisition",
+                "To denote possession clearly",
+                "To metaphorically conceptualize spatial relations via body parts",
+                "To distinguish between human and non-human objects"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"To denote possession clearly\" correctly demonstrates the use of prepositional complements in Ekegusii."
+            }
+          ]
+        },
+        {
+          "title": "4.12.2 Relative Pronouns and Causal Connectives",
+          "htmlContent": "kisii/beginner/module-four/18.html",
+          "order": 2,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e70"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "What is the primary syntactic function of the Ekegusii word “erio” (with a sharp tone)?",
+              "options": [
+                "To indicate arrival time",
+                "To denote past cause",
+                "To introduce a dependent clause expressing purpose or condition",
+                "To mark possession"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"To denote past cause\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "How does the tonal difference between “erio” and “asengencho” affect meaning?",
+              "options": [
+                "Both mean the same: “that”",
+                "“Erio” means “that/so that,” while “Asengencho” means “Reason for something”",
+                "“Erio” means “cause,” “Asengencho” means “so that”",
+                "Tonal difference does not affect meaning in this context"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Both mean the same: “that”\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "In the phrase “Ahombi (ni) mondo ayud cham”, what does “ni” contribute?",
+              "options": [
+                "Negation",
+                "Past tense marker",
+                "A directive element meaning “so” to form “so that”",
+                "Plural marker"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Past tense marker\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best expresses a future-oriented purpose in Ekegusii?",
+              "options": [
+                "“Ngoragera asengencho inde inchara” (I eat because I am hungry)",
+                "“Ngosika omote erinde inyore ekeiriri” (I plant a tree so that I may find shade)",
+                "“Ngominyoka asengencho inyorire” (I run because I’m late)",
+                "“Aangete gokwana nainche asengencho twomanete” (He refused to talk to me because we quarreled)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"“Ngoragera asengencho inde inchara” (I eat because I am hungry)\" correctly represents a complement or marker of purpose in Ekegusii."
+            },
+            {
+              "question": "Which connector would you use to express a cause related to a past or existing reason?",
+              "options": [
+                "Erio",
+                "Erinde",
+                "Asengencho",
+                "Ekiagera"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Erinde\" correctly uses the causal marker to express cause in Ekegusii."
+            },
+            {
+              "question": "Consider the sentence: “Togochenga erio tobe n’omogoko.” What is the meaning of “erio” here?",
+              "options": [
+                "Because we are happy",
+                "When we are happy",
+                "So that we may be happy",
+                "Since we were happy"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"When we are happy\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What does the example “Inche inkoboria erinde imente chinguru” illustrate about the use of “erinde”?",
+              "options": [
+                "It expresses refusal",
+                "It denotes past cause",
+                "It shows intention or purpose (“I ask so that I may gain strength”)",
+                "It marks an imperative command"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It denotes past cause\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following is true about “Asengencho” in Ekegusii?",
+              "options": [
+                "It is a relative pronoun for future events",
+                "It functions as a preposition",
+                "It functions as a causal connector meaning “because”",
+                "It means “arrive early”"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It functions as a preposition\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the correct explanation for the phrase “Ore igaa erio okore emeremo!”?",
+              "options": [
+                "It is a question asking “Are you here?”",
+                "It expresses a request for help",
+                "It is an imperative meaning “You are here to work!”",
+                "It denotes past action"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It expresses a request for help\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best summarizes the distinction between “erio” and “Asengencho”?",
+              "options": [
+                "Erio indicates past cause; Asengencho indicates future intent",
+                "Both are interchangeable causal connectors",
+                "Erio expresses future-oriented intent or consequence; Asengencho expresses immediate or observed cause",
+                "Erio is used only in questions; Asengencho only in statements"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Both are interchangeable causal connectors\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.13 Conjunctions",
+      "type": "container",
+      "order": 13,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e71"
+      },
+      "subtopics": [
+        {
+          "title": "4.13.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/19.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e72"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In the sentence “Inche ngoragera erinde ntware chinguru”, which of the following best describes the syntactic role of “ni mondo”?",
+              "options": [
+                "It indicates a past reason for eating",
+                "It replaces the need for a subject",
+                "It introduces a purpose clause showing future intent",
+                "It serves as an additive conjunction joining two nouns"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"It replaces the need for a subject\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "Which of the following best captures the semantic difference between “erio” and “asegencho”?",
+              "options": [
+                "Both express the same type of cause",
+                "“Asengencho” is future-oriented, “erio” is past-oriented",
+                "“Erio” indicates future purpose; “asengencho” marks present or past reasons",
+                "“Erio” is a conjunction; “Asengencho” is a preposition"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"“Asengencho” is future-oriented, “erio” is past-oriented\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which pair of Ekegusii conjunctions are not stylistic variants offering a similar disjunctive function?",
+              "options": [
+                "Na and Amo na",
+                "Asengencho and ekiagera",
+                "Gose and Nainde",
+                "Erinde and erio"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Asengencho and ekiagera\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Identify the sentence that correctly uses a coordinating conjunction for accompaniment.",
+              "options": [
+                "Ing’a eke naende keria",
+                "Nabogoirie egekombe amo nesaucer",
+                "Inche ngoragera erinde ntware chinguru",
+                "Aseki ogosomo Ekegusii?"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Ing’a eke naende keria\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of these statements about “na” is accurate based on the material?",
+              "options": [
+                "It introduces causal clauses",
+                "It functions exclusively with animate nouns",
+                "It links similar grammatical elements such as nouns and phrases",
+                "It is the only correct word for “with” in Ekegusii"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It functions exclusively with animate nouns\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the primary syntactic value of “Amo na” or “Amo nere”?",
+              "options": [
+                "They express contrast or exclusion",
+                "They emphasize collectivity or joint action",
+                "They denote time-based conjunctions",
+                "They modify verbs for subjunctive mood"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"They express contrast or exclusion\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+            },
+            {
+              "question": "In the phrase: “Gwanchire kogenda gose gotigara?”, what is the role of “gose”?",
+              "options": [
+                "It indicates instrumentality",
+                "It introduces a consequence",
+                "It offers an alternative in a choice",
+                "It acts as a future tense marker"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It introduces a consequence\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "When expressing a reason in Kemera or Ogembo dialects of Gusii, which form is most naturally used?",
+              "options": [
+                "Erio",
+                "Gose",
+                "Asengencho",
+                "Na"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Gose\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following shows an incorrect logical relationship according to Ekegusii conjunction principles?",
+              "options": [
+                "Agosoma Ekegusii erinde akemanye",
+                "Ngochiesa ekiagera mbuete — I play because I win",
+                "Ngochiesa ase okobua — I play to win",
+                "Ngochiesa erinde mbue — I play so that I may win"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Agosoma Ekegusii erinde akemanye\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best explains the dialect-sensitive interchangeability of causal connectors?",
+              "options": [
+                "“Amo na” is preferred in Kemera, “na” in Ogembo",
+                "“Gose” is only used in written Ekegusii",
+                "“Asengencho”, “Ekiagera” all mean “because” and are regionally variable",
+                "“Amo na” and “gose” are identical in all uses"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"“Gose” is only used in written Ekegusii\" correctly uses the causal marker to express cause in Ekegusii."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.14 Review & Practice",
+      "type": "standalone",
+      "order": 14,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e73"
+      },
+      "htmlContent": "kisii/beginner/module-four/20.html",
+      "passingScore": 50
+    },
+    {
+      "title": "4.15 Moods",
+      "type": "container",
+      "order": 15,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e74"
+      },
+      "subtopics": [
+        {
+          "title": "4.15.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/21.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e75"
+          },
+          "passingScore": 50,
+          "practiceQuestions": ""
+        },
+        {
+          "title": "4.15.2 Indicative Mood",
+          "htmlContent": "kisii/beginner/module-four/22.html",
+          "order": 2,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e76"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "Which auxiliary is used to mark the past tense in Ekegusii indicative mood?",
+              "options": [
+                "Ni",
+                "Ichwo",
+                "Na",
+                "Onye"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Ichwo\" is the correct auxiliary or aspectual marker used in this tense/aspect construction."
+            },
+            {
+              "question": "How is the future tense expressed in the Ekegusii indicative mood?",
+              "options": [
+                "Using the verb root only",
+                "Adding the suffix -yo",
+                "Using the auxiliary “Ni” + verb stem",
+                "Prefixing “na” before the verb"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Adding the suffix -yo\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which sentence correctly demonstrates the present tense in Ekegusii indicative?",
+              "options": [
+                "Nabarete",
+                "kobarande",
+                "Ninche ‘mbare",
+                "Onye gokobara"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Nabarete\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the consistent feature of the present tense verb forms in Ekegusii?",
+              "options": [
+                "They always start with “na”",
+                "They begin with “ko-” representing 1st person singular",
+                "They have the suffix “-o”",
+                "They require “Ni” before the verb"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"They always start with “na”\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Given the verb root “rika” (to write), which is the correct past tense form?",
+              "options": [
+                "Ninche ‘ndike",
+                "Rika",
+                "Narigete",
+                "Onye gokorika"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Rika\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best captures the conceptual meaning behind the use of “Ni” in future tense?",
+              "options": [
+                "It indicates certainty of the action",
+                "It denotes a completed action",
+                "It reflects movement toward the action, showing time as approaching",
+                "It implies habitual action"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"It denotes a completed action\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Identify the correct set of past, present, and future forms for the verb “to buy” in Ekegusii:",
+              "options": [
+                "Nagorire → Nagorete → Ninche ngore",
+                "Nagorete → Nagorire →Ninche ngore",
+                "Ninche ngore → Nagorire → Nagorete",
+                "Nagorete → Ninche ngore → Nagorire"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Nagorire → Nagorete → Ninche ngore\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which auxiliary is not used in the indicative mood tenses in Ekegusii?",
+              "options": [
+                "Na",
+                "Ni",
+                "Nabo",
+                "None of the above"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Ni\" is the correct auxiliary or aspectual marker used in this tense/aspect construction."
+            },
+            {
+              "question": "The verb “to sleep” in Ekegusii is korara. Which is the correct future tense form?",
+              "options": [
+                "Nararete",
+                "Narure korara",
+                "Ninche ‘ndare",
+                "Nararire"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Narure korara\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "The indicative mood in Ekegusii is primarily used for:",
+              "options": [
+                "Expressing commands and requests",
+                "Expressing factual, real events in past, present, and future",
+                "Hypothetical and counterfactual scenarios",
+                "Expressing polite suggestions"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Expressing commands and requests\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        },
+        {
+          "title": "4.15.3 Conditional Mood",
+          "htmlContent": "kisii/beginner/module-four/23.html",
+          "order": 3,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e77"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "In a standard Ekegusii conditional construction, what tense is used in the consequence clause?",
+              "options": [
+                "Present tense",
+                "Subjunctive tense",
+                "Future tense (NANGA form)",
+                "Past continuous"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Subjunctive tense\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the correct Ekegusii equivalent of the sentence: \"If he sings, we will dance\"?",
+              "options": [
+                "Onye okoruga, ngoragera tore",
+                "Onye ogotera, ngotenga tore",
+                "Onye ogocha, ngogenda tore",
+                "Onye okondangeria, ngogenda tore"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Onye okoruga, ngoragera tore\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Identify the correct structure for a negative conditional sentence in Ekegusii:",
+              "options": [
+                "Onye + verb (present), (na) + verb (future)",
+                "Na + verb (present), Ni + verb (future)",
+                "Onye + verb (present), Nanga + verb (future)",
+                "Nanga + verb (present), Onye + verb (future)"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Na + verb (present), Ni + verb (future)\" properly demonstrates negation formation in Ekegusii grammar."
+            },
+            {
+              "question": "Which construction below demonstrates a remote past conditional expressing regret?",
+              "options": [
+                "Onye okoruga, ngoragera tore",
+                "Onye bagocha, ngogotebiande",
+                "Onye namomanyete nanga timwegeneti",
+                "Onye ogokwa, ngomanya tore"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Onye bagocha, ngogotebiande\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the primary grammatical function of the word \"NANGA\" in the conditional mood?",
+              "options": [
+                "Denotes negation of the antecedent",
+                "Marks subjunctive tone in commands",
+                "Indicates habitual aspect of consequence",
+                "Emphasizes the consequence clause (\"then\")"
+              ],
+              "correctAnswer": 2,
+              "explanation": "\"Indicates habitual aspect of consequence\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+            },
+            {
+              "question": "Which of the following is a valid composed past conditional in Ekegusii?",
+              "options": [
+                "Onyo mokoruga, tindikoragera",
+                "Onye namanya ng’a ngotwere nanga naimoki  riburi",
+                "Gokomwaka ngogenda are Nyagitari",
+                "Onye togotokwana rirorio ntogokora emeremo"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Onyo mokoruga, tindikoragera\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "How is a future conditional typically expressed in Ekegusii?",
+              "options": [
+                "Using “ko” in both clauses",
+                "With “na” before both verbs",
+                "With subjunctive markers",
+                "Using “Ni” in both antecedent and consequence"
+              ],
+              "correctAnswer": 2,
+              "explanation": "The correct answer is \"With subjunctive markers\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the most accurate explanation of “nanga” in conditional constructions?",
+              "options": [
+                "A prefix indicating ability",
+                "A negative potential future",
+                "A marker introducing a conditional perfect (“would have…”)",
+                "A reduplicated present participle"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"A negative potential future\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best fits the structure:Na + Present, Ko + Future (NANG",
+              "options": [
+                "?",
+                "Onye naboretie obokonyi, ngomokonya tware",
+                "Ruga tomanye kogenda",
+                "Tore nomogoko ekiagera y’omwana"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"?\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What linguistic purpose does “ONYE…NANGA…” serve in Ekegusii communication?",
+              "options": [
+                "Constructing repetitive action clauses",
+                "Bridging conditional logic and dependency in discourse",
+                "Expressing sarcasm and idioms",
+                "Marking definiteness of noun subjects"
+              ],
+              "correctAnswer": 0,
+              "explanation": "\"Constructing repetitive action clauses\" correctly represents a complement or marker of purpose in Ekegusii."
+            }
+          ]
+        },
+        {
+          "title": "4.15.4 Subjunctive Mood",
+          "htmlContent": "kisii/beginner/module-four/24.html",
+          "order": 4,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e78"
+          },
+          "passingScore": 50,
+          "practiceQuestions": [
+            {
+              "question": "What key morphological change transforms “bagosomi” (they teach) into its correct subjunctive form?",
+              "options": [
+                "Dropping the “go”",
+                "Doubling the “ba”",
+                "Replacing “-mi” with “-ma”",
+                "Adding the prefix “nabo-”"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Doubling the “ba”\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following best expresses a purpose clause using the subjunctive?",
+              "options": [
+                "Kaa eng’ombe amache",
+                "Nabo eratwe **",
+                "Ng’a amache erinde inywe — Give me water that I may drink",
+                "Nimbakonye koruga"
+              ],
+              "correctAnswer": 1,
+              "explanation": "\"Nabo eratwe **\" correctly represents a complement or marker of purpose in Ekegusii."
+            },
+            {
+              "question": "Which verb transformation follows the regular subjunctive rule of dropping “-a”?",
+              "options": [
+                "Okoragera → Ragera",
+                "Ogosibia → Sibi",
+                "Okoruga → Ruga",
+                "Ogosaba → Saba"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Okoragera → Ragera\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the subjunctive of “Ere akoragera” (He eats)?",
+              "options": [
+                "Okoragera",
+                "koragera",
+                "Barageire",
+                "Nabo akoragera"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Okoragera\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which Ekegusii sentence correctly illustrates the “A-n-A” imperative future pattern?",
+              "options": [
+                "Ngochigocha bare",
+                "Inche ninchengende! — I shall go!",
+                "Intwe ntwachiete",
+                "Buna baria’"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Ngochigocha bare\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which of the following is the most appropriate subjunctive usage for exhortation or urging?",
+              "options": [
+                "Tindigochi koragera mambia",
+                "Nabo okorara",
+                "Nabo mogosoa",
+                "Toragere! — Let’s eat!"
+              ],
+              "correctAnswer": 2,
+              "explanation": "The correct answer is \"Nabo mogosoa\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Identify the sentence that contains a polite supposition using the potential prefix “Ni-”.",
+              "options": [
+                "Ningokonyee",
+                "Igo Ningokonye korema? — Could I possibly help you dig?",
+                "Tocha",
+                "Ngonye Amache inywe"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Ningokonyee\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "Which subjunctive transformation is used when the verb ends in -bi?",
+              "options": [
+                "Drop “bi” entirely and add “i”",
+                "Add “aba”",
+                "Drop “b” and add the pronoun suffix",
+                "Keep unchanged; tone distinguishes mood"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Add “aba”\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "What is the subjunctive of the irregular verb “ere ngochare” (he/she comes)?",
+              "options": [
+                "Are",
+                "Ngocha",
+                "Ere",
+                "Chare"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The correct answer is \"Ngocha\" based on Ekegusii grammatical rules and linguistic principles."
+            },
+            {
+              "question": "In the sentence “Omonene, koranche renta embura”, which mood is being expressed and why?",
+              "options": [
+                "Indicative, because it reports a fact",
+                "Subjunctive, as it expresses divine pleading",
+                "Imperative, as it gives a command",
+                "Negative subjunctive, due to uncertainty"
+              ],
+              "correctAnswer": 0,
+              "explanation": "The correct answer is \"Indicative, because it reports a fact\" based on Ekegusii grammatical rules and linguistic principles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.16 Writing & Reading in Ekegusii",
+      "type": "container",
+      "order": 16,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e79"
+      },
+      "subtopics": [
+        {
+          "title": "4.16.1 Introductions",
+          "htmlContent": "kisii/beginner/module-four/25.html",
+          "order": 1,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e7a"
+          },
+          "passingScore": 50,
+          "practiceQuestions": ""
+        },
+        {
+          "title": "4.16.2 Reading Comprehension",
+          "htmlContent": "kisii/beginner/module-four/26.html",
+          "order": 2,
+          "_id": {
+            "$oid": "6891d48461021d79403e5e7b"
+          },
+          "passingScore": 50,
+          "practiceQuestions": ""
+        }
+      ]
+    },
+    {
+      "title": "4.17 Review & Practice",
+      "type": "standalone",
+      "order": 17,
+      "_id": {
+        "$oid": "6891d48461021d79403e5e7c"
+      },
+      "htmlContent": "kisii/beginner/module-four/27.html",
+      "passingScore": 50
+    }
+  ]
+}

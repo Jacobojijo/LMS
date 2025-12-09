@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which auxiliary is used to mark the past tense in Ekegusii indicative mood?",
+      "options": [
+        "Ni",
+        "Ichwo",
+        "Na",
+        "Onye"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Ichwo\" is the correct auxiliary or aspectual marker used in this tense/aspect construction."
+    },
+    {
+      "question": "How is the future tense expressed in the Ekegusii indicative mood?",
+      "options": [
+        "Using the verb root only",
+        "Adding the suffix -yo",
+        "Using the auxiliary “Ni” + verb stem",
+        "Prefixing “na” before the verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Adding the suffix -yo\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which sentence correctly demonstrates the present tense in Ekegusii indicative?",
+      "options": [
+        "Nabarete",
+        "kobarande",
+        "Ninche ‘mbare",
+        "Onye gokobara"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Nabarete\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the consistent feature of the present tense verb forms in Ekegusii?",
+      "options": [
+        "They always start with “na”",
+        "They begin with “ko-” representing 1st person singular",
+        "They have the suffix “-o”",
+        "They require “Ni” before the verb"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"They always start with “na”\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Given the verb root “rika” (to write), which is the correct past tense form?",
+      "options": [
+        "Ninche ‘ndike",
+        "Rika",
+        "Narigete",
+        "Onye gokorika"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Rika\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best captures the conceptual meaning behind the use of “Ni” in future tense?",
+      "options": [
+        "It indicates certainty of the action",
+        "It denotes a completed action",
+        "It reflects movement toward the action, showing time as approaching",
+        "It implies habitual action"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It denotes a completed action\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Identify the correct set of past, present, and future forms for the verb “to buy” in Ekegusii:",
+      "options": [
+        "Nagorire → Nagorete → Ninche ngore",
+        "Nagorete → Nagorire →Ninche ngore",
+        "Ninche ngore → Nagorire → Nagorete",
+        "Nagorete → Ninche ngore → Nagorire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Nagorire → Nagorete → Ninche ngore\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which auxiliary is not used in the indicative mood tenses in Ekegusii?",
+      "options": [
+        "Na",
+        "Ni",
+        "Nabo",
+        "None of the above"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Ni\" is the correct auxiliary or aspectual marker used in this tense/aspect construction."
+    },
+    {
+      "question": "The verb “to sleep” in Ekegusii is korara. Which is the correct future tense form?",
+      "options": [
+        "Nararete",
+        "Narure korara",
+        "Ninche ‘ndare",
+        "Nararire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Narure korara\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "The indicative mood in Ekegusii is primarily used for:",
+      "options": [
+        "Expressing commands and requests",
+        "Expressing factual, real events in past, present, and future",
+        "Hypothetical and counterfactual scenarios",
+        "Expressing polite suggestions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Expressing commands and requests\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

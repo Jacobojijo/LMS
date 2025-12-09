@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the phrase “Egetanda giechibao”, what semantic role does \"gi\" fulfill?",
+      "options": [
+        "Denotes temporal relation",
+        "Marks the purpose of the bed",
+        "Links the bed to its material composition",
+        "Indicates ownership"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Marks the purpose of the bed\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following correctly represents a complement of purpose?",
+      "options": [
+        "Enyororo yetaai",
+        "Ensa yetahabu",
+        "Chibesa chiendagera",
+        "Egetanda giechibao"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Ensa yetahabu\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "The construction “Chianga chiegasi” is best interpreted as:",
+      "options": [
+        "Clothes made from tich",
+        "Clothes owned by tich",
+        "Clothes intended for work",
+        "Clothes sold by tich"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Clothes owned by tich\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "The word “ye” in both material and purpose complements functions primarily as:",
+      "options": [
+        "A verb indicating action",
+        "A temporal marker",
+        "A genitive linker expressing composition or function",
+        "An interrogative particle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"A temporal marker\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "If a “enyongo” is described as “Enyongo yamaroba”, what cultural implication is conveyed?",
+      "options": [
+        "The pot is expensive and ornamental",
+        "The pot is broken or unusable",
+        "The pot reflects traditional craftsmanship and material heritage",
+        "The pot is used exclusively for ceremonial purposes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"The pot is broken or unusable\" captures the cultural and social connotations embedded in this linguistic expression."
+    },
+    {
+      "question": "Which phrase best exemplifies the use of “ye” as a complement of material?",
+      "options": [
+        "Amache yokonywa",
+        "Ensa yetahabu",
+        "Chibesa chiendagera",
+        "Chianga chiegasi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Amache yokonywa\" best demonstrates the grammatical concept being tested in this question."
+    },
+    {
+      "question": "The phrase “Egesiri giokoburuga” links “egesiri” with “-koburuga” to indicate:",
+      "options": [
+        "The tool’s ownership by pur",
+        "The location where the hoe was found",
+        "The hoe’s intended agricultural purpose",
+        "The hoe’s material composition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"The location where the hoe was found\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "How does the complement of purpose differ semantically from the complement of material?",
+      "options": [
+        "Material indicates possession; purpose indicates size",
+        "Material indicates composition; purpose indicates intended use",
+        "Material indicates ownership; purpose indicates temporal sequence",
+        "Material indicates location; purpose indicates quality"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Material indicates possession; purpose indicates size\" correctly explains the complement structure and its role in the sentence."
+    },
+    {
+      "question": "The phrase “Enyongo yamaroba” carries what implied meaning beyond literal composition?",
+      "options": [
+        "The chain is fragile and easily broken",
+        "The chain is made of cheap material",
+        "The chain suggests elegance or value through precious metal",
+        "The chain is used for cooking"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"The chain is made of cheap material\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "If you wanted to describe a water container used for drinking, which phrase would be grammatically and semantically correct in Ekegusii?",
+      "options": [
+        "Amache y’okoburuga",
+        "Amache yetahabu",
+        "Amache yokonywa",
+        "Amache yechibao"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Amache yetahabu\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence \"Nyanchoka nigo akominyoka bwango mono.\n\", what grammatical phenomenon is represented by the structure of “bwango mono”?",
+      "options": [
+        "Elliptical ellipsis",
+        "Nominal embedding",
+        "Layered adverbial modification",
+        "Object-initial topicalization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Nominal embedding\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best illustrates the semantic function of an adverb of frequency?",
+      "options": [
+        "Omwaga ogusire bwango mono",
+        "Nyaboke airanete bwango",
+        "Egesiri egekorema buya",
+        "Babeire bagocha botambe"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Egesiri egekorema buya\" accurately represents the semantic function or domain of the element being discussed."
+    },
+    {
+      "question": "What syntactic flexibility allows Ekegusii adverbs like “bwango” to be placed after or before the verb?",
+      "options": [
+        "Subject-predicate inversion",
+        "The nominalization of verb roots",
+        "Emphatic or stylistic fronting",
+        "Verb compounding with prepositions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"The nominalization of verb roots\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "Which of the following sentences demonstrates reduplication as a strategy for intensification?",
+      "options": [
+        "Omwaga ogusire bwango",
+        "Nyanchoka ominyokire bwango bwango",
+        "Baba ominto n’omuya",
+        "Ochire bwango"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Omwaga ogusire bwango\" shows reduplication as a morphological strategy for intensification in Ekegusii."
+    },
+    {
+      "question": "Which adverbial element carries socio-cultural connotation beyond mere syntactic function in the following: “As’omorembe”?",
+      "options": [
+        "It simply means “calmly”",
+        "It implies social peace or communal harmony",
+        "It is a metaphor for invisibility",
+        "It marks habitual silence in religious discourse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"It simply means “calmly”\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "The phrase “Omotambe mono” exemplifies what type of adverbial construction?",
+      "options": [
+        "Degree + noun + modal",
+        "Adjective modified by degree adverb",
+        "Reduplicated noun intensifier",
+        "Mood-influenced adjective quantifier"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Degree + noun + modal\" correctly identifies the grammatical or morphological category of the construction."
+    },
+    {
+      "question": "In the phrase “Eriogi rinene” what semantic domain does the adverb belong to?",
+      "options": [
+        "Degree",
+        "Manner",
+        "Frequency",
+        "Place"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Degree\" accurately represents the semantic function or domain of the element being discussed."
+    },
+    {
+      "question": "The placement of “kare” in a sentence such as “Barabwo koranta bare chichabati kare” serves which function?",
+      "options": [
+        "Locational anchoring of the action",
+        "Intensification of mood",
+        "Temporal prediction or imminence",
+        "Modifier of agency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Intensification of mood\" accurately describes the function of this element within the sentence."
+    },
+    {
+      "question": "What makes “Bwango bwango” and “Ng’ora ng’ora” structurally similar?",
+      "options": [
+        "Both are inflected verbs in subjunctive mood",
+        "Both are reduplicated adverbs of manner for emphasis",
+        "Both are contracted noun phrases",
+        "Both are honorific expressions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Both are inflected verbs in subjunctive mood\" identifies the shared structural property that makes these forms similar."
+    },
+    {
+      "question": "Which example best reflects the combination of adverbial categories within a single clause?",
+      "options": [
+        "Rora gochia aria.",
+        "Nyanchoka akominyoka bwango mono.",
+        "Botambe nkoria tore chichabati.",
+        "Omwaga ogusire bwango"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Rora gochia aria.\" best reflects or combines the grammatical features being tested."
+    }
+  ]
+}

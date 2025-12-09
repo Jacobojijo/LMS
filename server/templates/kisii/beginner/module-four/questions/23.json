@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In a standard Ekegusii conditional construction, what tense is used in the consequence clause?",
+      "options": [
+        "Present tense",
+        "Subjunctive tense",
+        "Future tense (NANGA form)",
+        "Past continuous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Subjunctive tense\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the correct Ekegusii equivalent of the sentence: \"If he sings, we will dance\"?",
+      "options": [
+        "Onye okoruga, ngoragera tore",
+        "Onye ogotera, ngotenga tore",
+        "Onye ogocha, ngogenda tore",
+        "Onye okondangeria, ngogenda tore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Onye okoruga, ngoragera tore\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Identify the correct structure for a negative conditional sentence in Ekegusii:",
+      "options": [
+        "Onye + verb (present), (na) + verb (future)",
+        "Na + verb (present), Ni + verb (future)",
+        "Onye + verb (present), Nanga + verb (future)",
+        "Nanga + verb (present), Onye + verb (future)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Na + verb (present), Ni + verb (future)\" properly demonstrates negation formation in Ekegusii grammar."
+    },
+    {
+      "question": "Which construction below demonstrates a remote past conditional expressing regret?",
+      "options": [
+        "Onye okoruga, ngoragera tore",
+        "Onye bagocha, ngogotebiande",
+        "Onye namomanyete nanga timwegeneti",
+        "Onye ogokwa, ngomanya tore"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Onye bagocha, ngogotebiande\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the primary grammatical function of the word \"NANGA\" in the conditional mood?",
+      "options": [
+        "Denotes negation of the antecedent",
+        "Marks subjunctive tone in commands",
+        "Indicates habitual aspect of consequence",
+        "Emphasizes the consequence clause (\"then\")"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Indicates habitual aspect of consequence\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+    },
+    {
+      "question": "Which of the following is a valid composed past conditional in Ekegusii?",
+      "options": [
+        "Onyo mokoruga, tindikoragera",
+        "Onye namanya ng’a ngotwere nanga naimoki  riburi",
+        "Gokomwaka ngogenda are Nyagitari",
+        "Onye togotokwana rirorio ntogokora emeremo"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Onyo mokoruga, tindikoragera\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "How is a future conditional typically expressed in Ekegusii?",
+      "options": [
+        "Using “ko” in both clauses",
+        "With “na” before both verbs",
+        "With subjunctive markers",
+        "Using “Ni” in both antecedent and consequence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is \"With subjunctive markers\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the most accurate explanation of “nanga” in conditional constructions?",
+      "options": [
+        "A prefix indicating ability",
+        "A negative potential future",
+        "A marker introducing a conditional perfect (“would have…”)",
+        "A reduplicated present participle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"A negative potential future\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best fits the structure:Na + Present, Ko + Future (NANG",
+      "options": [
+        "?",
+        "Onye naboretie obokonyi, ngomokonya tware",
+        "Ruga tomanye kogenda",
+        "Tore nomogoko ekiagera y’omwana"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"?\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What linguistic purpose does “ONYE…NANGA…” serve in Ekegusii communication?",
+      "options": [
+        "Constructing repetitive action clauses",
+        "Bridging conditional logic and dependency in discourse",
+        "Expressing sarcasm and idioms",
+        "Marking definiteness of noun subjects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Constructing repetitive action clauses\" correctly represents a complement or marker of purpose in Ekegusii."
+    }
+  ]
+}

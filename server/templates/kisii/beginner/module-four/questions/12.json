@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Ekegusii, which interrogative structure would best inquire about the quantity of items?",
+      "options": [
+        "Ngai",
+        "Inaki",
+        "Mbirenga",
+        "Ngereki"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Inaki\" correctly forms or answers the interrogative structure in Ekegusii."
+    },
+    {
+      "question": "Which question illustrates a proper use of subjunctive mood in expressing preference?",
+      "options": [
+        "Erieta riago ndireri?",
+        "Endagera ereri oranche?",
+        "Ngai ekaramu ere?",
+        "Aye igo ngogenda ore gose torikogenda?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Erieta riago ndireri?\" correctly forms or answers the interrogative structure in Ekegusii."
+    },
+    {
+      "question": "What is the function of the preposition \"gochia\" in questions like “Ekaramu ere gochiabwe?”?",
+      "options": [
+        "Denotes agency of the action",
+        "Indicates spatial placement or attribution",
+        "Marks gender in origin statements",
+        "Acts as a plural marker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Denotes agency of the action\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "Which sentence properly uses the negation particle in the subjunctive form?",
+      "options": [
+        "Tindikogenda",
+        "Yaya, inche tindigocha",
+        "Tindigocha?",
+        "Ee, nkochande"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Tindikogenda\" properly demonstrates negation formation in Ekegusii grammar."
+    },
+    {
+      "question": "How does the interrogative particle “igo” function in Ekegusii questions?",
+      "options": [
+        "Indicates an agent in passive voice",
+        "Frames yes/no or emphatic questions",
+        "Marks plural possessives",
+        "Negates present actions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Indicates an agent in passive voice\" correctly forms or answers the interrogative structure in Ekegusii."
+    },
+    {
+      "question": "What is the correct question tag in the sentence: _“Igo timanyeti, __?”",
+      "options": [
+        "Ti-?",
+        "Tocha?",
+        "Nabo?",
+        "Ee?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Tocha?\" correctly forms or answers the interrogative structure in Ekegusii."
+    },
+    {
+      "question": "Which interrogative term in Ekegusii is specifically used for plural object location?",
+      "options": [
+        "Ngai bire",
+        "Ngai are",
+        "Ndireri",
+        "Mbirebi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Ngai bire\" properly identifies or expresses locality/location in the sentence."
+    },
+    {
+      "question": "In the question “Mbirogo ki oanchete?”, what is the grammatical function of “ki”?",
+      "options": [
+        "Object marker for singular",
+        "Interrogative for plural selection (“which”)",
+        "Temporal inquiry marker",
+        "Possessive form of “mar”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Object marker for singular\" correctly identifies the grammatical function of this element in the sentence structure according to Ekegusii syntax."
+    },
+    {
+      "question": "Which response correctly affirms a tag question in Ekegusii?",
+      "options": [
+        "Ti",
+        "Yaya",
+        "Ee",
+        "Tocha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Yaya\" correctly forms or answers the interrogative structure in Ekegusii."
+    },
+    {
+      "question": "Identify the sentence that best illustrates a confirmatory tag in Ekegusii grammar.",
+      "options": [
+        "Aye ning’o?",
+        "Erieta riago ndireri?",
+        "Aye nomomanyete omworokia, nabo?",
+        "Endagera oranche nereri?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Erieta riago ndireri?\" best demonstrates the grammatical concept being tested in this question."
+    }
+  ]
+}

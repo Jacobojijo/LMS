@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the sentence “Inche ngoragera erinde ntware chinguru”, which of the following best describes the syntactic role of “ni mondo”?",
+      "options": [
+        "It indicates a past reason for eating",
+        "It replaces the need for a subject",
+        "It introduces a purpose clause showing future intent",
+        "It serves as an additive conjunction joining two nouns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"It replaces the need for a subject\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "Which of the following best captures the semantic difference between “erio” and “asegencho”?",
+      "options": [
+        "Both express the same type of cause",
+        "“Asengencho” is future-oriented, “erio” is past-oriented",
+        "“Erio” indicates future purpose; “asengencho” marks present or past reasons",
+        "“Erio” is a conjunction; “Asengencho” is a preposition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"“Asengencho” is future-oriented, “erio” is past-oriented\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which pair of Ekegusii conjunctions are not stylistic variants offering a similar disjunctive function?",
+      "options": [
+        "Na and Amo na",
+        "Asengencho and ekiagera",
+        "Gose and Nainde",
+        "Erinde and erio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Asengencho and ekiagera\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Identify the sentence that correctly uses a coordinating conjunction for accompaniment.",
+      "options": [
+        "Ing’a eke naende keria",
+        "Nabogoirie egekombe amo nesaucer",
+        "Inche ngoragera erinde ntware chinguru",
+        "Aseki ogosomo Ekegusii?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Ing’a eke naende keria\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of these statements about “na” is accurate based on the material?",
+      "options": [
+        "It introduces causal clauses",
+        "It functions exclusively with animate nouns",
+        "It links similar grammatical elements such as nouns and phrases",
+        "It is the only correct word for “with” in Ekegusii"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It functions exclusively with animate nouns\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What is the primary syntactic value of “Amo na” or “Amo nere”?",
+      "options": [
+        "They express contrast or exclusion",
+        "They emphasize collectivity or joint action",
+        "They denote time-based conjunctions",
+        "They modify verbs for subjunctive mood"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"They express contrast or exclusion\" is correct as it properly describes the syntactic structure and word order patterns in Ekegusii."
+    },
+    {
+      "question": "In the phrase: “Gwanchire kogenda gose gotigara?”, what is the role of “gose”?",
+      "options": [
+        "It indicates instrumentality",
+        "It introduces a consequence",
+        "It offers an alternative in a choice",
+        "It acts as a future tense marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It introduces a consequence\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "When expressing a reason in Kemera or Ogembo dialects of Gusii, which form is most naturally used?",
+      "options": [
+        "Erio",
+        "Gose",
+        "Asengencho",
+        "Na"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Gose\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following shows an incorrect logical relationship according to Ekegusii conjunction principles?",
+      "options": [
+        "Agosoma Ekegusii erinde akemanye",
+        "Ngochiesa ekiagera mbuete — I play because I win",
+        "Ngochiesa ase okobua — I play to win",
+        "Ngochiesa erinde mbue — I play so that I may win"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Agosoma Ekegusii erinde akemanye\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best explains the dialect-sensitive interchangeability of causal connectors?",
+      "options": [
+        "“Amo na” is preferred in Kemera, “na” in Ogembo",
+        "“Gose” is only used in written Ekegusii",
+        "“Asengencho”, “Ekiagera” all mean “because” and are regionally variable",
+        "“Amo na” and “gose” are identical in all uses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"“Gose” is only used in written Ekegusii\" correctly uses the causal marker to express cause in Ekegusii."
+    }
+  ]
+}

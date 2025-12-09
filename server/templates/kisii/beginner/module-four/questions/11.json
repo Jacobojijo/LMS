@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct negative response to the question “Ngochore?” (Will you come)?",
+      "options": [
+        "Eeh, ngochande",
+        "Yaya, ngochande",
+        "Tocha",
+        "Yaya, tindigocha"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"Tocha\" properly demonstrates negation formation in Ekegusii grammar."
+    },
+    {
+      "question": "Which sentence best exemplifies past perfect negation?",
+      "options": [
+        "Tindacha",
+        "Inche Konya tindaragera",
+        "Tocha",
+        "Narageire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Tindacha\" best demonstrates the grammatical concept being tested in this question."
+    },
+    {
+      "question": "In Ekegusii, how is negation typically formed in affirmative commands?",
+      "options": [
+        "By using “ti-” before the verb",
+        "By replacing “ti” with “tocha”",
+        "By adding “konya” after the subject",
+        "By using “Ee” after the verb"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"By using “ti-” before the verb\" properly demonstrates negation formation in Ekegusii grammar."
+    },
+    {
+      "question": "What is the function of “konya” in Ekegusii grammar?",
+      "options": [
+        "Future negation marker",
+        "Subjunctive mood particle",
+        "Past perfect negation particle meaning “not yet”",
+        "Command intensifier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Subjunctive mood particle\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which phrase is a correct negative contraction in the past tense?",
+      "options": [
+        "Inche tindigocha koragera",
+        "Yaya, inche tingonyara",
+        "Tindagereti",
+        "Konya tindigocha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Yaya, inche tingonyara\" properly demonstrates negation formation in Ekegusii grammar."
+    },
+    {
+      "question": "Identify the grammatically correct subjunctive negative form in the present/future tense:",
+      "options": [
+        "Konya tindigocha",
+        "Tindigochi koragera",
+        "Tindieti",
+        "Yaya, ngocha ngoragerande"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Konya tindigocha\" properly demonstrates negation formation in Ekegusii grammar."
+    },
+    {
+      "question": "Which of the following correctly illustrates pronoun-negation fusion?",
+      "options": [
+        "Konya tindigocha",
+        "Yaya, tingonyara",
+        "Yaya, intwe titokonyara",
+        "Tocha koragera"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Yaya, tingonyara\" properly demonstrates negation formation in Ekegusii grammar."
+    },
+    {
+      "question": "How would you politely say “No, you (plural) will not manage” in Ekegusii?",
+      "options": [
+        "Yaya, tingonyara",
+        "Yaya, barabwo tibakonyara",
+        "Yaya, inwe timokonyara",
+        "Yaya, titokonyara"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"Yaya, barabwo tibakonyara\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which of the following best represents a correct affirmative response?",
+      "options": [
+        "Inche tingonyara",
+        "Ee",
+        "Inche konya tindaragera",
+        "Tocha"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Inche tingonyara\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What does the sentence “Ere tari bobe” mean?",
+      "options": [
+        "He will not go",
+        "He/She/It is not bad",
+        "Don’t be bad",
+        "I didn’t go"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"He will not go\" based on Ekegusii grammatical rules and linguistic principles."
+    }
+  ]
+}

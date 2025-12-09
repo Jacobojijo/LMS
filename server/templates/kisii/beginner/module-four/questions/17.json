@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Ekegusii preposition would you use to express that something is inside a house?",
+      "options": [
+        "Igoro ya",
+        "Nyaro",
+        "Ime",
+        "Magega"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Nyaro\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "The preposition “ye” primarily functions to express:",
+      "options": [
+        "Direction or movement",
+        "Possession or association",
+        "Cause or reason",
+        "Companionship"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Direction or movement\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "What is the best English equivalent of the Ekegusii preposition “igoro ya” and its anatomical metaphorical origin?",
+      "options": [
+        "Under; from foot",
+        "On top; from head",
+        "On top; derived from “ase obosio bwa” meaning “at the head of”",
+        "Behind; from back"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"On top; from head\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "In the phrase “Inche nachire na Kerubo’”, the preposition “na” is used because:",
+      "options": [
+        "It denotes possession",
+        "It implies location",
+        "It expresses accompaniment with a person",
+        "It indicates cause or reason"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"It implies location\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "Which of the following pairs correctly reflects the semantic distinction between “asengencho” and “ase”?",
+      "options": [
+        "Asengencho — gratitude; Ase — direction",
+        "Asengencho — possession; Ase — companionship",
+        "Asengencho — purpose or motive; Ase — gratitude or causal attribution",
+        "Asengencho — spatial position; Ase — temporal marker"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Asengencho — possession; Ase — companionship\" best reflects or combines the grammatical features being tested."
+    },
+    {
+      "question": "If someone says “Intwe etbwate abana babere ase enyomba yaito”, what does “Ase” indicate?",
+      "options": [
+        "The children are going to the market",
+        "The children are behind the house",
+        "The children are located at the house",
+        "The children are under the table"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"The children are behind the house\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Which preposition would you use to say “under the table” and what does it reflect about Ekegusii spatial conceptualization?",
+      "options": [
+        "Igoro; it reflects elevation",
+        "Nyaro, Inse ya; it reflects spatial orientation based on body parts",
+        "Magega; it indicates possession",
+        "Inse; it means “on the ground”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Igoro; it reflects elevation\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "Which of these sentences best illustrates the flexibility of “na” with pronoun suffixes?",
+      "options": [
+        "Ngochande n’enyongo",
+        "Inche ngochande na Kerubo",
+        "Ngai amabere y’omwana are?",
+        "Ekebusi ekere nyaro y’emesa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Ngochande n’enyongo\" best demonstrates the grammatical concept being tested in this question."
+    },
+    {
+      "question": "The Ekegusii preposition “Inse” most accurately translates to:",
+      "options": [
+        "Behind",
+        "Above",
+        "Down/on the ground",
+        "With"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Above\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    },
+    {
+      "question": "What is the primary linguistic reason the Ekegusii prepositions “Igoro ya,” “ime,” and “nyaro” have such anatomical roots?",
+      "options": [
+        "To simplify vocabulary acquisition",
+        "To denote possession clearly",
+        "To metaphorically conceptualize spatial relations via body parts",
+        "To distinguish between human and non-human objects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"To denote possession clearly\" correctly demonstrates the use of prepositional complements in Ekegusii."
+    }
+  ]
+}

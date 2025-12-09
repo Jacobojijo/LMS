@@ -1,0 +1,103 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the most formally structured expression to ask the price of a specific item in Ekegusii?",
+      "options": [
+        "Riomosi rigori nirenga?",
+        "Irenga chibesa?",
+        "Rigori riomosi ndireri?",
+        "Omosi nirenga?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"Irenga chibesa?\" is the appropriate way to ask or express this in Ekegusii."
+    },
+    {
+      "question": "Which phrase best emphasizes monetary value over the item itself?",
+      "options": [
+        "Omosi nirenga?",
+        "Rigori riomosi nirenga?",
+        "Chibesa nirenga?",
+        "Inaki okooni?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Omosi nirenga?\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "The term \"Rigori nirenga\" is best understood as:",
+      "options": [
+        "Asking for price only",
+        "Culturally embedded price negotiation",
+        "Giving a price discount",
+        "Writing prices on items"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"Asking for price only\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "In the phrase “Rigori rie ritoke nirenga?”, what is the role of the word “chibesa”?",
+      "options": [
+        "It qualifies the banana's color",
+        "It refers to location of sale",
+        "It highlights monetary cost",
+        "It names the item being sold"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It refers to location of sale\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "Why is rigori nirenga not considered impolite in Gusii culture?",
+      "options": [
+        "It’s rare and reserved for elders",
+        "It is done silently",
+        "It reflects social intelligence and mutual respect",
+        "It is an obligation enforced by vendors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is \"It is done silently\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What makes the question structure \"Rigori nirenga?\" linguistically and culturally significant?",
+      "options": [
+        "It hides the object’s identity",
+        "It omits the use of nouns deliberately",
+        "It prioritizes object identification before price inquiry",
+        "It translates literally to “Buy me now!”"
+      ],
+      "correctAnswer": 1,
+      "explanation": "\"It omits the use of nouns deliberately\" captures the cultural and social connotations embedded in this linguistic expression."
+    },
+    {
+      "question": "Which of the following best illustrates functional flexibility in Ekegusii price inquiry?",
+      "options": [
+        "Saying “chibesa nirenga”",
+        "Alternating between item-led and currency-led syntax",
+        "Whispering the price at the market",
+        "Never stating “nirenga” out loud"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Saying “chibesa nirenga”\" best demonstrates the grammatical concept being tested in this question."
+    },
+    {
+      "question": "Which statement best explains how rigori nirenga is embedded in social behavior?",
+      "options": [
+        "It’s only taught in schools",
+        "It intertwines politeness, economic intent, and communal norms",
+        "It avoids direct conversation",
+        "It is restricted to large markets only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is \"It’s only taught in schools\" based on Ekegusii grammatical rules and linguistic principles."
+    },
+    {
+      "question": "What broader cultural skill is enhanced through mastery of rigori nirenga?",
+      "options": [
+        "Reading and writing Ekegusii",
+        "Economic fluency and interpersonal negotiation",
+        "Singing traditional songs",
+        "Cooking local cuisine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Reading and writing Ekegusii\" captures the cultural and social connotations embedded in this linguistic expression."
+    }
+  ]
+}
