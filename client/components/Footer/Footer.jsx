@@ -218,10 +218,6 @@ const Footer = () => {
                 <p className="text-gray-300 ">(+254) 746426925</p>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-3">
-                <MdPhone className="text-[#8EDBDB] text-xl flex-shrink-0" />
-                <p className="text-gray-300 ">(+254) 716883778</p>
-              </div>
-              <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MdEmail className="text-[#8EDBDB] text-xl flex-shrink-0" />
                 <p className="text-gray-300">heritagelanguageschool@gmail.com</p>
               </div>
