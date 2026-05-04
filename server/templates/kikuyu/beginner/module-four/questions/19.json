@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Gĩkũyũ conjunction correctly joins two nouns like 'maize and goat'?",
+      "options": [
+        "kana",
+        "na",
+        "tondũ",
+        "nĩguo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Na' is the Gĩkũyũ conjunction used to join nouns, verbs, or phrases, equivalent to 'and' in English."
+    },
+    {
+      "question": "Which of the following expresses 'together with' emphasizing unity in Gĩkũyũ?",
+      "options": [
+        "na",
+        "hamwe na",
+        "kana",
+        "nĩũndũ wa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Hamwe na' emphasizes joint action or collective accompaniment, expressing 'together with' to highlight unity."
+    },
+    {
+      "question": "Identify the correct Gĩkũyũ alternative/conjunctive expression for 'work or farm?'",
+      "options": [
+        "Nĩhande mbembe nĩũndũ wa mwana",
+        "Wĩra kana gĩthaka",
+        "Mbembe hamwe na mwana",
+        "Nĩnjaria nĩguo njone hinya"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kana' expresses alternatives or choice in Gĩkũyũ, equivalent to 'or' in English, making 'Wĩra kana gĩthaka' (work or farm) correct."
+    },
+    {
+      "question": "Which Gĩkũyũ conjunction indicates a cause or reason for an action in the sentence 'I plant maize because the child may learn'?",
+      "options": [
+        "ni nĩguo",
+        "nĩũndũ wa",
+        "hamwe na",
+        "kana"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩũndũ wa' expresses reason or justification in Gĩkũyũ, meaning 'because of' or 'for the reason of'."
+    },
+    {
+      "question": "In Gĩkũyũ, which expression is used for future-oriented purpose rather than reason?",
+      "options": [
+        "nĩũndũ wa",
+        "tondũ",
+        "ni nĩguo",
+        "nĩgĩtũmi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ni nĩguo' expresses purpose or intended outcome, indicating what someone aims to achieve rather than explaining past reasons."
+    },
+    {
+      "question": "How would you ask 'Why do you work?' correctly in Gĩkũyũ?",
+      "options": [
+        "Nĩkĩ ũrutaga wĩra?",
+        "Wĩra ni nĩguo?",
+        "Nĩũndũ wa wĩra?",
+        "Nĩhande wĩra?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nĩkĩ ũrutaga wĩra?' is the standard interrogative form for asking 'Why do you work?' in Gĩkũyũ."
+    },
+    {
+      "question": "Which conjunction is formal or explanatory when expressing cause in Gĩkũyũ?",
+      "options": [
+        "nĩũndũ wa",
+        "tondũ",
+        "nĩgĩtũmi",
+        "na"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩgĩtũmi' conveys cause in a formal or explanatory tone, often used in more deliberate or formal contexts."
+    },
+    {
+      "question": "Identify the correct Gĩkũyũ sentence expressing purpose:",
+      "options": [
+        "Nĩhande mbembe nĩũndũ wa mwana athome",
+        "Nĩhande mbembe ni nĩguo mwana athome",
+        "Ndĩrahanda mbembe tondũ wa mwana guthoma",
+        "Wĩra kana gĩthaka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩhande mbembe ni nĩguo mwana athome' (Let me plant maize so that the child may learn) correctly uses 'ni nĩguo' to express intended outcome or goal."
+    },
+    {
+      "question": "Which pair of conjunctions correctly distinguishes cause vs purpose in Gĩkũyũ?",
+      "options": [
+        "na / hamwe na",
+        "kana / o kana",
+        "nĩũndũ wa / ni nĩguo",
+        "tondũ / na"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩũndũ wa' expresses cause (the reason something happened), while 'ni nĩguo' expresses purpose (the intended outcome), making them the correct pair for this distinction."
+    },
+    {
+      "question": "Which of the following sentences correctly uses 'ni nĩguo'?",
+      "options": [
+        "Nĩhande mbembe nĩũndũ wa mwana athome",
+        "Nĩhande mbembe ni nĩguo mwana athome",
+        "Wĩra kana gĩthaka",
+        "Ndĩrahanda mbembe tondũ wa mwana guthoma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩhande mbembe ni nĩguo mwana athome' correctly uses 'ni nĩguo' to express future-oriented purpose, meaning 'so that the child may learn'."
+    }
+  ]
+}

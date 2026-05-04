@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which Gĩkũyũ preposition correctly expresses 'The plate is inside the cupboard'?",
+      "options": [
+        "rungu wa kabati",
+        "thĩinĩ wa kabati",
+        "igũrũ rĩa kabati",
+        "thutha wa kabati"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Thĩinĩ wa' means 'inside of' in Gĩkũyũ, making 'thĩinĩ wa kabati' the correct preposition to express that the plate is inside the cupboard."
+    },
+    {
+      "question": "Choose the correct Gĩkũyũ translation for 'The dog is under the table.'",
+      "options": [
+        "Ngũi ĩrĩ igũrũ rĩa metha",
+        "Ngũi ĩrĩ thĩinĩ wa metha",
+        "Ngũi ĩrĩ rungu rwa metha",
+        "Ngũi ĩrĩ thutha wa metha"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Rungu rwa' means 'under' or 'beneath' in Gĩkũyũ, so 'Ngũi ĩrĩ rungu rwa metha' correctly translates to 'The dog is under the table.'"
+    },
+    {
+      "question": "Which preposition is used in Gĩkũyũ to express 'because of / for a cause'?",
+      "options": [
+        "nĩkĩrĩ",
+        "nĩũndũ wa",
+        "nĩ wa",
+        "na"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩũndũ wa' is the Gĩkũyũ preposition meaning 'because of' or 'for the reason of', used to express causation."
+    },
+    {
+      "question": "How would you express 'I am together with Wanjikũ' correctly in Gĩkũyũ?",
+      "options": [
+        "Nĩ na Wanjikũ",
+        "Nĩ nake Wanjikũ",
+        "Ndĩ hamwe na Wanjikũ",
+        "Nĩkĩrĩ Wanjikũ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Hamwe na' means 'together with' in Gĩkũyũ, so 'Ndĩ hamwe na Wanjikũ' correctly expresses 'I am together with Wanjikũ.'"
+    },
+    {
+      "question": "Which of the following is the correct possessive form for 'The sun of the person'?",
+      "options": [
+        "Rĩũa wa mũndũ",
+        "Rĩũa rĩa mũndũ",
+        "Rĩũa kĩa mũndũ",
+        "Rĩũa ĩrĩa mũndũ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Rĩũa' (sun) belongs to noun class 5, which requires the possessive particle 'rĩa', making 'Rĩũa rĩa mũndũ' the correct form."
+    },
+    {
+      "question": "Which preposition would you use to translate 'The house is behind the kitchen'?",
+      "options": [
+        "igũrũ rĩa",
+        "rungu",
+        "thutha wa",
+        "thĩinĩ wa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Thutha wa' means 'behind' or 'at the back of' in Gĩkũyũ, making it the correct preposition for expressing location behind something."
+    },
+    {
+      "question": "Identify the Gĩkũyũ preposition that conveys purpose or intended recipient.",
+      "options": [
+        "nĩkĩrĩ",
+        "nĩũndũ wa",
+        "na",
+        "na kĩrĩa kĩa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nĩkĩrĩ' (or 'nĩkĩa') is used in Gĩkũyũ to express purpose or to indicate the intended recipient of an action or object."
+    },
+    {
+      "question": "Which sentence uses the correct preposition and suffix for 'I am with him/her'?",
+      "options": [
+        "Nĩ na Wanjikũ",
+        "Ndĩ nake",
+        "Nĩ hamwe na",
+        "Nĩkĩrĩ kĩrĩa kĩa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ndĩ nake' correctly uses the pronoun suffix '-ke' attached to 'na' (with) to express 'I am with him/her' in Gĩkũyũ."
+    },
+    {
+      "question": "Which possessive particle is correct for 'The water of a person' (Class 6 noun)?",
+      "options": [
+        "wa",
+        "rĩa",
+        "kĩa",
+        "ma"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Class 6 nouns in Gĩkũyũ (like 'maĩ' - water) require the possessive particle 'ma' for possession."
+    },
+    {
+      "question": "How would you express 'This gift is for the child (purpose) because of her kindness (reason)' correctly in Gĩkũyũ?",
+      "options": [
+        "Kĩheo gĩkĩ nĩkĩa mwana nĩũndũ wa wendo wake",
+        "Kĩheo gĩkĩ nĩũndũ wa mwana nĩkĩrĩ wendo wake",
+        "Kĩheo gĩkĩ na mwana nĩkĩrĩ wendo wake",
+        "Kĩheo gĩkĩ rungu rwa mwana nĩũndũ wa wendo wake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This sentence correctly uses 'nĩkĩa' (for/purpose) to indicate the intended recipient (mwana/child) and 'nĩũndũ wa' (because of) to express the reason (wendo wake/her kindness)."
+    }
+  ]
+}

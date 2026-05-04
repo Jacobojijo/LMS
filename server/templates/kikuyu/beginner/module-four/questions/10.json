@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which marker in Kikuyu expresses purpose/aim (i.e., 'for what purpose')?",
+      "options": [
+        "nĩ ũndũ wa",
+        "kĩa / cĩa",
+        "na",
+        "kũrĩ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The markers 'kĩa' (singular) and 'cĩa' (plural) are used in Kikuyu to express purpose or aim, linking an action to its intended goal."
+    },
+    {
+      "question": "The sentence 'Ndĩ kũhũũra nguo cĩa rũgendo.' best exemplifies which complement?",
+      "options": [
+        "Complement of Locality",
+        "Complement of Cause",
+        "Complement of Aim (Purpose)",
+        "Complement of Company"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nguo cĩa rũgendo' (clothes for the journey) demonstrates a Complement of Aim, showing the purpose for which the clothes are being washed."
+    },
+    {
+      "question": "Which structural formula correctly represents the Complement of Cause?",
+      "options": [
+        "Subject + Verb + Location",
+        "Subject + Verb + kĩa + Aim",
+        "Main Clause + nĩ ũndũ wa + Cause",
+        "Subject + Verb + na + Companion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Complement of Cause follows the structure Main Clause + nĩ ũndũ wa + Cause, where 'nĩ ũndũ wa' means 'because of' and introduces the reason."
+    },
+    {
+      "question": "In 'Ndikũthiĩ gũtũũra nĩ ũndũ wa mbura.', what does 'nĩ ũndũ wa mbura' answer?",
+      "options": [
+        "Where?",
+        "For what purpose?",
+        "Why? (the reason/cause)",
+        "With whom?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩ ũndũ wa mbura' (because of the rain) answers 'Why?' by providing the cause or reason for not going to stay."
+    },
+    {
+      "question": "How does Kikuyu normally express place (locality) in a sentence?",
+      "options": [
+        "By using the marker kĩa before the place",
+        "By inserting an English preposition (in/at)",
+        "By placing the location directly after the verb with no preposition",
+        "By using nĩ ũndũ wa + place"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu, place complements are typically expressed by placing the location directly after the verb without requiring a preposition."
+    },
+    {
+      "question": "Which of the following is a correct example of a place complement in Kikuyu?",
+      "options": [
+        "Nĩathondekete gũciaro kĩhũa kĩa kũthinga mũgũnda.",
+        "Ndĩ Nairóbi.",
+        "Tũratũma mbeca cĩa gũcookia ciana cukuru.",
+        "Gĩkundi kĩu nĩkĩgathũkire nĩ ũndũ gũtirĩ mũgũnda."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ndĩ Nairóbi' (I am in Nairobi) is a simple place complement where the location follows the verb directly without a preposition."
+    },
+    {
+      "question": "The guiding question for the Complement of Aim is:",
+      "options": [
+        "Who?",
+        "Where?",
+        "For what? / Why are we doing this?",
+        "With whom?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Complement of Aim answers the question 'For what?' or 'Why are we doing this?' by identifying the purpose or goal of an action."
+    },
+    {
+      "question": "Which sentence demonstrates a Complement of Cause (reason)?",
+      "options": [
+        "Tũciarĩa Nyeri.",
+        "Nĩarũgũĩte o na ciana kũrĩ gĩtũmi kĩa gũthera mũthĩnji.",
+        "Mũrutani ũcio nĩ mũrakaru nĩ ũndũ wa mĩceno.",
+        "Ndĩ kũhũũra nguo cĩa rũgendo."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũrutani ũcio nĩ mũrakaru nĩ ũndũ wa mĩceno' (That teacher is angry because of the jokes) contains 'nĩ ũndũ wa mĩceno' as a Complement of Cause explaining the reason for anger."
+    },
+    {
+      "question": "The phrase 'kĩa / cĩa' expresses purpose (NOT possession). Which consequence follows from this statement?",
+      "options": [
+        "kĩa can be replaced with nĩ ũndũ wa to show reason.",
+        "Objects marked by cĩa indicate the material composition.",
+        "A clause with cĩa links an action to its goal, not to ownership.",
+        "cĩa introduces location information."
+      ],
+      "correctAnswer": 2,
+      "explanation": "When 'kĩa/cĩa' expresses purpose, it creates a link between an action and its intended goal or function, rather than indicating possession or ownership."
+    },
+    {
+      "question": "Which comparative summary correctly pairs complement type with its guiding question?",
+      "options": [
+        "Aim — Where?; Cause — For what?; Locality — Why?",
+        "Aim — For what?; Cause — Why?; Locality — Where?",
+        "Aim — With whom?; Cause — Where?; Locality — For what?",
+        "Aim — Why?; Cause — For what?; Locality — With whom?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct pairings are: Complement of Aim answers 'For what?', Complement of Cause answers 'Why?', and Complement of Locality answers 'Where?'"
+    }
+  ]
+}

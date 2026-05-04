@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which form is the polite, standard Kikuyu expression used to say 'No' in a response-based negation?",
+      "options": [
+        "Tĩ",
+        "Nd-",
+        "Aca",
+        "Tĩrĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Aca' is the polite, standard Kikuyu expression used to say 'No' in response to questions or statements."
+    },
+    {
+      "question": "Which marker expresses existential negation ('there is/are no') in Kikuyu?",
+      "options": [
+        "Tĩ",
+        "Nd-",
+        "Ũtikũ",
+        "Tĩrĩ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Tĩrĩ' (or 'Gutĩrĩ') is used for existential negation in Kikuyu, expressing that something does not exist or is not present."
+    },
+    {
+      "question": "In the structure 'Aca, ndũrathiĩ', what does the prefix 'nd-' indicate?",
+      "options": [
+        "Future tense",
+        "Progressive aspect",
+        "Polite refusal",
+        "Negative marking"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The prefix 'nd-' is a negative marker attached to the verb, indicating that the action is negated."
+    },
+    {
+      "question": "Which pair correctly matches the Kikuyu expression with its English meaning?",
+      "options": [
+        "Ũtikũ — 'Not yet'",
+        "Ĩĩ — 'Yes'",
+        "Tĩrĩ — 'Don't do it'",
+        "Tĩ — 'There is no'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ĩĩ' is the Kikuyu word for 'Yes', used as a standard affirmative response."
+    },
+    {
+      "question": "Which example correctly represents a negative imperative in Kikuyu?",
+      "options": [
+        "Tĩ ndĩkũthiĩ",
+        "Tũtirathoma",
+        "Tiga kũrĩa!",
+        "Ndũũĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Tiga kũrĩa!' (Stop eating! / Don't eat!) is a negative imperative using 'tiga' (stop/leave) to command someone not to do something."
+    },
+    {
+      "question": "Which statement is TRUE about the marker 'Tĩ'?",
+      "options": [
+        "It only negates commands",
+        "It is used for polite refusals",
+        "It negates verbs in present and future contexts",
+        "It is the marker for existential negation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Tĩ' (or 'tĩ-') is used to negate verbs in present and future contexts, functioning as a general verbal negation marker."
+    },
+    {
+      "question": "Which of the following is the correct past negative construction according to the data?",
+      "options": [
+        "Tĩ ndũthiĩ",
+        "Ndinathii cukuru",
+        "Aca, tũtirathii",
+        "Gutĩrĩ mũndũ haha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ndinathii cukuru' (I did not go to school) demonstrates the correct past negative construction with the negative marker attached to the verb."
+    },
+    {
+      "question": "Which expression shows a polite affirmation in Kikuyu?",
+      "options": [
+        "Aca",
+        "Ndũrathiĩ",
+        "Nĩwega",
+        "Tĩrĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩwega' (It is good/fine) is used as a polite affirmation in Kikuyu, expressing agreement or approval."
+    },
+    {
+      "question": "In Kikuyu, which structure correctly negates a verb meaning 'We are not studying'?",
+      "options": [
+        "Tũtiga gũthoma",
+        "Tũtiarĩ gũthoma",
+        "Tũtirathoma",
+        "Tũtirĩ atĩa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Tũtirathoma' correctly negates the verb 'to study' for the first person plural, meaning 'We are not studying'."
+    },
+    {
+      "question": "Which example shows correct use of the negative present/future marker (tĩ-/nd-) with a verb?",
+      "options": [
+        "Ndĩ haha",
+        "Ĩĩ, nĩ ndĩmũũĩ",
+        "Ndĩkũthiĩ",
+        "Tiga kũũka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ndĩkũthiĩ' (I am not going / I will not go) correctly uses the negative marker 'nd-' attached to the verb to negate the present or future action."
+    }
+  ]
+}

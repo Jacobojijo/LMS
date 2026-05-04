@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best describes the primary role of Gĩkũyũ proverbs (ngeche) in communication?",
+      "options": [
+        "They serve only as literary decoration.",
+        "They encode moral, social, and cultural wisdom.",
+        "They are used exclusively in religious rituals.",
+        "They are mainly for humorous storytelling."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gĩkũyũ proverbs (ngeche) serve as vehicles for transmitting moral, social, and cultural wisdom across generations, encoding the community's values and life lessons."
+    },
+    {
+      "question": "The proverb 'Muugi ni mutaare' ('A wise person is the one who listens to counsel') primarily emphasizes:",
+      "options": [
+        "The value of speaking boldly.",
+        "Wisdom comes from listening and humility.",
+        "Conflict resolution through argument.",
+        "Avoiding social interactions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This proverb teaches that true wisdom is demonstrated through the ability to listen to advice and counsel from others, emphasizing humility over prideful self-reliance."
+    },
+    {
+      "question": "In the context of Gĩkũyũ proverbs, 'Mbaara ti ûcûrû' ('War is not porridge') is most appropriately used to:",
+      "options": [
+        "Celebrate heroic achievements.",
+        "Warn against trivializing serious conflict.",
+        "Encourage competitive behavior.",
+        "Promote leisurely activities."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This proverb warns that war and serious conflict should not be taken lightly or treated casually like something as simple as eating porridge."
+    },
+    {
+      "question": "The proverb 'Ciira wa mwega utuaga ta wa muuru' ('The case of good persons must be judged like that of bad ones') illustrates which Gĩkũyũ value?",
+      "options": [
+        "Loyalty",
+        "Justice and fairness",
+        "Courage",
+        "Humility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This proverb emphasizes the importance of justice and fairness, teaching that all people should be judged by the same standards regardless of their reputation or status."
+    },
+    {
+      "question": "'Gakunywo kagîra thooko' ('The fool takes many people with him') is used to:",
+      "options": [
+        "Praise teamwork.",
+        "Advise caution against following reckless leaders.",
+        "Encourage generosity.",
+        "Promote agricultural diligence."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This proverb warns against blindly following foolish or reckless leaders, as their poor decisions can bring harm to many who follow them."
+    },
+    {
+      "question": "Which proverb teaches about interdependence in relationships and partnership?",
+      "options": [
+        "Mũgambo waku ndũgĩra kĩrĩa kĩa mũhĩrĩga",
+        "Mbugi ndîkîrîte mûriha",
+        "Kīere kīa njīra-inī gītigwatagwo nī muura",
+        "Gakunywo kagîra thooko"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbugi ndîkîrîte mûriha' teaches about the importance of interdependence and mutual support in relationships and partnerships."
+    },
+    {
+      "question": "The idiom 'Njau cīkīanĩa?' ('Is the firewood ready?') metaphorically teaches:",
+      "options": [
+        "Planning and staying focused on tasks.",
+        "The importance of cooking skills.",
+        "Family loyalty.",
+        "Physical endurance."
+      ],
+      "correctAnswer": 0,
+      "explanation": "This idiom metaphorically asks whether preparations are complete, teaching the importance of proper planning and staying focused on necessary tasks before undertaking an activity."
+    },
+    {
+      "question": "'Wendo waku wĩrĩa nĩ wĩrĩa kũgũtha' ('Love that is true is known by deeds, not by words') is best applied in discussions of:",
+      "options": [
+        "Conflict resolution strategies",
+        "Genuine affection and integrity in relationships",
+        "Historical events",
+        "Agriculture and resource management"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This proverb emphasizes that true love and affection are demonstrated through actions rather than mere words, highlighting the importance of integrity and authenticity in relationships."
+    },
+    {
+      "question": "Which of the following is a correct interpretation of the proverb 'Kīere kīa njīra-inī gītigwatagwo nī muura' ('A grain of millet lying by the road will never grow ears')?",
+      "options": [
+        "Wasteful or neglected opportunities rarely yield results.",
+        "Silence is better than speaking.",
+        "Courage is rewarded with success.",
+        "Friendship strengthens family ties."
+      ],
+      "correctAnswer": 0,
+      "explanation": "This proverb teaches that opportunities or resources that are neglected or left to waste (like a grain lying on the road) will not produce any meaningful results or growth."
+    },
+    {
+      "question": "A key reason Gĩkũyũ idioms (īmena) are used in conversation is:",
+      "options": [
+        "To replace traditional proverbs entirely.",
+        "To add humor, style, and cultural depth to speech.",
+        "To discourage listening.",
+        "To create confusion in dialogue."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gĩkũyũ idioms (īmena) enrich conversation by adding humor, stylistic flair, and cultural depth, making speech more engaging and culturally resonant."
+    }
+  ]
+}

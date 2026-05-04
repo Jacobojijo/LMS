@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the core meaning of the Kikuyu lexeme 'thogora'?",
+      "options": [
+        "Quality of a product",
+        "Price or monetary value",
+        "Size of an object",
+        "Weight of an item"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kikuyu lexeme 'thogora' fundamentally refers to price or monetary value, serving as the key term in commercial transactions and price inquiries."
+    },
+    {
+      "question": "Which structure is the standard polite form for asking the price of an item in Gĩkũyũ?",
+      "options": [
+        "X nĩ kĩa thogora?",
+        "Nĩkĩ thogora wa X?",
+        "Thogora ya X nĩ kĩ?",
+        "Nĩwega thogora wa X?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Thogora ya X nĩ kĩ?' (What is the price of X?) is the standard polite structure for price inquiries in Gĩkũyũ, placing the item first to emphasize what is being valued."
+    },
+    {
+      "question": "In the expression 'X nĩ mbeca cigana?', what does the phrase 'mbeca cigana' mean?",
+      "options": [
+        "How large is the item?",
+        "How heavy is the item?",
+        "How many pieces?",
+        "How much money?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Mbeca cigana' literally translates to 'how much money?' and is used as a direct, value-focused way of asking about the price of an item."
+    },
+    {
+      "question": "Which sentence correctly asks the price of a goat?",
+      "options": [
+        "Mbũri nĩ kĩ thogora?",
+        "Mbũri nĩ mbeca cigana?",
+        "Thogora mbũri nĩ atĩa?",
+        "Mbũri nĩ thogora mũno?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbũri nĩ mbeca cigana?' (How much money is the goat?) correctly asks the price of a goat using the money-centered inquiry structure."
+    },
+    {
+      "question": "What communicative goal is fulfilled by 'goyo thogora'?",
+      "options": [
+        "Complaining about quality",
+        "Negotiating or bargaining the price",
+        "Asking the seller to add items",
+        "Describing the weight of goods"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Goyo thogora' refers to the act of negotiating or bargaining the price, an important communicative practice in Kikuyu market transactions."
+    },
+    {
+      "question": "In Kikuyu price inquiry, why is the item mentioned first (e.g., 'Thogora ya mbũri…')?",
+      "options": [
+        "To show the seller's identity",
+        "To emphasize the object being valued",
+        "To allow tonal marking",
+        "To avoid ambiguity in the price tag"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Placing the item first in Kikuyu price inquiries serves to emphasize and clearly identify the object being valued before asking about its price."
+    },
+    {
+      "question": "Which expression best reflects polite bargaining in Gĩkũyũ?",
+      "options": [
+        "Ũrathii atĩa?",
+        "Nĩwega, ũtĩ?",
+        "Tũrehera hĩndĩ nini.",
+        "Nĩ atĩa thogora?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Tũrehera hĩndĩ nini' (Reduce for us a little) is a polite bargaining expression that requests a price reduction while maintaining respect and courtesy."
+    },
+    {
+      "question": "In the seller's phrase 'Tũkũmĩnyarĩria kĩrĩa kĩa ũhoro,' what cultural idea is expressed?",
+      "options": [
+        "Refusing negotiation completely",
+        "Lowering the price slightly out of goodwill",
+        "Increasing the price due to demand",
+        "Asking for immediate payment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This phrase expresses the cultural practice of lowering the price slightly out of goodwill or relationship-building, reflecting the importance of social harmony in Kikuyu commercial interactions."
+    },
+    {
+      "question": "Which expression correctly means 'What is the price of a sugarcane?'",
+      "options": [
+        "Thogora ya mũkĩ nĩ kĩ?",
+        "Mũkĩ nĩ thogora atĩa?",
+        "Mũkĩ nĩ kĩ na thogora?",
+        "Thogora mũkĩ atĩa?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Thogora ya mũkĩ nĩ kĩ?' follows the standard polite structure for price inquiries, correctly asking 'What is the price of sugarcane?'"
+    },
+    {
+      "question": "Which of the following is a value-focused (money-centered) inquiry?",
+      "options": [
+        "Thogora ya nduma nĩ kĩ?",
+        "Nduma nĩ mbeca cigana?",
+        "Nduma nĩ thogora wa atĩa?",
+        "Nduma nĩ ya mbeca mũno?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nduma nĩ mbeca cigana?' (How much money is the arrowroot?) is a value-focused inquiry that directly asks about the monetary amount rather than using the general term 'thogora'."
+    }
+  ]
+}

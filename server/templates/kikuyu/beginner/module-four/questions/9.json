@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In the Complement of Company, what is the grammatical function of 'na'?",
+      "options": [
+        "It creates a compound subject",
+        "It marks companionship during an action",
+        "It introduces the topic of speech",
+        "It expresses possession"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the Complement of Company, 'na' functions as a marker of companionship, indicating that someone accompanies another person during an action."
+    },
+    {
+      "question": "Which structural formula correctly represents the Complement of Company?",
+      "options": [
+        "Subject + Verb + kũrĩ + Topic",
+        "Subject + Verb + Object + kĩa + Purpose",
+        "Subject + Verb + Destination/Action + na + Companion",
+        "Subject + Verb + na + Object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Complement of Company follows the structure Subject + Verb + Destination/Action + na + Companion, where 'na' introduces the person accompanying the subject."
+    },
+    {
+      "question": "The sentence 'Kĩmwana gĩathiire rũũĩ na Muthoni' demonstrates companionship because:",
+      "options": [
+        "Muthoni is the agent of the action",
+        "Muthoni is the topic of the discussion",
+        "Muthoni is accompanying the boy",
+        "Muthoni is the indirect object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In this sentence, Muthoni accompanies the boy (kĩmwana) to the river (rũũĩ), making her the companion in the Complement of Company."
+    },
+    {
+      "question": "In the Complement of Company, the preposition 'na' DOES NOT mean:",
+      "options": [
+        "with",
+        "companionship",
+        "shared action",
+        "and (in this structure)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the Complement of Company, 'na' specifically means 'with' to express companionship, not the coordinating conjunction 'and' used to link equal elements."
+    },
+    {
+      "question": "Which marker specifically introduces the topic of speech or thought?",
+      "options": [
+        "na",
+        "hamwe na",
+        "kũrĩ",
+        "kĩa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The marker 'kũrĩ' is used to introduce the topic of speech, thought, or discussion in the Complement of Argument."
+    },
+    {
+      "question": "The Complement of Argument answers which implicit question?",
+      "options": [
+        "With whom?",
+        "Made of what?",
+        "About what?",
+        "Heading where?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Complement of Argument answers the question 'About what?' by identifying the topic or subject matter of speech, thought, or discussion."
+    },
+    {
+      "question": "In the sentence 'Tũrathomithania kũrĩ kũng'ũra nduriri,' the phrase 'kũrĩ kũng'ũra nduriri' functions as:",
+      "options": [
+        "The companion of the action",
+        "The topic of discussion",
+        "The object of possession",
+        "The subject of the sentence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kũrĩ kũng'ũra nduriri' (about uprooting/destroying tribes) is the Complement of Argument, identifying what is being discussed or taught about."
+    },
+    {
+      "question": "What distinguishes the Complement of Company from the Complement of Argument?",
+      "options": [
+        "Company uses kũrĩ; Argument uses na",
+        "Company expresses companionship; Argument expresses topic",
+        "Both exclusively accompany movement verbs",
+        "Both require verbs of speech"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Complement of Company expresses companionship (who accompanies someone), while the Complement of Argument expresses the topic of discussion or thought."
+    },
+    {
+      "question": "Which of the following sentences contains a Complement of Argument?",
+      "options": [
+        "Tũthii kũgũtũra na Baba.",
+        "Ndĩ gũcokia gĩcũgũ na Wairimu.",
+        "Mũthuri ũcio arathomithia kũrĩ thirikari.",
+        "Kĩmwana gĩathiire rũũĩ na Muthoni."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũthuri ũcio arathomithia kũrĩ thirikari' contains a Complement of Argument where 'kũrĩ thirikari' (about the government) identifies the topic being taught."
+    },
+    {
+      "question": "Culturally, the Complement of Company highlights:",
+      "options": [
+        "Economic exchanges",
+        "Shared companionship reflecting Kikuyu communal values",
+        "Formal debate rules",
+        "Ownership of property"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Complement of Company reflects Kikuyu communal values by emphasizing shared activities and companionship, which are central to the culture's social structure."
+    }
+  ]
+}

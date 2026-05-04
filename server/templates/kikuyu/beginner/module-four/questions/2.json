@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the correct word order in a standard Kikuyu declarative sentence?",
+      "options": [
+        "Verb – Object – Subject",
+        "Subject – Verb – Object",
+        "Object – Subject – Verb",
+        "Verb – Subject – Object"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu follows the Subject-Verb-Object (SVO) word order, which is the standard structure for declarative sentences in the language."
+    },
+    {
+      "question": "In the sentence 'Kamau aheire Wambũi kĩheo', what part of the sentence is 'Wambũi kĩheo'?",
+      "options": [
+        "Verb",
+        "Subject",
+        "Object",
+        "Auxiliary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Wambũi kĩheo' (Wambũi a gift) functions as the object of the sentence, receiving the action of giving performed by Kamau."
+    },
+    {
+      "question": "Which of the following sentences is correctly arranged in Kikuyu SVO order?",
+      "options": [
+        "Ibuku athomire",
+        "Athomireni ibuku",
+        "Athomire ibuku",
+        "Athomire ibukuni"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Athomire ibuku' (He/she read a book) correctly follows the SVO order with the subject encoded in the verb prefix, followed by the verb and then the object."
+    },
+    {
+      "question": "In Kikuyu, the subject usually comes:",
+      "options": [
+        "After the object",
+        "At the end of the sentence",
+        "Before the verb",
+        "After the auxiliary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the standard SVO word order of Kikuyu, the subject precedes the verb, establishing who or what performs the action."
+    },
+    {
+      "question": "Which Kikuyu sentence correctly translates 'The cat is sitting on the chair'?",
+      "options": [
+        "Nyau aikarĩte gĩtĩinĩ",
+        "Gĩtĩinĩ aikarĩte nyau",
+        "Aikarĩte nyau gĩtĩ",
+        "Nyau gĩtĩinĩ aikarĩte"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nyau aikarĩte gĩtĩinĩ' follows correct Kikuyu word order with the subject 'nyau' (cat) first, then the verb 'aikarĩte' (is sitting), and finally the locative 'gĩtĩinĩ' (on the chair)."
+    },
+    {
+      "question": "What is the main role of auxiliary verbs in Kikuyu sentences?",
+      "options": [
+        "To replace the subject",
+        "To show tense or continuity",
+        "To act as the main verb",
+        "To describe the object"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Auxiliary verbs in Kikuyu help indicate tense, aspect, or continuity of the action, supporting the main verb in conveying temporal information."
+    },
+    {
+      "question": "Which auxiliary verb can indicate the past tense in Kikuyu?",
+      "options": [
+        "me",
+        "kwarĩ",
+        "nĩ",
+        "ahee"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kwarĩ' is an auxiliary verb used to indicate past tense in Kikuyu sentences."
+    },
+    {
+      "question": "In the sentence 'Nĩathomete ibuku?', what does 'nĩ' show?",
+      "options": [
+        "The object of the sentence",
+        "That the sentence is a question",
+        "That the action is future",
+        "The object is omitted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The particle 'nĩ' in this context functions as a question marker, indicating that the sentence is interrogative."
+    },
+    {
+      "question": "Which of the following best defines the object in a Kikuyu sentence?",
+      "options": [
+        "The doer of the action",
+        "The describing word",
+        "The receiver of the action",
+        "The time marker of the sentence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The object in a Kikuyu sentence is the entity that receives the action performed by the subject, following the verb in standard SVO order."
+    },
+    {
+      "question": "According to the notes, which statement about Kikuyu sentence order is most accurate?",
+      "options": [
+        "The order often changes when adverbs are added.",
+        "The sentence order is flexible and random.",
+        "The SVO structure stays the same even when auxiliaries or adverbs appear.",
+        "The subject always comes last."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kikuyu maintains its fundamental SVO structure consistently, even when additional elements like auxiliaries or adverbs are introduced into the sentence."
+    }
+  ]
+}

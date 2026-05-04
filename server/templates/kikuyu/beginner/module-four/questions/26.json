@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Gĩkũyũ is described as 'largely phonemic' because:",
+      "options": [
+        "Tone is always marked in writing",
+        "Words are written using symbols unrelated to sound",
+        "Writing closely matches pronunciation",
+        "Only nouns follow phonemic rules"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gĩkũyũ orthography is largely phonemic, meaning the written form closely corresponds to how words are pronounced, making it relatively transparent for readers."
+    },
+    {
+      "question": "Which pair illustrates a tonal contrast that changes meaning?",
+      "options": [
+        "gũthoma / gũthoma",
+        "mũrũthi / mũrũthi",
+        "mũthoni (H) / mũthoni (L)",
+        "thii / thĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mũthoni' with high tone (H) versus 'mũthoni' with low tone (L) illustrates how tonal contrast can change meaning in Gĩkũyũ, even when the segmental sounds are identical."
+    },
+    {
+      "question": "What reading strategy helps learners internalize tone, vowel harmony, and rhythm?",
+      "options": [
+        "Silent drilling",
+        "Reading aloud",
+        "Writing in capital letters",
+        "Removing vowel length"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reading aloud helps learners internalize the prosodic features of Gĩkũyũ including tone, vowel harmony, and rhythm by engaging both auditory and articulatory processes."
+    },
+    {
+      "question": "Vowel length is significant in Gĩkũyũ orthography. What is the correct implication?",
+      "options": [
+        "Long and short vowels have identical meaning",
+        "'aa' and 'a' represent different sounds/meanings",
+        "Vowel length is always marked with tone",
+        "Vowels never affect grammar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Gĩkũyũ, vowel length is phonemically significant, meaning that 'aa' (long) and 'a' (short) represent different sounds that can distinguish different words or meanings."
+    },
+    {
+      "question": "Which row correctly identifies special Gĩkũyũ vowels?",
+      "options": [
+        "É and Ó",
+        "Ĩ and Ũ",
+        "A and U",
+        "R and L"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ĩ' and 'Ũ' are special vowels in Gĩkũyũ orthography, marked with a tilde underneath to distinguish them from the regular 'i' and 'u' vowels."
+    },
+    {
+      "question": "In the grammar of writing, the marker 'gũ-' indicates:",
+      "options": [
+        "Past action",
+        "Politeness",
+        "Negation",
+        "Infinitive form"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The marker 'gũ-' (or 'kũ-') indicates the infinitive form of verbs in Gĩkũyũ, equivalent to 'to...' in English (e.g., gũthoma = to read)."
+    },
+    {
+      "question": "'Tikanĩthii' exemplifies which grammatical category?",
+      "options": [
+        "Affirmative imperative",
+        "Negative imperative",
+        "Future polite request",
+        "Subjunctive form"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Tikanĩthii' (Don't go) is an example of a negative imperative, expressing a command not to do something."
+    },
+    {
+      "question": "What is the recommended strategy for handling complex verbs?",
+      "options": [
+        "Memorize the whole verb without analysis",
+        "Avoid verbs with prefixes",
+        "Break verbs into morphemes",
+        "Replace them with English equivalents"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Breaking complex verbs into their constituent morphemes helps learners understand the grammatical structure and meaning of each component, making acquisition more systematic."
+    },
+    {
+      "question": "Why must writers be careful with Gĩkũyũ homophones?",
+      "options": [
+        "They always require diacritics",
+        "They differ only in tone and context",
+        "They are banned in formal writing",
+        "They only occur in loanwords"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gĩkũyũ homophones can have the same spelling but differ in tone and meaning, requiring writers to rely on context to convey the intended meaning clearly."
+    },
+    {
+      "question": "To improve orthographic accuracy, learners should:",
+      "options": [
+        "Ignore vowel length for simplicity",
+        "Use standard Gĩkũyũ dictionaries",
+        "Eliminate subject markers",
+        "Avoid audio resources"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using standard Gĩkũyũ dictionaries helps learners verify correct spelling, vowel length, and other orthographic conventions, improving writing accuracy."
+    }
+  ]
+}

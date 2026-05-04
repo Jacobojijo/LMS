@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "What is the primary philosophical purpose of Kikuyu naming?",
+      "options": [
+        "To give a child a unique identity based on modern trends",
+        "To encode temporal, environmental, genealogical, and spiritual identity",
+        "To select names purely based on aesthetic appeal",
+        "To honor only the mother's lineage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu naming serves a deep philosophical purpose by encoding multiple layers of identity including temporal (time of birth), environmental (place and phenomena), genealogical (ancestry), and spiritual dimensions."
+    },
+    {
+      "question": "Which of the following best describes temporal-based naming in Kikuyu culture?",
+      "options": [
+        "Naming children based on historical figures",
+        "Naming children according to their birth order among siblings",
+        "Naming children according to the time of day, lunar cycles, or seasons of birth",
+        "Naming children after local chiefs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Temporal-based naming in Kikuyu culture refers to naming children based on when they were born, including the time of day, phase of the moon, or the season."
+    },
+    {
+      "question": "A male child is named Kĩmani because he was born at dawn. This exemplifies which type of Kikuyu naming?",
+      "options": [
+        "Place-based naming",
+        "Phenomenon-based naming",
+        "Temporal-based naming",
+        "Event-based naming"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Naming a child Kĩmani because of birth at dawn is an example of temporal-based naming, as the name reflects the specific time of day when the child was born."
+    },
+    {
+      "question": "If a child is born during a period of famine, which of the following names is culturally appropriate?",
+      "options": [
+        "Gatiba (Male), Wagĩkũ (Female)",
+        "Kĩmani (Male), Wangari (Female)",
+        "Gĩtonga (Male), Wambũi (Female)",
+        "Mũria (Male), Wairimũ (Female)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gatiba (male) and Wagĩkũ (female) are culturally appropriate names for children born during famine, reflecting the significant event occurring at the time of birth."
+    },
+    {
+      "question": "Which statement correctly describes place-based Kikuyu names?",
+      "options": [
+        "They reflect events like harvest or war",
+        "They map identity onto the landscape, affirming attachment to land",
+        "They are assigned randomly to honor the day of birth",
+        "They are derived solely from twins' birth order"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Place-based Kikuyu names connect the child's identity to specific geographical locations, affirming the cultural attachment to land and territory that is central to Kikuyu identity."
+    },
+    {
+      "question": "A child born during heavy rain is named Njora (male) or Wambũi (female). This demonstrates what type of naming?",
+      "options": [
+        "Temporal-based naming",
+        "Event-based naming",
+        "Phenomenon-based naming",
+        "Inheritance-based naming"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Naming a child after natural phenomena like heavy rain exemplifies phenomenon-based naming, where the name reflects environmental or natural conditions at the time of birth."
+    },
+    {
+      "question": "In Kikuyu culture, how are twins traditionally named?",
+      "options": [
+        "Names are randomly assigned",
+        "Names reflect the time of day only",
+        "Twins receive special dual identifiers reflecting birth order",
+        "Only the mother chooses the names"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kikuyu culture has special naming conventions for twins, with dual identifiers that reflect the birth order of each twin, distinguishing the first-born from the second-born."
+    },
+    {
+      "question": "Which of the following best reflects the 'primary rule' of Kikuyu naming?",
+      "options": [
+        "Names are assigned based on physical traits of the child",
+        "Children are named after their grandparents to preserve lineage memory",
+        "Children are named after natural phenomena only",
+        "Names are chosen from a list of modern Kikuyu celebrities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The primary rule of Kikuyu naming involves naming children after their grandparents, which serves to preserve lineage memory and maintain ancestral connections across generations."
+    },
+    {
+      "question": "Why might a male child inherit a female ancestor's name in Kikuyu culture?",
+      "options": [
+        "To indicate the child's preference",
+        "To preserve lineage memory and honor ancestors",
+        "To follow modern naming trends",
+        "To distinguish the child from siblings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Kikuyu culture, a male child may inherit a female ancestor's name to preserve lineage memory and honor that ancestor, as maintaining ancestral connections takes precedence over gender-matching in names."
+    },
+    {
+      "question": "Which of the following statements summarizes the Kikuyu naming system?",
+      "options": [
+        "It is purely symbolic with no connection to events or ancestry",
+        "It is philosophical, sociological, geographical, spiritual, and contextual",
+        "It only applies to children born during significant natural events",
+        "It is only concerned with giving twins special names"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kikuyu naming system is comprehensive and multidimensional, encompassing philosophical, sociological, geographical, spiritual, and contextual elements that together create a rich framework for identity formation."
+    }
+  ]
+}

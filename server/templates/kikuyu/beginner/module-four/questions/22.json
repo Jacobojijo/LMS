@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which mood expresses factual, real, and certain events in Kikuyu?",
+      "options": [
+        "Imperative",
+        "Subjunctive",
+        "Indicative",
+        "Potential"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The indicative mood in Kikuyu is used to express factual, real, and certain events, describing actions that are happening, have happened, or will definitely happen."
+    },
+    {
+      "question": "Which sentence below is an example of the imperative mood?",
+      "options": [
+        "Nĩndarĩira.",
+        "Teithia mũndũ ũyũ.",
+        "Ndĩyũrĩtie nĩnjũragĩre kuo.",
+        "Wenda kũnyua kahua?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Teithia mũndũ ũyũ' (Help this person) is an imperative sentence, expressing a command or request directed at someone."
+    },
+    {
+      "question": "Which morpheme marks the future tense in the indicative mood?",
+      "options": [
+        "{-ra-}",
+        "{-ire}",
+        "{-a-}",
+        "{-gũ-}"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The morpheme '{-gũ-}' marks the future tense in the indicative mood in Kikuyu, indicating actions that will occur."
+    },
+    {
+      "question": "In the sentence 'Ndĩyũrĩtie nĩnjũragĩre kuo,' which mood is being used?",
+      "options": [
+        "Indicative",
+        "Imperative",
+        "Subjunctive",
+        "Interrogative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This sentence uses the subjunctive mood, expressing a hypothetical or unreal condition (a wish or supposition about what might have happened)."
+    },
+    {
+      "question": "Which form represents the present continuous of 'kũrĩa' (to eat) for the subject 'I'?",
+      "options": [
+        "Nĩngũrĩa",
+        "Nĩndarĩire",
+        "Nĩndĩraria",
+        "Nĩnyarĩire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩndĩraria' is the present continuous form meaning 'I am eating', using the {-ra-} morpheme to indicate ongoing action."
+    },
+    {
+      "question": "The verb marker {-ra-} functions to express which tense?",
+      "options": [
+        "Past",
+        "Present continuous",
+        "Future",
+        "Conditional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verb marker '{-ra-}' in Kikuyu expresses the present continuous tense, indicating an action that is currently in progress."
+    },
+    {
+      "question": "Which of the following expresses a polite command/request and therefore belongs to the imperative mood?",
+      "options": [
+        "Hingũra mũrango.",
+        "Nĩngũĩkĩra.",
+        "Nĩndĩragetha.",
+        "Ndũkĩrega kuo."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Hingũra mũrango' (Open the door) is an imperative sentence expressing a polite command or request."
+    },
+    {
+      "question": "Which statement best describes the subjunctive mood in Kikuyu?",
+      "options": [
+        "It describes ongoing actions.",
+        "It expresses certainty about future events.",
+        "It expresses wishes, hypotheticals, and unreal conditions.",
+        "It lists commands for the second-person plural."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The subjunctive mood in Kikuyu is used to express wishes, hypotheticals, and unreal conditions—situations that are imagined, desired, or contrary to fact."
+    },
+    {
+      "question": "Which is the correct past tense form of 'kũtara' (to count) for 'I'?",
+      "options": [
+        "Nĩndĩratara",
+        "Nĩndĩgũtara",
+        "Nĩnatarire",
+        "Nĩngũtara"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩnatarire' is the correct past tense form meaning 'I counted', using the past tense marker '{-ire}'."
+    },
+    {
+      "question": "Which conjugation correctly represents the future tense of 'kũgũra' (to buy) for 'I'?",
+      "options": [
+        "Nĩngũgũra",
+        "Nĩngũgũraire",
+        "Nĩngũgũragwo",
+        "Nĩndarĩragũra"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nĩngũgũra' is the correct future tense form meaning 'I will buy', using the future tense marker '{-gũ-}'."
+    }
+  ]
+}

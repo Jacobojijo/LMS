@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which construction most accurately encodes the physical substance from which an object is formed in Kikuyu grammar?",
+      "options": [
+        "Noun + kĩa + Purpose",
+        "Noun + gũtũmwo na + Material",
+        "Noun + na + Agent",
+        "Noun + hamwe na + Descriptor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The construction 'Noun + gũtũmwo na + Material' is used in Kikuyu to express what an object is made from, with 'gũtũmwo na' meaning 'made with/from'."
+    },
+    {
+      "question": "The phrase 'Mũketi gũtũmwo na mũthemba' illustrates the Complement of Material because:",
+      "options": [
+        "It specifies what the chain is used for.",
+        "It identifies the chain's cultural purpose.",
+        "It expresses the substance from which the chain is made.",
+        "It shows who produced the chain."
+      ],
+      "correctAnswer": 2,
+      "explanation": "This phrase demonstrates a Complement of Material by indicating the physical substance (mũthemba) from which the chain (mũketi) is constructed."
+    },
+    {
+      "question": "Which linker specifically introduces the intended use or functional goal of an object?",
+      "options": [
+        "gũtũmwo na",
+        "hamwe na",
+        "kĩa / cĩa",
+        "na mũno"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The linkers 'kĩa' (singular) and 'cĩa' (plural) are used to connect a noun to its intended function or purpose in Kikuyu."
+    },
+    {
+      "question": "'Nguo cĩa mũtugo' is best classified as an example of a Complement of Purpose because:",
+      "options": [
+        "It names who wears the clothes.",
+        "It states the material of the clothing.",
+        "It identifies the function of the clothing.",
+        "It shows historical origin of the clothing."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nguo cĩa mũtugo' (clothes for ceremony/ritual) identifies the intended function of the clothing, making it a Complement of Purpose."
+    },
+    {
+      "question": "What distinguishes the Complement of Material from the Complement of Purpose in terms of semantic focus?",
+      "options": [
+        "Material focuses on utility; Purpose focuses on physical form.",
+        "Material focuses on composition; Purpose focuses on intended activity.",
+        "Both focus only on cultural symbolism.",
+        "Both refer exclusively to social function."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Complement of Material describes what something is made of (composition), while the Complement of Purpose describes what something is used for (intended activity)."
+    },
+    {
+      "question": "In the structure 'Noun + kĩa + Purpose', what does the marker 'kĩa' contribute grammatically?",
+      "options": [
+        "Marks the maker of the object.",
+        "Introduces the composition of the object.",
+        "Marks a future action.",
+        "Links the noun to its intended function."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The marker 'kĩa' grammatically links a noun to its intended function or purpose, establishing a relationship of utility."
+    },
+    {
+      "question": "Which of the following phrases best reflects Kikuyu material culture such as pottery or metalwork?",
+      "options": [
+        "Mbeca cĩa kũrĩa",
+        "Maĩ ma kũnyũa",
+        "Kĩgogo gũtũmwo na gũciaro",
+        "Nguo cĩa mũtugo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kĩgogo gũtũmwo na gũciaro' demonstrates material culture by specifying the physical substance used in crafting, reflecting traditional Kikuyu craftsmanship."
+    },
+    {
+      "question": "A student analysing 'Saa gũtũmwo na thahabu' should classify it under which complement type?",
+      "options": [
+        "Complement of Purpose",
+        "Complement of Agent",
+        "Complement of Material",
+        "Complement of Specification"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Saa gũtũmwo na thahabu' (watch made with gold) is a Complement of Material, as it describes the substance (gold) from which the watch is made."
+    },
+    {
+      "question": "Which of the following statements is TRUE about both Complement of Material and Complement of Purpose?",
+      "options": [
+        "Both identify the maker of an object.",
+        "Both add descriptive depth to a noun phrase.",
+        "Both strictly describe cultural rituals.",
+        "Both require the linker 'gũtũmwo na.'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both Complement of Material and Complement of Purpose serve to add descriptive depth to noun phrases, enriching the information about the noun they modify."
+    },
+    {
+      "question": "The phrase 'Mbeca cĩa kũrĩa' demonstrates the Complement of Purpose because it:",
+      "options": [
+        "Explains what the money is made of.",
+        "Specifies the money's intended function.",
+        "Describes cultural craftsmanship.",
+        "Connects money to a physical substance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mbeca cĩa kũrĩa' (money for eating/food) specifies the intended function of the money, making it a clear example of a Complement of Purpose."
+    }
+  ]
+}

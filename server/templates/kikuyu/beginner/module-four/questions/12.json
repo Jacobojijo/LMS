@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which feature primarily distinguishes a Kikuyu Yes/No question from a statement?",
+      "options": [
+        "Adding 'nĩkĩ' at the end",
+        "Adding 'ũtĩ' after the verb",
+        "Raising tone at the end",
+        "Changing the verb prefix"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu, Yes/No questions are primarily distinguished from statements by raising the intonation (tone) at the end of the sentence."
+    },
+    {
+      "question": "Which interrogative word is correctly matched with the meaning 'Who'?",
+      "options": [
+        "Atĩa",
+        "Nũũ",
+        "Rĩrĩa",
+        "Kũrĩ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nũũ' is the Kikuyu interrogative word meaning 'Who', used to ask about the identity of a person."
+    },
+    {
+      "question": "Which of the following correctly forms a negative question in Kikuyu?",
+      "options": [
+        "Tũrathoma?",
+        "Ũrathii atĩa?",
+        "Ndũrathii?",
+        "Kũthiĩ rĩ?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ndũrathii?' (Aren't you going?) correctly forms a negative question using the negative marker 'nd-' combined with rising intonation."
+    },
+    {
+      "question": "Which expression functions as a Kikuyu reason question marker?",
+      "options": [
+        "Ĩrĩ",
+        "Kũũ",
+        "Tondũ atĩa?",
+        "Ĩgĩkanĩ?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Tondũ atĩa?' means 'Why?' or 'For what reason?' and is used to ask about the cause or reason for something."
+    },
+    {
+      "question": "Which tag question is most commonly used as a neutral confirmation-seeking form?",
+      "options": [
+        "Ũ-tĩ?",
+        "Ti hĩndĩ?",
+        "Nĩ atĩa?",
+        "Ti we?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ti hĩndĩ?' functions as a neutral tag question used to seek confirmation, similar to 'Isn't it?' or 'Right?' in English."
+    },
+    {
+      "question": "Which interrogative correctly expresses place/location in Kikuyu?",
+      "options": [
+        "Rĩrĩa",
+        "Kũũ?",
+        "Tĩ hĩndĩ",
+        "Ĩgĩtũ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kũũ?' means 'Where?' and is used to ask about place or location in Kikuyu."
+    },
+    {
+      "question": "In the example 'Nĩurathii?', which structural element makes this a question rather than a statement?",
+      "options": [
+        "Use of 'Nĩ-'",
+        "Placement of subject before verb",
+        "Rising intonation",
+        "Omission of object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rising intonation at the end of 'Nĩurathii?' transforms this from a statement into a Yes/No question, as the grammatical structure remains the same."
+    },
+    {
+      "question": "Which option below is a correct Kikuyu tag question meaning 'Isn't that so?'?",
+      "options": [
+        "Ti we?",
+        "Ũ-tĩ?",
+        "Ti ũguo?",
+        "Nĩ atĩa?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ti ũguo?' is a tag question meaning 'Isn't that so?' or 'Isn't it like that?', used to seek confirmation of a statement."
+    },
+    {
+      "question": "Which interrogative term correctly expresses 'How many?'?",
+      "options": [
+        "Rĩ?",
+        "Ĩgĩkanĩ",
+        "Nũũ",
+        "Ĩrĩ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ĩgĩkanĩ' means 'How many?' and is used to ask about quantity or number in Kikuyu."
+    },
+    {
+      "question": "Which sentence correctly illustrates a subject inquiry question?",
+      "options": [
+        "Ũrathii kũũ?",
+        "Nũũ rathiĩ?",
+        "Ũrathii atĩa?",
+        "Ũrathiĩ rĩ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nũũ rathiĩ?' (Who is going?) is a subject inquiry question where 'Nũũ' (Who) asks about the identity of the subject performing the action."
+    }
+  ]
+}

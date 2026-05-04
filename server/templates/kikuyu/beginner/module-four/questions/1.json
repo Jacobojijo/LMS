@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "In Kikuyu grammar, what is the main function of an adverb?",
+      "options": [
+        "To replace a noun in a sentence",
+        "To modify a verb, adjective, another adverb, or an entire sentence",
+        "To describe the gender of a subject",
+        "To join two sentences together"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adverbs in Kikuyu modify verbs, adjectives, other adverbs, or entire sentences, providing additional information about how, when, where, or to what degree an action occurs."
+    },
+    {
+      "question": "Which of the following pairs are both Kikuyu adverbs of manner?",
+      "options": [
+        "Rĩu and Mũno",
+        "Na ũtongo and Na gĩthaka",
+        "Haha and Hayo",
+        "Rĩrĩa rĩngĩ and Thutha thutha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Na ũtongo' (skillfully/with skill) and 'Na gĩthaka' (roughly/with roughness) are both adverbs of manner describing how an action is performed."
+    },
+    {
+      "question": "In the sentence 'Ng'ombe citironekana rĩu', the adverb 'rĩu' indicates:",
+      "options": [
+        "Place",
+        "Degree",
+        "Time",
+        "Frequency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Rĩu' means 'now' and indicates time, specifying when the cows are not visible."
+    },
+    {
+      "question": "Which adverb correctly completes the sentence: 'Mũhiki ũcio athiaga _______' to mean 'That bride walks slowly'?",
+      "options": [
+        "Na ũmwega",
+        "Kahora",
+        "Rĩu",
+        "Mũno"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Kahora' means 'slowly' and is an adverb of manner that describes how the bride walks."
+    },
+    {
+      "question": "Which of the following examples best demonstrates an adverb of degree?",
+      "options": [
+        "Mũturi athĩĩagĩra mũno",
+        "Ng'ombe citironekana rĩu",
+        "Nĩacũkire ihenya",
+        "Mũhiki ũcio athiaga kahora"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Mũno' (very much/greatly) in 'Mũturi athĩĩagĩra mũno' is an adverb of degree indicating the intensity of the carpenter's suffering."
+    },
+    {
+      "question": "The reduplicated form 'kahora kahora' expresses which linguistic feature?",
+      "options": [
+        "Tense agreement",
+        "Emphasis and continuity",
+        "Question formation",
+        "Plural marking"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reduplication in Kikuyu adverbs like 'kahora kahora' emphasizes the action and suggests continuity or gradualness."
+    },
+    {
+      "question": "Identify the adverb of frequency from the list below:",
+      "options": [
+        "Haha",
+        "Thutha thutha",
+        "Mũingĩ",
+        "Na ũrũme"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Thutha thutha' (again and again/repeatedly) is an adverb of frequency indicating how often an action occurs."
+    },
+    {
+      "question": "In Kikuyu, adverbs typically appear:",
+      "options": [
+        "Before the noun only",
+        "After the verb or at the end of the clause",
+        "Between the subject and verb",
+        "Before adjectives only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kikuyu adverbs typically follow the verb or appear at the end of the clause, which is a common word order pattern in Bantu languages."
+    },
+    {
+      "question": "Which sentence combines two adverbs (of manner and time)?",
+      "options": [
+        "Rĩu, ahoyaga wega",
+        "Nĩacũkire ihenya",
+        "Mũhiki ũcio athiaga kahora",
+        "Ng'ombe citironekana rĩu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Rĩu, ahoyaga wega' contains 'rĩu' (now - time) and 'wega' (well - manner), combining two different types of adverbs."
+    },
+    {
+      "question": "The Kikuyu adverb 'Horera' carries a cultural meaning that extends beyond silence. What does it mainly imply?",
+      "options": [
+        "Anger and strength",
+        "Laziness and delay",
+        "Peacefulness, calm, and social harmony",
+        "Movement and direction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Horera' embodies cultural values of peacefulness, calm, and social harmony, reflecting the importance of tranquility in Kikuyu social interactions."
+    }
+  ]
+}

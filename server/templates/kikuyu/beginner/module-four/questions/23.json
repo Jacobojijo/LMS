@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which particle introduces a basic conditional clause in Kikuyu?",
+      "options": [
+        "No nginya",
+        "Ningĩ",
+        "Na gũciara",
+        "Nĩathire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ningĩ' is the particle that introduces a basic conditional clause in Kikuyu, equivalent to 'if' in English conditional structures."
+    },
+    {
+      "question": "In the structure 'Ningĩ + Present…, (no nginya) + Future', which tense is normally used in the result clause?",
+      "options": [
+        "Past tense",
+        "Present continuous",
+        "Future tense with {-gũ-}",
+        "Imperative form"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu conditional structures, the result clause typically uses the future tense marked by '{-gũ-}' to express the consequence of the condition."
+    },
+    {
+      "question": "What is the functional role of 'no nginya' in a conditional sentence?",
+      "options": [
+        "Marks negation",
+        "Introduces counterfactuality",
+        "Intensifies or emphasizes the consequence",
+        "Introduces the subject"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'No nginya' functions to intensify or emphasize the consequence in a conditional sentence, adding certainty or emphasis to the result."
+    },
+    {
+      "question": "Which of the following is a correct negative conditional structure?",
+      "options": [
+        "Ningĩ wũka, no nginya ndingĩkuona",
+        "Ningĩ waga kũcooka, no nginya ndingĩkuona",
+        "Ningĩ wũka, no nginya tondũ ndũgũka",
+        "Ningĩ ndahe, no nginya gũkũka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ningĩ waga kũcooka, no nginya ndingĩkuona' (If you don't return, I won't see you) correctly forms a negative conditional with negation in both clauses."
+    },
+    {
+      "question": "Which expression introduces past conditionals expressing events that did not happen?",
+      "options": [
+        "Nĩndĩra…",
+        "Ningĩ nĩathire atĩ…",
+        "Ningĩ nĩgũka…",
+        "Nĩndĩrathima…"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ningĩ nĩathire atĩ…' introduces past conditionals that express events which did not actually happen, creating counterfactual scenarios."
+    },
+    {
+      "question": "In the example 'Ningĩ ndĩmenyete atĩ mũciĩ mũgũthoma, ningĩ ndathire hamwe', what makes this a counterfactual?",
+      "options": [
+        "The presence of 'no nginya'",
+        "The use of future tense in both clauses",
+        "The event did not happen but is being imagined",
+        "The sentence expresses direct command"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a counterfactual because it describes an event that did not actually happen but is being imagined or hypothesized—what would have occurred under different circumstances."
+    },
+    {
+      "question": "Remote Past Conditionals differ from ordinary past conditionals because they are mainly used for:",
+      "options": [
+        "Polite requests",
+        "Negative commands",
+        "Deep reflection, storytelling, and moral lessons",
+        "Future predictions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Remote Past Conditionals in Kikuyu are mainly used for deep reflection, storytelling, and conveying moral lessons, connecting past hypotheticals to cultural wisdom."
+    },
+    {
+      "question": "Which form correctly represents a future conditional in Kikuyu?",
+      "options": [
+        "Ningĩ ũka rũciũ, no nginya ndathire hamwe",
+        "Ningĩ ũmũhe ũhoro wakwa, no nginya ngũũka",
+        "Ningĩ arĩa rũciũ, no nginya nĩathire",
+        "Ningĩ nĩathire atĩ, ndingĩgũka"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ningĩ ũmũhe ũhoro wakwa, no nginya ngũũka' (If you give him my message, I will come) correctly forms a future conditional with the appropriate tense markers."
+    },
+    {
+      "question": "In negative conditional structure, which element must be negated?",
+      "options": [
+        "Only the condition clause",
+        "Only the result clause",
+        "Both the condition and the result clauses",
+        "Neither clause"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Kikuyu negative conditional structures, both the condition clause and the result clause must be negated to properly express a negative conditional meaning."
+    },
+    {
+      "question": "Which statement best describes the role of the conditional mood in Kikuyu?",
+      "options": [
+        "It only expresses real-time events",
+        "It weakens logical relationships",
+        "It links present situations to future outcomes and expresses hypotheticals",
+        "It replaces the indicative mood in narration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The conditional mood in Kikuyu serves to link present situations to future outcomes and express hypothetical scenarios, creating logical relationships between conditions and their consequences."
+    }
+  ]
+}

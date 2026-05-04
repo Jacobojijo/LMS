@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which preposition is used in Kikuyu to introduce the Complement of Agent?",
+      "options": [
+        "wa",
+        "mũrũ wa",
+        "na",
+        "nĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The preposition 'na' is used in Kikuyu to introduce the Complement of Agent, connecting the passive verb to the doer of the action."
+    },
+    {
+      "question": "In the sentence 'Gĩthaka gĩciarĩtwo na ng'ombe,' what is the function of 'ng'ombe'?",
+      "options": [
+        "It is the subject",
+        "It is the agent (doer of the action)",
+        "It is the passive verb",
+        "It is the place of origin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ng'ombe' (cattle) is the agent that performs the action in this passive construction, introduced by the preposition 'na'."
+    },
+    {
+      "question": "The Complement of Agent answers the question:",
+      "options": [
+        "Who owns the subject?",
+        "Where does the subject come from?",
+        "The action was done by who?",
+        "What time was the action done?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Complement of Agent identifies who performed the action in a passive sentence, answering 'by whom' the action was done."
+    },
+    {
+      "question": "Which structure correctly represents the Complement of Agent?",
+      "options": [
+        "Agent + Verb + Subject",
+        "Subject + na + Verb + Agent",
+        "Subject + Passive Verb + na + Agent",
+        "Subject + Verb + wa + Origin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct structure for the Complement of Agent in Kikuyu is Subject + Passive Verb + na + Agent, where 'na' introduces the doer."
+    },
+    {
+      "question": "Which statement is TRUE about the Complement of Agent?",
+      "options": [
+        "The agent appears before the passive verb",
+        "The subject performs the action",
+        "The subject receives the action",
+        "The verb must be active voice"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In passive constructions with a Complement of Agent, the subject receives the action while the agent (introduced by 'na') performs it."
+    },
+    {
+      "question": "Identify the Complement of Origin in the sentence: 'Nĩ mwarĩ wa Karatina.'",
+      "options": [
+        "Nĩ",
+        "mwarĩ wa Karatina",
+        "Karatina only",
+        "mwarĩ wa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mwarĩ wa Karatina' (daughter of Karatina) is the complete Complement of Origin, showing the person's place of origin with the female origin marker."
+    },
+    {
+      "question": "Which origin marker is used to show female origin?",
+      "options": [
+        "wa",
+        "mũrũ wa",
+        "mwarĩ wa",
+        "a"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Mwarĩ wa' (daughter of) is used to indicate female origin, while 'mũrũ wa' (son of) indicates male origin."
+    },
+    {
+      "question": "In the sentence 'Tũrĩ a Gaki,' what is being expressed?",
+      "options": [
+        "The doer of an action",
+        "A passive action",
+        "Collective identity or group origin",
+        "Family relationship"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Tũrĩ a Gaki' (We are of Gaki) expresses collective identity or group origin, showing belonging to a particular group or clan."
+    },
+    {
+      "question": "Choose the sentence that correctly shows the Complement of Agent.",
+      "options": [
+        "Nĩ mũndũ wa Murang'a.",
+        "Itũũra rĩrũngwo na mũbarũti.",
+        "Nĩ mwarĩ wa Karatina.",
+        "Tũrĩ a Gaki."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Itũũra rĩrũngwo na mũbarũti' (The village was visited by the preacher) contains a Complement of Agent where 'mũbarũti' is the agent performing the action in a passive construction."
+    },
+    {
+      "question": "Which option is a Complement of Origin showing clan identity?",
+      "options": [
+        "Gĩciaro gĩteithirwo na mũthuri",
+        "Ciana nicia Mũhĩrĩga wa Agaciku",
+        "Gĩthaka gĩciarĩtwo na ng'ombe",
+        "Nĩ mũndũ wa Murang'a"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ciana nicia Mũhĩrĩga wa Agaciku' (The children are of the Agaciku clan) shows clan identity as a Complement of Origin, indicating belonging to a specific clan."
+    }
+  ]
+}

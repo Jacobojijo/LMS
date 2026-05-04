@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following sentences is grammatically complete in Kikuyu according to the concept of a complement?",
+      "options": [
+        "Kamau arakama.",
+        "Wanjiru athomaga.",
+        "Mũrĩmi nĩaraka nyũmba.",
+        "Wambũi arahata."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Mũrĩmi nĩaraka nyũmba' includes a direct object (nyũmba), completing the meaning of the verb and making it grammatically complete."
+    },
+    {
+      "question": "What is the main role of a complement in a Kikuyu sentence?",
+      "options": [
+        "To describe the subject in detail.",
+        "To complete the meaning of the verb.",
+        "To show tense of the verb.",
+        "To indicate where the action happened."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A complement receives the action and makes the sentence semantically complete by providing the necessary information the verb requires."
+    },
+    {
+      "question": "In the sentence 'Kamau arakama ng'ombe,' what part of the sentence receives the action?",
+      "options": [
+        "Kamau",
+        "arakama",
+        "ng'ombe",
+        "nĩ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cow (ng'ombe) receives the action of milking directly — it is the complement."
+    },
+    {
+      "question": "Which of the following best shows the Kikuyu sentence structure involving a complement?",
+      "options": [
+        "Verb + Object + Subject",
+        "Subject + Object + Verb",
+        "Subject + Verb + Complement",
+        "Complement + Verb + Subject"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kikuyu follows the standard SVO pattern, where the complement follows the verb."
+    },
+    {
+      "question": "What question does a direct complement answer in Kikuyu grammar?",
+      "options": [
+        "Who did the action?",
+        "When did the action happen?",
+        "What is the action about?",
+        "What does the action affect?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The complement identifies the object or thing that receives the verb's effect, answering what the action affects."
+    },
+    {
+      "question": "In the sentence 'Kamau aheire Wanjiku kĩheo,' what is the indirect complement?",
+      "options": [
+        "Kamau",
+        "aheire",
+        "Wanjiku",
+        "kĩheo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wanjiku is the recipient of the gift — the indirect complement indicating to whom the action is directed."
+    },
+    {
+      "question": "Which sentence clearly contains both a direct and an indirect complement?",
+      "options": [
+        "Wambũi arahata thĩĩ.",
+        "Kamau arakama ng'ombe.",
+        "Nĩndaheire Mũriũ ibuku.",
+        "Mũrĩmi nĩaraka nyũmba."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sentence 'Nĩndaheire Mũriũ ibuku' has Mũriũ (recipient/indirect complement) and ibuku (thing given/direct complement) — both complements present."
+    },
+    {
+      "question": "What does the preposition 'kuuma' indicate in an indirect complement construction?",
+      "options": [
+        "The object being given.",
+        "The one receiving the action.",
+        "The origin or source of the action.",
+        "The tense of the verb."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kuuma' (from) shows where something or someone comes from, indicating the origin or source in the sentence."
+    },
+    {
+      "question": "Which pair correctly matches the semantic roles of indirect complements?",
+      "options": [
+        "Recipient – who gives; Beneficiary – who describes.",
+        "Recipient – who receives; Beneficiary – who benefits.",
+        "Recipient – who benefits; Beneficiary – who receives.",
+        "Source – who acts; Beneficiary – who gives."
+      ],
+      "correctAnswer": 1,
+      "explanation": "These are the two main roles of indirect complements in Kikuyu: the recipient receives something, while the beneficiary benefits from the action."
+    },
+    {
+      "question": "Identify the sentence where the indirect complement is introduced by a prepositional phrase.",
+      "options": [
+        "Kamau aheire Wanjiku kĩheo.",
+        "Nĩndaheire Mũriũ ibuku.",
+        "Mwarĩ amũheire mami kĩgwa.",
+        "Kamau aheirwo kĩheo kuuma Wanjiku."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Kuuma Wanjiku' is a prepositional indirect complement meaning 'from Wanjiku,' introducing the source through a preposition."
+    }
+  ]
+}

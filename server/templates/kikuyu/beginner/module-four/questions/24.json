@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which form expresses possibility in Kikuyu?",
+      "options": [
+        "Thi",
+        "Woka",
+        "Nĩ uria",
+        "Ndingĩ…"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩ uria' expresses possibility in Kikuyu, indicating that something may or might be the case."
+    },
+    {
+      "question": "Which option best shows a polite request using a softener?",
+      "options": [
+        "Thoma!",
+        "Ria!",
+        "Thi!",
+        "Ndakũhoya ũka ũnjĩre."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Ndakũhoya ũka ũnjĩre' (I am asking you to come and tell me) uses a softener to make the request polite rather than issuing a direct command."
+    },
+    {
+      "question": "Which sentence expresses purpose using the infinitive marker 'gũ-'?",
+      "options": [
+        "Thi ũmosie mami.",
+        "Tikanĩthiĩ.",
+        "Umũthĩ no ngũgũrũra.",
+        "Hĩwa mai gũnyũe."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Hĩwa mai gũnyũe' uses the infinitive marker 'gũ-' to express purpose, indicating the reason for the action (to drink)."
+    },
+    {
+      "question": "Which option correctly expresses a blessing (Irathimo)?",
+      "options": [
+        "Tũriange!",
+        "Nĩkũringana ũkorwo ũhoya.",
+        "Ndingathiĩ rũciũ.",
+        "Ngai akũhe wega."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Ngai akũhe wega' (May God give you goodness) is a blessing (Irathimo), expressing a wish for divine favor upon someone."
+    },
+    {
+      "question": "Which form shows a softened command (subjunctive-like)?",
+      "options": [
+        "Thoma!",
+        "Andĩka!",
+        "Tũndingĩ gũthiĩ rũciũ.",
+        "Ũka ũthiĩ."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Tũndingĩ gũthiĩ rũciũ' uses a subjunctive-like structure to express a softened command or suggestion, making it less direct than a bare imperative."
+    },
+    {
+      "question": "Which expression shows necessity or obligation?",
+      "options": [
+        "Ndĩrenda gũkũnyua.",
+        "Ũnjĩre na ũgĩcinie wĩra.",
+        "Wĩhoke tondũ Ngai nĩarathima.",
+        "Nĩkũringana ũkorwo ũhoya."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Nĩkũringana ũkorwo ũhoya' expresses necessity or obligation, indicating that something ought to be done or is required."
+    },
+    {
+      "question": "Which option expresses negative subjunctive meaning?",
+      "options": [
+        "Tũka tũthome.",
+        "Ũka ũnjũke.",
+        "Ndĩrenda gũthiĩ.",
+        "Ndingathiĩ rũciũ."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Ndingathiĩ rũciũ' (I would not go tomorrow) expresses a negative subjunctive meaning, indicating an action that would not or could not occur."
+    },
+    {
+      "question": "Which choice shows the subjunctive used in a polite inquiry?",
+      "options": [
+        "Ria!",
+        "Tũriange!",
+        "Thi!",
+        "Ndingĩkorania ũgũkora?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Ndingĩkorania ũgũkora?' uses the subjunctive mood to form a polite inquiry, softening the question and showing respect."
+    },
+    {
+      "question": "Which structure shows subjunctive with a pronoun complement?",
+      "options": [
+        "Ndĩrenda gũkũnyua.",
+        "Thi ũmosie mami.",
+        "Tikanĩthiĩ.",
+        "Ũtũhoyere."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Ũtũhoyere' shows the subjunctive structure with a pronoun complement (tũ- meaning 'us'), combining the subjunctive mood with an object pronoun."
+    },
+    {
+      "question": "Which sentence expresses a subjunctive-like encouragement?",
+      "options": [
+        "Ngai akenyuuke kũhoya kwanyu.",
+        "Nĩ uria ũkorwo ũhoya.",
+        "Ndingĩkorwo ndirenda kũkũhoya.",
+        "Tũka tũthome."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Tũka tũthome' (Let us come and study) expresses a subjunctive-like encouragement, inviting others to participate in an action together."
+    }
+  ]
+}

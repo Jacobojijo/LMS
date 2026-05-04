@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following correctly uses the relative pronoun -rĩa for a Class 1 noun?",
+      "options": [
+        "Mũthaka kĩrĩa kĩnene",
+        "Mũndũ ũrĩa mũkũrũ",
+        "Kĩrĩma kĩrĩa kĩnene",
+        "Nyũmba ĩrĩa njerũ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Class 1 nouns (Mũ- prefix, referring to people) take the relative pronoun 'ũrĩa', making 'Mũndũ ũrĩa mũkũrũ' (The person who is old) the correct form."
+    },
+    {
+      "question": "What is the correct purpose connector in Gĩkũyũ for 'so that / in order that'?",
+      "options": [
+        "Nĩũndũ wa",
+        "Tondũ",
+        "Nĩguo",
+        "Kũrĩa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nĩguo' is the Gĩkũyũ connector used to express purpose, meaning 'so that' or 'in order that', linking an action to its intended result."
+    },
+    {
+      "question": "Choose the sentence that correctly expresses cause:",
+      "options": [
+        "Nĩhande mbembe nĩguo mwana athome",
+        "Nĩnjũragia nĩũndũ wa gũkĩra hinya",
+        "Tũraaka nĩguo nyũmba ĩrĩe",
+        "Nĩ kũrĩ ũnyitire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩnjũragia nĩũndũ wa gũkĩra hinya' (I am resting because of being very tired) correctly uses 'nĩũndũ wa' to express cause or reason."
+    },
+    {
+      "question": "Which example correctly forms a relative clause for a Class 7 noun (Kĩ-)?",
+      "options": [
+        "Kĩrĩma kĩrĩa kĩnene",
+        "Nyũmba ĩrĩa njerũ",
+        "Mũndũ ũrĩa mũkũrũ",
+        "Mũtĩ ũrĩa mũraĩhu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class 7 nouns (Kĩ- prefix) take the relative pronoun 'kĩrĩa', making 'Kĩrĩma kĩrĩa kĩnene' (The mountain which is big) the correct form."
+    },
+    {
+      "question": "Identify the sentence that expresses purpose using 'Nĩguo':",
+      "options": [
+        "Nĩnjĩkaga ũteithio nĩũndũ wa wendo",
+        "Tũhande mbembe nĩguo mwana athome",
+        "Nĩndĩaga tondũ wa ng'aragu",
+        "Aathiire mũgũnda nĩũndũ wa wĩra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Tũhande mbembe nĩguo mwana athome' (Let us plant maize so that the child may eat) uses 'nĩguo' to express purpose or intended result."
+    },
+    {
+      "question": "Which is a correct imperative directive using 'Nĩ kũrĩ'?",
+      "options": [
+        "Nĩ kũrĩ ũnyitire",
+        "Nĩũndũ wa gũkĩra hinya",
+        "Tũhande nĩguo mwana athome",
+        "Nĩndĩaga tondũ wa ng'aragu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Nĩ kũrĩ ũnyitire' uses 'Nĩ kũrĩ' as an imperative directive structure in Gĩkũyũ."
+    },
+    {
+      "question": "In the sentence 'Njũragie gĩthaka nĩguo njone ng'ombe', what is the function of 'nĩguo'?",
+      "options": [
+        "Expresses cause / reason",
+        "Expresses purpose / intended result",
+        "Introduces a possessive clause",
+        "Marks a relative clause for Class 1 noun"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩguo' in this sentence functions to express purpose or intended result, meaning 'so that I may see the cattle.'"
+    },
+    {
+      "question": "Choose the correct cause expression:",
+      "options": [
+        "Nĩhande mbembe nĩguo mwana athome",
+        "Nĩnjũragia nĩũndũ wa gũkĩra hinya",
+        "Tũraaka nĩguo nyũmba ĩrĩe",
+        "Nĩ kũrĩ ũnyitire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nĩnjũragia nĩũndũ wa gũkĩra hinya' correctly expresses cause using 'nĩũndũ wa' (because of), indicating the reason for resting."
+    },
+    {
+      "question": "Which relative pronoun is correctly formed for Class 9/10 nouns (N-)?",
+      "options": [
+        "kĩrĩa",
+        "ũrĩa",
+        "ĩrĩa",
+        "nĩguo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Class 9/10 nouns (N- prefix) take the relative pronoun 'ĩrĩa' to form relative clauses."
+    },
+    {
+      "question": "Which sentence correctly demonstrates cause vs purpose distinction?",
+      "options": [
+        "Nĩhande mbembe nĩguo mwana athome — purpose",
+        "Nĩnjĩkaga ũteithio nĩũndũ wa wendo — cause",
+        "Nĩ kũrĩ ũnyitire — imperative",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All options correctly demonstrate the distinction: 'nĩguo' expresses purpose (intended result), 'nĩũndũ wa' expresses cause (reason), and 'Nĩ kũrĩ' marks an imperative directive."
+    }
+  ]
+}

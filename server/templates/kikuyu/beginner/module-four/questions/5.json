@@ -1,0 +1,114 @@
+{
+  "practiceQuestions": [
+    {
+      "question": "Which of the following best defines the Complement of Terminality in Kikuyu grammar?",
+      "options": [
+        "It describes who performs the action.",
+        "It shows ownership or source of something.",
+        "It shows the end point or receiver of an action.",
+        "It expresses time or duration of an action."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Complement of Terminality shows where or to whom the action is directed — the end point of the action."
+    },
+    {
+      "question": "In the structural formula Subject + Verb + Object + Preposition + Terminal Complement, which prepositions are mainly used?",
+      "options": [
+        "kwa / ga",
+        "na / ni",
+        "kũrĩ / wa",
+        "ka / na"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The prepositions 'na' or 'ni' are used to connect the action to the receiver or destination in the Complement of Terminality."
+    },
+    {
+      "question": "In the sentence 'Kamau arathomera ciana', which component acts as the Terminal Complement?",
+      "options": [
+        "Kamau",
+        "arathomera",
+        "ciana",
+        "— (none)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ciana' (children) are the receivers of the reading action, making them the terminal complement."
+    },
+    {
+      "question": "Which sentence correctly contains a Complement of Terminality?",
+      "options": [
+        "Mĩtĩ ya mũgũnda.",
+        "Wambũi arathuragia maitho na Wanjiru.",
+        "Mũthoni wa Kamau.",
+        "Mũgambo wa thũmbĩ."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The action 'arathuragia' (is rolling) is directed toward Wanjiru through the preposition 'na', marking it as a Complement of Terminality."
+    },
+    {
+      "question": "What distinguishes Complements of Terminality from Complements of Specification?",
+      "options": [
+        "Terminality expresses ownership; Specification shows direction.",
+        "Terminality marks destination; Specification marks belonging or origin.",
+        "Both express possession.",
+        "Terminality marks emotion; Specification marks time."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complement of Terminality shows the receiver/destination, while Complement of Specification shows ownership, origin, or characteristic."
+    },
+    {
+      "question": "Which prepositions are mainly used to form the Complement of Specification in Kikuyu?",
+      "options": [
+        "na / ni",
+        "kwa / ga",
+        "kũrĩ / wa",
+        "ni / ta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complements of Specification are formed with 'kwa' and 'ga', showing possession or association."
+    },
+    {
+      "question": "Identify the sentence that best illustrates a Complement of Specification:",
+      "options": [
+        "Ndĩgũthiĩ kũrĩ nyina wa Wanjiku.",
+        "Mũrĩmi nĩaria gĩkũyũ na atumia a thĩini.",
+        "Nyũmba ya Mũrĩmi.",
+        "Kamau arathomera ciana."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Nyũmba ya Mũrĩmi' shows ownership (the farmer's house), which is a Complement of Specification."
+    },
+    {
+      "question": "Which of the following statements is TRUE about 'kwa' and 'ga'?",
+      "options": [
+        "'kwa' expresses cultural belonging; 'ga' expresses possession.",
+        "Both indicate time and direction.",
+        "'kwa' is for general possession; 'ga' is for group or cultural association.",
+        "'kwa' and 'ga' can replace 'na' in any sentence."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kwa' expresses general belonging, while 'ga' often marks cultural or characteristic association (e.g., gĩtĩ ga mũhĩrĩga)."
+    },
+    {
+      "question": "In the sentence 'Ndĩgũthiĩ kũrĩ nyina wa Wanjiku', which element shows the destination?",
+      "options": [
+        "Ndĩ",
+        "gũthiĩ",
+        "kũrĩ nyina wa Wanjiku",
+        "wa Wanjiku"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Kũrĩ nyina wa Wanjiku' marks the final point of movement — the destination of the action."
+    },
+    {
+      "question": "Which of the following sentences contains an implied terminal complement (without using 'na' or 'ni')?",
+      "options": [
+        "Kamau aheire Wanjiku kĩheo.",
+        "Wambũi arathuragia maitho na Wanjiru.",
+        "Mũthoni wa Kamau.",
+        "Mũgambo wa thũmbĩ."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The verb 'aheire' (gave) already implies direction and the receiver (Wanjiku) without needing a preposition like 'na'."
+    }
+  ]
+}
