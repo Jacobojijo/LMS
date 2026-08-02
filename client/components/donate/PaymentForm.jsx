@@ -91,10 +91,6 @@ const PaymentForm = ({
           <span className="text-gray-600">Amount</span>
           <span className="font-medium">{formatAmount()}</span>
         </div>
-        <div className="flex justify-between text-sm">
-          <span className="text-gray-600">Email</span>
-          <span className="font-medium">{donorEmail}</span>
-        </div>
         {donorPhone && (
           <div className="flex justify-between text-sm">
             <span className="text-gray-600">Phone</span>

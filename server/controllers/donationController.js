@@ -14,8 +14,11 @@ const generateReference = () => {
 exports.initiatePayment = asyncHandler(async (req, res, next) => {
   const { donorName, donorEmail, donorPhone, amount, currency, message, isAnonymous, paymentMethod } = req.body;
 
-  if (!donorEmail || !amount) {
-    return next(new ErrorResponse('Please provide email and amount', 400));
+  // Use default email if not provided (required by Pesapal)
+  const email = donorEmail || 'donor@heritage-languageschool.com';
+
+  if (!amount) {
+    return next(new ErrorResponse('Please provide donation amount', 400));
   }
 
   const minAmount = currency === 'USD' ? 1 : 10;
@@ -29,7 +32,7 @@ exports.initiatePayment = asyncHandler(async (req, res, next) => {
 
   const donation = await Donation.create({
     donorName: isAnonymous ? undefined : donorName,
-    donorEmail,
+    donorEmail: email,
     donorPhone,
     amount,
     currency: currency || 'KES',
@@ -58,7 +61,7 @@ exports.initiatePayment = asyncHandler(async (req, res, next) => {
       callbackUrl: `${frontendUrl}/donate/verify?reference=${reference}`,
       notificationId,
       billingAddress: {
-        email_address: donorEmail,
+        email_address: email,
         phone_number: donorPhone || '',
         first_name: isAnonymous ? 'Anonymous' : (donorName?.split(' ')[0] || 'Donor'),
         last_name: isAnonymous ? 'Donor' : (donorName?.split(' ').slice(1).join(' ') || ''),

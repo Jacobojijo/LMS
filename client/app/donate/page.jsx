@@ -246,24 +246,6 @@ const DonatePage = () => {
 
                     <div>
                       <label
-                        htmlFor="email"
-                        className="block mb-2 text-sm font-medium text-gray-700"
-                      >
-                        Email <span className="text-red-500">*</span>
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#854836] transition"
-                        placeholder="you@example.com"
-                      />
-                    </div>
-
-                    <div>
-                      <label
                         htmlFor="phone"
                         className="block mb-2 text-sm font-medium text-gray-700"
                       >
@@ -322,7 +304,7 @@ const DonatePage = () => {
 
                       <motion.button
                         type="submit"
-                        disabled={getSelectedAmount() === 0 || !formData.email}
+                        disabled={getSelectedAmount() === 0}
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         className="w-full px-6 py-4 bg-[#854836] text-white rounded-lg hover:bg-[#6a392b] transition duration-300 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
