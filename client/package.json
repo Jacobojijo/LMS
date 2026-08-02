@@ -10,6 +10,8 @@
     "postinstall": "flowbite-react patch"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^6.8.0",
+    "@stripe/stripe-js": "^9.12.1",
     "axios": "^1.8.4",
     "flowbite-react": "^0.11.5",
     "framer-motion": "^12.6.2",

@@ -3,8 +3,7 @@ import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
 import LayoutWrapper from "./LayoutWrapper";
 
-// Initialize the fonts
-const geistSans = Geist({ 
+const geistSans = Geist({
   subsets: ['latin'],
   variable: '--font-geist'
 });
@@ -14,15 +13,126 @@ const playfair = Playfair_Display({
   variable: '--font-playfair'
 });
 
+const SITE_URL = "https://www.heritage-languageschool.com";
+
 export const metadata = {
-  title: "Heritage Language School | Home",
-  description: "Heritage Language School",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Heritage Language School | Learn African Languages Online",
+    template: "%s | Heritage Language School",
+  },
+  description: "Preserve your heritage by learning African languages online. Expert courses in Kikuyu, Dholuo, Ekegusii, Kalenjin, Kamba, Luhya, Meru, and Maasai. Start your language journey today.",
+  keywords: [
+    "African languages",
+    "learn Kikuyu",
+    "learn Dholuo",
+    "learn Ekegusii",
+    "learn Kalenjin",
+    "Kenyan languages",
+    "heritage language",
+    "online language school",
+    "African culture",
+    "language preservation",
+    "mother tongue education",
+    "learn Swahili",
+  ],
+  authors: [{ name: "Heritage Language School" }],
+  creator: "Heritage Language School",
+  publisher: "Heritage Language School",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  alternates: {
+    canonical: SITE_URL,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: SITE_URL,
+    siteName: "Heritage Language School",
+    title: "Heritage Language School | Learn African Languages Online",
+    description: "Preserve your heritage by learning African languages online. Expert courses in Kikuyu, Dholuo, Ekegusii, Kalenjin and more.",
+    images: [
+      {
+        url: `${SITE_URL}/assets/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "Heritage Language School - Learn African Languages",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Heritage Language School | Learn African Languages Online",
+    description: "Preserve your heritage by learning African languages online. Expert courses in Kikuyu, Dholuo, Ekegusii, Kalenjin and more.",
+    images: [`${SITE_URL}/assets/og-image.png`],
+    creator: "@heritagela42918",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "3OK6_8vGYu61Yfe1cFWQ3aWNSuoKO6r-PHTN67MMe8k",
+  },
 };
 
 export default function RootLayout({ children }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: "Heritage Language School",
+    description: "Online school dedicated to preserving African languages through quality education",
+    url: SITE_URL,
+    logo: `${SITE_URL}/assets/logo.png`,
+    sameAs: [
+      "https://www.facebook.com/share/18oGJu72nf/",
+      "https://x.com/heritagela42918",
+      "https://www.instagram.com/heritage_language_school",
+      "https://www.tiktok.com/@heritage.language",
+      "https://www.youtube.com/@HeritageLanguageSchool",
+      "https://www.linkedin.com/company/heritage-language-school/",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+254746426925",
+      contactType: "customer service",
+      email: "heritagelanguageschool@gmail.com",
+      availableLanguage: ["English", "Swahili"],
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "KE",
+    },
+    offers: {
+      "@type": "Offer",
+      category: "Language Courses",
+      description: "Online courses in African languages including Kikuyu, Dholuo, Ekegusii, Kalenjin",
+    },
+  };
+
   return (
     <html lang="en">
       <head>
+        <link rel="canonical" href={SITE_URL} />
+        <meta name="theme-color" content="#854836" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/assets/logo.png" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{

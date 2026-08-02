@@ -39,6 +39,11 @@ export const NavbarMenu = [
     title: "Contact",
     link: "/contact",
   },
+  {
+    id: 7,
+    title: "Donate",
+    link: "/donate",
+  },
 ];
 
 const Navbar = () => {

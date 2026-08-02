@@ -41,6 +41,7 @@ const ResponsiveMenu = ({ open, onClose }) => {
                 <li><a href="/about" className="hover:text-primary">About us</a></li>
                 <li><a href="/curriculum" className="hover:text-primary">Curriculum</a></li>
                 <li><a href="/contact" className="hover:text-primary">Contact</a></li>
+                <li><a href="/donate" className="hover:text-primary text-[#854836]">Donate</a></li>
               </ul>
             </div>
           </motion.div>

@@ -26,6 +26,7 @@ const userRoutes = require("./routes/userRoutes");
 const courseRoutes = require("./routes/courseRoutes");
 const enrollmentRoutes = require("./routes/enrollmentRoutes");
 const progressRoutes = require("./routes/progressRoutes");
+const donationRoutes = require("./routes/donationRoutes");
 
 const app = express();
 
@@ -79,6 +80,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/courses", courseRoutes);
 app.use("/api/enrollments", enrollmentRoutes);
 app.use("/api/progress", progressRoutes);
+app.use("/api/donations", donationRoutes);
 
 // Error handler middleware
 app.use(errorHandler);

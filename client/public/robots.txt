@@ -1,0 +1,12 @@
+# robots.txt for Heritage Language School
+User-agent: *
+Allow: /
+
+# Block Vercel preview URLs - only index the main domain
+Disallow: /*.vercel.app$
+
+# Sitemap location
+Sitemap: https://www.heritage-languageschool.com/sitemap.xml
+
+# Main domain
+Host: https://www.heritage-languageschool.com
