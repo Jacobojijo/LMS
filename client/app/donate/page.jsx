@@ -52,7 +52,7 @@ const DonatePage = () => {
 
   const handleContinue = (e) => {
     e.preventDefault();
-    if (getSelectedAmount() > 0 && formData.email) {
+    if (getSelectedAmount() > 0) {
       setStep(2);
     }
   };
