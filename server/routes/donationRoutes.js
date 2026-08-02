@@ -1,22 +1,22 @@
 const express = require('express');
 const {
-  initiateMpesaPayment,
-  initiateCardPayment,
-  paystackWebhook,
+  initiatePayment,
+  pesapalIPN,
+  pesapalCallback,
   verifyDonation,
   verifyByReference,
 } = require('../controllers/donationController');
 
 const router = express.Router();
 
-// M-Pesa payment
-router.post('/mpesa/initiate', initiateMpesaPayment);
+// Initiate payment (works for both M-Pesa and Card, KES and USD)
+router.post('/initiate', initiatePayment);
 
-// Card payment
-router.post('/card/initiate', initiateCardPayment);
+// Pesapal IPN webhook
+router.post('/ipn', pesapalIPN);
 
-// Paystack webhook
-router.post('/webhook', paystackWebhook);
+// Pesapal callback (redirect after payment)
+router.get('/callback', pesapalCallback);
 
 // Verification routes
 router.get('/verify/:id', verifyDonation);

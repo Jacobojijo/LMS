@@ -2,95 +2,17 @@ const crypto = require('crypto');
 const Donation = require('../models/Donation');
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/asyncMiddleware');
-const { initializeTransaction, chargeMpesa, verifyTransaction } = require('../utils/paystack');
+const { submitOrderRequest, getTransactionStatus, registerIPN } = require('../utils/pesapal');
 
 const generateReference = () => {
   return `HLS-${Date.now()}-${crypto.randomBytes(4).toString('hex')}`;
 };
 
-// @desc    Initiate M-Pesa payment via Paystack
-// @route   POST /api/donations/mpesa/initiate
+// @desc    Initiate payment via Pesapal (supports M-Pesa, Cards, USD)
+// @route   POST /api/donations/initiate
 // @access  Public
-exports.initiateMpesaPayment = asyncHandler(async (req, res, next) => {
-  const { donorName, donorEmail, donorPhone, amount, message, isAnonymous } = req.body;
-
-  if (!donorEmail || !donorPhone || !amount) {
-    return next(new ErrorResponse('Please provide email, phone number and amount', 400));
-  }
-
-  if (amount < 10) {
-    return next(new ErrorResponse('Amount must be at least 10 KES', 400));
-  }
-
-  const reference = generateReference();
-
-  const donation = await Donation.create({
-    donorName: isAnonymous ? undefined : donorName,
-    donorEmail,
-    donorPhone,
-    amount,
-    currency: 'KES',
-    paymentMethod: 'mpesa',
-    paymentStatus: 'pending',
-    message,
-    isAnonymous: isAnonymous || false,
-    transactionRef: reference,
-  });
-
-  try {
-    const response = await chargeMpesa({
-      email: donorEmail,
-      amount,
-      phoneNumber: donorPhone,
-      reference,
-    });
-
-    if (response.status && response.data.status === 'send_otp') {
-      donation.paystackReference = response.data.reference;
-      await donation.save();
-
-      res.status(200).json({
-        success: true,
-        message: 'Please check your phone to complete the payment',
-        data: {
-          donationId: donation._id,
-          reference,
-          displayText: response.data.display_text,
-        },
-      });
-    } else if (response.status && response.data.status === 'pending') {
-      donation.paystackReference = response.data.reference;
-      await donation.save();
-
-      res.status(200).json({
-        success: true,
-        message: response.data.display_text || 'Please check your phone to complete the payment',
-        data: {
-          donationId: donation._id,
-          reference,
-        },
-      });
-    } else {
-      donation.paymentStatus = 'failed';
-      await donation.save();
-      return next(new ErrorResponse(response.message || 'Failed to initiate M-Pesa payment', 500));
-    }
-  } catch (error) {
-    donation.paymentStatus = 'failed';
-    await donation.save();
-    console.error('Paystack M-Pesa error:', error.response?.data || error.message);
-    return next(new ErrorResponse(
-      error.response?.data?.message || 'Failed to initiate M-Pesa payment',
-      500
-    ));
-  }
-});
-
-// @desc    Initiate card payment via Paystack
-// @route   POST /api/donations/card/initiate
-// @access  Public
-exports.initiateCardPayment = asyncHandler(async (req, res, next) => {
-  const { donorName, donorEmail, amount, currency, message, isAnonymous } = req.body;
+exports.initiatePayment = asyncHandler(async (req, res, next) => {
+  const { donorName, donorEmail, donorPhone, amount, currency, message, isAnonymous, paymentMethod } = req.body;
 
   if (!donorEmail || !amount) {
     return next(new ErrorResponse('Please provide email and amount', 400));
@@ -103,13 +25,15 @@ exports.initiateCardPayment = asyncHandler(async (req, res, next) => {
 
   const reference = generateReference();
   const frontendUrl = process.env.FRONTEND_URL || 'https://www.heritage-languageschool.com';
+  const backendUrl = process.env.BACKEND_URL || 'https://lms-ci8t.onrender.com';
 
   const donation = await Donation.create({
     donorName: isAnonymous ? undefined : donorName,
     donorEmail,
+    donorPhone,
     amount,
     currency: currency || 'KES',
-    paymentMethod: 'card',
+    paymentMethod: paymentMethod || 'card',
     paymentStatus: 'pending',
     message,
     isAnonymous: isAnonymous || false,
@@ -117,90 +41,145 @@ exports.initiateCardPayment = asyncHandler(async (req, res, next) => {
   });
 
   try {
-    const response = await initializeTransaction({
-      email: donorEmail,
-      amount,
+    // Register IPN URL if not already registered (Pesapal requirement)
+    let notificationId = process.env.PESAPAL_IPN_ID;
+
+    if (!notificationId) {
+      const ipnResponse = await registerIPN(`${backendUrl}/api/donations/ipn`);
+      notificationId = ipnResponse.ipn_id;
+      console.log('Registered IPN ID:', notificationId);
+    }
+
+    const orderResponse = await submitOrderRequest({
+      id: reference,
       currency: currency || 'KES',
-      reference,
+      amount: parseFloat(amount),
+      description: 'Donation to Heritage Language School',
       callbackUrl: `${frontendUrl}/donate/verify?reference=${reference}`,
-      metadata: {
-        donationId: donation._id.toString(),
-        donorName: isAnonymous ? 'Anonymous' : donorName,
-        custom_fields: [
-          {
-            display_name: 'Donation ID',
-            variable_name: 'donation_id',
-            value: donation._id.toString(),
-          },
-        ],
+      notificationId,
+      billingAddress: {
+        email_address: donorEmail,
+        phone_number: donorPhone || '',
+        first_name: isAnonymous ? 'Anonymous' : (donorName?.split(' ')[0] || 'Donor'),
+        last_name: isAnonymous ? 'Donor' : (donorName?.split(' ').slice(1).join(' ') || ''),
       },
     });
 
-    if (response.status) {
-      donation.paystackReference = response.data.reference;
+    if (orderResponse.order_tracking_id) {
+      donation.orderTrackingId = orderResponse.order_tracking_id;
+      donation.merchantReference = orderResponse.merchant_reference;
       await donation.save();
 
       res.status(200).json({
         success: true,
         data: {
           donationId: donation._id,
-          authorizationUrl: response.data.authorization_url,
-          accessCode: response.data.access_code,
-          reference: response.data.reference,
+          redirectUrl: orderResponse.redirect_url,
+          orderTrackingId: orderResponse.order_tracking_id,
+          reference,
         },
       });
     } else {
       donation.paymentStatus = 'failed';
       await donation.save();
-      return next(new ErrorResponse(response.message || 'Failed to initiate payment', 500));
+      return next(new ErrorResponse(orderResponse.error?.message || 'Failed to initiate payment', 500));
     }
   } catch (error) {
     donation.paymentStatus = 'failed';
     await donation.save();
-    console.error('Paystack card payment error:', error.response?.data || error.message);
+    console.error('Pesapal payment error:', error.response?.data || error.message);
     return next(new ErrorResponse(
-      error.response?.data?.message || 'Failed to initiate payment',
+      error.response?.data?.error?.message || 'Failed to initiate payment',
       500
     ));
   }
 });
 
-// @desc    Paystack webhook handler
-// @route   POST /api/donations/webhook
-// @access  Public (Paystack servers)
-exports.paystackWebhook = asyncHandler(async (req, res, next) => {
-  const hash = crypto
-    .createHmac('sha512', process.env.PAYSTACK_SECRET_KEY)
-    .update(JSON.stringify(req.body))
-    .digest('hex');
+// @desc    Pesapal IPN (Instant Payment Notification) handler
+// @route   POST /api/donations/ipn
+// @access  Public (Pesapal servers)
+exports.pesapalIPN = asyncHandler(async (req, res, next) => {
+  const { OrderTrackingId, OrderMerchantReference, OrderNotificationType } = req.body;
 
-  if (hash !== req.headers['x-paystack-signature']) {
-    console.error('Invalid webhook signature');
-    return res.status(401).send('Unauthorized');
-  }
+  console.log('Pesapal IPN received:', req.body);
 
-  const event = req.body;
+  if (OrderNotificationType === 'IPNCHANGE' && OrderTrackingId) {
+    try {
+      const statusResponse = await getTransactionStatus(OrderTrackingId);
 
-  if (event.event === 'charge.success') {
-    const { reference, status, id } = event.data;
+      const donation = await Donation.findOne({
+        $or: [
+          { orderTrackingId: OrderTrackingId },
+          { transactionRef: OrderMerchantReference },
+        ],
+      });
 
-    const donation = await Donation.findOne({
-      $or: [
-        { transactionRef: reference },
-        { paystackReference: reference },
-      ],
-    });
+      if (donation) {
+        const paymentStatus = statusResponse.payment_status_description;
 
-    if (donation && donation.paymentStatus !== 'completed') {
-      if (status === 'success') {
-        donation.paymentStatus = 'completed';
-        donation.transactionId = String(id);
+        if (paymentStatus === 'Completed') {
+          donation.paymentStatus = 'completed';
+          donation.transactionId = statusResponse.confirmation_code;
+          donation.paymentMethodUsed = statusResponse.payment_method;
+        } else if (paymentStatus === 'Failed') {
+          donation.paymentStatus = 'failed';
+        }
+
         await donation.save();
       }
+    } catch (error) {
+      console.error('IPN processing error:', error.message);
     }
   }
 
-  res.status(200).send('OK');
+  res.status(200).json({
+    orderNotificationType: OrderNotificationType,
+    orderTrackingId: OrderTrackingId,
+    orderMerchantReference: OrderMerchantReference,
+    status: 200,
+  });
+});
+
+// @desc    Pesapal callback handler (GET - redirect from Pesapal)
+// @route   GET /api/donations/callback
+// @access  Public
+exports.pesapalCallback = asyncHandler(async (req, res, next) => {
+  const { OrderTrackingId, OrderMerchantReference } = req.query;
+
+  const frontendUrl = process.env.FRONTEND_URL || 'https://www.heritage-languageschool.com';
+
+  if (OrderTrackingId) {
+    try {
+      const statusResponse = await getTransactionStatus(OrderTrackingId);
+
+      const donation = await Donation.findOne({
+        $or: [
+          { orderTrackingId: OrderTrackingId },
+          { transactionRef: OrderMerchantReference },
+        ],
+      });
+
+      if (donation) {
+        const paymentStatus = statusResponse.payment_status_description;
+
+        if (paymentStatus === 'Completed') {
+          donation.paymentStatus = 'completed';
+          donation.transactionId = statusResponse.confirmation_code;
+          donation.paymentMethodUsed = statusResponse.payment_method;
+          await donation.save();
+          return res.redirect(`${frontendUrl}/donate/success?id=${donation._id}`);
+        } else if (paymentStatus === 'Failed') {
+          donation.paymentStatus = 'failed';
+          await donation.save();
+          return res.redirect(`${frontendUrl}/donate/failed`);
+        }
+      }
+    } catch (error) {
+      console.error('Callback processing error:', error.message);
+    }
+  }
+
+  res.redirect(`${frontendUrl}/donate/verify?reference=${OrderMerchantReference}`);
 });
 
 // @desc    Verify donation status
@@ -213,15 +192,17 @@ exports.verifyDonation = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse('Donation not found', 404));
   }
 
-  if (donation.paymentStatus === 'pending' && donation.transactionRef) {
+  if (donation.paymentStatus === 'pending' && donation.orderTrackingId) {
     try {
-      const verification = await verifyTransaction(donation.transactionRef);
+      const statusResponse = await getTransactionStatus(donation.orderTrackingId);
+      const paymentStatus = statusResponse.payment_status_description;
 
-      if (verification.status && verification.data.status === 'success') {
+      if (paymentStatus === 'Completed') {
         donation.paymentStatus = 'completed';
-        donation.transactionId = String(verification.data.id);
+        donation.transactionId = statusResponse.confirmation_code;
+        donation.paymentMethodUsed = statusResponse.payment_method;
         await donation.save();
-      } else if (verification.data.status === 'failed') {
+      } else if (paymentStatus === 'Failed') {
         donation.paymentStatus = 'failed';
         await donation.save();
       }
@@ -237,7 +218,7 @@ exports.verifyDonation = asyncHandler(async (req, res, next) => {
       status: donation.paymentStatus,
       amount: donation.amount,
       currency: donation.currency,
-      paymentMethod: donation.paymentMethod,
+      paymentMethod: donation.paymentMethodUsed || donation.paymentMethod,
       transactionId: donation.transactionId,
     },
   });
@@ -249,26 +230,23 @@ exports.verifyDonation = asyncHandler(async (req, res, next) => {
 exports.verifyByReference = asyncHandler(async (req, res, next) => {
   const { reference } = req.params;
 
-  const donation = await Donation.findOne({
-    $or: [
-      { transactionRef: reference },
-      { paystackReference: reference },
-    ],
-  });
+  const donation = await Donation.findOne({ transactionRef: reference });
 
   if (!donation) {
     return next(new ErrorResponse('Donation not found', 404));
   }
 
-  if (donation.paymentStatus === 'pending') {
+  if (donation.paymentStatus === 'pending' && donation.orderTrackingId) {
     try {
-      const verification = await verifyTransaction(reference);
+      const statusResponse = await getTransactionStatus(donation.orderTrackingId);
+      const paymentStatus = statusResponse.payment_status_description;
 
-      if (verification.status && verification.data.status === 'success') {
+      if (paymentStatus === 'Completed') {
         donation.paymentStatus = 'completed';
-        donation.transactionId = String(verification.data.id);
+        donation.transactionId = statusResponse.confirmation_code;
+        donation.paymentMethodUsed = statusResponse.payment_method;
         await donation.save();
-      } else if (verification.data.status === 'failed') {
+      } else if (paymentStatus === 'Failed') {
         donation.paymentStatus = 'failed';
         await donation.save();
       }
@@ -284,7 +262,7 @@ exports.verifyByReference = asyncHandler(async (req, res, next) => {
       status: donation.paymentStatus,
       amount: donation.amount,
       currency: donation.currency,
-      paymentMethod: donation.paymentMethod,
+      paymentMethod: donation.paymentMethodUsed || donation.paymentMethod,
       transactionId: donation.transactionId,
     },
   });

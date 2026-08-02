@@ -2,14 +2,16 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { CreditCard, Loader2, Lock, ExternalLink } from "lucide-react";
+import { CreditCard, Phone, Loader2, Lock, ExternalLink } from "lucide-react";
 import axios from "axios";
 
-const CardPaymentForm = ({
+const PaymentForm = ({
   amount,
   currency,
+  paymentMethod,
   donorName,
   donorEmail,
+  donorPhone,
   message,
   isAnonymous,
 }) => {
@@ -23,17 +25,19 @@ const CardPaymentForm = ({
     setError("");
 
     try {
-      const response = await axios.post(`${backendUrl}/api/donations/card/initiate`, {
+      const response = await axios.post(`${backendUrl}/api/donations/initiate`, {
         donorName,
         donorEmail,
+        donorPhone,
         amount,
         currency,
+        paymentMethod,
         message,
         isAnonymous,
       });
 
-      if (response.data.success && response.data.data.authorizationUrl) {
-        window.location.href = response.data.data.authorizationUrl;
+      if (response.data.success && response.data.data.redirectUrl) {
+        window.location.href = response.data.data.redirectUrl;
       } else {
         setError("Failed to initialize payment. Please try again.");
       }
@@ -50,17 +54,27 @@ const CardPaymentForm = ({
       : `$${amount.toLocaleString()}`;
   };
 
+  const isMpesa = paymentMethod === "mpesa";
+
   return (
     <div>
-      <div className="bg-blue-50 rounded-lg p-4 mb-6">
+      <div className={`${isMpesa ? "bg-green-50" : "bg-blue-50"} rounded-lg p-4 mb-6`}>
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
-            <CreditCard className="w-6 h-6 text-white" />
+          <div className={`w-12 h-12 rounded-full ${isMpesa ? "bg-green-500" : "bg-blue-500"} flex items-center justify-center flex-shrink-0`}>
+            {isMpesa ? (
+              <Phone className="w-6 h-6 text-white" />
+            ) : (
+              <CreditCard className="w-6 h-6 text-white" />
+            )}
           </div>
           <div>
-            <p className="font-medium text-gray-800">Card Payment</p>
+            <p className="font-medium text-gray-800">
+              {isMpesa ? "M-Pesa Payment" : "Card Payment"}
+            </p>
             <p className="text-sm text-gray-600">
-              Secure payment via Paystack
+              {isMpesa
+                ? "You'll be redirected to complete payment"
+                : "Secure payment via Pesapal"}
             </p>
           </div>
         </div>
@@ -81,11 +95,21 @@ const CardPaymentForm = ({
           <span className="text-gray-600">Email</span>
           <span className="font-medium">{donorEmail}</span>
         </div>
+        {donorPhone && (
+          <div className="flex justify-between text-sm">
+            <span className="text-gray-600">Phone</span>
+            <span className="font-medium">{donorPhone}</span>
+          </div>
+        )}
+        <div className="flex justify-between text-sm">
+          <span className="text-gray-600">Payment Method</span>
+          <span className="font-medium">{isMpesa ? "M-Pesa" : "Card"}</span>
+        </div>
       </div>
 
       <div className="bg-gray-50 rounded-lg p-4 mb-6">
         <p className="text-sm text-gray-600 text-center">
-          You'll be redirected to Paystack's secure payment page to complete your donation.
+          You'll be redirected to Pesapal's secure payment page to complete your donation.
         </p>
       </div>
 
@@ -94,7 +118,11 @@ const CardPaymentForm = ({
         disabled={loading}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
-        className="w-full px-6 py-4 bg-[#854836] text-white rounded-lg hover:bg-[#6a392b] transition duration-300 font-semibold disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+        className={`w-full px-6 py-4 text-white rounded-lg transition duration-300 font-semibold disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 ${
+          isMpesa
+            ? "bg-green-600 hover:bg-green-700"
+            : "bg-[#854836] hover:bg-[#6a392b]"
+        }`}
       >
         {loading ? (
           <>
@@ -129,21 +157,19 @@ const CardPaymentForm = ({
             <path d="M24 8.5C26.4 10.3 28 13 28 16C28 19 26.4 21.7 24 23.5C21.6 21.7 20 19 20 16C20 13 21.6 10.3 24 8.5Z" fill="#FF5F00"/>
           </svg>
         </div>
-        <div className="flex items-center gap-1 px-2 py-1 bg-gray-100 rounded text-xs font-semibold text-gray-600">
-          <svg className="w-8 h-5" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="48" height="32" rx="4" fill="#016FD0"/>
-            <path d="M24 22V10L20 22H17L13 10V22H10V8H15L18.5 18L22 8H27V22H24Z" fill="white"/>
-            <path d="M38 8H30V22H38V19H33V16.5H38V14H33V11H38V8Z" fill="white"/>
-          </svg>
-        </div>
+        {currency === "KES" && (
+          <div className="flex items-center gap-1 px-2 py-1 bg-gray-100 rounded text-xs font-semibold text-green-600">
+            M-Pesa
+          </div>
+        )}
       </div>
 
       <div className="flex items-center justify-center gap-2 text-xs text-gray-500 mt-4">
         <Lock className="w-4 h-4" />
-        <span>Secured by Paystack. Your payment info is encrypted.</span>
+        <span>Secured by Pesapal. Your payment info is encrypted.</span>
       </div>
     </div>
   );
 };
 
-export default CardPaymentForm;
+export default PaymentForm;

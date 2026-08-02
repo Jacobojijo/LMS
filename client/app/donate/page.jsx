@@ -2,10 +2,9 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Heart, Phone, CreditCard, Check } from "lucide-react";
+import { Heart, Phone, CreditCard, Check, Globe } from "lucide-react";
 import { FadeInUp, FadeIn } from "@/utility/MotionComponents";
-import MpesaPaymentForm from "@/components/donate/MpesaPaymentForm";
-import CardPaymentForm from "@/components/donate/CardPaymentForm";
+import PaymentForm from "@/components/donate/PaymentForm";
 
 const PRESET_AMOUNTS_KES = [500, 1000, 2500, 5000, 10000];
 const PRESET_AMOUNTS_USD = [5, 10, 25, 50, 100];
@@ -66,6 +65,15 @@ const DonatePage = () => {
     return currency === "KES" ? `KES ${value.toLocaleString()}` : `$${value}`;
   };
 
+  const handleCurrencyChange = (newCurrency) => {
+    setCurrency(newCurrency);
+    setAmount(null);
+    setCustomAmount("");
+    if (newCurrency === "USD") {
+      setPaymentMethod("card");
+    }
+  };
+
   return (
     <section className="bg-gray-100 py-16 md:py-24 min-h-screen">
       <div className="container mx-auto px-4">
@@ -100,34 +108,25 @@ const DonatePage = () => {
                   <div className="flex gap-2 mb-6">
                     <button
                       type="button"
-                      onClick={() => {
-                        setCurrency("KES");
-                        setAmount(null);
-                        setCustomAmount("");
-                      }}
-                      className={`flex-1 py-2 px-4 rounded-lg font-medium transition-all ${
+                      onClick={() => handleCurrencyChange("KES")}
+                      className={`flex-1 py-2 px-4 rounded-lg font-medium transition-all flex items-center justify-center gap-2 ${
                         currency === "KES"
                           ? "bg-[#854836] text-white"
                           : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                       }`}
                     >
-                      KES
+                      🇰🇪 KES
                     </button>
                     <button
                       type="button"
-                      onClick={() => {
-                        setCurrency("USD");
-                        setAmount(null);
-                        setCustomAmount("");
-                        setPaymentMethod("stripe");
-                      }}
-                      className={`flex-1 py-2 px-4 rounded-lg font-medium transition-all ${
+                      onClick={() => handleCurrencyChange("USD")}
+                      className={`flex-1 py-2 px-4 rounded-lg font-medium transition-all flex items-center justify-center gap-2 ${
                         currency === "USD"
                           ? "bg-[#854836] text-white"
                           : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                       }`}
                     >
-                      USD
+                      🌍 USD
                     </button>
                   </div>
 
@@ -193,9 +192,9 @@ const DonatePage = () => {
 
                     <button
                       type="button"
-                      onClick={() => setPaymentMethod("stripe")}
+                      onClick={() => setPaymentMethod("card")}
                       className={`w-full flex items-center gap-4 p-4 rounded-lg border-2 transition-all ${
-                        paymentMethod === "stripe"
+                        paymentMethod === "card"
                           ? "border-[#854836] bg-[#854836]/5"
                           : "border-gray-200 hover:border-gray-300"
                       }`}
@@ -207,11 +206,18 @@ const DonatePage = () => {
                         <p className="font-medium text-gray-800">Card Payment</p>
                         <p className="text-sm text-gray-500">Visa, Mastercard, etc.</p>
                       </div>
-                      {paymentMethod === "stripe" && (
+                      {paymentMethod === "card" && (
                         <Check className="w-5 h-5 text-[#854836]" />
                       )}
                     </button>
                   </div>
+
+                  {currency === "USD" && (
+                    <p className="text-sm text-gray-500 mt-4 flex items-center gap-2">
+                      <Globe className="w-4 h-4" />
+                      International payments accepted
+                    </p>
+                  )}
                 </div>
               </FadeInUp>
 
@@ -256,25 +262,23 @@ const DonatePage = () => {
                       />
                     </div>
 
-                    {paymentMethod === "mpesa" && (
-                      <div>
-                        <label
-                          htmlFor="phone"
-                          className="block mb-2 text-sm font-medium text-gray-700"
-                        >
-                          M-Pesa Phone Number <span className="text-red-500">*</span>
-                        </label>
-                        <input
-                          type="tel"
-                          id="phone"
-                          value={formData.phone}
-                          onChange={handleChange}
-                          required={paymentMethod === "mpesa"}
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#854836] transition"
-                          placeholder="0712345678 or 254712345678"
-                        />
-                      </div>
-                    )}
+                    <div>
+                      <label
+                        htmlFor="phone"
+                        className="block mb-2 text-sm font-medium text-gray-700"
+                      >
+                        Phone Number {paymentMethod === "mpesa" && <span className="text-red-500">*</span>}
+                      </label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        required={paymentMethod === "mpesa"}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#854836] transition"
+                        placeholder="0712345678"
+                      />
+                    </div>
 
                     <div>
                       <label
@@ -352,25 +356,16 @@ const DonatePage = () => {
                   </p>
                 </div>
 
-                {paymentMethod === "mpesa" ? (
-                  <MpesaPaymentForm
-                    amount={getSelectedAmount()}
-                    donorName={formData.name}
-                    donorEmail={formData.email}
-                    donorPhone={formData.phone}
-                    message={formData.message}
-                    isAnonymous={formData.isAnonymous}
-                  />
-                ) : (
-                  <CardPaymentForm
-                    amount={getSelectedAmount()}
-                    currency={currency}
-                    donorName={formData.name}
-                    donorEmail={formData.email}
-                    message={formData.message}
-                    isAnonymous={formData.isAnonymous}
-                  />
-                )}
+                <PaymentForm
+                  amount={getSelectedAmount()}
+                  currency={currency}
+                  paymentMethod={paymentMethod}
+                  donorName={formData.name}
+                  donorEmail={formData.email}
+                  donorPhone={formData.phone}
+                  message={formData.message}
+                  isAnonymous={formData.isAnonymous}
+                />
               </div>
             </FadeInUp>
           )}

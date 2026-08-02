@@ -12,7 +12,8 @@ const VerifyContent = () => {
   const [status, setStatus] = useState("verifying");
   const [error, setError] = useState("");
 
-  const reference = searchParams.get("reference") || searchParams.get("trxref");
+  const reference = searchParams.get("reference") || searchParams.get("OrderMerchantReference");
+  const orderTrackingId = searchParams.get("OrderTrackingId");
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "https://lms-ci8t.onrender.com";
 
@@ -38,6 +39,7 @@ const VerifyContent = () => {
           setStatus("failed");
           setError("Payment was not successful");
         } else {
+          // Still pending, retry after delay
           setTimeout(verifyPayment, 3000);
         }
       } catch (err) {

@@ -27,13 +27,16 @@ const DonationSchema = new mongoose.Schema({
   },
   currency: {
     type: String,
-    enum: ['KES', 'USD', 'GHS', 'NGN', 'ZAR'],
+    enum: ['KES', 'USD', 'EUR', 'GBP', 'TZS', 'UGX'],
     default: 'KES'
   },
   paymentMethod: {
     type: String,
     enum: ['mpesa', 'card'],
-    required: [true, 'Please specify payment method']
+    default: 'card'
+  },
+  paymentMethodUsed: {
+    type: String
   },
   paymentStatus: {
     type: String,
@@ -48,7 +51,10 @@ const DonationSchema = new mongoose.Schema({
     unique: true,
     sparse: true
   },
-  paystackReference: {
+  orderTrackingId: {
+    type: String
+  },
+  merchantReference: {
     type: String
   },
   message: {
@@ -64,7 +70,7 @@ const DonationSchema = new mongoose.Schema({
 });
 
 DonationSchema.index({ transactionRef: 1 });
-DonationSchema.index({ paystackReference: 1 });
+DonationSchema.index({ orderTrackingId: 1 });
 DonationSchema.index({ paymentStatus: 1 });
 DonationSchema.index({ createdAt: -1 });
 
