@@ -102,7 +102,7 @@ exports.initiateCardPayment = asyncHandler(async (req, res, next) => {
   }
 
   const reference = generateReference();
-  const frontendUrl = process.env.FRONTEND_URL || 'https://heritagelanguageschool.com';
+  const frontendUrl = process.env.FRONTEND_URL || 'https://www.heritage-languageschool.com';
 
   const donation = await Donation.create({
     donorName: isAnonymous ? undefined : donorName,
