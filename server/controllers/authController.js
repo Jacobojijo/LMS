@@ -46,7 +46,7 @@ exports.register = asyncHandler(async (req, res, next) => {
   try {
     await sendEmail({
       email: user.email,
-      subject: 'Heritage Language School - Email Verification',
+      subject: 'Sigana African Heritage Language School - Email Verification',
       message,
       html
     });
@@ -107,7 +107,7 @@ exports.verifyEmail = asyncHandler(async (req, res, next) => {
   try {
     await sendEmail({
       email: user.email,
-      subject: 'Welcome to Heritage Language School',
+      subject: 'Welcome to Sigana African Heritage Language School',
       message,
       html
     });
@@ -150,7 +150,7 @@ exports.resendVerification = asyncHandler(async (req, res, next) => {
   try {
     await sendEmail({
       email: user.email,
-      subject: 'Heritage Language School - New Verification Code',
+      subject: 'Sigana African Heritage Language School - New Verification Code',
       message,
       html
     });
@@ -299,7 +299,7 @@ exports.forgotPassword = asyncHandler(async (req, res, next) => {
   try {
     await sendEmail({
       email: user.email,
-      subject: 'Heritage Language School - Password Reset Code',
+      subject: 'Sigana African Heritage Language School - Password Reset Code',
       message,
       html
     });
@@ -364,7 +364,7 @@ exports.verifyResetCode = asyncHandler(async (req, res, next) => {
   try {
     await sendEmail({
       email: user.email,
-      subject: 'Heritage Language School - Password Changed',
+      subject: 'Sigana African Heritage Language School - Password Changed',
       message,
       html
     });

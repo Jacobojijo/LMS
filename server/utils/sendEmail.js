@@ -7,6 +7,7 @@ const nodemailer = require('nodemailer');
  * @param {String} options.subject - Email subject
  * @param {String} options.message - Email plain text message
  * @param {String} options.html - Email HTML content (optional)
+ * @param {String} options.replyTo - Reply-To address (optional)
  */
 const sendEmail = async (options) => {
   // Create a transporter
@@ -28,6 +29,11 @@ const sendEmail = async (options) => {
     text: options.message,
     html: options.html || options.message // Use HTML if provided, otherwise fallback to text
   };
+
+  // Allow replies to go somewhere other than FROM_EMAIL (e.g. a contact form sender)
+  if (options.replyTo) {
+    mailOptions.replyTo = options.replyTo;
+  }
 
   // Send email
   const info = await transporter.sendMail(mailOptions);

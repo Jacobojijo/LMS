@@ -57,7 +57,7 @@ exports.initiatePayment = asyncHandler(async (req, res, next) => {
       id: reference,
       currency: currency || 'KES',
       amount: parseFloat(amount),
-      description: 'Donation to Heritage Language School',
+      description: 'Donation to Sigana African Heritage Language School',
       callbackUrl: `${frontendUrl}/donate/verify?reference=${reference}`,
       notificationId,
       billingAddress: {
