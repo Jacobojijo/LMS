@@ -6,7 +6,7 @@ export const metadata = {
     canonical: "https://www.heritage-languageschool.com/curriculum",
   },
   openGraph: {
-    title: "Our Curriculum | Heritage Language School",
+    title: "Our Curriculum | Sigana African Heritage Language School",
     description: "Structured, progressive modules designed to teach African languages effectively online.",
     url: "https://www.heritage-languageschool.com/curriculum",
   },

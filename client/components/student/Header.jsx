@@ -99,17 +99,17 @@ const Header = () => {
             <Link href="/student/dashboard" className="flex items-center">
               <img
                 src={"/assets/logo.png"}
-                alt="Heritage Language School"
+                alt="Sigana African Heritage Language School"
                 className={`transition-all duration-300 ${
                   scrolled ? "h-12" : "h-16"
                 } w-auto`}
               />
               <div className="flex flex-col ml-2 -space-y-1">
-                <span className="text-[#008080] font-serif tracking-wider text-xl md:text-2xl leading-tight">
-                  Heritage
+                <span className="text-[#124E56] font-serif tracking-wider text-xl md:text-2xl leading-tight">
+                  Sigana
                 </span>
-                <span className="font-bold text-[#854836] font-serif tracking-widest text-lg md:text-xl leading-tight">
-                  Language School
+                <span className="font-bold text-[#854836] font-serif tracking-widest text-sm md:text-base leading-tight">
+                  African Heritage Language School
                 </span>
               </div>
             </Link>

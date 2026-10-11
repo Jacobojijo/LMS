@@ -128,7 +128,7 @@ const AdminSidebar = () => {
             >
               <img
                 src={"/assets/logo.png"}
-                alt="Heritage Language School"
+                alt="Sigana African Heritage Language School"
                 className="h-12 w-auto"
               />
             </motion.div>
@@ -141,12 +141,12 @@ const AdminSidebar = () => {
             >
               <img
                 src={"/assets/logo.png"}
-                alt="Heritage Language School"
+                alt="Sigana African Heritage Language School"
                 className="h-12 w-auto"
               />
               <div className="flex flex-col ml-2 -space-y-1">
-                <span className="text-[#008080] font-serif tracking-wider text-lg leading-tight">
-                  Heritage
+                <span className="text-[#124E56] font-serif tracking-wider text-lg leading-tight">
+                  Sigana
                 </span>
                 <span className="font-bold text-[#854836] font-serif tracking-widest text-sm leading-tight">
                   Admin Panel

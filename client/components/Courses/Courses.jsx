@@ -126,17 +126,20 @@ const Courses = () => {
           href={intakeLinks[language.title]}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-green-600 hover:bg-green-700 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md transition-colors duration-300 flex items-center"
+          className="flex items-center rounded-md bg-teal px-2 py-1 text-xs font-bold text-white transition-colors duration-300 hover:bg-teal-900 sm:px-3 sm:py-2"
         >
-          <span className="mr-1 relative">
-            <span className="absolute top-0 right-0 -mt-1 -mr-1 w-2 h-2 bg-white rounded-full animate-pulse"></span>
+          <span className="relative mr-1">
+            <span className="absolute top-0 right-0 -mt-1 -mr-1 h-2 w-2 animate-pulse rounded-full bg-gold"></span>
           </span>
           {windowWidth < 640 ? "REGISTER" : "MAY INTAKE: REGISTER"}
         </a>
       );
     } else {
       return (
-        <button className="bg-gray-500 text-white text-xs font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-md opacity-80 cursor-not-allowed">
+        <button
+          disabled
+          className="cursor-not-allowed rounded-md bg-ink/30 px-2 py-1 text-xs font-bold text-white sm:px-3 sm:py-2"
+        >
           {windowWidth < 640 ? "SOON" : "COMING SOON"}
         </button>
       );
@@ -171,12 +174,15 @@ const Courses = () => {
   };
 
   return (
-    <FadeIn
-      className="w-full bg-teal-50 py-8 sm:py-12 px-2 sm:px-4"
-      delay={0.1}
-    >
+    <FadeIn className="w-full bg-sand px-2 py-12 sm:px-4 sm:py-16" delay={0.1}>
+      <div className="mx-auto mb-10 max-w-3xl px-2 text-center">
+        <span className="eyebrow">Our Languages</span>
+        <h2 className="section-heading mt-3 mb-4">Find your mother tongue</h2>
+        <div className="rule-gold" />
+      </div>
+
       <motion.div
-        className={`max-w-6xl mx-auto grid ${getGridColumns()} gap-3 sm:gap-4 md:gap-6`}
+        className={`max-w-6xl mx-auto grid ${getGridColumns()} gap-4 sm:gap-5 md:gap-6`}
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -185,46 +191,51 @@ const Courses = () => {
           <motion.div
             key={index}
             variants={cardVariants}
-            className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="card group flex flex-col overflow-hidden"
           >
-            <div className="relative aspect-video overflow-hidden p-2 sm:p-4 md:p-6 pb-2 rounded-lg">
-              <ScaleIn delay={0.1}>
+            <div className="relative aspect-video overflow-hidden">
+              <ScaleIn delay={0.1} className="h-full w-full">
                 <img
                   src={language.imageurl}
                   alt={`${language.title} language class`}
-                  className="w-full h-full object-cover rounded-lg"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                   decoding="async"
                 />
               </ScaleIn>
-            </div>
-            <div className="p-3 sm:p-4 md:p-6">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-2">
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/10 to-transparent"
+              />
+              <h2 className="absolute bottom-3 left-4 font-playfair text-xl font-bold text-white drop-shadow-sm sm:text-2xl">
                 {language.title} Classes
               </h2>
+            </div>
 
+            <div className="flex flex-1 flex-col p-4 sm:p-5 md:p-6">
               {/* Original description from language.json */}
-              <div className="bg-gray-50 p-2 sm:p-3 rounded-md mb-2 sm:mb-3 border-l-4 border-blue-500">
-                <p className="text-sm sm:text-base text-gray-700 italic">
+              <div className="mb-3 rounded-md border-l-4 border-gold bg-sand p-3">
+                <p className="text-sm italic text-ink/75 sm:text-base">
                   {language.description}
                 </p>
               </div>
 
-              {/* Unique description from unique.json - FONT SIZE INCREASED HERE */}
-              <div className="text-[15px] md:text-[15px] lg:text-[15px] xl:text-[16px] text-gray-700 mb-3 sm:mb-4 leading-relaxed">
+              {/* Unique description from unique.json */}
+              <div className="mb-4 text-[15px] leading-relaxed text-ink/70 xl:text-[16px]">
                 {getUniqueContent(language)
                   .split("\n\n")
                   .map((paragraph, i) => (
-                    <p key={i} className="mb-1 sm:mb-2 leading-relaxed">
+                    <p key={i} className="mb-2 leading-relaxed">
                       {paragraph}
                     </p>
                   ))}
               </div>
 
-              <div className="flex items-center justify-between">
-                <div className="flex-shrink-0">
+              <div className="mt-auto flex items-center justify-between gap-2">
+                <div className="shrink-0">
                   <button
-                    className="flex items-center text-blue-600 font-medium text-sm sm:text-base"
+                    className="flex items-center text-sm font-semibold text-primary transition-colors hover:text-primary-700 sm:text-base"
+                    aria-expanded={!!expandedCards[language.title]}
                     onClick={() => toggleCardExpansion(language.title)}
                   >
                     {expandedCards[language.title]
@@ -248,7 +259,7 @@ const Courses = () => {
                 </div>
 
                 {/* Custom CTA based on language */}
-                <div className="flex-shrink-0">{renderCTA(language)}</div>
+                <div className="shrink-0">{renderCTA(language)}</div>
               </div>
             </div>
           </motion.div>
@@ -257,52 +268,57 @@ const Courses = () => {
 
       {/* Pagination Controls */}
       <FadeIn
-        className="flex justify-center mt-6 sm:mt-8 items-center"
+        className="mt-8 flex items-center justify-center"
         delay={0.6}
       >
-        <button
-          onClick={goToPreviousPage}
-          disabled={currentPage === 1}
-          className={`p-1 sm:p-2 rounded-md mr-1 sm:mr-2 ${
-            currentPage === 1
-              ? "text-gray-400 cursor-not-allowed"
-              : "text-blue-600 hover:bg-blue-100"
-          }`}
-        >
-          <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
-        </button>
-
-        {/* Pagination number buttons with responsive display */}
-        {displayPageNumbers().map((pageNumber) => (
+        <nav aria-label="Course pages" className="flex items-center">
           <button
-            key={pageNumber}
-            onClick={() => goToPage(pageNumber)}
-            className={`px-2 py-1 sm:px-3 sm:py-1 mx-0.5 sm:mx-1 text-xs sm:text-base rounded-md ${
-              currentPage === pageNumber
-                ? "bg-blue-600 text-white"
-                : "hover:bg-blue-100"
+            onClick={goToPreviousPage}
+            disabled={currentPage === 1}
+            aria-label="Previous page"
+            className={`mr-1 rounded-md p-2 transition-colors sm:mr-2 ${
+              currentPage === 1
+                ? "cursor-not-allowed text-ink/25"
+                : "text-primary hover:bg-sand-200"
             }`}
           >
-            {pageNumber}
+            <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
           </button>
-        ))}
 
-        <button
-          onClick={goToNextPage}
-          disabled={currentPage === totalPages}
-          className={`p-1 sm:p-2 rounded-md ml-1 sm:ml-2 ${
-            currentPage === totalPages
-              ? "text-gray-400 cursor-not-allowed"
-              : "text-blue-600 hover:bg-blue-100"
-          }`}
-        >
-          <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
-        </button>
+          {/* Pagination number buttons with responsive display */}
+          {displayPageNumbers().map((pageNumber) => (
+            <button
+              key={pageNumber}
+              onClick={() => goToPage(pageNumber)}
+              aria-current={currentPage === pageNumber ? "page" : undefined}
+              className={`mx-0.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors sm:mx-1 sm:text-base ${
+                currentPage === pageNumber
+                  ? "bg-primary text-white shadow-sm"
+                  : "text-ink/70 hover:bg-sand-200 hover:text-primary"
+              }`}
+            >
+              {pageNumber}
+            </button>
+          ))}
+
+          <button
+            onClick={goToNextPage}
+            disabled={currentPage === totalPages}
+            aria-label="Next page"
+            className={`ml-1 rounded-md p-2 transition-colors sm:ml-2 ${
+              currentPage === totalPages
+                ? "cursor-not-allowed text-ink/25"
+                : "text-primary hover:bg-sand-200"
+            }`}
+          >
+            <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
+          </button>
+        </nav>
       </FadeIn>
 
       {/* Page indicator */}
       <FadeIn
-        className="text-center mt-2 text-xs sm:text-sm text-gray-600"
+        className="mt-2 text-center text-xs text-ink/50 sm:text-sm"
         delay={0.7}
       >
         Page {currentPage} of {totalPages}

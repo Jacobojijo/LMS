@@ -29,7 +29,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-r from-[#002b2b] to-[#00403f] text-white relative overflow-hidden">
+    <footer className="relative overflow-hidden bg-gradient-to-br from-teal-900 to-teal text-white">
       {/* Decorative curved top border */}
       <div className="absolute top-0 left-0 w-full overflow-hidden">
         <svg
@@ -40,7 +40,7 @@ const Footer = () => {
         >
           <path
             d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            fill="#ffffff"
+            className="fill-sand"
           ></path>
         </svg>
       </div>
@@ -55,59 +55,60 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
             className="space-y-6 text-center md:text-left"
           >
-            <div className="flex justify-center md:justify-start items-center gap-2">
+            <div className="flex items-center justify-center gap-2 md:justify-start">
               <img
                 src={"/assets/logo.png"}
-                alt="Heritage Language School"
-                className="h-12 w-auto"
+                alt="Sigana African Heritage Language School"
+                className="h-14 w-auto"
               />
-              <div className="flex flex-col -space-y-1">
-                <span className="text-[#8EDBDB] tracking-wider text-xl leading-tight">
-                  Heritage
+              <div className="flex flex-col leading-none">
+                <span className="font-playfair text-2xl font-bold tracking-wide text-white">
+                  Sigana
                 </span>
-                <span className="font-bold text-[#F4E0E0] tracking-widest text-lg leading-tight">
-                  Language School
+                <span className="text-[10px] font-semibold tracking-[0.18em] text-gold-300 uppercase">
+                  African Heritage Language School
                 </span>
               </div>
             </div>
-            <p className="text-gray-300 mt-4 text-center md:text-left">
-              Preserving cultural heritage through language education since
-              2025. Join our community of language enthusiasts.
+            <p className="mt-4 text-center text-white/70 md:text-left">
+              Preserving, documenting, and revitalizing the indigenous languages
+              of Kenya, East Africa, and the African continent. Join our
+              community of language enthusiasts.
             </p>
             <div className="flex justify-center md:justify-start space-x-4 text-2xl pt-2">
               <a
                 href="https://www.facebook.com/share/18oGJu72nf/?mibextid=wwXIfr"
-                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+                className="text-gold-300 transition-colors duration-300 hover:text-white"
               >
                 <FaFacebook />
               </a>
               <a
                 href="https://x.com/heritagela42918?s=21"
-                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+                className="text-gold-300 transition-colors duration-300 hover:text-white"
               >
                 <FaXTwitter />
               </a>
               <a
                 href="https://www.instagram.com/heritage_language_school?igsh=MTN4enhsanpqeHEzdQ%3D%3D&utm_source=qr"
-                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+                className="text-gold-300 transition-colors duration-300 hover:text-white"
               >
                 <FaInstagram />
               </a>
               <a
                 href="https://www.tiktok.com/@heritage.language?_t=ZM-8v2tP6Gleab&_r=1"
-                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+                className="text-gold-300 transition-colors duration-300 hover:text-white"
               >
                 <FaTiktok />
               </a>
               <a
                 href="https://www.youtube.com/@HeritageLanguageSchool"
-                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+                className="text-gold-300 transition-colors duration-300 hover:text-white"
               >
                 <FaYoutube />
               </a>
               <a
                 href="https://www.linkedin.com/company/heritage-language-school/"
-                className="text-[#8EDBDB] hover:text-white transition-colors duration-300"
+                className="text-gold-300 transition-colors duration-300 hover:text-white"
               >
                 <FaLinkedin />
               </a>
@@ -121,14 +122,14 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="space-y-4 text-center md:text-left"
           >
-            <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">
+            <h3 className="mb-6 font-playfair text-xl font-semibold text-gold-300">
               Quick Links
             </h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="/"
-                  className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
+                  className="flex items-center justify-center text-white/70 transition-colors duration-300 hover:text-gold-300 md:justify-start"
                 >
                   <span className="mr-2">→</span> Home
                 </Link>
@@ -136,7 +137,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
+                  className="flex items-center justify-center text-white/70 transition-colors duration-300 hover:text-gold-300 md:justify-start"
                 >
                   <span className="mr-2">→</span> About
                 </Link>
@@ -144,23 +145,23 @@ const Footer = () => {
               <li>
                 <Link
                   href="/curriculum"
-                  className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
+                  className="flex items-center justify-center text-white/70 transition-colors duration-300 hover:text-gold-300 md:justify-start"
                 >
                   <span className="mr-2">→</span> Curriculum
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
-                  className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
+                  href="/#courses"
+                  className="flex items-center justify-center text-white/70 transition-colors duration-300 hover:text-gold-300 md:justify-start"
                 >
                   <span className="mr-2">→</span> Courses
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
-                  className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
+                  href="/#features"
+                  className="flex items-center justify-center text-white/70 transition-colors duration-300 hover:text-gold-300 md:justify-start"
                 >
                   <span className="mr-2">→</span> Features
                 </Link>
@@ -168,7 +169,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start"
+                  className="flex items-center justify-center text-white/70 transition-colors duration-300 hover:text-gold-300 md:justify-start"
                 >
                   <span className="mr-2">→</span> Contact
                 </Link>
@@ -176,7 +177,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/donate"
-                  className="text-[#F4E0E0] hover:text-[#8EDBDB] transition-colors duration-300 flex items-center justify-center md:justify-start font-medium"
+                  className="flex items-center justify-center font-medium text-gold-300 transition-colors duration-300 hover:text-white md:justify-start"
                 >
                   <span className="mr-2">❤</span> Donate
                 </Link>
@@ -191,7 +192,7 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="space-y-4 text-center md:text-left"
           >
-            <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">
+            <h3 className="mb-6 font-playfair text-xl font-semibold text-gold-300">
               Language Programs
             </h3>
             <ul className="grid grid-cols-2 md:grid-cols-1 gap-2">
@@ -199,7 +200,7 @@ const Footer = () => {
                 <li key={language} className="text-center md:text-left">
                   <a
                     href={link}
-                    className="text-gray-300 hover:text-[#8EDBDB] transition-colors duration-300"
+                    className="text-white/70 transition-colors duration-300 hover:text-gold-300"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -217,30 +218,31 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="space-y-6 text-center md:text-left"
           >
-            <h3 className="text-xl font-semibold mb-6 text-[#F4E0E0]">
+            <h3 className="mb-6 font-playfair text-xl font-semibold text-gold-300">
               Contact Us
             </h3>
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start space-x-3">
-                <MdPhone className="text-[#8EDBDB] text-xl flex-shrink-0" />
-                <p className="text-gray-300 ">(+254) 746426925</p>
+                <MdPhone className="shrink-0 text-xl text-gold-300" />
+                <p className="text-white/70">(+254) 746426925</p>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-3">
-                <MdEmail className="text-[#8EDBDB] text-xl flex-shrink-0" />
-                <p className="text-gray-300">heritagelanguageschool@gmail.com</p>
+                <MdEmail className="shrink-0 text-xl text-gold-300" />
+                <p className="text-white/70">heritagelanguageschool@gmail.com</p>
               </div>
             </div>
             <div className="pt-4">
-              <h4 className="text-[#F4E0E0] font-medium mb-3">
+              <h4 className="mb-3 font-medium text-gold-300">
                 Subscribe to Our Newsletter
               </h4>
-              <div className="flex flex-col sm:flex-row justify-center md:justify-start">
+              <div className="flex w-full max-w-sm flex-col sm:flex-row mx-auto md:mx-0">
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="bg-[#003d3d] text-white px-4 py-2 mb-2 sm:mb-0 sm:rounded-l-md focus:outline-none w-full sm:w-auto"
+                  aria-label="Email address"
+                  className="mb-2 w-full min-w-0 flex-1 rounded-md border border-white/15 bg-white/10 px-4 py-2 text-white placeholder-white/50 focus:border-gold focus:outline-none sm:mb-0 sm:rounded-r-none"
                 />
-                <button className="bg-[#854836] hover:bg-[#6a3a2b] px-4 py-2 w-full sm:w-auto sm:rounded-r-md transition duration-300">
+                <button className="shrink-0 rounded-md bg-primary px-4 py-2 font-semibold transition duration-300 hover:bg-primary-700 sm:rounded-l-none">
                   Subscribe
                 </button>
               </div>
@@ -250,28 +252,28 @@ const Footer = () => {
       </div>
 
       {/* Footer bottom */}
-      <div className="bg-[#001f1f] py-6">
+      <div className="bg-black/25 py-6">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center text-center">
-            <p className="text-gray-400 mb-4 md:mb-0">
-              © {currentYear} Heritage Language School. All rights reserved.
+            <p className="mb-4 text-white/60 md:mb-0">
+              © {currentYear} Sigana African Heritage Language School. All rights reserved.
             </p>
             <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6">
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#8EDBDB] text-sm transition-colors duration-300"
+                className="text-sm text-white/60 transition-colors duration-300 hover:text-gold-300"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#8EDBDB] text-sm transition-colors duration-300"
+                className="text-sm text-white/60 transition-colors duration-300 hover:text-gold-300"
               >
                 Terms of Service
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#8EDBDB] text-sm transition-colors duration-300"
+                className="text-sm text-white/60 transition-colors duration-300 hover:text-gold-300"
               >
                 Careers
               </a>

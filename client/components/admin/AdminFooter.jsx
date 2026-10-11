@@ -23,12 +23,12 @@ const AdminFooter = () => {
             <div className="flex items-center gap-2">
               <img
                 src={"/assets/logo.png"}
-                alt="Heritage Language School"
+                alt="Sigana African Heritage Language School"
                 className="h-8 w-auto"
               />
               <div className="flex flex-col -space-y-1">
                 <span className="text-[#8EDBDB] tracking-wider text-sm leading-tight">
-                  Heritage
+                  Sigana
                 </span>
                 <span className="font-bold text-[#F4E0E0] tracking-widest text-xs leading-tight">
                   Admin Panel
@@ -36,7 +36,7 @@ const AdminFooter = () => {
               </div>
             </div>
             <span className="text-gray-400 text-sm ml-4">
-              © {currentYear} Heritage Language School
+              © {currentYear} Sigana African Heritage Language School
             </span>
           </motion.div>
 

@@ -115,7 +115,7 @@ const MaintenancePage = () => {
 
         {/* Subtitle */}
         <p className="text-gray-600 text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
-          Heritage Language School is currently undergoing scheduled maintenance to enhance 
+          Sigana African Heritage Language School is currently undergoing scheduled maintenance to enhance 
           our platform and bring you an even better learning experience.
         </p>
 
@@ -228,7 +228,7 @@ const MaintenancePage = () => {
             Thank you for your patience
           </p>
           <p className="text-gray-600">
-            We're working hard to make Heritage Language School even better for preserving 
+            We're working hard to make Sigana African Heritage Language School even better for preserving 
             and celebrating your ancestral languages. The wait will be worth it!
           </p>
         </div>

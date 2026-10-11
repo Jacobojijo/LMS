@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import CountUp from "../ui/CountUp";
 import {
   FadeInLeft,
   FadeInUp,
@@ -7,66 +8,122 @@ import {
   FadeIn,
 } from "../../utility/MotionComponents";
 
+const stats = [
+  { end: 500, suffix: "+", label: "Learners reached" },
+  { end: 8, suffix: "", label: "Languages taught" },
+  { end: 100, suffix: "%", label: "Community-led" },
+];
+
 const Hero = () => {
   return (
-    <>
-      <section className="bg-gray-100 relative">
-        <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative">
-          {/* Background Image for Small Screens */}
-          <FadeIn className="absolute inset-0 md:hidden">
+    <section className="relative overflow-hidden bg-gradient-to-b from-sand via-sand to-white">
+      {/* Soft clay glow behind the headline */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -top-32 -left-32 h-96 w-96 rounded-full bg-primary/10 blur-3xl"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-teal/10 blur-3xl"
+      />
+
+      <div className="relative container mx-auto grid min-h-[650px] grid-cols-1 px-4 md:grid-cols-2">
+        {/* Background Image for Small Screens */}
+        <FadeIn className="absolute inset-0 md:hidden">
+          <img
+            src={"/assets/original.png"}
+            alt=""
+            aria-hidden="true"
+            className="h-full w-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-sand/70" />
+        </FadeIn>
+
+        {/* Brand Info */}
+        <FadeInLeft className="relative z-10 flex flex-col justify-center py-14 font-playfair md:py-0">
+          <div className="space-y-6 text-center md:text-left">
+            <FadeInUp delay={0.1}>
+              <span className="eyebrow">Dawn of Dialects</span>
+            </FadeInUp>
+
+            <FadeInUp
+              delay={0.2}
+              className="text-5xl leading-tight font-bold text-ink lg:text-6xl xl:leading-[1.15]"
+            >
+              Every language carries a{" "}
+              <span className="relative inline-block text-primary">
+                world
+                <span
+                  aria-hidden="true"
+                  className="absolute bottom-1 left-0 -z-10 h-3 w-full bg-gold/30"
+                />
+              </span>{" "}
+              within it
+            </FadeInUp>
+
+            <FadeInUp
+              delay={0.3}
+              className="font-sans text-lg leading-relaxed text-ink/75 xl:max-w-[520px]"
+            >
+              Rediscover and master your mother tongue with Sigana — where
+              interactive lessons, cultural context, and community bring
+              indigenous African languages to life.
+            </FadeInUp>
+
+            <FadeInUp
+              delay={0.4}
+              className="flex flex-wrap justify-center gap-4 font-sans md:justify-start"
+            >
+              <Link href="/register" className="btn-primary">
+                Get Started
+              </Link>
+              <Link href="/#courses" className="btn-outline">
+                Explore Courses
+              </Link>
+            </FadeInUp>
+
+            {/* Animated impact counters */}
+            <FadeInUp
+              delay={0.5}
+              className="flex flex-wrap justify-center gap-8 border-t border-sand-200 pt-8 font-sans md:justify-start"
+            >
+              {stats.map((stat) => (
+                <div key={stat.label} className="text-center md:text-left">
+                  <CountUp
+                    end={stat.end}
+                    suffix={stat.suffix}
+                    className="font-playfair text-3xl font-bold text-teal md:text-4xl"
+                  />
+                  <p className="mt-1 text-xs tracking-wider text-ink/60 uppercase">
+                    {stat.label}
+                  </p>
+                </div>
+              ))}
+            </FadeInUp>
+          </div>
+        </FadeInLeft>
+
+        {/* Image Section for Large Screens */}
+        <SlideInRight
+          className="hidden items-center justify-center md:flex"
+          duration={1}
+        >
+          <div className="relative">
+            <div
+              aria-hidden="true"
+              className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-primary/15 to-teal/15"
+            />
             <img
               src={"/assets/original.png"}
-              alt="Language Learning Hero"
-              className="w-full h-full object-cover opacity-30 grayscale-[20%] mix-blend-luminosity"
+              alt="Learners studying an indigenous African language with Sigana"
+              className="relative h-auto max-w-full rounded-2xl object-cover shadow-xl"
             />
-          </FadeIn>
+          </div>
+        </SlideInRight>
+      </div>
 
-          {/* Brand Info */}
-          <FadeInLeft className="flex flex-col justify-center py-14 md:py-0 font-playfair relative z-10">
-            <div className="text-center md:text-left space-y-6">
-              <FadeInUp
-                delay={0.2}
-                className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-normal"
-              >
-                Preserve your Heritage, speak your{" "}
-                <span className="text-[#854836]">Language</span>
-              </FadeInUp>
-
-              <FadeInUp
-                delay={0.3}
-                className="text-gray-900 font-semibold xl:max-w-[500px]"
-              >
-                Rediscover and master your mother tongue with the premier
-                language learning platform—where interactive and engaging
-                lessons bring indigenous languages to life
-              </FadeInUp>
-
-              {/* Button Section - Now with Link to register */}
-              <FadeInUp delay={0.4}>
-                <Link href="/register">
-                  <button className="bg-[#854836] text-white px-6 py-3 rounded-lg hover:bg-[#6a392b] transition duration-300">
-                    Get Started
-                  </button>
-                </Link>
-              </FadeInUp>
-            </div>
-          </FadeInLeft>
-
-          {/* Image Section for Large Screens */}
-          <SlideInRight
-            className="hidden md:flex items-center justify-center rounded-lg"
-            duration={1}
-          >
-            <img
-              src={"/assets/original.png"}
-              alt="Language Learning Hero"
-              className="max-w-full h-auto object-cover rounded-lg shadow-lg 
-                         opacity-50 grayscale-[20%]"
-            />
-          </SlideInRight>
-        </div>
-      </section>
-    </>
+      <div className="kente-rule" />
+    </section>
   );
 };
 

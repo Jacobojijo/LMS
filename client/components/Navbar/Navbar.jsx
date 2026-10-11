@@ -79,20 +79,30 @@ const Navbar = () => {
     }
   };
 
+  const linkClasses = (isActive) =>
+    `relative inline-block py-2 px-3 font-medium transition-colors duration-300
+     after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-gold
+     after:transition-all after:duration-300 after:content-['']
+     ${
+       isActive
+         ? "text-primary after:w-full"
+         : "text-ink/75 hover:text-primary after:w-0 hover:after:w-full"
+     }`;
+
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "py-2 bg-white/95 backdrop-blur-sm shadow-md"
-            : "py-4 bg-gradient-to-r from-[#F0D6B9] via-[#C8E6E4] to-[#ECC6C6] backdrop-blur-sm"
+            ? "border-b border-sand-200 bg-white/90 py-2 shadow-sm backdrop-blur-md"
+            : "bg-sand py-4"
         }`}
       >
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="container mx-auto px-4 flex justify-between items-center"
+          className="container mx-auto flex items-center justify-between px-4"
         >
           {/* Logo section */}
           <motion.div
@@ -103,25 +113,28 @@ const Navbar = () => {
             <Link href="/" className="flex items-center">
               <img
                 src={"/assets/logo.png"}
-                alt="Heritage Language School"
-                className={`transition-all duration-300 ${
-                  scrolled ? "h-12" : "h-16"
-                } w-auto`}
+                alt="Sigana African Heritage Language School"
+                className={`w-auto transition-all duration-300 ${
+                  scrolled ? "h-11" : "h-14"
+                }`}
               />
-              <div className="flex flex-col ml-2 -space-y-1">
-                <span className="text-[#008080] font-serif tracking-wider text-xl md:text-2xl leading-tight">
-                  Heritage
+              <div className="ml-2 flex flex-col leading-none">
+                <span className="font-playfair text-xl leading-tight font-bold tracking-wide text-teal md:text-2xl">
+                  Sigana
                 </span>
-                <span className="font-bold text-[#854836] font-serif tracking-widest text-lg md:text-xl leading-tight">
-                  Language School
+                <span className="text-[10px] leading-tight font-semibold tracking-[0.18em] text-primary uppercase md:text-[11px]">
+                  <span className="sm:hidden">African Heritage</span>
+                  <span className="hidden sm:inline">
+                    African Heritage Language School
+                  </span>
                 </span>
               </div>
             </Link>
           </motion.div>
 
           {/* Menu section */}
-          <div className="hidden md:block">
-            <ul className="flex items-center gap-6 text-gray-700">
+          <div className="hidden lg:block">
+            <ul className="flex items-center gap-4">
               {NavbarMenu.map((item) => {
                 // Special handling for Courses and Features
                 if (item.title === "Courses" || item.title === "Features") {
@@ -135,7 +148,7 @@ const Navbar = () => {
                         onClick={() =>
                           scrollToSection(item.title.toLowerCase())
                         }
-                        className="relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300"
+                        className={linkClasses(false)}
                       >
                         {item.title}
                       </button>
@@ -152,7 +165,8 @@ const Navbar = () => {
                   >
                     <Link
                       href={item.link}
-                      className="relative font-medium inline-block py-2 px-3 hover:text-[#854836] transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#854836] hover:after:w-full after:transition-all after:duration-300"
+                      aria-current={pathname === item.link ? "page" : undefined}
+                      className={linkClasses(pathname === item.link)}
                     >
                       {item.title}
                     </Link>
@@ -163,32 +177,35 @@ const Navbar = () => {
           </div>
 
           {/* Call to Action section */}
-          <div className="flex items-center gap-4">
-            <motion.a
-              href="/register"
-              className="bg-white group hover:bg-[#854836] font-semibold text-[#854836] hover:text-white rounded-md border-2 border-[#854836] px-5 py-2 transition-all duration-300 shadow-sm hover:shadow-md relative overflow-hidden"
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+          <div className="hidden items-center gap-3 lg:flex">
+            <Link
+              href="/login"
+              className="font-medium text-teal transition-colors duration-300 hover:text-primary"
             >
-              <span className="relative z-10">Sign Up</span>
-              <span className="absolute inset-0 bg-[#854836] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
-            </motion.a>
+              Log in
+            </Link>
+            <Link href="/register" className="btn-primary px-5 py-2.5">
+              Get Started
+            </Link>
           </div>
 
           {/* Mobile hamburger Menu section */}
-          <motion.div
-            className="md:hidden cursor-pointer"
+          <motion.button
+            type="button"
+            aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open}
+            className="cursor-pointer lg:hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
             onClick={() => setOpen(!open)}
           >
             {open ? (
-              <MdClose className="text-3xl text-[#854836]" />
+              <MdClose className="text-3xl text-primary" />
             ) : (
-              <MdMenu className="text-3xl text-[#854836]" />
+              <MdMenu className="text-3xl text-primary" />
             )}
-          </motion.div>
+          </motion.button>
         </motion.div>
       </nav>
 
@@ -198,7 +215,11 @@ const Navbar = () => {
       ></div>
 
       {/* Mobile Sidebar section */}
-      <ResponsiveMenu open={open} onClose={() => setOpen(false)} />
+      <ResponsiveMenu
+        open={open}
+        onClose={() => setOpen(false)}
+        pathname={pathname}
+      />
     </>
   );
 };

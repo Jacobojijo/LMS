@@ -46,7 +46,7 @@ const SuccessContent = () => {
 
   const handleShare = async () => {
     const shareData = {
-      title: "I donated to Heritage Language School!",
+      title: "I donated to Sigana African Heritage Language School!",
       text: "I just made a donation to help preserve African languages. Join me in supporting this important cause!",
       url: window.location.origin + "/donate",
     };

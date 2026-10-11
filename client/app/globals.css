@@ -5,14 +5,117 @@
 @theme {
   --font-playfair: "Playfair Display", serif;
 
-  --color-primary: #ff8901;
+  /* Brand palette — sampled from the Sigana seal */
   --color-primary: #854836;
+  --color-primary-700: #6a392b;
+  --color-primary-900: #4a2720;
+
+  --color-teal: #124e56;
+  --color-teal-700: #0f424a;
+  --color-teal-900: #0b343a;
+
+  --color-maroon: #560808;
+  --color-gold: #aa7f3b;
+  --color-gold-300: #d8b57a;
+
+  --color-sand: #fbf7f2;
+  --color-sand-200: #f2e8dc;
+  --color-ink: #2b211d;
 }
+
+/* ---------- Buttons ---------- */
 
 .primary-btn {
   @apply bg-primary text-white font-semibold py-3 px-6 rounded-md hover:!scale-110 duration-300 cursor-pointer;
 }
 
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3
+         font-semibold text-white shadow-sm transition-all duration-300
+         hover:bg-primary-700 hover:shadow-lg hover:-translate-y-0.5
+         focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary
+         disabled:pointer-events-none disabled:opacity-60;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg border-2 border-primary
+         bg-transparent px-6 py-3 font-semibold text-primary transition-all duration-300
+         hover:bg-primary hover:text-white hover:-translate-y-0.5
+         focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 font-medium
+         text-teal transition-colors duration-300 hover:bg-sand-200 hover:text-teal-900;
+}
+
+/* ---------- Surfaces ---------- */
+
+.card {
+  @apply rounded-2xl border border-sand-200 bg-white shadow-sm transition-all duration-300
+         hover:shadow-xl hover:-translate-y-1;
+}
+
+.section-heading {
+  @apply font-playfair text-3xl font-bold text-teal-900 md:text-4xl;
+}
+
+.eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.2em] text-gold;
+}
+
+/* ---------- Rules / dividers ---------- */
+
+.rule-gold {
+  @apply mx-auto h-1 w-24 rounded-full;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-gold),
+    var(--color-teal)
+  );
+}
+
+/* Woven stripe divider — a kente-inspired motif built from gradients, no image cost */
+.kente-rule {
+  height: 6px;
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--color-primary) 0 10px,
+    var(--color-gold) 10px 20px,
+    var(--color-teal) 20px 30px,
+    var(--color-maroon) 30px 40px
+  );
+  opacity: 0.85;
+}
+
 .drop-shadow {
   filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.2));
+}
+
+/* ---------- Marquee (Features carousel) ---------- */
+
+@keyframes sigana-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: sigana-marquee 40s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover,
+.marquee-paused .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
 }
