@@ -111,7 +111,7 @@ const Courses = () => {
 
   // Render CTA based on language with mobile-friendly adjustments
   const renderCTA = (language) => {
-    // September intake links
+    // Registration links
     const intakeLinks = {
       "Dholuo": "https://forms.gle/fbeT3KZfbZcGUXkT8",
       "Ekegusii": "https://forms.gle/s1MocBdbP5CRMDWv6",
@@ -119,7 +119,7 @@ const Courses = () => {
       "Kikuyu": "https://forms.gle/9SPzsCM7a29BUBN69"
     };
 
-    // Check if language has September intake
+    // Check if language has a registration link
     if (intakeLinks[language.title]) {
       return (
         <a
@@ -131,7 +131,7 @@ const Courses = () => {
           <span className="relative mr-1">
             <span className="absolute top-0 right-0 -mt-1 -mr-1 h-2 w-2 animate-pulse rounded-full bg-gold"></span>
           </span>
-          {windowWidth < 640 ? "REGISTER" : "MAY INTAKE: REGISTER"}
+          REGISTER
         </a>
       );
     } else {

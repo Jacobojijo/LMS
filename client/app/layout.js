@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
       "https://www.facebook.com/share/18oGJu72nf/",
       "https://x.com/heritagela42918",
       "https://www.instagram.com/heritage_language_school",
-      "https://www.tiktok.com/@heritage.language",
+      "https://www.tiktok.com/@heritage.languages",
       "https://www.youtube.com/@HeritageLanguageSchool",
       "https://www.linkedin.com/company/heritage-language-school/",
     ],

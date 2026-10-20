@@ -95,7 +95,7 @@ const Footer = () => {
                 <FaInstagram />
               </a>
               <a
-                href="https://www.tiktok.com/@heritage.language?_t=ZM-8v2tP6Gleab&_r=1"
+                href="https://www.tiktok.com/@heritage.languages?_r=1&_t=ZS-9AhnyuFpPvA"
                 className="text-gold-300 transition-colors duration-300 hover:text-white"
               >
                 <FaTiktok />
