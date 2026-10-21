@@ -15,7 +15,9 @@ const CountUp = ({
   className = "",
 }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-80px" });
+  // No negative margin: it shrinks the viewport on every side, so a counter
+  // sitting near the left edge (left-aligned hero on laptops) never triggers.
+  const isInView = useInView(ref, { once: true });
   const [value, setValue] = useState(0);
 
   useEffect(() => {
