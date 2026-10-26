@@ -1,3 +1,5 @@
+import { notFound } from "next/navigation";
+
 export const metadata = {
   title: "Donate - Support African Language Preservation",
   description: "Support Sigana African Heritage Language School's mission to preserve African languages. Your donation helps fund curriculum development, teacher training, and student scholarships.",
@@ -12,6 +14,9 @@ export const metadata = {
   },
 };
 
+// Donations are temporarily hidden: every /donate route returns a 404.
+// Remove the notFound() call (and restore the nav/footer/about/sitemap links) to re-enable.
 export default function DonateLayout({ children }) {
+  notFound();
   return children;
 }

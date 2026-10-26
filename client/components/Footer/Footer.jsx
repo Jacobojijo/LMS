@@ -174,14 +174,6 @@ const Footer = () => {
                   <span className="mr-2">→</span> Contact
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/donate"
-                  className="flex items-center justify-center font-medium text-gold-300 transition-colors duration-300 hover:text-white md:justify-start"
-                >
-                  <span className="mr-2">❤</span> Donate
-                </Link>
-              </li>
             </ul>
           </motion.div>
 
