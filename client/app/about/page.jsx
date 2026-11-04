@@ -231,6 +231,9 @@ const AboutPage = () => {
               <Link href="/register" className="btn-primary">
                 Get Started
               </Link>
+              <Link href="/donate" className="btn-outline">
+                Support Our Work
+              </Link>
             </div>
           </FadeIn>
         </div>
