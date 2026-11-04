@@ -9,7 +9,7 @@ import { FadeInUp } from "@/utility/MotionComponents";
 // To bring back the online checkout, render <OnlineDonation /> from
 // "@/components/donate/OnlineDonation" instead of this page.
 
-const ACCOUNT_NAME = "1 Sigana African Heritage Language Limited";
+const ACCOUNT_NAME = "Sigana African Heritage Language Limited";
 
 const PAYMENT_METHODS = [
   {
