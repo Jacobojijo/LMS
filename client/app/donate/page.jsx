@@ -128,14 +128,6 @@ const DonatePage = () => {
             </FadeInUp>
           ))}
         </div>
-
-        <p className="max-w-2xl mx-auto mt-10 text-center text-sm text-ink/60">
-          After paying, please{" "}
-          <a href="/contact" className="text-primary font-medium hover:underline">
-            contact us
-          </a>{" "}
-          with your name and transaction reference so we can confirm your payment.
-        </p>
       </div>
     </section>
   );
